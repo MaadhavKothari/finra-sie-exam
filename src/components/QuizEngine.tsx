@@ -7,6 +7,8 @@ interface Props {
   questions: Question[];
   topic: string;
   topicName: string;
+  examSlug?: string;
+  backUrl?: string;
 }
 
 function shuffle<T>(arr: T[]): T[] {
@@ -18,7 +20,7 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
-export default function QuizEngine({ questions: allQuestions, topic, topicName }: Props) {
+export default function QuizEngine({ questions: allQuestions, topic, topicName, backUrl }: Props) {
   const [mode, setMode] = useState<'menu' | 'quiz' | 'review' | 'results'>('menu');
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -129,6 +131,9 @@ export default function QuizEngine({ questions: allQuestions, topic, topicName }
     const lvl = xpToNextLevel(xp, level);
     return (
       <div class="max-w-lg mx-auto px-4 py-6">
+        {backUrl && (
+          <a href={backUrl} class="text-sm text-gray-400 hover:text-gray-600 mb-4 inline-block">← Back</a>
+        )}
         {/* Stats header */}
         <div class="bg-gradient-to-br from-indigo-600 to-purple-700 rounded-2xl p-5 text-white mb-6 shadow-lg">
           <div class="flex items-center justify-between mb-3">

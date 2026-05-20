@@ -10,7 +10,8 @@ export interface Question {
   choices: [Choice, Choice, Choice, Choice];
   correctAnswer: 'A' | 'B' | 'C' | 'D';
   explanation: string;
-  topic: string;
+  topic?: string;          // SIE section key (capital-markets, products-risks, etc.)
+  section?: string;        // Other exam section key (equity-securities, options, etc.)
   subtopic: string;
   difficulty: 'easy' | 'medium' | 'hard';
   source: string;

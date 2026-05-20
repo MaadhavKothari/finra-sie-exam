@@ -84,5 +84,402 @@
     "difficulty": "hard",
     "source": "FINRA content outline",
     "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-006",
+    "stem": "A corporation has issued both common stock and cumulative preferred stock. The company skips its preferred dividend for two consecutive years and then resumes paying dividends. Which of the following correctly describes how dividends must be paid?",
+    "choices": [
+      { "label": "A", "text": "Common stockholders receive current dividends first, then preferred stockholders receive the two years of missed payments", "explanation": "Incorrect. Preferred stockholders have priority over common stockholders in dividend distributions. Common shareholders cannot receive dividends until preferred obligations are fully satisfied." },
+      { "label": "B", "text": "Preferred stockholders receive all dividends in arrears before any dividends may be paid to common stockholders", "explanation": "Correct. With cumulative preferred stock, any unpaid dividends accumulate as dividends 'in arrears.' The company must pay all accumulated preferred dividends before it can pay any dividends to common stockholders. This feature protects preferred shareholders from the company skipping payments indefinitely." },
+      { "label": "C", "text": "The two years of missed preferred dividends are permanently forfeited because dividends are never guaranteed", "explanation": "Incorrect. This describes non-cumulative preferred stock, not cumulative preferred stock. With cumulative preferred, missed dividends accumulate and must be paid before common dividends can be declared." },
+      { "label": "D", "text": "Both preferred and common shareholders share the current year's dividend equally", "explanation": "Incorrect. Preferred and common shareholders do not share dividends equally. Preferred shareholders receive their stated dividend amount with priority over common shareholders, and cumulative arrears must first be paid." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Cumulative preferred stock gives shareholders the right to receive all past unpaid dividends before common stockholders receive any dividends. These unpaid amounts accumulate as 'dividends in arrears.' This feature makes cumulative preferred more attractive to income-focused investors than non-cumulative preferred stock, where missed dividends are simply lost.",
+    "topic": "products-risks",
+    "subtopic": "equity-securities",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-007",
+    "stem": "A corporation is being liquidated. Which of the following describes the correct order of priority for distributing assets to security holders?",
+    "choices": [
+      { "label": "A", "text": "Common stockholders, then preferred stockholders, then bondholders", "explanation": "Incorrect. This is the reverse of the correct priority. Creditors (bondholders) are paid before equity holders, and preferred stockholders are paid before common stockholders." },
+      { "label": "B", "text": "Preferred stockholders, then bondholders, then common stockholders", "explanation": "Incorrect. Bondholders as creditors have a senior claim over all equity holders, including preferred stockholders. Preferred stock is still equity and subordinate to debt obligations." },
+      { "label": "C", "text": "Bondholders, then preferred stockholders, then common stockholders", "explanation": "Correct. In a corporate liquidation, secured creditors are paid first, followed by unsecured creditors including bondholders, then preferred stockholders, and finally common stockholders. This seniority hierarchy means common stockholders bear the greatest risk — they are last in line and may receive nothing if assets are insufficient." },
+      { "label": "D", "text": "Bondholders and preferred stockholders share equally, then common stockholders receive the remainder", "explanation": "Incorrect. Bondholders and preferred stockholders do not share equally. Bondholders as debt holders have a legally senior claim that must be fully satisfied before any equity holders, including preferred stockholders, receive anything." }
+    ],
+    "correctAnswer": "C",
+    "explanation": "In a corporate liquidation, the priority of claims follows the capital structure hierarchy: secured creditors first, then unsecured creditors (including bondholders), then preferred stockholders, and finally common stockholders. Common stockholders are the residual claimants — they own what remains after all other obligations are paid, which in a liquidation often means nothing.",
+    "topic": "products-risks",
+    "subtopic": "equity-securities",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-008",
+    "stem": "An American Depositary Receipt (ADR) allows a U.S. investor to hold shares of a foreign company. Which of the following statements about ADRs is most accurate?",
+    "choices": [
+      { "label": "A", "text": "ADRs are denominated in the foreign company's home currency and expose investors to no currency risk", "explanation": "Incorrect. ADRs are denominated and traded in U.S. dollars on U.S. exchanges, but they do expose investors to currency risk because the underlying foreign shares are held in the foreign currency. Exchange rate fluctuations between the dollar and the foreign currency affect ADR returns." },
+      { "label": "B", "text": "ADRs are denominated in U.S. dollars and trade on U.S. exchanges, but investors remain exposed to currency risk from the underlying foreign securities", "explanation": "Correct. ADRs are certificates issued by a U.S. depositary bank representing a specified number of shares in a foreign company. They trade in dollars on U.S. exchanges like NYSE or Nasdaq, making it easy for U.S. investors to buy foreign shares. However, because the underlying shares are priced in a foreign currency, investors are still exposed to currency (exchange rate) risk." },
+      { "label": "C", "text": "ADRs are only available for companies listed on the London Stock Exchange", "explanation": "Incorrect. ADRs can represent shares of companies from any country around the world, not just those listed on the London Stock Exchange." },
+      { "label": "D", "text": "Each ADR always represents exactly one share of the underlying foreign stock", "explanation": "Incorrect. An ADR can represent any fraction or multiple of a foreign share. The ratio is set by the depositary bank and may be 1:1, or it may be structured so that one ADR equals 5 foreign shares, or 10 ADRs equal 1 foreign share, for example." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "ADRs are U.S. dollar-denominated certificates issued by U.S. depositary banks, enabling American investors to invest in foreign companies without dealing with foreign exchanges or currencies directly. Despite trading in dollars, ADRs carry currency risk because changes in the exchange rate between the U.S. dollar and the foreign currency affect the value of the underlying shares.",
+    "topic": "products-risks",
+    "subtopic": "equity-securities",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-009",
+    "stem": "A company issues stock rights to existing shareholders. Which of the following best distinguishes stock rights from stock warrants?",
+    "choices": [
+      { "label": "A", "text": "Rights are long-term instruments (several years), while warrants typically expire within a few weeks", "explanation": "Incorrect. The time relationship is the opposite. Rights are short-term, typically expiring within a few weeks to a few months. Warrants are long-term instruments that may remain outstanding for years." },
+      { "label": "B", "text": "Rights allow holders to buy new shares at a discount to market price and expire quickly, while warrants are long-term with an exercise price typically set above the current market price at issuance", "explanation": "Correct. Stock rights are short-term privileges given to existing shareholders (usually expiring in 2-10 weeks) that allow them to buy new shares at a price below the current market price, protecting them from dilution. Warrants are long-term instruments (often years) issued with a subscription price that is usually set above the current market price at issuance, serving as a sweetener for bond or preferred stock offerings." },
+      { "label": "C", "text": "Rights and warrants are identical instruments — the terms are interchangeable", "explanation": "Incorrect. Rights and warrants are distinct instruments with different lifespans, exercise prices relative to market, and purposes. They are not interchangeable." },
+      { "label": "D", "text": "Warrants give the holder the right to sell shares to the company at a fixed price, while rights allow purchase of new shares", "explanation": "Incorrect. Both warrants and rights give the holder the right to purchase (buy) new shares from the company at a fixed price, not to sell shares back. An option to sell shares back at a fixed price describes a put option, not a warrant." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Stock rights are short-term (weeks to months) instruments issued to existing shareholders allowing them to purchase additional shares at a below-market subscription price, protecting them from dilution in a new offering. Stock warrants are long-term instruments (often several years) typically issued as sweeteners alongside bonds or preferred stock, with an exercise price set above the current market price at issuance. Both give the holder the right to buy new company shares.",
+    "topic": "products-risks",
+    "subtopic": "equity-securities",
+    "difficulty": "hard",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-010",
+    "stem": "Preferred stock described as 'convertible' gives the holder which of the following rights?",
+    "choices": [
+      { "label": "A", "text": "The right to require the company to repurchase the preferred shares at par at any time", "explanation": "Incorrect. The right to require the company to repurchase shares describes putable preferred stock (or a put feature), not convertible preferred stock." },
+      { "label": "B", "text": "The right to exchange the preferred shares for a specified number of common shares", "explanation": "Correct. Convertible preferred stock gives the holder the option to convert each preferred share into a predetermined number of common shares (the conversion ratio). This feature allows preferred holders to benefit if the company's common stock price rises significantly. The conversion is typically at the holder's discretion and done at a fixed conversion ratio." },
+      { "label": "C", "text": "The right to receive dividends that adjust with prevailing interest rates", "explanation": "Incorrect. Dividends that adjust with interest rates describe adjustable-rate or floating-rate preferred stock, not convertible preferred stock." },
+      { "label": "D", "text": "The right to receive double the stated dividend if company earnings exceed a threshold", "explanation": "Incorrect. There is no standard preferred stock feature that doubles dividends based on earnings. This description does not correspond to convertible preferred stock." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Convertible preferred stock includes a conversion feature that gives the holder the right to exchange their preferred shares for a specified number of common shares at a predetermined conversion ratio. This hybrid feature provides preferred stockholders downside protection from the fixed dividend while allowing participation in the company's upside if the common stock price appreciates beyond the conversion price.",
+    "topic": "products-risks",
+    "subtopic": "equity-securities",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-011",
+    "stem": "What is the primary function of a bond indenture?",
+    "choices": [
+      { "label": "A", "text": "It sets the market price at which the bond will trade on secondary markets", "explanation": "Incorrect. Bond prices in secondary markets are determined by supply and demand, interest rate levels, and credit quality — not by the indenture. The indenture governs the terms of the bond contract, not secondary market pricing." },
+      { "label": "B", "text": "It is the legal contract between the bond issuer and bondholders that specifies all terms and conditions of the bond, and a trustee is appointed to enforce it on behalf of bondholders", "explanation": "Correct. A bond indenture (also called a deed of trust) is the formal legal agreement that governs the bond issue. It specifies the coupon rate, maturity date, payment schedule, collateral, any call or put provisions, covenants (restrictions on the issuer), and other terms. An independent trustee — typically a bank or trust company — is appointed to represent the collective interests of all bondholders and ensure the issuer complies with the indenture." },
+      { "label": "C", "text": "It is an agreement between the lead underwriter and the bond issuer that sets the underwriting spread", "explanation": "Incorrect. The underwriting agreement between the issuer and underwriters is a separate document. The indenture is the contract between the issuer and the bondholders (with the trustee acting on bondholders' behalf)." },
+      { "label": "D", "text": "It is a government-issued document that certifies a bond's credit rating", "explanation": "Incorrect. Credit ratings are issued by independent credit rating agencies (such as Moody's or Standard and Poor's), not by the government. The indenture is a private contract between the issuer and bondholders." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A bond indenture is the legal contract that spells out all terms and conditions of a bond issue, including coupon rate, maturity, collateral, protective covenants, and any special features like call provisions. A trustee (typically a bank) is designated to monitor the issuer's compliance with the indenture on behalf of all bondholders, serving as a watchdog to protect investor interests.",
+    "topic": "products-risks",
+    "subtopic": "debt-instruments",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Trust Indenture Act of 1939",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-012",
+    "stem": "An investor holds a callable bond. Interest rates have fallen significantly since the bond was issued. Which of the following outcomes is the investor MOST likely to face?",
+    "choices": [
+      { "label": "A", "text": "The issuer will call the bond, forcing the investor to reinvest at the prevailing lower interest rates", "explanation": "Correct. Issuers call bonds when interest rates fall below the bond's coupon rate, allowing them to refinance debt at a lower cost — just as a homeowner refinances a mortgage. The investor receives the call price (usually at a small premium to par) but must reinvest the proceeds in a lower-rate environment, a condition known as reinvestment risk. This is precisely the scenario callable bondholders are compensated for through a higher yield (yield to call)." },
+      { "label": "B", "text": "The investor will exercise the call option to sell the bond back to the issuer at a profit", "explanation": "Incorrect. In a callable bond, the call option belongs to the issuer, not the investor. The investor cannot force the issuer to repurchase the bond. An investor who holds the right to sell the bond back to the issuer holds a putable bond, not a callable bond." },
+      { "label": "C", "text": "The bond's price will fall because lower interest rates decrease bond values", "explanation": "Incorrect. Lower interest rates cause bond prices to rise (inverse relationship). However, callable bonds exhibit 'negative convexity' — their price appreciation is limited because as rates fall toward and below the coupon rate, the call option's value caps the bond's price near the call price." },
+      { "label": "D", "text": "The issuer will increase the coupon rate to reflect the lower interest rate environment", "explanation": "Incorrect. Issuers do not raise coupon rates after a bond is issued. The coupon rate is fixed at issuance. The benefit to the issuer of calling the bond is to retire the high-coupon debt and issue new bonds at the current lower rates." }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Callable bonds give the issuer the right to redeem (call) the bond before maturity, typically at a small premium to par. Issuers exercise this right when interest rates fall, enabling them to refinance at cheaper rates. For the investor, this creates reinvestment risk — the investor gets cash back when rates are low and must reinvest at less favorable rates. This is why callable bonds typically offer higher yields than comparable non-callable bonds.",
+    "topic": "products-risks",
+    "subtopic": "debt-instruments",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-013",
+    "stem": "Treasury Inflation-Protected Securities (TIPS) protect investors from inflation primarily through which mechanism?",
+    "choices": [
+      { "label": "A", "text": "The coupon rate automatically increases when the Consumer Price Index rises", "explanation": "Incorrect. TIPS have a fixed coupon rate that does not change. What adjusts is the principal value of the security, not the coupon rate itself." },
+      { "label": "B", "text": "The principal value is adjusted upward with inflation (and downward with deflation), so the fixed coupon rate is applied to the adjusted principal, resulting in higher interest payments when inflation rises", "explanation": "Correct. TIPS work by adjusting the principal in line with changes in the Consumer Price Index (CPI). When inflation rises, the principal increases; when there is deflation, the principal decreases (though it cannot fall below the original par value at maturity). Since the coupon rate is fixed but applied to the inflation-adjusted principal, the actual dollar interest payments rise with inflation. At maturity, the investor receives the greater of the original par value or the inflation-adjusted principal." },
+      { "label": "C", "text": "The U.S. Treasury guarantees a minimum real return above the inflation rate regardless of market conditions", "explanation": "Incorrect. TIPS provide a real yield (a return above inflation), but this real yield is set at auction and may be very low or even slightly negative in some market conditions. There is no guaranteed minimum real return beyond what the market sets at auction." },
+      { "label": "D", "text": "TIPS holders may exchange their bonds for commodities such as gold if inflation exceeds 5%", "explanation": "Incorrect. TIPS are standard Treasury securities that pay cash; they have no commodity exchange feature whatsoever." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "TIPS protect against inflation by adjusting the principal balance in line with the Consumer Price Index. The coupon rate remains constant, but since it is applied to a larger (inflation-adjusted) principal, the actual coupon payment in dollars rises when inflation increases. At maturity, investors receive the higher of the original par value or the inflation-adjusted principal, ensuring they do not lose purchasing power.",
+    "topic": "products-risks",
+    "subtopic": "debt-instruments",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Securities Act of 1933",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-014",
+    "stem": "Which of the following most accurately describes a zero-coupon bond?",
+    "choices": [
+      { "label": "A", "text": "A bond that pays interest monthly rather than semiannually, resulting in a zero delay between earnings and cash flow", "explanation": "Incorrect. A zero-coupon bond makes no periodic interest payments at all. Monthly payment describes a conventional amortizing instrument, not a zero-coupon bond." },
+      { "label": "B", "text": "A bond that pays no periodic interest but is issued at a deep discount to par value and redeemed at par at maturity, with the difference representing the investor's total return", "explanation": "Correct. Zero-coupon bonds (including U.S. Treasury STRIPS) pay no periodic interest. Instead, they are issued at a significant discount to face value. The investor's return comes entirely from the difference between the discounted purchase price and the full face value received at maturity. For example, a zero-coupon bond with a $1,000 face value maturing in 10 years might be purchased today for $613. Despite no cash payments, investors owe federal income tax each year on the 'phantom income' — the imputed interest accrual." },
+      { "label": "C", "text": "A bond whose coupon payments are determined by market interest rates each period", "explanation": "Incorrect. A bond whose coupon payments float with market rates is called a floating-rate note or variable-rate bond, not a zero-coupon bond." },
+      { "label": "D", "text": "A convertible bond that has not yet been converted into shares and therefore has zero equity exposure", "explanation": "Incorrect. An unconverted convertible bond still pays regular coupons. 'Zero coupon' refers specifically to the absence of periodic interest payments, not to the bond's equity conversion status." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Zero-coupon bonds are sold at a deep discount to face value and pay no periodic interest. All return comes from the appreciation to par value at maturity. U.S. Treasury STRIPS (Separate Trading of Registered Interest and Principal of Securities) are a common example. An important tax consideration: even though no cash is received until maturity, the IRS requires holders to recognize the imputed annual interest accrual as taxable income each year — this is sometimes called 'phantom income.'",
+    "topic": "products-risks",
+    "subtopic": "debt-instruments",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-015",
+    "stem": "Collateralized Mortgage Obligations (CMOs) were developed primarily to address which risk associated with standard mortgage-backed securities (MBS)?",
+    "choices": [
+      { "label": "A", "text": "Credit risk, by pooling mortgages from borrowers with diverse credit profiles", "explanation": "Incorrect. While pooling mortgages provides some diversification, the primary innovation of CMOs was not addressing credit risk. Agency MBS already carry government backing. CMOs were created to redirect and manage the timing of cash flows." },
+      { "label": "B", "text": "Prepayment risk, by creating tranches with different maturities and cash flow priorities so investors can choose a tranche matching their timeline preferences", "explanation": "Correct. Standard pass-through MBS expose all investors equally to prepayment risk — when mortgage borrowers prepay (especially during rate declines), investors receive their principal back sooner than expected and must reinvest at lower rates. CMOs divide the pool into tranches (sequential pay, PAC, TAC, companion, etc.), each receiving principal and interest cash flows in a prescribed order. This allows investors to select tranches with shorter or longer effective maturities, redirecting prepayment risk from some tranches to others (particularly companion/support tranches)." },
+      { "label": "C", "text": "Liquidity risk, by listing CMO tranches on major stock exchanges for intraday trading", "explanation": "Incorrect. CMO tranches generally trade over-the-counter in the dealer market, not on stock exchanges. Improving exchange liquidity was not the primary motivation for structuring CMOs." },
+      { "label": "D", "text": "Inflation risk, by indexing CMO coupon payments to the Consumer Price Index", "explanation": "Incorrect. CMO coupons are not indexed to inflation. CMO structures were designed to redistribute the timing risk (prepayment risk) of mortgage cash flows, not to address inflation risk." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "CMOs were created to address the prepayment uncertainty inherent in mortgage pass-through securities. By structuring the mortgage pool into multiple tranches with priority rules for receiving principal payments, CMO structures allow some tranches to have more predictable, shorter-lived cash flows while other tranches (companion tranches) absorb the variability. This lets investors with specific maturity horizons find a tranche suited to their needs, at the cost of increased complexity.",
+    "topic": "products-risks",
+    "subtopic": "debt-instruments",
+    "difficulty": "hard",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-016",
+    "stem": "An investor writes (sells) 1 XYZ Nov 60 put option and receives a premium of $4. XYZ falls to $50 at expiration. What is the writer's profit or loss?",
+    "choices": [
+      { "label": "A", "text": "$400 profit", "explanation": "Incorrect. A $400 profit would occur only if the put expired worthless (stock above $60). At $50, the put is in-the-money and will be exercised against the writer." },
+      { "label": "B", "text": "$600 loss", "explanation": "Correct. The put buyer exercises because XYZ ($50) is below the strike price ($60). The writer is obligated to buy 100 shares at $60, even though they are worth only $50. The writer's loss on the shares is $10 per share ($1,000 for 100 shares), but they keep the $4 premium received, for a net loss of $6 per share x 100 shares = $600." },
+      { "label": "C", "text": "$1,000 loss", "explanation": "Incorrect. $1,000 would be the loss if the $4 premium received were ignored. The net loss is $1,000 (from being obligated to buy at $60 when shares are worth $50) minus $400 premium received = $600." },
+      { "label": "D", "text": "$400 loss", "explanation": "Incorrect. $400 is the premium received, but the net loss is not zero. The put is in-the-money by $10, so the writer faces a $1,000 obligation offset by the $400 premium, resulting in a $600 net loss." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A put writer is obligated to purchase the underlying stock at the strike price if the put is exercised. With XYZ at $50 and the strike at $60, the put is in-the-money by $10. The put buyer exercises, and the writer must buy 100 shares at $60 (worth $50 each): loss = $10 x 100 = $1,000, reduced by the $400 premium received = $600 net loss. The breakeven for a short put is the strike price minus the premium: $60 - $4 = $56.",
+    "topic": "products-risks",
+    "subtopic": "options",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-017",
+    "stem": "A call option has a strike price of $45 and the underlying stock is currently trading at $48. Which of the following correctly identifies the option's intrinsic value and its moneyness?",
+    "choices": [
+      { "label": "A", "text": "Intrinsic value of $0; the option is out-of-the-money", "explanation": "Incorrect. A call option is out-of-the-money when the stock price is below the strike price. Here, the stock ($48) exceeds the strike ($45), so the call is in-the-money with positive intrinsic value." },
+      { "label": "B", "text": "Intrinsic value of $3; the option is in-the-money", "explanation": "Correct. Intrinsic value for a call option is the amount by which the stock price exceeds the strike price: $48 - $45 = $3. Because the stock is above the strike price, the call is in-the-money. If the option premium were, say, $5, then time value would be $5 - $3 = $2. Intrinsic value can never be negative; if the stock were below the strike, intrinsic value would be $0 and the option would be out-of-the-money." },
+      { "label": "C", "text": "Intrinsic value of $48; the option is in-the-money", "explanation": "Incorrect. Intrinsic value for a call is not the stock price itself. It is the amount by which the stock price exceeds the strike price: $48 - $45 = $3." },
+      { "label": "D", "text": "Intrinsic value of $3; the option is out-of-the-money", "explanation": "Incorrect. While the intrinsic value of $3 is correct, the classification is wrong. Positive intrinsic value means the option is in-the-money, not out-of-the-money. An out-of-the-money option has zero intrinsic value." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "For a call option, intrinsic value = stock price - strike price (if positive, otherwise zero). Here: $48 - $45 = $3. Because the intrinsic value is positive (stock above strike), the call is in-the-money. An option's total premium = intrinsic value + time value. Time value reflects the probability that the option will become more profitable before expiration and decays to zero as expiration approaches.",
+    "topic": "products-risks",
+    "subtopic": "options",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-018",
+    "stem": "An investor buys 1 ABC Apr 70 put option for a premium of $5. At expiration, ABC is trading at $72. What is the result for the investor?",
+    "choices": [
+      { "label": "A", "text": "The investor profits $200 because the put is in-the-money", "explanation": "Incorrect. A put option is in-the-money when the stock price is below the strike price. Here, ABC ($72) is above the strike price ($70), so the put is out-of-the-money — the investor would not exercise." },
+      { "label": "B", "text": "The investor loses $500 because the put expires worthless", "explanation": "Correct. A put option gives the buyer the right to sell shares at the strike price. With ABC trading at $72, which is above the $70 strike price, the put is out-of-the-money. The investor would not exercise — why sell at $70 when the market price is $72? The put expires worthless and the investor loses the entire premium paid: $5 x 100 shares = $500. For a long put, the maximum loss is always limited to the premium paid." },
+      { "label": "C", "text": "The investor profits $700 because they can buy ABC at $70 and sell at $72", "explanation": "Incorrect. This describes the payoff of a call option (buy at strike, sell at market), not a put option. A put gives the right to sell (not buy) at the strike price." },
+      { "label": "D", "text": "The investor breaks even because the stock is near the strike price", "explanation": "Incorrect. The breakeven for a long put is strike price minus premium: $70 - $5 = $65. ABC would need to fall to $65 for the investor to break even. At $72, the put expires worthless and the investor suffers the full $500 premium loss." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A long put is profitable only when the stock falls below the strike price. With ABC at $72 (above the $70 strike), the put is out-of-the-money and expires worthless. The buyer's maximum loss is capped at the premium paid: $5 x 100 shares = $500. The breakeven is strike minus premium: $70 - $5 = $65. Below $65, the investor profits; above $65, the investor loses some or all of the premium.",
+    "topic": "products-risks",
+    "subtopic": "options",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-019",
+    "stem": "A stock is trading at exactly $55 and an investor holds a call option with a $55 strike price. Which of the following correctly describes the option's status and its intrinsic value?",
+    "choices": [
+      { "label": "A", "text": "The option is in-the-money with an intrinsic value of $55", "explanation": "Incorrect. An option is in-the-money only when exercising it would generate a positive payoff. With the stock and strike both at $55, exercising the call yields zero gain. Intrinsic value is also zero, not $55." },
+      { "label": "B", "text": "The option is at-the-money with an intrinsic value of $0", "explanation": "Correct. When the stock price equals the strike price exactly, the option is described as at-the-money (ATM). At-the-money options have zero intrinsic value because there is no gain from immediate exercise — buying at the strike equals the current market price. Any premium paid consists entirely of time value, reflecting the possibility the stock will move favorably before expiration." },
+      { "label": "C", "text": "The option is out-of-the-money with an intrinsic value of $0", "explanation": "Incorrect. While the intrinsic value of $0 is correct, the moneyness classification is wrong. Out-of-the-money means the stock is below the strike for a call (or above the strike for a put). When stock equals strike, the option is at-the-money, not out-of-the-money." },
+      { "label": "D", "text": "The option is at-the-money with an intrinsic value of $55", "explanation": "Incorrect. The at-the-money classification is correct, but the intrinsic value is wrong. When stock price equals strike price, intrinsic value is $0 (the exercise would produce no gain). The $55 figure is the stock price, not the intrinsic value." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "When the underlying stock price equals the option's strike price, the option is at-the-money (ATM). ATM options have zero intrinsic value — there is no immediate profit from exercise. The entire option premium represents time value (extrinsic value). ATM options have the highest time value of any moneyness classification because there is maximum uncertainty about which direction the stock will finish relative to the strike.",
+    "topic": "products-risks",
+    "subtopic": "options",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-020",
+    "stem": "How is the Net Asset Value (NAV) per share of a mutual fund calculated?",
+    "choices": [
+      { "label": "A", "text": "NAV = Total fund assets ÷ total number of outstanding shares", "explanation": "Incorrect. This formula ignores the fund's liabilities. A fund's assets include securities, cash, and receivables, but the fund also has liabilities (such as management fees payable and other accrued expenses). These must be subtracted before dividing by shares outstanding." },
+      { "label": "B", "text": "NAV = (Total fund assets - Total fund liabilities) ÷ total number of outstanding shares", "explanation": "Correct. NAV per share equals the fund's total net assets (assets minus liabilities) divided by the number of shares outstanding. For example, if a fund holds $100 million in securities and cash, has $2 million in liabilities, and has 5 million shares outstanding: NAV = ($100M - $2M) / 5M = $19.60 per share. Open-end mutual funds calculate and publish NAV once per day after the markets close (typically at 4:00 PM Eastern Time)." },
+      { "label": "C", "text": "NAV = Total fund assets x management expense ratio", "explanation": "Incorrect. Multiplying assets by the expense ratio gives the annual cost of the fund, not the NAV. The expense ratio reduces NAV over time by deducting fees from assets, but this formula does not calculate NAV per share." },
+      { "label": "D", "text": "NAV = The fund's highest intraday market price adjusted for dividends paid during the year", "explanation": "Incorrect. Open-end mutual funds do not trade on exchanges and therefore have no intraday market price. NAV is calculated once per day at market close based on the value of the fund's holdings minus its liabilities." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "NAV per share = (Total fund assets - Total fund liabilities) / Shares outstanding. This is calculated daily at the close of trading for open-end mutual funds. The fund's portfolio is valued at current market prices, liabilities are subtracted, and the result is divided by shares outstanding to give the price at which investors buy or redeem shares.",
+    "topic": "products-risks",
+    "subtopic": "packaged-products",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Investment Company Act of 1940",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-021",
+    "stem": "A mutual fund charges a 12b-1 fee. Which of the following best describes what this fee covers?",
+    "choices": [
+      { "label": "A", "text": "Transaction costs incurred when the fund buys and sells securities within its portfolio", "explanation": "Incorrect. Portfolio transaction costs (brokerage commissions, bid-ask spreads) are trading expenses within the fund, not 12b-1 fees. These costs are reflected in the fund's performance but are separate from the 12b-1 fee." },
+      { "label": "B", "text": "The fund manager's investment management and research costs", "explanation": "Incorrect. The investment management fee (advisory fee) compensates the portfolio manager for investment decisions and research. It is a separate component of the fund's total expense ratio, not the 12b-1 fee." },
+      { "label": "C", "text": "Marketing, distribution, and shareholder service costs passed through to fund investors annually", "explanation": "Correct. Rule 12b-1 fees are annual fees deducted from fund assets to pay for distribution costs (such as marketing and advertising) and shareholder services. They are named after the SEC rule that permits funds to charge them. 12b-1 fees are capped at 1.00% of average net assets annually (0.75% for distribution, 0.25% for service). A fund with 12b-1 fees of 0.25% or less may call itself a 'no-load' fund under FINRA rules." },
+      { "label": "D", "text": "The cost of mandatory government audits required for registered investment companies", "explanation": "Incorrect. Government regulatory costs are not what 12b-1 fees cover. 12b-1 fees compensate distributors and cover marketing expenses, not government audit costs." }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Rule 12b-1 fees allow mutual funds to use their own assets to pay for marketing, distribution, and shareholder servicing costs. These fees are deducted from fund assets annually and reduce the fund's NAV (and therefore investor returns). Per FINRA rules, a fund is considered 'no-load' only if it charges no front-end or back-end sales load and its 12b-1 fee does not exceed 0.25% annually.",
+    "topic": "products-risks",
+    "subtopic": "packaged-products",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Securities Act of 1933; SEC Rule 12b-1",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-022",
+    "stem": "During the accumulation phase of a variable annuity, how are the investor's contributions typically invested?",
+    "choices": [
+      { "label": "A", "text": "In the insurance company's general account, which invests primarily in fixed-income securities and guarantees a minimum return", "explanation": "Incorrect. The general account with a guaranteed return describes a fixed annuity, not a variable annuity. Variable annuities are distinguished by their separate account structure." },
+      { "label": "B", "text": "In subaccounts of the insurer's separate account, where investment returns vary based on the performance of the chosen subaccounts (which resemble mutual funds)", "explanation": "Correct. Variable annuities invest in a separate account — legally segregated from the insurance company's general assets to protect policyholders. Within the separate account, investors choose among subaccounts that function similarly to mutual funds, investing in stocks, bonds, money market instruments, etc. Returns are variable and depend on subaccount performance. This structure means variable annuities are considered securities and must be sold by registered representatives under FINRA rules." },
+      { "label": "C", "text": "Directly in Treasury securities to ensure principal protection and stable returns", "explanation": "Incorrect. Variable annuity separate accounts invest in a range of subaccounts chosen by the investor, not exclusively in Treasury securities. There is no principal protection in a variable annuity's accumulation phase (unless a rider for principal protection is purchased separately)." },
+      { "label": "D", "text": "In a joint pool shared equally among all variable annuity holders at that insurance company", "explanation": "Incorrect. Each variable annuity holder's contributions are tracked individually in their own account units. While subaccounts pool assets like mutual funds, the allocation among subaccounts and the resulting account value are specific to each individual investor, not shared equally." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "During the accumulation phase, variable annuity contributions are invested in a separate account — distinct from the insurance company's general account — in subaccounts chosen by the investor. Because returns vary with market performance (unlike fixed annuities), variable annuities are classified as securities, requiring the seller to hold both a securities license (Series 6 or 7) and an insurance license.",
+    "topic": "products-risks",
+    "subtopic": "packaged-products",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Securities Act of 1933; Investment Company Act of 1940",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-023",
+    "stem": "Which of the following best distinguishes a Unit Investment Trust (UIT) from an open-end mutual fund?",
+    "choices": [
+      { "label": "A", "text": "A UIT is actively managed by a portfolio manager who continuously buys and sells securities, while a mutual fund holds a fixed portfolio", "explanation": "Incorrect. This is the reverse of the reality. It is the mutual fund (particularly actively managed ones) that employs a portfolio manager who continuously trades. UITs hold a fixed, unmanaged portfolio for the trust's life." },
+      { "label": "B", "text": "A UIT issues a fixed number of redeemable units representing an interest in a fixed, unmanaged portfolio that terminates on a set date, while an open-end mutual fund continuously issues and redeems shares of an actively or passively managed portfolio with no termination date", "explanation": "Correct. UITs are registered investment companies that issue a fixed number of units at inception. The portfolio is assembled once and then held largely unchanged (unmanaged) for a specified period, after which the trust terminates and proceeds are distributed. Unlike mutual funds, UITs do not have ongoing management continuously making buy/sell decisions, which typically results in lower costs. Mutual funds continuously issue and redeem shares and have no set termination date." },
+      { "label": "C", "text": "UITs trade on stock exchanges throughout the trading day, while mutual funds trade only at end-of-day NAV", "explanation": "Incorrect. Exchange trading throughout the day describes ETFs or closed-end funds, not UITs. UITs can be redeemed through the sponsor (like open-end funds) or traded in a secondary market, but they are not the same as exchange-traded products." },
+      { "label": "D", "text": "UITs are not regulated under the Investment Company Act of 1940, while mutual funds are", "explanation": "Incorrect. UITs are registered investment companies under the Investment Company Act of 1940, just as mutual funds are. Both are regulated by the SEC as investment companies." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A Unit Investment Trust issues a fixed portfolio at inception, holds it unchanged until the trust terminates on a set date, and offers no ongoing portfolio management. This unmanaged structure typically results in lower expenses than actively managed mutual funds. Open-end mutual funds, by contrast, continuously issue and redeem shares, have portfolio managers making ongoing investment decisions, and have no set termination date.",
+    "topic": "products-risks",
+    "subtopic": "packaged-products",
+    "difficulty": "hard",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Investment Company Act of 1940",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-024",
+    "stem": "An investor holds a 20-year fixed-rate bond. Market interest rates rise by 2 percentage points. Which of the following best describes the effect on the bond's market price and why?",
+    "choices": [
+      { "label": "A", "text": "The bond's price rises because higher interest rates make the bond's fixed payments more valuable", "explanation": "Incorrect. Higher interest rates reduce the present value of the bond's future cash flows because those fixed payments are now discounted at a higher rate. Bond prices move inversely with interest rates." },
+      { "label": "B", "text": "The bond's price falls because its fixed coupon payments are now less attractive relative to new bonds offering higher yields", "explanation": "Correct. When market interest rates rise, newly issued bonds offer higher coupon rates than existing bonds. This makes existing bonds with fixed lower coupons less attractive, so their prices fall in the secondary market until their yield rises to match current rates. The price decline is more pronounced for longer-maturity bonds because they have more cash flows whose present value is reduced by the higher discount rate — a concept measured by duration." },
+      { "label": "C", "text": "The bond's price is unaffected because the coupon payments are contractually guaranteed", "explanation": "Incorrect. While coupon payments are contractually set (assuming no default), the bond's market price fluctuates with interest rates. The contractual coupon only ensures the payments will be made, not that the bond will maintain its current market price." },
+      { "label": "D", "text": "The bond's price rises because investors seek the safety of fixed-rate bonds during periods of rising rates", "explanation": "Incorrect. Rising interest rates generally cause bond prices to fall, not rise. During periods of rising rates, investors actually tend to move away from existing fixed-rate bonds (which are now offering below-market yields) toward higher-yielding alternatives." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Bond prices and interest rates move in opposite directions (the inverse price-yield relationship). When rates rise, a bond's fixed cash flows are discounted at a higher rate, reducing their present value and causing the price to fall. Longer-maturity bonds are more sensitive to rate changes than shorter-maturity bonds — this sensitivity is measured by duration. A 20-year bond would experience a substantial price decline from a 2-percentage-point rate increase.",
+    "topic": "products-risks",
+    "subtopic": "investment-risks",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-025",
+    "stem": "An investor purchases a 10-year bond with a 7% coupon when market rates are also 7%. Three years later, market rates have fallen to 4%. The investor now wants to reinvest the coupon payments received. Which risk does this situation illustrate?",
+    "choices": [
+      { "label": "A", "text": "Credit risk, because the issuer may not be able to pay the reduced coupon", "explanation": "Incorrect. Credit risk involves the possibility that an issuer defaults on its obligations. The coupon rate on the bond is still 7% regardless of market rates; only the available rates on new investments have changed." },
+      { "label": "B", "text": "Reinvestment risk, because the coupon payments received must now be reinvested at the lower prevailing 4% rate rather than the original 7% rate", "explanation": "Correct. Reinvestment risk is the risk that cash flows received from an investment (such as bond coupon payments) will have to be reinvested at a lower interest rate than the original investment offered. This investor expected to reinvest coupons at 7% (to achieve the promised yield to maturity), but market rates have fallen to 4%, so each coupon reinvested earns less. This shortfall lowers the investor's total realized return below the originally expected 7% yield to maturity." },
+      { "label": "C", "text": "Liquidity risk, because the bond's lower market price makes it difficult to sell", "explanation": "Incorrect. Liquidity risk refers to difficulty selling an investment quickly at a fair price. When rates fall, bond prices actually rise (inverse relationship), and the bond would be easier to sell at a profit — not harder. The scenario describes reinvestment risk, not liquidity risk." },
+      { "label": "D", "text": "Call risk, because the issuer will call the bond now that rates have fallen", "explanation": "Incorrect. Call risk is a valid concern when rates fall, but the question focuses specifically on reinvesting coupon payments — this is reinvestment risk. Call risk would materialize only if the bond has a call provision and the issuer exercises it, which is not specified in this question." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reinvestment risk is the risk that periodic cash flows (coupon payments, dividends, or principal repayments) must be reinvested at a lower rate than originally anticipated. When interest rates fall, bond investors receive the same nominal coupon payments, but reinvesting those payments at the now-lower market rates reduces the total compounded return. This is why the promised yield to maturity assumes coupons can be reinvested at the same rate as the YTM — an assumption that rarely holds perfectly.",
+    "topic": "products-risks",
+    "subtopic": "investment-risks",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-026",
+    "stem": "An investor wants to sell a holding in a thinly traded small-cap stock quickly. The investor discovers that the bid-ask spread is very wide and that large sell orders move the stock price significantly downward. Which type of risk does this scenario primarily illustrate?",
+    "choices": [
+      { "label": "A", "text": "Market risk, because stock prices always move in response to supply and demand", "explanation": "Incorrect. Market risk (systematic risk) refers to broad market declines affecting all securities. This scenario specifically involves difficulty in executing trades without adverse price impact — which is the definition of liquidity risk." },
+      { "label": "B", "text": "Liquidity risk, because the investor cannot easily convert the holding to cash at a fair price without significantly impacting the market price", "explanation": "Correct. Liquidity risk is the risk that an investment cannot be quickly bought or sold at a fair price. A thinly traded stock with a wide bid-ask spread and price sensitivity to order size is highly illiquid. The investor faces two dimensions of liquidity risk: (1) the cost dimension — the wide spread means selling below fair value — and (2) the timing dimension — large orders cannot be executed quickly without significant price impact. Illiquid investments require investors to demand a liquidity premium as compensation." },
+      { "label": "C", "text": "Inflation risk, because the stock's real value is being eroded by the wide bid-ask spread", "explanation": "Incorrect. Inflation risk refers to the erosion of purchasing power by rising prices across the economy. The wide bid-ask spread is a transaction cost reflecting illiquidity, not inflation." },
+      { "label": "D", "text": "Regulatory risk, because small-cap stocks face more SEC scrutiny than large-cap stocks", "explanation": "Incorrect. Regulatory risk refers to changes in laws or regulations adversely affecting an investment. The scenario describes difficulty transacting at fair prices in a thinly traded market — this is liquidity risk, not regulatory risk." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Liquidity risk is the risk that an investor cannot convert an investment to cash quickly at a price close to its fair market value. Thinly traded securities have fewer buyers and sellers, resulting in wider bid-ask spreads and greater price impact from large orders. Investors in illiquid securities must typically demand a higher expected return (liquidity premium) to compensate for the added difficulty and cost of exiting their position.",
+    "topic": "products-risks",
+    "subtopic": "investment-risks",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-027",
+    "stem": "An investor retired with $500,000 in savings invested entirely in money market funds yielding 1.5% annually. Inflation runs at 4% per year. Which of the following best describes the risk the investor faces?",
+    "choices": [
+      { "label": "A", "text": "Interest rate risk, because rising rates will reduce the value of the money market investment", "explanation": "Incorrect. Money market funds invest in short-term instruments and are minimally affected by interest rate changes — they do not have the duration risk of long-term bonds. The core problem here is that the yield is below the inflation rate." },
+      { "label": "B", "text": "Inflation risk (purchasing power risk), because the investment's returns are insufficient to keep pace with inflation, eroding the real value of the investor's savings over time", "explanation": "Correct. Inflation risk, also called purchasing power risk, is the risk that the rate of return on an investment will not keep pace with inflation, causing the real (inflation-adjusted) value of the investment to decline. This investor earns 1.5% annually but inflation is 4%, so the real return is approximately -2.5% per year. Over time, the $500,000 will buy progressively less, seriously threatening the investor's standard of living in retirement. This risk is especially significant for conservative investors who hold too many cash-equivalent instruments." },
+      { "label": "C", "text": "Default risk, because money market funds are not FDIC-insured and can lose principal", "explanation": "Incorrect. While money market funds are indeed not FDIC-insured and can in rare cases 'break the buck,' the scenario specifically highlights that the investor's yield (1.5%) is lower than inflation (4%). This is the primary risk illustrated — the real value erosion from inflation risk, not default concerns." },
+      { "label": "D", "text": "Opportunity cost risk, which is not a recognized investment risk category", "explanation": "Incorrect. While there is an opportunity cost to holding conservative investments, the standard risk category that describes the erosion of purchasing power from investments earning less than inflation is inflation risk (purchasing power risk). This is a recognized and tested category in the FINRA SIE curriculum." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Inflation risk (purchasing power risk) is the danger that an investment's return will not keep pace with inflation, reducing the investor's real wealth over time. A 1.5% nominal return with 4% inflation means the real return is roughly -2.5% annually — the investor's purchasing power shrinks each year. This is a critical concern for conservative investors and retirees who concentrate in cash-equivalent instruments, which historically underperform inflation over long periods.",
+    "topic": "products-risks",
+    "subtopic": "investment-risks",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-028",
+    "stem": "A portfolio manager has divided a $10 million equity portfolio evenly across 50 stocks in 10 different industries. A broad economic recession causes all stocks in the portfolio to decline simultaneously. Which of the following most accurately describes the risk situation?",
+    "choices": [
+      { "label": "A", "text": "The losses occurred solely due to unsystematic risk, which the manager failed to diversify away", "explanation": "Incorrect. Unsystematic risk is company-specific or industry-specific risk that can be reduced through diversification. A broad recession that affects all stocks simultaneously is an economy-wide event — this is systematic (market) risk, not unsystematic risk. The manager's diversification likely already minimized unsystematic risk." },
+      { "label": "B", "text": "The portfolio suffered from systematic risk, which cannot be eliminated through diversification, because the recession is a broad macroeconomic event affecting all securities", "explanation": "Correct. Systematic risk (also called market risk or non-diversifiable risk) stems from economy-wide factors such as recessions, changes in interest rates, geopolitical events, and inflation. These forces affect all or most securities simultaneously and cannot be eliminated by holding more stocks across different industries. The manager's diversification across 50 stocks and 10 industries was appropriate to reduce company-specific risk, but diversification offers no protection against systematic risk. Tools to manage systematic risk include hedging with derivatives or adjusting overall market exposure." },
+      { "label": "C", "text": "The manager made a stock selection error; the losses could have been avoided by picking 50 different stocks", "explanation": "Incorrect. A broad recession is a systematic, market-wide event. Choosing different stocks would not have prevented losses because virtually all equities declined due to the macroeconomic downturn, not company-specific issues." },
+      { "label": "D", "text": "The portfolio is undiversified because 50 stocks is insufficient; doubling to 100 stocks would have prevented these losses", "explanation": "Incorrect. Research shows that most unsystematic risk is eliminated with around 20-30 diversified holdings. Increasing from 50 to 100 stocks provides minimal additional risk reduction. More importantly, no number of stocks protects against systematic risk from a broad recession." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Systematic risk (market risk) is the portion of investment risk caused by economy-wide factors that affect all or most securities — recessions, interest rate changes, inflation, geopolitical events. It cannot be reduced through diversification because diversification only addresses company-specific (unsystematic) risk. A well-diversified portfolio like this one (50 stocks, 10 industries) will have largely eliminated unsystematic risk but remains fully exposed to systematic risk from events like a recession.",
+    "topic": "products-risks",
+    "subtopic": "investment-risks",
+    "difficulty": "hard",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-20"
   }
 ]

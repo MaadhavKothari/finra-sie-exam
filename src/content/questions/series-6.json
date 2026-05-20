@@ -1,0 +1,1490 @@
+[
+  {
+    "id": "q-s6-001",
+    "section": "investment-company-products",
+    "stem": "A mutual fund has total assets of $500 million, total liabilities of $20 million, and 24 million shares outstanding. What is the fund's net asset value (NAV) per share?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "$25.00",
+        "explanation": "Incorrect. $25.00 would result from dividing total assets by total liabilities ($500M ÷ $20M), which is not how NAV is calculated. NAV uses net assets (assets minus liabilities) divided by shares outstanding."
+      },
+      {
+        "label": "B",
+        "text": "$20.83",
+        "explanation": "Incorrect. $20.83 results from dividing total assets by shares outstanding ($500M ÷ 24M) without first subtracting liabilities. NAV must be calculated on net assets, not gross assets."
+      },
+      {
+        "label": "C",
+        "text": "$19.17",
+        "explanation": "Incorrect. $19.17 does not correspond to any standard NAV formula. It may result from subtracting liabilities from shares outstanding, which is a nonsensical calculation. NAV = (Assets − Liabilities) ÷ Shares."
+      },
+      {
+        "label": "D",
+        "text": "$20.00",
+        "explanation": "Correct. NAV = (Total Assets − Total Liabilities) ÷ Shares Outstanding = ($500M − $20M) ÷ 24M = $480M ÷ 24M = $20.00. NAV is always computed on net assets (after liabilities), not gross assets."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "NAV per share = (Total Assets − Total Liabilities) ÷ Shares Outstanding. Here: ($500,000,000 − $20,000,000) ÷ 24,000,000 = $480,000,000 ÷ 24,000,000 = $20.00 per share. This is the foundational NAV formula under the Investment Company Act of 1940.",
+    "subtopic": "open-end-mutual-funds",
+    "difficulty": "easy",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "Investment Company Act of 1940, Section 2(a)(41)",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-002",
+    "section": "investment-company-products",
+    "stem": "An investor places an order to purchase shares of an open-end mutual fund at 2:00 PM EST on a Tuesday. At what price will the order be executed?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The NAV calculated at the next close of business (4:00 PM EST) on Tuesday",
+        "explanation": "Correct. Under the forward pricing rule (SEC Rule 22c-1), mutual fund orders placed before the market close (typically 4:00 PM EST) on any business day are executed at the NAV calculated at that day's close. The order was received before 4:00 PM, so it prices at Tuesday's closing NAV."
+      },
+      {
+        "label": "B",
+        "text": "The NAV calculated at the previous business day's close",
+        "explanation": "Incorrect. Stale pricing (using the prior day's NAV) is not permitted; forward pricing requires the next calculated NAV after order receipt."
+      },
+      {
+        "label": "C",
+        "text": "The NAV at the time the order was placed (2:00 PM EST)",
+        "explanation": "Incorrect. Open-end mutual funds do not provide intraday pricing. All orders are executed at the next calculated NAV — not the real-time value at order entry."
+      },
+      {
+        "label": "D",
+        "text": "The NAV calculated at the Wednesday market open",
+        "explanation": "Incorrect. Orders received before the daily cutoff are priced at that same day's closing NAV. Only orders received after the cutoff roll to the next business day."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "SEC Rule 22c-1 (the forward pricing rule) requires that mutual fund orders be executed at the next NAV calculated after the order is received. Since 2:00 PM EST is before the standard 4:00 PM EST cutoff, the order prices at Tuesday's end-of-day NAV. This prevents market-timing abuses that would arise from backward pricing.",
+    "subtopic": "open-end-mutual-funds",
+    "difficulty": "easy",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "SEC Rule 22c-1 (Investment Company Act of 1940)",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-003",
+    "section": "investment-company-products",
+    "stem": "Under FINRA Rule 2341, what is the maximum permissible sales charge a broker-dealer may charge on an equity mutual fund purchase?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "5.0% of the public offering price",
+        "explanation": "Incorrect. 5.0% is not the regulatory maximum. Some fund families set their maximum at or near this level, but FINRA's rule permits a higher ceiling."
+      },
+      {
+        "label": "B",
+        "text": "7.25% of the public offering price",
+        "explanation": "Incorrect. 7.25% is below the regulatory maximum and is not the standard cited in FINRA Rule 2341."
+      },
+      {
+        "label": "C",
+        "text": "8.5% of the public offering price",
+        "explanation": "Correct. FINRA Rule 2341 sets the maximum sales charge at 8.5% of the public offering price for equity mutual funds, provided the fund offers breakpoints, rights of accumulation, and reinvestment at NAV. In practice, most funds charge less, but 8.5% is the regulatory ceiling."
+      },
+      {
+        "label": "D",
+        "text": "10.0% of the public offering price",
+        "explanation": "Incorrect. 10% exceeds the FINRA maximum. Sales charges above 8.5% would violate FINRA Rule 2341 and are impermissible."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "FINRA Rule 2341 caps the sales charge on investment company securities at 8.5% of the public offering price, assuming the fund provides all three customer-friendly features: breakpoint discounts, rights of accumulation, and dividend reinvestment at NAV. If a fund lacks any of these features, the permissible maximum is lower.",
+    "subtopic": "open-end-mutual-funds",
+    "difficulty": "easy",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "FINRA Rule 2341",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-004",
+    "section": "investment-company-products",
+    "stem": "A customer redeems shares of a Class B mutual fund after holding them for two years. The fund's contingent deferred sales charge (CDSC) schedule imposes a 4% charge in year 1, 3% in year 2, 2% in year 3, and 1% in year 4, then zero. If the customer's shares are worth $15,000 at redemption, approximately how much will the customer pay in CDSC?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "$600",
+        "explanation": "Incorrect. $600 would represent a 4% CDSC, which applies only in the first year of ownership."
+      },
+      {
+        "label": "B",
+        "text": "$300",
+        "explanation": "Incorrect. $300 corresponds to a 2% charge, which would apply after three full years, not two."
+      },
+      {
+        "label": "C",
+        "text": "$450",
+        "explanation": "Correct. After two full years, the applicable CDSC rate is 3% (year 2 rate). 3% × $15,000 = $450. The CDSC schedule declines over time to incentivize longer holding periods and eventually reaches zero."
+      },
+      {
+        "label": "D",
+        "text": "$0",
+        "explanation": "Incorrect. The CDSC is not zero until after year 4 in this schedule. Redeeming after two years still incurs a charge."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The CDSC (back-end load) is charged at redemption based on how long the investor has held the shares. After two years, the applicable rate from this schedule is 3%. The charge is $15,000 × 3% = $450. Class B shares convert to Class A shares after a set period (typically 7–8 years), at which point no further CDSC applies.",
+    "subtopic": "open-end-mutual-funds",
+    "difficulty": "medium",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "FINRA Rule 2341",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-005",
+    "section": "investment-company-products",
+    "stem": "Which of the following best describes how a 12b-1 fee affects a mutual fund investor?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "It is a one-time charge deducted at the time of purchase and does not affect ongoing returns",
+        "explanation": "Incorrect. A one-time purchase charge describes a front-end load, not a 12b-1 fee. The 12b-1 fee is assessed annually as a percentage of fund assets."
+      },
+      {
+        "label": "B",
+        "text": "It is paid directly by the investor to FINRA to fund regulatory oversight of the fund",
+        "explanation": "Incorrect. The 12b-1 fee is paid to the fund's distributor and covers marketing/distribution expenses. It is not remitted to FINRA or any regulatory body."
+      },
+      {
+        "label": "C",
+        "text": "It is charged only when the investor sells shares and compensates the fund manager for redemption processing",
+        "explanation": "Incorrect. A charge at redemption describes a CDSC (back-end load). The 12b-1 fee is ongoing and deducted from assets regardless of purchase or sale activity."
+      },
+      {
+        "label": "D",
+        "text": "It is an annual fee deducted from fund assets to cover distribution and marketing expenses, which reduces the investor's net return",
+        "explanation": "Correct. Rule 12b-1 under the Investment Company Act of 1940 permits funds to charge an annual fee (typically up to 1% of average net assets) to cover distribution, marketing, and shareholder servicing costs. Because it is taken from fund assets, it reduces NAV and therefore lowers the investor's net return over time."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Under SEC Rule 12b-1, a fund may use its assets to pay for distribution and marketing expenses. This fee is deducted from the fund's assets daily (reflected in NAV), making it an ongoing cost that compounds its negative impact over long holding periods. The FINRA rule allows funds with 12b-1 fees up to 0.25% per year to still call themselves 'no-load' funds.",
+    "subtopic": "12b1-fees",
+    "difficulty": "easy",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "SEC Rule 12b-1; Investment Company Act of 1940",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-006",
+    "section": "investment-company-products",
+    "stem": "A mutual fund charges a 12b-1 fee of 0.50% per year and no front-end or back-end sales load. Under FINRA rules, how should this fund be described to investors?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Load fund, because the 12b-1 fee exceeds 0.25% per year",
+        "explanation": "Correct. FINRA Rule 2341 provides that a fund may not be described as 'no-load' if it charges a 12b-1 fee greater than 0.25% of average annual net assets. At 0.50%, this fund exceeds that threshold and must not be represented as no-load."
+      },
+      {
+        "label": "B",
+        "text": "No-load fund, because there is no sales charge at purchase or redemption",
+        "explanation": "Incorrect. FINRA rules specify that a fund may only be marketed as 'no-load' if its 12b-1 fee is 0.25% or less. A 0.50% 12b-1 fee disqualifies the no-load designation."
+      },
+      {
+        "label": "C",
+        "text": "No-load fund, because 12b-1 fees below 1% are exempt from the load designation",
+        "explanation": "Incorrect. The threshold for the no-load designation is 0.25%, not 1%. The maximum permissible 12b-1 fee under the Investment Company Act is 1%, but exceeding 0.25% triggers the load label."
+      },
+      {
+        "label": "D",
+        "text": "Level-load fund, which is automatically classified separately from no-load funds",
+        "explanation": "Incorrect. 'Level-load' is a colloquial term sometimes used for Class C shares but is not an official FINRA classification that replaces the no-load/load distinction. The relevant test is the 0.25% 12b-1 threshold."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "FINRA Rule 2341 states that a fund may not be described as 'no-load' if it charges a 12b-1 fee exceeding 0.25% of average annual net assets. Although the fund has no front-end or back-end sales charge, its 0.50% 12b-1 fee means it must be disclosed as carrying a distribution charge. This protects investors who believe 'no-load' means zero ongoing distribution costs.",
+    "subtopic": "12b1-fees",
+    "difficulty": "medium",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "FINRA Rule 2341",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-007",
+    "section": "investment-company-products",
+    "stem": "Two mutual funds in the same family have identical underlying portfolios. Fund X has a 12b-1 fee of 0.75% and Fund Y has a 12b-1 fee of 0.10%. Over a 20-year holding period with no other differences, which fund will deliver a higher total return, and why?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Fund X, because higher 12b-1 fees fund better marketing, attracting more capital and improving fund liquidity",
+        "explanation": "Incorrect. 12b-1 fees are costs borne by investors, not benefits. More marketing spend does not improve portfolio returns; it only benefits the distributor."
+      },
+      {
+        "label": "B",
+        "text": "Fund Y, because a lower 12b-1 fee means less drag on the fund's assets each year, compounding to a meaningfully higher total return over 20 years",
+        "explanation": "Correct. Since 12b-1 fees are deducted from fund assets annually, Fund Y's 0.10% fee creates 0.65% less annual drag than Fund X's 0.75% fee. Over 20 years, this difference compounds significantly. For example, on a $10,000 investment earning 7% gross, Fund Y would accumulate substantially more than Fund X due solely to the fee differential."
+      },
+      {
+        "label": "C",
+        "text": "They will deliver identical total returns, because 12b-1 fees are paid externally and do not affect NAV",
+        "explanation": "Incorrect. 12b-1 fees are deducted from fund assets and directly reduce NAV. They are an internal cost of the fund, not an external payment."
+      },
+      {
+        "label": "D",
+        "text": "Fund X, because larger distribution budgets allow the fund to lower transaction costs through greater trading volume",
+        "explanation": "Incorrect. 12b-1 fees fund distribution and marketing, not portfolio transaction costs. Trading commissions are separate and are not reduced by 12b-1 expenditures."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "12b-1 fees are ongoing annual costs deducted from fund assets, creating a return drag that compounds over time. Fund Y's 0.10% fee versus Fund X's 0.75% fee represents a 0.65% annual advantage that, compounded over 20 years, produces a materially higher terminal value. This is why expense ratios — including 12b-1 fees — are critical factors when comparing funds with similar investment strategies.",
+    "subtopic": "12b1-fees",
+    "difficulty": "medium",
+    "source": "FINRA Series 6 content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-008",
+    "section": "investment-company-products",
+    "stem": "Which of the following statements correctly describes Class A, Class B, and Class C mutual fund shares?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Class A shares charge a back-end load, Class B shares charge a front-end load, and Class C shares have no sales charge of any kind",
+        "explanation": "Incorrect. This reverses Class A and Class B. Class A typically charges a front-end load and Class B charges a back-end (CDSC) load. Class C shares do have distribution-related costs."
+      },
+      {
+        "label": "B",
+        "text": "Class C shares are suitable only for institutional investors because they require minimum purchases of $1 million",
+        "explanation": "Incorrect. Class C shares are typically available to retail investors without large minimum purchase requirements. Institutional share classes (sometimes called Class I or Y) often require large minimums."
+      },
+      {
+        "label": "C",
+        "text": "All three share classes own the same underlying securities but differ only in their ticker symbols and have identical total costs over any holding period",
+        "explanation": "Incorrect. While they may hold the same underlying portfolio, their cost structures differ materially. The optimal class depends on the investor's holding period and investment amount."
+      },
+      {
+        "label": "D",
+        "text": "Class A shares charge a front-end load with lower 12b-1 fees; Class B shares charge a back-end load (CDSC) with higher 12b-1 fees and eventually convert to Class A; Class C shares have a level load with no conversion",
+        "explanation": "Correct. Class A shares impose a sales charge at purchase but carry lower ongoing 12b-1 fees. Class B shares have no upfront charge but impose a CDSC if redeemed early, have higher 12b-1 fees, and typically convert to Class A shares after 7–8 years. Class C shares have a small or no CDSC after one year but carry a higher ongoing 12b-1 fee indefinitely and do not convert."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The three retail share classes reflect different ways of paying for distribution costs. Class A front-loads the cost (often discounted via breakpoints for large purchases), making it efficient for long-term investors with large sums. Class B back-loads it via CDSC, suitable for smaller, longer-term investors (the conversion feature eventually eliminates the higher 12b-1 drag). Class C maintains a level annual cost with no conversion, often favored for shorter holding periods but expensive over the long term.",
+    "subtopic": "fund-classes",
+    "difficulty": "medium",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "FINRA Rule 2341",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-009",
+    "section": "investment-company-products",
+    "stem": "An investor plans to invest $50,000 in a mutual fund that offers breakpoints at $25,000 (4.5% load), $50,000 (3.5% load), and $100,000 (2.5% load). The investor currently holds $20,000 in the same fund family. If the investor signs a letter of intent to invest an additional $30,000 over 13 months, what sales charge applies to today's $30,000 purchase?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "3.5%, because rights of accumulation ($20,000 existing) plus the LOI commitment ($30,000 new) total $50,000, qualifying for the $50,000 breakpoint",
+        "explanation": "Correct. Rights of accumulation allow the investor's existing holdings ($20,000) to count toward the breakpoint. The letter of intent allows the investor to count the intended future investment toward the breakpoint immediately. Together, $20,000 + $30,000 = $50,000, qualifying for the 3.5% sales charge on today's purchase."
+      },
+      {
+        "label": "B",
+        "text": "4.5%, based on the $30,000 purchase alone exceeding the $25,000 breakpoint",
+        "explanation": "Incorrect. This ignores both the existing $20,000 in the fund family (rights of accumulation) and the letter of intent to invest more. Combined, these get the investor to the $50,000 breakpoint tier."
+      },
+      {
+        "label": "C",
+        "text": "5.0%, because the letter of intent has not yet been fulfilled",
+        "explanation": "Incorrect. A letter of intent (LOI) allows the investor to receive the breakpoint discount immediately, not only after the full amount is invested. The standard load without any breakpoint consideration would be applied without an LOI, but with one, the lower rate applies now."
+      },
+      {
+        "label": "D",
+        "text": "2.5%, because the investor intends to reach $100,000 eventually and should receive the highest discount available",
+        "explanation": "Incorrect. The letter of intent covers the amount the investor commits to invest within 13 months, not a speculative future amount. The $50,000 total (existing + committed) qualifies only for the $50,000 breakpoint tier."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Breakpoint benefits are available through two mechanisms: (1) rights of accumulation, which count existing holdings in the fund family toward the next breakpoint level, and (2) a letter of intent (LOI), which allows an investor to receive the breakpoint discount on current purchases by committing to invest a specified amount within 13 months. Here, $20,000 (existing) + $30,000 (new commitment) = $50,000, earning the 3.5% rate. If the LOI is not fulfilled, the investor must pay the difference between the discounted load charged and the load that should have been charged.",
+    "subtopic": "fund-classes",
+    "difficulty": "hard",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "FINRA Rule 2341",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-010",
+    "section": "investment-company-products",
+    "stem": "A closed-end fund has a NAV of $18.00 per share but is trading on the NYSE at $15.75. Which of the following best describes this situation?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The fund is trading at a premium to NAV, meaning it is overvalued relative to its underlying assets",
+        "explanation": "Incorrect. A premium means the market price is above NAV. Here, $15.75 is below $18.00, which is a discount."
+      },
+      {
+        "label": "B",
+        "text": "The fund is trading at a discount to NAV, and this is normal for closed-end funds",
+        "explanation": "Correct. When a closed-end fund's market price is below its net asset value, it is trading at a discount. Closed-end funds frequently trade at discounts to NAV due to factors such as investor sentiment, fund expenses, illiquid holdings, and supply/demand dynamics. The discount here is ($18.00 − $15.75) / $18.00 ≈ 12.5%."
+      },
+      {
+        "label": "C",
+        "text": "The fund has violated SEC regulations by allowing its shares to fall below NAV",
+        "explanation": "Incorrect. Unlike open-end funds, closed-end funds trade on exchanges at market-determined prices, which regularly deviate from NAV. There is no regulation requiring closed-end fund market prices to equal NAV."
+      },
+      {
+        "label": "D",
+        "text": "An arbitrage opportunity exists that investors and broker-dealers are required to exploit immediately",
+        "explanation": "Incorrect. While some investors may seek to profit from discounts to NAV, there is no requirement to do so. Unlike ETFs, closed-end funds lack a creation/redemption mechanism that enforces price-to-NAV alignment."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Closed-end funds issue a fixed number of shares through an IPO and then trade on exchanges like stocks. Their market price is determined by supply and demand, not by NAV. It is very common — and historically the norm — for closed-end funds to trade at discounts to NAV. This contrasts with open-end funds (which always transact at NAV) and ETFs (which have an arbitrage mechanism to keep prices near NAV).",
+    "subtopic": "closed-end-funds-etfs-uits",
+    "difficulty": "easy",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "Investment Company Act of 1940",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-011",
+    "section": "investment-company-products",
+    "stem": "Which of the following mechanisms is primarily responsible for keeping an ETF's market price close to its underlying net asset value?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "SEC regulation requiring ETF sponsors to purchase shares if the price falls below NAV",
+        "explanation": "Incorrect. There is no SEC rule requiring ETF sponsors to support the market price. Price alignment is market-driven, not regulatory."
+      },
+      {
+        "label": "B",
+        "text": "The fund manager's obligation to buy and sell ETF shares directly from retail investors at NAV",
+        "explanation": "Incorrect. ETF fund managers do not transact directly with retail investors. Retail investors buy and sell ETF shares on exchanges through brokers. Only authorized participants transact directly with the ETF for creation/redemption."
+      },
+      {
+        "label": "C",
+        "text": "The authorized participant creation and redemption mechanism, which allows large institutional players to arbitrage price discrepancies",
+        "explanation": "Correct. Authorized participants (APs) — typically large broker-dealers — can create new ETF shares by delivering the underlying basket of securities to the ETF, or redeem ETF shares by returning them in exchange for the underlying basket. If the ETF trades at a premium to NAV, APs buy the underlying basket and create new ETF shares to sell at the premium price. If it trades at a discount, APs buy ETF shares cheaply and redeem them for the underlying basket. This arbitrage keeps the ETF price tightly aligned with NAV."
+      },
+      {
+        "label": "D",
+        "text": "Daily mandatory disclosure of the ETF's portfolio, which discourages speculative trading",
+        "explanation": "Incorrect. While most ETFs do disclose their portfolios daily, this disclosure alone does not prevent price discrepancies. It is the creation/redemption arbitrage mechanism, not mere disclosure, that maintains price alignment."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The ETF creation/redemption mechanism is the key structural feature distinguishing ETFs from closed-end funds. Authorized participants (typically large institutions) have the exclusive right to create and redeem ETF shares in large blocks (called 'creation units') in exchange for the underlying basket of securities. This in-kind exchange process enables efficient arbitrage that keeps ETF market prices aligned with NAV, while also providing tax efficiency by avoiding forced asset sales.",
+    "subtopic": "closed-end-funds-etfs-uits",
+    "difficulty": "medium",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "Investment Company Act of 1940",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-012",
+    "section": "investment-company-products",
+    "stem": "Which of the following is a defining characteristic of a Unit Investment Trust (UIT)?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "A UIT is actively managed and the portfolio manager can buy or sell holdings at any time",
+        "explanation": "Incorrect. Active management is a characteristic of open-end mutual funds and certain closed-end funds. UITs hold a fixed, unmanaged portfolio that is established at inception."
+      },
+      {
+        "label": "B",
+        "text": "A UIT issues redeemable shares and prices them at NAV on a continuous basis like an open-end fund",
+        "explanation": "Incorrect. While UITs do issue redeemable units, they are not continuously offered like open-end funds. UITs issue units in a fixed offering and do not continuously create new shares based on investor demand."
+      },
+      {
+        "label": "C",
+        "text": "A UIT trades on a stock exchange at prices determined by supply and demand, like a closed-end fund",
+        "explanation": "Incorrect. Although some UITs have a secondary market, they are not exchange-traded in the same manner as closed-end funds. They are typically redeemable from the sponsor at NAV and have a fixed termination date."
+      },
+      {
+        "label": "D",
+        "text": "A UIT holds a fixed, unmanaged portfolio of securities, does not have a board of directors, and has a set termination date",
+        "explanation": "Correct. A UIT is a type of investment company under the Investment Company Act of 1940 that holds a fixed portfolio assembled at creation. There is no investment adviser actively managing the portfolio, no board of directors, and the trust has a specified termination date at which the assets are liquidated and proceeds distributed to unit holders. This makes UITs simpler and lower-cost but inflexible."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "UITs are classified as investment companies under the Investment Company Act of 1940 but are structurally distinct from both open-end and closed-end funds. Key UIT features: (1) fixed portfolio — no active management; (2) no board of directors or investment adviser making ongoing decisions; (3) set termination date; (4) investors hold 'units' representing an undivided interest in the trust's portfolio. Municipal bond unit trusts and S&P 500 index-based UITs (like the original SPDRs) are common examples.",
+    "subtopic": "closed-end-funds-etfs-uits",
+    "difficulty": "medium",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "Investment Company Act of 1940, Section 4(2)",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-013",
+    "section": "investment-company-products",
+    "stem": "Which of the following is NOT a qualified education expense for purposes of a tax-free 529 plan distribution?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Tuition and required fees at an eligible educational institution",
+        "explanation": "Incorrect. Tuition and required fees are among the core qualified expenses for 529 plan distributions at eligible colleges, universities, and vocational schools."
+      },
+      {
+        "label": "B",
+        "text": "Room and board for a student enrolled at least half-time",
+        "explanation": "Incorrect. Room and board is a qualified expense for students enrolled at least half-time. The deductible amount is capped at the school's published cost-of-attendance figure."
+      },
+      {
+        "label": "C",
+        "text": "A laptop computer required for enrollment in a degree program",
+        "explanation": "Incorrect. Computers and related technology are qualified expenses when required or used primarily by the student as part of enrollment. The SECURE Act and subsequent tax law changes made this explicit."
+      },
+      {
+        "label": "D",
+        "text": "Transportation and travel costs between the student's home and the school",
+        "explanation": "Correct. Transportation and travel expenses — such as gas, airfare, or bus tickets to commute to school — are NOT qualified education expenses under Section 529. Only expenses that are a direct condition of enrollment or attendance qualify. Personal commuting and travel costs do not meet this standard."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Section 529 qualified education expenses include tuition, fees, books, supplies, equipment required for enrollment, room and board (for at least half-time students), computers used for schoolwork, and special needs services. Transportation, insurance, sports and club activity fees unrelated to academics, and personal expenses do not qualify. Distributions for non-qualified expenses are subject to ordinary income tax on earnings plus a 10% federal penalty.",
+    "subtopic": "529-plans",
+    "difficulty": "medium",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "IRC Section 529",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-014",
+    "section": "investment-company-products",
+    "stem": "A parent opens a 529 plan for her daughter. Three years later, the daughter decides not to attend college. Which of the following is a permissible option for the 529 plan assets?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The parent must withdraw all funds and pay income tax plus a 10% penalty on all assets, including contributions",
+        "explanation": "Incorrect. The 10% penalty and ordinary income tax apply only to the earnings portion of the withdrawal, not to the original contributions (which were made with after-tax dollars and are returned tax-free)."
+      },
+      {
+        "label": "B",
+        "text": "The parent must transfer the funds to a Coverdell Education Savings Account to avoid penalties",
+        "explanation": "Incorrect. While rollovers between 529 plans are permitted (once per 12-month period), there is no requirement to move funds to a Coverdell ESA. A beneficiary change within the 529 is a simpler option with no tax consequences."
+      },
+      {
+        "label": "C",
+        "text": "The funds are automatically forfeited to the state if not used for the original beneficiary's education",
+        "explanation": "Incorrect. 529 plan assets are never automatically forfeited. The account owner retains control and has multiple options: change the beneficiary, roll over to an ABLE account (limited), keep the account for future use, or withdraw (with tax/penalty consequences on earnings)."
+      },
+      {
+        "label": "D",
+        "text": "The parent may change the beneficiary to another family member (such as the daughter's sibling) without tax consequences",
+        "explanation": "Correct. One of the flexible features of 529 plans is that the account owner may change the beneficiary to another member of the original beneficiary's family without triggering taxes or penalties. Eligible family members include siblings, parents, cousins, nieces/nephews, spouses, and others defined in IRC Section 529."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "529 plans offer significant flexibility. If the named beneficiary does not use the funds for qualified education expenses, the account owner (typically a parent or grandparent) can change the beneficiary to another qualifying family member at any time without tax consequences. This is a key advantage over other education savings vehicles. Alternatively, beginning in 2024 under SECURE 2.0, unused 529 funds (after 15 years) can be rolled over to a Roth IRA for the beneficiary, subject to annual limits.",
+    "subtopic": "529-plans",
+    "difficulty": "medium",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "IRC Section 529",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-015",
+    "section": "investment-company-products",
+    "stem": "A grandparent contributes $18,000 to a 529 plan for a grandchild. What is the federal income tax treatment of this contribution?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The contribution is not federally tax-deductible, but earnings grow tax-deferred and qualified distributions are tax-free",
+        "explanation": "Correct. 529 plan contributions are made with after-tax (post-federal-tax) dollars. There is no federal income tax deduction for contributions. However, the investment grows tax-deferred inside the account, and qualified distributions for education expenses are completely tax-free at the federal level."
+      },
+      {
+        "label": "B",
+        "text": "The contribution is federally tax-deductible up to $18,000, which is the annual gift tax exclusion amount",
+        "explanation": "Incorrect. 529 plan contributions are made with after-tax dollars and are NOT deductible on federal income tax returns. Some states offer a state income tax deduction, but there is no federal deduction."
+      },
+      {
+        "label": "C",
+        "text": "The contribution is tax-deductible because the grandparent is funding a beneficiary's education, which qualifies as a charitable deduction",
+        "explanation": "Incorrect. Contributions to 529 plans do not qualify as charitable deductions. They are considered completed gifts to the beneficiary (for gift tax purposes) but are not deductible on the donor's federal income tax return."
+      },
+      {
+        "label": "D",
+        "text": "The contribution is subject to immediate income tax because 529 contributions are considered constructive receipt by the beneficiary",
+        "explanation": "Incorrect. The beneficiary does not receive the 529 funds immediately and therefore does not have constructive receipt. The grandparent makes a gift contribution, and the funds accumulate for future education use."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The federal tax treatment of 529 plans follows a simple pattern: (1) contributions are made with after-tax dollars — no federal deduction; (2) earnings grow tax-deferred inside the account; (3) qualified distributions are entirely tax-free federally. Many states separately allow a state income tax deduction for contributions to their own state's 529 plan. The $18,000 contribution is also within the annual gift tax exclusion, so no gift tax return is required (grandparents can also elect 5-year gift tax averaging, front-loading up to $90,000).",
+    "subtopic": "529-plans",
+    "difficulty": "easy",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "IRC Section 529",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-016",
+    "section": "investment-company-products",
+    "stem": "An open-end mutual fund's total net assets grew from $200 million to $210 million over a year, while the number of shares outstanding increased from 10 million to 11 million due to new investor purchases. What happened to the fund's NAV per share over the year?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "NAV increased from $20.00 to $21.00 per share",
+        "explanation": "Incorrect. NAV at year-end = $210M / 11M shares = $19.09, not $21.00. This answer incorrectly ignores the increase in shares outstanding."
+      },
+      {
+        "label": "B",
+        "text": "NAV remained unchanged at $20.00 because new share issuance in open-end funds never dilutes existing shareholders",
+        "explanation": "Incorrect. New shares are issued at the current NAV at the time of purchase. If new money comes in when NAV has changed, the per-share value adjusts accordingly. This example shows that despite asset growth, per-share NAV declined."
+      },
+      {
+        "label": "C",
+        "text": "NAV decreased from $20.00 to $19.09 per share",
+        "explanation": "Correct. Beginning NAV = $200M / 10M = $20.00. Ending NAV = $210M / 11M ≈ $19.09. Although net assets grew by $10 million, shares outstanding grew proportionally more (10% increase in assets vs. 10% increase in shares, but the new shares were sold at $19.09 NAV, diluting existing shareholders)."
+      },
+      {
+        "label": "D",
+        "text": "NAV increased from $20.00 to $21.00 because total net assets grew by 5%",
+        "explanation": "Incorrect. A 5% asset growth ($200M to $210M) with a 10% share growth (10M to 11M) means per-share value actually declined. You cannot look at asset growth alone without considering share count."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "NAV = Net Assets / Shares Outstanding. Year-start: $200M / 10M = $20.00. Year-end: $210M / 11M ≈ $19.09. While new investors bringing in capital increase total assets, in an open-end fund those investors receive new shares at the prevailing NAV. If the portfolio's investment performance was poor (NAV fell from $20 to below $20), the new share issuance simply reflects that lower value. This illustrates why total return performance must be measured on a per-share basis.",
+    "subtopic": "open-end-mutual-funds",
+    "difficulty": "hard",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "Investment Company Act of 1940",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-017",
+    "section": "variable-products",
+    "stem": "In a variable annuity, premiums paid during the accumulation phase are held in which type of account, and how does this differ from a fixed annuity?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Variable annuity premiums are held in the insurance company's general account, which guarantees a minimum rate of return; fixed annuity premiums are held in a separate account with variable returns",
+        "explanation": "Incorrect. This is exactly backwards. Variable annuity premiums go to the separate account; fixed annuity premiums go to the general account."
+      },
+      {
+        "label": "B",
+        "text": "Variable annuity premiums are deposited in a trust account regulated by the FDIC and earn market rates of return",
+        "explanation": "Incorrect. Annuity separate accounts are not FDIC-insured. They are regulated under both state insurance law and federal securities law (SEC), but are not bank deposits. FDIC insurance applies only to bank deposit accounts."
+      },
+      {
+        "label": "C",
+        "text": "Both variable and fixed annuities hold premiums in a separate account; they differ only in how subaccounts are invested",
+        "explanation": "Incorrect. Fixed annuities use the general account. The separate account structure is unique to variable (and indexed) annuities."
+      },
+      {
+        "label": "D",
+        "text": "Variable annuity premiums are held in a separate account invested in subaccounts (similar to mutual funds), with no guaranteed return; fixed annuity premiums are held in the insurer's general account with a guaranteed minimum return",
+        "explanation": "Correct. The separate account is the core structural distinction of a variable annuity. It is legally segregated from the insurer's other assets and invested in subaccounts chosen by the annuity owner. Returns are not guaranteed and depend on market performance. By contrast, fixed annuity premiums go into the general account, where the insurer guarantees a minimum credited interest rate and bears the investment risk."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The separate account is the hallmark of variable annuities. It holds the premium allocations in subaccounts (stock, bond, money market, etc.) chosen by the contract owner, and its performance directly determines the contract's value. Because contract owners bear the investment risk, variable annuities are securities products requiring SEC registration and representative licensing (Series 6 or 7). Fixed annuities, by contrast, are purely insurance products — premiums go to the general account, and the insurer guarantees both principal and a minimum return.",
+    "subtopic": "variable-annuity-basics",
+    "difficulty": "easy",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "Securities Act of 1933; Investment Company Act of 1940",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-018",
+    "section": "variable-products",
+    "stem": "During the accumulation phase of a variable annuity, an investor's account is measured in accumulation units. During the payout phase, the account is converted to annuity units. Which of the following correctly describes the relationship between the two?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The number of annuity units is fixed at annuitization; the dollar value of each annuity unit fluctuates with the separate account's performance",
+        "explanation": "Correct. At annuitization, the accumulated value is converted into a fixed number of annuity units. This number never changes. However, the dollar value of each annuity unit rises or falls based on the separate account's investment performance relative to the assumed interest rate (AIR). The investor's monthly payment therefore varies."
+      },
+      {
+        "label": "B",
+        "text": "The number of annuity units the investor receives is adjusted monthly based on the separate account's performance",
+        "explanation": "Incorrect. Once annuitization occurs and annuity units are determined, the NUMBER of annuity units the investor holds remains fixed. It is the VALUE (dollar amount) of each annuity unit that changes."
+      },
+      {
+        "label": "C",
+        "text": "Both the number and the value of annuity units remain constant throughout the payout phase, providing a fixed payment",
+        "explanation": "Incorrect. If both the number and value were fixed, the product would function like a fixed annuity. A variable annuity's payout phase features variable payments that fluctuate with market performance."
+      },
+      {
+        "label": "D",
+        "text": "Accumulation units convert to annuity units on a 1-to-1 basis, so the investor holds the same number of units in both phases",
+        "explanation": "Incorrect. The conversion from accumulation units to annuity units is based on the annuity unit value at the time of annuitization and actuarial factors; it is not necessarily a 1-to-1 conversion."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The accumulation unit / annuity unit distinction is fundamental to variable annuity mechanics. During accumulation, both the number and value of units change as the investor makes contributions and the portfolio grows or declines. At annuitization, the accumulated value is converted to a fixed number of annuity units using the annuity unit value at that date and actuarial assumptions (life expectancy, payout option chosen, etc.). After annuitization, the number of units is locked in, but the dollar value of each unit varies monthly based on separate account performance versus the AIR. If actual performance exceeds the AIR, the payment rises; if below, it falls.",
+    "subtopic": "variable-annuity-basics",
+    "difficulty": "medium",
+    "source": "FINRA Series 6 content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-019",
+    "section": "variable-products",
+    "stem": "A variable annuity contract has an assumed interest rate (AIR) of 4%. In a given month, the separate account earns a net return of 3% annualized. What is the effect on the annuitant's monthly payment compared to the prior month?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The payment increases, because the separate account generated a positive return",
+        "explanation": "Incorrect. A positive return alone does not guarantee a payment increase. The return must exceed the AIR for the payment to increase. At 3% return vs. a 4% AIR, the payment actually decreases."
+      },
+      {
+        "label": "B",
+        "text": "The payment decreases, because the actual return (3%) was less than the AIR (4%)",
+        "explanation": "Correct. The AIR is the benchmark return built into the annuity unit value. When actual performance equals the AIR, the monthly payment stays flat. When actual performance exceeds the AIR, the payment increases. When actual performance falls short of the AIR (as here — 3% < 4%), the annuity unit value declines and the payment decreases. The annuitant bears this investment risk in a variable annuity."
+      },
+      {
+        "label": "C",
+        "text": "The payment remains the same, because the AIR is a floor below which the insurer guarantees no reduction",
+        "explanation": "Incorrect. The AIR is not a guarantee; it is a benchmark. Payments change based on whether actual returns exceed or fall short of the AIR."
+      },
+      {
+        "label": "D",
+        "text": "The payment is zero, because the insurer withholds distributions when returns fall below the AIR",
+        "explanation": "Incorrect. Payments are never withheld (except upon the annuitant's death in life-annuity contracts). When returns fall below the AIR, the payment simply decreases — it does not stop."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The AIR (Assumed Interest Rate) is a critical concept in variable annuity payout mechanics. It determines whether monthly payments go up, stay flat, or decline: actual return > AIR → payment increases; actual return = AIR → payment unchanged; actual return < AIR → payment decreases. A higher AIR results in higher initial payments but creates a steeper hurdle for future payments to remain stable. A lower AIR produces a smaller initial payment but is easier for the separate account to maintain or grow payments over time. Candidates should understand that the AIR is not a guarantee but a benchmark embedded in the annuity unit pricing formula.",
+    "subtopic": "variable-annuity-basics",
+    "difficulty": "medium",
+    "source": "FINRA Series 6 content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-020",
+    "section": "variable-products",
+    "stem": "Which variable annuity payout option provides the HIGHEST initial monthly payment but offers NO death benefit to the annuitant's beneficiaries?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Straight life annuity (life only)",
+        "explanation": "Correct. A straight life (life only) annuity pays the highest monthly amount because payments cease immediately upon the annuitant's death — there is no continuing benefit to heirs or a period certain guarantee. All mortality risk falls on the annuitant; if they die early, the insurer retains the balance. The annuity maximizes income for long-lived annuitants."
+      },
+      {
+        "label": "B",
+        "text": "Joint and 100% survivor annuity",
+        "explanation": "Incorrect. A joint and survivor annuity covers two lives and continues payments to the survivor after the first annuitant dies. Because it covers a longer expected payment period, the initial payment is lower than a straight life annuity."
+      },
+      {
+        "label": "C",
+        "text": "Life with 10-year period certain",
+        "explanation": "Incorrect. A life with period certain payout guarantees payments for the period certain (e.g., 10 years) even if the annuitant dies early, reducing the initial payment compared to a straight life annuity."
+      },
+      {
+        "label": "D",
+        "text": "Lump-sum distribution",
+        "explanation": "Incorrect. A lump-sum distribution is not a recurring monthly payment; it is a single withdrawal of the entire contract value. It is not categorized as an annuity payout option and would have different tax consequences."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Variable annuity payout options involve a tradeoff between payment amount and protection for beneficiaries. A straight life (life only) annuity provides the maximum possible monthly payment because the insurer ceases all payments upon the annuitant's death — surviving family members receive nothing further. Options that provide ongoing protection (period certain, joint and survivor) require the insurer to accept greater actuarial risk, so they pay lower monthly amounts to compensate. Choosing the right payout option is a critical suitability consideration for retirees.",
+    "subtopic": "annuity-payout-options",
+    "difficulty": "easy",
+    "source": "FINRA Series 6 content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-021",
+    "section": "variable-products",
+    "stem": "A 65-year-old retiree purchases a variable annuity and selects a joint and 50% survivor payout with his 60-year-old spouse as the co-annuitant. How will payments work under this arrangement?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Payments are made to both spouses simultaneously during their joint lifetimes; upon the primary annuitant's death, 50% of the original payment continues to the survivor for life",
+        "explanation": "Correct. Under a joint and 50% survivor payout: (1) full payments are made while both annuitants are living; (2) when the primary annuitant dies, the surviving spouse receives 50% of the original payment for the remainder of her life. This option provides lifelong income security for both spouses, though the initial payment is lower than a straight life annuity because it covers two lifetimes."
+      },
+      {
+        "label": "B",
+        "text": "Payments are split 50/50 between the two spouses during their joint lifetimes; full payments continue to the survivor upon the first death",
+        "explanation": "Incorrect. This confuses the structure. Full payments are made during the joint lifetime (not split), and it is only at the first death that the survivor receives a reduced (50%) payment."
+      },
+      {
+        "label": "C",
+        "text": "Payments cease upon the primary annuitant's death, and the surviving spouse receives a lump sum equal to 50% of the remaining contract value",
+        "explanation": "Incorrect. A joint and survivor annuity does not terminate at the first death or pay a lump sum. It continues periodic payments (at the reduced 50% rate) to the survivor for as long as the survivor lives."
+      },
+      {
+        "label": "D",
+        "text": "The 50% refers to the percentage of the account value, not the payment amount; the spouse receives a payment based on 50% of the NAV at the time of the primary annuitant's death",
+        "explanation": "Incorrect. Joint and survivor percentages refer to the percentage of the periodic payment that continues to the survivor — not a fraction of account value. Annuitized contracts no longer have a liquidation value after annuitization."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Joint and survivor annuities are designed to provide income for two lives. Under a joint and 50% survivor option, the annuity pays a full monthly amount while both co-annuitants are alive. When the primary annuitant dies, the surviving co-annuitant (the spouse) receives 50% of that original payment for the rest of her life. The '100% survivor' version pays the full original payment to the survivor, resulting in a lower initial payment than the 50% survivor version because the insurer faces greater expected total payout. These payout options are permanent, irrevocable elections typically made at annuitization.",
+    "subtopic": "annuity-payout-options",
+    "difficulty": "medium",
+    "source": "FINRA Series 6 content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-022",
+    "section": "variable-products",
+    "stem": "A 45-year-old investor withdraws $20,000 from a non-qualified variable annuity that currently has a total contract value of $85,000. The investor's cost basis in the contract is $60,000. How much of the withdrawal is taxable, and is any penalty owed?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "$20,000 is taxable as ordinary income; no penalty applies because the investor is over 40",
+        "explanation": "Incorrect. The penalty applies to withdrawals before age 59½, not age 40. Also, the taxable amount is determined by LIFO treatment, not whether the full $20,000 exceeds basis."
+      },
+      {
+        "label": "B",
+        "text": "$14,118 is taxable (pro-rata allocation of earnings), and a 10% penalty applies on the taxable portion",
+        "explanation": "Incorrect. Non-qualified annuities use LIFO tax treatment, not pro-rata. Pro-rata allocation is used for IRAs in some situations but not for non-qualified annuities. Under LIFO, earnings come out first."
+      },
+      {
+        "label": "C",
+        "text": "$20,000 is taxable as ordinary income, and a 10% penalty of $2,000 applies, because the investor is under age 59½",
+        "explanation": "Correct. Under LIFO (last in, first out) tax treatment for non-qualified annuities, withdrawals are presumed to come from earnings first, until all earnings are exhausted. Here, the contract has $25,000 in earnings ($85,000 value − $60,000 basis). The entire $20,000 withdrawal comes from earnings first (since $20,000 < $25,000 in earnings), so all $20,000 is ordinary taxable income. Additionally, because the investor is under age 59½, a 10% early withdrawal penalty of $2,000 applies."
+      },
+      {
+        "label": "D",
+        "text": "No amount is taxable because the $20,000 is within the investor's $60,000 cost basis",
+        "explanation": "Incorrect. LIFO treatment means the IRS assumes withdrawals come from the earnings layer (gain) first, not the cost basis. The investor cannot choose to withdraw basis first in a non-qualified annuity."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The tax treatment of non-qualified variable annuity withdrawals follows two key rules: (1) LIFO — earnings are deemed distributed first before return of basis; (2) withdrawals before age 59½ incur a 10% federal penalty on the taxable (earnings) portion. Contract earnings = $85,000 − $60,000 = $25,000. Since the $20,000 withdrawal is entirely within the $25,000 earnings layer, all $20,000 is ordinary income plus $2,000 penalty (10% of $20,000). This differs from qualified plans where the entire distribution is taxable. Gains are always ordinary income in annuities — not capital gains.",
+    "subtopic": "variable-annuity-taxation",
+    "difficulty": "hard",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "IRC Section 72",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-023",
+    "section": "variable-products",
+    "stem": "Which of the following statements about the tax treatment of variable annuity earnings is CORRECT?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Qualified distributions from a non-qualified variable annuity after age 59½ are taxed at long-term capital gains rates",
+        "explanation": "Incorrect. Variable annuity distributions are always taxed as ordinary income, never as long-term capital gains — regardless of how long the money was invested. This is a key disadvantage compared to taxable investment accounts."
+      },
+      {
+        "label": "B",
+        "text": "Variable annuity earnings are tax-exempt because the separate account is structured as a charitable trust",
+        "explanation": "Incorrect. Separate accounts are not charitable trusts. They are segregated accounts held by insurance companies. The tax deferral is a statutory benefit under the tax code, not a function of a charitable structure."
+      },
+      {
+        "label": "C",
+        "text": "All withdrawals from a variable annuity are tax-free because the investor already paid tax on the contributions",
+        "explanation": "Incorrect. While the cost basis is returned tax-free, the earnings have never been taxed. Those earnings are subject to ordinary income tax upon withdrawal."
+      },
+      {
+        "label": "D",
+        "text": "Contributions to a non-qualified variable annuity are made with after-tax dollars, and earnings grow tax-deferred until withdrawal",
+        "explanation": "Correct. Non-qualified annuities are funded with after-tax money — there is no upfront deduction. However, the earnings inside the contract are not taxed annually; they compound tax-deferred. When withdrawn, the earnings (gain) portion is taxed as ordinary income. The cost basis (already-taxed contributions) is returned tax-free."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Non-qualified variable annuity tax mechanics: contributions are after-tax (no deduction), earnings compound tax-deferred inside the contract, and upon withdrawal the earnings are taxed as ordinary income while the return of basis is tax-free. This combination — tax deferral with ordinary income taxation — makes variable annuities most beneficial for investors in high tax brackets during their working years who expect lower rates in retirement. The inability to access long-term capital gains rates on the earnings is a significant consideration when comparing annuities to taxable mutual fund investments.",
+    "subtopic": "variable-annuity-taxation",
+    "difficulty": "easy",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "IRC Section 72",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-024",
+    "section": "variable-products",
+    "stem": "In a variable life insurance policy, where are the policyholder's premium payments (net of charges) invested, and what is the primary risk the policyholder assumes?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Premiums are invested in the insurer's general account; the policyholder risks losing the guaranteed death benefit if the company becomes insolvent",
+        "explanation": "Incorrect. General account investment is the structure for whole life insurance, not variable life. In variable life, premiums are placed in a separate account."
+      },
+      {
+        "label": "B",
+        "text": "Premiums are split equally between the general account and a separate account; the policyholder bears no investment risk",
+        "explanation": "Incorrect. Variable life premiums are not split with the general account. All investment risk is borne by the policyholder; that is the defining characteristic of variable insurance."
+      },
+      {
+        "label": "C",
+        "text": "Premiums are invested in a separate account in subaccounts chosen by the policyholder; the primary risk is that poor investment performance will reduce the policy's cash value and potentially the death benefit",
+        "explanation": "Correct. In a variable life insurance policy, net premiums are allocated to a separate account containing investment subaccounts (stock, bond, money market funds) selected by the policyholder. Because the policyholder bears the investment risk, poor market performance can decrease the cash value. While variable life guarantees a minimum death benefit (the face amount), the actual death benefit can exceed the minimum if the separate account performs well."
+      },
+      {
+        "label": "D",
+        "text": "Premiums are deposited in a money market fund regulated by the SEC; the main risk is interest rate risk",
+        "explanation": "Incorrect. Policyholders can allocate premiums among various subaccount options (not just money market). The structure involves a separate account with multiple subaccounts, not a single money market fund."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Variable life insurance is a hybrid product combining a life insurance component with an investment component. Premiums (net of mortality charges and expenses) go into a separate account where the policyholder directs investments among available subaccounts. Key features: (1) guaranteed minimum death benefit (face amount) regardless of investment performance; (2) actual death benefit and cash value fluctuate with separate account performance; (3) policy loans are permitted against cash value; (4) surrender charges may apply in early years. Because it is a securities product, selling variable life requires both state insurance licensing and Series 6 (or 7) registration.",
+    "subtopic": "variable-life-insurance",
+    "difficulty": "easy",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "Securities Act of 1933; Investment Company Act of 1940",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-025",
+    "section": "variable-products",
+    "stem": "How does a variable life insurance policy differ from a whole life insurance policy with respect to the death benefit?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Variable life has no guaranteed death benefit; whole life guarantees the face amount regardless of investment results",
+        "explanation": "Incorrect. Variable life does have a guaranteed minimum death benefit equal to the face amount. The statement that variable life has no death benefit guarantee is incorrect."
+      },
+      {
+        "label": "B",
+        "text": "Variable life guarantees only a minimum death benefit (the face amount); the actual death benefit may be higher if separate account performance is strong, but cash value may decline with poor performance",
+        "explanation": "Correct. Variable life guarantees the face amount as a minimum death benefit — the insurer will pay at least this amount regardless of investment performance. However, if the separate account's performance exceeds a certain benchmark, the death benefit increases above the face amount. Conversely, the cash value (but not the minimum death benefit) can decline if investments perform poorly."
+      },
+      {
+        "label": "C",
+        "text": "Both variable and whole life guarantee a fixed death benefit; they differ only in how the cash value is invested",
+        "explanation": "Incorrect. Variable life's death benefit is not necessarily fixed — it can increase above the face amount if the separate account performs well. Whole life's death benefit is fixed at the face amount. The distinction is meaningful."
+      },
+      {
+        "label": "D",
+        "text": "Whole life provides no guaranteed death benefit, while variable life guarantees both the death benefit and a minimum cash value",
+        "explanation": "Incorrect. Whole life insurance does guarantee both the death benefit and a minimum cash value. Variable life guarantees the death benefit but does NOT guarantee a minimum cash value."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The death benefit comparison between variable and whole life: Whole life insurance guarantees both a fixed death benefit and a minimum cash value growth rate. Variable life insurance guarantees a minimum death benefit (the face amount) but does not guarantee cash value — the cash value rises and falls with the separate account's investment performance. This means the policyholder bears the investment risk for cash value but retains protection against total loss of the death benefit. If the cash value falls due to market losses, the insurer absorbs that risk to maintain the minimum death benefit, which is why mortality charges are higher in variable policies.",
+    "subtopic": "variable-life-insurance",
+    "difficulty": "medium",
+    "source": "FINRA Series 6 content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-026",
+    "section": "variable-products",
+    "stem": "A variable annuity contract owner wishes to borrow $10,000 against the accumulated cash value of a variable life insurance policy. Which of the following is TRUE regarding this policy loan?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The policy loan reduces the available death benefit by the outstanding loan balance, and the loaned amount earns only the loan interest rate rather than the subaccount performance",
+        "explanation": "Correct. When a policyholder takes a policy loan, the loan amount is removed from the separate account and held in the general account at the loan interest rate. This means the loaned amount no longer participates in subaccount (market) performance. Additionally, the outstanding loan balance reduces the death benefit payable to beneficiaries. If the policyholder dies with an outstanding loan, the death benefit is reduced by the loan amount."
+      },
+      {
+        "label": "B",
+        "text": "Policy loans from variable life insurance are taxable events because they constitute a withdrawal from a separate account",
+        "explanation": "Incorrect. Policy loans from life insurance policies — including variable life — are generally not taxable events as long as the policy remains in force. The loan is treated as a debt, not income."
+      },
+      {
+        "label": "C",
+        "text": "Policy loans must be repaid within 5 years or the policy is automatically lapsed by the insurer",
+        "explanation": "Incorrect. Policy loans do not have a mandatory repayment schedule. The policyholder may choose to repay on any schedule or not at all. However, if unpaid loan interest causes the loan balance to exceed the cash value, the policy may lapse, triggering a taxable event."
+      },
+      {
+        "label": "D",
+        "text": "Policy loans from variable life insurance require FINRA approval because they involve separate account assets",
+        "explanation": "Incorrect. FINRA does not approve individual policy loan transactions. Policy loans are governed by the insurance contract terms and state insurance regulations, not FINRA approval."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Policy loans from variable life insurance policies have several important characteristics: (1) not a taxable event while the policy is in force (it is a loan, not a distribution); (2) the loaned amount is transferred from the separate account to the general account, earning a fixed rate rather than the variable subaccount return; (3) the death benefit is reduced dollar-for-dollar by the outstanding loan balance; (4) if the policy lapses while a loan is outstanding, the loan balance becomes taxable income. Policyholders must be aware that large loans can significantly erode the death benefit and, if the cash value declines enough, could cause the policy to lapse.",
+    "subtopic": "variable-life-insurance",
+    "difficulty": "hard",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "IRC Section 7702",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-027",
+    "section": "variable-products",
+    "stem": "A variable annuity contract includes a Guaranteed Minimum Income Benefit (GMIB) rider. What protection does this rider provide?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "It guarantees that the contract owner's account value will never fall below the amount of premiums paid",
+        "explanation": "Incorrect. That describes a Guaranteed Minimum Accumulation Benefit (GMAB). The GMIB relates to the income phase, not the accumulation value floor."
+      },
+      {
+        "label": "B",
+        "text": "It allows the owner to withdraw a percentage of the benefit base each year for life without annuitizing the contract",
+        "explanation": "Incorrect. Annual lifetime withdrawals without annuitization describe a Guaranteed Minimum Withdrawal Benefit (GMWB) or a Guaranteed Lifetime Withdrawal Benefit (GLWB), not a GMIB. The GMIB requires annuitization to trigger the income guarantee."
+      },
+      {
+        "label": "C",
+        "text": "It guarantees that beneficiaries will receive at least the original premium paid if the annuitant dies before annuitization",
+        "explanation": "Incorrect. A death benefit guarantee protecting against loss of principal is a standard variable annuity death benefit feature (or an Enhanced Death Benefit rider), not a GMIB."
+      },
+      {
+        "label": "D",
+        "text": "It guarantees the owner a minimum stream of annuity income based on a benefit base (often the initial investment or a rolled-up value), regardless of actual account performance at annuitization",
+        "explanation": "Correct. A GMIB rider guarantees a minimum level of annuity income payments when the owner elects to annuitize the contract, regardless of the actual account value at that time. The benefit base used to calculate the guaranteed income may be the original premium, a 'ratchet' (highest anniversary value), or a roll-up (e.g., 5% annual growth on premiums). If the actual account value is higher, the owner can annuitize based on the actual value. The GMIB provides downside protection on income without forfeiting upside potential."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "GMIB (Guaranteed Minimum Income Benefit) riders protect against the risk that market losses will deplete the account value before annuitization, leaving the retiree with inadequate income. Under a GMIB, the insurer guarantees a minimum annuity payment based on a 'benefit base' (often growing at a contractual rate) rather than the actual account value. The owner must annuitize to use the GMIB, and there is often a waiting period (commonly 10 years). The rider is separate from and more expensive than the GMWB, which allows lifetime income without full annuitization.",
+    "subtopic": "annuity-riders",
+    "difficulty": "medium",
+    "source": "FINRA Series 6 content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-028",
+    "section": "variable-products",
+    "stem": "How does a Guaranteed Minimum Withdrawal Benefit (GMWB) rider on a variable annuity differ from a Guaranteed Minimum Income Benefit (GMIB) rider?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The GMWB protects only the death benefit, while the GMIB protects only living benefits during the accumulation phase",
+        "explanation": "Incorrect. Both the GMWB and GMIB are living benefit riders (they protect income during the owner's life). Neither is primarily a death benefit rider."
+      },
+      {
+        "label": "B",
+        "text": "The GMWB allows the owner to withdraw a specified percentage of the benefit base annually for life without annuitizing; the GMIB requires annuitization to receive the guaranteed income",
+        "explanation": "Correct. The GMWB (often called GLWB — Guaranteed Lifetime Withdrawal Benefit) permits the contract owner to withdraw a guaranteed annual percentage of the benefit base (e.g., 5%) for life without ever annuitizing the contract. The owner retains control of the account value. In contrast, the GMIB guarantees a minimum level of annuity income IF the owner chooses to annuitize, surrendering control of the account. The GMWB provides more flexibility but typically offers a lower guaranteed income amount."
+      },
+      {
+        "label": "C",
+        "text": "The GMWB and GMIB are functionally identical; they differ only in the insurance company's marketing terminology",
+        "explanation": "Incorrect. The two riders have meaningfully different structures, triggers, and benefits. The most fundamental difference is whether annuitization is required to access the guarantee."
+      },
+      {
+        "label": "D",
+        "text": "The GMIB is available only on qualified annuities, while the GMWB is available only on non-qualified annuities",
+        "explanation": "Incorrect. Both rider types can be attached to qualified or non-qualified variable annuity contracts. Availability depends on the specific insurance company and contract design, not whether the contract is qualified or non-qualified."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "This question tests the key structural distinction between two common living benefit riders. GMWB/GLWB: the owner withdraws a contractually guaranteed annual percentage (commonly 4–6%) of the benefit base for life; the contract remains in force; unused account value passes to heirs. GMIB: the owner must surrender the contract and annuitize to receive the guaranteed income stream; once annuitized, there is no remaining account value to pass to heirs. Clients who want lifetime income AND liquidity/legacy value typically prefer the GMWB structure, while those focused solely on maximizing guaranteed income may prefer GMIB.",
+    "subtopic": "annuity-riders",
+    "difficulty": "hard",
+    "source": "FINRA Series 6 content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-029",
+    "section": "customer-accounts",
+    "stem": "Under FINRA Rule 4512, which of the following pieces of information is REQUIRED to open a new customer account at a FINRA member firm?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The customer's net worth and annual income",
+        "explanation": "Incorrect. Financial information such as net worth and annual income is recommended (and important for suitability purposes) but is not specifically required by FINRA Rule 4512 for basic account opening."
+      },
+      {
+        "label": "B",
+        "text": "The customer's name, residential address, date of birth, and tax identification number",
+        "explanation": "Correct. FINRA Rule 4512 specifies the minimum required information for customer account records: customer name, residential address (or principal place of business for institutional accounts), date of birth (for non-institutional accounts), and tax ID number (Social Security Number for individuals). These are mandatory elements. Financial information and investment objectives are recommended but not strictly mandated by Rule 4512."
+      },
+      {
+        "label": "C",
+        "text": "The customer's investment objectives and risk tolerance",
+        "explanation": "Incorrect. Investment objectives are important for suitability analysis but are not listed as mandatory under FINRA Rule 4512's account opening requirements. They are recommended."
+      },
+      {
+        "label": "D",
+        "text": "The names and contact information of all immediate family members",
+        "explanation": "Incorrect. Family member contact information is not required under Rule 4512. Trusted contact person information is recommended under amended rules, but collecting all family member details is not required."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA Rule 4512 (Customer Account Information) mandates that member firms obtain and keep current specific minimum customer information. The four required fields are: (1) name; (2) residential address or principal place of business; (3) date of birth (for natural persons); and (4) tax identification number. Rule 4512 also recommends collecting employment status, annual income, net worth, investment objectives, and other financial data — but these are not absolute requirements for the basic account opening process, though they are essential for suitability analysis under Rule 2111.",
+    "subtopic": "new-account-requirements",
+    "difficulty": "easy",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "FINRA Rule 4512",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-030",
+    "section": "customer-accounts",
+    "stem": "A customer opens a Traditional IRA and contributes $7,000. The customer is 35 years old, has earned income of $50,000, and is not covered by a workplace retirement plan. What is the tax treatment of this contribution?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The $7,000 contribution is not deductible because the customer earns too much to contribute to a Traditional IRA",
+        "explanation": "Incorrect. There is no income limit on making Traditional IRA contributions (as long as the taxpayer has sufficient earned income). Income limits may affect deductibility if the taxpayer is covered by a workplace plan, but this customer is not."
+      },
+      {
+        "label": "B",
+        "text": "The $7,000 contribution is non-deductible, but qualified distributions in retirement are tax-free",
+        "explanation": "Incorrect. Tax-free qualified distributions describe a Roth IRA, not a deductible Traditional IRA. In a Traditional IRA, the deductible contribution generates a tax benefit now in exchange for taxable distributions later."
+      },
+      {
+        "label": "C",
+        "text": "The $7,000 contribution is fully deductible, and distributions in retirement will be taxed as ordinary income",
+        "explanation": "Correct. Because the customer has earned income exceeding the contribution amount and is NOT covered by a workplace retirement plan, the full $7,000 contribution is deductible regardless of income level. The investment grows tax-deferred, and distributions in retirement are taxed as ordinary income. This is the classic pre-tax IRA benefit."
+      },
+      {
+        "label": "D",
+        "text": "The contribution is deductible only up to the amount of the customer's investment income",
+        "explanation": "Incorrect. IRA contribution eligibility is based on earned income (wages, self-employment income), not investment income (dividends, interest). The customer's $50,000 in earned income more than satisfies the requirement."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Traditional IRA deductibility rules: if a taxpayer is NOT covered by a workplace retirement plan, contributions are fully deductible regardless of income. If the taxpayer IS covered by a workplace plan, the deduction phases out at higher incomes. In 2026, the contribution limit for individuals under 50 is $7,000 ($8,000 for those 50+). Deductible contributions reduce current taxable income; the deferral lasts until required minimum distributions must begin at age 73 (per the SECURE 2.0 Act). All distributions from deductible Traditional IRAs are taxed as ordinary income.",
+    "subtopic": "retirement-accounts",
+    "difficulty": "easy",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "IRC Section 219; SECURE 2.0 Act",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-031",
+    "section": "customer-accounts",
+    "stem": "Which of the following correctly describes the required minimum distribution (RMD) rules for Traditional and Roth IRAs?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Both Traditional and Roth IRAs require RMDs beginning at age 73",
+        "explanation": "Incorrect. The Roth IRA is unique in that the original account owner is never required to take distributions during their lifetime. RMDs are only required for Traditional IRAs (and certain inherited Roth IRAs)."
+      },
+      {
+        "label": "B",
+        "text": "Roth IRAs require RMDs at age 73 only if the account value exceeds $1 million",
+        "explanation": "Incorrect. There is no asset threshold for Roth IRA RMDs. The rule is simple: Roth IRA owners are never required to take distributions during their lifetime, regardless of account value."
+      },
+      {
+        "label": "C",
+        "text": "Neither Traditional nor Roth IRAs require RMDs because both are individual accounts exempt from distribution requirements",
+        "explanation": "Incorrect. Traditional IRAs absolutely require RMDs. Congress mandates RMDs from tax-advantaged accounts to ensure that tax-deferred savings eventually generate taxable income."
+      },
+      {
+        "label": "D",
+        "text": "Traditional IRAs require RMDs beginning at age 73; Roth IRAs do not require RMDs during the original owner's lifetime",
+        "explanation": "Correct. Under the SECURE 2.0 Act (effective for 2023 and beyond), the RMD beginning age for Traditional IRAs (and most qualified plans) was raised to 73. Roth IRAs are specifically exempt from RMDs during the account owner's lifetime — an important estate planning advantage. After the Roth IRA owner's death, beneficiaries are subject to RMD rules."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "RMD rules are a critical retirement planning distinction between Traditional and Roth IRAs. Traditional IRAs: RMDs must begin by April 1 of the year after the owner turns 73 (SECURE 2.0 Act raised this from 72). Failure to take RMDs triggers a 25% excise tax on the shortfall (reduced from 50% under SECURE 2.0). Roth IRAs: No RMDs required for the original owner during their lifetime. This allows tax-free growth to continue indefinitely and makes Roth IRAs excellent estate planning vehicles. After the owner's death, beneficiaries of both Traditional and Roth IRAs must take distributions under the 10-year rule (for most non-spouse beneficiaries).",
+    "subtopic": "retirement-accounts",
+    "difficulty": "medium",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "IRC Section 401(a)(9); SECURE 2.0 Act of 2022",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-032",
+    "section": "customer-accounts",
+    "stem": "A 28-year-old single teacher with a modified adjusted gross income of $75,000 wants to open a Roth IRA and make the maximum annual contribution. Based on current law, which of the following is accurate?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The teacher cannot contribute to a Roth IRA because she is an educator covered by a 403(b) plan at work",
+        "explanation": "Incorrect. Coverage by a workplace retirement plan (403(b), 401(k), etc.) does not disqualify a taxpayer from contributing to a Roth IRA. The only Roth IRA restriction based on workplace plan coverage applies to the deductibility of Traditional IRA contributions, not Roth contributions."
+      },
+      {
+        "label": "B",
+        "text": "The teacher may contribute the full $7,000 because her income is below the Roth IRA phase-out range for single filers",
+        "explanation": "Correct. In 2026, the Roth IRA phase-out for single filers begins at approximately $150,000 (MAGI). Since the teacher's income is $75,000, she is well below the phase-out range and may contribute the full $7,000 (the 2026 contribution limit for individuals under 50). There is also no restriction based on workplace plan participation."
+      },
+      {
+        "label": "C",
+        "text": "The teacher is limited to a $3,500 Roth IRA contribution because workplace 403(b) contributions reduce the IRA contribution limit",
+        "explanation": "Incorrect. Workplace plan contributions (401(k), 403(b)) and IRA contributions (Traditional or Roth) have separate, independent limits. Participating in a 403(b) does not reduce the IRA contribution limit."
+      },
+      {
+        "label": "D",
+        "text": "Roth IRA contributions are permitted but fully subject to income tax because the teacher has not reached age 59½",
+        "explanation": "Incorrect. Roth IRA contributions are always made with after-tax dollars — there is no additional tax when contributing. The tax treatment of distributions depends on age and account age (5-year rule), but contributions themselves are not taxed again."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Roth IRA eligibility is based solely on MAGI and earned income. The income phase-out for single filers in 2026 begins at approximately $150,000 and phases out completely at $165,000. At $75,000 MAGI, the teacher qualifies for the full $7,000 contribution. Critically, participation in a workplace plan (403(b) for school employees) has no effect on Roth IRA eligibility. This contrasts with Traditional IRA deductibility, which IS phased out at lower income thresholds for workplace plan participants. Also important: both Roth and Traditional IRA contribution limits are combined (you cannot contribute $7,000 to each — the $7,000 is the aggregate limit across all IRAs).",
+    "subtopic": "retirement-accounts",
+    "difficulty": "medium",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "IRC Section 408A",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-033",
+    "section": "customer-accounts",
+    "stem": "Which of the following correctly distinguishes a 401(k) plan from a 403(b) plan?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "401(k) plans are available to employees of for-profit companies; 403(b) plans are available to employees of tax-exempt organizations such as schools, nonprofits, and hospitals",
+        "explanation": "Correct. The primary distinction between 401(k) and 403(b) plans is the type of employer offering them. Section 401(k) of the Internal Revenue Code covers for-profit private sector employers. Section 403(b) — historically called tax-sheltered annuities (TSAs) — covers employees of tax-exempt organizations under IRC Section 501(c)(3), public schools, universities, hospitals, and certain ministers."
+      },
+      {
+        "label": "B",
+        "text": "401(k) contributions are after-tax; 403(b) contributions are pre-tax",
+        "explanation": "Incorrect. Both traditional 401(k) and 403(b) plans accept pre-tax contributions (reducing current taxable income). Both may also offer Roth options (after-tax). The tax treatment is not the differentiating factor."
+      },
+      {
+        "label": "C",
+        "text": "403(b) plans allow much higher contribution limits than 401(k) plans as a special incentive for public sector workers",
+        "explanation": "Incorrect. The elective deferral limits for 401(k) and 403(b) plans are the same under the IRC. Both share the same annual contribution limits (e.g., $23,500 in 2025, with catch-up contributions for those 50+)."
+      },
+      {
+        "label": "D",
+        "text": "401(k) plans require immediate vesting of all contributions; 403(b) plans allow vesting schedules of up to 10 years",
+        "explanation": "Incorrect. Vesting rules apply to employer contributions in both plan types, not employee elective deferrals (which vest immediately in all cases). Both plan types are subject to minimum vesting schedules under ERISA."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The 401(k) vs. 403(b) distinction is primarily one of sponsoring employer type. 401(k) plans: private for-profit companies. 403(b) plans: public schools, colleges and universities, 501(c)(3) nonprofits, hospitals, and certain churches/ministers. In terms of operation and tax treatment, they are nearly identical — both allow pre-tax employee deferrals, potential employer matching, tax-deferred growth, ordinary income taxation on distributions, early withdrawal penalties before 59½, and RMDs at 73. The practical distinction is employer eligibility, and the historical difference that 403(b) accounts were originally limited to annuity contracts (hence 'tax-sheltered annuity') while 401(k) accounts allowed mutual funds from the start.",
+    "subtopic": "qualified-plans",
+    "difficulty": "easy",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "IRC Sections 401(k) and 403(b); ERISA",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-034",
+    "section": "customer-accounts",
+    "stem": "An employee participates in a 401(k) plan with a 4-year graded vesting schedule. After 3 years of service, the employee resigns. Under the plan's vesting schedule (25% per year starting in year 2), what percentage of the employer's contributions is the employee entitled to keep?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "50%, based on 2 years of vesting credit under the graded schedule (25% in year 2, 25% in year 3)",
+        "explanation": "Correct. With a graded vesting schedule of 25% per year beginning in year 2: year 1 = 0%, year 2 = 25%, year 3 = 50%, year 4 = 75% (if the schedule is 4-year graded). After 3 years, the employee has earned vesting credit in years 2 and 3, totaling 50% of employer contributions. The remaining 50% is forfeited to the plan."
+      },
+      {
+        "label": "B",
+        "text": "100%, because all employer contributions vest immediately upon contribution",
+        "explanation": "Incorrect. Immediate vesting is an option employers may choose but is not the default. This question specifies a graded vesting schedule. Employee's own contributions always vest 100% immediately, but employer contributions follow the stated schedule."
+      },
+      {
+        "label": "C",
+        "text": "0%, because the employee did not complete 4 years of service",
+        "explanation": "Incorrect. Under a graded vesting schedule, partial vesting accrues over time. The employee does not need to complete the full vesting period to retain some employer contributions."
+      },
+      {
+        "label": "D",
+        "text": "75%, because ERISA requires at least 75% vesting after 3 years under any graded schedule",
+        "explanation": "Incorrect. ERISA minimum vesting standards require that graded vesting reach 100% no later than year 6 (under the 3-to-7 year schedule) or that cliff vesting occur no later than 3 years. The specific schedule described (25% per year starting year 2) is a 4-year graded schedule that reaches 50% at year 3."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "401(k) vesting rules distinguish between employee contributions (always 100% immediately vested) and employer contributions (subject to the plan's vesting schedule). Under the graded schedule described: Year 1 = 0%, Year 2 = 25%, Year 3 = 50%, Year 4 = 75% (plus additional years to reach 100%). After 3 years, the employee is 50% vested in employer contributions. ERISA sets minimum vesting standards but allows faster vesting. Employer match amounts that aren't vested are forfeited to the plan upon termination — often redistributed among remaining participants or used to reduce employer contributions.",
+    "subtopic": "qualified-plans",
+    "difficulty": "hard",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "IRC Section 401(a)(4); ERISA Section 203",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-035",
+    "section": "customer-accounts",
+    "stem": "Under FINRA Rule 2111, suitability has three components. Which answer correctly identifies all three?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Customer-specific suitability, portfolio-level suitability, and market-risk suitability",
+        "explanation": "Incorrect. 'Portfolio-level suitability' and 'market-risk suitability' are not components of Rule 2111. The rule uses specific terminology: reasonable-basis suitability, customer-specific suitability, and quantitative suitability."
+      },
+      {
+        "label": "B",
+        "text": "Product suitability, income suitability, and tax suitability",
+        "explanation": "Incorrect. These are not the three components of FINRA Rule 2111's suitability obligation. While tax considerations and income are factors in assessing suitability, they are inputs into customer-specific suitability, not separate components."
+      },
+      {
+        "label": "C",
+        "text": "Reasonable-basis suitability, customer-specific suitability, and quantitative suitability",
+        "explanation": "Correct. FINRA Rule 2111 identifies three distinct suitability obligations: (1) Reasonable-basis suitability — the representative must have a reasonable basis to believe the recommendation is suitable for at least some investors based on adequate research; (2) Customer-specific suitability — the representative must reasonably believe the recommendation is suitable for the specific customer based on that customer's profile; (3) Quantitative suitability — the representative must have reasonable grounds to believe that a series of recommended transactions is not excessive (even if each individual transaction is suitable)."
+      },
+      {
+        "label": "D",
+        "text": "Fiduciary suitability, disclosure suitability, and execution suitability",
+        "explanation": "Incorrect. 'Fiduciary suitability' conflates the FINRA suitability standard (which is not a fiduciary standard) with the SEC's Regulation Best Interest. 'Disclosure suitability' and 'execution suitability' are not FINRA Rule 2111 components."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "FINRA Rule 2111 (Suitability) requires that before making a recommendation, a registered representative must have a reasonable basis to believe the recommendation is suitable. The three components are: (1) Reasonable-basis: based on adequate diligence, the product is suitable for some customers; (2) Customer-specific: based on the particular customer's investment profile (age, financial situation, objectives, risk tolerance, time horizon, experience, tax status, liquidity needs), the product is suitable for this customer; (3) Quantitative: the overall level of activity in an account is not excessive relative to the customer's profile (this component targets churning). Note: Regulation Best Interest (Reg BI) imposes a higher 'best interest' standard for broker-dealer recommendations to retail customers.",
+    "subtopic": "suitability",
+    "difficulty": "medium",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "FINRA Rule 2111",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-036",
+    "section": "customer-accounts",
+    "stem": "A 72-year-old retired widow with a fixed pension, minimal risk tolerance, and a stated goal of capital preservation asks her registered representative for an investment recommendation. The representative recommends that she invest 70% of her liquid assets in an aggressive growth fund with high volatility. Which suitability obligation under FINRA Rule 2111 has most clearly been violated?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Reasonable-basis suitability, because aggressive growth funds are inherently unsuitable for all investors",
+        "explanation": "Incorrect. Reasonable-basis suitability asks whether the product is suitable for any investors — an aggressive growth fund may be suitable for young investors with long time horizons and high risk tolerance. The violation here is not that the product is unsuitable for all investors."
+      },
+      {
+        "label": "B",
+        "text": "Customer-specific suitability, because the recommendation contradicts the customer's profile (age, risk tolerance, and investment objective)",
+        "explanation": "Correct. Customer-specific suitability requires the representative to match the recommendation to the individual customer's investment profile. A 72-year-old widow with minimal risk tolerance and a capital preservation objective is clearly mismatched with an aggressive growth fund, which carries high volatility and prioritizes capital appreciation over preservation. The recommendation contradicts every relevant suitability factor."
+      },
+      {
+        "label": "C",
+        "text": "Quantitative suitability, because a single large purchase constitutes excessive trading",
+        "explanation": "Incorrect. Quantitative suitability addresses the cumulative level of trading activity (turnover, commissions as a percentage of assets) over time — it targets churning. A single transaction, even if unsuitable, is not an excessive trading violation."
+      },
+      {
+        "label": "D",
+        "text": "No suitability obligation is violated because the customer, as an adult, has the right to make her own investment decisions",
+        "explanation": "Incorrect. Customer autonomy is relevant when a customer insists on a trade against a representative's advice, but it does not relieve the representative of the obligation to make suitable recommendations. If the representative is the one recommending the unsuitable product, a violation exists."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Customer-specific suitability is the most commonly tested suitability component. The analysis requires examining the customer's full investment profile: age (72 — limited time to recover losses), financial situation (fixed pension, limited income growth potential), risk tolerance (minimal), investment objectives (capital preservation), and likely liquidity needs (retirees often need accessible funds for healthcare, living expenses). An aggressive growth fund with high volatility contradicts all of these factors. This is a textbook customer-specific suitability violation. FINRA and the SEC consistently prioritize this analysis in enforcement actions involving unsuitable recommendations to senior investors.",
+    "subtopic": "suitability",
+    "difficulty": "easy",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "FINRA Rule 2111",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-037",
+    "section": "customer-accounts",
+    "stem": "An investor has a 30-year time horizon, high income, and high risk tolerance. She is considering either a variable annuity or a low-cost index mutual fund. Which of the following suitability factors would most weigh AGAINST recommending the variable annuity?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Variable annuities do not allow equity subaccounts, making them unsuitable for high-risk-tolerance investors",
+        "explanation": "Incorrect. Variable annuities do offer equity subaccounts (domestic stock, international stock, sector funds). The lack of equity exposure is not a suitability concern here."
+      },
+      {
+        "label": "B",
+        "text": "The investor's 30-year time horizon is too short to benefit from a variable annuity",
+        "explanation": "Incorrect. A 30-year time horizon is actually one of the most favorable suitability factors for a variable annuity, as the tax deferral benefit compounds over many years. Short time horizons (not long ones) are typically a concern for variable annuity suitability."
+      },
+      {
+        "label": "C",
+        "text": "The investor already benefits from tax-advantaged accounts (IRA, 401(k)), and the variable annuity's higher costs may not be justified by additional tax deferral that is redundant",
+        "explanation": "Correct. One of the primary suitability concerns with variable annuities is cost — they carry higher expenses than comparable mutual funds (mortality and expense risk charges, administrative fees, rider charges). The main benefit of a variable annuity is tax-deferred growth. If the investor already maximizes tax-advantaged accounts (IRA, 401(k)), the additional tax deferral offered by a non-qualified variable annuity may provide minimal incremental benefit that does not justify the higher costs. FINRA guidance emphasizes that recommending a variable annuity inside an already-tax-advantaged account (e.g., IRA) is generally unsuitable."
+      },
+      {
+        "label": "D",
+        "text": "Variable annuities are illegal for investors under age 40",
+        "explanation": "Incorrect. There is no age restriction on purchasing variable annuities. The primary age concern is with elderly investors (due to long surrender charge periods and limited liquidity needs), not young investors."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A critical suitability consideration for variable annuities is whether the tax-deferral benefit is meaningful given the investor's overall financial picture. FINRA has specifically noted that recommending a variable annuity is potentially unsuitable when: (1) the investor already has ample tax-advantaged retirement savings; (2) the higher costs of the variable annuity (typically 1–2% more annually than comparable mutual funds) erode returns without commensurate benefit; (3) the investor does not need the insurance features (death benefit, guaranteed income riders). For this investor — already using her 401(k) and IRA — a low-cost index fund may deliver superior net returns because she can access market returns at a lower cost and still defer taxes in her existing retirement accounts.",
+    "subtopic": "suitability",
+    "difficulty": "hard",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "FINRA Rule 2111; FINRA Notice to Members 99-35",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-038",
+    "section": "regulations",
+    "stem": "A registered representative drafts a new brochure promoting a mutual fund and plans to mail it to 500 retail customers next week. Under FINRA Rule 2210, what must occur before the brochure can be distributed?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The brochure must be filed with the SEC and receive SEC approval before distribution",
+        "explanation": "Incorrect. FINRA Rule 2210 governs communications standards, not SEC pre-approval of each piece. Some FINRA filings are required (e.g., for investment company advertising), but approval comes from a registered principal, not the SEC."
+      },
+      {
+        "label": "B",
+        "text": "The brochure requires approval only if it makes specific return guarantees; general promotional materials are exempt",
+        "explanation": "Incorrect. Principal approval requirements apply to all retail communications, not only those containing guarantees. Content restrictions apply separately — but the approval requirement is not limited to any specific type of promotional claim."
+      },
+      {
+        "label": "C",
+        "text": "No pre-approval is required because the brochure is correspondence, which is exempt from prior principal review",
+        "explanation": "Incorrect. Correspondence under FINRA Rule 2210 refers to communications directed to 25 or fewer retail investors within 30 days. A 500-customer mailing far exceeds this threshold and is classified as a retail communication, not correspondence."
+      },
+      {
+        "label": "D",
+        "text": "The brochure must be approved in writing by a registered principal before first use",
+        "explanation": "Correct. Under FINRA Rule 2210(b), retail communications (broadly defined as any written communication distributed to or intended for more than 25 retail investors within 30 days) must be approved in writing by a registered principal before first use or distribution. A 500-person mailing is unambiguously a retail communication requiring principal pre-approval."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "FINRA Rule 2210 classifies communications into three categories with different approval requirements: (1) Retail communications (to more than 25 retail investors in 30 days): must be approved in writing by a registered principal before first use; some categories also require FINRA filing. (2) Correspondence (25 or fewer retail investors in 30 days): no pre-approval required, but firms must have supervisory procedures and spot-check correspondence. (3) Institutional communications (exclusively to institutional investors): no pre-approval required, but must be supervised. The 500-customer brochure is clearly retail communication requiring principal sign-off before mailing.",
+    "subtopic": "communications",
+    "difficulty": "easy",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "FINRA Rule 2210",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-039",
+    "section": "regulations",
+    "stem": "A registered representative posts an investment-related message on a public social media platform visible to all users. Under FINRA Rule 2210, this post is best categorized as which type of communication?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Retail communication, because it is accessible to more than 25 retail investors and therefore subject to principal pre-approval requirements",
+        "explanation": "Correct. FINRA specifically addressed social media in Regulatory Notice 17-18 and related guidance. A public social media post that is accessible to retail investors and reaches more than 25 retail investors within 30 days (which is virtually guaranteed for a public post) constitutes a retail communication under Rule 2210. This means it must be reviewed and approved by a registered principal before posting. Static content (like a promotional page) is pre-approved; interactive content (like responses to posts) may be treated as correspondence."
+      },
+      {
+        "label": "B",
+        "text": "Correspondence, because a social media post is a personal communication from the representative",
+        "explanation": "Incorrect. Correspondence is communication directed to 25 or fewer retail investors in a 30-day period. A public social media post is potentially visible to an unlimited number of retail investors simultaneously and does not qualify as correspondence."
+      },
+      {
+        "label": "C",
+        "text": "Institutional communication, because social media is primarily used by sophisticated investors",
+        "explanation": "Incorrect. Institutional communications are those directed exclusively to institutional investors (banks, broker-dealers, registered investment advisers, large entities, etc.). A public social media post is accessible to any retail investor and therefore cannot be categorized as institutional."
+      },
+      {
+        "label": "D",
+        "text": "The communication is exempt from FINRA Rule 2210 because social media is regulated by the FTC, not FINRA",
+        "explanation": "Incorrect. FINRA-registered representatives are subject to FINRA rules regardless of the medium used. Social media posts by registered persons are squarely within FINRA's jurisdiction and oversight."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "FINRA has extended its communications rules to all digital platforms. A public social media post is treated as retail communication (not correspondence) because it is accessible to more than 25 retail investors. This means it requires principal pre-approval before posting. FINRA guidance distinguishes between 'static' social media content (like a firm profile page — treated as advertising requiring approval) and 'interactive' or real-time posts (like individual responses, which may be treated as correspondence). However, proactive public posts visible to all users are categorically retail communications. Representatives should never post investment-related content to public social media without firm compliance pre-approval.",
+    "subtopic": "communications",
+    "difficulty": "medium",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "FINRA Rule 2210; FINRA Regulatory Notice 17-18",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-040",
+    "section": "regulations",
+    "stem": "Under the Bank Secrecy Act, a bank teller informs the compliance department that a customer completed two cash transactions totaling $12,000 in the same day — specifically, two separate $6,000 cash deposits. What are the firm's obligations?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "No reporting is required because neither individual transaction exceeded $10,000",
+        "explanation": "Incorrect. The Bank Secrecy Act's Currency Transaction Report (CTR) requirement includes rules against 'structuring.' If the firm suspects transactions were deliberately broken into smaller amounts to avoid the $10,000 threshold, a Suspicious Activity Report (SAR) is required — even if no single transaction exceeded $10,000."
+      },
+      {
+        "label": "B",
+        "text": "A Currency Transaction Report (CTR) must be filed because the combined transactions exceed $10,000",
+        "explanation": "Incorrect. CTRs are required for single cash transactions (or transactions treated as one under aggregation rules) exceeding $10,000. Aggregation applies to multiple transactions in a single day by the same person. If these are legitimately unrelated transactions, a CTR may be appropriate; however, the more significant issue is the suspicious pattern."
+      },
+      {
+        "label": "C",
+        "text": "A Suspicious Activity Report (SAR) should be filed if the firm suspects the transactions were structured to avoid the $10,000 CTR reporting threshold",
+        "explanation": "Correct. Structuring — intentionally breaking up transactions to avoid the $10,000 CTR threshold — is a federal crime under the Bank Secrecy Act. When a firm suspects structuring, it is required to file a Suspicious Activity Report (SAR) with FinCEN within 30 days. Importantly, the firm must NOT inform the customer that a SAR has been filed (the 'tipping off' prohibition). Two $6,000 deposits in the same day, especially if close in time, are a classic structuring pattern."
+      },
+      {
+        "label": "D",
+        "text": "The firm must freeze the customer's account immediately and notify law enforcement",
+        "explanation": "Incorrect. The Bank Secrecy Act requires reporting, not unilateral account freezing or direct law enforcement notification. Account freezing is a separate legal process. The correct response is to file a SAR and allow FinCEN/law enforcement to investigate."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The Bank Secrecy Act creates two key reporting tools for combating money laundering: (1) CTR: filed for cash transactions exceeding $10,000 in a single business day (by or on behalf of the same person); (2) SAR: filed for suspicious activity involving $5,000 or more that the firm suspects involves illegal activity, tax evasion, or violations of BSA. 'Structuring' — breaking up deposits to avoid the $10,000 threshold — is itself a crime and a classic SAR trigger. The SAR must be filed within 30 days of detecting suspicious activity, extended to 60 days if investigation is ongoing. The tipping-off prohibition means the subject of the SAR must not be informed.",
+    "subtopic": "anti-money-laundering",
+    "difficulty": "medium",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "Bank Secrecy Act; 31 U.S.C. 5313 (CTR); 31 U.S.C. 5318(g) (SAR)",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-041",
+    "section": "regulations",
+    "stem": "A new customer opens a brokerage account and declines to provide his Social Security number or any other government-issued identification. Under the Customer Identification Program (CIP) requirements of the USA PATRIOT Act, what must the firm do?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Open the account but file a Suspicious Activity Report within 30 days",
+        "explanation": "Incorrect. Simply opening an account with missing CIP information and filing a SAR later does not satisfy the CIP requirements. A SAR may be filed if activity is suspicious, but the CIP mandate requires identity verification before or at account opening, not after."
+      },
+      {
+        "label": "B",
+        "text": "Refuse to open the account, because the firm cannot satisfy its CIP obligation without minimum identity verification information",
+        "explanation": "Correct. The CIP rule (USA PATRIOT Act, Section 326; implemented in 31 CFR 1023.220) requires broker-dealers to collect, at minimum, the customer's name, date of birth, address, and identification number (tax ID / Social Security number for U.S. persons) before opening an account. The firm must verify this information from reliable documents or other sources. If a customer refuses to provide this information, the firm cannot satisfy its CIP obligation and must decline to open the account."
+      },
+      {
+        "label": "C",
+        "text": "Open the account provisionally and give the customer 30 days to provide identification",
+        "explanation": "Incorrect. While firms may open accounts before verifying identity under some circumstances, they must have written procedures for doing so and cannot indefinitely defer verification. If the customer refuses entirely to provide identification, the firm cannot maintain the account."
+      },
+      {
+        "label": "D",
+        "text": "Open the account but restrict it to mutual fund purchases only until the customer provides identification",
+        "explanation": "Incorrect. CIP requirements apply to all new accounts at a broker-dealer regardless of the products to be purchased. Restricting account activity to certain product types does not satisfy the CIP obligation or substitute for identity verification."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The Customer Identification Program (CIP) is a core element of a broker-dealer's AML program under the USA PATRIOT Act. CIP requires firms to collect and verify at minimum: name, date of birth, address, and identification number (SSN for U.S. individuals). If a customer refuses to provide this information, the firm cannot meet its legal obligation to verify identity and must decline to open the account. This is not optional — firms face regulatory sanctions for opening accounts without proper CIP documentation. The 'tipping off' restriction does not apply to declining to open an account, as no SAR has been filed at this stage.",
+    "subtopic": "anti-money-laundering",
+    "difficulty": "medium",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "USA PATRIOT Act Section 326; 31 CFR 1023.220; FINRA Rule 3310",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-042",
+    "section": "regulations",
+    "stem": "A registered representative recommends and executes transactions in a customer's account without the customer's prior knowledge or approval. The customer never gave the representative discretionary authority. What prohibited practice has most clearly occurred?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Churning, because the transactions were executed to generate commissions",
+        "explanation": "Incorrect. Churning specifically refers to excessive trading in an account relative to the customer's investment objectives and financial situation, motivated by the representative's desire to generate commissions. The key element here is that the transactions were unauthorized — the customer was not informed. The primary violation is unauthorized trading."
+      },
+      {
+        "label": "B",
+        "text": "Unauthorized trading, because the representative executed transactions without the customer's prior approval and without discretionary authority",
+        "explanation": "Correct. Unauthorized trading occurs when a registered representative executes transactions in a customer's account without the customer's authorization and without having been granted formal written discretionary authority. This is a serious violation of FINRA rules and securities law. Discretionary authority must be granted in writing by the customer before the representative can exercise judgment over account transactions."
+      },
+      {
+        "label": "C",
+        "text": "Selling away, because the representative conducted business outside the firm's approved product list",
+        "explanation": "Incorrect. Selling away refers to a registered representative engaging in private securities transactions not approved by or disclosed to the employing firm. The scenario describes unauthorized trading within a customer account, not selling away."
+      },
+      {
+        "label": "D",
+        "text": "Front-running, because the representative knew the customer's future intentions and traded ahead of them",
+        "explanation": "Incorrect. Front-running involves trading on advance knowledge of pending customer orders to profit from the anticipated price movement. The scenario involves no front-running element — the representative simply traded without authorization."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Unauthorized trading is a clear-cut violation of FINRA rules (Rule 2010 — Standards of Commercial Honor) and potentially securities fraud. To execute discretionary transactions in a customer's account, the representative must have: (1) express written authorization from the customer granting discretionary authority; and (2) principal approval of the discretionary account. Without these, every trade must be authorized by the customer before it is placed. Even if the representative believes the trades are in the customer's best interest, executing them without authorization is prohibited. This violation can result in customer complaints, regulatory sanctions, suspension, or license revocation.",
+    "subtopic": "prohibited-practices",
+    "difficulty": "easy",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "FINRA Rule 2010; FINRA Rule 3260",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-043",
+    "section": "regulations",
+    "stem": "A registered representative employed at a broker-dealer begins offering interests in a private real estate limited partnership to select clients. The representative has not disclosed this activity to or received approval from her employing firm. What violation has most likely occurred?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Unauthorized trading, because the representative is executing transactions on behalf of customers",
+        "explanation": "Incorrect. Unauthorized trading involves executing trades in a customer's account without the customer's consent. Selling interests in outside investments without firm knowledge and approval is a different violation called 'selling away.'"
+      },
+      {
+        "label": "B",
+        "text": "Churning, because private partnerships generate high commissions that incentivize excessive recommendations",
+        "explanation": "Incorrect. Churning is the excessive trading of a customer's account to generate commissions. The scenario involves private transactions outside the firm, not excessive trading within a firm-approved account."
+      },
+      {
+        "label": "C",
+        "text": "No violation, because registered representatives are free to conduct personal investment activities outside business hours",
+        "explanation": "Incorrect. FINRA rules govern securities activities by registered representatives, not just activities conducted during firm business hours. Selling interests in any securities transaction while registered requires firm notification and approval, regardless of timing."
+      },
+      {
+        "label": "D",
+        "text": "Selling away (private securities transaction), because the representative is conducting securities transactions not approved by or disclosed to the employing firm",
+        "explanation": "Correct. 'Selling away' refers to a registered representative engaging in private securities transactions — selling or attempting to sell securities that are outside the scope of their employment relationship with their member firm — without prior written approval. FINRA Rule 3280 requires representatives to notify their firm in writing before participating in any private securities transaction. Failure to do so is selling away, a serious violation that can result in customer harm and significant regulatory sanctions."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Selling away (private securities transactions) is a significant compliance risk for broker-dealers. FINRA Rule 3280 requires any registered person who proposes to participate in a private securities transaction to provide prior written notice to the employing member, describing the transaction and the rep's role. If the rep will receive compensation, the firm must approve and supervise the transaction as if it were firm business. The rule protects customers by ensuring oversight and protects firms from undetected liability. Common selling away schemes involve private placements, real estate deals, promissory notes, and Ponzi schemes. Violations can lead to termination, industry bar, and criminal prosecution.",
+    "subtopic": "prohibited-practices",
+    "difficulty": "medium",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "FINRA Rule 3280",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s6-044",
+    "section": "regulations",
+    "stem": "A registered representative consistently recommends high-commission products to retired clients who have stated they need conservative, income-producing investments. Over 18 months, the representative generates 40% annual portfolio turnover at commission rates of 3% per trade. The customers' portfolios have underperformed comparable income benchmarks by 8% per year. Which prohibited practice is BEST illustrated by these facts?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Selling away, because the representative is directing clients to unapproved products",
+        "explanation": "Incorrect. Selling away involves conducting securities transactions outside the firm's approved structure without firm knowledge. The scenario describes in-firm trading of commission products, not external private transactions."
+      },
+      {
+        "label": "B",
+        "text": "Churning, because the representative is excessively trading accounts to generate commissions at the clients' expense",
+        "explanation": "Correct. Churning involves excessive trading in a customer's account primarily to generate commissions, without regard to the customer's investment objectives. Key indicators are present: (1) high turnover rate (40% annualized is significant for conservative income accounts); (2) high commission-generating products inconsistent with client objectives; (3) material underperformance relative to appropriate benchmarks. The pattern suggests the primary motivation is commission generation, not client benefit. Churning violates FINRA Rules 2010 and 2111 and may violate Section 10(b) of the Securities Exchange Act and Rule 10b-5."
+      },
+      {
+        "label": "C",
+        "text": "Unauthorized trading, because the clients did not specifically authorize each transaction",
+        "explanation": "Incorrect. If the clients are approving each trade (even reluctantly following the representative's unsuitable recommendations), the trades are authorized. Unauthorized trading requires that transactions be executed without any client consent. Churning may involve transactions the client nominally approved but was manipulated into approving."
+      },
+      {
+        "label": "D",
+        "text": "Front-running, because the representative is prioritizing personal gain over client investment returns",
+        "explanation": "Incorrect. Front-running specifically involves trading personal or firm accounts ahead of large customer orders to profit from anticipated price moves. Personal enrichment at a client's expense describes churning (or unsuitable recommendations), not front-running, which requires advance knowledge of pending customer orders."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Churning is one of the most serious customer-harm violations in the securities industry. To establish churning, regulators typically examine: (1) control — did the representative effectively control the account (even without formal discretion, through persuasion or dominance)?; (2) excessive trading — was turnover excessive relative to the client's objectives and resources?; (3) intent — was the primary motivation commission generation rather than client benefit? Common metrics used include annual turnover ratio (portfolio value traded / average account value) and the 'cost-to-equity ratio' (total commissions / average account value). A turnover rate of 2x per year or above in conservative accounts, and cost-to-equity ratios above 5%, are often cited as red flags. Churning violates FINRA Rules 2010 (Standards of Commercial Honor) and 2111 (Suitability), as well as SEC Rule 10b-5.",
+    "subtopic": "prohibited-practices",
+    "difficulty": "hard",
+    "source": "FINRA Series 6 content outline",
+    "regulatoryBasis": "FINRA Rules 2010 and 2111; SEC Rule 10b-5; Securities Exchange Act Section 10(b)",
+    "lastVerified": "2026-05-20"
+  }
+]

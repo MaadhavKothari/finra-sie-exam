@@ -1,0 +1,794 @@
+[
+  {
+    "id": "q-s63-001",
+    "section": "state-securities-law",
+    "stem": "Under the Uniform Securities Act, a state securities administrator has jurisdiction over an offer to sell securities when:",
+    "choices": [
+      {"label": "A", "text": "The offer is made in the state OR received in the state", "explanation": "Correct. The USA grants jurisdiction whenever an offer originates from or is directed into the state, covering both sides of the communication."},
+      {"label": "B", "text": "The issuer is incorporated in that state", "explanation": "Incorrect. State of incorporation does not by itself confer jurisdiction over an offer; jurisdiction is based on where the offer is made or received."},
+      {"label": "C", "text": "The buyer is physically present in the state at the time of purchase", "explanation": "Incorrect. Jurisdiction attaches at the offer stage, not just at the purchase stage, and is based on where the offer is made or received, not solely the buyer's location."},
+      {"label": "D", "text": "The securities are traded on an exchange located in the state", "explanation": "Incorrect. Exchange location is not a basis for state jurisdiction under the Uniform Securities Act offer-made-or-received standard."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "Under the Uniform Securities Act, a state has jurisdiction whenever an offer to sell or buy is made in the state or is directed to and received in the state. This dual basis ensures comprehensive coverage.",
+    "subtopic": "administrator-powers",
+    "difficulty": "easy",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 414",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-002",
+    "section": "state-securities-law",
+    "stem": "A state securities administrator suspects that a broker-dealer is engaging in fraudulent activities. Which of the following actions may the administrator take WITHOUT holding a prior hearing?",
+    "choices": [
+      {"label": "A", "text": "Revoke the broker-dealer's registration permanently", "explanation": "Incorrect. Permanent revocation requires notice and an opportunity for a hearing before the order becomes effective."},
+      {"label": "B", "text": "Impose civil penalties of up to $5,000 per violation", "explanation": "Incorrect. Imposing civil penalties requires formal administrative or judicial proceedings, not unilateral summary action."},
+      {"label": "C", "text": "Issue a cease-and-desist order on an emergency basis", "explanation": "Correct. The administrator may issue a summary (emergency) cease-and-desist order without prior notice when necessary to protect the public, subject to a prompt post-order hearing."},
+      {"label": "D", "text": "Publish the names of all the broker-dealer's clients", "explanation": "Incorrect. The administrator has no authority to publish client names as an enforcement action; this would also implicate privacy concerns."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "Under the Uniform Securities Act, administrators may issue summary cease-and-desist orders on an emergency basis without a prior hearing when needed to protect investors. A post-order hearing must be made available promptly upon request.",
+    "subtopic": "administrator-powers",
+    "difficulty": "medium",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 408(c)",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-003",
+    "section": "state-securities-law",
+    "stem": "The state securities administrator issues a subpoena to a broker-dealer located in another state to obtain records related to transactions that occurred in the administrator's state. Which of the following best describes the administrator's authority in this situation?",
+    "choices": [
+      {"label": "A", "text": "The administrator may conduct investigations and issue subpoenas related to activities affecting the state, including subpoenas to out-of-state persons", "explanation": "Correct. The Uniform Securities Act authorizes the administrator to investigate and issue subpoenas to any person, including those outside the state, if the conduct relates to securities activities affecting the state."},
+      {"label": "B", "text": "The administrator has no authority to subpoena an out-of-state entity", "explanation": "Incorrect. The Uniform Securities Act extends investigative authority beyond the state's borders when the conduct affects in-state transactions."},
+      {"label": "C", "text": "The administrator may only subpoena the local office of the broker-dealer", "explanation": "Incorrect. The administrator's subpoena power is not limited to local offices; it can reach the entity wherever it operates when in-state activities are involved."},
+      {"label": "D", "text": "The administrator must obtain a federal court order before subpoenaing an out-of-state entity", "explanation": "Incorrect. State administrators can issue subpoenas under their own statutory authority; federal court involvement is not a prerequisite."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Uniform Securities Act grants the administrator broad investigative powers including the ability to issue subpoenas to persons located outside the state when the investigation concerns activities that affected the administrator's state.",
+    "subtopic": "administrator-powers",
+    "difficulty": "medium",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 406",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-004",
+    "section": "state-securities-law",
+    "stem": "A state administrator denies a registration application from an investment adviser. Which of the following procedural rights is the applicant entitled to under the Uniform Securities Act?",
+    "choices": [
+      {"label": "A", "text": "The right to a hearing before the order becomes final, upon written request", "explanation": "Correct. Under the Uniform Securities Act, any person affected by an administrative order is entitled to a hearing before the order becomes final, provided they make a timely written request."},
+      {"label": "B", "text": "Automatic approval if the administrator does not act within 30 days", "explanation": "Incorrect. Failure to act does not result in automatic approval; the administrator has a defined review period and can request additional information."},
+      {"label": "C", "text": "The right to appeal directly to a federal district court", "explanation": "Incorrect. Appeals from state administrator orders go to state courts, not federal district courts, unless a federal question is involved."},
+      {"label": "D", "text": "The right to a hearing only if the denial was based on fraud", "explanation": "Incorrect. The right to a hearing is not limited to fraud-based denials; it applies to all final adverse orders."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Uniform Securities Act requires that the administrator provide notice and an opportunity for a hearing before any order denying, suspending, or revoking a registration becomes final. The applicant must make a written request for the hearing.",
+    "subtopic": "administrator-powers",
+    "difficulty": "easy",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 408",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-005",
+    "section": "state-securities-law",
+    "stem": "Under the Uniform Securities Act, which of the following civil penalties may a court impose on a person who willfully violates the Act?",
+    "choices": [
+      {"label": "A", "text": "Up to $2,500 per violation", "explanation": "Incorrect. The civil penalty maximum under the Uniform Securities Act is higher than $2,500 per violation."},
+      {"label": "B", "text": "Up to $10,000 per violation", "explanation": "Incorrect. While $10,000 is close, the standard maximum civil penalty cited in the Uniform Securities Act model is $5,000 per violation in most state adoptions."},
+      {"label": "C", "text": "Up to $5,000 per violation", "explanation": "Correct. The Uniform Securities Act provides for civil penalties of up to $5,000 per violation, in addition to potential criminal penalties for willful violations."},
+      {"label": "D", "text": "No civil penalty; only criminal prosecution is available", "explanation": "Incorrect. The Uniform Securities Act provides for both civil and criminal remedies; civil penalties are a distinct enforcement tool."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "The Uniform Securities Act authorizes civil penalties of up to $5,000 per violation. Willful violations may also result in criminal prosecution with fines up to $5,000, imprisonment up to three years, or both.",
+    "subtopic": "administrator-powers",
+    "difficulty": "easy",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 408",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-006",
+    "section": "state-securities-law",
+    "stem": "An issuer wishes to register securities in a state by coordinating its registration with a concurrent SEC registration. This method is known as registration by:",
+    "choices": [
+      {"label": "A", "text": "Qualification, because the state independently reviews all registration documents", "explanation": "Incorrect. Registration by qualification is used when securities are not being simultaneously registered with the SEC; the state performs a full merit review."},
+      {"label": "B", "text": "Notification, because federally covered securities only need a notice filing", "explanation": "Incorrect. Registration by notification (notice filing) applies to federally covered securities under the NSMIA, not to new SEC-registered offerings coordinating state registration."},
+      {"label": "C", "text": "Coordination, because the state registration becomes effective when the federal registration becomes effective", "explanation": "Correct. Registration by coordination applies when an issuer concurrently files with the SEC. State registration becomes effective simultaneously with the federal registration, streamlining the process."},
+      {"label": "D", "text": "Reciprocity, because other states automatically accept the SEC's approval", "explanation": "Incorrect. There is no 'registration by reciprocity' method under the Uniform Securities Act; coordination is distinct from automatic reciprocal acceptance."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "Registration by coordination allows issuers registering securities with the SEC to simultaneously register in states. The state registration becomes automatically effective when the federal registration goes effective, reducing duplicate administrative burdens.",
+    "subtopic": "registration-of-securities",
+    "difficulty": "easy",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 303",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-007",
+    "section": "state-securities-law",
+    "stem": "A small startup company wants to offer securities in a single state and is NOT registering with the SEC. Which registration method must the company use?",
+    "choices": [
+      {"label": "A", "text": "Registration by qualification", "explanation": "Correct. Registration by qualification is the catch-all method available to issuers that are not concurrently filing with the SEC. The state performs a full review of the offering."},
+      {"label": "B", "text": "Registration by coordination", "explanation": "Incorrect. Registration by coordination requires a concurrent SEC registration filing, which this company is not pursuing."},
+      {"label": "C", "text": "Registration by notification", "explanation": "Incorrect. Registration by notification (or notice filing) applies to federally covered securities, which this intrastate startup offering is not."},
+      {"label": "D", "text": "No registration is required because it is a single-state offering", "explanation": "Incorrect. A single-state (intrastate) offering does not automatically exempt the securities from state registration; the issuer must register by qualification unless a specific exemption applies."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "Registration by qualification is the method used when an issuer is not concurrently registering with the SEC. The state reviews the complete registration statement independently and approves the offering on its own merits.",
+    "subtopic": "registration-of-securities",
+    "difficulty": "easy",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 304",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-008",
+    "section": "state-securities-law",
+    "stem": "A federally covered security under the National Securities Markets Improvement Act (NSMIA) is sold in State X. What is the state's role regarding registration of that security?",
+    "choices": [
+      {"label": "A", "text": "The state may require only a notice filing and payment of fees", "explanation": "Correct. For federally covered securities, states are preempted from requiring full registration but may require a notice filing (registration by notification) and a fee as a condition of sale."},
+      {"label": "B", "text": "The state must conduct a full merit review before the security can be sold", "explanation": "Incorrect. NSMIA preempts state merit review for federally covered securities; states cannot impose substantive registration requirements."},
+      {"label": "C", "text": "The state has no authority whatsoever over federally covered securities", "explanation": "Incorrect. While states cannot require substantive registration, they retain anti-fraud authority and may require notice filings and fees."},
+      {"label": "D", "text": "The state may impose additional disclosure requirements beyond those required by the SEC", "explanation": "Incorrect. NSMIA preempts states from imposing disclosure requirements beyond federal law for federally covered securities."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "NSMIA preempts state registration requirements for federally covered securities (e.g., exchange-listed securities, investment company shares). However, states may require notice filings and collect fees, and retain full anti-fraud enforcement authority.",
+    "subtopic": "registration-of-securities",
+    "difficulty": "medium",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 302; NSMIA Section 18",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-009",
+    "section": "state-securities-law",
+    "stem": "Under the Uniform Securities Act, an administrator may require that advertising materials for registered securities be filed with the state. This requirement applies to:",
+    "choices": [
+      {"label": "A", "text": "No securities, because advertising regulation is exclusively a federal responsibility", "explanation": "Incorrect. States retain authority to regulate advertising for state-registered securities offerings."},
+      {"label": "B", "text": "Only federally covered securities", "explanation": "Incorrect. For federally covered securities, states have limited authority and generally cannot impose advertising filing requirements beyond those permitted by NSMIA."},
+      {"label": "C", "text": "Securities registered in the state, as the administrator may require filing of advertising materials", "explanation": "Correct. For securities registered in the state (by coordination or qualification), the administrator may require that advertising materials be filed before or concurrent with their use."},
+      {"label": "D", "text": "Only securities registered by qualification", "explanation": "Incorrect. The administrator's authority to require advertising filing is not limited to securities registered by qualification; it can extend to all state-registered offerings."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "The Uniform Securities Act permits state administrators to require that issuers file advertising and sales literature materials in connection with securities registered in the state, giving the administrator oversight of marketing practices.",
+    "subtopic": "registration-of-securities",
+    "difficulty": "medium",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 305",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-010",
+    "section": "state-securities-law",
+    "stem": "Which of the following statements correctly describes registration by coordination under the Uniform Securities Act?",
+    "choices": [
+      {"label": "A", "text": "It is available only to issuers that have previously registered securities under the Securities Act of 1933", "explanation": "Incorrect. Registration by coordination is available to any issuer simultaneously filing a registration statement with the SEC under the 1933 Act, not just prior registrants."},
+      {"label": "B", "text": "The state registration automatically becomes effective at the same time as the federal registration, provided no stop order is in effect", "explanation": "Correct. Under registration by coordination, the state registration becomes effective concurrently with the SEC registration, as long as the administrator has not issued a stop order and certain conditions are met."},
+      {"label": "C", "text": "The state administrator must affirmatively approve the registration before it can become effective", "explanation": "Incorrect. Unlike registration by qualification, coordination does not require affirmative state approval; effectiveness is tied to the federal registration effective date."},
+      {"label": "D", "text": "It requires filing only a brief notice with the state rather than a full registration statement", "explanation": "Incorrect. Registration by coordination requires filing substantially the same documents filed with the SEC, plus any additional items the administrator requires."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "In registration by coordination, the state registration becomes effective concurrently with the SEC registration provided the administrator has not issued a stop order and the required waiting period has elapsed with no deficiency order outstanding.",
+    "subtopic": "registration-of-securities",
+    "difficulty": "medium",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 303(d)",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-011",
+    "section": "state-securities-law",
+    "stem": "Which of the following securities is exempt from state registration requirements under the Uniform Securities Act?",
+    "choices": [
+      {"label": "A", "text": "US government bonds issued by the Department of the Treasury", "explanation": "Correct. US government securities are explicitly exempt from state registration under the Uniform Securities Act because of their inherent safety and federal backing."},
+      {"label": "B", "text": "Securities of a small private company that has never registered with the SEC", "explanation": "Incorrect. Securities of small private companies are generally not exempt from state registration; they must register or qualify for a specific exemption."},
+      {"label": "C", "text": "Common stock of a foreign corporation listed only on a foreign exchange", "explanation": "Incorrect. Foreign securities not traded on a US exchange do not automatically qualify for exempt security status under state law."},
+      {"label": "D", "text": "Corporate bonds rated investment grade by Moody's", "explanation": "Incorrect. Investment-grade corporate bonds are not categorically exempt from state registration requirements without meeting specific criteria."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "US government securities (Treasury bills, notes, and bonds) are among the enumerated exempt securities under the Uniform Securities Act because they are backed by the full faith and credit of the United States government.",
+    "subtopic": "exempt-securities",
+    "difficulty": "easy",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 402(a)",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-012",
+    "section": "state-securities-law",
+    "stem": "An investor purchases shares in a registered open-end investment company (mutual fund). The anti-fraud provisions of the Uniform Securities Act:",
+    "choices": [
+      {"label": "A", "text": "Do not apply because mutual fund shares are federally covered exempt securities", "explanation": "Incorrect. Exempt securities are NOT exempt from anti-fraud provisions. The anti-fraud provisions of the Uniform Securities Act apply to all securities transactions, including those involving exempt securities."},
+      {"label": "B", "text": "Apply only if the adviser recommending the mutual fund is registered in the state", "explanation": "Incorrect. The application of anti-fraud provisions does not depend on the registration status of the recommending party."},
+      {"label": "C", "text": "Apply only if the mutual fund is registered in the state where the sale occurs", "explanation": "Incorrect. Anti-fraud provisions apply regardless of whether the security itself is subject to state registration."},
+      {"label": "D", "text": "Apply to this transaction because anti-fraud provisions cover all securities transactions regardless of registration or exempt status", "explanation": "Correct. The anti-fraud provisions of the Uniform Securities Act apply broadly to ALL persons in connection with ALL securities transactions, regardless of whether the securities are registered, exempt, or federally covered."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "A critical principle under the Uniform Securities Act is that exempt securities and exempt transactions are exempt from registration requirements ONLY — not from anti-fraud provisions. Anti-fraud rules apply universally to all securities transactions.",
+    "subtopic": "exempt-securities",
+    "difficulty": "medium",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 101, 402",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-013",
+    "section": "state-securities-law",
+    "stem": "Which of the following is considered an exempt security under the Uniform Securities Act?",
+    "choices": [
+      {"label": "A", "text": "Common stock of a corporation whose shares are traded over the counter", "explanation": "Incorrect. OTC-traded corporate stock is not categorically exempt; it must be registered or qualify for an exemption."},
+      {"label": "B", "text": "A municipal bond issued by the City of Springfield", "explanation": "Correct. Municipal securities issued by state and local governments are exempt securities under the Uniform Securities Act."},
+      {"label": "C", "text": "A mortgage-backed security issued by a private bank", "explanation": "Incorrect. Private-label mortgage-backed securities do not automatically qualify as exempt securities under the Uniform Securities Act."},
+      {"label": "D", "text": "Shares of a limited partnership engaged in oil and gas exploration", "explanation": "Incorrect. Oil and gas limited partnership interests are not categorically exempt; they are subject to state registration requirements."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "Municipal (governmental) securities issued by states, cities, counties, and other governmental units are explicitly listed as exempt securities under the Uniform Securities Act, along with US government securities and securities issued by banks.",
+    "subtopic": "exempt-securities",
+    "difficulty": "easy",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 402(a)(2)",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-014",
+    "section": "state-securities-law",
+    "stem": "A national bank issues its own common stock to the public. Under the Uniform Securities Act, this stock is:",
+    "choices": [
+      {"label": "A", "text": "Required to register by qualification in every state where it is sold", "explanation": "Incorrect. Securities issued by a bank (federally chartered or state-chartered bank supervised by a banking regulator) are exempt from state securities registration."},
+      {"label": "B", "text": "Exempt from state registration because bank securities are enumerated exempt securities", "explanation": "Correct. Securities issued by banks (national or state banks supervised by federal or state banking authorities) are exempt from registration under the Uniform Securities Act."},
+      {"label": "C", "text": "A federally covered security that requires only a notice filing", "explanation": "Incorrect. Bank securities are exempt securities, not federally covered securities. They do not require even a notice filing for the securities themselves."},
+      {"label": "D", "text": "Subject to anti-fraud provisions but not registration because the SEC exempts all bank stock", "explanation": "Incorrect. While bank securities are exempt from state registration, the reason is that they are enumerated exempt securities under state law, not because the SEC exempts them."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "Securities issued by banks (institutions subject to supervision by banking authorities) are enumerated exempt securities under the Uniform Securities Act. They are not subject to state registration requirements, though anti-fraud provisions still apply.",
+    "subtopic": "exempt-securities",
+    "difficulty": "medium",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 402(a)(3)",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-015",
+    "section": "state-securities-law",
+    "stem": "Under the Uniform Securities Act, which of the following transactions qualifies as an exempt transaction?",
+    "choices": [
+      {"label": "A", "text": "An unsolicited order from a customer asking their broker to purchase a specific security", "explanation": "Correct. Unsolicited transactions (where the customer, not the broker, initiates the purchase) are exempt transactions because the broker is merely executing a customer-directed order."},
+      {"label": "B", "text": "A sale of securities to 15 non-institutional investors during a 12-month period", "explanation": "Incorrect. The private placement exemption under the Uniform Securities Act is limited to offers to no more than 10 non-institutional persons in a 12-month period; 15 investors exceeds this limit."},
+      {"label": "C", "text": "A cold-call solicitation to a high-net-worth individual", "explanation": "Incorrect. Cold-call solicitations are solicited transactions, not unsolicited; they do not qualify for the unsolicited transaction exemption."},
+      {"label": "D", "text": "A sale of securities to 12 institutional investors in a single transaction", "explanation": "Incorrect. While transactions with institutional investors are exempt, the framing of this answer introduces a number distractor; the exemption applies to any single transaction with an institutional investor regardless of how many institutional investors are involved."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "Unsolicited brokerage transactions — where a customer directs their broker to execute a transaction without broker recommendation — are exempt transactions under the Uniform Securities Act. The key is that the customer initiates the order.",
+    "subtopic": "exempt-transactions",
+    "difficulty": "easy",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 402(b)(2)",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-016",
+    "section": "state-securities-law",
+    "stem": "An issuer offers securities to 8 non-institutional investors and 6 institutional investors in a state during a 12-month period, with no general solicitation or advertising. Under the Uniform Securities Act private placement exemption, this offering is:",
+    "choices": [
+      {"label": "A", "text": "Not exempt because combined offerees exceed 10 persons", "explanation": "Incorrect. Only non-institutional offerees count toward the 10-person limit; institutional investors do not count in this calculation."},
+      {"label": "B", "text": "Exempt because the number of non-institutional investors does not exceed 10, and institutional investors are not counted toward the limit", "explanation": "Correct. The Uniform Securities Act private placement exemption permits offers to up to 10 non-institutional investors in 12 months. Institutional investors are separately exempt as a class and are not counted in the 10-person limit."},
+      {"label": "C", "text": "Exempt because the total number of offerees does not exceed 15", "explanation": "Incorrect. The private placement exemption counts only non-institutional investors, not total investors. The limit is 10 non-institutional investors in a 12-month period."},
+      {"label": "D", "text": "Not exempt because private placements require SEC registration regardless of state law", "explanation": "Incorrect. State law private placement exemptions are independent of federal registration requirements; a transaction can be exempt at the state level based on its own criteria."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "Under the Uniform Securities Act, the private placement exemption allows offers to up to 10 non-institutional persons during a 12-month period. Institutional investors are treated as a separate exempt class and do not count toward the 10-person limit.",
+    "subtopic": "exempt-transactions",
+    "difficulty": "medium",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 402(b)(9)",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-017",
+    "section": "state-securities-law",
+    "stem": "Which of the following is classified as an institutional investor for purposes of the exempt transaction provisions of the Uniform Securities Act?",
+    "choices": [
+      {"label": "A", "text": "A registered investment adviser purchasing for its own account", "explanation": "Correct. Registered broker-dealers, investment advisers, banks, insurance companies, and similar entities purchasing for their own accounts are institutional investors for purposes of exempt transaction provisions."},
+      {"label": "B", "text": "A self-directed IRA account owned by an individual investor", "explanation": "Incorrect. A self-directed IRA owned by an individual is not an institutional investor; it is a retail account even if managed by the account owner."},
+      {"label": "C", "text": "A wealthy individual with over $5 million in investable assets", "explanation": "Incorrect. Wealthy individuals, even those qualifying as accredited investors under federal law, are not automatically classified as institutional investors under the Uniform Securities Act exempt transaction provisions."},
+      {"label": "D", "text": "A corporation with fewer than 25 shareholders", "explanation": "Incorrect. Small corporations are not institutional investors; institutional investor status requires the entity to be a recognized financial institution or regulated entity."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "Under the Uniform Securities Act, institutional investors include banks, insurance companies, registered broker-dealers, investment advisers, and similar regulated entities. These parties are presumed sophisticated and do not need the protective registration regime.",
+    "subtopic": "exempt-transactions",
+    "difficulty": "medium",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 402(b)(8)",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-018",
+    "section": "state-securities-law",
+    "stem": "Which of the following best describes an 'isolated non-issuer transaction' under the Uniform Securities Act?",
+    "choices": [
+      {"label": "A", "text": "A sale of newly issued securities by the company to a single investor", "explanation": "Incorrect. A sale of newly issued securities by the company itself is an issuer transaction, not a non-issuer transaction."},
+      {"label": "B", "text": "A transaction conducted through a registered broker-dealer on behalf of a customer", "explanation": "Incorrect. Broker-assisted transactions involve a securities professional acting in the course of business and would not typically qualify as 'isolated' non-issuer transactions."},
+      {"label": "C", "text": "Any sale made directly by a corporate officer to an employee", "explanation": "Incorrect. A sale by a corporate officer does not automatically qualify as an isolated non-issuer transaction without meeting the 'isolated' and 'non-regular course of business' criteria."},
+      {"label": "D", "text": "A one-time secondary market sale between two private individuals that is not part of a regular course of business", "explanation": "Correct. An isolated non-issuer transaction is an occasional secondary-market sale not made in the regular course of business by the seller. It involves existing (not newly issued) securities."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "Isolated non-issuer transactions involve secondary market sales of existing securities that are not made in the regular course of the seller's business. These occasional, private secondary transfers are exempt because they pose low investor protection risk.",
+    "subtopic": "exempt-transactions",
+    "difficulty": "medium",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 402(b)(1)",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-019",
+    "section": "state-securities-law",
+    "stem": "Under the Uniform Securities Act, which of the following persons must register as a broker-dealer in a state?",
+    "choices": [
+      {"label": "A", "text": "A firm that has no office in the state but effects transactions with 3 non-institutional clients in the state", "explanation": "Correct. A broker-dealer with no office in the state must still register if it transacts business with non-institutional clients in the state. Most state laws require registration when transacting with any non-institutional residents."},
+      {"label": "B", "text": "An individual agent registered with a FINRA member broker-dealer", "explanation": "Incorrect. An individual agent is registered as an agent, not as a broker-dealer; agents are excluded from the broker-dealer definition under the Uniform Securities Act."},
+      {"label": "C", "text": "An issuer that sells only its own securities directly to investors", "explanation": "Incorrect. An issuer selling its own securities is explicitly excluded from the broker-dealer definition under the Uniform Securities Act."},
+      {"label": "D", "text": "A bank that executes securities transactions for its trust department clients", "explanation": "Incorrect. Banks are generally excluded from the broker-dealer definition under state law."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "Under the Uniform Securities Act, a firm must register as a broker-dealer in each state where it conducts business with non-institutional clients, even without a physical office in the state, subject to state-specific de minimis thresholds.",
+    "subtopic": "registration-of-broker-dealers-and-agents",
+    "difficulty": "medium",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 201",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-020",
+    "section": "state-securities-law",
+    "stem": "Under the Uniform Securities Act, an individual who represents a broker-dealer in effecting securities transactions is required to register as an agent in which state(s)?",
+    "choices": [
+      {"label": "A", "text": "Only in the state where the broker-dealer's principal office is located", "explanation": "Incorrect. Agent registration is required in each state where the agent conducts business, not just the state of the firm's principal office."},
+      {"label": "B", "text": "Every state where the agent effects or attempts to effect securities transactions on behalf of the broker-dealer", "explanation": "Correct. An agent must be registered in each state where they transact securities business, regardless of where the broker-dealer's home office is located."},
+      {"label": "C", "text": "No state registration is required if the agent is registered with FINRA", "explanation": "Incorrect. FINRA registration (at the federal level) does not satisfy state agent registration requirements under the Uniform Securities Act."},
+      {"label": "D", "text": "Only states where the agent maintains a physical office or branch", "explanation": "Incorrect. Having a physical presence is not the threshold; conducting securities transactions with residents of a state triggers registration, whether or not the agent has a local office."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "Agents must register in each state where they conduct securities business. State registration requirements apply transaction-by-transaction and state-by-state; federal FINRA registration does not substitute for state registration.",
+    "subtopic": "registration-of-broker-dealers-and-agents",
+    "difficulty": "easy",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 201(c)",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-021",
+    "section": "state-securities-law",
+    "stem": "A corporate officer of XYZ Corporation participates in sales of XYZ stock to investors but receives NO compensation for such sales activities. Under the Uniform Securities Act, this officer:",
+    "choices": [
+      {"label": "A", "text": "Must register as an agent because they are effecting securities transactions", "explanation": "Incorrect. The Uniform Securities Act excludes from the definition of 'agent' officers and directors of an issuer who participate in securities transactions without receiving special compensation for those sales activities."},
+      {"label": "B", "text": "Must register as a broker-dealer because they are selling securities for compensation (salary)", "explanation": "Incorrect. A regular salary for services as an officer does not constitute 'special compensation' for sales activities; this distinction is key to the exclusion from the agent definition."},
+      {"label": "C", "text": "May only sell securities to institutional investors without registering", "explanation": "Incorrect. The exclusion from agent definition is not limited by investor type; the key criterion is the absence of special compensation for sales."},
+      {"label": "D", "text": "Is excluded from the definition of 'agent' because no special compensation is received for sales activities", "explanation": "Correct. Officers and directors of an issuer who do not receive special compensation for selling the issuer's securities are specifically excluded from the definition of 'agent' under the Uniform Securities Act."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "Under the Uniform Securities Act, officers and directors of an issuer who sell the issuer's own securities and receive no special compensation for those activities are excluded from the definition of 'agent' and therefore do not need to register as agents.",
+    "subtopic": "registration-of-broker-dealers-and-agents",
+    "difficulty": "medium",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 101(b)(2)",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-022",
+    "section": "state-securities-law",
+    "stem": "A broker-dealer registered in State A wants to conduct business in State B. Regarding surety bond requirements under the Uniform Securities Act:",
+    "choices": [
+      {"label": "A", "text": "No surety bond is required as long as the broker-dealer maintains SIPC membership", "explanation": "Incorrect. SIPC membership does not satisfy state surety bond requirements; these are separate requirements under state law."},
+      {"label": "B", "text": "Surety bonds are only required for investment advisers, not broker-dealers", "explanation": "Incorrect. The Uniform Securities Act allows administrators to require surety bonds of both broker-dealers and investment advisers."},
+      {"label": "C", "text": "A surety bond must equal at least $1 million for any broker-dealer", "explanation": "Incorrect. The Uniform Securities Act does not set a universal $1 million bond requirement; the amount is determined by the administrator and varies by state."},
+      {"label": "D", "text": "The administrator may require a surety bond as a condition of broker-dealer registration", "explanation": "Correct. Under the Uniform Securities Act, the state administrator may require broker-dealers and investment advisers to post a surety bond or maintain minimum net capital as a condition of registration."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "The Uniform Securities Act authorizes state administrators to require broker-dealers (and investment advisers) to post surety bonds or maintain minimum net capital as financial responsibility conditions for registration. The specific amounts are set by state regulation.",
+    "subtopic": "registration-of-broker-dealers-and-agents",
+    "difficulty": "medium",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 202(d)",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-023",
+    "section": "state-securities-law",
+    "stem": "When a broker-dealer terminates the employment of an agent, both parties have obligations under the Uniform Securities Act. Which of the following is CORRECT?",
+    "choices": [
+      {"label": "A", "text": "Only the broker-dealer must notify the state administrator of the termination", "explanation": "Incorrect. Both the broker-dealer and the agent have independent obligations to notify the administrator of the termination."},
+      {"label": "B", "text": "Neither party is required to notify the administrator if the termination was voluntary", "explanation": "Incorrect. Notification is required regardless of the reason for termination."},
+      {"label": "C", "text": "Both the broker-dealer and the agent must promptly notify the state administrator of the termination", "explanation": "Correct. The Uniform Securities Act requires both the broker-dealer and the agent to promptly notify the administrator when the agent-broker-dealer relationship ends, regardless of the reason."},
+      {"label": "D", "text": "Only the agent must file a new registration application with each state where they were previously registered", "explanation": "Incorrect. While a new registration will be needed if the agent moves to a new firm, the immediate obligation upon termination is notification — and both parties bear that duty."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "Under the Uniform Securities Act, when an agent's association with a broker-dealer terminates, both the broker-dealer AND the agent must promptly notify the state administrator. This dual-notification requirement ensures the administrator has accurate information about registrant status.",
+    "subtopic": "registration-of-broker-dealers-and-agents",
+    "difficulty": "medium",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 202(e)",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-024",
+    "section": "state-securities-law",
+    "stem": "An investment adviser with $95 million in assets under management (AUM) is registered with a state. The adviser's AUM subsequently grows to $105 million. Under the Uniform Securities Act and the Investment Advisers Act, what action is now required?",
+    "choices": [
+      {"label": "A", "text": "The adviser must immediately withdraw state registration and register with the SEC", "explanation": "Incorrect. At $105 million, the adviser may register with the SEC but is not yet required to do so. The mandatory registration threshold is $110 million."},
+      {"label": "B", "text": "The adviser may elect to register with the SEC at $105 million AUM but is not required to until AUM reaches $110 million", "explanation": "Correct. Between $100 million and $110 million AUM, advisers have the option to register with the SEC or remain state-registered. At $110 million AUM, registration with the SEC becomes mandatory."},
+      {"label": "C", "text": "The adviser may remain state-registered at $105 million AUM because no action is required until AUM exceeds $110 million", "explanation": "Incorrect. While remaining state-registered is permitted, the adviser now has the optional ability to register with the SEC — so 'no action is required' is not the most accurate characterization; the adviser has gained an option."},
+      {"label": "D", "text": "The adviser must register with both the state and the SEC at $105 million AUM", "explanation": "Incorrect. Dual registration is not required; at $110 million or above, an adviser registers with the SEC and withdraws state registration."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "Under current rules, investment advisers with AUM between $100 million and $110 million may choose to register with the SEC or remain state-registered. At $110 million AUM, SEC registration becomes mandatory and the adviser must withdraw from state registration.",
+    "subtopic": "investment-advisers",
+    "difficulty": "medium",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Investment Advisers Act Section 203A; Uniform Securities Act Section 201",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-025",
+    "section": "state-securities-law",
+    "stem": "Under the Uniform Securities Act, which of the following persons is EXCLUDED from the definition of 'investment adviser'?",
+    "choices": [
+      {"label": "A", "text": "A financial planning firm that charges fees for comprehensive retirement planning advice involving securities", "explanation": "Incorrect. A fee-charging firm providing advice involving securities meets the definition of investment adviser and is NOT excluded."},
+      {"label": "B", "text": "A publisher of a general circulation financial newspaper that makes specific stock recommendations in its articles", "explanation": "Incorrect. A publication that makes specific securities recommendations may be deemed an investment adviser; the 'bona fide newspaper' exclusion applies only to publications of general and regular circulation that do not provide specific investment advice as a primary purpose."},
+      {"label": "C", "text": "A lawyer who incidentally provides investment advice in connection with legal services, without separate compensation for the advice", "explanation": "Correct. Lawyers, accountants, teachers, and engineers whose advisory services are incidental to their professional practice and for which they receive no special compensation are excluded from the investment adviser definition."},
+      {"label": "D", "text": "A registered broker-dealer that charges advisory fees on managed accounts", "explanation": "Incorrect. A broker-dealer that charges advisory fees for managed accounts goes beyond the 'solely incidental' broker-dealer exclusion and would be deemed an investment adviser."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "The Uniform Securities Act excludes from the investment adviser definition certain professionals (lawyers, accountants, engineers, teachers) whose investment advice is solely incidental to their professional practice and for which no special compensation is received.",
+    "subtopic": "investment-advisers",
+    "difficulty": "medium",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 102(15)",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-026",
+    "section": "state-securities-law",
+    "stem": "An investment adviser representative (IAR) who is employed by a state-registered investment adviser must register as an IAR in which state(s)?",
+    "choices": [
+      {"label": "A", "text": "Only the state where the investment adviser is headquartered", "explanation": "Incorrect. IAR registration is based on where the IAR conducts advisory business, not solely where the firm is headquartered."},
+      {"label": "B", "text": "Every state where the IAR has a place of business AND any state where the IAR has more than 5 clients", "explanation": "Incorrect. The registration threshold is not simply about having more than 5 clients; it is based on the IAR's place of business and solicitation activities."},
+      {"label": "C", "text": "No states, because IARs are covered by the investment adviser's registration", "explanation": "Incorrect. IARs must register separately as individuals; they are not automatically covered by their employing investment adviser's registration."},
+      {"label": "D", "text": "Each state where the IAR maintains a place of business or conducts advisory activities with clients in that state", "explanation": "Correct. IARs of state-registered investment advisers must register in each state where they maintain an office and in states where they provide advice to clients."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "IARs of state-registered investment advisers must register in states where they maintain a place of business and in states where they conduct advisory activities with clients. IARs of SEC-registered advisers register only where they maintain a place of business.",
+    "subtopic": "investment-advisers",
+    "difficulty": "hard",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 201(c); NASAA Model Rule",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-027",
+    "section": "state-securities-law",
+    "stem": "A state-registered investment adviser has no office in State Z and has only 3 non-institutional clients in State Z during the preceding 12 months. Under the Uniform Securities Act de minimis exemption, this adviser:",
+    "choices": [
+      {"label": "A", "text": "Must register in State Z because any non-institutional clients in a state trigger registration", "explanation": "Incorrect. The de minimis exemption explicitly permits a limited number of non-institutional clients without triggering registration in that state."},
+      {"label": "B", "text": "Is exempt from registration in State Z because it has no office and fewer than 5 non-institutional clients there", "explanation": "Correct. The Uniform Securities Act provides a de minimis exemption for investment advisers with no office in a state and fewer than 5 non-institutional clients in that state during the preceding 12 months."},
+      {"label": "C", "text": "Must register in State Z because the de minimis exemption applies only to broker-dealers, not investment advisers", "explanation": "Incorrect. The de minimis exemption applies specifically to investment advisers under the Uniform Securities Act."},
+      {"label": "D", "text": "Is exempt from all state regulations in State Z including anti-fraud provisions", "explanation": "Incorrect. The de minimis exemption only excuses state registration; anti-fraud provisions and other state law obligations still apply."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "The Uniform Securities Act de minimis exemption allows investment advisers with no office in a state and fewer than 5 non-institutional clients in that state during the previous 12 months to operate without registering as an investment adviser in that state.",
+    "subtopic": "investment-advisers",
+    "difficulty": "easy",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 203(b)(1)",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-028",
+    "section": "state-securities-law",
+    "stem": "A federally covered investment adviser has 12 non-institutional clients in State X but no office there. Regarding state registration in State X:",
+    "choices": [
+      {"label": "A", "text": "The adviser must register in State X because it has more than 5 non-institutional clients there", "explanation": "Incorrect. The 5-client de minimis threshold applies to state-registered advisers, not federally covered advisers. Federally covered advisers are preempted from state registration requirements under NSMIA."},
+      {"label": "B", "text": "The adviser must register in State X because state registration is required wherever clients are located", "explanation": "Incorrect. NSMIA preempts states from requiring registration of federally covered investment advisers, regardless of how many clients they have in a state."},
+      {"label": "C", "text": "The adviser is not required to register in State X because federally covered advisers are preempted from state registration under NSMIA", "explanation": "Correct. NSMIA preempts states from requiring registration of investment advisers that are federally covered (SEC-registered). States may only require notice filings from federally covered advisers."},
+      {"label": "D", "text": "The adviser may choose whether to register with the state or the SEC, regardless of AUM", "explanation": "Incorrect. The choice between state and SEC registration is based on AUM thresholds; at $110M+ AUM, the adviser must register with the SEC and is not free to choose state registration."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "NSMIA preempts states from requiring registration of SEC-registered (federally covered) investment advisers. States may require notice filings from federally covered advisers but cannot impose the full state registration regime.",
+    "subtopic": "investment-advisers",
+    "difficulty": "medium",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "NSMIA Section 203A; Uniform Securities Act Section 203",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-029",
+    "section": "state-securities-law",
+    "stem": "Which of the following best describes the relationship between an investment adviser (IA) and an investment adviser representative (IAR) under the Uniform Securities Act?",
+    "choices": [
+      {"label": "A", "text": "An IAR is a legal entity that employs IAs to deliver advice to clients", "explanation": "Incorrect. The relationship is the reverse: an IA is the firm or entity, and an IAR is an individual who acts on behalf of the IA."},
+      {"label": "B", "text": "An IAR and an IA are interchangeable terms for the same registration category", "explanation": "Incorrect. IA and IAR are distinct registration categories; IAs are the advisory firms/entities, while IARs are the individual natural persons employed by or associated with IAs."},
+      {"label": "C", "text": "An IA is a firm or individual that is in the business of advising on securities; an IAR is an individual who acts on behalf of an IA in soliciting or providing advisory services", "explanation": "Correct. An investment adviser is the entity or individual in the advisory business; investment adviser representatives are the individual human beings who act on behalf of the IA to deliver advice or solicit clients."},
+      {"label": "D", "text": "An IAR may practice independently without being associated with an IA if they only provide financial planning advice", "explanation": "Incorrect. An IAR must be associated with a registered investment adviser; they cannot operate independently under the IAR registration."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "Under the Uniform Securities Act, an investment adviser is the registered entity (a firm or individual) in the business of providing investment advice. An investment adviser representative is an individual natural person who works for or on behalf of the IA and provides advisory services or solicits clients.",
+    "subtopic": "investment-advisers",
+    "difficulty": "easy",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 102(15),(16)",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-030",
+    "section": "state-securities-law",
+    "stem": "Under the Uniform Securities Act, an investment adviser must maintain certain records and make them available to the state administrator. If the administrator requests access to these records during an examination, the adviser must:",
+    "choices": [
+      {"label": "A", "text": "Allow the administrator to inspect and copy the records during normal business hours without prior court order", "explanation": "Correct. Registered investment advisers must make their books and records available to the state administrator for inspection and copying during normal business hours as part of their post-registration obligations."},
+      {"label": "B", "text": "Provide access only after obtaining a court order authorizing the examination", "explanation": "Incorrect. A court order is not a prerequisite for routine administrative examinations; the administrator has statutory authority to inspect books and records during normal business hours."},
+      {"label": "C", "text": "Provide a certified copy of all records to the administrator within 10 business days", "explanation": "Incorrect. While advisers must comply with record requests, the standard requirement is to allow on-site inspection during normal business hours, not necessarily to send certified copies within 10 days."},
+      {"label": "D", "text": "Provide records only for transactions occurring in the current calendar year", "explanation": "Incorrect. The administrator's examination authority extends to all required records, not just current-year transactions; record retention periods vary by record type."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "As a post-registration obligation under the Uniform Securities Act, registered investment advisers must maintain required books and records and allow the administrator to inspect and copy them during normal business hours without requiring a court order.",
+    "subtopic": "investment-advisers",
+    "difficulty": "easy",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 411",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-031",
+    "section": "ethical-practices",
+    "stem": "An agent tells a customer: 'I guarantee that if this stock goes down in value, I will personally reimburse you for any losses.' Under the Uniform Securities Act, this statement is:",
+    "choices": [
+      {"label": "A", "text": "Permissible as long as the guarantee is in writing and the agent has sufficient personal funds", "explanation": "Incorrect. Guaranteeing against loss is an unethical practice regardless of whether it is in writing or whether the agent has personal funds; it is prohibited under state law."},
+      {"label": "B", "text": "An unethical practice that violates the Uniform Securities Act prohibition on guaranteeing against loss", "explanation": "Correct. Guaranteeing a customer against loss (either on a specific security or in general) is an explicitly prohibited unethical practice under state securities law, because it creates false impressions about investment risk."},
+      {"label": "C", "text": "Permissible only for conservative, low-risk investments", "explanation": "Incorrect. Guaranteeing against loss is prohibited for all securities, regardless of the risk profile of the investment."},
+      {"label": "D", "text": "Only a violation if the guarantee is made without the broker-dealer's supervisory approval", "explanation": "Incorrect. A guarantee against loss is inherently prohibited and supervisory approval cannot make it permissible."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "Guaranteeing a customer against investment losses is a prohibited unethical practice under the Uniform Securities Act. Such guarantees are deceptive because all investments carry risk, and promises of reimbursement misrepresent the nature of securities investing.",
+    "subtopic": "unethical-practices-for-agents",
+    "difficulty": "easy",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 102; NASAA Model Rule on Unethical Business Practices",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-032",
+    "section": "ethical-practices",
+    "stem": "An agent wants to share in the profits and losses of a client's account. Under the Uniform Securities Act, this practice is:",
+    "choices": [
+      {"label": "A", "text": "Prohibited under all circumstances", "explanation": "Incorrect. Sharing in client profits and losses is permitted under specific conditions; it is not an absolute prohibition."},
+      {"label": "B", "text": "Permitted as long as the client verbally agrees and the agent takes losses proportionally", "explanation": "Incorrect. Verbal agreement is insufficient; written authorization from both the client and the broker-dealer is required."},
+      {"label": "C", "text": "Permitted if the agent is only sharing in profits, not losses", "explanation": "Incorrect. An arrangement to share only in profits (but not losses) is a particularly problematic form of sharing arrangements and does not meet the conditions for permissible profit-sharing."},
+      {"label": "D", "text": "Permitted only with written authorization from the client and the broker-dealer", "explanation": "Correct. An agent may share in customer profits and losses only with the written consent of both the customer AND the broker-dealer, and proportionate to the agent's actual financial contribution to the account."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "An agent may share in a customer's account profits and losses only with written authorization from both the customer and the employing broker-dealer, and the sharing must be proportionate to the agent's actual capital contribution to the account.",
+    "subtopic": "unethical-practices-for-agents",
+    "difficulty": "medium",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "NASAA Model Rule on Unethical Business Practices of Broker-Dealers and Agents",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-033",
+    "section": "ethical-practices",
+    "stem": "A broker-dealer agent executes 50 trades in a customer's account over two months, generating substantial commissions but producing little net return for the customer. This practice is known as:",
+    "choices": [
+      {"label": "A", "text": "Front-running, which involves trading ahead of customer orders", "explanation": "Incorrect. Front-running involves trading for the agent's own account ahead of known customer orders; the scenario describes excessive trading for commission generation."},
+      {"label": "B", "text": "Breakpoint selling, which involves recommending smaller purchases to avoid volume discounts", "explanation": "Incorrect. Breakpoint selling (or breakpoint selling violations) involves recommending smaller mutual fund purchases to avoid qualifying for sales charge discounts; this is unrelated to the scenario described."},
+      {"label": "C", "text": "Scalping, which involves recommending a security that the adviser intends to sell", "explanation": "Incorrect. Scalping in the advisory context involves recommending securities to clients and then selling the adviser's own position into the resulting buying demand; it does not describe excessive trading."},
+      {"label": "D", "text": "Churning, which is excessive trading primarily to generate commissions rather than to benefit the customer", "explanation": "Correct. Churning is the practice of excessively trading a customer's account primarily to generate commissions, without regard to the customer's investment objectives. It is an unethical and prohibited practice."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "Churning is the prohibited practice of excessively trading a customer's account to generate commissions, without a reasonable basis that the trading is in the customer's best interest. It violates both suitability obligations and the anti-fraud provisions of state securities law.",
+    "subtopic": "unethical-practices-for-agents",
+    "difficulty": "easy",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "NASAA Model Rule on Unethical Business Practices",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-034",
+    "section": "ethical-practices",
+    "stem": "An agent recommends a complex structured product to a retired investor with a conservative risk tolerance and a primary goal of capital preservation. The structured product carries high risk and illiquidity. This recommendation most likely violates the:",
+    "choices": [
+      {"label": "A", "text": "Anti-fraud provisions only, because suitability is not addressed under state law", "explanation": "Incorrect. Suitability is a specific ethical obligation under state securities law; recommending unsuitable securities is an enumerated unethical practice."},
+      {"label": "B", "text": "Prohibition on making false statements only, because the agent made no false representation about the product", "explanation": "Incorrect. A suitability violation does not require a false statement; recommending an unsuitable security is itself a separate unethical practice."},
+      {"label": "C", "text": "Suitability obligation, because an agent must have a reasonable basis to believe a recommended security is appropriate for each customer", "explanation": "Correct. Recommending a security without a reasonable basis to believe it is suitable for the specific customer — given their investment objectives, risk tolerance, and financial situation — is an unethical practice prohibited under state law."},
+      {"label": "D", "text": "Margin rule, because complex products can only be purchased on margin by accredited investors", "explanation": "Incorrect. Margin rules relate to borrowing to purchase securities; the issue here is suitability, not margin."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "Under the Uniform Securities Act, recommending securities without a reasonable basis to believe the recommendation is suitable for the particular customer — considering their financial situation, investment objectives, and risk tolerance — is an unethical practice.",
+    "subtopic": "unethical-practices-for-agents",
+    "difficulty": "easy",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "NASAA Model Rule on Unethical Business Practices",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-035",
+    "section": "ethical-practices",
+    "stem": "An agent's broker-dealer underwrites a new issue of XYZ Corporation stock. The agent recommends XYZ stock to a customer without disclosing the broker-dealer's underwriting relationship. This failure to disclose is:",
+    "choices": [
+      {"label": "A", "text": "Permissible because underwriting relationships are disclosed in the prospectus which the customer receives", "explanation": "Incorrect. While the prospectus contains disclosure, the agent has a separate obligation to proactively disclose material conflicts of interest to customers at the time of recommendation."},
+      {"label": "B", "text": "Only a violation if the agent personally profits from the underwriting", "explanation": "Incorrect. The disclosure obligation applies to the firm's underwriting relationship regardless of whether the agent personally profits."},
+      {"label": "C", "text": "Only a violation if the stock declines in value after the customer's purchase", "explanation": "Incorrect. The violation occurs at the time of the undisclosed recommendation, not based on subsequent performance."},
+      {"label": "D", "text": "An unethical practice because agents must disclose material conflicts of interest to customers", "explanation": "Correct. Failing to disclose a material conflict of interest — such as the broker-dealer having a financial interest in selling the security as underwriter — is an explicitly prohibited unethical practice under state law."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "Agents must disclose all material conflicts of interest to customers, including situations where the broker-dealer has a financial interest in the securities being recommended (e.g., as underwriter or market maker). Failing to make such disclosure is an unethical practice.",
+    "subtopic": "unethical-practices-for-agents",
+    "difficulty": "medium",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "NASAA Model Rule on Unethical Business Practices",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-036",
+    "section": "ethical-practices",
+    "stem": "An investment adviser charges a client a performance fee equal to 15% of portfolio gains exceeding a benchmark. Under the Uniform Securities Act, performance fees are:",
+    "choices": [
+      {"label": "A", "text": "Permitted for any client who provides written consent", "explanation": "Incorrect. Written consent alone is insufficient; performance fees are permitted only with clients who meet the qualified client definition under state law."},
+      {"label": "B", "text": "Prohibited in all circumstances under state law", "explanation": "Incorrect. Performance fees are not categorically prohibited; they are permitted under specific conditions, primarily with qualified clients."},
+      {"label": "C", "text": "Permitted only with qualified clients (those meeting net worth or assets-under-management thresholds) and with appropriate disclosure", "explanation": "Correct. Under the Uniform Securities Act (following the federal model), performance fee arrangements are permitted only with qualified clients — those meeting specified net worth or AUM minimums — and must be disclosed in the advisory agreement."},
+      {"label": "D", "text": "Permitted only if the adviser has been registered for at least five years", "explanation": "Incorrect. Adviser tenure is not a condition for charging performance fees; the client qualification standard is the key requirement."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "Performance-based compensation arrangements are permitted under state law only with qualified clients (those meeting applicable net worth or AUM thresholds). Charging performance fees to non-qualified clients is an unethical practice because it may create conflicts between the adviser's interests and the client's interests.",
+    "subtopic": "unethical-practices-for-advisers",
+    "difficulty": "medium",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 102; Investment Advisers Act Rule 205-3",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-037",
+    "section": "ethical-practices",
+    "stem": "An investment adviser recommends that clients purchase shares of a company in which the adviser holds a significant personal ownership stake, without disclosing this interest. This conduct violates the adviser's:",
+    "choices": [
+      {"label": "A", "text": "Fiduciary duty of loyalty, because the adviser failed to disclose a material conflict of interest", "explanation": "Correct. Investment advisers owe a fiduciary duty to clients, including the duty of loyalty, which requires disclosing all material conflicts of interest. Recommending securities with an undisclosed personal financial interest breaches this duty."},
+      {"label": "B", "text": "Registration obligation, because advisers cannot own securities in companies they recommend", "explanation": "Incorrect. Advisers are not prohibited from owning securities in companies they recommend; the issue is the failure to disclose the conflict, not the ownership itself."},
+      {"label": "C", "text": "Suitability obligation only, because the recommendation may not be suitable", "explanation": "Incorrect. While suitability may also be at issue, the primary violation is the undisclosed conflict of interest, which independently violates the fiduciary duty."},
+      {"label": "D", "text": "Record-keeping requirements, because the personal ownership position was not reported", "explanation": "Incorrect. Record-keeping is a separate obligation; the primary ethical violation is the failure to disclose the conflict of interest to clients."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "An investment adviser's fiduciary duty of loyalty requires disclosing all material conflicts of interest to clients. Recommending a security in which the adviser has an undisclosed personal ownership interest is a classic breach of the duty of loyalty.",
+    "subtopic": "unethical-practices-for-advisers",
+    "difficulty": "medium",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 102; NASAA Model Rule",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-038",
+    "section": "ethical-practices",
+    "stem": "Under the Uniform Securities Act, an investment adviser who uses soft dollar arrangements (directing client brokerage to receive research or other services) must:",
+    "choices": [
+      {"label": "A", "text": "Obtain prior SEC approval before entering into any soft dollar arrangement", "explanation": "Incorrect. Soft dollar arrangements do not require prior SEC approval; compliance requires disclosure and satisfaction of the Section 28(e) safe harbor conditions."},
+      {"label": "B", "text": "Immediately terminate the soft dollar arrangement upon a client's request", "explanation": "Incorrect. While client preferences should be considered, advisers are not required to terminate soft dollar arrangements upon request as long as the arrangements are properly disclosed and within the safe harbor."},
+      {"label": "C", "text": "Credit the soft dollar benefits proportionally back to each client account", "explanation": "Incorrect. Crediting benefits back to individual accounts is not required; the obligation is disclosure, not pro-rata distribution of the research benefits."},
+      {"label": "D", "text": "Disclose the soft dollar arrangement to clients, explaining the nature of the benefits received and how they benefit clients", "explanation": "Correct. Investment advisers using soft dollar arrangements must disclose this practice to clients, including the types of products and services received and how they relate to the adviser's management of client accounts."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "Investment advisers using soft dollar arrangements must disclose these arrangements to clients, explaining what benefits are received, how the arrangements benefit (or may not benefit) clients, and any potential conflicts between using client commissions to pay for research and the adviser's duty to seek best execution.",
+    "subtopic": "unethical-practices-for-advisers",
+    "difficulty": "hard",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Securities Exchange Act Section 28(e); NASAA Model Rule",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-039",
+    "section": "ethical-practices",
+    "stem": "An investment adviser operates under a fee structure where the adviser charges 1% of assets under management annually, but also receives referral fees from mutual fund companies whose products the adviser recommends. Under the Uniform Securities Act, the adviser must:",
+    "choices": [
+      {"label": "A", "text": "Discontinue receiving referral fees immediately, as they are categorically prohibited", "explanation": "Incorrect. Referral fees are not categorically prohibited; they must be properly disclosed to avoid constituting a breach of fiduciary duty."},
+      {"label": "B", "text": "Disclose the referral fee arrangement to clients so they can assess the potential conflict of interest", "explanation": "Correct. As a fiduciary, the investment adviser must fully disclose all compensation arrangements, including referral fees from product providers, so clients can evaluate whether the adviser's recommendations may be influenced by financial incentives."},
+      {"label": "C", "text": "Register as a broker-dealer because receiving referral fees constitutes acting as a dealer", "explanation": "Incorrect. Receiving referral fees does not automatically require broker-dealer registration; the nature and structure of the fees and activities determine the appropriate registration category."},
+      {"label": "D", "text": "Apply the referral fees against the management fee charged to reduce the client's cost", "explanation": "Incorrect. While net fee reduction can be a method of addressing conflicts, the primary legal requirement is disclosure, not fee offset."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "An investment adviser's fiduciary duty requires disclosure of all material conflicts of interest, including receipt of compensation from third parties (such as fund companies) whose products the adviser recommends. Such disclosure allows clients to make fully informed decisions.",
+    "subtopic": "unethical-practices-for-advisers",
+    "difficulty": "medium",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 102; NASAA Model Rule",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-040",
+    "section": "ethical-practices",
+    "stem": "Under the anti-fraud provisions of the Uniform Securities Act (Section 101), which of the following statements is CORRECT?",
+    "choices": [
+      {"label": "A", "text": "Anti-fraud provisions apply only to registered broker-dealers and investment advisers", "explanation": "Incorrect. The anti-fraud provisions of the Uniform Securities Act apply to ALL persons in connection with the offer or sale of securities, regardless of registration status."},
+      {"label": "B", "text": "Anti-fraud provisions apply only to transactions involving non-exempt securities", "explanation": "Incorrect. Anti-fraud provisions apply to ALL securities transactions, including those involving exempt securities; the registration exemption does not extend to anti-fraud requirements."},
+      {"label": "C", "text": "Anti-fraud provisions can only be enforced by the SEC, not by state administrators", "explanation": "Incorrect. State securities administrators have independent authority to enforce state anti-fraud provisions; enforcement authority is not delegated exclusively to the SEC."},
+      {"label": "D", "text": "Anti-fraud provisions apply to all persons in connection with securities transactions, including unregistered persons", "explanation": "Correct. Section 101 of the Uniform Securities Act broadly prohibits fraud in connection with any securities transaction by any person — registered, exempt, or otherwise. Registration status is irrelevant to the applicability of anti-fraud rules."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "The anti-fraud provisions of the Uniform Securities Act apply universally to ALL persons in connection with securities transactions, regardless of registration status, exemption status, or whether the securities are otherwise subject to state registration.",
+    "subtopic": "anti-fraud-provisions",
+    "difficulty": "easy",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 101",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-041",
+    "section": "ethical-practices",
+    "stem": "A customer files a civil lawsuit under the Uniform Securities Act claiming that an adviser made material misstatements in connection with the sale of securities. Under state law, does the customer need to prove that the adviser acted with scienter (intent to defraud)?",
+    "choices": [
+      {"label": "A", "text": "Yes, scienter is required for all securities fraud claims, both federal and state", "explanation": "Incorrect. While federal securities fraud claims under Rule 10b-5 require scienter, state civil liability under the Uniform Securities Act does not require proof of scienter."},
+      {"label": "B", "text": "No, scienter is not required for civil liability under the Uniform Securities Act; the investor need only show misrepresentation and resulting harm", "explanation": "Correct. An important distinction of state securities law is that civil liability under the Uniform Securities Act does NOT require proof of scienter (intent). This differs from federal Rule 10b-5 claims, which require scienter."},
+      {"label": "C", "text": "Yes, scienter is required for civil claims but not for criminal prosecutions under state law", "explanation": "Incorrect. The distinction is the reverse: criminal prosecutions generally require scienter (willfulness), while civil liability under state law does not require proof of scienter."},
+      {"label": "D", "text": "Scienter is required only if the misstatement was made in a written document", "explanation": "Incorrect. The scienter requirement under state law (or lack thereof) does not depend on whether the misstatement was oral or written."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "A key distinction between state and federal securities law: civil liability under the Uniform Securities Act does NOT require scienter (intent to defraud). The plaintiff need only prove that a material misrepresentation or omission was made in connection with a securities transaction and that it caused damages. This is a lower burden than federal Rule 10b-5 claims.",
+    "subtopic": "anti-fraud-provisions",
+    "difficulty": "hard",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 410",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-042",
+    "section": "ethical-practices",
+    "stem": "An investor discovers that securities were sold to her through fraudulent misrepresentations in violation of state law. The investor files a civil claim under the Uniform Securities Act. What are the applicable statutes of limitations?",
+    "choices": [
+      {"label": "A", "text": "1 year from discovery, with a maximum of 3 years from the transaction", "explanation": "Incorrect. The Uniform Securities Act provides longer time periods than this; the discovery period is 3 years and the outer limit is 5 years."},
+      {"label": "B", "text": "5 years from discovery, with no outer limit on the transaction date", "explanation": "Incorrect. The discovery period is 3 years, not 5 years, and there is an absolute 5-year outer limit from the transaction date."},
+      {"label": "C", "text": "3 years from discovery of the violation, with an outer limit of 5 years from the date of the transaction", "explanation": "Correct. The Uniform Securities Act provides a civil statute of limitations of 3 years from discovery of the violation (or when the violation should reasonably have been discovered), with an absolute outer limit of 5 years from the date of the transaction."},
+      {"label": "D", "text": "2 years from discovery, with a maximum of 4 years from the transaction", "explanation": "Incorrect. These are not the correct limitations periods under the Uniform Securities Act."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "Under the Uniform Securities Act, civil claims must be brought within 3 years after discovery of the violation (or after the violation should have been discovered with reasonable diligence), subject to an absolute outer limit of 5 years from the date of the transaction giving rise to the claim.",
+    "subtopic": "anti-fraud-provisions",
+    "difficulty": "medium",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 410(h)",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-043",
+    "section": "ethical-practices",
+    "stem": "An unregistered person sells securities through fraudulent misrepresentations in a state. The state securities administrator attempts to apply the anti-fraud provisions of the Uniform Securities Act to this person. The administrator's authority is:",
+    "choices": [
+      {"label": "A", "text": "Limited because the person is not registered and therefore outside the administrator's jurisdiction", "explanation": "Incorrect. Anti-fraud provisions specifically cover unregistered persons; registration status does not limit the administrator's anti-fraud enforcement authority."},
+      {"label": "B", "text": "Limited to pursuing criminal charges because the administrator cannot bring civil actions against unregistered persons", "explanation": "Incorrect. The administrator can bring both civil and criminal enforcement actions against any person who violates the anti-fraud provisions, regardless of registration status."},
+      {"label": "C", "text": "Valid only if the state can prove the person was required to register but failed to do so", "explanation": "Incorrect. The anti-fraud provisions are independent of registration requirements; a person need not have been required to register for the anti-fraud provisions to apply to their conduct."},
+      {"label": "D", "text": "Valid and broad, because anti-fraud provisions apply to ALL persons regardless of registration status", "explanation": "Correct. The anti-fraud provisions of the Uniform Securities Act explicitly apply to all persons — registered or unregistered — in connection with the offer, sale, or purchase of any security. The administrator has full enforcement authority."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "The anti-fraud provisions of the Uniform Securities Act apply to ALL persons in connection with securities transactions, regardless of whether they are required to register or are registered. The administrator's anti-fraud enforcement authority is not limited to registrants.",
+    "subtopic": "anti-fraud-provisions",
+    "difficulty": "medium",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 101",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s63-044",
+    "section": "ethical-practices",
+    "stem": "Under the Uniform Securities Act, which of the following remedies is available to a customer who suffered losses due to a fraudulent securities transaction?",
+    "choices": [
+      {"label": "A", "text": "The customer may recover only the commissions paid, not the principal loss", "explanation": "Incorrect. The Uniform Securities Act provides a broader remedy: the customer can recover the consideration paid plus interest, less any income received, and can also recover attorney's fees and court costs."},
+      {"label": "B", "text": "The customer may rescind the transaction and recover the consideration paid plus interest, attorney's fees, and court costs, less any income received", "explanation": "Correct. Under the Uniform Securities Act, a defrauded investor has the right to rescind the transaction and recover the amount paid plus interest at the legal rate, less any income received from the security, plus attorney's fees and court costs."},
+      {"label": "C", "text": "The customer may recover only actual economic damages; rescission is not available under state law", "explanation": "Incorrect. Rescission is explicitly available under the Uniform Securities Act as a remedy for securities fraud; it is not limited to actual economic damages."},
+      {"label": "D", "text": "The customer may only seek relief through FINRA arbitration, not state court", "explanation": "Incorrect. The Uniform Securities Act provides for private rights of action in state courts; customers are not limited to arbitration."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "Under the Uniform Securities Act, investors who suffer losses from fraudulent transactions have the right to bring a civil action for rescission, recovering the purchase price plus interest at the legal rate, less any income already received from the investment, plus attorney's fees and court costs.",
+    "subtopic": "anti-fraud-provisions",
+    "difficulty": "hard",
+    "source": "NASAA Uniform Securities Act",
+    "regulatoryBasis": "Uniform Securities Act Section 410(a)",
+    "lastVerified": "2026-05-20"
+  }
+]

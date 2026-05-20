@@ -1,0 +1,938 @@
+[
+  {
+    "id": "q-s65-001",
+    "section": "economic-factors",
+    "stem": "Which of the following economic indicators is considered a LEADING indicator of future economic activity?",
+    "choices": [
+      {"label": "A", "text": "Average weekly manufacturing hours", "explanation": "Correct. Average weekly hours worked in manufacturing is a leading indicator because employers adjust work hours before changing headcount, making it a forward-looking signal of production activity."},
+      {"label": "B", "text": "The unemployment rate", "explanation": "Incorrect. The unemployment rate is a lagging indicator; it typically rises after a recession begins and falls after a recovery is already underway."},
+      {"label": "C", "text": "Outstanding commercial and industrial loans", "explanation": "Incorrect. Outstanding loan balances are a lagging indicator; businesses borrow more after deciding to expand and borrowing peaks after growth is established."},
+      {"label": "D", "text": "The Consumer Price Index (CPI)", "explanation": "Incorrect. CPI measures current and past price levels and is a coincident-to-lagging indicator, not a leading indicator of economic activity."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "Leading economic indicators change before the economy begins to follow a particular pattern. Average weekly manufacturing hours is a classic leading indicator — employers adjust hours before hiring or laying off workers, providing advance notice of economic direction. Other leading indicators include new orders, building permits, and the yield curve spread.",
+    "subtopic": "business-cycles",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Conference Board Leading Economic Index (LEI) components",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-002",
+    "section": "economic-factors",
+    "stem": "Two consecutive quarters of negative GDP growth is the common rule-of-thumb definition of a:",
+    "choices": [
+      {"label": "A", "text": "Recession, indicating a broad-based contraction in economic activity", "explanation": "Correct. By the widely used rule of thumb, a recession is defined as two consecutive quarters of negative real GDP growth, indicating a broad-based contraction in economic activity across multiple sectors."},
+      {"label": "B", "text": "Depression, characterized by a decline of more than 10% in GDP", "explanation": "Incorrect. A depression involves a severe and prolonged economic downturn, generally defined by a GDP decline exceeding 10% or a recession lasting more than two years. Two quarters of negative growth defines a recession."},
+      {"label": "C", "text": "Stagflation, characterized by high inflation combined with stagnant growth", "explanation": "Incorrect. Stagflation refers specifically to the combination of high inflation and stagnant (or negative) economic growth with high unemployment, not simply two quarters of negative GDP."},
+      {"label": "D", "text": "Trough, which is the lowest point of the business cycle", "explanation": "Incorrect. A trough is a specific point in the business cycle (the bottom), not a period defined by consecutive quarters of negative GDP growth."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "The common rule of thumb defines a recession as two consecutive quarters of negative real GDP growth, representing a broad decline in economic activity. The official U.S. determination is made by the National Bureau of Economic Research (NBER) using broader criteria.",
+    "subtopic": "business-cycles",
+    "difficulty": "easy",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "NBER Business Cycle Dating",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-003",
+    "section": "economic-factors",
+    "stem": "The Federal Reserve wants to slow an overheating economy with rising inflation. Which combination of monetary policy actions would BEST achieve this goal?",
+    "choices": [
+      {"label": "A", "text": "Increase reserve requirements and sell Treasury securities in the open market", "explanation": "Correct. Raising reserve requirements forces banks to hold more reserves (reducing lending capacity), and selling Treasury securities removes money from circulation. Both are contractionary tools that reduce money supply and raise interest rates to cool inflation."},
+      {"label": "B", "text": "Decrease the discount rate and buy Treasury securities in the open market", "explanation": "Incorrect. Decreasing the discount rate and buying securities are expansionary monetary policy tools that would increase money supply and lower borrowing costs, which would worsen inflation."},
+      {"label": "C", "text": "Decrease reserve requirements and increase the money supply through open market purchases", "explanation": "Incorrect. These are expansionary tools that would stimulate economic activity and worsen inflation, not reduce it."},
+      {"label": "D", "text": "Lower the federal funds rate target and reduce the discount rate", "explanation": "Incorrect. Lowering short-term interest rates is expansionary monetary policy; it stimulates borrowing and spending, which would increase inflationary pressure."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "To cool an overheating economy, the Federal Reserve employs contractionary (tight) monetary policy: raising the discount rate, increasing reserve requirements, and selling Treasury securities in open market operations. These actions reduce the money supply, increase interest rates, and constrain borrowing and spending.",
+    "subtopic": "monetary-policy",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Federal Reserve Act; FOMC policy tools",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-004",
+    "section": "economic-factors",
+    "stem": "When the Federal Reserve conducts open market operations by PURCHASING Treasury securities, the MOST DIRECT effect is:",
+    "choices": [
+      {"label": "A", "text": "A decrease in bank reserves and a rise in short-term interest rates", "explanation": "Incorrect. Purchasing (not selling) securities injects reserves into the banking system and exerts downward pressure on short-term interest rates."},
+      {"label": "B", "text": "A direct increase in long-term interest rates", "explanation": "Incorrect. Open market purchases increase demand for Treasury securities, which raises their prices and lowers their yields — the opposite of increasing long-term rates."},
+      {"label": "C", "text": "An increase in bank reserves and downward pressure on short-term interest rates", "explanation": "Correct. When the Fed buys Treasury securities, it pays for them by crediting the sellers' bank accounts, directly increasing bank reserves. More reserves mean banks can lend more, which pushes down short-term interest rates."},
+      {"label": "D", "text": "A reduction in the federal budget deficit", "explanation": "Incorrect. Fed open market operations do not directly affect the federal budget deficit; fiscal policy (taxing and spending decisions) determines the deficit."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "Open market purchases of Treasury securities by the Federal Reserve inject liquidity into the banking system by increasing bank reserves. This expansionary action exerts downward pressure on short-term interest rates, including the federal funds rate, stimulating lending and economic activity.",
+    "subtopic": "monetary-policy",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Federal Reserve Act; FOMC open market operations",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-005",
+    "section": "economic-factors",
+    "stem": "A yield curve shows that 2-year Treasury yields are HIGHER than 10-year Treasury yields. This shape is called an inverted yield curve and historically has been associated with:",
+    "choices": [
+      {"label": "A", "text": "Predictions of an upcoming recession, as investors expect future interest rates to fall", "explanation": "Correct. An inverted yield curve (short-term rates above long-term rates) has historically been one of the most reliable predictors of recession. Investors accepting lower long-term yields signal expectations of falling rates ahead, typically due to anticipated economic weakness."},
+      {"label": "B", "text": "Strong economic growth expectations and rising inflation", "explanation": "Incorrect. An inverted yield curve reflects the opposite — expectations of slowing growth or recession, not expansion. Rising inflation expectations typically steepen the yield curve."},
+      {"label": "C", "text": "A flat yield curve indicating uncertainty with no directional bias", "explanation": "Incorrect. A flat yield curve (short and long rates approximately equal) indicates uncertainty or transition, not the scenario described where short-term rates are definitively higher than long-term rates."},
+      {"label": "D", "text": "Increased long-term inflation expectations driven by commodity price shocks", "explanation": "Incorrect. If inflation expectations rise primarily at the long end, the yield curve would steepen (not invert) as investors demand higher long-term yields to compensate for inflation risk."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "An inverted yield curve, where short-term yields exceed long-term yields, has historically preceded recessions. The inversion signals that investors expect future short-term interest rates to decline (due to anticipated economic weakness and potential Fed rate cuts), so they accept lower yields for locking in long-term bonds.",
+    "subtopic": "interest-rate-effects",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Federal Reserve research on yield curve inversion as recession predictor",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-006",
+    "section": "economic-factors",
+    "stem": "An investor holds a bond with a duration of 7 years. If interest rates rise by 1%, the approximate change in the bond's price is:",
+    "choices": [
+      {"label": "A", "text": "A decrease of approximately 7%", "explanation": "Correct. Modified duration approximates the percentage price change for a 1% change in yield. A bond with duration of 7 years will decrease approximately 7% in price for a 1% rise in interest rates."},
+      {"label": "B", "text": "An increase of approximately 7%", "explanation": "Incorrect. Rising interest rates cause bond prices to FALL, not rise. Duration measures price sensitivity, and the price moves inversely to interest rate changes."},
+      {"label": "C", "text": "An increase of approximately 1%", "explanation": "Incorrect. A 1% change does not produce a 1% price change unless duration is exactly 1. With a duration of 7, the price sensitivity is approximately 7 times larger."},
+      {"label": "D", "text": "No change, because duration only affects coupon payments", "explanation": "Incorrect. Duration measures price sensitivity to interest rate changes, not coupon timing per se. A change in interest rates directly affects the bond's market price."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "Modified duration approximates the percentage price change in a bond for a 1% (100 basis point) change in yield. For a bond with duration of 7, a 1% rise in interest rates results in approximately a 7% decrease in the bond's price. Bond prices and yields move inversely.",
+    "subtopic": "interest-rate-effects",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Fixed income valuation principles",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-007",
+    "section": "economic-factors",
+    "stem": "An investor earns a nominal return of 8% on a bond investment in a year when the CPI inflation rate is 3%. What is the approximate real return on the investment?",
+    "choices": [
+      {"label": "A", "text": "11%, because nominal and real returns are added together", "explanation": "Incorrect. Nominal and real returns are not added; the real return is calculated by subtracting inflation from the nominal return."},
+      {"label": "B", "text": "3%, because only the inflation component represents real economic gain", "explanation": "Incorrect. The inflation rate itself is not the real return; it is the nominal return in excess of inflation that represents real purchasing power gain."},
+      {"label": "C", "text": "5%, which is the nominal return minus the inflation rate", "explanation": "Correct. The approximate real return is the nominal return minus the inflation rate: 8% − 3% = 5%. This measures the actual increase in purchasing power, not just the dollar return."},
+      {"label": "D", "text": "8%, because inflation does not affect investment returns", "explanation": "Incorrect. Inflation directly erodes purchasing power; the real return accounts for the loss of purchasing power due to inflation."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "Real return approximates the increase in purchasing power from an investment by subtracting the inflation rate from the nominal return. With an 8% nominal return and 3% CPI inflation, the approximate real return is 5%. The precise calculation uses the Fisher equation: (1 + nominal) / (1 + inflation) − 1.",
+    "subtopic": "inflation-measures",
+    "difficulty": "easy",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Fisher equation; CPI as inflation measure",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-008",
+    "section": "economic-factors",
+    "stem": "The Producer Price Index (PPI) differs from the Consumer Price Index (CPI) primarily in that the PPI:",
+    "choices": [
+      {"label": "A", "text": "Measures price changes at the retail level paid by end consumers", "explanation": "Incorrect. That describes the CPI; the PPI measures prices at an earlier stage of the production and distribution process."},
+      {"label": "B", "text": "Is calculated monthly by the Federal Reserve rather than the Bureau of Labor Statistics", "explanation": "Incorrect. Both the CPI and PPI are published by the Bureau of Labor Statistics (BLS), not the Federal Reserve."},
+      {"label": "C", "text": "Measures price changes at the wholesale/producer level and is considered a leading indicator of consumer inflation", "explanation": "Correct. The PPI measures average changes in selling prices received by domestic producers for their output. Because producer costs often pass through to consumers, PPI can be a leading indicator of future CPI changes."},
+      {"label": "D", "text": "Measures only imported goods and is therefore a measure of trade inflation", "explanation": "Incorrect. The PPI covers a broad range of domestic production; import price indices are separate measures."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "The PPI measures price changes from the perspective of the producer (seller), capturing wholesale price movements earlier in the supply chain. Because producer cost increases tend to be passed on to consumers, PPI changes often forecast future CPI movements, making PPI a leading inflation indicator.",
+    "subtopic": "inflation-measures",
+    "difficulty": "easy",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Bureau of Labor Statistics PPI and CPI definitions",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-009",
+    "section": "economic-factors",
+    "stem": "A company has earnings per share (EPS) of $4.00 and its stock trades at $60 per share. The price-to-earnings (P/E) ratio is:",
+    "choices": [
+      {"label": "A", "text": "4.0, calculated as EPS divided by stock price", "explanation": "Incorrect. The P/E ratio is calculated as price per share divided by earnings per share, not EPS divided by price. That calculation would produce the earnings yield, not P/E."},
+      {"label": "B", "text": "0.067, which represents the earnings yield", "explanation": "Incorrect. $4/$60 = 0.067 is the earnings yield (EPS/Price), which is the inverse of P/E; it is not the P/E ratio itself."},
+      {"label": "C", "text": "240, calculated as stock price multiplied by EPS", "explanation": "Incorrect. Multiplying price by EPS produces a meaningless figure; the P/E ratio is price divided by EPS."},
+      {"label": "D", "text": "15, calculated as stock price divided by EPS", "explanation": "Correct. The P/E ratio = Price per share ÷ EPS = $60 ÷ $4.00 = 15. A P/E of 15 means investors are paying $15 for every $1 of earnings."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "The price-to-earnings (P/E) ratio is calculated as the market price per share divided by earnings per share (EPS). Here, $60 ÷ $4.00 = 15. The P/E ratio is widely used to assess whether a stock is overvalued or undervalued relative to its earnings and compared to peers or the broader market.",
+    "subtopic": "financial-ratios",
+    "difficulty": "easy",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Fundamental equity analysis",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-010",
+    "section": "economic-factors",
+    "stem": "A company has total equity of $500 million, net income of $75 million, and total debt of $300 million. Which of the following financial ratios can be calculated from this information?",
+    "choices": [
+      {"label": "A", "text": "Return on equity (ROE) of 15% and debt-to-equity ratio of 0.60", "explanation": "Correct. ROE = Net Income / Total Equity = $75M / $500M = 15%. Debt-to-equity = Total Debt / Total Equity = $300M / $500M = 0.60. Both ratios can be calculated from the given information."},
+      {"label": "B", "text": "Current ratio of 1.67", "explanation": "Incorrect. The current ratio (current assets / current liabilities) requires balance sheet data on current assets and current liabilities, which is not provided in this question."},
+      {"label": "C", "text": "Price-to-book ratio of 1.5", "explanation": "Incorrect. The price-to-book ratio requires the market price per share and book value per share, neither of which is given."},
+      {"label": "D", "text": "Earnings per share of $0.15", "explanation": "Incorrect. EPS requires the number of shares outstanding, which is not provided in this question."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "Return on Equity (ROE) = Net Income / Shareholders' Equity = $75M / $500M = 15%, measuring how efficiently the company generates profits from shareholders' capital. Debt-to-Equity = Total Debt / Total Equity = $300M / $500M = 0.60, indicating the company's financial leverage.",
+    "subtopic": "financial-ratios",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Fundamental financial analysis ratios",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-011",
+    "section": "investment-vehicles",
+    "stem": "Under the dividend discount model (DDM), the intrinsic value of a stock is calculated as:",
+    "choices": [
+      {"label": "A", "text": "The current dividend multiplied by the P/E ratio", "explanation": "Incorrect. The dividend discount model discounts future dividends at the required rate of return; it does not multiply the dividend by the P/E ratio."},
+      {"label": "B", "text": "The total dividends paid in the most recent year divided by the current stock price", "explanation": "Incorrect. This calculation produces the current dividend yield, not the intrinsic value as defined by the DDM."},
+      {"label": "C", "text": "The present value of all expected future dividends, discounted at the investor's required rate of return", "explanation": "Correct. The DDM values a stock as the sum of the present values of all future dividends. In the Gordon Growth Model (constant growth DDM), value = D1 / (r - g), where D1 is next year's dividend, r is the required return, and g is the constant growth rate."},
+      {"label": "D", "text": "The book value per share plus the expected earnings growth rate", "explanation": "Incorrect. This is not a recognized valuation model; the DDM is specifically based on discounting future dividend cash flows."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "The dividend discount model (DDM) values a stock as the present value of all expected future dividends discounted at the investor's required rate of return. The Gordon Growth Model, a common form of DDM, calculates value as D1 / (r - g), applicable when dividends grow at a constant rate g.",
+    "subtopic": "equity-valuation",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Equity valuation models — DDM",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-012",
+    "section": "investment-vehicles",
+    "stem": "A bond has a face value of $1,000, pays an annual coupon of $60, and currently trades at $900. What is the bond's current yield?",
+    "choices": [
+      {"label": "A", "text": "6.7%, calculated as annual coupon / current market price", "explanation": "Correct. Current yield = Annual coupon / Current market price = $60 / $900 = 6.67%. Because the bond trades at a discount to par, the current yield exceeds the coupon rate."},
+      {"label": "B", "text": "6.0%, calculated as annual coupon / face value", "explanation": "Incorrect. Dividing the coupon by face value gives the coupon rate (6%), not the current yield, which uses the current market price in the denominator."},
+      {"label": "C", "text": "5.4%, calculated as current market price / annual coupon", "explanation": "Incorrect. Dividing price by coupon is the inverse of current yield; it produces a price-to-coupon ratio with no standard investment meaning."},
+      {"label": "D", "text": "10%, calculated as the discount from par divided by the current price", "explanation": "Incorrect. The discount from par ($100 / $900 = 11.1%) is not the current yield; current yield is specifically the coupon payment relative to market price."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "Current yield measures the bond's annual income relative to its current market price: Annual Coupon / Market Price = $60 / $900 = 6.67%. When a bond trades at a discount, its current yield exceeds the coupon rate. Current yield does not account for capital gains/losses to maturity, unlike yield to maturity (YTM).",
+    "subtopic": "fixed-income",
+    "difficulty": "easy",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Fixed income yield calculations",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-013",
+    "section": "investment-vehicles",
+    "stem": "Which of the following statements about bond duration is CORRECT?",
+    "choices": [
+      {"label": "A", "text": "A zero-coupon bond's duration equals its maturity, since all cash flow occurs at maturity", "explanation": "Correct. A zero-coupon bond makes no interim coupon payments; the only cash flow is the par value received at maturity. Therefore, its Macaulay duration equals its time to maturity exactly."},
+      {"label": "B", "text": "Duration increases as the coupon rate increases, all else equal", "explanation": "Incorrect. Higher coupon bonds deliver more cash flow earlier, reducing the weighted average time to receive payments, and therefore DECREASING duration."},
+      {"label": "C", "text": "Duration decreases as a bond's time to maturity increases", "explanation": "Incorrect. Longer-maturity bonds generally have higher duration, because cash flows are received further into the future, increasing the weighted average time to receipt."},
+      {"label": "D", "text": "Duration is unaffected by changes in market interest rates", "explanation": "Incorrect. Duration changes as interest rates change; as yields rise, duration generally decreases, reflecting the changing present value weighting of cash flows."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "A zero-coupon bond has Macaulay duration exactly equal to its maturity because there are no intermediate coupon payments — the investor receives only the face value at maturity, making the entire weighted average timing of cash flows equal to the maturity date.",
+    "subtopic": "fixed-income",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Fixed income duration concepts",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-014",
+    "section": "investment-vehicles",
+    "stem": "An investor buys a put option on ABC stock with a strike price of $50 when ABC trades at $55. The investor is MOST LIKELY using this strategy to:",
+    "choices": [
+      {"label": "A", "text": "Profit if ABC's stock price rises above $55", "explanation": "Incorrect. A put option gains value when the underlying stock price falls below the strike price; rising stock prices cause the put to lose value."},
+      {"label": "B", "text": "Generate income from writing (selling) put premium", "explanation": "Incorrect. The investor is BUYING a put, not writing (selling) one. Writing a put generates income but creates an obligation to buy the stock; buying a put pays a premium but provides downside protection."},
+      {"label": "C", "text": "Speculate that ABC's volatility will decrease significantly", "explanation": "Incorrect. Option buyers benefit from increased volatility (higher implied volatility increases option premiums). Speculators expecting lower volatility would more likely sell options."},
+      {"label": "D", "text": "Hedge against a decline in the value of a long position in ABC stock", "explanation": "Correct. Buying a protective put (purchasing a put option on a stock you own) hedges against a drop in the stock price below the strike. If ABC falls below $50, the put option gains in value, offsetting losses on the long stock position."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "Purchasing a put option when you already own the underlying stock is a protective put strategy — a hedging technique that limits downside risk. If ABC falls below the $50 strike, the put option increases in value, offsetting losses on the long stock position. The cost of this insurance is the premium paid.",
+    "subtopic": "derivatives",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Options hedging strategies",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-015",
+    "section": "investment-vehicles",
+    "stem": "Which of the following factors, all else equal, would INCREASE the premium (price) of a call option?",
+    "choices": [
+      {"label": "A", "text": "An increase in the implied volatility of the underlying stock", "explanation": "Correct. Higher volatility increases the probability that the option will expire in-the-money, increasing the premium for both calls and puts. Volatility is always a positive driver of option value (for buyers)."},
+      {"label": "B", "text": "A decrease in the price of the underlying stock", "explanation": "Incorrect. Call option value increases with the underlying stock price. A decrease in stock price reduces call value."},
+      {"label": "C", "text": "A decrease in time remaining until expiration", "explanation": "Incorrect. Options lose time value (theta decay) as expiration approaches; less time remaining reduces the option premium, not increases it."},
+      {"label": "D", "text": "An increase in the strike price of the call option", "explanation": "Incorrect. For a call option, a higher strike price means the stock has further to go before the call is in-the-money, reducing the call's intrinsic and probability-weighted value."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "Among the key factors affecting options pricing (underlying price, strike price, time to expiration, volatility, and risk-free rate), increased implied volatility always increases option premiums for both calls and puts. Higher volatility means a greater probability that the option will expire with intrinsic value.",
+    "subtopic": "derivatives",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Black-Scholes option pricing model inputs",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-016",
+    "section": "investment-vehicles",
+    "stem": "A hedge fund charges a management fee of 2% of assets under management annually plus a performance fee of 20% of profits above a benchmark. This fee structure is commonly referred to as:",
+    "choices": [
+      {"label": "A", "text": "12b-1 fees, which compensate the fund's distribution network", "explanation": "Incorrect. 12b-1 fees are mutual fund distribution and marketing fees, not hedge fund performance-based fee structures."},
+      {"label": "B", "text": "'2 and 20,' the standard hedge fund compensation model combining a management fee and performance incentive", "explanation": "Correct. '2 and 20' (or 'two and twenty') refers to the typical hedge fund fee structure of a 2% annual management fee on AUM plus a 20% performance (incentive) fee on profits, often above a high-water mark or hurdle rate."},
+      {"label": "C", "text": "A contingent deferred sales charge (CDSC), which declines over time based on holding period", "explanation": "Incorrect. A CDSC is a back-end sales load on mutual funds that decreases the longer shares are held; it has no relation to hedge fund fee structures."},
+      {"label": "D", "text": "A carried interest arrangement where only the performance fee applies after a hurdle rate", "explanation": "Incorrect. Carried interest is a related concept in private equity and hedge funds, but '2 and 20' specifically denotes the combination of a 2% management fee AND 20% performance allocation."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "The '2 and 20' fee structure is the hallmark of hedge fund compensation: a 2% annual management fee (paid regardless of performance) plus a 20% incentive fee on profits above a benchmark or high-water mark. This structure aligns manager incentives with investor returns while ensuring a base revenue stream.",
+    "subtopic": "alternative-investments",
+    "difficulty": "easy",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Hedge fund structure and compensation",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-017",
+    "section": "investment-vehicles",
+    "stem": "Which of the following characteristics is MOST associated with a hedge fund investment?",
+    "choices": [
+      {"label": "A", "text": "Daily liquidity with SEC registration as a registered investment company", "explanation": "Incorrect. Hedge funds are not registered investment companies (they rely on exemptions) and generally offer limited liquidity; daily redemptions are not typical."},
+      {"label": "B", "text": "FDIC insurance on all invested principal", "explanation": "Incorrect. FDIC insurance covers bank deposit accounts, not investment securities of any kind, including hedge funds."},
+      {"label": "C", "text": "Lock-up periods that restrict redemptions for a specified time, open only to accredited investors", "explanation": "Correct. Hedge funds typically impose lock-up periods (often 1–2 years) during which investors cannot redeem, and they are available only to accredited investors and qualified purchasers under securities law exemptions."},
+      {"label": "D", "text": "Daily NAV calculation and regulated disclosure through a prospectus", "explanation": "Incorrect. Daily NAV and prospectus requirements apply to registered mutual funds, not to hedge funds operating under private fund exemptions."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "Hedge funds are characterized by limited partnerships or LLCs with restricted access (accredited investors / qualified purchasers), lock-up periods limiting investor withdrawals, minimal regulatory requirements compared to mutual funds, and flexible investment strategies including leverage and short selling.",
+    "subtopic": "alternative-investments",
+    "difficulty": "easy",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Investment Company Act exemptions; SEC accredited investor definition",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-018",
+    "section": "investment-vehicles",
+    "stem": "An investor in a Class A mutual fund share pays a sales load of 5% at the time of purchase. This load is paid:",
+    "choices": [
+      {"label": "A", "text": "Annually as a percentage of assets, deducted from the fund's NAV", "explanation": "Incorrect. An annual asset-based fee describes a 12b-1 fee or management fee, not a front-end sales load. Class A front-end loads are paid once at purchase."},
+      {"label": "B", "text": "At the time of redemption as a contingent deferred sales charge", "explanation": "Incorrect. A sales charge at redemption is a back-end load (CDSC), which is the structure of Class B shares, not Class A shares."},
+      {"label": "C", "text": "Semiannually and is waived if the investor holds shares for at least one year", "explanation": "Incorrect. Class A front-end loads are paid once at purchase, not semiannually, and there is no automatic waiver based on holding period."},
+      {"label": "D", "text": "At the time of purchase as a front-end sales charge that reduces the amount invested in the fund", "explanation": "Correct. Class A shares charge a front-end sales load paid when shares are purchased. If a 5% load is charged on a $10,000 investment, $500 goes to the load and only $9,500 is actually invested in the fund."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "Class A mutual fund shares charge a front-end sales load — a one-time charge paid at the time of purchase that reduces the amount actually invested. For example, with a 5% load on a $10,000 investment, only $9,500 goes into the fund. Class A shares typically have lower ongoing 12b-1 fees than Class B or C shares.",
+    "subtopic": "packaged-products",
+    "difficulty": "easy",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Investment Company Act; mutual fund share class structure",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-019",
+    "section": "investment-vehicles",
+    "stem": "Compared to traditional mutual funds, exchange-traded funds (ETFs) are generally MORE tax-efficient because:",
+    "choices": [
+      {"label": "A", "text": "ETFs are exempt from capital gains taxes under federal law", "explanation": "Incorrect. ETFs are not exempt from capital gains taxes; shareholders pay capital gains taxes when they sell ETF shares at a profit, just as with other investments."},
+      {"label": "B", "text": "ETFs use an in-kind creation and redemption mechanism that minimizes taxable capital gain distributions within the fund", "explanation": "Correct. ETFs use an in-kind creation/redemption process with authorized participants; shares are created and redeemed by exchanging baskets of securities, not cash. This process avoids the need to sell securities to meet redemptions, thereby minimizing internal capital gain realizations and distributions to shareholders."},
+      {"label": "C", "text": "ETFs must distribute all capital gains to shareholders on a daily basis, accelerating tax recognition", "explanation": "Incorrect. This describes greater tax impact, not tax efficiency. ETFs are known for making fewer capital gain distributions, not more frequent ones."},
+      {"label": "D", "text": "ETFs have lower expense ratios than mutual funds, reducing taxes on investment expenses", "explanation": "Incorrect. Lower expense ratios improve net returns but do not directly create tax efficiency in terms of capital gain distributions."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "ETFs are generally more tax-efficient than mutual funds because of the in-kind creation and redemption process. When large investors (authorized participants) redeem ETF shares, they receive a basket of the underlying securities rather than cash, so the ETF does not need to sell holdings and realize capital gains. This reduces capital gain distributions to shareholders.",
+    "subtopic": "packaged-products",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Investment Company Act; ETF structure Rule 6c-11",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-020",
+    "section": "investment-vehicles",
+    "stem": "An ETF and a mutual fund both track the same index. An investor who needs to trade mid-day based on breaking news would PREFER an ETF because:",
+    "choices": [
+      {"label": "A", "text": "ETFs are guaranteed to have lower expense ratios than comparable mutual funds", "explanation": "Incorrect. While many ETFs have low expense ratios, this is not guaranteed; expense ratios are separate from the intraday trading advantage."},
+      {"label": "B", "text": "ETFs trade on exchanges throughout the trading day at market prices, while mutual funds only price once per day at close-of-business NAV", "explanation": "Correct. Unlike mutual funds, which execute orders at the end-of-day NAV regardless of when the order is placed, ETFs trade continuously on exchanges like stocks, allowing investors to buy or sell at current market prices throughout the trading day."},
+      {"label": "C", "text": "ETFs automatically rebalance portfolios at lower cost than mutual funds", "explanation": "Incorrect. Both ETFs and index mutual funds track indexes and rebalance periodically; automatic rebalancing is not the primary intraday trading advantage of ETFs."},
+      {"label": "D", "text": "ETFs offer guaranteed execution at exact index value rather than market price", "explanation": "Incorrect. ETF prices can deviate from NAV (creating premiums or discounts); there is no guarantee of execution at exact index value."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "A key structural advantage of ETFs over mutual funds is intraday tradability. ETFs are listed on exchanges and trade at market prices continuously throughout the trading day, allowing investors to react to news in real time. Mutual fund orders execute only at the end-of-day NAV, so the price received is unknown when the order is placed.",
+    "subtopic": "packaged-products",
+    "difficulty": "easy",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Investment Company Act; ETF trading mechanics",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-021",
+    "section": "investment-vehicles",
+    "stem": "A company with total assets of $800 million, total liabilities of $500 million, and 50 million shares outstanding has a book value per share of:",
+    "choices": [
+      {"label": "A", "text": "$16.00, calculated as total assets divided by shares outstanding", "explanation": "Incorrect. Book value per share uses shareholders' equity (assets minus liabilities), not total assets alone."},
+      {"label": "B", "text": "$10.00, calculated as total liabilities divided by shares outstanding", "explanation": "Incorrect. Total liabilities divided by shares outstanding is not book value; it produces a per-share liability figure, which has no standard financial meaning."},
+      {"label": "C", "text": "$26.00, calculated as total assets plus equity divided by shares", "explanation": "Incorrect. Adding assets to equity double-counts the asset base and is not a recognized financial calculation."},
+      {"label": "D", "text": "$6.00, calculated as total equity divided by shares outstanding", "explanation": "Correct. Total equity = Total assets − Total liabilities = $800M − $500M = $300M. Book value per share = $300M / 50M shares = $6.00 per share."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "Book value per share = Shareholders' Equity / Shares Outstanding. Shareholders' equity = Total Assets − Total Liabilities = $800M − $500M = $300M. Book value per share = $300M / 50M shares = $6.00. The price-to-book ratio compares the market price to this book value.",
+    "subtopic": "equity-valuation",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Fundamental equity analysis — book value",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-022",
+    "section": "investment-vehicles",
+    "stem": "A bond rated 'BB' by Standard & Poor's is classified as:",
+    "choices": [
+      {"label": "A", "text": "Investment grade, because it is rated by a nationally recognized rating agency", "explanation": "Incorrect. The fact that a bond is rated by a recognized agency does not make it investment grade; the specific rating determines its classification."},
+      {"label": "B", "text": "Investment grade, because BB is above the B-rated category which is the threshold for junk", "explanation": "Incorrect. The investment grade / non-investment grade dividing line is BBB-/BB+ for S&P. BB is below this threshold and is therefore below investment grade."},
+      {"label": "C", "text": "Below investment grade (high yield or 'junk'), indicating speculative credit quality", "explanation": "Correct. Standard & Poor's investment grade ratings range from AAA to BBB-. Ratings of BB+ and below are considered below investment grade (speculative or 'junk' bonds), indicating higher credit risk and typically higher yields."},
+      {"label": "D", "text": "Unrated, because dual-letter ratings indicate the agency has not assigned a formal credit grade", "explanation": "Incorrect. A 'BB' rating is a specific, formal credit rating; unrated bonds are explicitly marked 'NR' (not rated)."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "Standard & Poor's rates investment-grade bonds as BBB- or higher (AAA, AA, A, BBB). Bonds rated BB+ or below (BB, B, CCC, CC, C, D) are below investment grade, commonly called 'high yield' or 'junk bonds.' These instruments carry greater default risk and therefore offer higher yields to compensate investors.",
+    "subtopic": "fixed-income",
+    "difficulty": "easy",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "S&P bond rating scale",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-023",
+    "section": "investment-vehicles",
+    "stem": "An investor is concerned about interest rate risk in their bond portfolio but also wants to minimize reinvestment risk. Which type of bond best addresses BOTH concerns simultaneously?",
+    "choices": [
+      {"label": "A", "text": "A long-duration coupon bond, which provides stable income for reinvestment", "explanation": "Incorrect. Long-duration bonds have high interest rate risk (prices fall sharply when rates rise) and coupon payments create reinvestment risk (coupons must be reinvested at uncertain future rates)."},
+      {"label": "B", "text": "A callable bond, because the call feature limits interest rate sensitivity", "explanation": "Incorrect. Callable bonds add complexity — they can be called when rates fall, creating reinvestment risk at the worst time. They do not reduce reinvestment risk; they can increase it."},
+      {"label": "C", "text": "A zero-coupon bond with a maturity matching the investor's time horizon", "explanation": "Correct. Zero-coupon bonds eliminate reinvestment risk (there are no coupon payments to reinvest) and, when the maturity matches the investment horizon, the investor locks in a known total return regardless of interest rate changes — immunizing against both risks simultaneously."},
+      {"label": "D", "text": "A floating-rate note, which adjusts coupon payments as interest rates change", "explanation": "Incorrect. Floating-rate notes minimize interest rate risk (price stays near par as rates change) but they maintain reinvestment risk because coupon payments still need to be reinvested at future uncertain rates."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "Zero-coupon bonds are uniquely suited to simultaneously address interest rate risk and reinvestment risk when the maturity matches the investor's horizon. There are no coupon payments, so there is no reinvestment risk. When held to maturity matching the duration, the investor is immunized against interest rate changes and locks in the yield to maturity at purchase.",
+    "subtopic": "fixed-income",
+    "difficulty": "hard",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Bond immunization strategy",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-024",
+    "section": "client-recommendations",
+    "stem": "A client's investment policy statement (IPS) should include all of the following components EXCEPT:",
+    "choices": [
+      {"label": "A", "text": "The investment adviser's compensation schedule and fee structure", "explanation": "Correct. While the adviser's fee disclosure is important and required in the advisory contract and Form ADV brochure, it is NOT typically included as a component of the investment policy statement itself. The IPS focuses on the client's investment objectives, constraints, and guidelines."},
+      {"label": "B", "text": "Return objectives and risk tolerance", "explanation": "Incorrect. Return objectives and risk tolerance are core IPS components that define what the client is trying to achieve and how much volatility they can accept."},
+      {"label": "C", "text": "Time horizon and liquidity needs", "explanation": "Incorrect. Time horizon (when funds are needed) and liquidity requirements (accessibility needs) are standard IPS constraints that directly influence asset allocation decisions."},
+      {"label": "D", "text": "Legal and regulatory considerations and tax situation", "explanation": "Incorrect. Legal constraints (e.g., restrictions on certain investments, fiduciary requirements) and tax situation (e.g., tax bracket, tax-deferred accounts) are standard IPS components under the constraints section."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "An Investment Policy Statement (IPS) documents the client's investment objectives (return requirements, risk tolerance) and constraints (time horizon, liquidity, legal/regulatory, tax situation, and unique factors). The adviser's compensation is a separate disclosure item required in the Form ADV brochure and advisory agreement, not an IPS component.",
+    "subtopic": "investment-policy-statement",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "CFA Institute IPS framework; Investment Advisers Act",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-025",
+    "section": "client-recommendations",
+    "stem": "Modern Portfolio Theory (MPT) states that diversification reduces a portfolio's total risk. However, which type of risk CANNOT be eliminated through diversification?",
+    "choices": [
+      {"label": "A", "text": "Company-specific (unsystematic) risk, such as a single company's product recall", "explanation": "Incorrect. Company-specific risk IS the type that CAN be diversified away by holding many different securities; as uncorrelated company events offset each other, this risk diminishes in a portfolio."},
+      {"label": "B", "text": "Systematic (market) risk, which affects all securities in the market simultaneously", "explanation": "Correct. Systematic risk (also called market risk or non-diversifiable risk) reflects economy-wide factors — recessions, interest rate changes, geopolitical events — that affect all securities. Because all assets are influenced by these factors simultaneously, diversification cannot eliminate this risk."},
+      {"label": "C", "text": "Industry-specific risk, such as regulatory changes affecting one sector", "explanation": "Incorrect. Industry-specific risk is a form of unsystematic risk that can be substantially reduced by diversifying across multiple industries."},
+      {"label": "D", "text": "Liquidity risk in small-cap stocks, which can be eliminated by investing in large-cap stocks", "explanation": "Incorrect. This describes substitution between asset classes, not diversification within a portfolio. Also, liquidity risk at the market level is a form of systematic risk that cannot be diversified away."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "Modern Portfolio Theory distinguishes between unsystematic risk (diversifiable, company/industry-specific) and systematic risk (non-diversifiable, market-wide). Diversification effectively eliminates unsystematic risk as holdings increase, but systematic risk — which affects all securities simultaneously due to macroeconomic factors — cannot be removed through diversification.",
+    "subtopic": "modern-portfolio-theory",
+    "difficulty": "easy",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Modern Portfolio Theory — Markowitz",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-026",
+    "section": "client-recommendations",
+    "stem": "According to the Capital Asset Pricing Model (CAPM), a stock has a beta of 1.5, the risk-free rate is 3%, and the expected market return is 9%. What is the expected return for this stock?",
+    "choices": [
+      {"label": "A", "text": "9.0%, which equals the expected market return because market return is the baseline", "explanation": "Incorrect. CAPM adjusts expected return based on the stock's beta; a beta above 1.0 means the stock should earn more than the market return."},
+      {"label": "B", "text": "12.0%, calculated using the CAPM formula: Rf + Beta × (Rm − Rf)", "explanation": "Correct. CAPM: Expected Return = Rf + β × (Rm − Rf) = 3% + 1.5 × (9% − 3%) = 3% + 1.5 × 6% = 3% + 9% = 12%."},
+      {"label": "C", "text": "13.5%, calculated as beta multiplied by the market return", "explanation": "Incorrect. CAPM does not simply multiply beta by market return; the formula uses the market risk premium (Rm − Rf) multiplied by beta, plus the risk-free rate."},
+      {"label": "D", "text": "7.5%, calculated as the risk-free rate plus half the market risk premium", "explanation": "Incorrect. Using half the market risk premium would correspond to a beta of 0.5, not 1.5. With beta = 1.5, the full 1.5 × risk premium is added to the risk-free rate."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "CAPM formula: Expected Return = Risk-Free Rate + Beta × (Market Return − Risk-Free Rate) = 3% + 1.5 × (9% − 3%) = 3% + 1.5 × 6% = 3% + 9% = 12%. The stock's expected return of 12% exceeds the market return (9%) because its beta of 1.5 indicates above-average systematic risk.",
+    "subtopic": "modern-portfolio-theory",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "CAPM — Sharpe, Lintner, Mossin",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-027",
+    "section": "client-recommendations",
+    "stem": "In the context of Modern Portfolio Theory, the efficient frontier represents:",
+    "choices": [
+      {"label": "A", "text": "Portfolios that maximize return for a given level of risk, or equivalently minimize risk for a given level of return", "explanation": "Correct. The efficient frontier is the set of optimal portfolios that offer the highest expected return for a defined level of risk (standard deviation), or the lowest risk for a given expected return. Portfolios below the frontier are suboptimal."},
+      {"label": "B", "text": "The single portfolio with the absolute lowest possible risk in the market", "explanation": "Incorrect. The single lowest-risk portfolio on the efficient frontier is the minimum variance portfolio, but the efficient frontier encompasses many optimal portfolios across a range of risk-return combinations."},
+      {"label": "C", "text": "The set of portfolios that include only risk-free assets", "explanation": "Incorrect. Portfolios consisting only of risk-free assets lie on the capital market line (CML), not the efficient frontier. The efficient frontier includes risky assets."},
+      {"label": "D", "text": "Portfolios that have been rated AAA by credit rating agencies", "explanation": "Incorrect. Credit ratings apply to fixed income securities, not to portfolio optimization concepts in MPT."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "The efficient frontier is a core concept of Modern Portfolio Theory, representing the set of portfolios that are optimally diversified — offering the highest expected return for any given level of risk, or equivalently the lowest risk for any given expected return. Rational investors should choose portfolios on (not below) the efficient frontier.",
+    "subtopic": "modern-portfolio-theory",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Modern Portfolio Theory — Markowitz efficient frontier",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-028",
+    "section": "client-recommendations",
+    "stem": "Two assets have a correlation coefficient of -1.0. What is the implication for portfolio diversification?",
+    "choices": [
+      {"label": "A", "text": "The assets move perfectly in the same direction, offering no diversification benefit", "explanation": "Incorrect. A correlation of +1.0 means assets move in perfect tandem (no diversification benefit). A correlation of -1.0 means they move in perfect opposite directions."},
+      {"label": "B", "text": "The assets are uncorrelated, meaning their price movements are independent", "explanation": "Incorrect. Uncorrelated assets have a correlation coefficient of 0.0, not -1.0. Uncorrelated assets offer diversification benefits but cannot theoretically eliminate all risk."},
+      {"label": "C", "text": "The assets have equal and opposite beta coefficients, creating a market-neutral portfolio", "explanation": "Incorrect. Beta and correlation are related but distinct concepts. A correlation of -1.0 does not specifically imply equal and opposite betas; it describes the statistical relationship between the two assets' returns."},
+      {"label": "D", "text": "The assets move in perfectly opposite directions; combining them can theoretically eliminate all portfolio risk", "explanation": "Correct. A correlation of -1.0 indicates perfect negative correlation — when one asset rises, the other falls by a proportionate amount. In theory, combining them in appropriate proportions can completely eliminate portfolio variance."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "A correlation coefficient of -1.0 represents perfect negative correlation — the two assets' returns move in exactly opposite directions with perfect reliability. By combining two perfectly negatively correlated assets in appropriate proportions, it is theoretically possible to construct a risk-free portfolio. Real-world assets rarely achieve -1.0 correlation.",
+    "subtopic": "modern-portfolio-theory",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Modern Portfolio Theory — correlation and diversification",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-029",
+    "section": "client-recommendations",
+    "stem": "An adviser uses a strategic asset allocation approach for a client's portfolio. This approach is BEST described as:",
+    "choices": [
+      {"label": "A", "text": "Frequently shifting allocations among asset classes based on short-term market forecasts", "explanation": "Incorrect. That describes tactical asset allocation, which involves short-term tilts away from the strategic benchmark based on market views."},
+      {"label": "B", "text": "Selecting only the top-performing asset classes from the previous year for future investment", "explanation": "Incorrect. This describes return chasing, a behavioral bias that contradicts the principle of disciplined strategic allocation."},
+      {"label": "C", "text": "Setting long-term target allocations consistent with the client's objectives and periodically rebalancing to maintain those targets", "explanation": "Correct. Strategic asset allocation establishes long-term target weights for each asset class based on the client's investment policy statement (return objectives, risk tolerance, time horizon), and then systematically rebalances the portfolio back to targets as drift occurs."},
+      {"label": "D", "text": "Holding a fixed percentage of the portfolio in cash at all times to manage downside risk", "explanation": "Incorrect. Maintaining a fixed cash allocation is one possible component of a strategy, but it does not describe strategic asset allocation in the broad sense."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "Strategic asset allocation involves establishing long-term target allocations to various asset classes (equities, fixed income, alternatives, etc.) based on the client's IPS, and periodically rebalancing back to those targets. It is a disciplined, policy-driven approach as distinct from tactical asset allocation, which involves short-term deviations from the strategic benchmark.",
+    "subtopic": "asset-allocation",
+    "difficulty": "easy",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Asset allocation theory",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-030",
+    "section": "client-recommendations",
+    "stem": "An investor sells shares of Stock X at a $5,000 loss on November 1. On November 20 of the same year, the investor purchases substantially identical shares of Stock X. Under the wash sale rule:",
+    "choices": [
+      {"label": "A", "text": "The investor may deduct the $5,000 loss in the current tax year because 30 days have not yet elapsed", "explanation": "Incorrect. The investor re-purchased within 30 days of the sale, which triggers the wash sale rule and disallows the loss deduction."},
+      {"label": "B", "text": "The $5,000 loss deduction is disallowed because the investor repurchased substantially identical shares within the 30-day window", "explanation": "Correct. The wash sale rule disallows a loss deduction if the investor buys the same or substantially identical securities within 30 days before OR after the sale at a loss. The 19-day interval between November 1 and November 20 falls within the prohibited window."},
+      {"label": "C", "text": "The loss is deductible immediately because a calendar month has passed since the sale", "explanation": "Incorrect. The wash sale rule uses a 30-calendar-day window, not a calendar month. Nineteen days is clearly within 30 days."},
+      {"label": "D", "text": "The loss is deductible because repurchasing the same stock within 30 days is permitted as long as the investor does not sell again within 30 days", "explanation": "Incorrect. The wash sale rule does not permit the loss simply because the investor holds the repurchased shares; the loss is permanently disallowed (though added to the cost basis of the replacement shares)."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "The wash sale rule (IRC Section 1091) disallows a capital loss deduction when the investor sells a security at a loss and repurchases the same or substantially identical security within 30 days before or after the sale date. Since November 20 is only 19 days after November 1, the wash sale rule applies and the $5,000 loss is disallowed. The disallowed loss is added to the cost basis of the replacement shares.",
+    "subtopic": "tax-planning",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "IRC Section 1091 — Wash Sale Rule",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-031",
+    "section": "client-recommendations",
+    "stem": "An investor holds shares of a stock purchased 14 months ago that have appreciated significantly. If sold today, the gain would be taxed at the:",
+    "choices": [
+      {"label": "A", "text": "Ordinary income tax rate because 14 months is less than the 24-month long-term holding period requirement", "explanation": "Incorrect. The long-term capital gains holding period is more than 12 months (greater than one year), not 24 months. A 14-month holding period qualifies for long-term treatment."},
+      {"label": "B", "text": "Long-term capital gains rate of 0%, 15%, or 20%, because the holding period exceeds 12 months", "explanation": "Correct. Capital assets held for more than 12 months qualify for preferential long-term capital gains tax rates of 0%, 15%, or 20% depending on the taxpayer's income level, which are lower than ordinary income rates."},
+      {"label": "C", "text": "Short-term capital gains rate because any gain on stocks is always treated as ordinary income", "explanation": "Incorrect. Short-term capital gains (assets held 12 months or less) are taxed at ordinary income rates, but long-term gains (held more than 12 months) qualify for preferential rates."},
+      {"label": "D", "text": "A flat 28% rate applicable to all capital gains regardless of holding period", "explanation": "Incorrect. There is no universal 28% flat rate for capital gains; the 28% rate applies specifically to collectibles and certain other assets, not to standard stock gains."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "Capital assets held for more than 12 months receive long-term capital gains treatment with preferential tax rates of 0%, 15%, or 20% depending on the taxpayer's taxable income. A 14-month holding period exceeds the 12-month threshold, qualifying the gain for these preferential rates rather than ordinary income tax rates.",
+    "subtopic": "tax-planning",
+    "difficulty": "easy",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "IRC Section 1222 — capital gains holding period",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-032",
+    "section": "client-recommendations",
+    "stem": "Tax-loss harvesting involves selling investments at a loss to offset capital gains. A key constraint on this strategy is:",
+    "choices": [
+      {"label": "A", "text": "Capital losses can only offset gains from the same asset class", "explanation": "Incorrect. Capital losses can offset capital gains from any asset class; the tax code does not require matching gains and losses by asset class."},
+      {"label": "B", "text": "Losses cannot exceed $10,000 per tax year under current law", "explanation": "Incorrect. There is no $10,000 annual cap on capital losses. However, net capital losses can only offset up to $3,000 of ordinary income per year; excess losses carry forward."},
+      {"label": "C", "text": "The wash sale rule, which disallows the loss if substantially identical securities are repurchased within 30 days before or after the sale", "explanation": "Correct. The primary constraint on tax-loss harvesting is the wash sale rule (IRC Section 1091), which disallows the loss deduction if the same or substantially identical securities are purchased within the 30-day window before or after the sale."},
+      {"label": "D", "text": "Short-term capital losses can only offset short-term gains, never long-term gains", "explanation": "Incorrect. Short-term losses first offset short-term gains, and any remaining short-term losses are then applied against long-term gains. Losses are not permanently siloed by holding period."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "Tax-loss harvesting is constrained primarily by the wash sale rule, which disallows a loss deduction when the investor repurchases the same or substantially identical security within 30 days before or after the sale. Investors can maintain market exposure by purchasing a similar (but not substantially identical) security during this period.",
+    "subtopic": "tax-planning",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "IRC Section 1091 — Wash Sale Rule",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-033",
+    "section": "client-recommendations",
+    "stem": "Under current law, required minimum distributions (RMDs) from traditional IRAs must begin by:",
+    "choices": [
+      {"label": "A", "text": "Age 59½, which is the penalty-free withdrawal age for retirement accounts", "explanation": "Incorrect. Age 59½ is the age at which penalty-free withdrawals from IRAs become available, not the age at which RMDs must begin."},
+      {"label": "B", "text": "Age 70½, which remains the RMD starting age under current law", "explanation": "Incorrect. The SECURE Act (2019) raised the RMD age from 70½ to 72, and SECURE 2.0 (2022) further raised it to 73 for those born after 1950."},
+      {"label": "C", "text": "Age 65, the standard Medicare and Social Security eligibility age", "explanation": "Incorrect. Age 65 is tied to Medicare eligibility; it has no direct connection to the required minimum distribution rules for retirement accounts."},
+      {"label": "D", "text": "April 1 of the year following the year the account owner turns age 73", "explanation": "Correct. Under the SECURE 2.0 Act, the RMD starting age was raised to 73 (for individuals turning 72 after December 31, 2022). The first RMD must be taken by April 1 of the year following the year the owner turns 73; subsequent RMDs must be taken by December 31 each year."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "Under the SECURE 2.0 Act of 2022, required minimum distributions (RMDs) from traditional IRAs and most employer-sponsored retirement plans must begin by April 1 of the year following the year the account owner reaches age 73 (for those born after December 31, 1950). After the first RMD, subsequent distributions must be taken by December 31 each year.",
+    "subtopic": "retirement-planning",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "IRC Section 401(a)(9); SECURE 2.0 Act of 2022",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-034",
+    "section": "client-recommendations",
+    "stem": "A lifecycle (target-date) fund for an investor with a 2050 retirement target would MOST LIKELY be characterized by:",
+    "choices": [
+      {"label": "A", "text": "A high allocation to equities that gradually shifts toward fixed income as 2050 approaches — the glide path", "explanation": "Correct. Target-date funds use a glide path that starts equity-heavy (for long time horizons) and automatically shifts toward more conservative allocations (bonds, stable value) as the target retirement date approaches, matching declining risk tolerance over time."},
+      {"label": "B", "text": "A high allocation to bonds and low allocation to equities, reflecting proximity to retirement", "explanation": "Incorrect. A 2050 target-date fund is designed for investors with approximately 25+ years until retirement and would be heavily weighted toward equities, not bonds. Bond-heavy allocations characterize funds close to their target date."},
+      {"label": "C", "text": "An equal weighting of stocks and bonds regardless of the time to retirement", "explanation": "Incorrect. Target-date funds deliberately vary their asset allocation over time based on the investor's time horizon; a fixed 50/50 split defeats the purpose of the lifecycle approach."},
+      {"label": "D", "text": "An allocation that increases equity exposure as retirement nears to maximize final portfolio value", "explanation": "Incorrect. As retirement approaches, target-date funds reduce equity exposure (increase conservatism), not increase it, because investors have less time to recover from market downturns."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "Target-date (lifecycle) funds use a glide path strategy — starting with aggressive (equity-heavy) allocations for investors with long time horizons and systematically shifting to more conservative allocations (more bonds, cash) as the target date approaches. A 2050 fund would currently hold predominantly equities and gradually become more bond-heavy over the next 25+ years.",
+    "subtopic": "asset-allocation",
+    "difficulty": "easy",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Target-date fund structure and glide path methodology",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-035",
+    "section": "client-recommendations",
+    "stem": "An investment adviser is rebalancing a client's portfolio that has drifted from its 60% equity / 40% bond target due to equity market gains. The portfolio is now 70% equity / 30% bonds. Rebalancing back to target requires:",
+    "choices": [
+      {"label": "A", "text": "Selling bonds and buying equities to capitalize on the equity momentum", "explanation": "Incorrect. The portfolio is already overweight equities; selling bonds and buying more equities would increase the drift further, not restore the target allocation."},
+      {"label": "B", "text": "No action, because market-driven drift does not constitute a rebalancing trigger", "explanation": "Incorrect. Market-driven drift is the primary reason for rebalancing; most rebalancing policies establish threshold bands (e.g., ±5%) that trigger rebalancing when exceeded."},
+      {"label": "C", "text": "Adding new cash to the portfolio entirely in bonds until the 60/40 split is restored", "explanation": "Incorrect. While directing new cash to underweight assets is a form of rebalancing, it may not be practical or sufficient to fully restore the target and the question implies the mechanism should address the existing allocation."},
+      {"label": "D", "text": "Selling equities and buying bonds to restore the 60/40 target allocation", "explanation": "Correct. To rebalance from 70/30 back to 60/40, the adviser must reduce the equity overweight by selling equities and use the proceeds to buy bonds, restoring both positions to target weights."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "Portfolio rebalancing restores the target asset allocation by selling overweight assets and buying underweight assets. With equities at 70% (overweight vs. 60% target) and bonds at 30% (underweight vs. 40% target), the adviser must sell equities and buy bonds to return to the 60/40 strategic allocation.",
+    "subtopic": "asset-allocation",
+    "difficulty": "easy",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Portfolio rebalancing strategy",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-036",
+    "section": "client-recommendations",
+    "stem": "A beneficiary designation on an IRA account:",
+    "choices": [
+      {"label": "A", "text": "Is overridden by the account owner's will if the will names a different beneficiary", "explanation": "Incorrect. This is a common misconception. Beneficiary designations on retirement accounts and insurance policies are contractual and supersede will provisions. The named beneficiary receives the assets regardless of what the will states."},
+      {"label": "B", "text": "Can only name a spouse; non-spouse beneficiaries are not permitted on IRAs", "explanation": "Incorrect. IRAs can designate any person or entity (spouse, children, other individuals, trusts, charities) as beneficiary. Non-spouse beneficiaries must follow specific RMD rules but are fully permitted."},
+      {"label": "C", "text": "Supersedes the account owner's will and passes the IRA assets directly to the named beneficiary outside of probate", "explanation": "Correct. Beneficiary designations are contractual arrangements between the account owner and the financial institution. IRA assets pass directly to named beneficiaries upon the account owner's death, bypassing the probate process and any conflicting will provisions."},
+      {"label": "D", "text": "Must be reviewed and approved by the IRS annually to remain valid", "explanation": "Incorrect. Beneficiary designations do not require annual IRS review or approval; they remain valid until changed by the account owner or until a triggering event makes them obsolete."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "Beneficiary designations on IRAs and other retirement accounts are contractual directives that take precedence over a will. IRA assets pass directly to named beneficiaries at the owner's death, without going through probate. This makes keeping beneficiary designations current critically important in estate planning.",
+    "subtopic": "retirement-planning",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "IRC retirement account rules; estate planning principles",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-037",
+    "section": "client-recommendations",
+    "stem": "Under current Social Security rules, claiming Social Security retirement benefits at age 62 (earliest eligibility) compared to waiting until age 70 results in:",
+    "choices": [
+      {"label": "A", "text": "Higher monthly benefits at 62 because of the longer payment period", "explanation": "Incorrect. Monthly benefits at 62 are reduced (up to 30% below the full retirement age benefit), not higher. The total lifetime benefits depend on longevity."},
+      {"label": "B", "text": "The same total lifetime benefit regardless of when benefits are claimed", "explanation": "Incorrect. While the Social Security system is actuarially designed around average life expectancy, the total lifetime benefit is NOT guaranteed to be the same — it depends significantly on actual longevity."},
+      {"label": "C", "text": "A permanently reduced monthly benefit, while delaying to 70 results in the maximum monthly benefit with delayed retirement credits", "explanation": "Correct. Claiming at 62 results in a permanently reduced monthly benefit compared to the full retirement age benefit. Each year of delay past full retirement age earns an 8% annual delayed retirement credit, maximizing monthly benefits at age 70."},
+      {"label": "D", "text": "A higher benefit at 62 if the recipient has never worked for more than 10 years", "explanation": "Incorrect. The amount of Social Security benefits is based on the highest 35 years of earnings; work history affects the base benefit amount, not the early-claim reduction percentage."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "Claiming Social Security at age 62 results in a permanently reduced monthly benefit — up to 30% less than the full retirement age benefit. Each year benefits are delayed past full retirement age earns an 8% delayed retirement credit, building to the maximum monthly benefit at age 70. The optimal claiming age depends on health status, other income sources, and longevity expectations.",
+    "subtopic": "retirement-planning",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Social Security Act; SSA delayed retirement credits",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-038",
+    "section": "client-recommendations",
+    "stem": "An investor in the 32% federal income tax bracket has $8,000 of short-term capital gains and $5,000 of long-term capital losses this tax year. What is the net tax treatment?",
+    "choices": [
+      {"label": "A", "text": "The $8,000 short-term gain and $5,000 long-term loss are reported separately with no netting", "explanation": "Incorrect. Capital gains and losses are netted across categories in a specific order; short-term and long-term gains and losses are combined according to IRS rules."},
+      {"label": "B", "text": "The $8,000 short-term gain is taxed at 15% and the $5,000 loss is carried forward to next year", "explanation": "Incorrect. Short-term capital gains are taxed at ordinary income rates (not 15%), and the long-term loss should be netted against current-year gains before any carryforward occurs."},
+      {"label": "C", "text": "No tax is owed because the gains and losses cancel, and the $3,000 difference is carried forward", "explanation": "Incorrect. The $5,000 loss does not exceed the $8,000 gain; there is a net gain of $3,000 that is taxable. There is no loss carryforward in this scenario."},
+      {"label": "D", "text": "The $5,000 long-term loss offsets $5,000 of the short-term gain, leaving $3,000 of net short-term gain taxed at ordinary income rates", "explanation": "Correct. Long-term capital losses first offset long-term capital gains; any remaining long-term loss then offsets short-term capital gains. Here, the $5,000 long-term loss is applied against the $8,000 short-term gain, leaving $3,000 of net short-term gain taxed at the 32% ordinary income rate."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "Capital loss netting rules: (1) Net short-term gains/losses together; (2) Net long-term gains/losses together; (3) If opposite signs result, net them against each other. A remaining long-term loss offsets short-term gains. Result: $8,000 short-term gain − $5,000 long-term loss = $3,000 net short-term gain, taxed at the 32% ordinary income rate.",
+    "subtopic": "tax-planning",
+    "difficulty": "hard",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "IRC Section 1222 — capital loss netting rules",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-039",
+    "section": "laws-regulations",
+    "stem": "Under the Investment Advisers Act of 1940, the three-part test for determining whether a person is an 'investment adviser' requires that the person:",
+    "choices": [
+      {"label": "A", "text": "Manages at least $25 million in assets, provides personalized advice, and charges performance fees", "explanation": "Incorrect. The three-part test does not include an AUM threshold or performance fee requirement; those are registration threshold and compensation-type issues, not the definitional test."},
+      {"label": "B", "text": "Is in the business of providing advice about securities, receives compensation for that advice, and provides advice as a regular business activity", "explanation": "Correct. The three-part test under the Advisers Act asks whether the person (1) provides advice or analysis concerning securities, (2) is in the business of providing such advice, and (3) receives compensation (directly or indirectly) for the advice."},
+      {"label": "C", "text": "Has a registered office, employs at least one supervised person, and files Form ADV annually", "explanation": "Incorrect. These are post-registration compliance requirements, not the three-part definitional test for whether someone qualifies as an investment adviser."},
+      {"label": "D", "text": "Provides advice exclusively on a discretionary basis, charges asset-based fees, and has fiduciary relationships with clients", "explanation": "Incorrect. The Advisers Act definition is broader — it covers both discretionary and non-discretionary advisers and any form of compensation; a fiduciary relationship flows from registration, not from meeting the three-part test."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "The Investment Advisers Act of 1940 defines an investment adviser using a three-part conjunctive test: the person must (1) provide advice, analysis, or reports concerning securities; (2) be in the business of providing such advice (not just do it occasionally); and (3) receive compensation for that advice, either directly from clients or indirectly. All three elements must be present.",
+    "subtopic": "investment-advisers-act",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Investment Advisers Act of 1940, Section 202(a)(11)",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-040",
+    "section": "laws-regulations",
+    "stem": "An investment adviser's Form ADV consists of multiple parts. Which part contains the adviser's brochure — the client-facing narrative disclosure document?",
+    "choices": [
+      {"label": "A", "text": "Form ADV Part 1, which contains detailed information about the adviser's business and disciplinary history for regulatory use", "explanation": "Incorrect. Form ADV Part 1 contains structured data about the adviser's business, ownership, and disciplinary history primarily for regulatory (IARD database) purposes, not the client-facing narrative brochure."},
+      {"label": "B", "text": "Form ADV Part 2A, which is the adviser's brochure providing narrative disclosures about services, fees, and conflicts", "explanation": "Correct. Form ADV Part 2A is the adviser's written brochure — a plain-English narrative document that discloses the adviser's services, fees, investment strategies, risks, disciplinary history, conflicts of interest, and other material information to clients."},
+      {"label": "C", "text": "Form ADV Part 2B, which is the brochure supplement disclosing each individual supervised person who provides advisory services", "explanation": "Incorrect. Part 2B is the brochure supplement for individual supervised persons (IARs) who directly advise clients, not the firm-level brochure. Part 2A is the firm brochure."},
+      {"label": "D", "text": "Form ADV Part 3 (CRS), which is a client relationship summary for retail investors", "explanation": "Incorrect. Form ADV Part 3 (Client Relationship Summary or CRS) is a separate 2-page summary document for retail investors; it does not replace the full Part 2A brochure."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "Form ADV Part 2A is the adviser's client brochure — a plain-English narrative disclosure document that must be delivered to prospective clients at least 48 hours before signing an advisory agreement, or at the time of signing if the client has the right to terminate within 5 days without penalty. It covers services, fees, strategies, disciplinary events, and conflicts of interest.",
+    "subtopic": "investment-advisers-act",
+    "difficulty": "easy",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Investment Advisers Act Rule 204-3; Form ADV requirements",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-041",
+    "section": "laws-regulations",
+    "stem": "Under the Investment Advisers Act, an adviser must deliver its Form ADV brochure (Part 2A) to a prospective client:",
+    "choices": [
+      {"label": "A", "text": "Within 10 business days after the advisory agreement is signed", "explanation": "Incorrect. The brochure delivery obligation occurs before or at the time of signing, not after the agreement is already in place."},
+      {"label": "B", "text": "Only upon the client's written request", "explanation": "Incorrect. Brochure delivery is a mandatory requirement, not contingent on client request. Advisers must proactively deliver the brochure, not merely make it available upon request."},
+      {"label": "C", "text": "At least 48 hours before signing the advisory agreement, OR at or before signing if the client may terminate within 5 days without penalty", "explanation": "Correct. The Advisers Act brochure rule requires delivery at least 48 hours before the advisory contract is entered into, OR at the time of contract signing if the client has the right to terminate without penalty within 5 business days."},
+      {"label": "D", "text": "Annually within 120 days of the adviser's fiscal year end regardless of changes", "explanation": "Incorrect. Annual delivery (or offer to deliver) is required within 120 days of the adviser's fiscal year end only if there are material changes; advisers must also deliver updated brochures promptly when material changes occur."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "Under the Investment Advisers Act brochure delivery rule, an investment adviser must deliver its Part 2A brochure to a prospective client at least 48 hours before the advisory agreement is signed, or at the time of signing if the client has the right to terminate within 5 business days without penalty. Annual updates must be delivered (or offered) within 120 days of fiscal year end if material changes occurred.",
+    "subtopic": "investment-advisers-act",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Investment Advisers Act Rule 204-3 (Brochure Rule)",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-042",
+    "section": "laws-regulations",
+    "stem": "Under the Investment Advisers Act Rule 206(4)-2 (Custody Rule), if an investment adviser has custody of client assets, the adviser must, at minimum:",
+    "choices": [
+      {"label": "A", "text": "Use a qualified custodian and undergo an annual surprise examination by an independent public accountant", "explanation": "Correct. The Custody Rule requires advisers with custody to: (1) maintain client assets with a qualified custodian, (2) send account statements directly to clients, and (3) undergo an annual surprise examination by an independent CPA to verify that client assets are held as represented."},
+      {"label": "B", "text": "Hold all client assets in an omnibus account at a bank to ensure government oversight", "explanation": "Incorrect. Client assets with a qualified custodian must be held in individual, segregated accounts in the client's name (or in the adviser's name as agent), not in commingled omnibus accounts."},
+      {"label": "C", "text": "Post a surety bond equal to the total value of all client assets held in custody", "explanation": "Incorrect. The Custody Rule does not require a surety bond equal to client assets; the rule focuses on qualified custodian requirements and surprise audits."},
+      {"label": "D", "text": "Segregate client assets from firm assets and file a monthly report with the SEC", "explanation": "Incorrect. While client asset segregation is required, the Custody Rule does not mandate monthly SEC reporting; account statements to clients must be sent at least quarterly."}
+    ],
+    "correctAnswer": "A",
+    "explanation": "Under the SEC's Custody Rule (Rule 206(4)-2), investment advisers with custody of client assets must: maintain assets with a qualified custodian (e.g., broker-dealer, bank); ensure clients receive account statements at least quarterly directly from the custodian; and submit to annual surprise examinations by an independent CPA to verify custodied assets. The surprise examination requirement is triggered by custody.",
+    "subtopic": "custody-rule",
+    "difficulty": "hard",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Investment Advisers Act Rule 206(4)-2",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-043",
+    "section": "laws-regulations",
+    "stem": "An investment adviser's performance advertising shows composite returns for a select group of accounts that outperformed while excluding underperforming accounts. This practice is BEST described as:",
+    "choices": [
+      {"label": "A", "text": "A legitimate marketing practice as long as the composite includes at least 10 accounts", "explanation": "Incorrect. Cherry-picking accounts for performance composites is not made acceptable by the size of the sample; it creates a misleading picture of performance regardless of the number of included accounts."},
+      {"label": "B", "text": "Permissible under GIPS standards, which allow exclusion of accounts with unique mandates", "explanation": "Incorrect. GIPS (Global Investment Performance Standards) require that all fee-paying, discretionary accounts meeting a composite definition be included in the composite. Selective exclusion of poor performers violates GIPS."},
+      {"label": "C", "text": "Required by the SEC to show only the adviser's best-performing strategies", "explanation": "Incorrect. The SEC requires complete and non-misleading performance disclosure; there is no requirement to show only best performers — quite the opposite."},
+      {"label": "D", "text": "Cherry-picking, which is a prohibited practice because it presents a misleading picture of the adviser's actual performance track record", "explanation": "Correct. Presenting performance results from only selected accounts (those with the best results) while omitting underperforming accounts constitutes cherry-picking — a deceptive practice prohibited under the Investment Advisers Act anti-fraud provisions and inconsistent with GIPS standards."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "Cherry-picking — selecting only superior-performing accounts for performance composites while excluding underperformers — is a deceptive performance advertising practice prohibited under the Investment Advisers Act anti-fraud provisions (Section 206). GIPS standards require all eligible accounts to be included in composites to ensure fair representation of the adviser's results.",
+    "subtopic": "performance-advertising",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Investment Advisers Act Section 206; GIPS Standards",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-044",
+    "section": "laws-regulations",
+    "stem": "An investment adviser with $120 million in AUM is registered with the SEC. For registration purposes, this adviser is classified as a:",
+    "choices": [
+      {"label": "A", "text": "State-registered adviser because it manages client assets across multiple states", "explanation": "Incorrect. Multi-state activity does not determine the registration level; AUM is the primary determinant. At $120 million, the adviser must register with the SEC."},
+      {"label": "B", "text": "Mid-size adviser eligible to register with either the SEC or the state", "explanation": "Incorrect. The $100M–$110M AUM range is the 'mid-size' window where advisers may choose between SEC and state registration. At $120 million, SEC registration is mandatory."},
+      {"label": "C", "text": "Small adviser exempt from both state and federal registration under the de minimis exemption", "explanation": "Incorrect. The de minimis exemption applies to investment advisers with no office in a state and fewer than 5 non-institutional clients in that state; it is not related to AUM and would not apply to a $120M AUM adviser."},
+      {"label": "D", "text": "Federally covered adviser that must register with the SEC because AUM is at or above $110 million", "explanation": "Correct. Investment advisers with AUM of $110 million or more are required to register with the SEC and are classified as federally covered advisers. At $120 million AUM, this adviser must be SEC-registered."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "Investment advisers with $110 million or more in AUM are federally covered advisers required to register with the SEC under the Investment Advisers Act. With $120 million in AUM, this adviser falls clearly above the mandatory SEC registration threshold. Advisers with AUM below $100 million generally register with state(s).",
+    "subtopic": "registration-thresholds",
+    "difficulty": "easy",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Investment Advisers Act Section 203A; Rule 203A-1",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-045",
+    "section": "laws-regulations",
+    "stem": "An investment adviser with $85 million in AUM is currently state-registered. The adviser's AUM grows to $98 million. What is the adviser's registration obligation?",
+    "choices": [
+      {"label": "A", "text": "Must immediately register with the SEC because AUM now exceeds $75 million", "explanation": "Incorrect. The SEC registration threshold is $110 million (mandatory), with an optional window from $100M–$110M; there is no $75 million threshold requiring SEC registration."},
+      {"label": "B", "text": "Must remain state-registered because AUM has not reached the $100 million threshold for optional SEC registration", "explanation": "Correct. An adviser with $98 million in AUM is below both the mandatory ($110M) and optional ($100M) SEC registration thresholds and must remain registered with the state. State registration is required for advisers with AUM below $100 million."},
+      {"label": "C", "text": "Must register with the SEC because AUM exceeds $50 million", "explanation": "Incorrect. There is no $50 million SEC registration trigger; the relevant thresholds are $100 million (optional SEC registration) and $110 million (mandatory SEC registration)."},
+      {"label": "D", "text": "May choose between state and SEC registration at any AUM level above $50 million", "explanation": "Incorrect. The choice between state and SEC registration is available only in the $100M–$110M AUM range; below $100M, advisers must register with states, and above $110M they must register with the SEC."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "Investment advisers with AUM below $100 million must register with the state(s), not the SEC. At $98 million AUM, this adviser remains below the $100 million optional SEC registration threshold and must stay state-registered. The optional window is $100M–$110M, and mandatory SEC registration kicks in at $110M.",
+    "subtopic": "registration-thresholds",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Investment Advisers Act Section 203A; Rule 203A-1",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-046",
+    "section": "laws-regulations",
+    "stem": "Under the Investment Advisers Act, an investment adviser owes a fiduciary duty to its clients. This duty consists of which two primary components?",
+    "choices": [
+      {"label": "A", "text": "Duty of profitability and duty of disclosure", "explanation": "Incorrect. There is no 'duty of profitability' in fiduciary law; investment advisers are not guarantors of returns. The fiduciary duty consists of the duty of loyalty and the duty of care."},
+      {"label": "B", "text": "Duty of loyalty (to place client interests first) and duty of care (to act in the client's best interest with competence)", "explanation": "Correct. The investment adviser fiduciary duty under the Advisers Act consists of: (1) the duty of loyalty — placing the client's interests ahead of the adviser's own interests and disclosing conflicts; and (2) the duty of care — providing advice that is in the client's best interest based on their individual circumstances, using reasonable care and competence."},
+      {"label": "C", "text": "Duty of suitability and duty of best execution", "explanation": "Incorrect. Suitability and best execution are important obligations but are components of the fiduciary duties, not the two principal duties themselves. The overarching duties are loyalty and care."},
+      {"label": "D", "text": "Duty of registration and duty of recordkeeping", "explanation": "Incorrect. Registration and recordkeeping are regulatory compliance obligations, not components of the fiduciary duty to clients."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "The investment adviser fiduciary duty under the Investment Advisers Act consists of two primary components: (1) the duty of loyalty — the adviser must act in the client's best interest, not the adviser's own, and must disclose all material conflicts of interest; and (2) the duty of care — the adviser must exercise reasonable care and competence in providing advice tailored to the client's individual circumstances.",
+    "subtopic": "investment-advisers-act",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Investment Advisers Act Section 206; SEC fiduciary guidance",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-047",
+    "section": "laws-regulations",
+    "stem": "GIPS (Global Investment Performance Standards) are voluntary standards designed to ensure that investment performance results are reported in a manner that is:",
+    "choices": [
+      {"label": "A", "text": "Audited and certified by the SEC before publication", "explanation": "Incorrect. GIPS are voluntary industry standards maintained by the CFA Institute; the SEC does not audit or certify GIPS-compliant performance presentations."},
+      {"label": "B", "text": "Guaranteed to reflect future performance results based on past track records", "explanation": "Incorrect. GIPS do not guarantee future performance; past performance presented under GIPS is no guarantee of future results."},
+      {"label": "C", "text": "Required by law for all registered investment advisers in the United States", "explanation": "Incorrect. GIPS compliance is voluntary; it is not required by any U.S. law or regulation, though firms that voluntarily claim compliance must adhere to all GIPS requirements."},
+      {"label": "D", "text": "Fair, comparable, and complete, providing prospective clients with a full and accurate picture of performance history", "explanation": "Correct. GIPS standards are designed to ensure that performance presentations are fair to prospective clients, comparable across firms, and complete — including all relevant portfolios in appropriate composites, presented net and/or gross of fees with proper disclosure."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "GIPS (Global Investment Performance Standards), maintained by the CFA Institute, are voluntary ethical standards for calculating and presenting investment performance. Their purpose is to ensure performance results are fair, comparable across firms, and complete — so prospective clients receive an accurate historical picture of the adviser's track record without cherry-picking or distorted composites.",
+    "subtopic": "performance-advertising",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "CFA Institute GIPS Standards 2020 edition",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-048",
+    "section": "laws-regulations",
+    "stem": "When an investment adviser reports performance returns to prospective clients, presenting returns GROSS of fees (before deducting management fees) without also providing returns net of fees is:",
+    "choices": [
+      {"label": "A", "text": "Preferred by the SEC because gross returns best reflect the adviser's investment skill", "explanation": "Incorrect. The SEC does not prefer gross-only performance presentations; the regulatory concern is that gross-only returns misrepresent what clients actually receive."},
+      {"label": "B", "text": "Potentially misleading, because clients actually receive net-of-fees returns and gross presentations overstate what investors earn", "explanation": "Correct. Presenting only gross-of-fees returns without disclosing the net-of-fees returns (what clients actually receive after paying advisory fees) is potentially misleading. Investment advisers must disclose both gross and net returns, or ensure that fee disclosure is prominent enough that clients can calculate net returns."},
+      {"label": "C", "text": "Standard practice under GIPS and permitted without additional disclosures", "explanation": "Incorrect. GIPS requires advisers to present net-of-fees returns (as the primary measure for composites) and may also show gross returns, but gross-only presentations with no net disclosure are not standard under GIPS."},
+      {"label": "D", "text": "Acceptable as long as the fee schedule is listed elsewhere in the brochure", "explanation": "Incorrect. Simply having a fee schedule in a brochure does not cure the potential misleading nature of a gross-only performance advertisement; net returns should be presented alongside gross returns."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "Investment advisers presenting performance returns to prospective clients must be careful not to mislead. Gross-of-fees returns overstate what clients actually receive after paying advisory fees. Advisers should present net-of-fees returns (reflecting actual client results) alongside or in lieu of gross returns, with clear disclosure of the fee impact.",
+    "subtopic": "performance-advertising",
+    "difficulty": "hard",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Investment Advisers Act Section 206; SEC guidance on performance advertising",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-049",
+    "section": "laws-regulations",
+    "stem": "Under FinCEN regulations, investment advisers registered with the SEC are subject to anti-money laundering (AML) program requirements. A key AML obligation for covered advisers is:",
+    "choices": [
+      {"label": "A", "text": "Filing a suspicious activity report (SAR) with FINRA within 24 hours of detecting suspicious activity", "explanation": "Incorrect. SARs are filed with FinCEN (not FINRA), and the filing deadline is generally 30 calendar days from initial detection, not 24 hours."},
+      {"label": "B", "text": "Implementing a written AML program that includes policies and procedures, a designated compliance officer, employee training, and independent testing", "explanation": "Correct. The core elements of a Bank Secrecy Act / FinCEN AML program are: (1) written policies and procedures, (2) designation of an AML compliance officer, (3) ongoing employee training, and (4) independent testing (audit) of the program's effectiveness."},
+      {"label": "C", "text": "Requiring all clients to post a surety bond equal to 10% of their initial investment", "explanation": "Incorrect. AML rules do not require clients to post surety bonds; they require adviser programs to detect and report suspicious transactions."},
+      {"label": "D", "text": "Refusing to accept any cash deposits from clients regardless of amount", "explanation": "Incorrect. While large cash transactions trigger reporting requirements (Currency Transaction Reports for cash transactions over $10,000), AML rules do not categorically prohibit cash acceptance."}
+    ],
+    "correctAnswer": "B",
+    "explanation": "An effective AML program under Bank Secrecy Act / FinCEN requirements consists of four pillars: (1) written policies, procedures, and internal controls; (2) a designated AML compliance officer; (3) ongoing employee training; and (4) independent testing/audit of the program. This framework helps detect and prevent money laundering and terrorist financing.",
+    "subtopic": "anti-money-laundering",
+    "difficulty": "hard",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Bank Secrecy Act; FinCEN AML rules for investment advisers",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-050",
+    "section": "laws-regulations",
+    "stem": "An investment adviser's fiduciary duty requires best execution when placing client orders. 'Best execution' means the adviser must:",
+    "choices": [
+      {"label": "A", "text": "Always route orders to the broker with the lowest commission rate regardless of other factors", "explanation": "Incorrect. Best execution is not achieved solely by minimizing commissions; it requires considering the overall quality of execution, including price, speed, likelihood of execution, and total transaction cost."},
+      {"label": "B", "text": "Execute all orders on the primary exchange where the security is listed", "explanation": "Incorrect. Best execution does not require routing to the primary listing exchange; the adviser should seek the best overall execution quality regardless of venue."},
+      {"label": "C", "text": "Seek the most favorable terms reasonably available under the circumstances, considering price, commission, speed, and execution quality", "explanation": "Correct. Best execution requires advisers to seek execution of client orders on the most favorable terms reasonably available, considering not just commission rates but also net price (spread + commission), execution speed, likelihood of execution, and overall transaction quality."},
+      {"label": "D", "text": "Obtain written client consent before routing any order to an affiliated broker-dealer", "explanation": "Incorrect. While disclosure of affiliated broker conflicts is important, best execution is not conditioned on written client consent for each individual order; it is an ongoing duty to seek favorable execution terms."}
+    ],
+    "correctAnswer": "C",
+    "explanation": "Best execution is a component of the investment adviser's fiduciary duty of care. It requires advisers to seek the most favorable execution terms reasonably available under the circumstances, taking into account net price (commission plus spread), execution speed, likelihood of complete execution, and market impact. Best execution is a qualitative assessment, not merely commission minimization.",
+    "subtopic": "investment-advisers-act",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Investment Advisers Act Section 206; SEC guidance on best execution",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-051",
+    "section": "laws-regulations",
+    "stem": "An investment adviser registered with the SEC fails to file its updated Form ADV by the required deadline. The MOST LIKELY consequence is:",
+    "choices": [
+      {"label": "A", "text": "Automatic revocation of the adviser's SEC registration without notice", "explanation": "Incorrect. Registration is not automatically revoked for a late filing; the SEC would provide notice and the opportunity to cure before taking formal action."},
+      {"label": "B", "text": "FINRA automatically suspends the adviser's broker-dealer license", "explanation": "Incorrect. FINRA regulates broker-dealers, not investment advisers. FINRA would have no authority over an investment adviser's registration based on a Form ADV filing failure."},
+      {"label": "C", "text": "The adviser forfeits all advisory fees earned during the period of non-compliance", "explanation": "Incorrect. Automatic fee forfeiture is not a standard consequence of late Form ADV filing; formal enforcement actions have their own prescribed remedies."},
+      {"label": "D", "text": "The SEC may begin administrative proceedings, and the adviser risks formal censure, suspension, or revocation of registration", "explanation": "Correct. Failure to file a timely updated Form ADV is a violation of the Investment Advisers Act. The SEC can bring administrative proceedings resulting in censure, suspension, or revocation of registration, in addition to civil penalties."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "Investment advisers registered with the SEC must file annual updates to Form ADV within 90 days of fiscal year-end and update promptly when material changes occur. Failure to file timely is a violation of the Advisers Act, and the SEC can initiate administrative proceedings resulting in censure, suspension, or revocation of registration, as well as civil monetary penalties.",
+    "subtopic": "investment-advisers-act",
+    "difficulty": "medium",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Investment Advisers Act Section 207; Rule 204-1",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s65-052",
+    "section": "laws-regulations",
+    "stem": "A private fund adviser qualifies for the venture capital fund adviser exemption under the Investment Advisers Act. Which of the following best describes this exemption?",
+    "choices": [
+      {"label": "A", "text": "The adviser is exempt from all securities laws as long as its venture capital funds have fewer than 100 investors each", "explanation": "Incorrect. Exemption from SEC registration does not exempt the adviser from all securities laws; anti-fraud provisions and other investor protection requirements still apply. The exemption is also not solely defined by investor count."},
+      {"label": "B", "text": "The adviser may operate entirely off-the-books with no obligations to the SEC or states", "explanation": "Incorrect. Exempt reporting advisers must still file Form ADV with the SEC and comply with anti-fraud rules; they are not exempt from all regulatory obligations."},
+      {"label": "C", "text": "The adviser must still register with the SEC but qualifies for reduced form filing requirements", "explanation": "Incorrect. The venture capital exemption is a registration exemption — the adviser is not registered as an investment adviser; it is an 'exempt reporting adviser' that files limited Form ADV information without full registration."},
+      {"label": "D", "text": "The adviser is exempt from SEC registration but remains subject to reporting requirements (Form ADV as an exempt reporting adviser) and anti-fraud provisions", "explanation": "Correct. Advisers who qualify for the venture capital fund adviser exemption are not required to register with the SEC as investment advisers. However, they must file Form ADV as 'exempt reporting advisers' and remain subject to anti-fraud provisions of the Advisers Act."}
+    ],
+    "correctAnswer": "D",
+    "explanation": "The Investment Advisers Act Section 203(l) venture capital fund adviser exemption allows advisers who solely advise qualifying venture capital funds to avoid SEC registration. However, these advisers must file as 'exempt reporting advisers' (ERA) by submitting selected portions of Form ADV, and they remain fully subject to the Advisers Act's anti-fraud provisions.",
+    "subtopic": "registration-thresholds",
+    "difficulty": "hard",
+    "source": "NASAA Series 65 content outline",
+    "regulatoryBasis": "Investment Advisers Act Section 203(l); Rule 203(l)-1",
+    "lastVerified": "2026-05-20"
+  }
+]

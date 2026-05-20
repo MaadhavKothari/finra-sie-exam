@@ -1,0 +1,128 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { EXAMS } from '../../data/exams';
+import type { ExamId } from '../../data/exams';
+
+export function getStaticPaths() {
+  return [
+    { params: { exam: 'sie' } },
+    { params: { exam: 'series-6' } },
+    { params: { exam: 'series-7' } },
+    { params: { exam: 'series-63' } },
+    { params: { exam: 'series-65' } },
+    { params: { exam: 'series-66' } },
+  ];
+}
+
+const { exam } = Astro.params;
+const examId = exam as ExamId;
+const examData = EXAMS[examId];
+const base = import.meta.env.BASE_URL;
+
+// Count questions per section
+const sectionCounts: Record<string, number> = {};
+
+if (exam === 'sie') {
+  const [cm, pr, ta, rf] = await Promise.all([
+    getCollection('capital-markets'),
+    getCollection('products-risks'),
+    getCollection('trading-accounts'),
+    getCollection('regulatory-framework'),
+  ]);
+  sectionCounts['capital-markets'] = cm.length;
+  sectionCounts['products-risks'] = pr.length;
+  sectionCounts['trading-accounts'] = ta.length;
+  sectionCounts['regulatory-framework'] = rf.length;
+} else if (exam === 'series-6') {
+  for (const q of await getCollection('series-6')) sectionCounts[q.data.section] = (sectionCounts[q.data.section] ?? 0) + 1;
+} else if (exam === 'series-7') {
+  for (const q of await getCollection('series-7')) sectionCounts[q.data.section] = (sectionCounts[q.data.section] ?? 0) + 1;
+} else if (exam === 'series-63') {
+  for (const q of await getCollection('series-63')) sectionCounts[q.data.section] = (sectionCounts[q.data.section] ?? 0) + 1;
+} else if (exam === 'series-65') {
+  for (const q of await getCollection('series-65')) sectionCounts[q.data.section] = (sectionCounts[q.data.section] ?? 0) + 1;
+} else if (exam === 'series-66') {
+  for (const q of await getCollection('series-66')) sectionCounts[q.data.section] = (sectionCounts[q.data.section] ?? 0) + 1;
+}
+
+const totalQuestions = Object.values(sectionCounts).reduce((a, b) => a + b, 0);
+---
+
+<BaseLayout title={examData.name} description={examData.description}>
+  <main class="max-w-lg mx-auto px-4 py-6">
+
+    {/* Back */}
+    <a href={base} class="text-sm text-gray-400 hover:text-gray-600 mb-4 inline-block">← All Exams</a>
+
+    {/* Header */}
+    <div class={`bg-gradient-to-br ${examData.colorClass} rounded-2xl p-5 text-white mb-6 shadow-lg ${examData.shadowClass}`}>
+      <div class="flex items-center gap-3 mb-2">
+        <span class="text-3xl">{examData.icon}</span>
+        <div>
+          <div class="text-xs uppercase tracking-wider opacity-80">{examData.fullName}</div>
+          <div class="text-2xl font-bold">{examData.name}</div>
+        </div>
+      </div>
+      <p class="text-sm opacity-90 mb-3">{examData.description}</p>
+      <div class="flex gap-4 text-sm">
+        <span class="bg-white/20 rounded-lg px-3 py-1">📝 {examData.scoredQuestions} questions</span>
+        <span class="bg-white/20 rounded-lg px-3 py-1">⏱ {examData.minutes} min</span>
+        <span class="bg-white/20 rounded-lg px-3 py-1">✅ {examData.passingScore}% to pass</span>
+      </div>
+    </div>
+
+    {/* Quick Start */}
+    <a
+      href={`${base}${exam}/drill/all`}
+      class={`block w-full bg-gradient-to-br ${examData.colorClass} text-white rounded-2xl p-5 mb-6 shadow-lg ${examData.shadowClass} hover:shadow-xl transition-all active:scale-[0.98] no-underline`}
+    >
+      <div class="flex items-center justify-between">
+        <div>
+          <div class="text-lg font-bold">Quick Practice</div>
+          <div class="text-white/70 text-sm mt-0.5">{totalQuestions} questions · All sections</div>
+        </div>
+        <div class="text-3xl">▶</div>
+      </div>
+    </a>
+
+    {/* Section cards */}
+    <h2 class="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-3">Practice by Section</h2>
+    <div class="space-y-3 mb-8">
+      {examData.sections.map((section) => {
+        const count = sectionCounts[section.id] ?? 0;
+        const weight = Math.round(section.weight * 100);
+        return (
+          <a
+            href={`${base}${exam}/drill/${section.id}`}
+            class="block bg-white border border-gray-200 rounded-xl p-4 hover:shadow-md hover:border-gray-300 transition-all active:scale-[0.98] no-underline"
+          >
+            <div class="flex items-center gap-3">
+              <div class="flex-1 min-w-0">
+                <div class="flex items-center justify-between mb-1.5">
+                  <h3 class="text-sm font-semibold text-gray-900 truncate pr-2">{section.name}</h3>
+                  <span class={`text-xs ${examData.badgeClass} px-2 py-0.5 rounded-full font-medium whitespace-nowrap`}>{weight}%</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <div class="flex-1 bg-gray-100 rounded-full h-1.5">
+                    <div class={`${examData.progressClass} h-1.5 rounded-full`} style={`width: ${weight}%`}></div>
+                  </div>
+                  <span class="text-xs text-gray-400 whitespace-nowrap">{count > 0 ? `${count}Q` : 'Coming soon'}</span>
+                </div>
+              </div>
+              <div class="text-gray-300 text-lg shrink-0">›</div>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+
+    {/* Exam stats */}
+    <div class="bg-gray-50 rounded-xl p-4 text-center">
+      <p class="text-xs text-gray-500 leading-relaxed">
+        <strong class="text-gray-700">{examData.name}:</strong> {examData.scoredQuestions} scored questions · {examData.minutes} min · {examData.passingScore}% to pass
+      </p>
+    </div>
+
+  </main>
+</BaseLayout>
