@@ -1,0 +1,88 @@
+[
+  {
+    "id": "q-pr-001",
+    "stem": "An investor purchases 100 shares of common stock at $50 per share. Which of the following best describes the investor's maximum potential loss?",
+    "choices": [
+      { "label": "A", "text": "$5,000", "explanation": "Correct. The maximum loss on a long stock position is the total amount invested. If the stock falls to zero, the investor loses the entire $5,000 investment (100 shares x $50). Unlike short selling, a long stock position cannot lose more than the initial investment because a stock price cannot fall below zero." },
+      { "label": "B", "text": "$2,500", "explanation": "Incorrect. This represents only half the invested amount and has no relationship to the actual maximum loss calculation for a long stock position." },
+      { "label": "C", "text": "Unlimited", "explanation": "Incorrect. Unlimited loss potential applies to short sellers, not long stock holders. A long position's maximum loss is limited to the amount invested because the stock price cannot go below zero." },
+      { "label": "D", "text": "$50", "explanation": "Incorrect. $50 is the price per share, not the maximum loss. The maximum loss is calculated on the entire position: 100 shares x $50 = $5,000." }
+    ],
+    "correctAnswer": "A",
+    "explanation": "When an investor buys stock (takes a long position), the maximum loss is limited to the total investment. Since a stock's price cannot fall below zero, the investor can lose no more than the purchase price multiplied by the number of shares.",
+    "topic": "products-risks",
+    "subtopic": "equity-securities",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-002",
+    "stem": "A corporate bond has a coupon rate of 5% and a par value of $1,000. If the bond is currently trading at $1,050, which of the following is TRUE?",
+    "choices": [
+      { "label": "A", "text": "The bond is trading at a discount and its current yield is above 5%", "explanation": "Incorrect. A bond trading above par ($1,050 > $1,000) is trading at a premium, not a discount." },
+      { "label": "B", "text": "The bond is trading at a premium and its current yield is below 5%", "explanation": "Correct. When a bond trades above its par value of $1,000, it is trading at a premium. The current yield equals the annual coupon payment divided by the current market price: $50 / $1,050 = 4.76%, which is below the 5% coupon rate. This inverse relationship between bond price and yield is a fundamental concept in fixed-income investing." },
+      { "label": "C", "text": "The bond is trading at par and its current yield equals 5%", "explanation": "Incorrect. The bond is trading at $1,050, which is above its par value of $1,000, so it is not trading at par." },
+      { "label": "D", "text": "The bond is trading at a premium and its current yield is above 5%", "explanation": "Incorrect. While the bond is trading at a premium, when a bond's price rises above par, the current yield falls below the coupon rate because the same coupon payment is divided by a higher price." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A bond trading above its par value is said to be trading at a premium. When this occurs, the current yield (annual coupon / market price) will be lower than the stated coupon rate. In this case, the current yield is $50 / $1,050 = 4.76%, below the 5% coupon rate.",
+    "topic": "products-risks",
+    "subtopic": "debt-instruments",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-003",
+    "stem": "An investor buys 1 XYZ Oct 50 call option for a premium of $3. At expiration, XYZ is trading at $56. What is the investor's profit or loss?",
+    "choices": [
+      { "label": "A", "text": "$300 profit", "explanation": "Correct. The call option is in-the-money by $6 ($56 - $50 strike price). The investor exercises and gains $6 per share intrinsic value, minus the $3 premium paid, for a net profit of $3 per share. Since one contract covers 100 shares: $3 x 100 = $300 profit." },
+      { "label": "B", "text": "$600 profit", "explanation": "Incorrect. While the intrinsic value at expiration is $6 per share ($600 for 100 shares), this does not account for the $3 premium paid to purchase the option, which must be subtracted." },
+      { "label": "C", "text": "$300 loss", "explanation": "Incorrect. The option is in-the-money at expiration, so the investor does not lose money. The intrinsic value of $6 exceeds the premium paid of $3." },
+      { "label": "D", "text": "$0 (breakeven)", "explanation": "Incorrect. The breakeven point for a long call is the strike price plus the premium: $50 + $3 = $53. Since XYZ is at $56, the investor is above breakeven." }
+    ],
+    "correctAnswer": "A",
+    "explanation": "For a long call option, profit equals the intrinsic value at expiration minus the premium paid. The intrinsic value is the stock price minus the strike price: $56 - $50 = $6. Net profit per share: $6 - $3 = $3. Total profit: $3 x 100 shares = $300.",
+    "topic": "products-risks",
+    "subtopic": "options",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-004",
+    "stem": "Which of the following is a characteristic of an open-end mutual fund but NOT a closed-end fund?",
+    "choices": [
+      { "label": "A", "text": "Shares are continuously offered and redeemed at net asset value (NAV)", "explanation": "Correct. Open-end mutual funds continuously issue new shares to investors and redeem shares at the fund's current net asset value (NAV), calculated at the end of each trading day. This distinguishes them from closed-end funds, which issue a fixed number of shares through an IPO and then trade on exchanges at prices that may be above or below NAV." },
+      { "label": "B", "text": "Shares trade on a stock exchange throughout the trading day", "explanation": "Incorrect. Intraday exchange trading is a characteristic of closed-end funds and exchange-traded funds (ETFs), not open-end mutual funds." },
+      { "label": "C", "text": "The fund can use leverage to enhance returns", "explanation": "Incorrect. Both open-end and closed-end funds may use leverage, though closed-end funds more commonly do so because they have a fixed capital structure." },
+      { "label": "D", "text": "Shares can trade at a discount or premium to NAV", "explanation": "Incorrect. Trading at a discount or premium to NAV is a characteristic of closed-end funds. Open-end fund shares are always transacted at NAV." }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The defining characteristic of an open-end mutual fund is that it continuously issues and redeems shares at net asset value. Unlike closed-end funds that have a fixed share count and trade on exchanges, open-end funds create new shares for buyers and retire shares for sellers, always transacting at the end-of-day NAV.",
+    "topic": "products-risks",
+    "subtopic": "packaged-products",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Investment Company Act of 1940",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-005",
+    "stem": "Which of the following types of risk is BEST mitigated through portfolio diversification?",
+    "choices": [
+      { "label": "A", "text": "Systematic risk", "explanation": "Incorrect. Systematic risk (also called market risk) affects the entire market and cannot be eliminated through diversification. Examples include interest rate changes, recessions, and geopolitical events." },
+      { "label": "B", "text": "Unsystematic risk", "explanation": "Correct. Unsystematic risk (also called diversifiable, specific, or idiosyncratic risk) is unique to a particular company or industry. By holding a diversified portfolio of securities across different companies and sectors, an investor can significantly reduce unsystematic risk because negative events affecting one holding may be offset by positive performance in others." },
+      { "label": "C", "text": "Inflation risk", "explanation": "Incorrect. Inflation risk is a type of systematic risk that affects the purchasing power of all investments. It cannot be eliminated through diversification alone." },
+      { "label": "D", "text": "Interest rate risk", "explanation": "Incorrect. Interest rate risk is a type of systematic risk that broadly impacts fixed-income securities and interest-rate-sensitive equities. Diversification alone does not eliminate it." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Unsystematic risk is company-specific or industry-specific risk that can be reduced through diversification. By spreading investments across many different securities, the impact of any single company's poor performance is minimized. Systematic risk, in contrast, affects the entire market and cannot be diversified away.",
+    "topic": "products-risks",
+    "subtopic": "investment-risks",
+    "difficulty": "hard",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-20"
+  }
+]

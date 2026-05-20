@@ -1,0 +1,91 @@
+[
+  {
+    "id": "q-cm-001",
+    "stem": "Which of the following organizations is a self-regulatory organization (SRO) responsible for overseeing broker-dealers and their registered representatives?",
+    "choices": [
+      { "label": "A", "text": "The Securities and Exchange Commission (SEC)", "explanation": "Incorrect. The SEC is a federal government agency that oversees the securities industry, but it is not classified as a self-regulatory organization." },
+      { "label": "B", "text": "The Financial Industry Regulatory Authority (FINRA)", "explanation": "Correct. FINRA is the largest self-regulatory organization in the United States. It was formed in 2007 through the consolidation of NASD and NYSE regulatory functions, and it is responsible for writing and enforcing rules governing broker-dealers and their registered representatives." },
+      { "label": "C", "text": "The Federal Reserve Board (FRB)", "explanation": "Incorrect. The Federal Reserve Board is the central bank of the United States and primarily oversees monetary policy, not broker-dealer regulation." },
+      { "label": "D", "text": "The Municipal Securities Rulemaking Board (MSRB)", "explanation": "Incorrect. While the MSRB is an SRO, it specifically oversees municipal securities dealers and municipal advisors, not all broker-dealers broadly." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA is the primary self-regulatory organization responsible for overseeing broker-dealers in the United States. Unlike government agencies such as the SEC, SROs are non-governmental organizations authorized by Congress to regulate their own members.",
+    "topic": "capital-markets",
+    "subtopic": "regulatory-entities-agencies",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Securities Exchange Act of 1934, Section 15A",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-cm-002",
+    "stem": "In the primary market, which of the following best describes an initial public offering (IPO)?",
+    "choices": [
+      { "label": "A", "text": "The first time a company's existing shares are traded on a secondary exchange", "explanation": "Incorrect. Trading on a secondary exchange describes the secondary market, not an IPO in the primary market." },
+      { "label": "B", "text": "A company selling additional shares after already being publicly traded", "explanation": "Incorrect. This describes a follow-on offering or secondary offering, not an initial public offering." },
+      { "label": "C", "text": "The first sale of a company's stock to the public through a registered offering", "explanation": "Correct. An IPO is the first time a company offers its shares to the public through a registration statement filed with the SEC. This occurs in the primary market where the issuer receives the proceeds from the sale. The Securities Act of 1933 governs the registration requirements for IPOs." },
+      { "label": "D", "text": "A private placement of securities to institutional investors under Regulation D", "explanation": "Incorrect. A Regulation D private placement is an exempt offering sold to accredited investors, not a public offering." }
+    ],
+    "correctAnswer": "C",
+    "explanation": "An IPO represents the first time a company sells its securities to the general public. This transaction occurs in the primary market, meaning the issuing company receives the proceeds. The Securities Act of 1933 requires companies to register their securities with the SEC before conducting an IPO.",
+    "topic": "capital-markets",
+    "subtopic": "offerings",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Securities Act of 1933",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-cm-003",
+    "stem": "Which of the following is a characteristic of the over-the-counter (OTC) market?",
+    "choices": [
+      { "label": "A", "text": "All trades are executed through a centralized physical exchange floor", "explanation": "Incorrect. The OTC market is decentralized and does not use a physical exchange floor. This describes exchanges like the NYSE." },
+      { "label": "B", "text": "Securities are traded through a network of dealers who negotiate directly", "explanation": "Correct. The OTC market is a decentralized market where securities are traded through a network of broker-dealers rather than on a centralized exchange. Dealers negotiate prices directly with each other or with customers. The OTC market includes platforms such as the OTC Bulletin Board and OTC Markets Group." },
+      { "label": "C", "text": "Only listed securities meeting strict financial requirements may be traded", "explanation": "Incorrect. Strict listing requirements are characteristic of exchanges like the NYSE or Nasdaq. The OTC market typically has fewer listing requirements." },
+      { "label": "D", "text": "Prices are determined solely through an electronic auction process", "explanation": "Incorrect. Electronic auction processes are used by exchanges like the NYSE. The OTC market uses a negotiated dealer market where prices are determined through direct negotiation." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The OTC market is a decentralized, dealer-based market where transactions are negotiated directly between parties rather than through a centralized exchange. This distinguishes it from exchange markets like the NYSE, which use centralized auction mechanisms.",
+    "topic": "capital-markets",
+    "subtopic": "market-structure",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Securities Exchange Act of 1934",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-cm-004",
+    "stem": "When the Federal Reserve Board raises the federal funds rate, which of the following is the MOST likely effect on the bond market?",
+    "choices": [
+      { "label": "A", "text": "Existing bond prices increase because yields become more attractive", "explanation": "Incorrect. When interest rates rise, existing bonds with lower coupon rates become less attractive, causing their prices to fall, not rise." },
+      { "label": "B", "text": "Existing bond prices decrease as newly issued bonds offer higher yields", "explanation": "Correct. There is an inverse relationship between interest rates and bond prices. When the Federal Reserve raises the federal funds rate, newly issued bonds offer higher yields to attract investors. Existing bonds with lower coupon rates become relatively less attractive, so their market prices decline to bring their effective yield in line with new market rates." },
+      { "label": "C", "text": "Bond prices remain unchanged because the federal funds rate only affects banks", "explanation": "Incorrect. While the federal funds rate directly applies to overnight bank lending, it influences the entire yield curve and affects bond prices across the market." },
+      { "label": "D", "text": "All bonds are immediately repriced to match the new federal funds rate", "explanation": "Incorrect. Bond prices adjust through market trading, not through an automatic repricing mechanism. Different maturities and credit qualities are affected to different degrees." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Bond prices and interest rates have an inverse relationship. When the Federal Reserve raises the federal funds rate, market interest rates generally rise, making existing bonds with lower coupon rates less attractive. Their prices decline until their yield to maturity is competitive with newly issued bonds.",
+    "topic": "capital-markets",
+    "subtopic": "economic-factors",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-cm-005",
+    "stem": "A company wants to raise capital quickly without the full SEC registration process. Under which exemption could it sell securities only to accredited investors through a private placement?",
+    "choices": [
+      { "label": "A", "text": "Regulation A+", "explanation": "Incorrect. Regulation A+ allows companies to offer securities to both accredited and non-accredited investors through a simplified registration process, but it is not limited to accredited investors only." },
+      { "label": "B", "text": "Regulation D, Rule 506(b)", "explanation": "Correct. Under Regulation D, Rule 506(b), companies can raise an unlimited amount of capital from an unlimited number of accredited investors and up to 35 non-accredited sophisticated investors without general solicitation. However, when an offering is limited to accredited investors only, 506(b) provides a streamlined path. Rule 506(c) specifically allows general solicitation but requires verification that all purchasers are accredited investors." },
+      { "label": "C", "text": "Regulation S", "explanation": "Incorrect. Regulation S provides an exemption for securities offered and sold outside the United States. It does not address domestic private placements to accredited investors." },
+      { "label": "D", "text": "Rule 144", "explanation": "Incorrect. Rule 144 governs the resale of restricted and control securities, not the initial issuance of securities through a private placement." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Regulation D provides exemptions from full SEC registration for private placements. Rule 506(b) allows issuers to raise unlimited capital from accredited investors without general solicitation, making it the most common exemption for private placements to qualified purchasers.",
+    "topic": "capital-markets",
+    "subtopic": "offerings",
+    "difficulty": "hard",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Securities Act of 1933, Regulation D, Rule 506(b)",
+    "lastVerified": "2026-05-20"
+  }
+]

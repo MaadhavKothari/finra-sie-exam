@@ -1,0 +1,91 @@
+[
+  {
+    "id": "q-ta-001",
+    "stem": "A customer places an order to buy 100 shares of ABC stock at $45 or better. This is an example of which type of order?",
+    "choices": [
+      { "label": "A", "text": "Market order", "explanation": "Incorrect. A market order is executed immediately at the best available price and does not specify a price limit." },
+      { "label": "B", "text": "Limit order", "explanation": "Correct. A limit order specifies the maximum price a buyer is willing to pay (or the minimum price a seller will accept). In this case, the customer will only buy at $45 or lower ('or better' for a buy limit means at or below the stated price). Limit orders provide price protection but do not guarantee execution." },
+      { "label": "C", "text": "Stop order", "explanation": "Incorrect. A stop order (or stop-loss order) becomes a market order once a specified trigger price is reached. The order described specifies a maximum purchase price, which is a limit order." },
+      { "label": "D", "text": "Stop-limit order", "explanation": "Incorrect. A stop-limit order combines a stop trigger with a limit price. The order described has only a price limit without a trigger, making it a simple limit order." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A limit order specifies the maximum price for a purchase or minimum price for a sale. The phrase 'or better' is inherent in all limit orders — for a buy, 'better' means a lower price; for a sell, 'better' means a higher price. Limit orders guarantee price but not execution.",
+    "topic": "trading-accounts",
+    "subtopic": "orders-and-strategies",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-ta-002",
+    "stem": "Under the Bank Secrecy Act, a broker-dealer must file a Currency Transaction Report (CTR) for cash transactions exceeding which amount?",
+    "choices": [
+      { "label": "A", "text": "$3,000", "explanation": "Incorrect. $3,000 is the threshold for broker-dealers to verify customer identity for certain transactions, but it is not the CTR filing threshold." },
+      { "label": "B", "text": "$5,000", "explanation": "Incorrect. While $5,000 is a threshold used in some AML-related contexts (such as Suspicious Activity Reports), the CTR threshold is higher." },
+      { "label": "C", "text": "$10,000", "explanation": "Correct. Under the Bank Secrecy Act and FinCEN regulations, broker-dealers must file a Currency Transaction Report (CTR) for any cash transaction exceeding $10,000 in a single business day. This applies to both single transactions and multiple related transactions that aggregate above $10,000. The requirement is designed to detect potential money laundering activity." },
+      { "label": "D", "text": "$25,000", "explanation": "Incorrect. $25,000 is not a standard AML reporting threshold. The CTR filing requirement applies to cash transactions exceeding $10,000." }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The Bank Secrecy Act requires broker-dealers to file a Currency Transaction Report (CTR) with FinCEN for any cash transactions exceeding $10,000 in a single business day. This includes aggregated transactions by the same person. The requirement is a key component of anti-money laundering (AML) compliance.",
+    "topic": "trading-accounts",
+    "subtopic": "anti-money-laundering",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Bank Secrecy Act, 31 CFR 1023.310",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-ta-003",
+    "stem": "For regular-way settlement of corporate stock trades, settlement occurs on which day after the trade date?",
+    "choices": [
+      { "label": "A", "text": "T+0 (same day)", "explanation": "Incorrect. Same-day settlement applies to cash trades, not regular-way trades for corporate stock." },
+      { "label": "B", "text": "T+1 (one business day)", "explanation": "Correct. As of May 2024, regular-way settlement for most securities including corporate stocks, bonds, and municipal securities occurs on T+1 (one business day after the trade date). This was shortened from the previous T+2 cycle by SEC Rule 15c6-1(a) to reduce counterparty risk and improve market efficiency." },
+      { "label": "C", "text": "T+2 (two business days)", "explanation": "Incorrect. T+2 was the standard settlement cycle prior to May 28, 2024. The SEC shortened the cycle to T+1 effective that date." },
+      { "label": "D", "text": "T+3 (three business days)", "explanation": "Incorrect. T+3 was the settlement cycle used before 2017. The cycle has been progressively shortened from T+3 to T+2 to the current T+1." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Regular-way settlement for corporate securities is T+1, meaning one business day after the trade date. The SEC shortened the settlement cycle from T+2 to T+1 effective May 28, 2024, to reduce counterparty risk, decrease margin requirements, and improve operational efficiency in the securities markets.",
+    "topic": "trading-accounts",
+    "subtopic": "trade-settlement",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "SEC Rule 15c6-1(a)",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-ta-004",
+    "stem": "An employee at a publicly traded company learns that the company will announce a merger next week. Before the announcement, the employee purchases shares of the company's stock. This activity is BEST described as:",
+    "choices": [
+      { "label": "A", "text": "Front-running", "explanation": "Incorrect. Front-running involves a broker-dealer trading ahead of a customer's large order. This scenario involves trading on material non-public information about a corporate event." },
+      { "label": "B", "text": "Insider trading", "explanation": "Correct. Insider trading occurs when a person trades securities based on material, non-public information (MNPI) in breach of a duty of trust or confidence. A pending merger announcement is material information that would likely affect the stock price. The employee has access to this information through their position and trades before it becomes public, which violates SEC Rule 10b-5 and the Securities Exchange Act of 1934." },
+      { "label": "C", "text": "Market manipulation", "explanation": "Incorrect. Market manipulation involves artificially influencing the price of a security through deceptive practices. While insider trading is illegal, it is a separate violation from market manipulation." },
+      { "label": "D", "text": "Churning", "explanation": "Incorrect. Churning refers to excessive trading in a customer's account to generate commissions. This scenario involves an individual trading on insider information, not excessive broker-driven activity." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Trading on material, non-public information (MNPI) constitutes insider trading, which violates federal securities laws. Material information is any information that a reasonable investor would consider important in making an investment decision. A pending merger announcement is a classic example of MNPI.",
+    "topic": "trading-accounts",
+    "subtopic": "insider-trading",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Securities Exchange Act of 1934, Section 10(b) and Rule 10b-5",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-ta-005",
+    "stem": "Which of the following account types requires that a customer grant the registered representative authority to make investment decisions without obtaining prior approval for each trade?",
+    "choices": [
+      { "label": "A", "text": "Cash account", "explanation": "Incorrect. A cash account is a standard brokerage account requiring full payment for securities purchased. It does not inherently grant trading authority to the representative." },
+      { "label": "B", "text": "Margin account", "explanation": "Incorrect. A margin account allows a customer to borrow money to purchase securities, but it does not automatically grant trading discretion to the representative." },
+      { "label": "C", "text": "Discretionary account", "explanation": "Correct. A discretionary account grants the registered representative the authority to make investment decisions on behalf of the customer without obtaining prior approval for each transaction. The customer must provide written authorization (a power of attorney or trading authorization), and a principal must approve the account. FINRA rules require that all discretionary transactions be reviewed and approved by a principal promptly." },
+      { "label": "D", "text": "Joint tenants with rights of survivorship (JTWROS) account", "explanation": "Incorrect. JTWROS is an ownership registration type for joint accounts, not a designation of trading authority." }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A discretionary account gives a registered representative the authority to make trading decisions without the customer's prior approval for each transaction. Written authorization is required, and a principal must approve the account. FINRA Rule 3260 governs discretionary accounts and requires supervisory review of discretionary transactions.",
+    "topic": "trading-accounts",
+    "subtopic": "account-types",
+    "difficulty": "hard",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "FINRA Rule 3260",
+    "lastVerified": "2026-05-20"
+  }
+]

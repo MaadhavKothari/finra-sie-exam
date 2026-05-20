@@ -1,0 +1,54 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { SIE_SECTIONS } from '../data/topics';
+
+const cm = await getCollection('capital-markets');
+const pr = await getCollection('products-risks');
+const ta = await getCollection('trading-accounts');
+const rf = await getCollection('regulatory-framework');
+
+const sections = [
+  { id: 'capital-markets', questions: cm },
+  { id: 'products-risks', questions: pr },
+  { id: 'trading-accounts', questions: ta },
+  { id: 'regulatory-framework', questions: rf },
+] as const;
+
+const totalQuestions = cm.length + pr.length + ta.length + rf.length;
+---
+<BaseLayout title="Home">
+  <main class="max-w-4xl mx-auto px-4 py-8 sm:py-16">
+    <h1 class="text-3xl sm:text-4xl font-bold mb-4">FINRA SIE Exam Practice</h1>
+    <p class="text-base sm:text-lg text-gray-600 mb-8">
+      Free, comprehensive practice questions with detailed explanations for every topic on the FINRA Securities Industry Essentials exam.
+    </p>
+
+    <div class="bg-blue-50 rounded-lg p-4 sm:p-6 mb-8">
+      <p class="text-xl sm:text-2xl font-semibold text-blue-900">{totalQuestions} Questions Available</p>
+      <p class="text-sm text-blue-700 mt-1">Across all 4 SIE exam sections</p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      {sections.map(({ id, questions }) => {
+        const section = SIE_SECTIONS[id];
+        return (
+          <div class="bg-white border border-gray-200 rounded-lg p-4 sm:p-6 hover:shadow-md transition-shadow">
+            <div class="flex items-start justify-between mb-2">
+              <h2 class="text-base sm:text-lg font-semibold text-gray-900 leading-tight pr-2">{section.name}</h2>
+              <span class="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded-full whitespace-nowrap">{Math.round(section.weight * 100)}%</span>
+            </div>
+            <p class="text-sm text-gray-500 mb-3">{section.examItems} exam questions &middot; {questions.length} practice</p>
+            <div class="w-full bg-gray-200 rounded-full h-2">
+              <div class="bg-blue-600 h-2 rounded-full" style={`width: ${Math.round(section.weight * 100)}%`}></div>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+
+    <div class="mt-8 p-4 bg-gray-50 rounded-lg text-sm text-gray-600">
+      <p><strong>About the SIE Exam:</strong> 75 questions, 105 minutes, 70% passing score. Questions are weighted across 4 sections: Capital Markets (16%), Products &amp; Risks (44%), Trading &amp; Accounts (31%), and Regulatory Framework (9%).</p>
+    </div>
+  </main>
+</BaseLayout>

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "q-rf-001",
+    "stem": "Which of the following exams must an individual pass before taking a qualification exam such as the Series 7 or Series 6?",
+    "choices": [
+      { "label": "A", "text": "The Series 63 (Uniform Securities Agent State Law Exam)", "explanation": "Incorrect. The Series 63 is a state law exam that may be required in addition to a qualification exam, but it is not a prerequisite for taking the Series 7 or Series 6." },
+      { "label": "B", "text": "The Securities Industry Essentials (SIE) exam", "explanation": "Correct. FINRA requires individuals to pass the SIE exam as a corequisite for any representative-level qualification exam. The SIE tests fundamental securities industry knowledge and can be taken by anyone age 18 or older, even without firm sponsorship. A representative-level exam (such as the Series 7) requires both the SIE and the specific top-off exam." },
+      { "label": "C", "text": "The Series 24 (General Securities Principal Exam)", "explanation": "Incorrect. The Series 24 is a principal-level exam for supervisors, not a prerequisite for representative-level exams." },
+      { "label": "D", "text": "No prerequisite exam is required", "explanation": "Incorrect. Since October 2018, the SIE exam has been required as a corequisite for all FINRA representative-level qualification exams." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The SIE exam is a corequisite for all FINRA representative-level qualification exams. It was introduced in October 2018 to assess fundamental industry knowledge separately from the specialized top-off exams like the Series 7 or Series 6. The SIE can be taken without firm sponsorship by anyone 18 or older.",
+    "topic": "regulatory-framework",
+    "subtopic": "registration-continuing-education",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "FINRA Rule 1210",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-rf-002",
+    "stem": "A registered representative wants to engage in an outside business activity (OBA) by working part-time at a local accounting firm. Which of the following is required BEFORE the representative begins the activity?",
+    "choices": [
+      { "label": "A", "text": "The representative must obtain approval from FINRA", "explanation": "Incorrect. FINRA does not directly approve outside business activities. The requirement is to provide written notice to the employing member firm." },
+      { "label": "B", "text": "The representative must provide prior written notice to the employing member firm", "explanation": "Correct. Under FINRA Rule 3270, registered representatives must provide written notice to their employing member firm before engaging in any outside business activity. The notice must describe the activity, the expected compensation, and whether the representative will be an employee, independent contractor, or otherwise. The firm evaluates the activity for potential conflicts of interest and may impose conditions or prohibit it." },
+      { "label": "C", "text": "The representative must resign from the broker-dealer", "explanation": "Incorrect. Engaging in an outside business activity does not require resignation. The representative must disclose the activity to the firm, which will determine whether it is permissible." },
+      { "label": "D", "text": "No action is required as long as the activity is unrelated to securities", "explanation": "Incorrect. FINRA Rule 3270 requires written notice for ALL outside business activities, not only those related to securities." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA Rule 3270 requires registered representatives to provide written notice to their employer before engaging in any outside business activity, regardless of whether it is related to the securities industry. The member firm then determines whether the activity poses conflicts of interest and whether to approve, condition, or prohibit it.",
+    "topic": "regulatory-framework",
+    "subtopic": "employee-conduct",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "FINRA Rule 3270",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-rf-003",
+    "stem": "FINRA's Continuing Education (CE) program requires registered persons to complete which of the following?",
+    "choices": [
+      { "label": "A", "text": "A regulatory element only, administered by FINRA on a periodic basis", "explanation": "Incorrect. While the Regulatory Element is a required component of FINRA's CE program, registered persons must also complete a Firm Element administered by their employing member firm." },
+      { "label": "B", "text": "Both a Regulatory Element administered by FINRA and a Firm Element administered by the member firm", "explanation": "Correct. FINRA's Continuing Education program has two components. The Regulatory Element is a computer-based training program administered by FINRA that must be completed within 120 days of a registered person's second registration anniversary and annually thereafter. The Firm Element is an annual training program developed and administered by each member firm, tailored to the firm's business and the needs of its registered persons." },
+      { "label": "C", "text": "An annual exam recertification administered by FINRA", "explanation": "Incorrect. FINRA does not require registered persons to retake their qualification exams annually. Continuing education is fulfilled through the Regulatory and Firm Elements." },
+      { "label": "D", "text": "A firm element only, as determined by the employing broker-dealer", "explanation": "Incorrect. Both the Regulatory Element (FINRA-administered) and the Firm Element (firm-administered) are required components of FINRA's continuing education program." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA's Continuing Education program consists of two mandatory components: the Regulatory Element, which is a FINRA-administered computer-based training completed periodically, and the Firm Element, which is an annual training program developed by each member firm to address relevant regulatory and compliance topics specific to its business.",
+    "topic": "regulatory-framework",
+    "subtopic": "registration-continuing-education",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "FINRA Rule 1240",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-rf-004",
+    "stem": "A registered representative is terminated by their employing broker-dealer after a customer complaint alleging unauthorized trading. Which form must the broker-dealer file to report this termination?",
+    "choices": [
+      { "label": "A", "text": "Form U4 (Uniform Application for Securities Industry Registration)", "explanation": "Incorrect. Form U4 is used to register an individual with a member firm and to update their registration information. It is not used to report terminations." },
+      { "label": "B", "text": "Form U5 (Uniform Termination Notice for Securities Industry Registration)", "explanation": "Correct. When a registered representative's association with a member firm ends, the firm must file a Form U5 within 30 days. The form must disclose the reason for termination, including any customer complaints, regulatory actions, or internal review findings. In this case, the firm must disclose the customer complaint alleging unauthorized trading as the reason for termination." },
+      { "label": "C", "text": "Form BD (Uniform Application for Broker-Dealer Registration)", "explanation": "Incorrect. Form BD is used by firms to register as broker-dealers with the SEC. It is not used to report individual representative terminations." },
+      { "label": "D", "text": "Suspicious Activity Report (SAR)", "explanation": "Incorrect. A SAR is filed to report suspected money laundering or other financial crimes. While unauthorized trading is a serious violation, the reporting mechanism for terminations is Form U5." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Form U5 must be filed within 30 days when a registered representative's association with a member firm ends. The form requires disclosure of the circumstances surrounding the termination, including customer complaints, regulatory investigations, or internal findings. This information becomes part of the representative's permanent CRD record.",
+    "topic": "regulatory-framework",
+    "subtopic": "reportable-events",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "FINRA By-Laws, Article V, Section 3",
+    "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-rf-005",
+    "stem": "A registered representative receives a gift of $150 from a client during the holidays. Under FINRA rules, which of the following statements is correct?",
+    "choices": [
+      { "label": "A", "text": "The gift is prohibited because it exceeds the $100 per-person annual limit", "explanation": "Correct. FINRA Rule 3220 limits gifts given or received by associated persons to $100 per individual per year. A $150 gift exceeds this threshold and would violate the rule. The rule is designed to prevent potential conflicts of interest and ensure that business decisions are not influenced by gifts. The representative should decline the gift or return any amount exceeding $100." },
+      { "label": "B", "text": "The gift is permitted because there is no dollar limit on gifts from clients", "explanation": "Incorrect. FINRA Rule 3220 imposes a $100 per-person annual limit on gifts. There is a clear dollar threshold that must be respected." },
+      { "label": "C", "text": "The gift is permitted if the representative reports it to their compliance department", "explanation": "Incorrect. While reporting may be required by firm policy, reporting alone does not make a gift that exceeds the $100 limit permissible under FINRA rules." },
+      { "label": "D", "text": "The gift is permitted because it is under the $250 annual limit", "explanation": "Incorrect. The FINRA gift limit is $100 per individual per year, not $250. A $150 gift exceeds the limit." }
+    ],
+    "correctAnswer": "A",
+    "explanation": "FINRA Rule 3220 limits gifts given or received by associated persons to $100 per individual per year. This rule prevents conflicts of interest and ensures that business relationships remain professional. The $150 gift exceeds this threshold and must be declined or the excess returned.",
+    "topic": "regulatory-framework",
+    "subtopic": "employee-conduct",
+    "difficulty": "hard",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "FINRA Rule 3220",
+    "lastVerified": "2026-05-20"
+  }
+]
