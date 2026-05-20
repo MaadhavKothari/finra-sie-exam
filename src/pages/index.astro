@@ -9,46 +9,75 @@ const ta = await getCollection('trading-accounts');
 const rf = await getCollection('regulatory-framework');
 
 const sections = [
-  { id: 'capital-markets', questions: cm },
-  { id: 'products-risks', questions: pr },
-  { id: 'trading-accounts', questions: ta },
-  { id: 'regulatory-framework', questions: rf },
+  { id: 'capital-markets', questions: cm, icon: '🏛️' },
+  { id: 'products-risks', questions: pr, icon: '📊' },
+  { id: 'trading-accounts', questions: ta, icon: '💼' },
+  { id: 'regulatory-framework', questions: rf, icon: '⚖️' },
 ] as const;
 
 const totalQuestions = cm.length + pr.length + ta.length + rf.length;
+const base = import.meta.env.BASE_URL;
 ---
 <BaseLayout title="Home">
-  <main class="max-w-4xl mx-auto px-4 py-8 sm:py-16">
-    <h1 class="text-3xl sm:text-4xl font-bold mb-4">FINRA SIE Exam Practice</h1>
-    <p class="text-base sm:text-lg text-gray-600 mb-8">
-      Free, comprehensive practice questions with detailed explanations for every topic on the FINRA Securities Industry Essentials exam.
-    </p>
-
-    <div class="bg-blue-50 rounded-lg p-4 sm:p-6 mb-8">
-      <p class="text-xl sm:text-2xl font-semibold text-blue-900">{totalQuestions} Questions Available</p>
-      <p class="text-sm text-blue-700 mt-1">Across all 4 SIE exam sections</p>
+  <main class="max-w-lg mx-auto px-4 py-6">
+    {/* Hero */}
+    <div class="text-center mb-6">
+      <h1 class="text-3xl font-bold text-gray-900 mb-2">SIE Practice</h1>
+      <p class="text-gray-500 text-sm">Master the FINRA Securities Industry Essentials exam</p>
     </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-      {sections.map(({ id, questions }) => {
+    {/* Quick Start - All Topics */}
+    <a
+      href={`${base}drill/all`}
+      class="block w-full bg-gradient-to-br from-indigo-600 to-purple-700 text-white rounded-2xl p-5 mb-6 shadow-lg shadow-indigo-200 hover:shadow-xl transition-all active:scale-[0.98] no-underline"
+    >
+      <div class="flex items-center justify-between">
+        <div>
+          <div class="text-lg font-bold">Quick Practice</div>
+          <div class="text-indigo-200 text-sm mt-0.5">{totalQuestions} questions · All topics</div>
+        </div>
+        <div class="text-3xl">▶</div>
+      </div>
+    </a>
+
+    {/* Section cards */}
+    <h2 class="text-sm font-semibold text-gray-400 uppercase tracking-wider mb-3">Practice by Section</h2>
+    <div class="space-y-3 mb-8">
+      {sections.map(({ id, questions, icon }) => {
         const section = SIE_SECTIONS[id];
+        const weight = Math.round(section.weight * 100);
         return (
-          <div class="bg-white border border-gray-200 rounded-lg p-4 sm:p-6 hover:shadow-md transition-shadow">
-            <div class="flex items-start justify-between mb-2">
-              <h2 class="text-base sm:text-lg font-semibold text-gray-900 leading-tight pr-2">{section.name}</h2>
-              <span class="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded-full whitespace-nowrap">{Math.round(section.weight * 100)}%</span>
+          <a
+            href={`${base}drill/${id}`}
+            class="block bg-white border border-gray-200 rounded-xl p-4 hover:shadow-md hover:border-indigo-200 transition-all active:scale-[0.98] no-underline"
+          >
+            <div class="flex items-center gap-3">
+              <div class="text-2xl w-10 h-10 bg-gray-50 rounded-xl flex items-center justify-center shrink-0">{icon}</div>
+              <div class="flex-1 min-w-0">
+                <div class="flex items-center justify-between mb-1">
+                  <h3 class="text-sm font-semibold text-gray-900 truncate pr-2">{section.name}</h3>
+                  <span class="text-xs bg-indigo-50 text-indigo-600 px-2 py-0.5 rounded-full font-medium whitespace-nowrap">{weight}%</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <div class="flex-1 bg-gray-100 rounded-full h-1.5">
+                    <div class="bg-indigo-500 h-1.5 rounded-full" style={`width: ${weight}%`}></div>
+                  </div>
+                  <span class="text-xs text-gray-400 whitespace-nowrap">{questions.length}Q</span>
+                </div>
+              </div>
+              <div class="text-gray-300 text-lg shrink-0">›</div>
             </div>
-            <p class="text-sm text-gray-500 mb-3">{section.examItems} exam questions &middot; {questions.length} practice</p>
-            <div class="w-full bg-gray-200 rounded-full h-2">
-              <div class="bg-blue-600 h-2 rounded-full" style={`width: ${Math.round(section.weight * 100)}%`}></div>
-            </div>
-          </div>
+          </a>
         );
       })}
     </div>
 
-    <div class="mt-8 p-4 bg-gray-50 rounded-lg text-sm text-gray-600">
-      <p><strong>About the SIE Exam:</strong> 75 questions, 105 minutes, 70% passing score. Questions are weighted across 4 sections: Capital Markets (16%), Products &amp; Risks (44%), Trading &amp; Accounts (31%), and Regulatory Framework (9%).</p>
+    {/* Exam info */}
+    <div class="bg-gray-50 rounded-xl p-4 text-center">
+      <p class="text-xs text-gray-500 leading-relaxed">
+        <strong class="text-gray-700">SIE Exam:</strong> 75 questions · 105 min · 70% to pass<br />
+        Capital Markets 16% · Products 44% · Trading 31% · Regulatory 9%
+      </p>
     </div>
   </main>
 </BaseLayout>

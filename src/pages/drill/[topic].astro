@@ -1,0 +1,37 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { SIE_SECTIONS } from '../../data/topics';
+import QuizEngine from '../../components/QuizEngine';
+
+export function getStaticPaths() {
+  return [
+    { params: { topic: 'capital-markets' } },
+    { params: { topic: 'products-risks' } },
+    { params: { topic: 'trading-accounts' } },
+    { params: { topic: 'regulatory-framework' } },
+    { params: { topic: 'all' } },
+  ];
+}
+
+const { topic } = Astro.params;
+
+let questions: any[] = [];
+let topicName = 'All Topics';
+
+if (topic === 'all') {
+  const cm = await getCollection('capital-markets');
+  const pr = await getCollection('products-risks');
+  const ta = await getCollection('trading-accounts');
+  const rf = await getCollection('regulatory-framework');
+  questions = [...cm, ...pr, ...ta, ...rf].map((q) => q.data);
+} else {
+  const collection = await getCollection(topic as any);
+  questions = collection.map((q) => q.data);
+  const sectionInfo = SIE_SECTIONS[topic as keyof typeof SIE_SECTIONS];
+  if (sectionInfo) topicName = sectionInfo.name;
+}
+---
+<BaseLayout title={topicName}>
+  <QuizEngine client:load questions={questions} topic={topic!} topicName={topicName} />
+</BaseLayout>
