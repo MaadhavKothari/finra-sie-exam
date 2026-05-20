@@ -1,2 +1,36 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,400;0,14..32,500;0,14..32,600;1,14..32,400&display=swap');
+
+@theme {
+  --color-jpmc-black:      #000000;
+  --color-jpmc-white:      #ffffff;
+  --color-jpmc-travertine: #f4efe7;
+  --color-jpmc-bronze:     #8f5a39;
+  --color-jpmc-sky:        #a6d7f0;
+  --color-jpmc-border:     #e5e0d8;
+  --color-jpmc-muted:      #6b6560;
+
+  --font-display: "DM Serif Display", Georgia, "Times New Roman", serif;
+  --font-body:    "Inter", system-ui, -apple-system, sans-serif;
+}
+
+html, body {
+  font-family: var(--font-body);
+  background-color: #ffffff;
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Keyframes used by QuizEngine */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-4px); }
+  20%, 40%, 60%, 80% { transform: translateX(4px); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}

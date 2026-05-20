@@ -5,45 +5,61 @@ import { EXAMS } from '../data/exams';
 const base = import.meta.env.BASE_URL;
 const exams = Object.values(EXAMS);
 ---
-<BaseLayout title="FINRA Exam Practice" description="Free practice for all major FINRA securities exams — SIE, Series 6, 7, 63, 65, 66">
-  <main class="max-w-lg mx-auto px-4 py-6">
+<BaseLayout title="FINRA Exam Practice" description="Free practice questions for all major FINRA securities exams — SIE, Series 6, 7, 63, 65, 66">
+  <main class="max-w-lg mx-auto px-4 py-8">
 
-    {/* Hero */}
-    <div class="text-center mb-8">
-      <h1 class="text-3xl font-bold text-gray-900 mb-2">FINRA Exam Practice</h1>
-      <p class="text-gray-500 text-sm">Free practice questions for all major FINRA exams</p>
-    </div>
+    {/* Header */}
+    <header class="mb-10">
+      <p class="text-xs uppercase tracking-[0.15em] text-[#8F5A39] font-medium mb-2">Securities licensing</p>
+      <h1 style="font-family: var(--font-display);" class="text-4xl leading-tight text-black mb-3">
+        FINRA exam<br/>practice
+      </h1>
+      <p class="text-sm text-[#6b6560]">Free practice questions for all major FINRA securities exams</p>
+    </header>
 
-    {/* Exam cards */}
-    <div class="space-y-3">
-      {exams.map((exam) => (
+    {/* Exam list */}
+    <div class="space-y-px border border-[#E5E0D8] rounded-sm overflow-hidden">
+      {exams.map((exam, i) => (
         <a
           href={`${base}${exam.slug}`}
-          class="block bg-white border border-gray-200 rounded-2xl p-5 hover:shadow-md hover:border-gray-300 transition-all active:scale-[0.98] no-underline"
+          class="group block bg-white hover:bg-[#F4EFE7] transition-colors duration-150 no-underline"
         >
-          <div class="flex items-center gap-4">
-            <div class={`w-12 h-12 rounded-xl bg-gradient-to-br ${exam.colorClass} flex items-center justify-center text-2xl shrink-0`}>
-              {exam.icon}
+          <div class="flex items-center gap-4 px-5 py-4 border-b border-[#E5E0D8] last:border-b-0">
+            {/* Exam label */}
+            <div
+              class="w-10 h-10 rounded-sm flex items-center justify-center shrink-0"
+              style={`background-color: ${exam.iconBg};`}
+            >
+              <span class="text-white text-xs font-semibold tracking-wide leading-none text-center px-1">
+                {exam.name.replace('Series ', 'S').replace('SIE', 'SIE')}
+              </span>
             </div>
+
+            {/* Content */}
             <div class="flex-1 min-w-0">
-              <div class="flex items-center justify-between mb-0.5">
-                <span class="text-base font-bold text-gray-900">{exam.name}</span>
-                <span class={`text-xs font-medium px-2 py-0.5 rounded-full ${exam.badgeClass}`}>
+              <div class="flex items-baseline justify-between gap-2">
+                <span style="font-family: var(--font-display);" class="text-base text-black">{exam.name}</span>
+                <span class={`text-xs font-medium px-2 py-0.5 rounded-sm shrink-0 ${exam.badgeClass}`}>
                   {exam.scoredQuestions}Q · {exam.minutes}min
                 </span>
               </div>
-              <p class="text-sm text-gray-500 leading-snug truncate">{exam.description}</p>
+              <p class="text-xs text-[#6b6560] mt-0.5 truncate">{exam.description}</p>
             </div>
-            <div class="text-gray-300 text-xl shrink-0">›</div>
+
+            {/* Arrow */}
+            <div class="text-[#8F5A39] text-sm shrink-0 opacity-0 group-hover:opacity-100 transition-opacity">→</div>
           </div>
         </a>
       ))}
     </div>
 
-    {/* Footer note */}
-    <p class="text-center text-xs text-gray-400 mt-8 leading-relaxed">
-      All practice questions are original content based on FINRA public content outlines.
-    </p>
+    {/* Footer */}
+    <footer class="mt-10 pt-6 border-t border-[#E5E0D8]">
+      <p class="text-xs text-[#6b6560] leading-relaxed">
+        All practice questions are original content based on FINRA public content outlines.
+        This site is not affiliated with or endorsed by FINRA.
+      </p>
+    </footer>
 
   </main>
 </BaseLayout>

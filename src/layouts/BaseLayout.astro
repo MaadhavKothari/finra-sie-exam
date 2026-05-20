@@ -5,7 +5,7 @@ interface Props {
   title: string;
   description?: string;
 }
-const { title, description = 'Free FINRA SIE exam practice with detailed explanations' } = Astro.props;
+const { title, description = 'Free FINRA practice questions for all major securities exams' } = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -16,9 +16,9 @@ const { title, description = 'Free FINRA SIE exam practice with detailed explana
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
-    <title>{title} | FINRA SIE Practice</title>
+    <title>{title} | FINRA Exam Practice</title>
   </head>
-  <body class="bg-white text-gray-900 min-h-screen antialiased">
+  <body class="bg-white text-black min-h-screen">
     <slot />
   </body>
 </html>
