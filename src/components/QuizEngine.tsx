@@ -76,7 +76,10 @@ export default function QuizEngine({ questions: allQuestions, topic, topicName, 
     const isCorrect = selected === currentQ.correctAnswer;
     setRevealed(true);
 
-    const result = recordAnswer(isCorrect, currentQ.difficulty);
+    const result = recordAnswer(isCorrect, currentQ.difficulty, {
+      topic: currentQ.topic,
+      section: currentQ.section,
+    });
 
     setXpPopup({ amount: result.earnedXp, show: true });
     setTimeout(() => setXpPopup((p) => ({ ...p, show: false })), 1200);

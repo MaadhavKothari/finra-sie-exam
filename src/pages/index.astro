@@ -1,12 +1,15 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { EXAMS } from '../data/exams';
+import IdentityHeader from '../components/IdentityHeader';
 
 const base = import.meta.env.BASE_URL;
 const exams = Object.values(EXAMS);
 ---
 <BaseLayout title="FINRA Exam Practice" description="Free practice questions for all major FINRA securities exams — SIE, Series 6, 7, 63, 65, 66">
   <main class="max-w-lg mx-auto px-4 py-8">
+
+    <IdentityHeader client:load base={base} />
 
     {/* Header */}
     <header class="mb-10">

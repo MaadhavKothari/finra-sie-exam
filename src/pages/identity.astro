@@ -1,0 +1,9 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import IdentityPanel from '../components/IdentityPanel';
+
+const base = import.meta.env.BASE_URL;
+---
+<BaseLayout title="Trader ID">
+  <IdentityPanel client:load base={base} />
+</BaseLayout>
