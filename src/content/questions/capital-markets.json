@@ -522,5 +522,182 @@
     "difficulty": "easy",
     "source": "FINRA content outline",
     "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-cm-031",
+    "stem": "A company that completed its IPO two years ago announces a new public offering of additional shares to raise capital for an acquisition. Which of the following BEST describes this type of offering?",
+    "choices": [
+      { "label": "A", "text": "Initial public offering (IPO)", "explanation": "Incorrect. An IPO is the first-ever sale of a company's stock to the public. This company is already publicly traded." },
+      { "label": "B", "text": "Secondary offering (follow-on offering)", "explanation": "Correct. A secondary offering (also called a follow-on or seasoned equity offering) occurs when a company that is already publicly traded issues additional shares to raise new capital. The proceeds go to the issuer. This is distinct from an IPO (which is the first public sale) and from a secondary market transaction (which involves trading between investors)." },
+      { "label": "C", "text": "Private placement under Regulation D", "explanation": "Incorrect. A private placement is an exempt offering to accredited investors that does not involve a public sale. The question describes a public offering." },
+      { "label": "D", "text": "Tender offer", "explanation": "Incorrect. A tender offer is a bid to purchase shares from existing shareholders, typically at a premium. It is not a mechanism for issuing new shares." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "When an already-public company issues new shares to raise capital, it conducts a secondary (follow-on) offering. The company files a new registration statement or uses a shelf registration (Rule 415) if eligible. Proceeds go to the issuer, and existing shareholders may experience dilution.",
+    "topic": "capital-markets",
+    "subtopic": "offerings",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Securities Act of 1933",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-cm-032",
+    "stem": "As of May 2024, the standard regular-way settlement cycle for U.S. equity securities is:",
+    "choices": [
+      { "label": "A", "text": "T+0 (trade date)", "explanation": "Incorrect. Same-day settlement applies only to certain cash transactions, not to regular-way equity trades." },
+      { "label": "B", "text": "T+1 (one business day after trade date)", "explanation": "Correct. Effective May 28, 2024, the SEC shortened the standard settlement cycle for most securities — including equities, corporate bonds, and municipal securities — from T+2 to T+1. This reduces counterparty risk and lowers margin requirements at clearinghouses." },
+      { "label": "C", "text": "T+2 (two business days after trade date)", "explanation": "Incorrect. T+2 was the standard from 2017 until May 2024, when the SEC shortened the cycle to T+1." },
+      { "label": "D", "text": "T+3 (three business days after trade date)", "explanation": "Incorrect. T+3 was the settlement standard before September 2017. It has been shortened twice since then." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The SEC adopted T+1 settlement effective May 28, 2024, under an amendment to Rule 15c6-1(a). The shorter cycle reduces the time between trade execution and final settlement, lowering counterparty and systemic risk. The GameStop short squeeze in January 2021 highlighted how the longer T+2 cycle amplified collateral demands at clearinghouses.",
+    "topic": "capital-markets",
+    "subtopic": "market-structure",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "SEC Rule 15c6-1(a)",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["gamestop"]
+  },
+  {
+    "id": "q-cm-033",
+    "stem": "An investor places a market order to buy 500 shares of XYZ stock. Which of the following is TRUE about this order?",
+    "choices": [
+      { "label": "A", "text": "The order guarantees execution at the last quoted price.", "explanation": "Incorrect. A market order guarantees execution but not the price. The fill may differ from the last quoted price, especially in fast-moving or illiquid markets." },
+      { "label": "B", "text": "The order guarantees execution at the best available price but does not guarantee a specific price.", "explanation": "Correct. A market order instructs the broker to execute immediately at the best available price. Execution is virtually guaranteed (as long as there is a counterparty), but the actual fill price may differ from the most recently displayed quote, particularly for large orders or in volatile markets." },
+      { "label": "C", "text": "The order will only execute if the stock can be purchased at $30 or less.", "explanation": "Incorrect. This describes a limit order, not a market order. Market orders have no price restriction." },
+      { "label": "D", "text": "The order will be held until the end of the day and then cancelled if unfilled.", "explanation": "Incorrect. A market order executes immediately upon submission. It does not wait until end of day. A day limit order might expire unfilled, but a market order is filled promptly." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Market orders prioritize speed of execution over price certainty. They execute at the best available bid (for sells) or ask (for buys) at the time the order reaches the market. This makes them suitable when getting into or out of a position quickly matters more than the exact price. The trade-off is the risk of slippage — receiving a worse price than expected in volatile or illiquid conditions.",
+    "topic": "capital-markets",
+    "subtopic": "market-structure",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-cm-034",
+    "stem": "Which of the following BEST describes the over-the-counter (OTC) market for equities?",
+    "choices": [
+      { "label": "A", "text": "A centralized exchange with a physical trading floor where all trades are executed by specialists.", "explanation": "Incorrect. This describes a traditional exchange model like the NYSE floor. The OTC market is decentralized with no physical trading floor." },
+      { "label": "B", "text": "A decentralized network of dealers who negotiate trades electronically or by phone, primarily for securities not listed on major exchanges.", "explanation": "Correct. The OTC market is a dealer-based, decentralized market where broker-dealers negotiate trades directly with each other. It handles securities not listed on exchanges such as NYSE or Nasdaq, including many small-company stocks, penny stocks, and some bonds. OTC markets are facilitated through systems like OTC Markets Group (formerly the OTC Bulletin Board)." },
+      { "label": "C", "text": "An electronic order book identical to Nasdaq where all trades are automatically matched.", "explanation": "Incorrect. While electronic systems exist for OTC trading, the OTC market is fundamentally a negotiated dealer market, not an automated order-matching exchange like Nasdaq." },
+      { "label": "D", "text": "A market exclusively for government bonds and money market instruments.", "explanation": "Incorrect. While many government bonds do trade OTC, the OTC equity market also includes common stocks, preferred stocks, and other securities not listed on exchanges." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The OTC market is a decentralized, dealer-driven market where securities not listed on formal exchanges are traded through negotiation. Dealers (market makers) post bid and ask quotes and negotiate directly with counterparties. OTC Markets Group categorizes OTC equities into tiers: OTCQX (highest quality), OTCQB (venture market), and Pink (speculative/limited information).",
+    "topic": "capital-markets",
+    "subtopic": "market-structure",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-cm-035",
+    "stem": "Which of the following BEST describes an Electronic Communication Network (ECN)?",
+    "choices": [
+      { "label": "A", "text": "A government-operated exchange for trading Treasury securities.", "explanation": "Incorrect. ECNs are privately operated systems for matching buy and sell orders. Treasury securities are traded through separate dealer and auction mechanisms." },
+      { "label": "B", "text": "An electronic system that automatically matches buy and sell orders for securities without using a traditional market maker as an intermediary.", "explanation": "Correct. An ECN is an automated trading system that directly matches buy and sell orders from participants without routing through a traditional market maker or specialist. ECNs provide anonymous, low-cost execution and operate as alternative trading systems (ATS) registered with the SEC under Regulation ATS. Examples include Instinet and ARCA." },
+      { "label": "C", "text": "A FINRA-operated communication system for reporting trade data to the public.", "explanation": "Incorrect. Trade reporting facilities (like TRACE for bonds or ORF for OTC equities) handle trade data dissemination. ECNs are order-matching systems, not reporting systems." },
+      { "label": "D", "text": "A physical network of telephone lines connecting exchange floor brokers.", "explanation": "Incorrect. ECNs are fully electronic. They replaced many functions that formerly required phone-based communication between brokers." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "ECNs are electronic alternative trading systems that match buy and sell orders directly, bypassing traditional intermediaries. They operate under SEC Regulation ATS, display orders in the national market system, and provide benefits including anonymity, lower costs, and extended trading hours. ECNs have significantly increased competition and efficiency in U.S. equity markets.",
+    "topic": "capital-markets",
+    "subtopic": "market-structure",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "SEC Regulation ATS",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-cm-036",
+    "stem": "Which of the following BEST describes a 'dark pool'?",
+    "choices": [
+      { "label": "A", "text": "An illegal, unregulated trading venue where securities are traded without SEC oversight.", "explanation": "Incorrect. Dark pools are legal, SEC-registered alternative trading systems. They must comply with Regulation ATS and are subject to SEC and FINRA oversight." },
+      { "label": "B", "text": "A private trading venue where buy and sell orders are matched without pre-trade transparency — order details are not displayed publicly before execution.", "explanation": "Correct. Dark pools are alternative trading systems that do not display orders in the public quote system before execution. Institutional investors use them to execute large block trades without revealing their intentions to the broader market, which could cause adverse price movements (market impact). Dark pools must be registered with the SEC under Regulation ATS and report trades after execution." },
+      { "label": "C", "text": "A trading platform that operates only during after-hours sessions when exchanges are closed.", "explanation": "Incorrect. Dark pools can operate during regular market hours and are not defined by when they operate but by the lack of pre-trade order transparency." },
+      { "label": "D", "text": "An exchange-operated order type that guarantees execution at the midpoint of the NBBO.", "explanation": "Incorrect. While some dark pools offer midpoint matching, dark pools are not exchange-operated. They are separately registered alternative trading systems." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Dark pools are private alternative trading systems that provide no pre-trade transparency — they do not display orders before execution. Institutional investors use them to trade large blocks without signaling their intentions to the market. While legal and regulated, dark pools have drawn regulatory scrutiny regarding fairness and the impact of reduced transparency on price discovery.",
+    "topic": "capital-markets",
+    "subtopic": "market-structure",
+    "difficulty": "hard",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "SEC Regulation ATS",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-cm-037",
+    "stem": "General obligation (GO) municipal bonds are backed by which of the following?",
+    "choices": [
+      { "label": "A", "text": "Revenue from a specific project such as a toll road or hospital.", "explanation": "Incorrect. Bonds backed by revenue from a specific project are revenue bonds, not general obligation bonds." },
+      { "label": "B", "text": "The full faith, credit, and taxing power of the issuing municipality.", "explanation": "Correct. General obligation bonds are backed by the issuing government's full taxing authority — including property taxes, sales taxes, and other general tax revenues. The municipality pledges its ability to raise taxes to meet debt obligations, making GO bonds generally considered safer than revenue bonds for the same issuer." },
+      { "label": "C", "text": "Federal government guarantees similar to Treasury securities.", "explanation": "Incorrect. Municipal bonds are obligations of state and local governments, not the federal government. They do not carry federal government backing." },
+      { "label": "D", "text": "Corporate assets pledged as collateral by the municipality's commercial partners.", "explanation": "Incorrect. GO bonds are backed by the municipality's taxing power, not by corporate or private-sector collateral." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "General obligation (GO) municipal bonds are secured by the issuer's full faith, credit, and taxing power. The municipality pledges its general tax revenues (property taxes, income taxes, sales taxes) to service the debt. This differs from revenue bonds, which are backed only by income from a specific project. GO bonds typically require voter approval for issuance.",
+    "topic": "capital-markets",
+    "subtopic": "market-structure",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-cm-038",
+    "stem": "U.S. Treasury securities are considered virtually free of which type of risk?",
+    "choices": [
+      { "label": "A", "text": "Interest rate risk", "explanation": "Incorrect. Treasury securities are subject to interest rate risk — their market prices fall when interest rates rise. Long-term Treasuries have significant interest rate risk." },
+      { "label": "B", "text": "Inflation risk (purchasing power risk)", "explanation": "Incorrect. Except for TIPS, fixed-rate Treasury securities are exposed to inflation risk. If inflation exceeds the coupon rate, the real return is negative." },
+      { "label": "C", "text": "Credit risk (default risk)", "explanation": "Correct. U.S. Treasury securities are backed by the full faith and credit of the U.S. government, which has the power to tax and print currency. They are considered virtually free of credit (default) risk and serve as the benchmark 'risk-free' rate in finance. However, they remain subject to interest rate risk, inflation risk, and reinvestment risk." },
+      { "label": "D", "text": "Reinvestment risk", "explanation": "Incorrect. Treasury coupon payments must be reinvested at prevailing rates, which may be lower than the original yield. Treasury securities carry reinvestment risk like other fixed-income instruments." }
+    ],
+    "correctAnswer": "C",
+    "explanation": "U.S. Treasury securities carry essentially zero credit risk because they are backed by the U.S. government's taxing authority. This makes them the benchmark risk-free asset. However, investors in Treasuries still face interest rate risk (prices fall when rates rise), reinvestment risk (coupons may be reinvested at lower rates), and inflation risk (fixed payments may lose purchasing power).",
+    "topic": "capital-markets",
+    "subtopic": "economic-factors",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["svb"]
+  },
+  {
+    "id": "q-cm-039",
+    "stem": "An investor enters a limit order to buy 200 shares of ABC at $48. The stock is currently trading at $50. Which of the following is TRUE?",
+    "choices": [
+      { "label": "A", "text": "The order will execute immediately at $50, the current market price.", "explanation": "Incorrect. A buy limit order will only execute at the limit price or lower. Since the current price ($50) exceeds the limit ($48), the order will not execute immediately." },
+      { "label": "B", "text": "The order will execute only if ABC's price drops to $48 or below.", "explanation": "Correct. A buy limit order sets a maximum purchase price. The order sits on the order book and will execute only when the stock's ask price reaches $48 or lower. This gives the investor price protection — they will never pay more than $48 — but the order may never fill if the stock does not decline to $48." },
+      { "label": "C", "text": "The order is invalid because the limit price must be above the current market price for a buy order.", "explanation": "Incorrect. Buy limit orders are typically set below the current market price (the investor wants to buy on a dip). This is a valid and common order type." },
+      { "label": "D", "text": "The order becomes a market order at the end of the trading day.", "explanation": "Incorrect. Limit orders do not convert to market orders. If unfilled, a day limit order expires at the end of the session; a GTC limit order remains open for future sessions." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A buy limit order sets the maximum price the investor is willing to pay. It will only execute at the limit price or better (lower for a buy). Since the stock trades at $50 and the limit is $48, the order waits. The trade-off: the investor gets price protection but risks the stock never dropping to $48, meaning the order goes unfilled.",
+    "topic": "capital-markets",
+    "subtopic": "market-structure",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-cm-040",
+    "stem": "Which of the following BEST describes the role of exchanges such as the New York Stock Exchange (NYSE)?",
+    "choices": [
+      { "label": "A", "text": "Exchanges are government agencies that regulate the securities industry.", "explanation": "Incorrect. Exchanges are self-regulatory organizations (SROs) that operate as private entities, not government agencies. The SEC is the primary government regulator." },
+      { "label": "B", "text": "Exchanges provide a centralized, regulated marketplace where buyers and sellers can trade listed securities with price transparency and fair access.", "explanation": "Correct. Exchanges like the NYSE provide an organized marketplace with standardized rules, continuous price discovery, trade execution, and public price transparency. They are registered with the SEC as national securities exchanges and function as self-regulatory organizations that set listing standards and enforce trading rules for member participants." },
+      { "label": "C", "text": "Exchanges exclusively serve institutional investors and do not permit retail participation.", "explanation": "Incorrect. Exchanges serve both institutional and retail investors. Retail orders are routed to exchanges through broker-dealers." },
+      { "label": "D", "text": "Exchanges guarantee that all listed securities will increase in value over time.", "explanation": "Incorrect. Exchanges provide a fair and orderly marketplace but make no guarantees about the performance of listed securities." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "National securities exchanges like the NYSE and Nasdaq provide regulated, transparent marketplaces for trading listed securities. They facilitate price discovery through order matching, enforce listing standards and trading rules, and disseminate real-time price data. As SROs, exchanges both operate markets and regulate their participants, subject to SEC oversight.",
+    "topic": "capital-markets",
+    "subtopic": "market-structure",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Securities Exchange Act of 1934",
+    "lastVerified": "2026-05-21"
   }
 ]

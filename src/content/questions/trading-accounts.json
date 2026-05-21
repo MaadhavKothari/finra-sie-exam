@@ -499,5 +499,181 @@
     "source": "FINRA content outline",
     "regulatoryBasis": "FINRA Rule 2150",
     "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-ta-029",
+    "stem": "A customer opens a margin account and purchases $100,000 of stock. Under Regulation T, the initial margin requirement is 50%. How much must the customer deposit, and how much can the customer borrow from the broker-dealer?",
+    "choices": [
+      { "label": "A", "text": "Deposit $25,000; borrow $75,000.", "explanation": "Incorrect. A 25% deposit would not meet the 50% initial margin requirement under Regulation T." },
+      { "label": "B", "text": "Deposit $50,000; borrow $50,000.", "explanation": "Correct. Regulation T, issued by the Federal Reserve Board, requires an initial margin deposit of 50% for equity securities. For a $100,000 purchase, the customer must deposit $50,000 (in cash or eligible securities) and may borrow the remaining $50,000 from the broker-dealer. The borrowed amount accrues interest, and the securities serve as collateral for the loan." },
+      { "label": "C", "text": "Deposit $100,000; borrow nothing.", "explanation": "Incorrect. This describes a cash account. Margin accounts allow borrowing up to the Regulation T limit, which permits 50% leverage on the initial purchase." },
+      { "label": "D", "text": "Deposit $2,000; borrow $98,000.", "explanation": "Incorrect. $2,000 is the minimum equity to open a margin account under FINRA Rule 4210, but the initial margin requirement for this purchase is 50%, requiring $50,000." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Regulation T sets the initial margin requirement at 50% for most equity securities. The customer must deposit at least 50% of the purchase price; the broker-dealer extends a margin loan for the remainder. The securities purchased serve as collateral. FINRA Rule 4210 sets the minimum margin account equity at $2,000, but the Reg T percentage applies to each specific purchase.",
+    "topic": "trading-accounts",
+    "subtopic": "account-types",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Federal Reserve Regulation T; FINRA Rule 4210",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-ta-030",
+    "stem": "FINRA defines a 'pattern day trader' as a customer who executes how many day trades in a rolling five-business-day period in a margin account?",
+    "choices": [
+      { "label": "A", "text": "Two or more day trades.", "explanation": "Incorrect. Two day trades in five business days does not trigger the pattern day trader classification. The threshold is higher." },
+      { "label": "B", "text": "Four or more day trades, if they represent more than 6% of the account's total trading activity.", "explanation": "Correct. Under FINRA Rule 4210, a pattern day trader (PDT) is anyone who executes four or more day trades within any five consecutive business days, provided those trades represent more than 6% of total activity. Once classified as a PDT, the customer must maintain minimum equity of $25,000 in the margin account on any day that day trading occurs." },
+      { "label": "C", "text": "Ten or more day trades.", "explanation": "Incorrect. The threshold is four day trades within five business days (subject to the 6% test), not ten." },
+      { "label": "D", "text": "Any single day trade triggers the classification.", "explanation": "Incorrect. A single day trade does not make someone a pattern day trader. The rule requires four or more day trades in five business days." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA Rule 4210 defines a pattern day trader as a customer who makes four or more day trades in any rolling five-business-day period, representing more than 6% of total trades. PDTs must maintain at least $25,000 in equity in their margin account. If equity falls below $25,000, the account is restricted from day trading until the minimum is restored.",
+    "topic": "trading-accounts",
+    "subtopic": "account-types",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "FINRA Rule 4210",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-ta-031",
+    "stem": "An investor sells a stock at a loss and repurchases substantially identical securities within 30 days. Under IRS rules, what happens to the loss?",
+    "choices": [
+      { "label": "A", "text": "The loss is fully deductible in the current tax year.", "explanation": "Incorrect. The wash sale rule disallows the loss when substantially identical securities are repurchased within 30 days before or after the sale." },
+      { "label": "B", "text": "The loss is disallowed under the wash sale rule, but it is added to the cost basis of the replacement shares.", "explanation": "Correct. IRS Section 1091 (the wash sale rule) disallows a tax loss deduction when the investor buys substantially identical securities within 30 days before or after the loss sale. However, the disallowed loss is not permanently lost — it is added to the cost basis of the replacement shares, effectively deferring the tax benefit until the replacement shares are sold." },
+      { "label": "C", "text": "The loss is permanently disallowed and can never be used for tax purposes.", "explanation": "Incorrect. The loss is not permanently lost. The disallowed loss is added to the cost basis of the replacement shares, deferring (not eliminating) the tax benefit." },
+      { "label": "D", "text": "The loss is deductible but only up to $3,000 per year.", "explanation": "Incorrect. The $3,000 annual limit applies to net capital losses that exceed capital gains. The wash sale rule is a separate issue — it disallows the loss entirely in the current period when substantially identical securities are repurchased within the 30-day window." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The wash sale rule (IRS Section 1091) prevents investors from claiming a tax loss while maintaining substantially the same investment position. The 30-day window runs both before and after the loss sale (61-day total window). The disallowed loss is added to the cost basis of the replacement shares, deferring the deduction rather than eliminating it.",
+    "topic": "trading-accounts",
+    "subtopic": "orders-and-strategies",
+    "difficulty": "hard",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Internal Revenue Code Section 1091",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-ta-032",
+    "stem": "Which of the following methods can investors use to determine the cost basis of shares when selling partial positions of the same security acquired at different times and prices?",
+    "choices": [
+      { "label": "A", "text": "Only the FIFO (first-in, first-out) method is permitted.", "explanation": "Incorrect. FIFO is the default method if the investor does not specify, but it is not the only permitted method." },
+      { "label": "B", "text": "Investors may choose among FIFO, specific share identification, and average cost (for mutual fund shares), depending on the type of security.", "explanation": "Correct. Investors can use multiple cost basis methods: FIFO (the default, where the earliest shares purchased are deemed sold first), specific share identification (the investor specifies exactly which shares to sell), and average cost (permitted for mutual fund shares and certain dividend reinvestment plan shares). The choice affects taxable gain or loss and should align with the investor's tax strategy." },
+      { "label": "C", "text": "Cost basis is always calculated as the average purchase price of all shares held.", "explanation": "Incorrect. Average cost is only one method and is permitted primarily for mutual fund shares. For individual stocks, FIFO or specific identification is used." },
+      { "label": "D", "text": "The IRS assigns cost basis automatically; investors have no choice in the matter.", "explanation": "Incorrect. Investors can select their cost basis method, though FIFO applies by default if no election is made. Broker-dealers are required to report cost basis on Form 1099-B." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Cost basis methods determine which shares are deemed sold and affect the taxable gain or loss. FIFO sells the oldest shares first (default). Specific identification allows selecting particular lots (useful for tax-loss harvesting). Average cost is available for mutual fund and DRIP shares. Broker-dealers must track and report cost basis to the IRS on Form 1099-B.",
+    "topic": "trading-accounts",
+    "subtopic": "orders-and-strategies",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-ta-033",
+    "stem": "In a brokerage account with a Transfer on Death (TOD) designation, what happens to the beneficiary designation if the account holder also has a will that specifies different heirs for the account?",
+    "choices": [
+      { "label": "A", "text": "The will overrides the TOD designation in all cases.", "explanation": "Incorrect. TOD designations take precedence over wills for the specific account. The assets pass directly to the named TOD beneficiary, bypassing probate and the will." },
+      { "label": "B", "text": "The TOD designation takes precedence — assets pass directly to the named beneficiary regardless of what the will states.", "explanation": "Correct. A TOD designation is a contractual arrangement that supersedes the will for the specific account. Upon the account holder's death, the assets transfer directly to the named beneficiary, bypassing probate. If the account holder wants to change who receives the account assets, they must update the TOD designation itself, not just the will." },
+      { "label": "C", "text": "A court must decide which document controls.", "explanation": "Incorrect. The legal hierarchy is clear: TOD designations on brokerage accounts operate by contract and bypass probate. No court intervention is needed to determine the beneficiary." },
+      { "label": "D", "text": "Both the TOD beneficiary and the heirs named in the will split the account equally.", "explanation": "Incorrect. There is no automatic splitting. The TOD beneficiary receives the account assets in full; the will has no effect on the TOD account." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "TOD designations operate as beneficiary contracts that supersede wills for the specific account. Assets pass directly to the named beneficiary outside of probate. This is why estate planning requires coordination between account beneficiary designations and the overall estate plan — a stale TOD designation can unintentionally disinherit intended heirs.",
+    "topic": "trading-accounts",
+    "subtopic": "account-types",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-ta-034",
+    "stem": "Which of the following statements about UGMA and UTMA custodial accounts is CORRECT?",
+    "choices": [
+      { "label": "A", "text": "Both UGMA and UTMA accounts allow the custodian to invest in the same types of assets — there is no difference.", "explanation": "Incorrect. A key distinction is that UTMA accounts can hold a wider range of assets than UGMA accounts, including real estate, patents, and other non-standard assets." },
+      { "label": "B", "text": "UTMA accounts allow a broader range of assets (including real estate) and may extend custodianship beyond age 18, while UGMA accounts are limited to financial assets and typically transfer at 18.", "explanation": "Correct. UGMA accounts can hold financial assets such as cash, securities, and insurance policies. UTMA accounts expanded the permissible assets to include real estate, royalties, patents, and other property. Additionally, some states allow UTMA custodianship to extend to age 21 or even 25, whereas UGMA accounts typically transfer at 18 (the age of majority in most states)." },
+      { "label": "C", "text": "UGMA accounts are revocable — the donor can reclaim the gifted assets at any time.", "explanation": "Incorrect. Gifts under both UGMA and UTMA are irrevocable. Once assets are transferred to the minor's custodial account, they belong to the minor and cannot be reclaimed by the donor." },
+      { "label": "D", "text": "UTMA accounts are only available for minors under age 14.", "explanation": "Incorrect. Both UGMA and UTMA accounts can be established for any minor (under the age of majority). There is no age-14 restriction." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "UTMA expanded upon UGMA by allowing custodial accounts to hold a wider range of assets (real estate, intellectual property, etc.) and by permitting some states to extend the custodianship period beyond the standard age of majority. Both types involve irrevocable gifts to the minor, with the custodian managing assets until the minor reaches the specified age.",
+    "topic": "trading-accounts",
+    "subtopic": "account-types",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-ta-035",
+    "stem": "A 529 plan is primarily used for which purpose?",
+    "choices": [
+      { "label": "A", "text": "Saving for retirement with tax-deferred growth.", "explanation": "Incorrect. Retirement savings vehicles include IRAs, 401(k)s, and similar plans. 529 plans are specifically designed for education expenses." },
+      { "label": "B", "text": "Saving for qualified education expenses with tax-free growth and tax-free withdrawals for qualifying costs.", "explanation": "Correct. Section 529 plans are tax-advantaged savings accounts designed for education expenses. Contributions grow tax-deferred, and withdrawals are tax-free when used for qualified education expenses (tuition, room, board, books, and certain K-12 expenses up to $10,000/year). Non-qualified withdrawals are subject to income tax and a 10% penalty on earnings." },
+      { "label": "C", "text": "Saving for a first home purchase with no penalties on withdrawal.", "explanation": "Incorrect. First-time home purchase exceptions apply to IRAs, not 529 plans (though the SECURE 2.0 Act allows limited rollovers from 529s to Roth IRAs under certain conditions)." },
+      { "label": "D", "text": "Providing health insurance coverage for dependents.", "explanation": "Incorrect. Health savings are served by HSAs (Health Savings Accounts). 529 plans are exclusively for education savings." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Section 529 plans provide tax-advantaged education savings. Earnings grow tax-free, and withdrawals for qualified education expenses are not taxed. Plans are sponsored by states and may offer state income tax deductions for contributions. Account owners retain control (unlike UGMA/UTMA) and can change beneficiaries within the family.",
+    "topic": "trading-accounts",
+    "subtopic": "account-types",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-ta-036",
+    "stem": "An IRA holder who is under age 59 1/2 takes a distribution from a traditional IRA. Assuming no exceptions apply, which of the following tax consequences result?",
+    "choices": [
+      { "label": "A", "text": "The distribution is tax-free because IRA contributions were made with after-tax dollars.", "explanation": "Incorrect. Traditional IRA contributions are typically made with pre-tax dollars (tax-deductible). Distributions are taxed as ordinary income, and an early withdrawal penalty applies before age 59 1/2." },
+      { "label": "B", "text": "The distribution is subject to ordinary income tax plus a 10% early withdrawal penalty.", "explanation": "Correct. Distributions from a traditional IRA before age 59 1/2 are subject to two layers of cost: (1) the full distribution is taxed as ordinary income (because contributions were tax-deductible), and (2) a 10% additional early withdrawal penalty applies under IRC Section 72(t). Exceptions to the 10% penalty include disability, first-time home purchase (up to $10,000), and substantially equal periodic payments (72(t) distributions)." },
+      { "label": "C", "text": "The distribution is subject to capital gains tax only.", "explanation": "Incorrect. IRA distributions are taxed as ordinary income, not capital gains, regardless of the underlying investments. The 10% penalty also applies for early withdrawals." },
+      { "label": "D", "text": "No tax or penalty applies if the distribution is less than $10,000.", "explanation": "Incorrect. There is no blanket $10,000 exemption for early IRA withdrawals. The $10,000 exception applies only to first-time home purchases, not to all distributions under that amount." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Traditional IRA distributions before age 59 1/2 are subject to ordinary income tax plus a 10% early withdrawal penalty. The penalty is designed to discourage using retirement savings prematurely. Exceptions exist for death, disability, first-time home purchase ($10,000 lifetime), qualified education expenses, and certain other circumstances. Required minimum distributions (RMDs) begin at age 73 under current law.",
+    "topic": "trading-accounts",
+    "subtopic": "account-types",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Internal Revenue Code Section 72(t)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-ta-037",
+    "stem": "Under Regulation T, which of the following statements about the initial margin requirement for equity securities is CORRECT?",
+    "choices": [
+      { "label": "A", "text": "The initial margin requirement is set by each individual broker-dealer and can be as low as 10%.", "explanation": "Incorrect. While broker-dealers may impose higher (house) margin requirements, they cannot set initial margin below the Regulation T minimum of 50%. FINRA may also set minimums that exceed Regulation T." },
+      { "label": "B", "text": "Regulation T requires an initial deposit of 50% of the purchase price when buying equity securities on margin.", "explanation": "Correct. The Federal Reserve Board's Regulation T sets the initial margin requirement at 50% for most equity securities. When a customer buys $100,000 of stock on margin, they must deposit at least $50,000. The remaining $50,000 is a margin loan from the broker-dealer, secured by the securities. Broker-dealers may require more than 50% (called 'house requirements') but never less." },
+      { "label": "C", "text": "The initial margin requirement applies only to short sales, not to long purchases.", "explanation": "Incorrect. Regulation T's 50% requirement applies to both long purchases on margin and short sales. Both create a debit balance (long) or an obligation to return borrowed shares (short) that requires collateral." },
+      { "label": "D", "text": "FINRA, not the Federal Reserve, sets the initial margin requirement.", "explanation": "Incorrect. The initial margin requirement is set by Regulation T, issued by the Federal Reserve Board. FINRA sets maintenance margin requirements (minimum 25% equity) and may impose additional requirements above Regulation T." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Regulation T, issued by the Federal Reserve Board under the Securities Exchange Act of 1934, sets the initial margin requirement at 50% for most equity securities. This means customers must deposit at least half the purchase price; the balance is financed by the broker-dealer as a margin loan. FINRA Rule 4210 separately sets maintenance margin at a minimum of 25% equity, below which a margin call is issued.",
+    "topic": "trading-accounts",
+    "subtopic": "account-types",
+    "difficulty": "hard",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Federal Reserve Regulation T; Securities Exchange Act of 1934",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-ta-038",
+    "stem": "Under the Bank Secrecy Act, a broker-dealer must file a Currency Transaction Report (CTR) for cash transactions exceeding $10,000. Which of the following statements about CTRs is CORRECT?",
+    "choices": [
+      { "label": "A", "text": "CTRs are filed only for single transactions exceeding $10,000; multiple smaller transactions by the same person on the same day are not aggregated.", "explanation": "Incorrect. The regulation requires aggregation of multiple cash transactions by the same person in a single business day. If the aggregate exceeds $10,000, a CTR must be filed." },
+      { "label": "B", "text": "A CTR must be filed for cash transactions exceeding $10,000 in a single business day, including aggregated transactions by the same person, and the filing is required regardless of whether the activity appears suspicious.", "explanation": "Correct. CTR filing is a mandatory, non-discretionary requirement triggered solely by the dollar threshold — $10,000 in cash in a single business day, including aggregated transactions. Unlike SARs, which require suspicion of wrongdoing, CTRs are filed based on objective dollar amount alone. The firm must file within 15 days of the transaction. Deliberately structuring transactions to avoid the $10,000 threshold is itself a federal crime." },
+      { "label": "C", "text": "The customer must be notified before a CTR is filed.", "explanation": "Incorrect. There is no requirement to notify the customer that a CTR is being filed. CTR filing is a routine regulatory requirement, not a discretionary action requiring customer notice." },
+      { "label": "D", "text": "CTRs are filed only when the broker-dealer suspects money laundering.", "explanation": "Incorrect. CTRs are filed based on the dollar threshold alone, not on suspicion. SARs (Suspicious Activity Reports) are the mechanism for reporting suspected money laundering." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "CTR filing under the Bank Secrecy Act is a purely threshold-based requirement: any cash transaction (or aggregate of related cash transactions by the same person) exceeding $10,000 in a single business day triggers a CTR filing. The filing must occur within 15 days. Structuring transactions to avoid the $10,000 threshold is a federal crime under 31 U.S.C. Section 5324, regardless of whether the underlying funds are from legal or illegal sources.",
+    "topic": "trading-accounts",
+    "subtopic": "anti-money-laundering",
+    "difficulty": "hard",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Bank Secrecy Act; 31 CFR 1023.310; 31 U.S.C. Section 5324",
+    "lastVerified": "2026-05-21"
   }
 ]

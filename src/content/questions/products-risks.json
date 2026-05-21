@@ -481,5 +481,178 @@
     "difficulty": "hard",
     "source": "FINRA content outline",
     "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-pr-029",
+    "stem": "Which of the following BEST distinguishes an exchange-traded fund (ETF) from an open-end mutual fund?",
+    "choices": [
+      { "label": "A", "text": "ETFs are actively managed while mutual funds are passively managed.", "explanation": "Incorrect. Both ETFs and mutual funds can be actively or passively managed. Many popular ETFs track indexes (passive), but actively managed ETFs also exist." },
+      { "label": "B", "text": "ETF shares trade on exchanges throughout the day at market prices, while mutual fund shares are bought and redeemed only at the end-of-day NAV.", "explanation": "Correct. The defining structural difference is intraday tradability. ETF shares trade on exchanges like stocks at continuously changing market prices throughout the trading day. Open-end mutual fund shares can only be purchased or redeemed at the next-calculated NAV, typically at 4:00 PM ET. ETFs also tend to have lower expense ratios and greater tax efficiency due to their in-kind creation/redemption mechanism." },
+      { "label": "C", "text": "ETFs are not regulated by the SEC, while mutual funds are registered investment companies.", "explanation": "Incorrect. ETFs are registered investment companies under the Investment Company Act of 1940, just like mutual funds, and are regulated by the SEC." },
+      { "label": "D", "text": "Mutual funds offer greater liquidity than ETFs because they can be redeemed at any time.", "explanation": "Incorrect. Mutual fund redemptions occur only at end-of-day NAV. ETFs trade throughout the day on exchanges, generally offering greater intraday liquidity." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The key distinction: ETFs trade on exchanges throughout the day at fluctuating market prices, while open-end mutual funds transact only at the end-of-day NAV. ETFs also typically offer lower expense ratios and greater tax efficiency through their in-kind creation/redemption process, which minimizes capital gains distributions.",
+    "topic": "products-risks",
+    "subtopic": "packaged-products",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Investment Company Act of 1940",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-pr-030",
+    "stem": "A Real Estate Investment Trust (REIT) must distribute at least what percentage of its taxable income to shareholders to qualify for favorable tax treatment?",
+    "choices": [
+      { "label": "A", "text": "50%", "explanation": "Incorrect. A 50% payout would not satisfy REIT distribution requirements. The threshold is significantly higher." },
+      { "label": "B", "text": "75%", "explanation": "Incorrect. While 75% is a key REIT threshold for the income test (75% of gross income must come from real estate sources), the distribution requirement is higher." },
+      { "label": "C", "text": "90%", "explanation": "Correct. To qualify as a REIT and avoid corporate-level taxation on distributed income, the entity must distribute at least 90% of its taxable income to shareholders annually. This pass-through structure gives investors access to real estate returns with the liquidity of a publicly traded security. REITs must also derive at least 75% of gross income from real estate sources and hold at least 75% of assets in real estate." },
+      { "label": "D", "text": "100%", "explanation": "Incorrect. REITs are required to distribute at least 90%, not 100%, of taxable income. Many REITs distribute more than 90% but are not required to distribute all taxable income." }
+    ],
+    "correctAnswer": "C",
+    "explanation": "REITs must distribute at least 90% of taxable income to shareholders to maintain their tax-advantaged status (no corporate-level tax on distributed income). This high mandatory payout makes REITs attractive to income-seeking investors but limits retained earnings for growth. REITs also must meet asset and income tests related to real estate holdings.",
+    "topic": "products-risks",
+    "subtopic": "packaged-products",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Internal Revenue Code Section 856-860",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-pr-031",
+    "stem": "An investor buys a call option. Which of the following statements about this position is CORRECT?",
+    "choices": [
+      { "label": "A", "text": "The investor has the right to sell the underlying stock at the strike price.", "explanation": "Incorrect. The right to sell at a specified price describes a put option, not a call option." },
+      { "label": "B", "text": "The investor has the obligation to buy the underlying stock at the strike price.", "explanation": "Incorrect. A call buyer has the right, not the obligation, to buy. Only the call writer (seller) has an obligation." },
+      { "label": "C", "text": "The investor has the right to buy the underlying stock at the strike price, and the maximum loss is the premium paid.", "explanation": "Correct. A long call gives the holder the right (not the obligation) to purchase the underlying stock at the strike price before expiration. The maximum loss is limited to the premium paid if the option expires worthless. The maximum gain is theoretically unlimited because the stock price can rise without limit." },
+      { "label": "D", "text": "The investor has unlimited loss potential if the stock price rises.", "explanation": "Incorrect. A long call benefits from a rising stock price. Unlimited loss potential applies to a short (uncovered) call writer, not to a call buyer." }
+    ],
+    "correctAnswer": "C",
+    "explanation": "A long call option gives the buyer the right to purchase the underlying security at the strike price. The buyer pays a premium for this right. Maximum loss is capped at the premium paid (if the option expires out-of-the-money). Maximum gain is theoretically unlimited as the stock can rise indefinitely. Breakeven equals the strike price plus the premium paid.",
+    "topic": "products-risks",
+    "subtopic": "options",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-pr-032",
+    "stem": "A bond with a 5% coupon is currently priced at $900 (par value $1,000). What is its current yield?",
+    "choices": [
+      { "label": "A", "text": "5.00%", "explanation": "Incorrect. 5% is the coupon rate, not the current yield. Because the bond trades below par, the current yield is higher than the coupon rate." },
+      { "label": "B", "text": "5.56%", "explanation": "Correct. Current yield equals the annual coupon payment divided by the current market price: $50 / $900 = 5.56%. When a bond trades at a discount (below par), its current yield exceeds its coupon rate because the same coupon payment is divided by a lower price." },
+      { "label": "C", "text": "4.50%", "explanation": "Incorrect. 4.50% would result from dividing $45 by $1,000, which does not correspond to any correct calculation for this bond." },
+      { "label": "D", "text": "9.00%", "explanation": "Incorrect. 9% would result from dividing $900 by $1,000, which is the bond's price as a percentage of par, not the current yield." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Current yield = Annual coupon payment / Current market price = $50 / $900 = 5.56%. For bonds trading at a discount, current yield exceeds the coupon rate. For bonds at a premium, current yield is below the coupon rate. Current yield differs from yield to maturity, which also factors in the gain or loss as the bond matures toward par.",
+    "topic": "products-risks",
+    "subtopic": "debt-instruments",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-pr-033",
+    "stem": "Which of the following BEST describes a structured product?",
+    "choices": [
+      { "label": "A", "text": "A plain-vanilla corporate bond with a fixed coupon and stated maturity.", "explanation": "Incorrect. Plain-vanilla bonds are standard debt instruments. Structured products combine traditional instruments with derivative components to create customized risk/return profiles." },
+      { "label": "B", "text": "A pre-packaged investment that typically combines a bond or note with an embedded derivative component linked to the performance of an underlying asset such as an equity index.", "explanation": "Correct. Structured products are pre-packaged strategies that combine traditional securities (often a zero-coupon bond or note) with derivatives (such as options) to create a custom payoff profile. Examples include equity-linked notes, principal-protected notes, and reverse convertibles. They offer tailored exposure but carry complexity, credit risk of the issuer, and limited liquidity." },
+      { "label": "C", "text": "An open-end mutual fund that uses leverage to amplify returns.", "explanation": "Incorrect. A leveraged mutual fund uses borrowing to amplify returns but is not the same as a structured product. Structured products are specific pre-packaged instruments with embedded derivatives." },
+      { "label": "D", "text": "A government-issued savings bond with a guaranteed minimum return.", "explanation": "Incorrect. Government savings bonds are simple, guaranteed-return instruments. Structured products are complex instruments typically issued by financial institutions with embedded derivative components." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Structured products combine a traditional debt instrument with a derivative (typically an option) to create a customized payoff linked to the performance of an underlying asset. They may offer features like principal protection, enhanced yield, or leveraged exposure, but they carry the issuer's credit risk, are often illiquid, and can be complex to evaluate.",
+    "topic": "products-risks",
+    "subtopic": "packaged-products",
+    "difficulty": "hard",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-pr-034",
+    "stem": "A variable annuity differs from a fixed annuity primarily because:",
+    "choices": [
+      { "label": "A", "text": "Variable annuities guarantee a fixed rate of return during the accumulation phase.", "explanation": "Incorrect. Fixed annuities guarantee a minimum rate of return. Variable annuities invest in separate account subaccounts whose value fluctuates with market performance — there is no guaranteed return unless a rider is purchased." },
+      { "label": "B", "text": "Variable annuity returns depend on the performance of the underlying subaccounts, which invest in securities, and therefore carry investment risk.", "explanation": "Correct. Variable annuities invest contributions in separate-account subaccounts (similar to mutual funds) chosen by the contract holder. Returns fluctuate based on market performance. Because the investment risk is borne by the contract holder, variable annuities are classified as securities and must be sold with a prospectus by representatives holding both a securities license and an insurance license." },
+      { "label": "C", "text": "Variable annuities are issued only by broker-dealers, not by insurance companies.", "explanation": "Incorrect. Variable annuities are issued by insurance companies but sold through broker-dealers. The insurance company manages the separate account, and the broker-dealer distributes the product." },
+      { "label": "D", "text": "Variable annuities are not subject to SEC regulation.", "explanation": "Incorrect. Because variable annuity returns depend on securities market performance, they are registered with the SEC under the Securities Act of 1933 and the Investment Company Act of 1940." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Variable annuities invest in separate-account subaccounts whose performance depends on the securities markets. The contract holder bears the investment risk, unlike a fixed annuity where the insurance company guarantees a minimum return from its general account. This securities component means variable annuities require SEC registration and must be sold by licensed securities professionals.",
+    "topic": "products-risks",
+    "subtopic": "packaged-products",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Securities Act of 1933; Investment Company Act of 1940",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-pr-035",
+    "stem": "Which of the following BEST describes the difference between systematic risk and unsystematic risk?",
+    "choices": [
+      { "label": "A", "text": "Systematic risk affects individual companies while unsystematic risk affects the entire market.", "explanation": "Incorrect. This reverses the definitions. Systematic risk affects the entire market; unsystematic risk affects individual companies or industries." },
+      { "label": "B", "text": "Systematic risk affects the entire market and cannot be diversified away; unsystematic risk is specific to individual companies or industries and can be reduced through diversification.", "explanation": "Correct. Systematic (market) risk stems from broad factors like recessions, interest rate changes, inflation, and geopolitical events that affect all securities. It cannot be eliminated through diversification. Unsystematic (specific) risk is unique to a company or industry — a management scandal, product recall, or industry downturn. It can be substantially reduced by holding a diversified portfolio across many companies and sectors." },
+      { "label": "C", "text": "Both types of risk can be eliminated through proper portfolio diversification.", "explanation": "Incorrect. Only unsystematic risk can be diversified away. Systematic risk affects all securities and persists regardless of how many different investments are held." },
+      { "label": "D", "text": "Systematic risk applies only to equity investments, while unsystematic risk applies only to fixed-income investments.", "explanation": "Incorrect. Both types of risk apply to all investment types — equities, bonds, and other securities." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Systematic (market) risk is non-diversifiable risk from economy-wide factors (recessions, rate changes, inflation). Unsystematic (specific) risk is diversifiable risk from company or industry factors (management issues, product failures, regulatory changes affecting one sector). Modern portfolio theory holds that investors should be compensated only for bearing systematic risk, since unsystematic risk can be eliminated through diversification.",
+    "topic": "products-risks",
+    "subtopic": "investment-risks",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-pr-036",
+    "stem": "An investor holds two assets: Asset A and Asset B. When Asset A increases in value, Asset B tends to decrease in value, and vice versa. These assets are said to have:",
+    "choices": [
+      { "label": "A", "text": "Positive correlation — they move in the same direction.", "explanation": "Incorrect. Assets moving in opposite directions have negative correlation, not positive. Positive correlation means they tend to move together." },
+      { "label": "B", "text": "Negative correlation — they tend to move in opposite directions.", "explanation": "Correct. When two assets consistently move in opposite directions, they have a negative correlation (correlation coefficient between -1 and 0). Combining negatively correlated assets in a portfolio is a powerful diversification tool because gains in one asset offset losses in the other, reducing overall portfolio volatility." },
+      { "label": "C", "text": "Zero correlation — their price movements are completely unrelated.", "explanation": "Incorrect. Zero correlation means no relationship between asset movements. The described pattern of consistent opposite movement indicates negative correlation, not zero." },
+      { "label": "D", "text": "Perfect correlation — they always move by exactly the same amount.", "explanation": "Incorrect. Perfect positive correlation (+1.0) means assets always move in the same direction by proportional amounts. The described opposite movement pattern indicates negative correlation." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correlation measures how two assets move relative to each other, ranging from -1.0 (perfectly opposite) to +1.0 (perfectly together). Negative correlation means assets tend to move in opposite directions. Portfolio theory shows that combining assets with low or negative correlation reduces overall portfolio risk without proportionally reducing expected returns — this is the mathematical foundation of diversification.",
+    "topic": "products-risks",
+    "subtopic": "investment-risks",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-pr-037",
+    "stem": "An investor retired and relies on a fixed pension. Over the next decade, the Consumer Price Index rises substantially. Which type of investment risk does this retiree face?",
+    "choices": [
+      { "label": "A", "text": "Credit risk — the pension fund may default.", "explanation": "Incorrect. While pension default is a valid concern, the question specifically highlights rising CPI (inflation), which erodes purchasing power of fixed income streams." },
+      { "label": "B", "text": "Inflation risk (purchasing power risk) — the fixed pension payments buy less over time as prices rise.", "explanation": "Correct. Inflation risk (purchasing power risk) is the danger that the real value of fixed income payments declines as the general price level rises. A fixed pension that does not adjust for inflation will progressively lose purchasing power. After a decade of substantial inflation, the same dollar amount buys significantly fewer goods and services." },
+      { "label": "C", "text": "Interest rate risk — rising rates reduce the value of the pension.", "explanation": "Incorrect. Interest rate risk affects the market value of bonds and other rate-sensitive securities. A fixed pension is a payment stream, not a tradeable asset whose market price fluctuates with rates." },
+      { "label": "D", "text": "Liquidity risk — the retiree cannot sell the pension for cash.", "explanation": "Incorrect. While pensions are generally illiquid, the scenario describes purchasing power erosion from rising prices, which is inflation risk." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Inflation risk (purchasing power risk) is the risk that rising prices erode the real value of fixed income streams. Retirees with fixed pensions are especially vulnerable because their income does not increase with inflation. TIPS, equities, and inflation-adjusted annuities are tools that can help mitigate this risk.",
+    "topic": "products-risks",
+    "subtopic": "investment-risks",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-pr-038",
+    "stem": "An investor holds a bond with a 6% coupon. Market interest rates fall to 3%. When the investor receives coupon payments and reinvests them, the best available rate is only 3%. This illustrates which type of risk?",
+    "choices": [
+      { "label": "A", "text": "Credit risk", "explanation": "Incorrect. Credit risk involves the possibility that the issuer defaults on its obligations. The issuer is making all payments as agreed; the problem is with reinvestment opportunities." },
+      { "label": "B", "text": "Reinvestment risk", "explanation": "Correct. Reinvestment risk is the risk that cash flows from an investment (coupon payments, principal repayments) must be reinvested at lower rates than the original investment. The investor expected to reinvest 6% coupons at similar rates to achieve the bond's yield to maturity, but falling rates to 3% mean each coupon earns less when reinvested, reducing the total realized return." },
+      { "label": "C", "text": "Market risk", "explanation": "Incorrect. Market risk refers to broad market price declines. The scenario specifically describes the challenge of reinvesting cash flows at lower prevailing rates, which is reinvestment risk." },
+      { "label": "D", "text": "Liquidity risk", "explanation": "Incorrect. Liquidity risk involves difficulty selling an investment at a fair price. The investor is receiving scheduled cash flows with no difficulty; the challenge is finding comparable yields for reinvestment." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reinvestment risk occurs when periodic cash flows (coupons, dividends, principal returns) must be reinvested at rates lower than the original investment's yield. A bond's yield to maturity assumes all coupons are reinvested at the same rate — when rates fall, this assumption breaks down, and the investor's total return falls short of the YTM. Callable bonds amplify reinvestment risk because they are most likely to be called when rates fall.",
+    "topic": "products-risks",
+    "subtopic": "investment-risks",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "lastVerified": "2026-05-21"
   }
 ]

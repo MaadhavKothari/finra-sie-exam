@@ -2039,5 +2039,529 @@
     "source": "FINRA Series 7 content outline",
     "regulatoryBasis": "FINRA Rule 4512; Regulation Best Interest; FINRA Series 7 accounts and trading module",
     "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-s7-061",
+    "section": "equity-securities",
+    "stem": "A company announces a 3-for-1 stock split. An investor holds 200 shares at a market price of $150 per share. After the split, the investor will hold:",
+    "choices": [
+      { "label": "A", "text": "600 shares at approximately $50 per share.", "explanation": "Correct. In a 3-for-1 split, each existing share becomes 3 shares. The investor's 200 shares become 600 shares. The market price adjusts proportionally: $150 / 3 = $50 per share. The total value remains approximately $30,000 (200 x $150 = 600 x $50)." },
+      { "label": "B", "text": "200 shares at $450 per share.", "explanation": "Incorrect. A 3-for-1 split increases the number of shares, not the price per share. The share count triples and the price adjusts downward." },
+      { "label": "C", "text": "600 shares at $150 per share.", "explanation": "Incorrect. While the share count triples to 600, the price adjusts downward proportionally to approximately $50. The total value of the position does not change solely due to the split." },
+      { "label": "D", "text": "67 shares at $450 per share.", "explanation": "Incorrect. This would describe a reverse 3-for-1 split (dividing shares by 3), not a forward 3-for-1 split." }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A forward stock split increases the number of shares outstanding and proportionally reduces the price per share. In a 3-for-1 split, shares triple and the price becomes one-third. The investor's total position value is unchanged: 200 shares x $150 = $30,000 = 600 shares x $50. Companies split stock to make shares more accessible to retail investors at a lower per-share price.",
+    "subtopic": "Stock splits",
+    "difficulty": "easy",
+    "source": "FINRA Series 7 content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-062",
+    "section": "equity-securities",
+    "stem": "An investor purchases an American Depositary Receipt (ADR) for a Japanese company. In the following month, the Japanese yen weakens 10% against the U.S. dollar while the underlying stock price in yen remains unchanged. What is the approximate effect on the ADR's dollar value?",
+    "choices": [
+      { "label": "A", "text": "The ADR value increases approximately 10%.", "explanation": "Incorrect. A weaker yen means each yen buys fewer dollars. If the yen-denominated stock price is unchanged but the yen is worth less in dollar terms, the ADR value declines." },
+      { "label": "B", "text": "The ADR value decreases approximately 10%.", "explanation": "Correct. ADR values reflect both the underlying stock price in the foreign currency and the exchange rate. If the yen weakens 10% against the dollar and the stock price in yen is unchanged, the dollar value of the ADR declines by approximately 10%. This illustrates currency risk, the primary additional risk ADR investors face beyond domestic equity risks." },
+      { "label": "C", "text": "The ADR value is unaffected because ADRs trade in U.S. dollars.", "explanation": "Incorrect. While ADRs are priced in U.S. dollars, their value derives from the underlying foreign shares denominated in the foreign currency. Currency fluctuations directly affect the ADR's dollar value." },
+      { "label": "D", "text": "The ADR value increases because a weaker yen benefits Japanese exporters.", "explanation": "Incorrect. While a weaker yen may benefit some Japanese companies' earnings, the question states the stock price in yen is unchanged. The ADR value decline is purely from the currency translation effect." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "ADR investors face currency risk because the underlying shares are denominated in a foreign currency. When the foreign currency weakens against the dollar, the ADR's dollar value declines even if the stock price in the foreign currency is unchanged. Conversely, a strengthening foreign currency increases the ADR's dollar value. This currency exposure is a key consideration for ADR investors.",
+    "subtopic": "American Depositary Receipts (ADRs)",
+    "difficulty": "medium",
+    "source": "FINRA Series 7 content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-063",
+    "section": "equity-securities",
+    "stem": "A company issues rights to existing shareholders allowing them to purchase new shares at $40 when the stock is trading at $50. Each right entitles the holder to buy one new share. An investor who owns 1,000 shares and exercises all rights will:",
+    "choices": [
+      { "label": "A", "text": "Purchase 1,000 new shares at $40 each, paying $40,000 total.", "explanation": "Correct. The investor receives one right per share owned (1,000 rights) and each right allows buying one new share at the subscription price of $40. Exercising all 1,000 rights costs 1,000 x $40 = $40,000 and results in the investor holding 2,000 total shares." },
+      { "label": "B", "text": "Purchase 1,000 new shares at $50 each.", "explanation": "Incorrect. The subscription price for rights is $40 (set below market), not the current market price of $50. The discount is what gives the rights their value." },
+      { "label": "C", "text": "Purchase 500 new shares at $40 each.", "explanation": "Incorrect. The investor receives one right per existing share and each right allows purchasing one new share. With 1,000 shares, the investor receives 1,000 rights, not 500." },
+      { "label": "D", "text": "Sell the rights at $10 each and receive $10,000 in cash.", "explanation": "Incorrect. While selling rights is an option (and each right has approximately $10 of intrinsic value), the question asks about exercising the rights, not selling them." }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rights offerings protect existing shareholders from dilution by giving them the right to buy new shares at a below-market subscription price. Each right typically corresponds to one existing share owned. The intrinsic value of each right is approximately the market price minus the subscription price ($50 - $40 = $10). Shareholders who do not exercise or sell their rights will see their ownership diluted.",
+    "subtopic": "Rights offerings",
+    "difficulty": "medium",
+    "source": "FINRA Series 7 content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-064",
+    "section": "equity-securities",
+    "stem": "A company declares a $2.00 per share annual cash dividend. The ex-dividend date is Wednesday, June 5. An investor who purchases the stock on which of the following dates will NOT receive the dividend?",
+    "choices": [
+      { "label": "A", "text": "Monday, June 3", "explanation": "Incorrect. Purchasing on Monday, June 3 (two business days before the record date) would settle on time to receive the dividend, as the ex-date is June 5." },
+      { "label": "B", "text": "Tuesday, June 4", "explanation": "Incorrect. With T+1 settlement, a purchase on June 4 would settle on June 5. However, the ex-date means that on June 5, the stock trades without the dividend. A purchase on June 4 settles on June 5, which is the ex-date — this needs careful analysis. Under T+1, buying on June 4 settles June 5 (the ex-date), meaning the buyer IS the holder of record. Actually, under T+1, the ex-date is one business day before the record date, so buying on June 4 (one day before ex-date June 5) would settle June 5 and the buyer WOULD receive the dividend. Let me reconsider: the ex-date is the first day the stock trades without the dividend. Buying on or after the ex-date means you do NOT receive the dividend." },
+      { "label": "C", "text": "Wednesday, June 5 (the ex-dividend date)", "explanation": "Correct. The ex-dividend date is the first day the stock trades without the dividend. An investor who purchases on the ex-date or later will NOT receive the upcoming dividend. Under T+1 settlement, a purchase on June 5 settles on June 6, which is after the record date. To receive the dividend, the investor must purchase before the ex-date." },
+      { "label": "D", "text": "Friday, May 31", "explanation": "Incorrect. Purchasing well before the ex-date ensures settlement before the record date, so this investor would receive the dividend." }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The ex-dividend date is the first day a stock trades without entitlement to the upcoming dividend. An investor must purchase before the ex-date to receive the dividend. Under T+1 settlement, the ex-date is typically one business day before the record date. Anyone buying on or after the ex-date will not be the shareholder of record and will not receive the dividend.",
+    "subtopic": "Dividends and ex-dates",
+    "difficulty": "medium",
+    "source": "FINRA Series 7 content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-065",
+    "section": "equity-securities",
+    "stem": "Sponsored ADRs differ from unsponsored ADRs primarily because:",
+    "choices": [
+      { "label": "A", "text": "Sponsored ADRs are created by the foreign company in partnership with a U.S. depositary bank, with the company providing financial information and supporting the ADR program.", "explanation": "Correct. Sponsored ADRs involve a formal agreement between the foreign company and a U.S. depositary bank. The company participates in the ADR program, provides financial disclosures, and may list the ADRs on a major U.S. exchange. Unsponsored ADRs are created by depositary banks without the foreign company's participation and trade only OTC with less financial disclosure." },
+      { "label": "B", "text": "Sponsored ADRs are backed by the U.S. government, while unsponsored ADRs are not.", "explanation": "Incorrect. No ADRs are backed by the U.S. government. The distinction is whether the foreign company actively participates in the ADR program." },
+      { "label": "C", "text": "Sponsored ADRs pay dividends in the foreign currency, while unsponsored ADRs pay in U.S. dollars.", "explanation": "Incorrect. Both sponsored and unsponsored ADRs pay dividends in U.S. dollars (the depositary bank converts the foreign currency). The distinction is about company participation and disclosure, not dividend currency." },
+      { "label": "D", "text": "There is no meaningful difference between sponsored and unsponsored ADRs.", "explanation": "Incorrect. There are significant differences in disclosure requirements, trading venue, and the level of company involvement." }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Sponsored ADRs are established through a formal agreement between the foreign company and a U.S. depositary bank. The company provides financial information and supports the program, enabling listing on major U.S. exchanges (Level II and III sponsored ADRs). Unsponsored ADRs are created by banks without company involvement, trade only OTC, and have limited disclosure. Most ADRs traded on major exchanges are sponsored.",
+    "subtopic": "American Depositary Receipts (ADRs)",
+    "difficulty": "hard",
+    "source": "FINRA Series 7 content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-066",
+    "section": "equity-securities",
+    "stem": "An investor who receives a stock dividend of 10% on 500 shares priced at $80 per share will have which of the following after the dividend?",
+    "choices": [
+      { "label": "A", "text": "550 shares at approximately $72.73 per share.", "explanation": "Correct. A 10% stock dividend adds 50 shares (500 x 10% = 50). The investor now holds 550 shares. The total value is approximately unchanged: 500 x $80 = $40,000. The adjusted price is approximately $40,000 / 550 = $72.73 per share. Like a stock split, a stock dividend increases shares outstanding and proportionally reduces the per-share price." },
+      { "label": "B", "text": "500 shares at $88 per share.", "explanation": "Incorrect. A stock dividend adds shares; it does not increase the per-share price. The investor receives additional shares, not a price increase." },
+      { "label": "C", "text": "550 shares at $80 per share.", "explanation": "Incorrect. While the investor does receive 550 shares, the per-share price adjusts downward proportionally. The total value of the position does not increase solely from a stock dividend." },
+      { "label": "D", "text": "500 shares plus $4,000 in cash.", "explanation": "Incorrect. A stock dividend distributes additional shares, not cash. A cash dividend would distribute money; a stock dividend distributes shares." }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A 10% stock dividend gives shareholders 10 additional shares for every 100 owned. The investor's 500 shares become 550. The per-share price adjusts downward so total value is approximately unchanged. Stock dividends are similar to small stock splits — they increase shares outstanding without changing the company's total market capitalization or the investor's proportional ownership.",
+    "subtopic": "Stock dividends",
+    "difficulty": "medium",
+    "source": "FINRA Series 7 content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-067",
+    "section": "debt-securities",
+    "stem": "Bond duration measures which of the following?",
+    "choices": [
+      { "label": "A", "text": "The number of years until the bond matures.", "explanation": "Incorrect. Maturity is the time until the bond's final principal payment. Duration is a distinct concept that measures interest rate sensitivity and is typically shorter than maturity for coupon-paying bonds." },
+      { "label": "B", "text": "The bond's sensitivity to changes in interest rates — specifically, the approximate percentage change in price for a 1% change in yield.", "explanation": "Correct. Duration (specifically modified duration) measures a bond's price sensitivity to interest rate changes. A bond with a duration of 7 years will decline approximately 7% in price if yields rise by 1%. Longer duration means greater price sensitivity. Duration is affected by maturity (longer maturity = higher duration), coupon rate (higher coupon = lower duration), and yield level." },
+      { "label": "C", "text": "The credit rating assigned by Moody's or S&P.", "explanation": "Incorrect. Credit ratings assess the issuer's ability to make interest and principal payments. Duration measures interest rate risk, which is a separate concept from credit risk." },
+      { "label": "D", "text": "The bond's liquidity in the secondary market.", "explanation": "Incorrect. Liquidity refers to how easily a bond can be bought or sold at a fair price. Duration is a measure of interest rate sensitivity." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Duration quantifies a bond's price sensitivity to interest rate changes. Modified duration estimates the percentage price change for a 1% change in yield. Key relationships: longer maturity increases duration; higher coupon rates decrease duration (more cash flow is received sooner); and zero-coupon bonds have duration equal to maturity (maximum sensitivity). Duration is the primary tool for managing interest rate risk in bond portfolios.",
+    "subtopic": "Bond duration and interest rate sensitivity",
+    "difficulty": "hard",
+    "source": "FINRA Series 7 content outline",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["svb"]
+  },
+  {
+    "id": "q-s7-068",
+    "section": "debt-securities",
+    "stem": "A callable bond with a 6% coupon is trading at $1,050 when market interest rates fall to 4%. Which of the following is MOST likely to occur?",
+    "choices": [
+      { "label": "A", "text": "The issuer will call the bond, forcing the investor to reinvest at lower prevailing rates.", "explanation": "Correct. When interest rates fall significantly below a callable bond's coupon rate, the issuer has a strong incentive to call (redeem) the bond and refinance at the lower rate. The bondholder receives the call price (typically par plus a small premium) but faces reinvestment risk — they must reinvest the proceeds at the now-lower 4% rate instead of the 6% coupon they were receiving." },
+      { "label": "B", "text": "The bondholder will exercise the call option to sell the bond back to the issuer at a profit.", "explanation": "Incorrect. The call option belongs to the issuer, not the bondholder. The bondholder cannot force the issuer to redeem the bond. A bondholder's right to sell back to the issuer would be a put feature." },
+      { "label": "C", "text": "The bond's price will rise without limit because interest rates have fallen.", "explanation": "Incorrect. Callable bonds exhibit price compression (negative convexity) — as rates fall and the likelihood of a call increases, the bond's price is capped near the call price, unlike non-callable bonds which continue to appreciate." },
+      { "label": "D", "text": "The issuer will increase the coupon rate to 8% to reward loyal bondholders.", "explanation": "Incorrect. Bond coupon rates are fixed at issuance. Issuers do not increase coupons. In fact, the issuer's motivation is to eliminate the high 6% coupon and reissue debt at 4%." }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Callable bonds give the issuer the right to redeem the bond before maturity, typically after a call protection period. Issuers exercise this right when rates fall significantly below the coupon rate, allowing them to refinance at lower costs. This creates reinvestment risk for bondholders, who lose their high-coupon investment and must reinvest at lower rates. Callable bonds trade at a yield premium (higher yield to call) to compensate investors for this risk.",
+    "subtopic": "Callable bonds and reinvestment risk",
+    "difficulty": "medium",
+    "source": "FINRA Series 7 content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-069",
+    "section": "debt-securities",
+    "stem": "A convertible bond has a par value of $1,000 and a conversion ratio of 20. The underlying stock is trading at $60. What is the conversion value of the bond?",
+    "choices": [
+      { "label": "A", "text": "$1,000", "explanation": "Incorrect. $1,000 is the par value, not the conversion value. Conversion value depends on the stock price and the conversion ratio." },
+      { "label": "B", "text": "$1,200", "explanation": "Correct. Conversion value = conversion ratio x current stock price = 20 shares x $60 = $1,200. Since the conversion value ($1,200) exceeds the par value ($1,000), the bond trades at a premium influenced by the embedded equity option. The conversion price is $1,000 / 20 = $50 per share." },
+      { "label": "C", "text": "$600", "explanation": "Incorrect. $600 is the stock price times 10, not the conversion ratio of 20." },
+      { "label": "D", "text": "$50", "explanation": "Incorrect. $50 is the conversion price per share ($1,000 par / 20 shares), not the total conversion value of the bond." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Conversion value = conversion ratio x stock price = 20 x $60 = $1,200. The conversion price is par / conversion ratio = $1,000 / 20 = $50. Since the stock ($60) exceeds the conversion price ($50), the bond's conversion value exceeds par and the bondholder would benefit from converting. Convertible bonds offer downside protection (through the bond floor) with upside participation (through the conversion feature).",
+    "subtopic": "Convertible bonds",
+    "difficulty": "medium",
+    "source": "FINRA Series 7 content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-070",
+    "section": "debt-securities",
+    "stem": "A Collateralized Mortgage Obligation (CMO) is structured into tranches primarily to:",
+    "choices": [
+      { "label": "A", "text": "Eliminate all credit risk from the underlying mortgage pool.", "explanation": "Incorrect. CMO tranching addresses prepayment risk, not credit risk. Agency CMOs may have implicit government backing for credit risk, but the tranching structure itself redirects the timing of cash flows." },
+      { "label": "B", "text": "Redirect prepayment risk by distributing principal and interest payments to different tranches according to a set priority, allowing investors to choose exposure to shorter or longer average lives.", "explanation": "Correct. CMOs divide mortgage-backed securities into tranches (sequential, PAC, TAC, companion/support) that receive principal payments in a defined order. This allows some tranches to have more predictable, shorter cash flows while companion tranches absorb the prepayment variability. Investors select the tranche that matches their investment horizon and risk tolerance." },
+      { "label": "C", "text": "Convert variable-rate mortgages into fixed-rate securities.", "explanation": "Incorrect. CMO tranching redirects the timing of cash flows, not the interest rate characteristics. Converting variable to fixed rates would involve a different type of derivative structure." },
+      { "label": "D", "text": "Guarantee that all investors receive the same return regardless of prepayment speeds.", "explanation": "Incorrect. Different tranches deliberately receive different returns depending on prepayment speeds. Companion tranches, for example, bear more prepayment risk than PAC tranches." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "CMOs address prepayment uncertainty by directing principal payments to tranches in a prescribed order. Sequential-pay tranches receive principal one at a time. PAC (Planned Amortization Class) tranches offer more predictable cash flows within a specified prepayment band, while companion tranches absorb the variability. This structure allows investors to match their investment horizon to a specific tranche's expected average life.",
+    "subtopic": "CMOs and mortgage-backed securities",
+    "difficulty": "hard",
+    "source": "FINRA Series 7 content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-071",
+    "section": "debt-securities",
+    "stem": "Treasury Inflation-Protected Securities (TIPS) adjust for inflation by:",
+    "choices": [
+      { "label": "A", "text": "Increasing the coupon rate when inflation rises.", "explanation": "Incorrect. TIPS have a fixed coupon rate. What adjusts is the principal value, not the coupon rate." },
+      { "label": "B", "text": "Adjusting the principal value upward with inflation (CPI increases), so the fixed coupon rate is applied to a larger principal, resulting in higher dollar interest payments.", "explanation": "Correct. TIPS maintain a fixed coupon rate but adjust the principal semiannually based on changes in the Consumer Price Index (CPI). When inflation rises, the principal increases, and the fixed coupon rate is applied to the larger principal, producing higher dollar interest payments. At maturity, the investor receives the greater of the original par value or the inflation-adjusted principal, providing deflation protection." },
+      { "label": "C", "text": "Paying a floating rate that resets quarterly based on the inflation rate.", "explanation": "Incorrect. TIPS do not have a floating rate. The coupon rate is fixed; the principal adjusts for inflation." },
+      { "label": "D", "text": "Providing a tax credit equal to the inflation rate each year.", "explanation": "Incorrect. TIPS do not provide tax credits. In fact, TIPS have a tax disadvantage: the inflation adjustment to principal is taxable as ordinary income in the year it accrues, even though the investor does not receive the adjusted principal until maturity (phantom income)." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "TIPS protect against inflation through principal adjustment. The fixed coupon rate is applied to the CPI-adjusted principal, so dollar interest payments rise with inflation. At maturity, the investor receives the greater of original par or adjusted principal. A key tax consideration: the annual principal increase is taxable income even though it is not received until maturity, making TIPS most tax-efficient in tax-advantaged accounts.",
+    "subtopic": "Treasury Inflation-Protected Securities (TIPS)",
+    "difficulty": "easy",
+    "source": "FINRA Series 7 content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-072",
+    "section": "debt-securities",
+    "stem": "A bond with a longer maturity will generally have which of the following characteristics compared to an otherwise identical bond with a shorter maturity?",
+    "choices": [
+      { "label": "A", "text": "Lower duration and less price sensitivity to interest rate changes.", "explanation": "Incorrect. Longer maturity increases duration and price sensitivity. More distant cash flows are more affected by changes in discount rates." },
+      { "label": "B", "text": "Higher duration and greater price sensitivity to interest rate changes.", "explanation": "Correct. Duration increases with maturity because a larger portion of the bond's value comes from cash flows received further in the future, which are more heavily affected by changes in discount rates. A 30-year bond will experience a much larger price change for a given interest rate move than a 5-year bond with the same coupon and credit quality." },
+      { "label": "C", "text": "The same duration because duration depends only on the coupon rate.", "explanation": "Incorrect. Duration depends on maturity, coupon rate, and yield level. Maturity is one of the primary determinants — longer maturity means higher duration, all else equal." },
+      { "label": "D", "text": "Lower credit risk because the issuer has more time to generate revenue.", "explanation": "Incorrect. Longer maturity generally means higher credit risk because more time increases the probability that the issuer's financial condition could deteriorate." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Longer maturity increases a bond's duration and interest rate sensitivity. The relationship exists because longer-term cash flows have their present values more heavily discounted when rates change. This is why long-term bond prices are more volatile than short-term bond prices. The SVB collapse in 2023 illustrated this when unrealized losses on long-duration Treasury and MBS holdings triggered the bank run.",
+    "subtopic": "Duration and maturity relationship",
+    "difficulty": "medium",
+    "source": "FINRA Series 7 content outline",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["svb"]
+  },
+  {
+    "id": "q-s7-073",
+    "section": "options",
+    "stem": "An investor establishes a long straddle by buying 1 XYZ Oct 50 call for $4 and buying 1 XYZ Oct 50 put for $3. What is the investor's maximum loss and breakeven points?",
+    "choices": [
+      { "label": "A", "text": "Maximum loss: $700; breakeven points: $43 and $57.", "explanation": "Correct. A long straddle involves buying both a call and put at the same strike price and expiration. The maximum loss is the total premium paid: $4 + $3 = $7 per share = $700. The upper breakeven is strike + total premium = $50 + $7 = $57. The lower breakeven is strike - total premium = $50 - $7 = $43. The investor profits if XYZ moves above $57 or below $43 by expiration." },
+      { "label": "B", "text": "Maximum loss: unlimited; breakeven points: $46 and $54.", "explanation": "Incorrect. A long straddle has limited risk (the total premium paid). Loss is unlimited only for a short (sold) straddle, not a long straddle." },
+      { "label": "C", "text": "Maximum loss: $400; breakeven points: $46 and $54.", "explanation": "Incorrect. The maximum loss is the total premium for both options ($4 + $3 = $7 = $700), not just the call premium. Breakeven points use the total premium, not individual premiums." },
+      { "label": "D", "text": "Maximum loss: $700; breakeven points: $50 and $57.", "explanation": "Incorrect. The lower breakeven is $50 - $7 = $43, not $50. The put provides profit below the strike minus total premium." }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A long straddle profits from large moves in either direction. Max loss is the total premium ($7 x 100 = $700), occurring if the stock closes exactly at $50 at expiration (both options expire worthless). Upper breakeven = strike + total premium = $57. Lower breakeven = strike - total premium = $43. Maximum gain on the upside is unlimited (stock can rise indefinitely); maximum gain on the downside is $43 x 100 = $4,300 (stock can fall to zero).",
+    "subtopic": "Straddles",
+    "difficulty": "hard",
+    "source": "FINRA Series 7 content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-074",
+    "section": "options",
+    "stem": "An investor establishes a bull call spread by buying 1 ABC Jan 40 call for $6 and selling 1 ABC Jan 50 call for $2. What is the maximum gain, maximum loss, and breakeven?",
+    "choices": [
+      { "label": "A", "text": "Maximum gain: $600; maximum loss: $400; breakeven: $44.", "explanation": "Correct. Net debit = $6 - $2 = $4 ($400). Maximum loss is the net debit ($400) if both options expire worthless (stock at or below $40). Maximum gain = difference in strikes minus net debit = ($50 - $40) - $4 = $6 per share ($600), occurring when the stock is at or above $50. Breakeven = lower strike + net debit = $40 + $4 = $44." },
+      { "label": "B", "text": "Maximum gain: $1,000; maximum loss: $400; breakeven: $44.", "explanation": "Incorrect. Maximum gain is capped at $600, not $1,000. The short $50 call limits the upside: the spread can gain no more than the $10 difference in strikes minus the $4 net debit." },
+      { "label": "C", "text": "Maximum gain: $600; maximum loss: unlimited; breakeven: $46.", "explanation": "Incorrect. The maximum loss is limited to the net debit ($400), not unlimited. The short call is covered by the long call, limiting risk." },
+      { "label": "D", "text": "Maximum gain: $400; maximum loss: $600; breakeven: $46.", "explanation": "Incorrect. This reverses the maximum gain and loss. The bull call spread has limited gain ($600) and limited loss ($400)." }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A bull call spread is a debit spread: buy a lower-strike call, sell a higher-strike call, same expiration. Net debit = $6 - $2 = $4. Max loss = net debit = $400 (stock at or below $40). Max gain = strike difference - net debit = $10 - $4 = $6 ($600) (stock at or above $50). Breakeven = lower strike + net debit = $44. The spread profits when the stock rises moderately, with both risk and reward defined.",
+    "subtopic": "Spreads — bull call spread",
+    "difficulty": "hard",
+    "source": "FINRA Series 7 content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-075",
+    "section": "options",
+    "stem": "An investor who owns 100 shares of XYZ stock at $55 writes (sells) 1 XYZ Jul 60 call for a premium of $3. This strategy is known as a:",
+    "choices": [
+      { "label": "A", "text": "Protective put", "explanation": "Incorrect. A protective put involves buying a put on stock the investor already owns to protect against downside. The described strategy involves selling a call, not buying a put." },
+      { "label": "B", "text": "Covered call", "explanation": "Correct. A covered call is the strategy of selling (writing) a call option against stock the investor already owns. The call is 'covered' because if the call is exercised, the investor can deliver the shares they already hold. The investor receives the $3 premium ($300), which provides limited downside protection and generates income. The trade-off: if XYZ rises above $60, the stock will be called away at $60, capping the upside at $63 ($60 strike + $3 premium)." },
+      { "label": "C", "text": "Naked call", "explanation": "Incorrect. A naked (uncovered) call involves selling a call without owning the underlying stock. This investor owns 100 shares, making the call covered." },
+      { "label": "D", "text": "Collar", "explanation": "Incorrect. A collar involves owning stock, selling a call, AND buying a put. This investor sells a call but does not buy a put, so it is not a collar." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A covered call generates income from the premium received while the investor maintains stock ownership. Maximum gain is strike price + premium - stock cost = $60 + $3 - $55 = $8 per share ($800). Maximum loss occurs if the stock falls to zero: cost - premium = $55 - $3 = $52 per share ($5,200). Breakeven = stock cost - premium = $55 - $3 = $52. Covered calls are popular among income-oriented investors willing to cap upside.",
+    "subtopic": "Covered calls",
+    "difficulty": "easy",
+    "source": "FINRA Series 7 content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-076",
+    "section": "options",
+    "stem": "An investor buys 1 XYZ Sep 45 call at $5 (premium). What is the investor's breakeven point, maximum gain, and maximum loss?",
+    "choices": [
+      { "label": "A", "text": "Breakeven: $50; maximum gain: unlimited; maximum loss: $500.", "explanation": "Correct. Breakeven for a long call = strike + premium = $45 + $5 = $50. Maximum gain is theoretically unlimited because the stock can rise without limit. Maximum loss is the premium paid = $5 x 100 = $500, which occurs if the stock is at or below $45 at expiration and the call expires worthless." },
+      { "label": "B", "text": "Breakeven: $45; maximum gain: $500; maximum loss: unlimited.", "explanation": "Incorrect. This confuses the long call with a short call. A long call has unlimited gain potential and limited loss (the premium). The breakeven is strike + premium, not the strike alone." },
+      { "label": "C", "text": "Breakeven: $40; maximum gain: unlimited; maximum loss: $500.", "explanation": "Incorrect. $40 would be the breakeven for a long put with a $45 strike and $5 premium (strike - premium). For a long call, breakeven is strike + premium = $50." },
+      { "label": "D", "text": "Breakeven: $50; maximum gain: $500; maximum loss: unlimited.", "explanation": "Incorrect. A long call has unlimited gain potential, not a maximum of $500. The $500 is the maximum loss (premium paid), not the maximum gain." }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Long call fundamentals: breakeven = strike + premium ($45 + $5 = $50). Maximum loss = premium paid ($500) if the call expires worthless. Maximum gain = unlimited (stock can rise without limit). At $60, profit = ($60 - $45 - $5) x 100 = $1,000. At $100, profit = ($100 - $45 - $5) x 100 = $5,000. The long call is a bullish strategy with defined risk and unlimited reward.",
+    "subtopic": "Long call — breakeven and max gain/loss",
+    "difficulty": "easy",
+    "source": "FINRA Series 7 content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-077",
+    "section": "options",
+    "stem": "An investor establishes a collar by owning 100 shares of ABC at $70, buying 1 ABC Oct 65 put for $2, and selling 1 ABC Oct 75 call for $2. What is the investor's maximum gain and maximum loss?",
+    "choices": [
+      { "label": "A", "text": "Maximum gain: $500; maximum loss: $500.", "explanation": "Correct. The collar combines a protective put (limits downside) with a covered call (limits upside). Since the premiums offset ($2 put cost = $2 call premium received), the collar is established at zero net cost. Maximum gain: stock called away at $75 - cost of $70 = $5 per share ($500). Maximum loss: stock put at $65 - cost of $70 = -$5 per share ($500). The collar provides symmetric protection in this case." },
+      { "label": "B", "text": "Maximum gain: unlimited; maximum loss: $500.", "explanation": "Incorrect. The short call at $75 caps the upside. If ABC rises above $75, the stock is called away, limiting profit to $500." },
+      { "label": "C", "text": "Maximum gain: $500; maximum loss: unlimited.", "explanation": "Incorrect. The long put at $65 protects the downside. If ABC falls below $65, the investor exercises the put and sells at $65, limiting the loss to $500." },
+      { "label": "D", "text": "Maximum gain: $0; maximum loss: $0.", "explanation": "Incorrect. The collar does not eliminate all gain and loss. It creates a defined range: gains up to the call strike and losses down to the put strike." }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A collar creates a protective range around a stock position. The long put provides a floor (minimum selling price of $65), and the short call creates a ceiling (maximum selling price of $75). With a $70 cost basis and zero-cost collar: max gain = $75 - $70 = $5 ($500), max loss = $70 - $65 = $5 ($500). Collars are popular among investors who want downside protection while willing to sacrifice some upside.",
+    "subtopic": "Collars",
+    "difficulty": "hard",
+    "source": "FINRA Series 7 content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-078",
+    "section": "options",
+    "stem": "An investor writes (sells) 1 uncovered (naked) XYZ Nov 80 call for a premium of $5. If XYZ rises to $100 at expiration, what is the writer's loss?",
+    "choices": [
+      { "label": "A", "text": "$500 profit", "explanation": "Incorrect. The call is deep in-the-money at expiration. The writer faces a loss, not a profit." },
+      { "label": "B", "text": "$1,500 loss", "explanation": "Correct. The call is exercised: the writer must deliver shares at $80 but must buy them at $100 (market price). Loss on assignment = $100 - $80 = $20 per share. Offset by premium received: $20 - $5 = $15 net loss per share x 100 = $1,500. Naked call writing has theoretically unlimited risk because the stock can rise without limit." },
+      { "label": "C", "text": "$2,000 loss", "explanation": "Incorrect. $2,000 would be the loss without accounting for the $5 premium received. The net loss is ($100 - $80 - $5) x 100 = $1,500." },
+      { "label": "D", "text": "$500 loss", "explanation": "Incorrect. $500 is the premium received, which partially offsets the loss but does not represent the total loss. The stock rose $20 above the strike; after the $5 premium, net loss is $15 x 100 = $1,500." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Naked call writing carries theoretically unlimited risk. The writer must deliver shares at the strike price regardless of the market price. At $100: assignment loss = ($100 - $80) x 100 = $2,000. Premium received = $500. Net loss = $2,000 - $500 = $1,500. If XYZ had risen to $200, the loss would be ($200 - $80 - $5) x 100 = $11,500. This unlimited risk is why naked calls have the highest margin requirements.",
+    "subtopic": "Naked call writing — risk",
+    "difficulty": "medium",
+    "source": "FINRA Series 7 content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-079",
+    "section": "packaged-products",
+    "stem": "Which of the following statements about 529 education savings plans is CORRECT?",
+    "choices": [
+      { "label": "A", "text": "Contributions are federally tax-deductible.", "explanation": "Incorrect. 529 plan contributions are NOT deductible on federal income taxes. However, many states offer state income tax deductions or credits for contributions to their state's 529 plan." },
+      { "label": "B", "text": "Earnings grow tax-deferred, and withdrawals used for qualified education expenses are federally tax-free.", "explanation": "Correct. Section 529 plans offer tax-free growth and tax-free withdrawals when funds are used for qualified education expenses (tuition, room, board, books, fees, computers, and up to $10,000/year for K-12 tuition). Non-qualified withdrawals are subject to income tax and a 10% penalty on earnings. The SECURE 2.0 Act also allows limited rollovers from 529 plans to Roth IRAs under certain conditions." },
+      { "label": "C", "text": "Only the account beneficiary can make contributions.", "explanation": "Incorrect. Anyone can contribute to a 529 plan — parents, grandparents, friends, and even the beneficiary themselves. The account owner (not necessarily the beneficiary) controls the account." },
+      { "label": "D", "text": "529 plans are guaranteed by the FDIC up to $250,000.", "explanation": "Incorrect. 529 plans are investment accounts, not bank deposits. They are not FDIC-insured and are subject to market risk based on the investment options selected." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "529 plans provide significant tax advantages for education savings: tax-deferred growth and tax-free withdrawals for qualified education expenses. Contributions are not federally tax-deductible but may qualify for state tax benefits. The account owner retains control and can change beneficiaries within the family. Non-qualified withdrawals incur income tax and a 10% penalty on earnings.",
+    "subtopic": "529 education savings plans",
+    "difficulty": "easy",
+    "source": "FINRA Series 7 content outline",
+    "regulatoryBasis": "Internal Revenue Code Section 529",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-080",
+    "section": "packaged-products",
+    "stem": "A hedge fund typically differs from a mutual fund in which of the following ways?",
+    "choices": [
+      { "label": "A", "text": "Hedge funds are registered with the SEC and available to all retail investors.", "explanation": "Incorrect. Most hedge funds are not registered as investment companies under the Investment Company Act of 1940. They rely on exemptions and are generally available only to accredited investors and qualified purchasers." },
+      { "label": "B", "text": "Hedge funds use a wider range of investment strategies (including short selling, leverage, and derivatives), are less regulated, and are available primarily to accredited investors and qualified purchasers.", "explanation": "Correct. Hedge funds are private investment vehicles that employ a broader range of strategies than mutual funds, including short selling, leverage, derivatives, concentrated positions, and illiquid investments. They rely on exemptions from the Investment Company Act (typically Section 3(c)(1) or 3(c)(7)) and are sold only to sophisticated investors. They are less liquid than mutual funds, often with lock-up periods and limited redemption windows, and typically charge a management fee plus a performance fee (commonly 2% and 20%)." },
+      { "label": "C", "text": "Hedge funds and mutual funds are regulated identically under the Investment Company Act of 1940.", "explanation": "Incorrect. Mutual funds are registered investment companies under the 1940 Act. Hedge funds rely on exemptions from registration and face fewer regulatory constraints." },
+      { "label": "D", "text": "Hedge funds must calculate and publish NAV daily.", "explanation": "Incorrect. Daily NAV publication is a requirement for open-end mutual funds. Hedge funds typically report NAV monthly or quarterly and are not subject to the same disclosure requirements." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Hedge funds are private pooled investment vehicles available to accredited investors and qualified purchasers. They employ strategies unavailable to mutual funds (short selling, high leverage, derivatives, illiquid investments) and rely on exemptions from the Investment Company Act. They charge performance-based fees, have limited liquidity with lock-up periods, and are subject to less regulatory oversight than registered funds.",
+    "subtopic": "Hedge funds",
+    "difficulty": "medium",
+    "source": "FINRA Series 7 content outline",
+    "regulatoryBasis": "Investment Company Act of 1940, Sections 3(c)(1) and 3(c)(7)",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["ltcm"]
+  },
+  {
+    "id": "q-s7-081",
+    "section": "packaged-products",
+    "stem": "A Direct Participation Program (DPP) passes through income, gains, losses, and deductions directly to investors. Which of the following is the MOST common form of DPP?",
+    "choices": [
+      { "label": "A", "text": "Limited partnership", "explanation": "Correct. Limited partnerships are the most common DPP structure. They consist of a general partner (who manages the venture and has unlimited liability) and limited partners (who contribute capital and have liability limited to their investment). DPPs pass through all tax consequences to the investors' personal tax returns, avoiding double taxation at the entity level. Common DPP investments include real estate, oil and gas, and equipment leasing." },
+      { "label": "B", "text": "C corporation", "explanation": "Incorrect. C corporations are subject to double taxation (corporate tax on earnings, then personal tax on dividends). DPPs specifically avoid entity-level taxation by using pass-through structures." },
+      { "label": "C", "text": "Open-end mutual fund", "explanation": "Incorrect. Mutual funds are registered investment companies, not DPPs. While mutual funds distribute capital gains and dividends, they do not pass through losses and deductions like DPPs." },
+      { "label": "D", "text": "Exchange-traded fund (ETF)", "explanation": "Incorrect. ETFs are registered investment companies traded on exchanges. They are not structured as direct participation programs." }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Limited partnerships are the dominant DPP structure. The general partner manages operations and bears unlimited liability; limited partners contribute capital with liability capped at their investment. All income, losses, deductions, and credits flow through to partners' personal tax returns (Schedule K-1). DPPs are illiquid (no secondary market), have high minimum investments, and are suitable only for investors who can tolerate illiquidity and benefit from the tax characteristics.",
+    "subtopic": "Direct Participation Programs (DPPs)",
+    "difficulty": "medium",
+    "source": "FINRA Series 7 content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-082",
+    "section": "packaged-products",
+    "stem": "A Unit Investment Trust (UIT) differs from a mutual fund primarily because:",
+    "choices": [
+      { "label": "A", "text": "UITs are actively managed by a portfolio manager who makes daily trading decisions.", "explanation": "Incorrect. This describes a mutual fund. UITs hold a fixed, unmanaged portfolio — securities are assembled at creation and held until the trust's termination date." },
+      { "label": "B", "text": "UITs hold a fixed, unmanaged portfolio of securities until a specified termination date, while mutual funds are actively or passively managed with no set termination.", "explanation": "Correct. UITs assemble a fixed portfolio at inception and hold it largely unchanged until the trust terminates on a set date (often 15-30 years for bond UITs, shorter for equity UITs). There is no ongoing portfolio management. Mutual funds continuously manage their portfolio (actively or passively tracking an index) with no termination date. UITs typically have lower expenses because of the absence of ongoing management." },
+      { "label": "C", "text": "UITs are not regulated by the SEC.", "explanation": "Incorrect. UITs are registered investment companies under the Investment Company Act of 1940, regulated by the SEC just like mutual funds." },
+      { "label": "D", "text": "UITs trade on exchanges throughout the day like ETFs.", "explanation": "Incorrect. UITs do not trade on exchanges. They can be redeemed through the sponsor or traded in a limited secondary market, but they lack the intraday exchange trading characteristic of ETFs." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "UITs are unmanaged investment companies with a fixed portfolio and a set termination date. At termination, the portfolio is liquidated and proceeds distributed to unitholders. This fixed structure results in lower expenses than actively managed mutual funds. UITs are common for bond portfolios (providing defined maturity) and sector-specific equity strategies.",
+    "subtopic": "Unit Investment Trusts (UITs)",
+    "difficulty": "easy",
+    "source": "FINRA Series 7 content outline",
+    "regulatoryBasis": "Investment Company Act of 1940",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-083",
+    "section": "packaged-products",
+    "stem": "An investor is comparing a front-end load mutual fund (Class A shares) with a back-end load mutual fund (Class B shares). Which of the following statements is CORRECT?",
+    "choices": [
+      { "label": "A", "text": "Class A shares charge a sales load at the time of purchase that reduces the initial investment, while Class B shares charge a contingent deferred sales charge (CDSC) upon redemption that typically declines over time.", "explanation": "Correct. Class A shares have a front-end sales load (deducted from the purchase amount before investing). Class B shares have no front-end charge but impose a CDSC if shares are redeemed within a specified period (typically 5-7 years). The CDSC usually declines each year and eventually reaches zero. Class B shares also typically convert to Class A shares after the CDSC period expires. Class B shares usually have higher ongoing 12b-1 fees than Class A shares." },
+      { "label": "B", "text": "Class B shares always have lower total costs than Class A shares.", "explanation": "Incorrect. For large investments or long holding periods, Class A shares often have lower total costs due to breakpoint discounts and lower ongoing 12b-1 fees." },
+      { "label": "C", "text": "Class A shares have no sales charges whatsoever.", "explanation": "Incorrect. Class A shares typically have a front-end sales load, which is deducted from the purchase amount. They may offer breakpoint discounts for larger investments." },
+      { "label": "D", "text": "Class B shares charge a front-end load plus a back-end load.", "explanation": "Incorrect. Class B shares do not charge a front-end load. They have only a back-end CDSC that declines over time and eventually drops to zero." }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Class A shares: front-end load reduces the initial investment, lower ongoing 12b-1 fees, breakpoint discounts for larger purchases. Class B shares: no front-end load, CDSC on early redemptions (declining over time), higher 12b-1 fees, and conversion to Class A after the CDSC period. A third option, Class C shares, typically has no front-end load, a small CDSC (usually 1% for one year), and the highest ongoing 12b-1 fees.",
+    "subtopic": "Mutual fund share classes and sales loads",
+    "difficulty": "medium",
+    "source": "FINRA Series 7 content outline",
+    "regulatoryBasis": "Investment Company Act of 1940; FINRA Rule 2341",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-084",
+    "section": "packaged-products",
+    "stem": "Which of the following investments is considered the MOST illiquid?",
+    "choices": [
+      { "label": "A", "text": "Shares of an S&P 500 index ETF.", "explanation": "Incorrect. S&P 500 ETFs are among the most liquid investments in the world, trading millions of shares daily on exchanges." },
+      { "label": "B", "text": "Units of a limited partnership (DPP).", "explanation": "Correct. Limited partnership interests in DPPs are among the least liquid investments. There is no established secondary market for most DPP units, and investors often must hold until the partnership terminates or find a buyer in a very thin market, typically at a steep discount. DPP investors must be able to tolerate this illiquidity and should have a long investment time horizon." },
+      { "label": "C", "text": "Shares of an open-end mutual fund.", "explanation": "Incorrect. Open-end mutual fund shares can be redeemed at NAV on any business day, providing daily liquidity." },
+      { "label": "D", "text": "Shares of a large-cap NYSE-listed stock.", "explanation": "Incorrect. NYSE-listed large-cap stocks are highly liquid, trading continuously during market hours with narrow bid-ask spreads." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Limited partnership (DPP) units are highly illiquid because there is no established secondary market. Investors typically must hold until partnership termination or negotiate a private sale, often at a significant discount. This illiquidity risk must be disclosed to investors and makes DPPs suitable only for investors with the financial capacity and willingness to hold for the long term.",
+    "subtopic": "DPP liquidity risk",
+    "difficulty": "easy",
+    "source": "FINRA Series 7 content outline",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-085",
+    "section": "accounts-trading",
+    "stem": "A client has granted a registered representative written discretionary authority over their account. Which of the following is TRUE about the representative's obligations?",
+    "choices": [
+      { "label": "A", "text": "The representative may make any investment decision without restriction.", "explanation": "Incorrect. Discretionary authority allows the representative to make investment decisions, but all trades must still be suitable for the customer and must be supervised by a principal. The authority does not override suitability or best interest obligations." },
+      { "label": "B", "text": "Each discretionary trade must be reviewed and approved by a principal, and all trades must still be suitable for the customer.", "explanation": "Correct. FINRA Rule 3260 requires that discretionary accounts be approved by a designated principal and that all discretionary transactions be reviewed promptly. The representative must exercise discretion in a manner consistent with the customer's investment objectives, financial situation, and risk tolerance. Discretionary authority does not eliminate suitability or Regulation Best Interest obligations." },
+      { "label": "C", "text": "The representative does not need to consider the customer's investment objectives because the customer has delegated all decisions.", "explanation": "Incorrect. Suitability obligations apply to all recommendations, including those made under discretionary authority. The customer's investment profile must still guide all decisions." },
+      { "label": "D", "text": "Written discretionary authority expires after 30 days and must be renewed.", "explanation": "Incorrect. Written discretionary authority remains in effect until revoked by the customer or terminated by the firm. There is no automatic 30-day expiration." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Discretionary accounts require written customer authorization, firm principal approval, and ongoing supervisory review. FINRA Rule 3260 mandates that a principal promptly review each discretionary transaction. The representative must exercise discretion consistently with the customer's stated objectives and financial profile. Excessive trading in a discretionary account constitutes churning.",
+    "subtopic": "Discretionary accounts — FINRA Rule 3260",
+    "difficulty": "medium",
+    "source": "FINRA Series 7 content outline",
+    "regulatoryBasis": "FINRA Rule 3260; Regulation Best Interest",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-086",
+    "section": "accounts-trading",
+    "stem": "ERISA (Employee Retirement Income Security Act) imposes a fiduciary duty on managers of qualified retirement plans. Which of the following is a key requirement under ERISA?",
+    "choices": [
+      { "label": "A", "text": "Plan fiduciaries must act solely in the interest of plan participants and beneficiaries and must diversify plan investments to minimize the risk of large losses.", "explanation": "Correct. ERISA requires plan fiduciaries to act with the care, skill, prudence, and diligence of a prudent person, solely in the interest of participants and beneficiaries. The act specifically mandates diversification of plan investments to minimize the risk of large losses (unless clearly prudent not to diversify). Fiduciaries who breach these duties face personal liability." },
+      { "label": "B", "text": "ERISA applies only to government employee pension plans.", "explanation": "Incorrect. ERISA applies to private-sector employer retirement plans (such as 401(k)s and defined benefit pension plans). Government plans and church plans are generally exempt from ERISA." },
+      { "label": "C", "text": "Plan fiduciaries may invest all plan assets in the employer's stock without restriction.", "explanation": "Incorrect. ERISA limits the percentage of plan assets that can be invested in employer securities (generally no more than 10% for defined benefit plans, with exceptions for certain defined contribution plans). Concentrating in employer stock increases risk." },
+      { "label": "D", "text": "ERISA permits plan fiduciaries to engage in self-dealing transactions.", "explanation": "Incorrect. ERISA specifically prohibits self-dealing — fiduciaries cannot use plan assets for their own benefit or engage in transactions with parties in interest that are not exempted." }
+    ],
+    "correctAnswer": "A",
+    "explanation": "ERISA imposes strict fiduciary duties on managers of private-sector qualified retirement plans: act solely in participants' interests, exercise prudent care and skill, diversify investments to minimize large losses, and follow the plan documents. Prohibited transactions include self-dealing, lending plan money to the fiduciary, and selling plan assets to a party in interest. Violations can result in personal liability and DOL enforcement actions.",
+    "subtopic": "ERISA fiduciary duties",
+    "difficulty": "hard",
+    "source": "FINRA Series 7 content outline",
+    "regulatoryBasis": "Employee Retirement Income Security Act of 1974 (ERISA), Sections 404-406",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-087",
+    "section": "accounts-trading",
+    "stem": "Under FINRA and exchange rules, which entity is responsible for reporting equity trades to the consolidated tape?",
+    "choices": [
+      { "label": "A", "text": "The buyer's broker-dealer.", "explanation": "Incorrect. The general rule is that the executing broker-dealer (typically the seller's firm in an agency trade, or the market center in an exchange trade) is responsible for reporting. The buyer's broker is not primarily responsible for trade reporting." },
+      { "label": "B", "text": "The executing broker-dealer or market center where the trade is matched.", "explanation": "Correct. Trade reporting obligations fall on the member firm that executes the trade. For exchange-executed trades, the exchange automatically reports the transaction. For OTC trades, the executing member must report to FINRA's trade reporting facilities (ORF, ADF, or TRF) within specified time frames. Timely trade reporting ensures market transparency and accurate price information for all participants." },
+      { "label": "C", "text": "The SEC reports all trades after receiving Form 10-K filings from the companies.", "explanation": "Incorrect. The SEC does not report individual trades. Trade reporting is the responsibility of the executing member firm or market center, with data disseminated through FINRA and exchange systems." },
+      { "label": "D", "text": "The investor who placed the order.", "explanation": "Incorrect. Individual investors have no trade reporting obligations. Reporting is the responsibility of the member firm or exchange that executes the trade." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Trade reporting is the obligation of the executing broker-dealer or market center. Exchange trades are reported automatically by the exchange. OTC equity trades must be reported by the executing member to FINRA's trade reporting facilities within specified time limits (generally within 10 seconds for regular-hours trades). This ensures real-time transparency in the national market system.",
+    "subtopic": "Trade reporting obligations",
+    "difficulty": "medium",
+    "source": "FINRA Series 7 content outline",
+    "regulatoryBasis": "FINRA Rules 6300 Series; Regulation NMS",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-088",
+    "section": "accounts-trading",
+    "stem": "FINRA is classified as which type of regulatory entity?",
+    "choices": [
+      { "label": "A", "text": "A federal government agency under the U.S. Department of the Treasury.", "explanation": "Incorrect. FINRA is not a government agency. The SEC is the federal government regulator of the securities industry." },
+      { "label": "B", "text": "A self-regulatory organization (SRO) authorized by Congress to regulate broker-dealers and their associated persons.", "explanation": "Correct. FINRA is the largest SRO in the United States. It was created in 2007 through the consolidation of NASD and NYSE regulatory functions. As an SRO, FINRA writes and enforces rules for broker-dealers, conducts examinations, administers qualification exams (including the SIE), and operates dispute resolution (arbitration and mediation). It is overseen by the SEC but is not a government agency." },
+      { "label": "C", "text": "A state-level regulatory body operating independently in each of the 50 states.", "explanation": "Incorrect. FINRA is a national organization, not a state regulator. State securities regulators (often called blue-sky regulators) operate at the state level." },
+      { "label": "D", "text": "A division within the Federal Reserve Board.", "explanation": "Incorrect. The Federal Reserve regulates banking and monetary policy. FINRA is an independent SRO that regulates broker-dealers, separate from the Federal Reserve." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA is a self-regulatory organization (SRO) — a non-governmental body authorized by Congress under the Securities Exchange Act of 1934 to regulate its members. FINRA oversees approximately 3,400 broker-dealer firms and 600,000+ registered representatives. Its core functions include rulemaking, examination, enforcement, dispute resolution, and administering qualification examinations. The SEC has oversight authority over FINRA.",
+    "subtopic": "SRO structure — FINRA",
+    "difficulty": "easy",
+    "source": "FINRA Series 7 content outline",
+    "regulatoryBasis": "Securities Exchange Act of 1934, Section 15A",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-089",
+    "section": "accounts-trading",
+    "stem": "A customer opens a new brokerage account and deposits $30,000 in cash. Under the Customer Identification Program (CIP) requirements, which of the following must the broker-dealer do?",
+    "choices": [
+      { "label": "A", "text": "Verify the customer's identity using their name, date of birth, address, and identification number before or within a reasonable time after account opening.", "explanation": "Correct. Under the Bank Secrecy Act, USA PATRIOT Act Section 326, and FINRA Rule 3310, broker-dealers must implement a Customer Identification Program that collects and verifies four key pieces of information for each customer: name, date of birth, address, and an identification number (SSN for U.S. persons, passport or other ID for non-U.S. persons). Verification may use documentary methods (driver's license, passport) or non-documentary methods (database checks)." },
+      { "label": "B", "text": "File a Suspicious Activity Report because the deposit exceeds $10,000.", "explanation": "Incorrect. A $30,000 cash deposit triggers a Currency Transaction Report (CTR), not a SAR. SARs are filed when there is reason to suspect illegal activity, not simply because a deposit exceeds $10,000." },
+      { "label": "C", "text": "Require the customer to provide three personal references.", "explanation": "Incorrect. CIP does not require personal references. The four required elements are name, date of birth, address, and identification number." },
+      { "label": "D", "text": "No identity verification is needed for deposits under $50,000.", "explanation": "Incorrect. CIP requirements apply to all new accounts regardless of the deposit amount. There is no minimum threshold for identity verification." }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Customer Identification Program requires broker-dealers to collect and verify four pieces of information for every customer: name, date of birth, address, and an identification number. This applies to all new accounts regardless of deposit size. Additionally, a $30,000 cash deposit would trigger a CTR filing obligation (cash over $10,000). CIP is the cornerstone of know-your-customer and AML compliance.",
+    "subtopic": "Customer Identification Program (CIP)",
+    "difficulty": "easy",
+    "source": "FINRA Series 7 content outline",
+    "regulatoryBasis": "USA PATRIOT Act Section 326; FINRA Rule 3310; Bank Secrecy Act",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s7-090",
+    "section": "accounts-trading",
+    "stem": "Under Regulation Best Interest, a broker-dealer must act in the retail customer's best interest when making a recommendation. Which of the following actions would MOST likely violate Reg BI?",
+    "choices": [
+      { "label": "A", "text": "Recommending a mutual fund with a higher expense ratio when a lower-cost fund with an identical strategy and better historical performance is available, solely because the higher-cost fund pays the broker-dealer a larger revenue-sharing fee.", "explanation": "Correct. Reg BI's care obligation requires the broker-dealer to exercise reasonable diligence to understand the costs and risks of a recommended product and to have a reasonable basis to believe the recommendation is in the customer's best interest. Recommending a more expensive product solely because it generates higher compensation for the firm — without considering the customer's interest — violates the care and conflict of interest obligations of Reg BI." },
+      { "label": "B", "text": "Recommending a stock that subsequently declines in value.", "explanation": "Incorrect. Reg BI does not guarantee investment outcomes. A recommendation can be suitable and in the customer's best interest at the time it is made, even if the investment later declines. The standard is evaluated at the time of the recommendation." },
+      { "label": "C", "text": "Recommending a bond fund to a customer who has stated a preference for income and capital preservation.", "explanation": "Incorrect. A bond fund recommendation for an income-seeking, conservative customer is likely consistent with Reg BI's care obligation, as it matches the customer's stated objectives." },
+      { "label": "D", "text": "Charging a commission on a trade executed for a retail customer.", "explanation": "Incorrect. Charging commissions is a standard broker-dealer compensation model and does not violate Reg BI. However, the commission must be disclosed, and the overall recommendation must still be in the customer's best interest considering costs." }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Reg BI prohibits placing the firm's financial interests ahead of the customer's. Recommending a higher-cost product solely because it generates more revenue for the firm, when a substantially identical lower-cost alternative exists, violates the care and conflict of interest obligations. The broker-dealer must consider reasonably available alternatives and must not place its own financial interest ahead of the retail customer's interest.",
+    "subtopic": "Regulation Best Interest violations",
+    "difficulty": "hard",
+    "source": "FINRA Series 7 content outline",
+    "regulatoryBasis": "SEC Regulation Best Interest (17 CFR 240.15l-1)",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["robinhood-pfof"]
   }
 ]

@@ -414,5 +414,189 @@
     "source": "FINRA content outline",
     "regulatoryBasis": "FINRA Rule 3270; Form U4 Instructions",
     "lastVerified": "2026-05-20"
+  },
+  {
+    "id": "q-rf-024",
+    "stem": "FINRA Rule 2111 (Suitability) requires a registered representative to have a reasonable basis for believing that a recommendation is suitable for a particular customer. Which of the following types of suitability analysis does this rule require?",
+    "choices": [
+      { "label": "A", "text": "Only reasonable-basis suitability — the investment must be suitable for at least some investors.", "explanation": "Incorrect. While reasonable-basis suitability is one component, FINRA Rule 2111 requires three types of suitability analysis, not just one." },
+      { "label": "B", "text": "Reasonable-basis suitability, customer-specific suitability, and quantitative suitability.", "explanation": "Correct. FINRA Rule 2111 requires three distinct suitability obligations: (1) Reasonable-basis suitability — the representative must understand the investment and have a reasonable basis to believe it is suitable for at least some investors; (2) Customer-specific suitability — the recommendation must be suitable for the particular customer based on their investment profile; and (3) Quantitative suitability — even individually suitable transactions must not be excessive in frequency or size when viewed in the aggregate." },
+      { "label": "C", "text": "Only customer-specific suitability — the investment must match the individual customer's risk tolerance.", "explanation": "Incorrect. Customer-specific suitability is one of three required components. The rule also requires reasonable-basis and quantitative suitability analysis." },
+      { "label": "D", "text": "FINRA Rule 2111 has been completely replaced by Regulation Best Interest and no longer applies.", "explanation": "Incorrect. Regulation Best Interest (Reg BI) applies to broker-dealer recommendations to retail customers, but FINRA Rule 2111 remains in effect and applies to all customer recommendations, including those to institutional customers." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA Rule 2111 establishes a three-part suitability framework: (1) reasonable-basis — the rep understands the product and it is suitable for some investors; (2) customer-specific — the recommendation fits the individual customer's investment profile (age, financial situation, objectives, risk tolerance, time horizon); and (3) quantitative — the series of recommended transactions is not excessive when viewed together. This rule works alongside Regulation Best Interest for retail customers.",
+    "topic": "regulatory-framework",
+    "subtopic": "employee-conduct",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "FINRA Rule 2111",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-rf-025",
+    "stem": "Regulation Best Interest (Reg BI) requires broker-dealers making recommendations to retail customers to act in the customer's best interest. Which of the following is a key component obligation of Reg BI?",
+    "choices": [
+      { "label": "A", "text": "Broker-dealers must charge the lowest possible commission on every transaction.", "explanation": "Incorrect. Reg BI does not mandate the lowest possible commission. It requires that costs be disclosed and considered, but it does not impose a specific commission cap." },
+      { "label": "B", "text": "The broker-dealer must satisfy disclosure, care, conflict of interest, and compliance obligations when making a recommendation to a retail customer.", "explanation": "Correct. Reg BI (adopted June 2019, effective June 2020) has four component obligations: (1) Disclosure — provide Form CRS and disclose material facts about the relationship including fees and conflicts; (2) Care — exercise reasonable diligence and skill to understand the product and the customer, and have a reasonable basis to believe the recommendation is in the customer's best interest; (3) Conflict of Interest — establish policies to identify, disclose, and mitigate or eliminate conflicts; and (4) Compliance — establish written policies and procedures to achieve compliance." },
+      { "label": "C", "text": "Broker-dealers must become fiduciaries identical to registered investment advisers.", "explanation": "Incorrect. Reg BI raises the standard above traditional suitability but does not impose a full fiduciary duty identical to that of RIAs under the Investment Advisers Act. The standards are related but distinct." },
+      { "label": "D", "text": "Reg BI applies only when the customer has more than $250,000 in their account.", "explanation": "Incorrect. Reg BI applies to all recommendations to retail customers regardless of account size. There is no minimum account balance threshold." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Regulation Best Interest requires broker-dealers to satisfy four obligations when making recommendations to retail customers: disclosure, care, conflict of interest mitigation, and compliance. It was adopted by the SEC in June 2019 to raise the standard above traditional suitability while maintaining the distinct regulatory frameworks for broker-dealers and investment advisers.",
+    "topic": "regulatory-framework",
+    "subtopic": "employee-conduct",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "SEC Regulation Best Interest (17 CFR 240.15l-1)",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["robinhood-pfof"]
+  },
+  {
+    "id": "q-rf-026",
+    "stem": "Form CRS (Client Relationship Summary) must be delivered to retail investors by broker-dealers and investment advisers. Which of the following BEST describes Form CRS?",
+    "choices": [
+      { "label": "A", "text": "A lengthy legal document that replaces the prospectus for all investment products.", "explanation": "Incorrect. Form CRS does not replace prospectuses. It is a brief (maximum 2 pages for standalone broker-dealers) summary document about the firm's relationship with the client." },
+      { "label": "B", "text": "A brief, plain-language document (maximum 2 pages for a standalone broker-dealer) that summarizes the firm's services, fees, conflicts of interest, and disciplinary history, and must be delivered at the start of the client relationship.", "explanation": "Correct. Form CRS is a concise relationship summary that must be written in plain language and delivered to retail investors at or before the earliest of: a recommendation, placing an order, or opening an account. It covers the type of services offered, fees and costs, conflicts of interest, the standard of conduct (suitability vs. fiduciary), and the firm's disciplinary history. It is filed with the SEC via EDGAR and posted on the firm's website." },
+      { "label": "C", "text": "A quarterly account statement showing all trades executed.", "explanation": "Incorrect. Quarterly account statements are separate regulatory requirements. Form CRS is a one-time relationship disclosure document delivered at the start of the relationship." },
+      { "label": "D", "text": "An internal compliance document not shared with customers.", "explanation": "Incorrect. Form CRS must be delivered to retail investors. It is a customer-facing disclosure document, not an internal compliance tool." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Form CRS (Client Relationship Summary) was adopted as part of the SEC's Regulation Best Interest package. It requires broker-dealers and investment advisers to provide retail investors with a brief, plain-language summary of the firm's services, fees, conflicts, standard of conduct, and disciplinary history. The goal is to help investors make informed choices about their financial relationships.",
+    "topic": "regulatory-framework",
+    "subtopic": "employee-conduct",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "SEC Form CRS (17 CFR 249.640)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-rf-027",
+    "stem": "Under the Bank Secrecy Act, every broker-dealer must establish and implement an anti-money laundering (AML) compliance program. Which of the following is a required component of this program?",
+    "choices": [
+      { "label": "A", "text": "Hiring an external auditor to review all customer transactions daily.", "explanation": "Incorrect. While independent testing of AML procedures is required, it does not have to be daily or performed by an external auditor in all cases. The program must include internal policies, a compliance officer, training, and independent testing." },
+      { "label": "B", "text": "Designation of an AML compliance officer, written internal policies and procedures, ongoing employee training, and independent testing of the program.", "explanation": "Correct. FINRA Rule 3310 requires every member firm to establish an AML compliance program with four minimum components: (1) written policies and procedures reasonably designed to achieve compliance with the Bank Secrecy Act and FinCEN regulations; (2) designation of an AML compliance officer responsible for implementing and monitoring the program; (3) ongoing training for appropriate personnel; and (4) independent testing of the AML program, conducted by the firm's internal audit department or an outside party." },
+      { "label": "C", "text": "Filing a SAR for every cash transaction, regardless of amount.", "explanation": "Incorrect. SARs are filed when there is reason to suspect illegal activity in transactions of $5,000 or more. Routine cash transactions above $10,000 require CTRs, not SARs. Not every transaction requires a SAR." },
+      { "label": "D", "text": "Reporting all customer identity information to FinCEN on a monthly basis.", "explanation": "Incorrect. There is no monthly mass-reporting of customer identity data to FinCEN. Customer identification is part of CIP procedures, and specific reporting (CTRs, SARs) occurs based on triggering events." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA Rule 3310 mandates four components for a broker-dealer's AML program: (1) written policies and procedures for BSA compliance; (2) a designated AML compliance officer; (3) ongoing employee training; and (4) independent testing. The AML program must also include a Customer Identification Program (CIP) to verify the identity of all customers opening accounts.",
+    "topic": "regulatory-framework",
+    "subtopic": "employee-conduct",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "FINRA Rule 3310; Bank Secrecy Act; USA PATRIOT Act",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-rf-028",
+    "stem": "A bank teller at a broker-dealer's affiliated bank notices a customer depositing $9,800 in cash on Monday, $9,700 on Tuesday, and $9,900 on Wednesday. These transactions are most likely an attempt to:",
+    "choices": [
+      { "label": "A", "text": "Avoid the $25,000 SAR filing threshold.", "explanation": "Incorrect. The SAR threshold is $5,000, not $25,000. And these transactions are designed to avoid the $10,000 CTR threshold, not the SAR threshold." },
+      { "label": "B", "text": "Structure (smurf) cash deposits to stay below the $10,000 CTR reporting threshold, which is itself a federal crime.", "explanation": "Correct. Structuring is the deliberate breaking up of cash transactions to avoid triggering the $10,000 CTR filing requirement. It violates 31 U.S.C. Section 5324 regardless of whether the underlying funds are from legal or illegal activity. The pattern of repeated deposits just under $10,000 is a classic structuring red flag. The firm should file a SAR to report the suspicious activity." },
+      { "label": "C", "text": "Legally manage cash flow across multiple business days, which is permissible.", "explanation": "Incorrect. While individuals can make multiple legitimate deposits, a clear pattern of keeping each transaction just below $10,000 is a hallmark of structuring, which is illegal." },
+      { "label": "D", "text": "Maximize FDIC insurance coverage by spreading deposits across days.", "explanation": "Incorrect. FDIC insurance is based on account ownership categories, not the timing of deposits. This pattern is consistent with structuring to evade BSA reporting." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Structuring (smurfing) is the illegal practice of deliberately keeping cash transactions below $10,000 to avoid CTR filings. The pattern of deposits at $9,800, $9,700, and $9,900 across consecutive days is a textbook structuring red flag. The BSA makes structuring a federal crime under 31 U.S.C. Section 5324, even if the money comes from lawful sources. The firm must file a SAR.",
+    "topic": "regulatory-framework",
+    "subtopic": "employee-conduct",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Bank Secrecy Act; 31 U.S.C. Section 5324",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-rf-029",
+    "stem": "A Suspicious Activity Report (SAR) must be filed by a broker-dealer when a transaction involves $5,000 or more and the firm suspects illegal activity. Which of the following statements about SARs is CORRECT?",
+    "choices": [
+      { "label": "A", "text": "The broker-dealer must notify the customer before filing a SAR.", "explanation": "Incorrect. The BSA specifically prohibits notifying the customer (or anyone not authorized) that a SAR has been or will be filed. This anti-tipping-off provision protects investigations." },
+      { "label": "B", "text": "SARs must be filed within 30 days of detecting the suspicious activity, and the firm must NOT disclose the filing to the customer.", "explanation": "Correct. Under FinCEN regulations, a SAR must be filed within 30 calendar days of the initial detection of the suspicious activity (60 days if additional time is needed to identify a suspect). Critically, the broker-dealer is prohibited from disclosing to the customer or any unauthorized person that a SAR has been filed. This anti-tipping-off rule is essential to preserving the integrity of the investigation." },
+      { "label": "C", "text": "SARs are only filed for transactions involving foreign nationals.", "explanation": "Incorrect. SAR filing requirements apply to all suspicious transactions regardless of the customer's nationality. The BSA does not limit SAR requirements to foreign nationals." },
+      { "label": "D", "text": "SARs are filed with FINRA, not FinCEN.", "explanation": "Incorrect. SARs are filed with FinCEN (Financial Crimes Enforcement Network), a bureau of the U.S. Department of the Treasury. FINRA oversees compliance but does not receive SAR filings directly." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "SARs must be filed with FinCEN within 30 days of detecting suspicious activity (or 60 days if more time is needed to identify a suspect). The filing is mandatory when a transaction of $5,000 or more involves suspected illegal activity, BSA evasion, or lacks a lawful purpose. The anti-tipping-off prohibition prevents disclosure of the SAR to the subject or any unauthorized person, protecting law enforcement investigations.",
+    "topic": "regulatory-framework",
+    "subtopic": "employee-conduct",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Bank Secrecy Act; 31 CFR 1023.320",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-rf-030",
+    "stem": "Under the Insider Trading and Securities Fraud Enforcement Act of 1988, a person convicted of insider trading may face which of the following maximum criminal penalties?",
+    "choices": [
+      { "label": "A", "text": "A fine of up to $1 million and 5 years in prison.", "explanation": "Incorrect. These were the original penalties before being increased by subsequent legislation. Current maximums are significantly higher." },
+      { "label": "B", "text": "A fine of up to $5 million and up to 20 years in prison for individuals.", "explanation": "Correct. The maximum criminal penalties for insider trading by individuals are a fine of up to $5 million and imprisonment for up to 20 years (as enhanced by the Sarbanes-Oxley Act of 2002). For entities such as broker-dealers, the maximum criminal fine is $25 million. In addition, the SEC can seek civil penalties of up to three times the profit gained or loss avoided (treble damages)." },
+      { "label": "C", "text": "A fine of up to $100,000 and 1 year in prison.", "explanation": "Incorrect. These amounts are far below the actual maximums. Congress increased the penalties substantially to deter insider trading." },
+      { "label": "D", "text": "There are no criminal penalties for insider trading; only civil fines apply.", "explanation": "Incorrect. Insider trading carries both civil and criminal penalties. Criminal prosecution by the DOJ can result in both prison time and substantial fines." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Criminal penalties for insider trading include fines up to $5 million and 20 years imprisonment for individuals (up to $25 million for entities), as established by the Insider Trading and Securities Fraud Enforcement Act of 1988 and enhanced by the Sarbanes-Oxley Act of 2002. Civil penalties add up to 3x the profit gained or loss avoided. These severe penalties reflect the importance of market integrity.",
+    "topic": "regulatory-framework",
+    "subtopic": "employee-conduct",
+    "difficulty": "hard",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Insider Trading and Securities Fraud Enforcement Act of 1988; Sarbanes-Oxley Act of 2002",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["galleon-rajaratnam", "martha-stewart-imclone"]
+  },
+  {
+    "id": "q-rf-031",
+    "stem": "In a securities firm, 'Chinese walls' (information barriers) are established primarily to prevent which of the following?",
+    "choices": [
+      { "label": "A", "text": "Customer complaints about trade execution quality.", "explanation": "Incorrect. Chinese walls address information flow within the firm, not trade execution quality. Best execution obligations are handled by separate compliance procedures." },
+      { "label": "B", "text": "The flow of material non-public information between the investment banking division and the trading or research divisions to prevent insider trading.", "explanation": "Correct. Chinese walls (information barriers) are physical and procedural separations within financial firms designed to prevent MNPI from flowing between departments that have it (such as investment banking, which works on M&A and underwriting) and departments that could trade on it (such as proprietary trading desks or research analysts). These barriers are critical to preventing insider trading and maintaining market integrity." },
+      { "label": "C", "text": "Employees from working at two different firms simultaneously.", "explanation": "Incorrect. Dual registration is a separate regulatory issue. Chinese walls address internal information flow within a single firm, not external employment arrangements." },
+      { "label": "D", "text": "Foreign investors from purchasing U.S. securities.", "explanation": "Incorrect. Chinese walls have nothing to do with restricting foreign investor access. They are internal compliance structures preventing misuse of MNPI." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Chinese walls (information barriers) are compliance structures that separate firm departments with access to MNPI (investment banking, corporate advisory) from departments that could misuse it (trading, research, sales). They include physical separation, restricted access lists, employee education, and monitoring. These barriers are a cornerstone of insider trading prevention in multi-service financial firms.",
+    "topic": "regulatory-framework",
+    "subtopic": "employee-conduct",
+    "difficulty": "medium",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "Securities Exchange Act of 1934; Insider Trading and Securities Fraud Enforcement Act of 1988",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["galleon-rajaratnam"]
+  },
+  {
+    "id": "q-rf-032",
+    "stem": "During a 'quiet period' following an IPO, which of the following restrictions applies to the underwriting firm's research department?",
+    "choices": [
+      { "label": "A", "text": "The firm may publish research reports immediately after the IPO closes.", "explanation": "Incorrect. Regulatory rules impose a quiet period during which the underwriting firm's research analysts are restricted from publishing research on the newly public company." },
+      { "label": "B", "text": "Research analysts at the managing underwriter are restricted from publishing research reports on the newly public company for a specified period after the IPO.", "explanation": "Correct. FINRA rules restrict research analysts at the managing underwriter from publishing research or making public appearances regarding the issuer for a period following the IPO (typically 10 calendar days for the manager, though rules have evolved). This quiet period prevents the perception that favorable research is being used to support the new issue's stock price for the benefit of the underwriting firm's investment banking relationship." },
+      { "label": "C", "text": "All broker-dealers, not just the underwriter, are prohibited from covering the stock.", "explanation": "Incorrect. The quiet period restriction applies primarily to research analysts at the firms involved in the underwriting syndicate, not to all broker-dealers. Firms with no underwriting relationship may publish research freely." },
+      { "label": "D", "text": "The quiet period only applies to the CEO of the issuing company, not to the underwriter's research department.", "explanation": "Incorrect. While the issuer's management may also be subject to quiet-period restrictions under SEC rules, the FINRA quiet period specifically restricts the underwriting firm's research analysts from publishing research on the newly issued security." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The quiet period is designed to prevent underwriting firms from using favorable research to artificially support the price of a newly issued security. FINRA research analyst rules restrict managing underwriters from publishing research reports for a specified period following the IPO. This separation helps maintain the independence of research from investment banking interests.",
+    "topic": "regulatory-framework",
+    "subtopic": "employee-conduct",
+    "difficulty": "hard",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "FINRA Rule 2241; FINRA Rule 2242",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-rf-033",
+    "stem": "FINRA rules require that research analysts at broker-dealers disclose certain conflicts of interest in their research reports. Which of the following is a conflict that must be disclosed?",
+    "choices": [
+      { "label": "A", "text": "The analyst holds a personal financial interest (owns stock) in the company covered by the research report.", "explanation": "Correct. FINRA Rule 2241 requires research analysts to disclose personal financial interests in the subject company, including ownership of securities. Other required disclosures include whether the broker-dealer has received investment banking compensation from the subject company in the past 12 months, whether the firm makes a market in the security, and other material conflicts that could influence the analyst's objectivity." },
+      { "label": "B", "text": "The analyst attended the same university as the CEO of the covered company.", "explanation": "Incorrect. Educational background shared with company management is not a material financial conflict requiring disclosure under FINRA research analyst rules." },
+      { "label": "C", "text": "The analyst has published a negative rating on a competitor of the covered company.", "explanation": "Incorrect. Ratings on competitors are part of normal research activities and do not constitute a personal financial conflict requiring disclosure." },
+      { "label": "D", "text": "The analyst subscribes to the same data service as other analysts covering the stock.", "explanation": "Incorrect. Using common data services is standard industry practice and does not create a financial conflict of interest requiring disclosure." }
+    ],
+    "correctAnswer": "A",
+    "explanation": "FINRA Rule 2241 (Research Analysts and Research Reports) requires disclosure of material conflicts of interest including: the analyst's personal financial interests in the subject company, the firm's investment banking relationship with the company, the firm's market-making activities, and other financial interests. These disclosures help investors evaluate the objectivity and reliability of research recommendations.",
+    "topic": "regulatory-framework",
+    "subtopic": "employee-conduct",
+    "difficulty": "easy",
+    "source": "FINRA content outline",
+    "regulatoryBasis": "FINRA Rule 2241",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["enron"]
   }
 ]
