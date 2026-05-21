@@ -1,0 +1,271 @@
+{
+  "id": "ftx",
+  "title": "The FTX Crypto Fraud",
+  "subtitle": "How an $8 billion customer fund theft hid behind effective altruism and a crypto empire",
+  "questions": [
+    {
+      "id": "ftx-01",
+      "year": "2017",
+      "chapterTitle": "Alameda Research",
+      "narrative": "In November 2017, Sam Bankman-Fried — an MIT physics graduate (class of 2014) who had spent three years as a trader at Jane Street Capital — founded Alameda Research, a quantitative cryptocurrency trading firm.\n\nAlameda's early profits came from exploiting the \"kimchi premium\" — a price gap where Bitcoin traded at significantly higher prices on South Korean exchanges than on US exchanges. By buying Bitcoin cheaply in the US and selling it at a premium in Korea, Alameda reportedly earned millions in arbitrage profits.\n\nBut Alameda was not registered with the SEC as a broker-dealer or investment adviser. It operated in the murky regulatory space between traditional finance and cryptocurrency, claiming that because it traded only crypto assets — not securities — it fell outside SEC jurisdiction.",
+      "stem": "A firm that regularly buys and sells financial instruments for its own account and for customers must register with the SEC. Why did many early crypto trading firms like Alameda Research claim exemption from broker-dealer registration?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "They argued that cryptocurrencies are commodities or currencies, not securities, and therefore not subject to Securities Exchange Act registration requirements",
+          "explanation": "Correct. Many crypto firms claimed their tokens were not \"securities\" under the Howey test (investment of money in a common enterprise with expectation of profits from others' efforts), and therefore the firms did not need to register as broker-dealers under Section 15 of the Exchange Act. The SEC has increasingly challenged this view, arguing many tokens are investment contracts."
+        },
+        {
+          "label": "B",
+          "text": "Firms trading fewer than 10,000 transactions per year are exempt from broker-dealer registration under the de minimis exception",
+          "explanation": "There is no de minimis transaction-count exception to broker-dealer registration. Any firm regularly in the business of buying and selling securities must register, regardless of volume."
+        },
+        {
+          "label": "C",
+          "text": "Firms incorporated outside the United States are automatically exempt from all SEC registration requirements",
+          "explanation": "Foreign firms serving US customers are generally subject to SEC jurisdiction. Offshore incorporation does not create an automatic exemption — the SEC applies a conduct-and-effects test."
+        },
+        {
+          "label": "D",
+          "text": "Quantitative trading firms are classified as proprietary traders, which are exempt from broker-dealer registration under Regulation SHO",
+          "explanation": "Regulation SHO governs short selling, not registration exemptions. Proprietary trading firms may still need to register depending on their activities and counterparties."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Whether a digital asset is a \"security\" under federal law determines whether the firms trading it must register with the SEC. The Howey test (from SEC v. W.J. Howey Co., 1946) defines an investment contract as an investment of money in a common enterprise with the expectation of profits derived primarily from the efforts of others. Many crypto firms argued their tokens failed this test. The SEC has taken enforcement action against numerous crypto entities, asserting that many tokens are in fact securities.",
+      "regulatoryLesson": "Broker-dealer registration under Section 15 of the Securities Exchange Act of 1934 applies to any firm in the business of buying and selling securities. Whether crypto tokens are securities under the Howey test remains a central regulatory battleground.",
+      "whatActuallyHappened": "Alameda Research operated without SEC registration throughout its existence. The firm exploited the regulatory gray zone around crypto to avoid oversight that would have required transparency, capital requirements, and customer protections. When the SEC later brought charges against SBF, it alleged that FTT and other tokens were indeed securities — meaning Alameda had been operating as an unregistered securities firm all along."
+    },
+    {
+      "id": "ftx-02",
+      "year": "2019",
+      "chapterTitle": "Building FTX",
+      "narrative": "In May 2019, Bankman-Fried founded FTX, a cryptocurrency exchange incorporated in Antigua and Barbuda. FTX offered products that pushed the boundaries of financial regulation: leveraged tokens (giving 3x exposure to crypto price movements), prediction markets, and even tokenized versions of traditional stocks like Tesla and Apple.\n\nFTX grew at a staggering pace. By 2021, the exchange was processing over $600 million in daily trading volume. It established its headquarters in the Bahamas, drawn by the country's new crypto-friendly regulatory framework.\n\nAlthough FTX created a separate entity, FTX US, for American customers, the line between the two was blurry. US customers could access the international platform, and the two entities shared leadership, technology, and — critically — Alameda Research as a major market maker.",
+      "stem": "Under Section 6 of the Securities Exchange Act of 1934, any platform that brings together buyers and sellers of securities must register as a national securities exchange or operate under an exemption. Which exemption allows qualifying platforms to operate as alternative trading systems?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Regulation D, which exempts private placements from registration requirements",
+          "explanation": "Regulation D provides exemptions for the offering and sale of securities, not for the operation of trading platforms. It governs issuances, not exchange infrastructure."
+        },
+        {
+          "label": "B",
+          "text": "Regulation ATS (Alternative Trading System), which allows SEC-registered broker-dealers to operate trading platforms without full exchange registration",
+          "explanation": "Correct. Regulation ATS (Rule 300-303 under the Exchange Act) permits broker-dealers registered with the SEC to operate alternative trading systems — platforms that match buyers and sellers of securities — without registering as a full national securities exchange, provided they comply with specific transparency, fair access, and recordkeeping requirements."
+        },
+        {
+          "label": "C",
+          "text": "Regulation S, which exempts offshore transactions from SEC oversight entirely",
+          "explanation": "Regulation S provides a safe harbor for offshore offerings of securities, but it does not exempt offshore exchanges from registration if they serve US customers or have effects in the US."
+        },
+        {
+          "label": "D",
+          "text": "Regulation NMS, which allows any electronic platform to match securities orders without SEC registration",
+          "explanation": "Regulation NMS (National Market System) governs how orders are routed and executed across existing registered exchanges and ATSs. It does not provide an exemption from registration."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Regulation ATS (Rules 300-303 under the Securities Exchange Act) allows broker-dealers to operate trading platforms that match buyers and sellers without registering as a national securities exchange. ATSs must register as broker-dealers with the SEC, become FINRA members, and file Form ATS. They must comply with requirements around fair access, order display, and system capacity depending on their volume thresholds.",
+      "regulatoryLesson": "Section 6 of the Exchange Act requires trading platforms to register as national securities exchanges. Regulation ATS provides an alternative path for qualifying broker-dealers to operate trading platforms with reduced (but still significant) regulatory obligations.",
+      "whatActuallyHappened": "FTX never registered as a national securities exchange or an ATS. It operated offshore and argued its products were not securities. But FTX offered tokenized stocks, leveraged products, and derivatives that closely resembled regulated securities and futures. The CFTC and SEC later brought separate enforcement actions. The regulatory gap for offshore crypto exchanges serving US customers was precisely the vulnerability FTX exploited — operating what was functionally a securities and derivatives exchange with none of the corresponding investor protections."
+    },
+    {
+      "id": "ftx-03",
+      "year": "2021",
+      "chapterTitle": "The Effective Altruism Billionaire",
+      "narrative": "In July 2021, FTX raised $900 million from blue-chip investors including Sequoia Capital, SoftBank, and the Ontario Teachers' Pension Plan, at an $18 billion valuation. By January 2022, FTX raised again at a $32 billion valuation.\n\nSam Bankman-Fried became the public face of \"effective altruism\" in finance — the philosophical movement that advocates earning as much money as possible in order to donate it to the most impactful causes. He pledged to give away the vast majority of his wealth.\n\nThe marketing blitz was enormous. FTX bought a Super Bowl ad featuring Larry David. In March 2021, FTX secured a 19-year, $135 million naming rights deal for the Miami Heat's home arena. SBF became one of the largest political donors in the United States, contributing to both parties.\n\nYet none of the investors who poured billions into FTX discovered what was happening behind the scenes.",
+      "stem": "Several sophisticated institutional investors committed hundreds of millions to FTX based on its rapid growth and SBF's public persona. Under securities law, what obligation do investors have when evaluating material representations made during a fundraising round?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Investors bear no responsibility for verifying claims; the issuer bears sole liability for any material misrepresentations under Section 11 of the Securities Act",
+          "explanation": "While issuers do bear primary liability for misrepresentations, sophisticated investors are expected to conduct due diligence. Section 11 applies specifically to registered public offerings, not private placements."
+        },
+        {
+          "label": "B",
+          "text": "Investors in private placements are expected to conduct independent due diligence, and red flags such as related-party transactions, lack of audited financials, and concentrated control structures should trigger heightened scrutiny",
+          "explanation": "Correct. In private placements (Regulation D offerings), investors — especially accredited and institutional investors — are expected to perform their own due diligence. The reduced disclosure requirements of private placements are premised on the sophistication of the investors. Red flags like related-party transactions between FTX and Alameda, the absence of Big Four audited financials, and SBF's concentrated control should have prompted deeper investigation."
+        },
+        {
+          "label": "C",
+          "text": "The SEC pre-approves all private placement memoranda, so investors can rely on regulatory review as a substitute for their own diligence",
+          "explanation": "The SEC does not review or approve private placement memoranda. Regulation D offerings are exempt from registration precisely because they are sold to sophisticated investors who can evaluate the investment themselves."
+        },
+        {
+          "label": "D",
+          "text": "Investors are only liable for due diligence failures if they serve on the issuer's board of directors, per Section 12(a)(2) of the Securities Act",
+          "explanation": "Section 12(a)(2) imposes liability on sellers, not buyers. Investor due diligence obligations exist independently of board service and are fundamental to the private placement framework."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Private placements under Regulation D are exempt from the full registration and disclosure requirements of public offerings. This exemption is based on the premise that accredited and institutional investors are sophisticated enough to evaluate investments and protect themselves. When red flags exist — such as related-party transactions, unconventional corporate governance, or the absence of audited financials from a major accounting firm — sophisticated investors are expected to investigate further.",
+      "regulatoryLesson": "Regulation D private placements rely on investor sophistication as a substitute for SEC registration. Institutional investors are expected to conduct thorough due diligence, and red flags like related-party entanglements and governance weaknesses should trigger heightened scrutiny.",
+      "whatActuallyHappened": "FTX's investors largely failed to uncover the Alameda relationship. Sequoia Capital wrote a fawning profile of SBF on its website (later deleted). FTX was audited not by a Big Four firm but by Prager Metis and Armanino — small firms that later faced scrutiny for the quality of their work. The Ontario Teachers' Pension Plan wrote off its entire $95 million investment. After the collapse, multiple investors admitted their due diligence had been inadequate, with some citing the competitive pressure to invest quickly in fast-growing crypto companies."
+    },
+    {
+      "id": "ftx-04",
+      "year": "2022",
+      "chapterTitle": "The Hidden Backdoor",
+      "narrative": "Unbeknownst to FTX's investors, board, and customers, Alameda Research had a secret $65 billion line of credit from FTX — funded directly by customer deposits. A backdoor in FTX's software code, reportedly using a flag called \"allow_negative,\" exempted Alameda's account from the automatic liquidation protocols that applied to every other trader on the platform.\n\nThis meant Alameda could borrow virtually unlimited sums from FTX without triggering any risk controls. Customer deposits — money that customers believed was safely held on the exchange — were being funneled to Alameda for trading, venture investments, political donations, and real estate purchases in the Bahamas.\n\nThe commingling was total. There was no meaningful separation between customer funds, FTX corporate funds, and Alameda's trading capital.",
+      "stem": "SEC Rule 15c3-3, the Customer Protection Rule, imposes strict requirements on broker-dealers to safeguard customer assets. Which of the following best describes the core prohibition that FTX's conduct would have violated had it been a registered broker-dealer?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The prohibition against using customer funds for the firm's proprietary trading or lending those funds to affiliated entities without customer consent",
+          "explanation": "Correct. Rule 15c3-3 requires broker-dealers to maintain customer funds in a Special Reserve Bank Account, segregated from the firm's own assets. Using customer deposits to fund a sister company's trading operations — as FTX did with Alameda — is a direct violation of the commingling prohibition. Customer assets must be held for the exclusive benefit of customers."
+        },
+        {
+          "label": "B",
+          "text": "The prohibition against offering margin accounts to customers with less than $2,000 in equity",
+          "explanation": "While Regulation T sets minimum margin requirements, this addresses account eligibility, not the fundamental issue of misappropriating customer funds for proprietary use."
+        },
+        {
+          "label": "C",
+          "text": "The prohibition against executing customer trades on foreign exchanges without prior written approval",
+          "explanation": "Rule 15c3-3 governs the protection and segregation of customer assets, not the venue of trade execution."
+        },
+        {
+          "label": "D",
+          "text": "The prohibition against charging commissions that exceed 5% of the transaction value under the FINRA markup policy",
+          "explanation": "FINRA's markup policy relates to fair pricing, not to the safeguarding of customer funds. This is a separate regulatory concern entirely."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "SEC Rule 15c3-3 (the Customer Protection Rule) requires broker-dealers to segregate customer cash and fully paid securities from the firm's proprietary assets. Customer funds must be deposited in a Special Reserve Bank Account for the exclusive benefit of customers. The firm cannot use customer deposits for its own trading, to lend to affiliates, or for any purpose other than customer obligations. This rule exists precisely to prevent the type of commingling that FTX engaged in.",
+      "regulatoryLesson": "Rule 15c3-3 prohibits commingling customer funds with firm assets and requires a Special Reserve Bank Account for customer cash. The segregation requirement is one of the most fundamental investor protections in securities regulation — and exactly what FTX lacked.",
+      "whatActuallyHappened": "Because FTX was not registered as a broker-dealer, Rule 15c3-3 did not formally apply. This is the core of the regulatory gap: FTX operated what was functionally a brokerage and exchange but without any of the customer protection rules that apply to registered entities. The \"allow_negative\" backdoor meant Alameda could drain customer funds with no automated safeguard. Prosecutors demonstrated that at least $8 billion in customer deposits were diverted to Alameda. SBF later claimed he didn't realize the extent of the borrowing — a claim the jury rejected."
+    },
+    {
+      "id": "ftx-05",
+      "year": "Nov 2, 2022",
+      "chapterTitle": "CoinDesk Lights the Fuse",
+      "narrative": "On November 2, 2022, CoinDesk reporter Ian Allison published a bombshell article revealing the contents of Alameda Research's balance sheet. The document showed that Alameda held $14.6 billion in assets — but the majority of that value was in FTT, a token created and issued by FTX itself.\n\nIn other words, Alameda's primary \"asset\" was a token whose value depended entirely on FTX's continued success. If confidence in FTX wavered, FTT's price would fall, which would destroy Alameda's balance sheet, which would in turn further undermine confidence in FTX. It was a circular reference — a house of cards where the collateral was made of the same paper as the debt.\n\nThe crypto community immediately recognized the danger. If Alameda's assets were overwhelmingly FTT, and FTX had been lending customer funds to Alameda against this FTT \"collateral,\" then customer deposits were backed by a self-referential illusion.",
+      "stem": "Alameda's balance sheet showed most of its assets were FTT tokens issued by its affiliate FTX. In securities regulation, what is the primary concern when an entity's reported assets consist largely of securities issued by a related party?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The assets cannot be independently valued because their price depends on the issuer's own solvency, creating a circular reference where the collateral and the obligation are interdependent",
+          "explanation": "Correct. When a firm's assets consist primarily of tokens or securities issued by an affiliate, those assets cannot serve as genuine collateral. Their value is circular: the affiliate's solvency depends on the firm, and the firm's solvency depends on the affiliate's tokens. If either entity falters, both collapse simultaneously. This is why net capital rules and concentration limits exist — to prevent firms from counting self-referential assets as real capital."
+        },
+        {
+          "label": "B",
+          "text": "Related-party securities are prohibited from appearing on any regulated entity's balance sheet under GAAP accounting standards",
+          "explanation": "GAAP does not prohibit holding related-party securities, but it requires extensive disclosure of related-party transactions under ASC 850. The issue is the concentration risk and circular valuation, not an outright prohibition."
+        },
+        {
+          "label": "C",
+          "text": "Related-party holdings are only a concern if they exceed 50% of total assets, which triggers mandatory SEC reporting under Section 13(d)",
+          "explanation": "Section 13(d) governs beneficial ownership disclosure for holdings exceeding 5% of a public company's shares. It does not address the balance sheet concentration risk of holding affiliate-issued tokens."
+        },
+        {
+          "label": "D",
+          "text": "The only risk is that related-party transactions may not be conducted at arm's length pricing, but the assets themselves are valid collateral",
+          "explanation": "While arm's-length pricing is a concern, the deeper problem is that assets whose value depends on the issuer's own solvency cannot serve as reliable collateral. The valuation is inherently circular."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "When a firm's assets consist primarily of securities or tokens issued by a related entity, the valuation becomes circular. The asset's worth depends on the related entity's health, which in turn depends on the firm holding the asset. This creates concentration risk and a self-referential feedback loop. In traditional securities regulation, net capital rules (Rule 15c3-1) require broker-dealers to apply significant haircuts to illiquid and affiliated securities, precisely to prevent firms from inflating their balance sheets with self-referential assets.",
+      "regulatoryLesson": "Net capital rules (SEC Rule 15c3-1) require broker-dealers to apply haircuts to illiquid and related-party holdings. Concentration in affiliate-issued securities creates circular valuation risk — the collateral and the obligation are interdependent, meaning both can collapse simultaneously.",
+      "whatActuallyHappened": "The CoinDesk article triggered the beginning of the end. Alameda CEO Caroline Ellison publicly offered to buy all FTT at $22 to defend the price, but this only confirmed the market's fears about how much FTT exposure Alameda carried. Within days, FTT's price would collapse from roughly $25 to under $2. Alameda's balance sheet — and with it, the billions in customer funds lent against FTT collateral — evaporated. The circular reference problem that analysts immediately identified proved to be the exact mechanism of collapse."
+    },
+    {
+      "id": "ftx-06",
+      "year": "Nov 6-8, 2022",
+      "chapterTitle": "The Bank Run",
+      "narrative": "On November 6, 2022, Binance CEO Changpeng Zhao (known as CZ) tweeted that Binance would liquidate its entire FTT holdings — approximately $580 million worth — \"due to recent revelations.\" The tweet was a death sentence for FTX.\n\nCustomer withdrawals exploded. Over the next 72 hours, approximately $6 billion in withdrawal requests hit FTX. The exchange could not honor them because the money was gone — lent to Alameda and spent.\n\nOn November 8, Binance announced a non-binding letter of intent to acquire FTX, temporarily halting the panic. But within 24 hours, after conducting preliminary due diligence, Binance walked away, citing \"issues beyond our ability to help.\" FTX had a hole in its balance sheet that no acquirer could fill.\n\nFTX froze customer withdrawals entirely.",
+      "stem": "FTX experienced a classic bank run when customers simultaneously demanded their funds. What is the key distinction between a liquidity crisis and a solvency crisis, and which did FTX face?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A liquidity crisis means a firm cannot convert assets to cash quickly enough to meet obligations; a solvency crisis means total liabilities exceed total assets. FTX faced a liquidity crisis because it held assets that simply could not be sold fast enough",
+          "explanation": "FTX's problem was not merely that its assets were illiquid. The assets themselves — largely FTT tokens — had collapsed in value and billions in customer funds had been spent by Alameda. Total liabilities vastly exceeded real assets."
+        },
+        {
+          "label": "B",
+          "text": "A liquidity crisis means a firm lacks short-term cash to meet obligations but has sufficient total assets; a solvency crisis means the firm's liabilities exceed its assets. FTX faced a solvency crisis because customer deposits had been spent and its remaining assets were worth far less than customer claims",
+          "explanation": "Correct. In a liquidity crisis, the firm has enough assets but cannot convert them to cash quickly enough — a short-term timing problem. In a solvency crisis, the firm's total liabilities exceed its total assets — a fundamental shortfall. FTX faced a solvency crisis: an estimated $8 billion in customer funds had been diverted to Alameda and spent, and the remaining assets (heavily concentrated in FTT and other illiquid tokens) were worth a fraction of customer claims."
+        },
+        {
+          "label": "C",
+          "text": "There is no meaningful distinction; both terms describe the same condition of being unable to pay creditors, and FTX experienced a standard market downturn",
+          "explanation": "Liquidity and solvency are fundamentally different concepts. A liquid but insolvent firm has easily sellable assets but still owes more than it owns. An illiquid but solvent firm has enough total assets but cannot convert them fast enough. FTX was insolvent."
+        },
+        {
+          "label": "D",
+          "text": "A liquidity crisis is caused by external market conditions while a solvency crisis is caused by internal mismanagement; FTX faced a liquidity crisis triggered by CZ's tweet",
+          "explanation": "While CZ's tweet triggered the run, the underlying problem was not external — it was the internal misappropriation of customer funds. The bank run exposed the solvency crisis; it did not create it."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A liquidity crisis occurs when a firm has sufficient total assets but cannot convert them to cash quickly enough to meet short-term obligations — the assets exist but are temporarily inaccessible. A solvency crisis occurs when total liabilities exceed total assets — the firm owes more than it owns, regardless of timing. FTX was insolvent: approximately $8 billion in customer deposits had been transferred to Alameda and spent on trading, investments, real estate, and political donations. The bank run did not cause the insolvency; it revealed it.",
+      "regulatoryLesson": "The distinction between liquidity and solvency is fundamental in securities regulation. Net capital rules, customer reserve requirements, and stress testing exist to ensure that financial institutions can withstand both types of crises. Bank runs often reveal pre-existing insolvency.",
+      "whatActuallyHappened": "The speed of FTX's collapse was breathtaking — from CZ's tweet to frozen withdrawals in roughly 48 hours. Binance's due diligence reportedly revealed that FTX had almost no liquid, unencumbered assets to back billions in customer claims. The $6 billion in withdrawal requests over 72 hours was unprecedented in crypto but would have been manageable for a properly capitalized and segregated exchange. The fact that FTX could not process the withdrawals immediately confirmed the worst: the money was not there."
+    },
+    {
+      "id": "ftx-07",
+      "year": "Nov 11, 2022",
+      "chapterTitle": "Bankruptcy & Arrest",
+      "narrative": "On November 11, 2022, FTX filed for Chapter 11 bankruptcy protection. The filing covered FTX, FTX US, Alameda Research, and approximately 130 affiliated entities.\n\nJohn Ray III was appointed CEO to manage the bankruptcy. Ray had previously overseen the liquidation of Enron — at the time, the largest corporate fraud in American history. His assessment of FTX was devastating:\n\n\"Never in my career have I seen such a complete failure of corporate controls and such a complete absence of trustworthy financial information as occurred here.\"\n\nThe company had no functioning accounting department, no board oversight, and no accurate list of its own bank accounts. Corporate funds were spent through a group chat using personalized emoji reactions to approve expenses. On December 12, 2022, SBF was arrested at his Bahamas penthouse at the request of US prosecutors.",
+      "stem": "John Ray III described FTX as having a 'complete failure of corporate controls.' Under the Sarbanes-Oxley Act (SOX), public companies must maintain internal controls over financial reporting. Which SOX provision is most directly relevant to the type of control failures seen at FTX?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Section 302, which requires the CEO and CFO to personally certify the accuracy of financial statements and the effectiveness of internal controls",
+          "explanation": "While Section 302 certifications are important, they address the certification obligation — the officer's personal attestation. The question asks about the establishment and assessment of the control systems themselves."
+        },
+        {
+          "label": "B",
+          "text": "Section 404, which requires management to establish, maintain, and annually assess the effectiveness of internal controls over financial reporting, with independent auditor attestation",
+          "explanation": "Correct. SOX Section 404 requires company management to establish and maintain an adequate internal control structure for financial reporting, and to annually assess and report on its effectiveness. For larger public companies, an independent auditor must also attest to the assessment. FTX had virtually no internal controls — no proper accounting, no board governance, no asset tracking — representing the complete absence of what Section 404 mandates."
+        },
+        {
+          "label": "C",
+          "text": "Section 806, which provides whistleblower protections for employees of public companies who report fraud",
+          "explanation": "Section 806 addresses whistleblower protections, not the establishment of internal controls. While important, it does not address the fundamental control failures described at FTX."
+        },
+        {
+          "label": "D",
+          "text": "Section 201, which prohibits accounting firms from providing certain non-audit services to audit clients",
+          "explanation": "Section 201 addresses auditor independence by restricting non-audit services. While auditor independence is critical, the question focuses on the company's own internal control obligations."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "SOX Section 404 was enacted after the Enron and WorldCom scandals to require public companies to take responsibility for their internal controls over financial reporting. Management must establish adequate controls, assess their effectiveness annually, and report the results. For accelerated filers, an independent auditor must also attest to management's assessment. This requirement exists to prevent exactly the type of environment described at FTX — where corporate funds, customer assets, and personal expenses were indistinguishable.",
+      "regulatoryLesson": "SOX Section 404 requires management to establish, maintain, and annually assess internal controls over financial reporting. The independent auditor attestation requirement provides an external check. These controls are the foundation of corporate accountability in public companies.",
+      "whatActuallyHappened": "FTX was a private company, so SOX did not directly apply. But the absence of any comparable controls was staggering. John Ray III — who had managed the Enron bankruptcy — said FTX was worse. There was no independent board of directors. Financial records were kept on QuickBooks. Alameda had no dedicated accounting staff. Corporate expenses were approved via emoji reactions in a group chat. The lack of controls was not an oversight — it was the mechanism that allowed the fraud to continue. Had FTX been subject to SOX-like requirements, the commingling of customer funds would have been far harder to conceal."
+    },
+    {
+      "id": "ftx-08",
+      "year": "2023-2024",
+      "chapterTitle": "Justice",
+      "narrative": "Sam Bankman-Fried's trial began on October 3, 2023, in the Southern District of New York. Over four weeks, prosecutors presented evidence that SBF had knowingly directed the diversion of customer funds to Alameda, lied to investors about FTX's financial condition, and concealed the true relationship between FTX and Alameda.\n\nThree of SBF's closest associates — Caroline Ellison (CEO of Alameda and SBF's former girlfriend), Gary Wang (FTX co-founder and CTO), and Nishad Singh (FTX engineering director) — cooperated with prosecutors and testified against him.\n\nOn November 2, 2023, the jury convicted SBF on all seven counts: two counts of wire fraud, two counts of conspiracy to commit wire fraud, one count of securities fraud, one count of conspiracy to commit securities fraud, and one count of conspiracy to commit money laundering.\n\nOn March 28, 2024, SBF was sentenced to 25 years in federal prison. Caroline Ellison was sentenced to two years on September 24, 2024. Gary Wang received no prison time. Customer recovery proceedings continue under John Ray III.",
+      "stem": "SBF's cooperating witnesses received significantly lighter sentences than his 25 years. Caroline Ellison received 2 years and Gary Wang received no prison time. Under federal sentencing guidelines, what mechanism allows cooperating defendants to receive reduced sentences?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Defendants who plead guilty automatically receive a 50% reduction in their sentence under the Federal Sentencing Guidelines mandatory minimum provisions",
+          "explanation": "There is no automatic 50% reduction for guilty pleas. The Federal Sentencing Guidelines provide a modest reduction for acceptance of responsibility (typically 2-3 offense levels), but substantial cooperation credit requires a government motion."
+        },
+        {
+          "label": "B",
+          "text": "Under Section 5K1.1 of the Federal Sentencing Guidelines, the government can file a motion for downward departure when a defendant provides substantial assistance in the investigation or prosecution of another person, allowing the judge to sentence below the guidelines range",
+          "explanation": "Correct. Section 5K1.1 allows the government to file a motion stating that a defendant has provided \"substantial assistance\" in investigating or prosecuting others. This motion permits the sentencing judge to depart downward from the advisory guidelines range. The extent of the departure depends on the significance of the assistance, the truthfulness and completeness of the information, and the risk undertaken by the cooperator."
+        },
+        {
+          "label": "C",
+          "text": "Cooperating witnesses are immune from sentencing under the Sixth Amendment's confrontation clause, which guarantees their testimony cannot be used against them",
+          "explanation": "The Confrontation Clause gives the accused the right to confront witnesses, not immunity for cooperators. Cooperation agreements are contractual arrangements between defendants and prosecutors, not constitutional rights."
+        },
+        {
+          "label": "D",
+          "text": "Federal judges have unlimited discretion to reduce sentences for any reason, so cooperation is merely one informal factor considered at sentencing",
+          "explanation": "While judges have discretion under the advisory guidelines, the 5K1.1 mechanism is a specific, formal process. The government must file the motion — the judge cannot grant a substantial assistance departure without it."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Section 5K1.1 of the Federal Sentencing Guidelines provides the formal mechanism for cooperation credit. When a defendant provides substantial assistance in the investigation or prosecution of another person who has committed an offense, the government may file a motion allowing the sentencing judge to impose a sentence below the otherwise-applicable guidelines range. This is the single most powerful sentencing tool available to cooperating defendants. The government controls the process — without the government's motion, the judge generally cannot grant this departure.",
+      "regulatoryLesson": "Federal Sentencing Guidelines Section 5K1.1 allows the government to move for a downward departure when a defendant provides substantial assistance. This mechanism is the primary incentive for cooperation in federal fraud prosecutions and explains the wide sentencing disparities between cooperators and those convicted at trial.",
+      "whatActuallyHappened": "The cooperation of Ellison, Wang, and Singh was devastating to SBF's defense. Ellison testified in detail about how SBF directed her to use customer funds, instructed her to mislead Alameda's lenders, and created a falsified balance sheet. Wang described building the \"allow_negative\" software backdoor at SBF's direction. Their testimony, combined with extensive documentary evidence, made the prosecution's case overwhelming. SBF testified in his own defense — a risky decision that most legal analysts believe backfired. The 25-year sentence reflected both the magnitude of the fraud and SBF's refusal to accept responsibility. The sentencing disparity — 25 years versus 2 years versus zero — illustrates the enormous weight federal courts place on cooperation."
+    }
+  ]
+}

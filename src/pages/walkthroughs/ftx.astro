@@ -1,0 +1,10 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import WalkthroughEngine from '../../components/WalkthroughEngine';
+import ftxData from '../../content/walkthroughs/ftx.json';
+
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+<BaseLayout title="The FTX Crypto Fraud" description="An 8-chapter investigation into the $8 billion crypto fraud — learn regulatory concepts through the collapse of FTX and Sam Bankman-Fried">
+  <WalkthroughEngine client:load walkthrough={ftxData} base={base} />
+</BaseLayout>
