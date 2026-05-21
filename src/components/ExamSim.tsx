@@ -3,6 +3,7 @@ import { useStore } from '@nanostores/preact';
 import { $progress, $xp, $streak, recordAnswer, recordExamResult, getExamHistory } from '../stores/progress';
 import { enqueueWrong } from '../stores/hotSheet';
 import { generateShareString, copyToClipboard } from '../lib/shareString';
+import { hapticLight, hapticMedium, hapticSuccess } from '../lib/haptics';
 import { analyzeNearMiss, getSectionBreakdown, type ExamAnswer } from '../lib/nearMiss';
 import { djb2, mulberry32 } from '../lib/rng';
 import { EXAMS, type ExamId } from '../data/exams';
@@ -126,6 +127,13 @@ export default function ExamSim({ base, questions: allQuestions, examId }: Props
       section: currentQ.section,
     });
 
+    // Haptic feedback
+    if (correct) {
+      hapticLight();
+    } else {
+      hapticMedium();
+    }
+
     // Hot sheet on wrong
     if (!correct) {
       enqueueWrong(currentQ.id, section, currentQ.stem);
@@ -150,6 +158,9 @@ export default function ExamSim({ base, questions: allQuestions, examId }: Props
     const correct = finalAnswers.filter((a) => a.correct).length;
     const total = finalAnswers.length;
     const passed = Math.round((correct / total) * 100) >= exam.passingScore;
+
+    // Completion haptic
+    if (passed) hapticSuccess();
 
     recordExamResult({
       date: todayISO(),

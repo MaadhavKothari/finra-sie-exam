@@ -3,6 +3,7 @@ import { useStore } from '@nanostores/preact';
 import { $progress, $xp, $streak, $accuracy, recordAnswer, recordBellResult } from '../stores/progress';
 import { enqueueWrong } from '../stores/hotSheet';
 import { generateShareString, copyToClipboard } from '../lib/shareString';
+import { hapticLight, hapticMedium, hapticSuccess } from '../lib/haptics';
 import { getDailyBellQuestions } from '../lib/dailySeed';
 import { getGreedForDate } from '../lib/greedIndex';
 import type { Question } from '../lib/types';
@@ -74,18 +75,20 @@ export default function OpeningBell({ base, questions: allQuestions }: Props) {
     setEarnedXp((e) => e + result.earnedXp);
     if (correct) {
       setScore((s) => s + 1);
+      hapticLight();
     } else {
       enqueueWrong(currentQ.id, currentQ.section || currentQ.topic || 'general', currentQ.stem);
+      hapticMedium();
     }
   };
   const handleNext = () => {
     if (idx + 1 >= dailyQ.length) {
       // finished
       recordBellResult(today, score + (selected === currentQ?.correctAnswer ? 0 : 0));
-      // recordBellResult uses the score we have; ensure score reflects last answer (already set in handleSubmit)
       setPhase('done');
       setTickerShown(true);
       setTimeout(() => setTickerShown(false), 8000);
+      hapticSuccess(); // Bell completion haptic
       return;
     }
     setIdx((i) => i + 1);

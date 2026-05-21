@@ -3,6 +3,7 @@ import { useStore } from '@nanostores/preact';
 import { $progress, $streak, $level, $xp, $dailyProgress, $accuracy, recordAnswer, xpToNextLevel } from '../stores/progress';
 import { enqueueWrong } from '../stores/hotSheet';
 import { generateShareString, copyToClipboard } from '../lib/shareString';
+import { hapticLight, hapticMedium, hapticHeavy } from '../lib/haptics';
 import type { Question } from '../lib/types';
 import StoryCard, { type Story } from './StoryCard';
 
@@ -87,9 +88,21 @@ export default function QuizEngine({ questions: allQuestions, topic, topicName, 
     setXpPopup({ amount: result.earnedXp, multiplier: result.multiplier, show: true });
     setTimeout(() => setXpPopup((p) => ({ ...p, show: false })), 1500);
 
+    // Haptic feedback
+    if (isCorrect) {
+      hapticLight();
+    } else {
+      hapticMedium();
+    }
+
     if (isCorrect && result.newStreak > 0 && result.newStreak % 3 === 0) {
       setStreakPopup({ count: result.newStreak, show: true });
       setTimeout(() => setStreakPopup((p) => ({ ...p, show: false })), 1800);
+    }
+
+    // Streak milestone haptic (every 5)
+    if (isCorrect && result.newStreak > 0 && result.newStreak % 5 === 0) {
+      hapticHeavy();
     }
 
     if (result.leveledUp) {
