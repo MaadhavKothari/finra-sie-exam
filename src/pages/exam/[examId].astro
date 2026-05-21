@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { EXAMS } from '../../data/exams';
+import type { ExamId } from '../../data/exams';
+import ExamSim from '../../components/ExamSim';
+
+export function getStaticPaths() {
+  return Object.keys(EXAMS).map((id) => ({ params: { examId: id } }));
+}
+
+const { examId } = Astro.params;
+const id = examId as ExamId;
+const examData = EXAMS[id];
+const base = import.meta.env.BASE_URL;
+
+let questions: any[] = [];
+
+if (examId === 'sie') {
+  const [cm, pr, ta, rf] = await Promise.all([
+    getCollection('capital-markets'),
+    getCollection('products-risks'),
+    getCollection('trading-accounts'),
+    getCollection('regulatory-framework'),
+  ]);
+  questions = [...cm, ...pr, ...ta, ...rf].map((q) => q.data);
+} else if (examId === 'series-6') {
+  questions = (await getCollection('series-6')).map((q) => q.data);
+} else if (examId === 'series-7') {
+  questions = (await getCollection('series-7')).map((q) => q.data);
+} else if (examId === 'series-63') {
+  questions = (await getCollection('series-63')).map((q) => q.data);
+} else if (examId === 'series-65') {
+  questions = (await getCollection('series-65')).map((q) => q.data);
+} else if (examId === 'series-66') {
+  questions = (await getCollection('series-66')).map((q) => q.data);
+} else if (examId === 'series-3') {
+  questions = (await getCollection('series-3')).map((q) => q.data);
+} else if (examId === 'series-24') {
+  questions = (await getCollection('series-24')).map((q) => q.data);
+} else if (examId === 'series-79') {
+  questions = (await getCollection('series-79')).map((q) => q.data);
+}
+---
+<BaseLayout title={`Mock Exam — ${examData.name}`}>
+  <ExamSim client:load base={base} questions={questions} examId={id} />
+</BaseLayout>

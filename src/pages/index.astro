@@ -24,6 +24,24 @@ const exams = Object.values(EXAMS);
       <p class="text-sm text-[#6b6560]">Free practice questions for all major FINRA securities exams</p>
     </header>
 
+    {/* Mock exam CTA */}
+    <a
+      href={`${base}exam`}
+      class="group block w-full border border-black hover:bg-black transition-colors rounded-sm p-5 mb-6 no-underline"
+    >
+      <div class="flex items-center justify-between">
+        <div>
+          <div style="font-family: var(--font-display);" class="text-lg text-black group-hover:text-white transition-colors">
+            Mock exam
+          </div>
+          <div class="text-xs text-[#6b6560] group-hover:text-white/70 transition-colors mt-0.5">
+            Full-length timed simulation with near-miss analysis
+          </div>
+        </div>
+        <div class="text-[#8F5A39] group-hover:text-white transition-colors text-lg">→</div>
+      </div>
+    </a>
+
     {/* Exam list */}
     <div class="space-y-px border border-[#E5E0D8] rounded-sm overflow-hidden">
       {exams.map((exam, i) => (

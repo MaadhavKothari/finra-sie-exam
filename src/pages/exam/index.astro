@@ -1,0 +1,50 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { EXAMS } from '../../data/exams';
+
+const base = import.meta.env.BASE_URL;
+const exams = Object.values(EXAMS);
+---
+<BaseLayout title="Mock Exam">
+  <main class="max-w-lg mx-auto px-4 py-6">
+    <a href={base} class="text-xs uppercase tracking-[0.12em] text-[#8F5A39] hover:text-black transition-colors mb-6 inline-block font-medium">
+      ← Home
+    </a>
+
+    <header class="mb-8">
+      <p class="text-xs uppercase tracking-[0.15em] text-[#8F5A39] font-medium mb-2">Boss battle</p>
+      <h1 style="font-family: var(--font-display);" class="text-3xl text-black mb-2">Mock exam</h1>
+      <p class="text-sm text-[#6b6560]">Full-length timed exam simulation. This counts.</p>
+    </header>
+
+    <div class="space-y-px border border-[#E5E0D8] rounded-sm overflow-hidden">
+      {exams.map((exam) => (
+        <a
+          href={`${base}exam/${exam.slug}`}
+          class="group block bg-white hover:bg-[#F4EFE7] transition-colors no-underline"
+        >
+          <div class="flex items-center gap-4 px-5 py-4 border-b border-[#E5E0D8] last:border-b-0">
+            <div
+              class="w-10 h-10 rounded-sm flex items-center justify-center shrink-0"
+              style={`background-color: ${exam.iconBg};`}
+            >
+              <span class="text-white text-xs font-semibold tracking-wide leading-none text-center px-1">
+                {exam.name.replace('Series ', 'S').replace('SIE', 'SIE')}
+              </span>
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-baseline justify-between gap-2">
+                <span style="font-family: var(--font-display);" class="text-base text-black">{exam.name}</span>
+                <span class={`text-xs font-medium px-2 py-0.5 rounded-sm shrink-0 ${exam.badgeClass}`}>
+                  {exam.scoredQuestions}Q · {exam.minutes}min
+                </span>
+              </div>
+              <p class="text-xs text-[#6b6560] mt-0.5">{exam.passingScore}% to pass</p>
+            </div>
+            <div class="text-[#8F5A39] text-sm shrink-0 opacity-0 group-hover:opacity-100 transition-opacity">→</div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </main>
+</BaseLayout>

@@ -34,6 +34,8 @@ export const $progress = persistentMap<{
   bellRunCurrent: string;
   bellRunBest: string;
   bellLastDate: string;           // ISO date last bell taken
+  // M7 — Exam Sim
+  examHistory: string;            // JSON array of {date,examId,score,total,passed,duration}
 }>('sie-progress:', {
   totalAnswered: '0',
   totalCorrect: '0',
@@ -60,6 +62,7 @@ export const $progress = persistentMap<{
   bellRunCurrent: '0',
   bellRunBest: '0',
   bellLastDate: '',
+  examHistory: '[]',
 });
 
 export const $xp = computed($progress, (p) => parseInt(p.xp || '0', 10));
@@ -365,4 +368,29 @@ export function recordBellResult(date: string, score: number) {
   if (nextRun > best) $progress.setKey('bellRunBest', String(nextRun));
   // secret: first-bell title
   if (hist.length === 1) pushEarnedTitle('first-bell');
+}
+
+// Public helper used by ExamSim after completion.
+export interface ExamHistoryEntry {
+  date: string;
+  examId: string;
+  score: number;
+  total: number;
+  passed: boolean;
+  duration: number; // minutes
+}
+
+export function recordExamResult(entry: ExamHistoryEntry) {
+  const p = $progress.get();
+  let hist: ExamHistoryEntry[] = [];
+  try { hist = JSON.parse(p.examHistory || '[]'); }
+  catch { hist = []; }
+  hist.push(entry);
+  if (hist.length > 50) hist = hist.slice(hist.length - 50);
+  $progress.setKey('examHistory', JSON.stringify(hist));
+}
+
+export function getExamHistory(): ExamHistoryEntry[] {
+  try { return JSON.parse($progress.get().examHistory || '[]'); }
+  catch { return []; }
 }
