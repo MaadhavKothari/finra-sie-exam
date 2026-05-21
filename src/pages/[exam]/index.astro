@@ -95,10 +95,10 @@ const isLight = examData.headerClass.includes('text-black');
 
     {/* Quick practice CTAs — only when content exists */}
     {totalQuestions > 0 ? (
-      <div class="flex gap-3 mb-6">
+      <div class="flex gap-3 mb-6 flex-wrap">
         <a
           href={`${base}${exam}/drill/all`}
-          class="group flex-1 block border border-black hover:bg-black transition-colors rounded-sm p-5 no-underline"
+          class="group flex-1 min-w-[140px] block border border-black hover:bg-black transition-colors rounded-sm p-5 no-underline"
         >
           <div class="flex items-center justify-between">
             <div>
@@ -114,7 +114,7 @@ const isLight = examData.headerClass.includes('text-black');
         </a>
         <a
           href={`${base}${exam}/learn/all`}
-          class="group flex-1 block border border-[#8F5A39] hover:bg-[#8F5A39] transition-colors rounded-sm p-5 no-underline"
+          class="group flex-1 min-w-[140px] block border border-[#8F5A39] hover:bg-[#8F5A39] transition-colors rounded-sm p-5 no-underline"
         >
           <div class="flex items-center justify-between">
             <div>
@@ -123,6 +123,22 @@ const isLight = examData.headerClass.includes('text-black');
               </div>
               <div class="text-xs text-[#6b6560] group-hover:text-white/70 transition-colors mt-0.5">
                 3-phase mastery
+              </div>
+            </div>
+            <div class="text-[#8F5A39] group-hover:text-white transition-colors text-lg">→</div>
+          </div>
+        </a>
+        <a
+          href={`${base}${exam}/flashcards/all`}
+          class="group flex-1 min-w-[140px] block border border-[#E5E0D8] hover:border-black hover:bg-black transition-colors rounded-sm p-5 no-underline"
+        >
+          <div class="flex items-center justify-between">
+            <div>
+              <div style="font-family: var(--font-display);" class="text-lg text-black group-hover:text-white transition-colors">
+                Flashcards
+              </div>
+              <div class="text-xs text-[#6b6560] group-hover:text-white/70 transition-colors mt-0.5">
+                Leitner spaced repetition
               </div>
             </div>
             <div class="text-[#8F5A39] group-hover:text-white transition-colors text-lg">→</div>
@@ -183,6 +199,12 @@ const isLight = examData.headerClass.includes('text-black');
                     class="text-xs px-3 py-1.5 rounded-sm border border-[#8F5A39] text-[#8F5A39] hover:bg-[#8F5A39] hover:text-white transition-colors no-underline font-medium"
                   >
                     Learn
+                  </a>
+                  <a
+                    href={`${base}${exam}/flashcards/${section.id}`}
+                    class="text-xs px-3 py-1.5 rounded-sm border border-[#E5E0D8] text-[#6b6560] hover:border-black hover:text-black transition-colors no-underline font-medium"
+                  >
+                    Flashcards
                   </a>
                 </div>
               )}

@@ -113,3 +113,50 @@ html {
   from { transform: translateX(100%); }
   to   { transform: translateX(-100%); }
 }
+
+/* ─── Flashcard 3D flip animation ────────────────────────────────────── */
+.flashcard-container {
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  cursor: pointer;
+}
+.flashcard-inner {
+  position: relative;
+  width: 100%;
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.flashcard-inner.flipped {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+.flashcard-front,
+.flashcard-back {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flashcard-front {
+  position: relative;
+}
+.flashcard-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+/* Slide transitions between cards */
+@keyframes flashcardSlideOut {
+  from { opacity: 1; transform: translateX(0); }
+  to   { opacity: 0; transform: translateX(-30px); }
+}
+@keyframes flashcardSlideIn {
+  from { opacity: 0; transform: translateX(30px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+.flashcard-slide-out { animation: flashcardSlideOut 0.2s ease-in; }
+.flashcard-slide-in  { animation: flashcardSlideIn 0.3s ease-out; }
