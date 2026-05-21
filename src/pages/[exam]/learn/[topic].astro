@@ -1,0 +1,126 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { EXAMS } from '../../../data/exams';
+import type { ExamId } from '../../../data/exams';
+import LearnEngine from '../../../components/LearnEngine';
+
+export function getStaticPaths() {
+  return [
+    // SIE
+    { params: { exam: 'sie', topic: 'capital-markets' } },
+    { params: { exam: 'sie', topic: 'products-risks' } },
+    { params: { exam: 'sie', topic: 'trading-accounts' } },
+    { params: { exam: 'sie', topic: 'regulatory-framework' } },
+    { params: { exam: 'sie', topic: 'all' } },
+    // Series 6
+    { params: { exam: 'series-6', topic: 'investment-company-products' } },
+    { params: { exam: 'series-6', topic: 'variable-products' } },
+    { params: { exam: 'series-6', topic: 'customer-accounts' } },
+    { params: { exam: 'series-6', topic: 'regulations' } },
+    { params: { exam: 'series-6', topic: 'all' } },
+    // Series 7
+    { params: { exam: 'series-7', topic: 'equity-securities' } },
+    { params: { exam: 'series-7', topic: 'debt-securities' } },
+    { params: { exam: 'series-7', topic: 'options' } },
+    { params: { exam: 'series-7', topic: 'packaged-products' } },
+    { params: { exam: 'series-7', topic: 'accounts-trading' } },
+    { params: { exam: 'series-7', topic: 'all' } },
+    // Series 63
+    { params: { exam: 'series-63', topic: 'state-securities-law' } },
+    { params: { exam: 'series-63', topic: 'ethical-practices' } },
+    { params: { exam: 'series-63', topic: 'all' } },
+    // Series 65
+    { params: { exam: 'series-65', topic: 'economic-factors' } },
+    { params: { exam: 'series-65', topic: 'investment-vehicles' } },
+    { params: { exam: 'series-65', topic: 'client-recommendations' } },
+    { params: { exam: 'series-65', topic: 'laws-regulations' } },
+    { params: { exam: 'series-65', topic: 'all' } },
+    // Series 66
+    { params: { exam: 'series-66', topic: 'economic-analysis' } },
+    { params: { exam: 'series-66', topic: 'recommendations-strategies' } },
+    { params: { exam: 'series-66', topic: 'laws-regulations' } },
+    { params: { exam: 'series-66', topic: 'all' } },
+    // Series 3
+    { params: { exam: 'series-3', topic: 'market-knowledge' } },
+    { params: { exam: 'series-3', topic: 'regulations' } },
+    { params: { exam: 'series-3', topic: 'all' } },
+    // Series 24
+    { params: { exam: 'series-24', topic: 'registration-personnel' } },
+    { params: { exam: 'series-24', topic: 'general-supervision' } },
+    { params: { exam: 'series-24', topic: 'customer-supervision' } },
+    { params: { exam: 'series-24', topic: 'trading-supervision' } },
+    { params: { exam: 'series-24', topic: 'banking-research' } },
+    { params: { exam: 'series-24', topic: 'financial-responsibility' } },
+    { params: { exam: 'series-24', topic: 'all' } },
+    // Series 79
+    { params: { exam: 'series-79', topic: 'data-analysis' } },
+    { params: { exam: 'series-79', topic: 'underwriting-offerings' } },
+    { params: { exam: 'series-79', topic: 'ma-restructuring' } },
+    { params: { exam: 'series-79', topic: 'all' } },
+  ];
+}
+
+const { exam, topic } = Astro.params;
+const examId = exam as ExamId;
+const examData = EXAMS[examId];
+
+let questions: any[] = [];
+
+if (exam === 'sie') {
+  if (topic === 'all') {
+    const [cm, pr, ta, rf] = await Promise.all([
+      getCollection('capital-markets'),
+      getCollection('products-risks'),
+      getCollection('trading-accounts'),
+      getCollection('regulatory-framework'),
+    ]);
+    questions = [...cm, ...pr, ...ta, ...rf].map((q) => q.data);
+  } else {
+    const coll = await getCollection(topic as 'capital-markets' | 'products-risks' | 'trading-accounts' | 'regulatory-framework');
+    questions = coll.map((q) => q.data);
+  }
+} else if (exam === 'series-6') {
+  const coll = await getCollection('series-6');
+  questions = topic === 'all' ? coll.map(q => q.data) : coll.filter(q => q.data.section === topic).map(q => q.data);
+} else if (exam === 'series-7') {
+  const coll = await getCollection('series-7');
+  questions = topic === 'all' ? coll.map(q => q.data) : coll.filter(q => q.data.section === topic).map(q => q.data);
+} else if (exam === 'series-63') {
+  const coll = await getCollection('series-63');
+  questions = topic === 'all' ? coll.map(q => q.data) : coll.filter(q => q.data.section === topic).map(q => q.data);
+} else if (exam === 'series-65') {
+  const coll = await getCollection('series-65');
+  questions = topic === 'all' ? coll.map(q => q.data) : coll.filter(q => q.data.section === topic).map(q => q.data);
+} else if (exam === 'series-66') {
+  const coll = await getCollection('series-66');
+  questions = topic === 'all' ? coll.map(q => q.data) : coll.filter(q => q.data.section === topic).map(q => q.data);
+} else if (exam === 'series-3') {
+  const coll = await getCollection('series-3');
+  questions = topic === 'all' ? coll.map(q => q.data) : coll.filter(q => q.data.section === topic).map(q => q.data);
+} else if (exam === 'series-24') {
+  const coll = await getCollection('series-24');
+  questions = topic === 'all' ? coll.map(q => q.data) : coll.filter(q => q.data.section === topic).map(q => q.data);
+} else if (exam === 'series-79') {
+  const coll = await getCollection('series-79');
+  questions = topic === 'all' ? coll.map(q => q.data) : coll.filter(q => q.data.section === topic).map(q => q.data);
+}
+
+const sectionMeta = topic === 'all' ? null : examData.sections.find(s => s.id === topic);
+const topicName = topic === 'all'
+  ? `${examData.name} – All Topics`
+  : (sectionMeta?.name ?? topic.replace(/-/g, ' '));
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+const backUrl = `${base}${exam}`;
+---
+
+<BaseLayout title={`Learn: ${topicName}`}>
+  <LearnEngine
+    client:load
+    questions={questions}
+    topic={topic!}
+    topicName={topicName}
+    examSlug={examId}
+    backUrl={backUrl}
+  />
+</BaseLayout>

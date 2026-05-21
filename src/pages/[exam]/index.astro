@@ -93,24 +93,42 @@ const isLight = examData.headerClass.includes('text-black');
       </div>
     </div>
 
-    {/* Quick practice CTA — only when content exists */}
+    {/* Quick practice CTAs — only when content exists */}
     {totalQuestions > 0 ? (
-      <a
-        href={`${base}${exam}/drill/all`}
-        class="group block w-full border border-black hover:bg-black transition-colors rounded-sm p-5 mb-6 no-underline"
-      >
-        <div class="flex items-center justify-between">
-          <div>
-            <div style="font-family: var(--font-display);" class="text-lg text-black group-hover:text-white transition-colors">
-              Practice all sections
+      <div class="flex gap-3 mb-6">
+        <a
+          href={`${base}${exam}/drill/all`}
+          class="group flex-1 block border border-black hover:bg-black transition-colors rounded-sm p-5 no-underline"
+        >
+          <div class="flex items-center justify-between">
+            <div>
+              <div style="font-family: var(--font-display);" class="text-lg text-black group-hover:text-white transition-colors">
+                Drill
+              </div>
+              <div class="text-xs text-[#6b6560] group-hover:text-white/70 transition-colors mt-0.5">
+                {totalQuestions}Q — all sections
+              </div>
             </div>
-            <div class="text-xs text-[#6b6560] group-hover:text-white/70 transition-colors mt-0.5">
-              {totalQuestions} questions available
-            </div>
+            <div class="text-[#8F5A39] group-hover:text-white transition-colors text-lg">→</div>
           </div>
-          <div class="text-[#8F5A39] group-hover:text-white transition-colors text-lg">→</div>
-        </div>
-      </a>
+        </a>
+        <a
+          href={`${base}${exam}/learn/all`}
+          class="group flex-1 block border border-[#8F5A39] hover:bg-[#8F5A39] transition-colors rounded-sm p-5 no-underline"
+        >
+          <div class="flex items-center justify-between">
+            <div>
+              <div style="font-family: var(--font-display);" class="text-lg text-[#8F5A39] group-hover:text-white transition-colors">
+                Learn
+              </div>
+              <div class="text-xs text-[#6b6560] group-hover:text-white/70 transition-colors mt-0.5">
+                3-phase mastery
+              </div>
+            </div>
+            <div class="text-[#8F5A39] group-hover:text-white transition-colors text-lg">→</div>
+          </div>
+        </a>
+      </div>
     ) : (
       <div class="w-full border border-[#E5E0D8] bg-[#F4EFE7] rounded-sm p-5 mb-6">
         <div style="font-family: var(--font-display);" class="text-lg text-black mb-1">
@@ -130,11 +148,9 @@ const isLight = examData.headerClass.includes('text-black');
         const weight = Math.round(section.weight * 100);
         const isLast = i === examData.sections.length - 1;
         const hasContent = count > 0;
-        const Tag: any = hasContent ? 'a' : 'div';
         return (
-          <Tag
-            href={hasContent ? `${base}${exam}/drill/${section.id}` : undefined}
-            class={`group block bg-white ${hasContent ? 'hover:bg-[#F4EFE7] cursor-pointer' : 'opacity-60 cursor-not-allowed'} transition-colors no-underline ${!isLast ? 'border-b border-[#E5E0D8]' : ''}`}
+          <div
+            class={`bg-white ${!hasContent ? 'opacity-60' : ''} ${!isLast ? 'border-b border-[#E5E0D8]' : ''}`}
           >
             <div class="px-5 py-4">
               <div class="flex items-start justify-between gap-3 mb-2">
@@ -153,10 +169,25 @@ const isLight = examData.headerClass.includes('text-black');
                 <span class="text-xs text-[#6b6560] whitespace-nowrap shrink-0">
                   {count > 0 ? `${count}Q` : 'Coming soon'}
                 </span>
-                <span class="text-[#8F5A39] text-xs opacity-0 group-hover:opacity-100 transition-opacity shrink-0">→</span>
               </div>
+              {hasContent && (
+                <div class="flex gap-2 mt-2.5">
+                  <a
+                    href={`${base}${exam}/drill/${section.id}`}
+                    class="text-xs px-3 py-1.5 rounded-sm border border-[#E5E0D8] text-[#6b6560] hover:border-black hover:text-black transition-colors no-underline font-medium"
+                  >
+                    Drill
+                  </a>
+                  <a
+                    href={`${base}${exam}/learn/${section.id}`}
+                    class="text-xs px-3 py-1.5 rounded-sm border border-[#8F5A39] text-[#8F5A39] hover:bg-[#8F5A39] hover:text-white transition-colors no-underline font-medium"
+                  >
+                    Learn
+                  </a>
+                </div>
+              )}
             </div>
-          </Tag>
+          </div>
         );
       })}
     </div>
