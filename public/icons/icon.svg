@@ -1,4 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="96" fill="#F4EFE7"/>
-  <text x="256" y="280" font-family="Georgia, 'Times New Roman', serif" font-size="220" font-weight="bold" fill="#000000" text-anchor="middle" dominant-baseline="central">FP</text>
+  <rect width="512" height="512" rx="96" fill="#000000"/>
+
+  <!-- Bull silhouette (left, green, charging right) -->
+  <g transform="translate(60, 120)" fill="none" stroke="#22c55e" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Body -->
+    <path d="M40 140 Q60 80 100 90 L140 70 Q160 60 170 80 L180 100 Q190 110 180 130 L170 150 Q160 160 140 160 L80 160 Q50 160 40 140Z" fill="#22c55e" opacity="0.15"/>
+    <path d="M40 140 Q60 80 100 90 L140 70 Q160 60 170 80 L180 100 Q190 110 180 130 L170 150 Q160 160 140 160 L80 160 Q50 160 40 140Z"/>
+    <!-- Horns -->
+    <path d="M140 70 L155 40 M140 70 L125 45" stroke-width="7"/>
+    <!-- Legs -->
+    <path d="M80 160 L75 200 M100 160 L95 200 M140 160 L145 200 M160 155 L165 195" stroke-width="6"/>
+    <!-- Tail -->
+    <path d="M40 140 Q25 130 20 145 Q15 155 25 150" stroke-width="5"/>
+    <!-- Up arrow -->
+    <path d="M95 30 L110 10 L125 30 M110 10 L110 55" stroke-width="7" stroke="#22c55e"/>
+  </g>
+
+  <!-- Bear silhouette (right, red, standing) -->
+  <g transform="translate(270, 105)" fill="none" stroke="#ef4444" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Body -->
+    <path d="M50 60 Q40 40 60 30 L80 25 Q100 20 120 30 L140 50 Q155 70 150 100 L145 140 Q140 160 120 170 L70 170 Q50 160 45 140 L40 100 Q35 80 50 60Z" fill="#ef4444" opacity="0.15"/>
+    <path d="M50 60 Q40 40 60 30 L80 25 Q100 20 120 30 L140 50 Q155 70 150 100 L145 140 Q140 160 120 170 L70 170 Q50 160 45 140 L40 100 Q35 80 50 60Z"/>
+    <!-- Ears -->
+    <path d="M65 30 L55 10 M120 28 L130 8" stroke-width="7"/>
+    <!-- Snout -->
+    <path d="M80 80 Q90 90 100 80" stroke-width="5"/>
+    <!-- Legs -->
+    <path d="M70 170 L65 210 M90 170 L85 210 M120 170 L125 210 M140 165 L145 205" stroke-width="6"/>
+    <!-- Claws -->
+    <path d="M55 210 L65 210 L75 210 M115 210 L125 210 L135 210" stroke-width="4"/>
+    <!-- Down arrow -->
+    <path d="M85 230 L100 250 L115 230 M100 250 L100 205" stroke-width="7" stroke="#ef4444"/>
+  </g>
+
+  <!-- Divider line -->
+  <line x1="256" y1="130" x2="256" y2="380" stroke="#8F5A39" stroke-width="2" opacity="0.4"/>
+
+  <!-- Title text -->
+  <text x="256" y="440" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="bold" fill="#F4EFE7" text-anchor="middle" letter-spacing="2">
+    FINRA Exam Prep
+  </text>
+
+  <!-- Subtle bottom accent -->
+  <line x1="130" y1="465" x2="382" y2="465" stroke="#8F5A39" stroke-width="2" opacity="0.5"/>
 </svg>

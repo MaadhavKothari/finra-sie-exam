@@ -2,7 +2,7 @@ import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'com.maadhavkothari.finraprep',
-  appName: 'FINRA Prep',
+  appName: 'FINRA Exam Prep',
   webDir: 'dist',
   ios: {
     contentInset: 'always',

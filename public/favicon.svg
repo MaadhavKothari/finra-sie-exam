@@ -1,3 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" font-size="28">S</text>
+  <rect width="32" height="32" rx="6" fill="#000"/>
+  <!-- Bull (left, ascending) -->
+  <path d="M6 22 L8 18 L10 20 L12 14 L14 16" stroke="#22c55e" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M6 17 L5 15 M8 17 L9 15" stroke="#22c55e" stroke-width="1" stroke-linecap="round"/>
+  <!-- Bear (right, descending) -->
+  <path d="M18 12 L20 16 L22 14 L24 20 L26 18" stroke="#ef4444" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24 21 L23 23 M26 19 L27 21" stroke="#ef4444" stroke-width="1" stroke-linecap="round"/>
+  <!-- Divider -->
+  <line x1="16" y1="10" x2="16" y2="24" stroke="#8F5A39" stroke-width="0.8" opacity="0.5"/>
 </svg>
