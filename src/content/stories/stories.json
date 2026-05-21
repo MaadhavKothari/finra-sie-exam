@@ -1,0 +1,212 @@
+[
+  {
+    "id": "madoff",
+    "title": "Bernie Madoff and the largest Ponzi scheme in history",
+    "dateRange": "c. 1991–2008",
+    "summary": "Bernard L. Madoff Investment Securities ran a fictional advisory business that fabricated returns for decades. Madoff confessed to his sons on December 10, 2008, was arrested the next day, and pleaded guilty in March 2009 to 11 federal felonies. He was sentenced to 150 years in prison; principal investor losses were estimated at roughly $17.5 billion against $64.8 billion in fictional account values.",
+    "whyItMatters": "Analyst Harry Markopolos warned the SEC starting in 2000 that Madoff's returns were mathematically impossible, but multiple examinations failed to act. The case reshaped due-diligence standards for investment advisers and feeder funds, and led to custody-rule reforms.",
+    "ruleConnection": "Investment Adviser fraud, fiduciary duty, custody rule (Advisers Act Rule 206(4)-2), and Ponzi-scheme red flags (consistent returns regardless of market, unaudited self-clearing, opacity).",
+    "primarySource": {
+      "name": "Wikipedia — Bernie Madoff",
+      "url": "https://en.wikipedia.org/wiki/Bernie_Madoff"
+    },
+    "tags": ["fraud", "investment-adviser", "ponzi", "fiduciary-duty"],
+    "verifiedOn": "2026-05-20"
+  },
+  {
+    "id": "enron",
+    "title": "Enron's accounting fraud and the birth of Sarbanes-Oxley",
+    "dateRange": "1985–2001",
+    "summary": "Enron used special-purpose entities and mark-to-market accounting to hide debt and inflate earnings. It filed for Chapter 11 on December 2, 2001, with $63.4 billion in assets — then the largest U.S. bankruptcy. Auditor Arthur Andersen was indicted and effectively dissolved. CEO Jeffrey Skilling was convicted in 2006; Chairman Ken Lay died after conviction but before sentencing.",
+    "whyItMatters": "The collapse directly produced the Sarbanes-Oxley Act of 2002, which created the PCAOB, required CEO/CFO certification of financials, and imposed auditor-independence rules that still govern U.S. issuer reporting today.",
+    "ruleConnection": "Sarbanes-Oxley Act of 2002, auditor independence, MD&A and financial-reporting standards, internal controls over financial reporting (ICFR).",
+    "primarySource": {
+      "name": "Wikipedia — Enron scandal",
+      "url": "https://en.wikipedia.org/wiki/Enron_scandal"
+    },
+    "tags": ["accounting-fraud", "sox", "corporate-governance"],
+    "verifiedOn": "2026-05-20"
+  },
+  {
+    "id": "lehman",
+    "title": "Lehman Brothers and the 2008 financial crisis",
+    "dateRange": "2008",
+    "summary": "Lehman Brothers filed for Chapter 11 on September 15, 2008, with roughly $691 billion in assets — still the largest U.S. bankruptcy on record. Heavy exposure to mortgage-backed securities and CDOs, combined with high leverage and reliance on short-term repo funding, triggered the collapse and accelerated the global financial crisis.",
+    "whyItMatters": "Lehman's failure catalyzed TARP, the Fed's emergency lending programs, and ultimately the Dodd-Frank Act of 2010 — which introduced the Volcker Rule, SIFI designation, and the orderly liquidation authority.",
+    "ruleConnection": "Systemic risk, net capital rule, Dodd-Frank Act (2010), broker-dealer liquidity and leverage limits.",
+    "primarySource": {
+      "name": "Wikipedia — Bankruptcy of Lehman Brothers",
+      "url": "https://en.wikipedia.org/wiki/Bankruptcy_of_Lehman_Brothers"
+    },
+    "tags": ["systemic-risk", "broker-dealer", "dodd-frank", "2008-crisis"],
+    "verifiedOn": "2026-05-20"
+  },
+  {
+    "id": "gamestop",
+    "title": "The GameStop short squeeze and payment for order flow",
+    "dateRange": "January 2021",
+    "summary": "Retail traders coordinating on Reddit's r/wallstreetbets drove GameStop (GME) from under $20 to an intraday peak above $480 in late January 2021, inflicting major losses on short sellers including Melvin Capital. On January 28, Robinhood and several other brokers restricted buying of GME and other 'meme stocks,' citing clearinghouse collateral demands.",
+    "whyItMatters": "The episode forced public scrutiny of payment for order flow (PFOF), short-interest reporting, the T+2 settlement cycle (since shortened to T+1), and broker discretion to restrict trading. The SEC's October 14, 2021 staff report remains the canonical timeline.",
+    "ruleConnection": "Payment for order flow disclosure, Rule 605/606 best-execution reports, Reg SHO short-sale rules, clearinghouse margin and broker net capital.",
+    "primarySource": {
+      "name": "Wikipedia — GameStop short squeeze",
+      "url": "https://en.wikipedia.org/wiki/GameStop_short_squeeze"
+    },
+    "tags": ["pfof", "short-selling", "retail-trading", "best-execution"],
+    "verifiedOn": "2026-05-20"
+  },
+  {
+    "id": "svb",
+    "title": "Silicon Valley Bank's interest-rate-driven bank run",
+    "dateRange": "March 2023",
+    "summary": "SVB held large unrealized losses on long-duration Treasuries and mortgage-backed securities classified as held-to-maturity. After announcing a $1.8 billion realized loss and a capital raise on March 8, 2023, depositors withdrew roughly $42 billion in a single day. The FDIC seized the bank on March 10, 2023, the second-largest U.S. bank failure at the time. On March 12, regulators invoked the systemic-risk exception to protect uninsured depositors.",
+    "whyItMatters": "SVB illustrated how the AFS-vs-HTM accounting choice can mask interest-rate risk, how concentrated, uninsured deposits behave in a digital bank run, and the practical limits of FDIC insurance ($250k per depositor per ownership category).",
+    "ruleConnection": "FDIC insurance limits, bank capital and liquidity requirements, AFS vs HTM securities accounting, interest-rate / duration risk.",
+    "primarySource": {
+      "name": "Wikipedia — Collapse of Silicon Valley Bank",
+      "url": "https://en.wikipedia.org/wiki/Collapse_of_Silicon_Valley_Bank"
+    },
+    "tags": ["banking", "interest-rate-risk", "fdic", "duration"],
+    "verifiedOn": "2026-05-20"
+  },
+  {
+    "id": "ftx",
+    "title": "FTX collapse and the commingling of customer funds",
+    "dateRange": "November 2022 – March 2024",
+    "summary": "Crypto exchange FTX filed for Chapter 11 on November 11, 2022, after a CoinDesk article on the balance sheet of sister hedge fund Alameda Research triggered a run. Founder Sam Bankman-Fried was charged December 13, 2022 by DOJ and SEC, convicted on seven counts on November 2, 2023, and sentenced March 28, 2024 to 25 years in prison. Roughly $8 billion of customer funds had been transferred to Alameda.",
+    "whyItMatters": "FTX is the modern reference case for why regulated U.S. broker-dealers must segregate customer assets — and what happens when an offshore venue with no such rules ignores them. It accelerated U.S. proposals for explicit crypto market-structure rules.",
+    "ruleConnection": "Customer-protection / asset-segregation principles (analogous to Exchange Act Rule 15c3-3), broker-dealer financial responsibility, fraud and conspiracy under federal securities laws.",
+    "primarySource": {
+      "name": "Wikipedia — FTX",
+      "url": "https://en.wikipedia.org/wiki/FTX"
+    },
+    "tags": ["fraud", "customer-protection", "crypto", "segregation"],
+    "verifiedOn": "2026-05-20"
+  },
+  {
+    "id": "archegos",
+    "title": "Archegos and the hidden risk of total-return swaps",
+    "dateRange": "March 2021",
+    "summary": "Bill Hwang's family office Archegos Capital Management used total-return swaps with multiple prime brokers to take highly concentrated, leveraged positions in a handful of stocks without filing 13F disclosures. When several positions fell, the resulting forced unwind during the week of March 22, 2021 produced roughly $10 billion in losses across banks — about $5.5 billion at Credit Suisse and $2.9 billion at Nomura. Hwang was charged in April 2022 and convicted on 10 counts on July 10, 2024.",
+    "whyItMatters": "Archegos exposed how a single counterparty can build invisible, system-relevant exposures across multiple prime brokers via swaps, and is a key driver of new SEC swap-position reporting rules.",
+    "ruleConnection": "13F institutional reporting, Section 13 beneficial-ownership rules, total-return swaps and security-based swap reporting, prime-brokerage concentration risk.",
+    "primarySource": {
+      "name": "Wikipedia — Archegos Capital Management",
+      "url": "https://en.wikipedia.org/wiki/Archegos_Capital_Management"
+    },
+    "tags": ["family-office", "swaps", "13f", "prime-brokerage", "fraud"],
+    "verifiedOn": "2026-05-20"
+  },
+  {
+    "id": "martha-stewart-imclone",
+    "title": "Martha Stewart and the ImClone tip",
+    "dateRange": "December 2001 – March 2004",
+    "summary": "Martha Stewart sold her ImClone shares on December 27, 2001, the day before the FDA publicly rejected ImClone's cancer drug Erbitux. Her broker had told her that CEO Sam Waksal was dumping his own stock. She was indicted in June 2003 — notably not for insider trading itself, but for obstruction of justice, conspiracy, and lying to investigators. She was convicted on March 5, 2004 and served five months in prison.",
+    "whyItMatters": "The case underlines that tipper/tippee liability and the cover-up itself can be more legally dangerous than the trade. It remains the canonical study in 'material nonpublic information' from a corporate insider passed via a broker.",
+    "ruleConnection": "Insider trading under Rule 10b-5, tipper/tippee liability, obstruction of justice, broker's duty regarding MNPI received from clients.",
+    "primarySource": {
+      "name": "Wikipedia — ImClone stock trading case",
+      "url": "https://en.wikipedia.org/wiki/ImClone_stock_trading_case"
+    },
+    "tags": ["insider-trading", "mnpi", "tipper-tippee", "10b-5"],
+    "verifiedOn": "2026-05-20"
+  },
+  {
+    "id": "galleon-rajaratnam",
+    "title": "Raj Rajaratnam, Galleon, and the first wiretap insider-trading case",
+    "dateRange": "2009–2011",
+    "summary": "Galleon Group founder Raj Rajaratnam was charged on October 16, 2009 in the first major insider-trading prosecution to rely on federal wiretaps. He was convicted on May 11, 2011 on 14 counts of conspiracy and securities fraud, sentenced to 11 years — the longest insider-trading sentence at the time. Illegal profits were estimated at over $70 million, with tips coming from corporate insiders at Intel, IBM, McKinsey, and Goldman Sachs board member Rajat Gupta.",
+    "whyItMatters": "Galleon established wiretaps as a routine tool in white-collar enforcement and produced a generation of case law on tipper/tippee 'personal benefit' standards (later refined in U.S. v. Newman and Salman v. United States).",
+    "ruleConnection": "Insider trading under Rule 10b-5, misappropriation theory, tipper/tippee liability, expert-network MNPI risk.",
+    "primarySource": {
+      "name": "Wikipedia — Galleon Group",
+      "url": "https://en.wikipedia.org/wiki/Galleon_Group"
+    },
+    "tags": ["insider-trading", "10b-5", "hedge-fund", "wiretap"],
+    "verifiedOn": "2026-05-20"
+  },
+  {
+    "id": "knight-capital",
+    "title": "Knight Capital's $440 million 45-minute software glitch",
+    "dateRange": "August 1, 2012",
+    "summary": "Knight Capital deployed a new market-making algorithm with a code-deployment error that reactivated dormant test logic on one of eight servers. In roughly 45 minutes after the open on August 1, 2012, the firm accumulated unintended positions producing approximately $440 million in losses. Knight's stock fell about 75% over the next two days; the firm was rescued by an emergency investor group and later acquired by Getco to form KCG Holdings.",
+    "whyItMatters": "Knight is the textbook case for the SEC's Market Access Rule and remains required reading on the operational risk of automated trading and the cost of weak pre-trade controls and deployment hygiene.",
+    "ruleConnection": "SEC Market Access Rule (Rule 15c3-5), pre-trade risk controls, supervisory procedures for electronic trading, broker-dealer net capital.",
+    "primarySource": {
+      "name": "Wikipedia — Knight Capital Group",
+      "url": "https://en.wikipedia.org/wiki/Knight_Capital_Group"
+    },
+    "tags": ["market-access", "operational-risk", "algo-trading", "15c3-5"],
+    "verifiedOn": "2026-05-20"
+  },
+  {
+    "id": "flash-crash-2010",
+    "title": "The 2010 Flash Crash and spoofing",
+    "dateRange": "May 6, 2010",
+    "summary": "On May 6, 2010, the Dow Jones Industrial Average fell roughly 9% (about 1,000 points) and recovered most of it within minutes. The joint CFTC-SEC report attributed the crash to a confluence of HFT liquidity withdrawal and a large sell algorithm. London-based trader Navinder Sarao was later charged with contributing through 'spoofing'; he was extradited, pleaded guilty in November 2016, and was sentenced in January 2020 to one year of home detention.",
+    "whyItMatters": "The Flash Crash drove circuit-breaker / limit-up-limit-down (LULD) reforms and made 'spoofing' a named federal offense under the Dodd-Frank Act, with active enforcement against bank trading desks ever since.",
+    "ruleConnection": "Spoofing prohibition (Dodd-Frank §747 / Commodity Exchange Act §4c(a)(5)), market manipulation, layering, exchange circuit-breaker rules.",
+    "primarySource": {
+      "name": "Wikipedia — 2010 Flash Crash",
+      "url": "https://en.wikipedia.org/wiki/2010_flash_crash"
+    },
+    "tags": ["spoofing", "manipulation", "hft", "circuit-breakers"],
+    "verifiedOn": "2026-05-20"
+  },
+  {
+    "id": "wirecard",
+    "title": "Wirecard's missing €1.9 billion",
+    "dateRange": "2020",
+    "summary": "German payments company Wirecard collapsed in June 2020 after auditor EY refused to sign off on its accounts because €1.9 billion in claimed cash held in Philippine escrow could not be located. The Bundestag investigation concluded the cash never existed. CEO Markus Braun was arrested on June 23, 2020; COO Jan Marsalek fled and remains a fugitive. Wirecard filed for insolvency on June 25, 2020.",
+    "whyItMatters": "Wirecard is the modern European Enron — repeated short-seller and Financial Times reports of fraud were dismissed by German regulator BaFin, which even briefly banned short-selling of the stock. It is a key case study in auditor failures and regulator capture.",
+    "ruleConnection": "Auditor independence, internal controls over financial reporting, short-selling bans and market manipulation, foreign issuer disclosure.",
+    "primarySource": {
+      "name": "Wikipedia — Wirecard scandal",
+      "url": "https://en.wikipedia.org/wiki/Wirecard_scandal"
+    },
+    "tags": ["accounting-fraud", "audit-failure", "short-selling"],
+    "verifiedOn": "2026-05-20"
+  },
+  {
+    "id": "worldcom",
+    "title": "WorldCom's $11 billion accounting fraud",
+    "dateRange": "1999–2002",
+    "summary": "Telecom WorldCom improperly capitalized roughly $11 billion of operating 'line costs' to inflate reported earnings. The fraud was uncovered by internal auditor Cynthia Cooper. WorldCom filed for bankruptcy on July 21, 2002 with $107 billion in assets — at the time the largest in U.S. history, surpassing Enron. CEO Bernie Ebbers was convicted on March 15, 2005 on nine counts and sentenced to 25 years.",
+    "whyItMatters": "Coming just months after Enron, WorldCom cemented the political case for Sarbanes-Oxley and elevated internal auditors and whistleblower protections to a central role in corporate governance.",
+    "ruleConnection": "Sarbanes-Oxley Act of 2002, financial-reporting fraud, internal controls (Section 404), whistleblower protections (Section 806).",
+    "primarySource": {
+      "name": "Wikipedia — WorldCom",
+      "url": "https://en.wikipedia.org/wiki/WorldCom"
+    },
+    "tags": ["accounting-fraud", "sox", "whistleblower"],
+    "verifiedOn": "2026-05-20"
+  },
+  {
+    "id": "robinhood-pfof",
+    "title": "Robinhood's $65 million PFOF settlement",
+    "dateRange": "December 17, 2020",
+    "summary": "The SEC charged Robinhood with making misleading statements about its largest revenue source — payment for order flow — and with failing to seek the best reasonably available terms when executing customer orders. The SEC alleged customers received inferior prices that cost them more than $34 million even after accounting for Robinhood's commission-free pricing. The firm paid $65 million to settle without admitting or denying the findings.",
+    "whyItMatters": "The case is the headline U.S. enforcement action on PFOF disclosure and best execution, and feeds directly into ongoing SEC rulemaking on equity market structure (Rules 605, 615 order-competition, tick sizes).",
+    "ruleConnection": "Payment for order flow disclosure, best-execution obligation, Regulation NMS Rules 605/606, Regulation Best Interest (Reg BI).",
+    "primarySource": {
+      "name": "Wikipedia — Robinhood Markets",
+      "url": "https://en.wikipedia.org/wiki/Robinhood_Markets"
+    },
+    "tags": ["pfof", "best-execution", "reg-nms", "reg-bi", "broker-dealer"],
+    "verifiedOn": "2026-05-20"
+  },
+  {
+    "id": "ltcm",
+    "title": "Long-Term Capital Management and Fed-orchestrated rescue",
+    "dateRange": "1994–1998",
+    "summary": "Hedge fund LTCM, founded by John Meriwether and including Nobel laureates Myron Scholes and Robert Merton, used very high leverage to exploit small spreads in fixed-income arbitrage. After Russia's August 1998 default and a global flight to quality, LTCM faced about $4.6 billion in losses. On September 23, 1998 the Federal Reserve Bank of New York organized a $3.6 billion recapitalization by a consortium of 14 banks to avoid forced liquidation.",
+    "whyItMatters": "LTCM was the first 'too interconnected to fail' moment of the modern era — a private hedge fund whose counterparty exposures threatened multiple major banks. It foreshadowed 2008 and shaped how regulators think about hedge-fund leverage and counterparty risk.",
+    "ruleConnection": "Hedge fund leverage, counterparty / prime-brokerage risk, systemic risk, model risk in quantitative strategies.",
+    "primarySource": {
+      "name": "Wikipedia — Long-Term Capital Management",
+      "url": "https://en.wikipedia.org/wiki/Long-Term_Capital_Management"
+    },
+    "tags": ["hedge-fund", "leverage", "systemic-risk", "counterparty"],
+    "verifiedOn": "2026-05-20"
+  }
+]

@@ -17,6 +17,7 @@ export interface Question {
   source: string;
   regulatoryBasis?: string;
   lastVerified?: string;
+  relatedStories?: string[];  // IDs into the stories collection
 }
 
 export interface QuizResult {

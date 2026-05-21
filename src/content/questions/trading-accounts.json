@@ -386,7 +386,8 @@
     "difficulty": "hard",
     "source": "FINRA content outline",
     "regulatoryBasis": "Securities Exchange Act of 1934, Section 10(b); Dirks v. SEC, 463 U.S. 646 (1983)",
-    "lastVerified": "2026-05-20"
+    "lastVerified": "2026-05-20",
+    "relatedStories": ["galleon-rajaratnam", "martha-stewart-imclone"]
   },
   {
     "id": "q-ta-023",

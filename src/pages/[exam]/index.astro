@@ -12,6 +12,9 @@ export function getStaticPaths() {
     { params: { exam: 'series-63' } },
     { params: { exam: 'series-65' } },
     { params: { exam: 'series-66' } },
+    { params: { exam: 'series-3' } },
+    { params: { exam: 'series-24' } },
+    { params: { exam: 'series-79' } },
   ];
 }
 
@@ -44,6 +47,12 @@ if (exam === 'sie') {
   for (const q of await getCollection('series-65')) sectionCounts[q.data.section] = (sectionCounts[q.data.section] ?? 0) + 1;
 } else if (exam === 'series-66') {
   for (const q of await getCollection('series-66')) sectionCounts[q.data.section] = (sectionCounts[q.data.section] ?? 0) + 1;
+} else if (exam === 'series-3') {
+  for (const q of await getCollection('series-3')) sectionCounts[q.data.section] = (sectionCounts[q.data.section] ?? 0) + 1;
+} else if (exam === 'series-24') {
+  for (const q of await getCollection('series-24')) sectionCounts[q.data.section] = (sectionCounts[q.data.section] ?? 0) + 1;
+} else if (exam === 'series-79') {
+  for (const q of await getCollection('series-79')) sectionCounts[q.data.section] = (sectionCounts[q.data.section] ?? 0) + 1;
 }
 
 const totalQuestions = Object.values(sectionCounts).reduce((a, b) => a + b, 0);

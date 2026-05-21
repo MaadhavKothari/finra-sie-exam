@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback, useRef } from 'preact/hooks';
 import { useStore } from '@nanostores/preact';
 import { $progress, $streak, $level, $xp, $dailyProgress, $accuracy, recordAnswer, xpToNextLevel } from '../stores/progress';
 import type { Question } from '../lib/types';
+import StoryCard, { type Story } from './StoryCard';
 
 // JPMC brand tokens
 const B = {
@@ -18,6 +19,8 @@ interface Props {
   topicName: string;
   examSlug?: string;
   backUrl?: string;
+  /** Map of storyId -> Story. Questions reference stories by id via relatedStories[]. */
+  stories?: Record<string, Story>;
 }
 
 function shuffle<T>(arr: T[]): T[] {
@@ -29,7 +32,7 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
-export default function QuizEngine({ questions: allQuestions, topic, topicName, backUrl }: Props) {
+export default function QuizEngine({ questions: allQuestions, topic, topicName, backUrl, stories = {} }: Props) {
   const [mode, setMode] = useState<'menu' | 'quiz' | 'review' | 'results'>('menu');
   const [questions, setQuestions] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -360,12 +363,24 @@ export default function QuizEngine({ questions: allQuestions, topic, topicName, 
           })}
         </div>
 
-        <div class="bg-[#F4EFE7] border border-[#E5E0D8] rounded-sm p-4 mb-4">
+        <div class="bg-[#F4EFE7] border border-[#E5E0D8] rounded-sm p-4 mb-3">
           <p class="text-sm text-black leading-relaxed">{currentQ.explanation}</p>
           {currentQ.regulatoryBasis && (
             <p class="text-xs text-[#8F5A39] mt-2 font-medium">{currentQ.regulatoryBasis}</p>
           )}
         </div>
+
+        {/* Related story cards */}
+        {currentQ.relatedStories && currentQ.relatedStories.length > 0 && (
+          <div class="space-y-2 mb-4">
+            {currentQ.relatedStories
+              .map((sid) => stories[sid])
+              .filter((s): s is Story => Boolean(s))
+              .map((story) => (
+                <StoryCard key={story.id} story={story} />
+              ))}
+          </div>
+        )}
 
         <div class="flex gap-3">
           <button
@@ -514,6 +529,18 @@ export default function QuizEngine({ questions: allQuestions, topic, topicName, 
           {currentQ.regulatoryBasis && (
             <p class="text-xs text-[#8F5A39] mt-2 font-medium">{currentQ.regulatoryBasis}</p>
           )}
+        </div>
+      )}
+
+      {/* Related story cards */}
+      {revealed && currentQ.relatedStories && currentQ.relatedStories.length > 0 && (
+        <div class="space-y-2 mb-3">
+          {currentQ.relatedStories
+            .map((sid) => stories[sid])
+            .filter((s): s is Story => Boolean(s))
+            .map((story) => (
+              <StoryCard key={story.id} story={story} />
+            ))}
         </div>
       )}
 

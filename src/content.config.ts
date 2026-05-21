@@ -21,6 +21,7 @@ const sieQuestionSchema = z.object({
   source: z.string().min(1),
   regulatoryBasis: z.string().optional(),
   lastVerified: z.string().optional(),
+  relatedStories: z.array(z.string()).optional(),
 });
 
 // Schema for all other exams — single JSON file per exam, questions have a `section` field
@@ -36,6 +37,28 @@ const examQuestionSchema = z.object({
   source: z.string().min(1),
   regulatoryBasis: z.string().optional(),
   lastVerified: z.string().optional(),
+  relatedStories: z.array(z.string()).optional(),
+});
+
+// Story cards — accurate, sourced real-world cases shown after a question is answered.
+// sourceUrl is REQUIRED to enforce honest curation; verifiedOn tracks freshness.
+const storySchema = z.object({
+  id: z.string().min(1),
+  title: z.string().min(1),
+  dateRange: z.string().min(1),
+  summary: z.string().min(20),
+  whyItMatters: z.string().min(20),
+  ruleConnection: z.string().min(10),
+  primarySource: z.object({
+    name: z.string().min(1),
+    url: z.string().url(),
+  }),
+  furtherReading: z.array(z.object({
+    name: z.string().min(1),
+    url: z.string().url(),
+  })).optional(),
+  tags: z.array(z.string()).optional(),
+  verifiedOn: z.string().min(1),
 });
 
 // SIE — four separate collections (one per section)
@@ -77,6 +100,23 @@ const series66 = defineCollection({
   loader: file('src/content/questions/series-66.json'),
   schema: examQuestionSchema,
 });
+const series3 = defineCollection({
+  loader: file('src/content/questions/series-3.json'),
+  schema: examQuestionSchema,
+});
+const series24 = defineCollection({
+  loader: file('src/content/questions/series-24.json'),
+  schema: examQuestionSchema,
+});
+const series79 = defineCollection({
+  loader: file('src/content/questions/series-79.json'),
+  schema: examQuestionSchema,
+});
+
+const stories = defineCollection({
+  loader: file('src/content/stories/stories.json'),
+  schema: storySchema,
+});
 
 export const collections = {
   'capital-markets': capitalMarkets,
@@ -88,4 +128,9 @@ export const collections = {
   'series-63': series63,
   'series-65': series65,
   'series-66': series66,
+  'series-3': series3,
+  'series-24': series24,
+  'series-79': series79,
+  'stories': stories,
 };
+ 

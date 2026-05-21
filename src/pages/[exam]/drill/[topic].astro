@@ -41,6 +41,23 @@ export function getStaticPaths() {
     { params: { exam: 'series-66', topic: 'recommendations-strategies' } },
     { params: { exam: 'series-66', topic: 'laws-regulations' } },
     { params: { exam: 'series-66', topic: 'all' } },
+    // Series 3
+    { params: { exam: 'series-3', topic: 'market-knowledge' } },
+    { params: { exam: 'series-3', topic: 'regulations' } },
+    { params: { exam: 'series-3', topic: 'all' } },
+    // Series 24
+    { params: { exam: 'series-24', topic: 'registration-personnel' } },
+    { params: { exam: 'series-24', topic: 'general-supervision' } },
+    { params: { exam: 'series-24', topic: 'customer-supervision' } },
+    { params: { exam: 'series-24', topic: 'trading-supervision' } },
+    { params: { exam: 'series-24', topic: 'banking-research' } },
+    { params: { exam: 'series-24', topic: 'financial-responsibility' } },
+    { params: { exam: 'series-24', topic: 'all' } },
+    // Series 79
+    { params: { exam: 'series-79', topic: 'data-analysis' } },
+    { params: { exam: 'series-79', topic: 'underwriting-offerings' } },
+    { params: { exam: 'series-79', topic: 'ma-restructuring' } },
+    { params: { exam: 'series-79', topic: 'all' } },
   ];
 }
 
@@ -78,6 +95,15 @@ if (exam === 'sie') {
 } else if (exam === 'series-66') {
   const coll = await getCollection('series-66');
   questions = topic === 'all' ? coll.map(q => q.data) : coll.filter(q => q.data.section === topic).map(q => q.data);
+} else if (exam === 'series-3') {
+  const coll = await getCollection('series-3');
+  questions = topic === 'all' ? coll.map(q => q.data) : coll.filter(q => q.data.section === topic).map(q => q.data);
+} else if (exam === 'series-24') {
+  const coll = await getCollection('series-24');
+  questions = topic === 'all' ? coll.map(q => q.data) : coll.filter(q => q.data.section === topic).map(q => q.data);
+} else if (exam === 'series-79') {
+  const coll = await getCollection('series-79');
+  questions = topic === 'all' ? coll.map(q => q.data) : coll.filter(q => q.data.section === topic).map(q => q.data);
 }
 
 const sectionMeta = topic === 'all' ? null : examData.sections.find(s => s.id === topic);
@@ -86,8 +112,13 @@ const topicName = topic === 'all'
   : (sectionMeta?.name ?? topic.replace(/-/g, ' '));
 const base = import.meta.env.BASE_URL;
 const backUrl = `${base}${exam}`;
+
+// Story cards — load all and pass as id->Story map so QuizEngine can resolve relatedStories[]
+const storiesColl = await getCollection('stories');
+const stories: Record<string, any> = {};
+for (const s of storiesColl) stories[s.id] = s.data;
 ---
 
 <BaseLayout title={topicName}>
-  <QuizEngine client:load questions={questions} topic={topic!} topicName={topicName} backUrl={backUrl} />
+  <QuizEngine client:load questions={questions} topic={topic!} topicName={topicName} backUrl={backUrl} stories={stories} />
 </BaseLayout>
