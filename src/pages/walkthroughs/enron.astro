@@ -1,0 +1,10 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import WalkthroughEngine from '../../components/WalkthroughEngine';
+import enronData from '../../content/walkthroughs/enron.json';
+
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+<BaseLayout title="The Enron Collapse" description="An 8-chapter investigation into how accounting fraud and conflicts of interest destroyed the seventh-largest US company">
+  <WalkthroughEngine client:load walkthrough={enronData} base={base} />
+</BaseLayout>

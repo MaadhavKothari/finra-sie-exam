@@ -85,28 +85,52 @@ const exams = Object.values(EXAMS);
     {/* Scandal Walkthroughs */}
     <section class="mt-10">
       <p class="text-xs uppercase tracking-[0.15em] text-[#6b6560] font-medium mb-3">Scandal walkthroughs</p>
-      <a
-        href={`${base}walkthroughs/madoff`}
-        class="group block bg-black hover:bg-[#1a1a1a] rounded-sm p-5 no-underline transition-colors"
-      >
-        <div class="flex items-start justify-between gap-4">
-          <div>
-            <p class="text-[10px] uppercase tracking-[0.2em] text-white/40 mb-1.5 font-medium">Investigation</p>
-            <h3 style="font-family: var(--font-display);" class="text-lg text-white leading-snug mb-1">
-              The Madoff Fraud
-            </h3>
-            <p class="text-xs text-white/50 leading-relaxed">
-              How a $65 billion Ponzi scheme evaded regulators for decades
-            </p>
-            <div class="flex items-center gap-3 mt-3 text-xs text-white/30">
-              <span>8 chapters</span>
-              <span>|</span>
-              <span>~15 min</span>
+      <div class="space-y-3">
+        <a
+          href={`${base}walkthroughs/madoff`}
+          class="group block bg-black hover:bg-[#1a1a1a] rounded-sm p-5 no-underline transition-colors"
+        >
+          <div class="flex items-start justify-between gap-4">
+            <div>
+              <p class="text-[10px] uppercase tracking-[0.2em] text-white/40 mb-1.5 font-medium">Investigation</p>
+              <h3 style="font-family: var(--font-display);" class="text-lg text-white leading-snug mb-1">
+                The Madoff Fraud
+              </h3>
+              <p class="text-xs text-white/50 leading-relaxed">
+                How a $65 billion Ponzi scheme evaded regulators for decades
+              </p>
+              <div class="flex items-center gap-3 mt-3 text-xs text-white/30">
+                <span>8 chapters</span>
+                <span>|</span>
+                <span>~15 min</span>
+              </div>
             </div>
+            <div class="text-white/40 group-hover:text-white transition-colors text-lg mt-1 shrink-0">&rarr;</div>
           </div>
-          <div class="text-white/40 group-hover:text-white transition-colors text-lg mt-1 shrink-0">&rarr;</div>
-        </div>
-      </a>
+        </a>
+        <a
+          href={`${base}walkthroughs/enron`}
+          class="group block bg-black hover:bg-[#1a1a1a] rounded-sm p-5 no-underline transition-colors"
+        >
+          <div class="flex items-start justify-between gap-4">
+            <div>
+              <p class="text-[10px] uppercase tracking-[0.2em] text-white/40 mb-1.5 font-medium">Investigation</p>
+              <h3 style="font-family: var(--font-display);" class="text-lg text-white leading-snug mb-1">
+                The Enron Collapse
+              </h3>
+              <p class="text-xs text-white/50 leading-relaxed">
+                How accounting fraud and conflicts of interest destroyed the seventh-largest US company
+              </p>
+              <div class="flex items-center gap-3 mt-3 text-xs text-white/30">
+                <span>8 chapters</span>
+                <span>|</span>
+                <span>~15 min</span>
+              </div>
+            </div>
+            <div class="text-white/40 group-hover:text-white transition-colors text-lg mt-1 shrink-0">&rarr;</div>
+          </div>
+        </a>
+      </div>
     </section>
 
     {/* Footer */}

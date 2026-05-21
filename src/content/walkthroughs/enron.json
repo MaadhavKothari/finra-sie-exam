@@ -1,0 +1,271 @@
+{
+  "id": "enron",
+  "title": "The Enron Collapse",
+  "subtitle": "How accounting fraud and conflicts of interest destroyed the seventh-largest US company",
+  "questions": [
+    {
+      "id": "enron-01",
+      "year": "1985",
+      "chapterTitle": "The Merger",
+      "narrative": "In 1985, Houston Natural Gas merged with InterNorth, an Omaha-based pipeline company, to form one of the largest natural gas pipeline systems in the United States. Kenneth Lay, CEO of Houston Natural Gas, became CEO of the combined entity. The company rebranded as Enron in 1986.\n\nEnron was primarily an energy company, but Lay had ambitions far beyond pipelines. Over the next decade, Enron would transform itself from a traditional utility into something closer to a Wall Street trading house — buying and selling not just natural gas, but electricity futures, broadband capacity, weather derivatives, and eventually securities.\n\nAs Enron expanded into financial products, it crossed a critical regulatory threshold: energy companies that also trade securities are subject to federal securities laws.",
+      "stem": "When a company like Enron begins trading securities in addition to its core energy business, what federal registration requirement applies?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Registration as a municipal securities dealer under Section 15B of the Securities Exchange Act of 1934",
+          "explanation": "Municipal securities dealer registration is for firms dealing in securities issued by state and local governments, not for energy companies expanding into general securities trading."
+        },
+        {
+          "label": "B",
+          "text": "Registration as a broker-dealer under Section 15 of the Securities Exchange Act of 1934, if the company is in the business of buying and selling securities for others or for its own account",
+          "explanation": "Correct. Any entity that is in the business of effecting securities transactions for others (broker) or buying and selling securities for its own account as a regular business (dealer) must register as a broker-dealer under Section 15 of the Exchange Act, regardless of what other businesses it operates."
+        },
+        {
+          "label": "C",
+          "text": "Registration as a national securities exchange under Section 6 of the Securities Exchange Act of 1934",
+          "explanation": "Exchange registration is for entities that operate a marketplace for securities trading, such as the NYSE. A company trading securities for its own account or customers does not need exchange registration."
+        },
+        {
+          "label": "D",
+          "text": "No registration is required because energy companies are exempt from the Securities Exchange Act under the public utility exemption",
+          "explanation": "There is no blanket exemption for energy companies under the Exchange Act. If a company engages in securities transactions as a business, it must register regardless of its primary industry."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Under Section 15 of the Securities Exchange Act of 1934, any person or entity engaged in the business of effecting transactions in securities for the account of others (broker) or buying and selling securities for its own account as part of a regular business (dealer) must register with the SEC as a broker-dealer. This applies regardless of the entity's primary business. An energy company that begins trading securities must comply with the same registration requirements as a traditional Wall Street firm.",
+      "regulatoryLesson": "Broker-dealer registration under Section 15 of the Exchange Act applies to any entity in the business of trading securities, regardless of its primary industry. The obligation follows the activity, not the company's label.",
+      "whatActuallyHappened": "Enron created a web of subsidiaries and affiliates to handle its expanding financial operations. Enron Online, launched in 1999, became one of the largest electronic trading platforms in the world, handling $335 billion in transactions in 2000. The complexity of Enron's corporate structure — over 3,000 subsidiaries and special purpose entities — made it nearly impossible for regulators to see the full picture of what the company was actually doing."
+    },
+    {
+      "id": "enron-02",
+      "year": "1990s",
+      "chapterTitle": "Mark-to-Market Revolution",
+      "narrative": "In 1990, Enron hired Jeffrey Skilling from McKinsey & Company. Skilling had a radical idea: treat natural gas contracts like financial instruments. Instead of booking revenue as gas was delivered over time, Enron would estimate the total future value of long-term contracts and book the profit immediately.\n\nThis approach — mark-to-market accounting — was standard for financial trading firms but had never been applied to energy contracts. In 1991, Skilling convinced the SEC to approve mark-to-market accounting for Enron's Gas Bank division, a first for the energy industry.\n\nThe effect was transformative. A 20-year gas contract could now generate enormous \"profits\" the day it was signed, based entirely on Enron's internal estimates of future prices. The assumptions behind these valuations were controlled by the same executives whose compensation depended on reported earnings.",
+      "stem": "Mark-to-market accounting requires companies to report the fair value of assets based on current market prices. When does this method risk producing misleading financial statements?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "When the assets being valued trade on active, liquid markets with transparent pricing",
+          "explanation": "Active markets with transparent pricing actually make mark-to-market accounting more reliable, because fair value can be objectively determined from real transactions."
+        },
+        {
+          "label": "B",
+          "text": "When there is no active market for the assets, forcing the company to rely on internal models and assumptions to estimate fair value",
+          "explanation": "Correct. Mark-to-market accounting is most reliable when assets trade on liquid markets with observable prices. When no active market exists, companies must use internal valuation models (sometimes called 'mark-to-model'), which involve assumptions that management can manipulate. The lack of independent price verification creates an opportunity for earnings management or outright fraud."
+        },
+        {
+          "label": "C",
+          "text": "When the company reports mark-to-market gains in its quarterly earnings but not in its annual report",
+          "explanation": "The timing of reporting is a disclosure issue, not a fundamental problem with the valuation method. The core risk is in the reliability of the valuations themselves."
+        },
+        {
+          "label": "D",
+          "text": "When mark-to-market accounting is applied to short-term securities held for less than 90 days",
+          "explanation": "Short-term securities in liquid markets are actually ideal candidates for mark-to-market treatment, because their fair value is easily determined from market prices."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Mark-to-market (fair value) accounting is most reliable when assets trade on active markets with observable prices. When there is no liquid market — as was the case with many of Enron's long-term energy contracts — companies must estimate fair value using internal models. These estimates depend on assumptions about future prices, discount rates, and counterparty risk. Because management controls these assumptions, the method creates an opportunity to inflate reported earnings. Auditors and regulators refer to these as Level 3 fair value measurements under the accounting standards.",
+      "regulatoryLesson": "Fair value measurements fall into three levels: Level 1 (quoted market prices), Level 2 (observable inputs), and Level 3 (unobservable inputs/internal models). Level 3 valuations carry the highest risk of manipulation because they rely on management's own assumptions.",
+      "whatActuallyHappened": "Enron exploited mark-to-market accounting aggressively. The company booked hundreds of millions in profits on long-term contracts the day they were signed, using internal models that were never independently verified. When deals underperformed, Enron would restructure them into new contracts — booking fresh mark-to-market gains to mask the losses on the original deals. Former Enron trader John Arnold later described the culture: 'You were only as good as your last deal, and every deal had to be bigger than the one before.' By 2000, Enron claimed $111 billion in revenues."
+    },
+    {
+      "id": "enron-03",
+      "year": "1999-2000",
+      "chapterTitle": "The SPE Machine",
+      "narrative": "Andrew Fastow, Enron's CFO, engineered the company's most destructive innovation: a network of hundreds of Special Purpose Entities (SPEs) designed to hide debt off Enron's balance sheet and create the illusion of profits.\n\nThe names read like science fiction: LJM1, LJM2, Chewco, JEDI, Raptor I through IV. These entities were technically independent from Enron, which meant their debts did not appear on Enron's financial statements. But in practice, Enron controlled them, guaranteed their obligations, and used its own stock as collateral.\n\nFastow personally managed LJM1 and LJM2 while serving as Enron's CFO — simultaneously representing Enron on one side of transactions and his own partnerships on the other. He earned over $30 million from these arrangements. Enron's board of directors waived the company's conflict-of-interest policy to allow it.",
+      "stem": "Andrew Fastow managed partnerships that transacted directly with Enron while he served as Enron's CFO. Under securities regulations, what must public companies disclose about such arrangements?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Nothing, as long as the transactions are approved by the company's board of directors",
+          "explanation": "Board approval does not eliminate the disclosure requirement. Related-party transactions must be disclosed regardless of whether the board has approved them."
+        },
+        {
+          "label": "B",
+          "text": "Only the aggregate dollar amount of all related-party transactions in a footnote to the annual report",
+          "explanation": "While dollar amounts are part of the disclosure, the requirement extends well beyond a single aggregate figure. The nature of the relationship and the specifics of the transactions must be disclosed."
+        },
+        {
+          "label": "C",
+          "text": "Related-party transactions must be disclosed under Regulation S-K Item 404, including the nature of the relationship, a description of the transactions, and the amounts involved",
+          "explanation": "Correct. Regulation S-K Item 404 (Transactions with Related Persons) requires public companies to disclose any transaction exceeding $120,000 in which the company is a participant and a related person (including executive officers and their immediate family) has a direct or indirect material interest. The disclosure must include the related person's name, their relationship to the company, the nature of the transaction, and the dollar amounts involved."
+        },
+        {
+          "label": "D",
+          "text": "The CFO must resign from one position before the transaction can be completed, as dual roles are prohibited under the Exchange Act",
+          "explanation": "The Exchange Act does not categorically prohibit dual roles. The requirement is disclosure and proper governance, not an automatic prohibition. However, such conflicts raise serious governance concerns."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Regulation S-K Item 404 requires public companies to disclose transactions exceeding $120,000 involving related persons, including executive officers. The disclosure must cover the related person's identity, their relationship to the company, the nature and amount of the transactions, and the related person's interest in the transaction. This rule exists to ensure investors can evaluate whether insiders are enriching themselves at the company's expense.",
+      "regulatoryLesson": "Regulation S-K Item 404 (Related-Party Transactions) requires disclosure of transactions over $120,000 involving company insiders. The purpose is to let investors evaluate conflicts of interest and potential self-dealing by corporate officers.",
+      "whatActuallyHappened": "Enron technically disclosed the existence of the Fastow partnerships in footnotes to its financial statements, but the disclosures were so vague and complex that most investors and analysts could not understand them. The footnotes did not clearly state that Fastow was personally profiting from both sides of the transactions. When Bethany McLean of Fortune magazine asked Enron in March 2001 to explain how it made its money, the company could not provide a clear answer. The SPEs ultimately hid $1.2 billion in losses and $628 million in debt from Enron's balance sheet."
+    },
+    {
+      "id": "enron-04",
+      "year": "2000",
+      "chapterTitle": "Broadband & Blockbuster",
+      "narrative": "In July 2000, Enron announced a 20-year deal with Blockbuster to deliver video-on-demand over Enron's broadband network. Wall Street was electrified. Enron's stock surged past $90 per share.\n\nUsing mark-to-market accounting, Enron immediately booked $110 million in estimated profits from the deal. The problem: the technology barely worked. In a pilot with a few hundred customers in Portland, Oregon, the system was plagued by glitches. Blockbuster pulled out of the deal within months.\n\nBut the $110 million in \"profits\" had already been reported. Enron had used a complex structure involving a Canadian bank and an SPE called \"Braveheart\" to monetize the deal. The projected revenue stream was sold to the SPE, which borrowed against it, generating immediate cash that Enron booked as earnings.\n\nAnalysts at major investment banks continued to rate Enron stock as a \"buy.\"",
+      "stem": "Enron booked $110 million in profits on a deal that generated almost no actual revenue. Under securities regulations, what obligation do securities analysts and underwriters have regarding reported earnings?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Analysts may rely entirely on company-reported earnings without independent verification, as they are entitled to rely on audited financial statements",
+          "explanation": "While analysts do rely on audited financials, they also have obligations to conduct reasonable analysis and disclose risks. Blindly accepting reported numbers without any independent assessment falls below professional standards."
+        },
+        {
+          "label": "B",
+          "text": "Analysts must conduct reasonable investigation and have a reasonable basis for their recommendations, and must disclose conflicts of interest such as investment banking relationships",
+          "explanation": "Correct. FINRA Rule 2241 (Research Analysts and Research Reports) requires that research recommendations have a reasonable basis and that analysts disclose conflicts of interest, including whether the firm has investment banking relationships with the subject company. Analysts who issue 'buy' ratings without reasonable investigation, or who fail to disclose that their firm earns banking fees from the company, violate these rules."
+        },
+        {
+          "label": "C",
+          "text": "Analysts are only required to disclose their personal stock holdings, not their firm's investment banking relationships with the company",
+          "explanation": "The disclosure requirements extend well beyond personal holdings. Firm-level conflicts, including investment banking relationships, must also be disclosed because they can compromise the objectivity of research."
+        },
+        {
+          "label": "D",
+          "text": "Underwriters are prohibited from publishing any research on companies they have taken public within the past 12 months",
+          "explanation": "While there are quiet period restrictions around IPOs and secondary offerings, there is no blanket 12-month prohibition on all research. The rules focus on managing conflicts rather than banning coverage entirely."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "FINRA Rule 2241 governs research analysts and research reports. It requires that recommendations have a reasonable basis supported by diligent investigation, and mandates disclosure of material conflicts of interest, including investment banking relationships. Analysts at firms that earn fees from a company they cover face an inherent conflict: positive research can help win and retain banking business. The rule requires these conflicts to be prominently disclosed so investors can assess the objectivity of the recommendation.",
+      "regulatoryLesson": "FINRA Rule 2241 (Research Analysts and Research Reports) requires research recommendations to have a reasonable basis and mandates disclosure of conflicts including investment banking relationships. Research must be separated from investment banking influence.",
+      "whatActuallyHappened": "Wall Street analyst coverage of Enron was deeply conflicted. The major investment banks that rated Enron stock as a 'buy' were simultaneously earning tens of millions of dollars in fees from Enron's debt offerings, structured finance deals, and advisory work. Only one analyst at a major firm — John Olson at Merrill Lynch — maintained a neutral rating on Enron. After Enron complained, Olson was replaced by an analyst who upgraded the stock. Of the 16 analysts covering Enron in October 2001 — a month before bankruptcy — all but one still rated it a 'buy' or 'strong buy.' The Blockbuster deal, meanwhile, generated less than $2 million in actual revenue before it was abandoned."
+    },
+    {
+      "id": "enron-05",
+      "year": "Aug 2001",
+      "chapterTitle": "Sherron Watkins",
+      "narrative": "On August 15, 2001, Enron Vice President Sherron Watkins sent an anonymous seven-page memo to CEO Kenneth Lay. The letter opened with a stark warning: \"I am incredibly nervous that we will implode in a wave of accounting scandals.\"\n\nWatkins detailed her concerns about the Raptor SPEs and the LJM partnerships, explaining that these structures were designed to hide losses using Enron's own declining stock. She warned that when the stock dropped far enough, the whole structure would unravel.\n\nLay forwarded the letter to Enron's outside law firm, Vinson & Elkins — the same firm that had helped create the structures Watkins was reporting. The lawyers investigated and found nothing wrong. They also recommended that Enron consider whether to discipline Watkins for disloyalty.\n\nA separate memo from Vinson & Elkins noted that it might be advisable to begin \"ichapter retention\" discussions — widely interpreted as a reference to potential document destruction.",
+      "stem": "After the Enron scandal, Congress enacted whistleblower protections in the Sarbanes-Oxley Act of 2002. Under SOX Section 806, what protection is provided to employees who report suspected securities fraud?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Employees are guaranteed immunity from all criminal prosecution if they report fraud to their supervisor within 30 days of discovering it",
+          "explanation": "SOX Section 806 provides protection from employer retaliation, not criminal immunity. Whistleblower protections and criminal immunity are separate legal concepts."
+        },
+        {
+          "label": "B",
+          "text": "Employees of publicly traded companies are protected from retaliation — including discharge, demotion, suspension, or threats — for reporting conduct they reasonably believe constitutes securities fraud",
+          "explanation": "Correct. SOX Section 806 prohibits publicly traded companies from retaliating against employees who provide information or assist in investigations regarding conduct the employee reasonably believes constitutes a violation of federal securities laws, SEC rules, or federal anti-fraud statutes. Protected activity includes reporting to a supervisor, to Congress, or to a federal regulatory agency."
+        },
+        {
+          "label": "C",
+          "text": "Employees must first report suspected fraud through their company's internal compliance department before they can receive whistleblower protection",
+          "explanation": "SOX Section 806 does not require internal reporting first. Employees may report directly to federal agencies, Congress, or their supervisors and still receive protection."
+        },
+        {
+          "label": "D",
+          "text": "Only employees at the executive vice president level or above qualify for whistleblower protection under SOX",
+          "explanation": "SOX whistleblower protections apply to all employees of publicly traded companies, regardless of their level in the corporate hierarchy."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Sarbanes-Oxley Section 806 (codified at 18 U.S.C. Section 1514A) protects employees of publicly traded companies from retaliation when they report conduct they reasonably believe violates federal securities laws. Protected activity includes providing information to a supervisor, federal regulatory agency, or Congress regarding conduct the employee reasonably believes constitutes mail fraud, wire fraud, bank fraud, securities fraud, or any violation of SEC rules. Remedies for retaliation include reinstatement, back pay, and compensation for litigation costs and attorney fees.",
+      "regulatoryLesson": "SOX Section 806 protects employees of public companies from retaliation for reporting suspected securities fraud to supervisors, federal agencies, or Congress. The standard is a reasonable belief that a violation occurred, not proof of actual fraud.",
+      "whatActuallyHappened": "Sherron Watkins was not fired, but she was reassigned and marginalized within Enron. Because SOX did not exist in August 2001, she had no federal whistleblower protection. The memo she wrote proved prophetic in every detail. Within two months of her warning, Enron's financial statements began to unravel exactly as she had predicted. Watkins later testified before Congress and became one of three women named TIME Magazine's Persons of the Year for 2002. The fact that Enron's own law firm investigated the complaint and recommended retaliating against the whistleblower became a case study in why internal reporting alone is insufficient."
+    },
+    {
+      "id": "enron-06",
+      "year": "Oct 2001",
+      "chapterTitle": "The Collapse",
+      "narrative": "On October 16, 2001, Enron announced a $618 million third-quarter loss and disclosed a $1.2 billion reduction in shareholder equity related to the Fastow partnerships. Days later, the SEC opened a formal investigation.\n\nThe restatement snowballed. Enron revised four years of financial statements, eliminating $586 million in reported profits. The Wall Street Journal and other outlets reported the details of the Fastow partnerships, the SPE structures, and the conflicts of interest that had been hidden in footnotes.\n\nEnron's stock, which had been above $33 at the start of October, plummeted to under $1 by the end of November. Its credit rating was downgraded to junk status.\n\nMeanwhile, Enron's auditor, Arthur Andersen, launched a massive document destruction effort. An Andersen partner in Houston ordered the shredding of thousands of pounds of Enron-related documents and the deletion of emails, even after learning that the SEC had begun investigating.",
+      "stem": "Arthur Andersen destroyed audit workpapers and documents related to Enron while an SEC investigation was underway. Under securities regulations, what are the requirements for audit firms regarding document retention?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Audit firms must retain workpapers for a minimum of one year following the completion of the audit, after which they may destroy records at their discretion",
+          "explanation": "One year is far too short. SEC rules require longer retention, and destruction while an investigation is pending is obstruction of justice regardless of any retention period."
+        },
+        {
+          "label": "B",
+          "text": "Audit firms must retain workpapers for at least seven years under SEC Rule 2-06 of Regulation S-X, and destroying documents to obstruct an SEC investigation is a federal crime under SOX Section 802",
+          "explanation": "Correct. SEC Rule 2-06 of Regulation S-X requires audit firms to retain workpapers and other documents that form the basis of an audit for at least seven years. SOX Section 802 (enacted after Enron) made it a federal crime, punishable by up to 20 years imprisonment, to knowingly destroy, alter, or falsify documents with intent to obstruct a federal investigation."
+        },
+        {
+          "label": "C",
+          "text": "Audit firms may destroy workpapers after issuing the final audit opinion, as the opinion itself constitutes the firm's permanent record of the engagement",
+          "explanation": "The audit opinion is a summary conclusion, not a substitute for the underlying workpapers. Regulators need access to workpapers to evaluate how the auditor reached its conclusions."
+        },
+        {
+          "label": "D",
+          "text": "Only the lead engagement partner is responsible for document retention; the audit firm itself has no independent obligation to preserve records",
+          "explanation": "Document retention obligations apply to the audit firm as an entity, not just to the individual engagement partner. The firm must have systems and policies to ensure compliance."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "SEC Rule 2-06 of Regulation S-X requires accounting firms to retain audit workpapers for at least seven years following the conclusion of the audit. These workpapers are essential for regulators to review the quality and thoroughness of the audit. SOX Section 802, enacted in direct response to the Arthur Andersen shredding, made it a crime punishable by up to 20 years imprisonment to knowingly alter, destroy, or conceal documents with the intent to impede a federal investigation.",
+      "regulatoryLesson": "Audit workpapers must be retained for seven years (SEC Rule 2-06, Regulation S-X). SOX Section 802 criminalizes document destruction intended to obstruct federal investigations, with penalties up to 20 years imprisonment.",
+      "whatActuallyHappened": "Arthur Andersen's Houston office shredded approximately one ton of Enron documents and deleted thousands of emails between October and November 2001. The destruction continued even after Andersen's in-house lawyers warned that the SEC investigation was underway. Andersen was indicted for obstruction of justice in March 2002 and convicted by a jury in June 2002. Although the Supreme Court unanimously overturned the conviction in 2005 on the grounds that the jury instructions were too vague, the firm had already ceased auditing public companies. Andersen surrendered its CPA licenses in 2002, ending the 89-year-old firm and eliminating one of the Big Five accounting firms."
+    },
+    {
+      "id": "enron-07",
+      "year": "Dec 2001",
+      "chapterTitle": "Bankruptcy",
+      "narrative": "On December 2, 2001, Enron filed for Chapter 11 bankruptcy protection — the largest bankruptcy in American history at the time, with $63.4 billion in assets. Approximately 20,000 employees lost their jobs, many with little notice.\n\nThe human cost went far beyond unemployment. Enron had aggressively encouraged employees to invest their 401(k) retirement savings in Enron stock. At its peak, 62% of the assets in the Enron 401(k) plan were invested in company stock. When the stock collapsed, employees lost an estimated $2 billion in retirement savings.\n\nTo make matters worse, Enron had imposed a \"lockout\" period on the 401(k) plan during October and November 2001 — preventing employees from selling their Enron shares even as executives were dumping theirs. By the time the lockout was lifted, the stock was nearly worthless.",
+      "stem": "Enron employees lost $2 billion in retirement savings because their 401(k) plan was heavily concentrated in company stock. Under ERISA, what fiduciary duty applies to those managing employer-sponsored retirement plans?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Plan fiduciaries must ensure that no more than 5% of plan assets are invested in any single security, including employer stock",
+          "explanation": "ERISA does not impose a strict 5% concentration limit on all plans. The 5% rule is a general prudent diversification guideline, but ERISA has specific provisions for employer stock in certain plan types. The core duty is prudence and diversification."
+        },
+        {
+          "label": "B",
+          "text": "Plan fiduciaries must act solely in the interest of plan participants, diversify plan investments to minimize the risk of large losses, and discharge their duties with the care and skill of a prudent person",
+          "explanation": "Correct. ERISA Section 404(a) imposes a duty of loyalty (acting solely in participants' interest), a duty of prudence (acting with the care and skill of a prudent expert), and a duty to diversify investments to minimize the risk of large losses. Allowing 62% of plan assets to concentrate in a single stock — especially the employer's own volatile stock — raises serious questions about whether fiduciaries fulfilled these duties."
+        },
+        {
+          "label": "C",
+          "text": "Plan fiduciaries have no obligation regarding investment selection if the plan is structured as a participant-directed 401(k), because employees choose their own investments",
+          "explanation": "Even in participant-directed plans, fiduciaries have duties to select and monitor the investment options offered, provide adequate disclosure, and avoid offering imprudent options. The fiduciary does not escape responsibility simply because participants make their own allocation choices."
+        },
+        {
+          "label": "D",
+          "text": "ERISA only applies to pension plans with a guaranteed benefit, not to 401(k) plans where the employee bears investment risk",
+          "explanation": "ERISA covers both defined benefit and defined contribution plans, including 401(k) plans. Fiduciary duties apply to anyone exercising discretionary authority over plan management or assets."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "ERISA Section 404(a) imposes three core fiduciary duties on those managing retirement plans: the duty of loyalty (acting exclusively in the interest of plan participants and beneficiaries), the duty of prudence (acting with the care, skill, and diligence that a prudent person familiar with such matters would use), and the duty to diversify plan investments to minimize the risk of large losses. These duties apply to all persons who exercise discretionary authority or control over a plan.",
+      "regulatoryLesson": "ERISA Section 404(a) requires plan fiduciaries to act with loyalty, prudence, and diversification. The Pension Protection Act of 2006, passed partly in response to Enron, gave employees the right to diversify out of employer stock in their 401(k) after three years of service.",
+      "whatActuallyHappened": "Enron executives sold over $1 billion in company stock in the years before the collapse while simultaneously encouraging employees to buy more. CEO Kenneth Lay sold $70 million in stock while telling employees the company was in excellent shape. The 401(k) lockout that prevented employees from selling coincided with the period of steepest stock decline. Congress responded with the Pension Protection Act of 2006, which gave employees of public companies the right to diversify out of employer stock in defined contribution plans after three years of service. Lawsuits by Enron employees against plan fiduciaries resulted in a $356 million settlement."
+    },
+    {
+      "id": "enron-08",
+      "year": "2002-Present",
+      "chapterTitle": "The Aftermath",
+      "narrative": "The Enron collapse triggered the most sweeping corporate reform legislation in a generation. On July 30, 2002, President George W. Bush signed the Sarbanes-Oxley Act into law.\n\nThe legal consequences were severe. Andrew Fastow pleaded guilty and served six years in federal prison. Jeffrey Skilling was sentenced to 24 years (later reduced to 14) and was released in February 2019. Kenneth Lay was convicted on May 25, 2006, but died of a heart attack on July 5, 2006, before sentencing — his conviction was vacated under the legal principle of abatement.\n\nArthur Andersen was convicted of obstruction of justice in June 2002. The Supreme Court unanimously overturned the conviction in 2005, but by then the firm had already dissolved. Its demise reduced the Big Five accounting firms to the Big Four.\n\nThe total losses to shareholders, employees, and creditors exceeded $74 billion.",
+      "stem": "The Sarbanes-Oxley Act of 2002 was passed in direct response to Enron and other corporate scandals. Which of the following is a key requirement imposed by SOX?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Companies must obtain shareholder approval before hiring their external auditor, ensuring investor control over audit quality",
+          "explanation": "SOX created the PCAOB to oversee audit firms and required audit committee oversight of the auditor relationship, but it did not require a direct shareholder vote on auditor selection."
+        },
+        {
+          "label": "B",
+          "text": "The CEO and CFO must personally certify the accuracy of financial statements under Section 302, and companies must establish and report on internal controls over financial reporting under Section 404",
+          "explanation": "Correct. SOX Section 302 requires the CEO and CFO to personally certify that financial statements fairly present the company's financial condition, and that they are responsible for internal controls. SOX Section 404 requires management to assess and report on the effectiveness of internal controls over financial reporting, with the external auditor attesting to that assessment. Knowing certification is false carries penalties of up to $5 million in fines and 20 years imprisonment."
+        },
+        {
+          "label": "C",
+          "text": "All public companies must rotate their CEO every five years to prevent any single executive from accumulating too much control over financial reporting",
+          "explanation": "SOX requires rotation of the lead audit partner every five years (Section 203), not rotation of the CEO. The law addresses audit independence, not management tenure."
+        },
+        {
+          "label": "D",
+          "text": "External auditors are prohibited from providing any non-audit services to their audit clients, with no exceptions",
+          "explanation": "SOX Section 201 prohibits specific non-audit services (like bookkeeping and internal audit outsourcing) for audit clients but does not ban all non-audit services. Certain tax and advisory services are still permitted with audit committee pre-approval."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "SOX Section 302 requires the CEO and CFO of public companies to certify in each annual and quarterly report that the financial statements are accurate and complete, and that they have evaluated the effectiveness of internal controls. SOX Section 404 requires management to include an internal control report in the annual report assessing the effectiveness of internal controls over financial reporting, and requires the external auditor to attest to management's assessment. False certification can result in fines up to $5 million and imprisonment up to 20 years.",
+      "regulatoryLesson": "SOX Section 302 (CEO/CFO certification of financials) and Section 404 (internal controls assessment and auditor attestation) are the landmark provisions of the Sarbanes-Oxley Act. Together they make corporate executives personally accountable for the accuracy of financial reporting.",
+      "whatActuallyHappened": "SOX fundamentally changed corporate governance in the United States. The creation of the PCAOB (Public Company Accounting Oversight Board) ended the accounting profession's era of self-regulation. SOX compliance costs were significant — estimated at $4.6 million per company in the first year — but supporters argued the cost was trivial compared to the $74 billion destroyed by Enron alone. Skilling served 12 years in federal prison before his release in February 2019 after cooperating with authorities and forfeiting $42 million to a restitution fund. Fastow served six years and has since spoken publicly about corporate ethics. Lay's death vacated his conviction, meaning in the eyes of the law, he was never found guilty — a bitter outcome for the thousands of employees who lost their savings."
+    }
+  ]
+}
