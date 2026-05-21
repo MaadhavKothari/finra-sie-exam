@@ -1,1 +1,2061 @@
-[]
+[
+  {
+    "id": "q-s24-001",
+    "section": "registration-personnel",
+    "stem": "A registered representative at a broker-dealer is terminated after an internal investigation reveals unauthorized trading in customer accounts. Within how many days must the firm file a Form U5 with FINRA?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "10 days",
+        "explanation": "Incorrect. While some regulatory filings have a 10-day window, the Form U5 must be filed within 30 days of termination, not 10."
+      },
+      {
+        "label": "B",
+        "text": "30 days",
+        "explanation": "Correct. FINRA Rule 8311 and FINRA By-Laws Article V, Section 3 require a member firm to file a Form U5 within 30 days of an associated person's termination."
+      },
+      {
+        "label": "C",
+        "text": "60 days",
+        "explanation": "Incorrect. A 60-day filing window is too long. The Form U5 must be filed within 30 days to ensure timely public disclosure of the representative's departure and its circumstances."
+      },
+      {
+        "label": "D",
+        "text": "90 days",
+        "explanation": "Incorrect. There is no 90-day filing window for U5 filings. Delayed filing would allow a terminated representative to potentially associate with another firm without disclosure of the termination reason."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Under FINRA By-Laws Article V, Section 3, a member firm must file Form U5 within 30 days of the date a registered person is terminated. This applies regardless of the reason for termination. If the termination involves allegations of violations of securities laws, FINRA rules, or internal policies, the firm must also disclose the reason for termination on the U5.",
+    "subtopic": "form-u5-filing-deadlines",
+    "difficulty": "easy",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA By-Laws Article V, Section 3; FINRA Rule 8311",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-002",
+    "section": "registration-personnel",
+    "stem": "A principal reviews a newly hired registered representative's Form U4 and notices the representative did not disclose a prior felony conviction. What is the principal's most appropriate course of action?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Allow the representative to begin work while the matter is investigated internally.",
+        "explanation": "Incorrect. Permitting an individual with a potentially undisclosed statutory disqualification to begin servicing customers exposes the firm to regulatory risk and violates supervisory obligations."
+      },
+      {
+        "label": "B",
+        "text": "Immediately amend the Form U4 to include the conviction and notify FINRA.",
+        "explanation": "Correct. The firm has an obligation to ensure accurate disclosure on the U4. Under FINRA Rule 1010 and Article III of FINRA By-Laws, a member must promptly amend the U4 to reflect material changes, and a felony conviction is a statutory disqualification event that must be disclosed."
+      },
+      {
+        "label": "C",
+        "text": "Terminate the representative without filing any amendments.",
+        "explanation": "Incorrect. Even if the representative is terminated, the firm must still ensure accurate records. If the firm files a U5, it must disclose the reason for termination. Simply terminating without updating the U4 does not fulfill the firm's regulatory obligations."
+      },
+      {
+        "label": "D",
+        "text": "Contact the representative's previous employer to verify the conviction before taking action.",
+        "explanation": "Incorrect. While due diligence with prior employers is reasonable, delaying action on a known undisclosed felony conviction is not appropriate. The firm must promptly ensure Form U4 accuracy and determine whether a statutory disqualification applies."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Firms are required to ensure that Form U4 information is accurate and complete. A felony conviction constitutes a statutory disqualification under Section 3(a)(39) of the Securities Exchange Act of 1934. The principal must promptly amend the U4, notify FINRA, and determine whether the individual can continue to associate with the firm or whether a statutory disqualification application (MC-400) must be filed.",
+    "subtopic": "form-u4-amendments",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 1010; FINRA By-Laws Article III; Securities Exchange Act Section 3(a)(39)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-003",
+    "section": "registration-personnel",
+    "stem": "A general securities principal at a broker-dealer learns that an associated person's registration has lapsed because they failed to complete their Regulatory Element continuing education requirement within the prescribed window. What is the consequence?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The person may continue to function in a limited capacity for 60 additional days.",
+        "explanation": "Incorrect. There is no grace period allowing continued securities activities. Once the CE window closes without completion, the registration becomes inactive immediately."
+      },
+      {
+        "label": "B",
+        "text": "The person's registration becomes inactive and they are prohibited from performing any activities requiring registration until the requirement is satisfied.",
+        "explanation": "Correct. Under FINRA Rule 1240, if a registered person fails to complete the Regulatory Element within the prescribed 120-day window, their registration becomes inactive. They may not perform any duties requiring registration until the requirement is fulfilled."
+      },
+      {
+        "label": "C",
+        "text": "The person must retake their qualifying examination before their registration can be restored.",
+        "explanation": "Incorrect. The person does not need to retake their qualifying exam simply for failing to complete CE. However, if the registration remains inactive for an extended period (two or more years), they would eventually need to re-qualify by examination."
+      },
+      {
+        "label": "D",
+        "text": "FINRA automatically terminates the person's registration and the firm must file a Form U5.",
+        "explanation": "Incorrect. The registration becomes inactive, not terminated. Inactivation is different from termination. The firm does not need to file a U5 for an inactive registration — the person remains associated but cannot perform registered activities."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA Rule 1240 (Continuing Education Requirements) mandates that registered persons complete the Regulatory Element within 120 days of their second registration anniversary and every three years thereafter. Failure to complete it within the window results in automatic inactivation of registration. The person cannot perform any activities requiring registration until they complete the requirement, though their registration is not terminated.",
+    "subtopic": "continuing-education-regulatory-element",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 1240 (Continuing Education Requirements)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-004",
+    "section": "registration-personnel",
+    "stem": "Which of the following individuals would require registration as a general securities principal (Series 24) before supervising the activity described?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "A person supervising only the sale of investment company products and variable contracts.",
+        "explanation": "Incorrect. A person supervising only the sale of investment company and variable contract products may qualify for a Series 26 (Investment Company and Variable Contracts Products Principal) registration instead of the Series 24."
+      },
+      {
+        "label": "B",
+        "text": "A person supervising the firm's options trading operations.",
+        "explanation": "Incorrect. A person supervising options activities requires a Series 4 (Registered Options Principal) registration, which is a specialized principal registration distinct from the Series 24."
+      },
+      {
+        "label": "C",
+        "text": "A person supervising representatives who solicit equity and debt securities transactions for retail customers.",
+        "explanation": "Correct. Supervising representatives engaged in general securities business — including equity and debt transactions — requires registration as a General Securities Principal (Series 24) under FINRA Rule 1220(a)(3)."
+      },
+      {
+        "label": "D",
+        "text": "A person supervising only municipal securities activities.",
+        "explanation": "Incorrect. A person supervising only municipal securities activities requires a Series 53 (Municipal Securities Principal) registration under MSRB rules, not a Series 24."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Under FINRA Rule 1220(a)(3), a General Securities Principal (Series 24) is required to supervise the general securities activities of a broker-dealer, including equity and debt transactions. Specialized activities such as options (Series 4), municipal securities (Series 53), and investment company/variable contract products (Series 26) have their own principal registration categories.",
+    "subtopic": "principal-registration-requirements",
+    "difficulty": "easy",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 1220(a)(3)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-005",
+    "section": "registration-personnel",
+    "stem": "A broker-dealer discovers that one of its registered representatives has been operating a private securities transaction ('selling away') without prior written notice to the firm. As the supervising principal, which of the following is the FIRST action you should take?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "File a SAR (Suspicious Activity Report) with FinCEN.",
+        "explanation": "Incorrect. While a SAR may be warranted in some cases involving fraud, the primary obligation upon discovering an undisclosed private securities transaction is to address the supervisory and compliance violation under FINRA Rule 3280. SARs address potential money laundering or terrorist financing."
+      },
+      {
+        "label": "B",
+        "text": "Immediately suspend the representative and file a Form U5.",
+        "explanation": "Incorrect. While disciplinary action may follow, immediate suspension and U5 filing is premature before conducting a thorough review. The firm must first assess the scope of the activity and determine what customer harm, if any, has occurred."
+      },
+      {
+        "label": "C",
+        "text": "Conduct a thorough review of the representative's outside activities and determine whether the transactions should be recorded on the firm's books.",
+        "explanation": "Correct. Under FINRA Rule 3280, when a firm discovers an unapproved private securities transaction, the principal must review the activity, assess customer impact, and determine if the firm should record the transactions on its books or take other remedial action, including potential heightened supervision."
+      },
+      {
+        "label": "D",
+        "text": "Report the representative directly to FINRA Enforcement without further internal review.",
+        "explanation": "Incorrect. While reporting to FINRA may ultimately be required, the firm's first obligation is to conduct its own review under its supervisory procedures. A premature report without understanding the scope would be incomplete and unhelpful."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "FINRA Rule 3280 (Private Securities Transactions) requires that associated persons provide prior written notice to their firm before engaging in any securities transaction outside the regular course of their employment. When a principal discovers such activity, the first step is to conduct a thorough review to determine the scope, assess potential customer harm, and decide whether to approve and record the transactions on the firm's books or take disciplinary and remedial action.",
+    "subtopic": "private-securities-transactions",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 3280 (Private Securities Transactions of an Associated Person)",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["madoff"]
+  },
+  {
+    "id": "q-s24-006",
+    "section": "registration-personnel",
+    "stem": "A registered representative at your firm wants to serve on the board of directors of a publicly traded company. Under FINRA rules, what must the representative do BEFORE accepting this position?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Notify FINRA directly and obtain written approval from the regulator.",
+        "explanation": "Incorrect. The representative's obligation is to provide written notice to their employing member firm, not directly to FINRA. It is the firm's responsibility to evaluate and approve or deny the outside business activity."
+      },
+      {
+        "label": "B",
+        "text": "Provide prior written notice to the member firm describing the proposed activity.",
+        "explanation": "Correct. Under FINRA Rule 3270 (Outside Business Activities), a registered person must provide prior written notice to the member firm before engaging in any outside business activity, including serving on a corporate board. The firm must then evaluate the activity for potential conflicts of interest."
+      },
+      {
+        "label": "C",
+        "text": "Resign their securities registration before accepting the board position.",
+        "explanation": "Incorrect. Serving on a board does not necessarily require resignation from the firm. However, the firm must evaluate whether the board position creates conflicts of interest, particularly access to material nonpublic information about the company."
+      },
+      {
+        "label": "D",
+        "text": "Obtain written consent from the publicly traded company acknowledging their broker-dealer affiliation.",
+        "explanation": "Incorrect. While the company may have its own requirements, the FINRA obligation is for the representative to notify their employing member firm. The company's consent is not a FINRA requirement."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA Rule 3270 requires registered persons to provide prior written notice to their employing member firm before engaging in any outside business activity. Serving on the board of a public company is a significant activity that the firm must evaluate for conflicts of interest, particularly regarding access to material nonpublic information and potential insider trading risks. The firm may impose conditions such as information barriers or trading restrictions.",
+    "subtopic": "outside-business-activities",
+    "difficulty": "easy",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 3270 (Outside Business Activities of Registered Persons)",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["martha-stewart-imclone"]
+  },
+  {
+    "id": "q-s24-007",
+    "section": "registration-personnel",
+    "stem": "A broker-dealer's compliance department discovers that a registered representative failed to disclose a customer complaint on their Form U4 amendment filed three months ago. Under FINRA rules, the firm must amend the Form U4 to include the complaint within how many days of discovering the omission?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "10 days",
+        "explanation": "Incorrect. The 10-day amendment requirement applies to updates involving customer complaints, regulatory actions, criminal charges, and other specified events from the date the firm becomes aware. However, 10 days is the standard window for reporting certain disclosed events — not the window for correcting omissions specifically."
+      },
+      {
+        "label": "B",
+        "text": "30 days",
+        "explanation": "Correct. Under FINRA Rule 1010 and Article V of the FINRA By-Laws, amendments to Form U4 for most disclosable events must be filed within 30 days. However, certain urgent events like criminal charges or regulatory actions require filing within 10 days. For a customer complaint omission discovered after the fact, the firm must file an amendment not later than 30 days after discovering the omission."
+      },
+      {
+        "label": "C",
+        "text": "60 days",
+        "explanation": "Incorrect. There is no 60-day amendment window for Form U4 corrections. The firm must act more promptly to ensure accuracy of CRD records."
+      },
+      {
+        "label": "D",
+        "text": "At the representative's next annual compliance review.",
+        "explanation": "Incorrect. Form U4 amendments must be filed promptly upon discovery of inaccurate or incomplete information. Waiting until an annual review would be a supervisory failure."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA requires that Form U4 be kept current. Most amendments must be filed within 30 days of the event or discovery of the omission. Certain specified events — such as criminal charges, regulatory actions, and customer complaints alleging sales practice violations over $5,000 — require filing within 10 days. In practice, firms should correct any discovered omission as promptly as possible to maintain CRD accuracy.",
+    "subtopic": "form-u4-amendments",
+    "difficulty": "hard",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA By-Laws Article V; FINRA Rule 1010; Form U4 filing instructions",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-008",
+    "section": "registration-personnel",
+    "stem": "A registered person's Form U4 discloses a statutory disqualification based on a prior securities fraud conviction. Under what circumstances may the broker-dealer allow this person to associate with the firm?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "If the person has completed all terms of their sentence and five years have elapsed.",
+        "explanation": "Incorrect. The passage of time alone does not remove a statutory disqualification. The firm must obtain affirmative approval from FINRA through the eligibility proceeding process."
+      },
+      {
+        "label": "B",
+        "text": "If the firm files an MC-400 application and FINRA approves the person's association through an eligibility proceeding.",
+        "explanation": "Correct. Under FINRA Rule 9520 series and Section 3(a)(39) of the Exchange Act, a statutorily disqualified person may only associate with a member firm if FINRA approves an MC-400 (Membership Continuance) application through an eligibility proceeding."
+      },
+      {
+        "label": "C",
+        "text": "If the person agrees to work under heightened supervision with quarterly compliance reviews.",
+        "explanation": "Incorrect. Heightened supervision alone is not sufficient to permit a statutorily disqualified person to associate with a firm. Formal FINRA approval through an eligibility proceeding is required."
+      },
+      {
+        "label": "D",
+        "text": "If the firm's chief compliance officer personally certifies that the person poses no risk to investors.",
+        "explanation": "Incorrect. The CCO's personal certification cannot override the statutory disqualification. Only FINRA, through its formal eligibility proceeding process, can approve the association."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A statutory disqualification under Section 3(a)(39) of the Securities Exchange Act of 1934 prohibits an individual from associating with a FINRA member firm unless FINRA affirmatively approves the association through an eligibility proceeding. The firm must file an MC-400 application, and FINRA will evaluate whether to approve the association subject to conditions such as heightened supervision, restricted duties, and compliance reporting requirements.",
+    "subtopic": "statutory-disqualification",
+    "difficulty": "hard",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 9520 series; Securities Exchange Act Section 3(a)(39); FINRA MC-400 process",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-009",
+    "section": "registration-personnel",
+    "stem": "A broker-dealer is developing its Firm Element continuing education program for the coming year. Which of the following is a requirement of the Firm Element?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "All registered persons must complete an annual computer-based training module administered by FINRA.",
+        "explanation": "Incorrect. This describes the Regulatory Element, which is a FINRA-administered program. The Firm Element is developed and administered by the member firm itself, tailored to the firm's specific business activities."
+      },
+      {
+        "label": "B",
+        "text": "The firm must conduct an annual needs analysis and develop training programs tailored to the firm's business activities and the roles of covered registered persons.",
+        "explanation": "Correct. Under FINRA Rule 1240(b), the Firm Element requires each member firm to develop and administer an annual continuing education program based on a written needs analysis. The training must be tailored to the firm's size, structure, scope of business, and the regulatory developments relevant to its registered persons."
+      },
+      {
+        "label": "C",
+        "text": "The Firm Element only applies to registered persons who have been with the firm for more than one year.",
+        "explanation": "Incorrect. The Firm Element applies to all covered registered persons, regardless of tenure. Newly hired registered persons may have different training needs but are not exempt from Firm Element requirements."
+      },
+      {
+        "label": "D",
+        "text": "Firm Element training must be completed at a FINRA-approved testing center.",
+        "explanation": "Incorrect. Unlike the Regulatory Element (which has specific delivery requirements), the Firm Element is developed and administered by the firm and can be delivered through various formats including in-person sessions, online courses, or other methods the firm deems appropriate."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA Rule 1240(b) requires each member firm to maintain a continuing education program (Firm Element) that includes an annual written needs analysis and training content tailored to the firm's business. The program must address regulatory developments, product changes, and compliance topics relevant to the roles of covered registered persons. The firm has flexibility in how it delivers the training but must document participation.",
+    "subtopic": "firm-element-continuing-education",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 1240(b) (Continuing Education — Firm Element)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-010",
+    "section": "registration-personnel",
+    "stem": "A registered representative leaves Firm A and joins Firm B. Firm A had placed the representative under heightened supervision due to a customer complaint history. Is Firm B obligated to impose heightened supervision?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "No, because heightened supervision imposed by one firm does not transfer to another firm.",
+        "explanation": "Incorrect. While the specific supervisory plan does not automatically transfer, Firm B has an independent obligation to conduct due diligence during the hiring process, including reviewing the representative's CRD record. If the CRD discloses customer complaints, Firm B must evaluate whether heightened supervision is warranted."
+      },
+      {
+        "label": "B",
+        "text": "Yes, but only if Firm A notifies Firm B in writing of the heightened supervision arrangement.",
+        "explanation": "Incorrect. Firm B's supervisory obligation does not depend on receiving notification from Firm A. Firm B must independently review the representative's regulatory history and make its own supervisory determinations."
+      },
+      {
+        "label": "C",
+        "text": "Firm B must conduct its own independent due diligence on the representative's background and determine the appropriate level of supervision based on the individual's history and risk profile.",
+        "explanation": "Correct. Under FINRA Rules 3110 and 3120, each firm must establish its own supervisory system. When hiring a new representative, the firm must review the individual's CRD record, Form U4/U5 history, and any disclosed complaints or regulatory actions, then determine the appropriate supervisory plan."
+      },
+      {
+        "label": "D",
+        "text": "Yes, FINRA automatically notifies Firm B and mandates identical supervisory terms.",
+        "explanation": "Incorrect. FINRA does not automatically transfer supervisory arrangements between firms. The CRD system provides disclosure information, but each firm is independently responsible for establishing appropriate supervision."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Each FINRA member firm has an independent obligation under FINRA Rules 3110 and 3120 to establish and maintain a supervisory system reasonably designed to ensure compliance. When hiring a registered person, the firm must conduct thorough due diligence — including reviewing CRD records, Forms U4 and U5, and any disclosed complaints — and then make its own determination about the appropriate level of supervision based on the individual's risk profile.",
+    "subtopic": "hiring-due-diligence",
+    "difficulty": "hard",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rules 3110 (Supervision) and 3120 (Supervisory Control System)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-011",
+    "section": "general-supervision",
+    "stem": "Under FINRA Rule 3110, which of the following is a required component of a member firm's written supervisory procedures (WSPs)?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "A list of all customer account numbers and their current balances.",
+        "explanation": "Incorrect. While firms must maintain books and records of customer accounts, the WSPs themselves are procedural documents that describe how the firm will supervise activities — not a repository of account data."
+      },
+      {
+        "label": "B",
+        "text": "Designation of a principal responsible for supervising each type of business activity conducted by the firm.",
+        "explanation": "Correct. FINRA Rule 3110(a) requires that WSPs include the assignment of each registered person to an appropriately registered principal responsible for supervising that person's activities. The procedures must designate who is responsible for each line of business."
+      },
+      {
+        "label": "C",
+        "text": "Copies of all FINRA regulatory notices issued in the past calendar year.",
+        "explanation": "Incorrect. While firms should be aware of and incorporate relevant regulatory guidance, WSPs are not required to include copies of all FINRA notices. WSPs should reflect the substance of applicable rules and guidance."
+      },
+      {
+        "label": "D",
+        "text": "A complete record of all trade confirmations sent to customers in the prior quarter.",
+        "explanation": "Incorrect. Trade confirmations are books and records maintained under SEC Rule 17a-4, not a component of the written supervisory procedures."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA Rule 3110(a) requires member firms to establish, maintain, and enforce written supervisory procedures reasonably designed to achieve compliance with applicable securities laws and regulations. A core requirement is the designation of appropriately registered principals to supervise each type of business activity. The WSPs must clearly identify supervisory responsibilities, review procedures, and escalation protocols.",
+    "subtopic": "written-supervisory-procedures",
+    "difficulty": "easy",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 3110(a) (Supervision)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-012",
+    "section": "general-supervision",
+    "stem": "A broker-dealer's chief compliance officer is conducting the firm's annual compliance meeting required under FINRA Rule 3110. Which of the following topics must be covered during this meeting?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "A review of the firm's investment banking pipeline and pending deals.",
+        "explanation": "Incorrect. The annual compliance meeting focuses on compliance and supervisory matters, not on business development or deal flow. Investment banking pipeline reviews are conducted separately."
+      },
+      {
+        "label": "B",
+        "text": "An overview of the firm's supervisory system, including any changes to WSPs, new regulatory developments, and compliance findings.",
+        "explanation": "Correct. FINRA Rule 3110(a)(7) requires that the annual compliance meeting address the firm's supervisory system, including updates to written supervisory procedures, new regulatory requirements, findings from examinations, and compliance concerns identified during the year."
+      },
+      {
+        "label": "C",
+        "text": "Individual performance reviews of each registered representative.",
+        "explanation": "Incorrect. While supervisory reviews of individual representatives are important, the annual compliance meeting is a firm-wide meeting focused on the compliance program, not individual HR-style performance reviews."
+      },
+      {
+        "label": "D",
+        "text": "A detailed review of every customer complaint received during the year.",
+        "explanation": "Incorrect. While complaint trends should be discussed as part of compliance findings, the annual meeting does not require a detailed review of every individual complaint. The focus is on the supervisory system and its effectiveness."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA Rule 3110(a)(7) mandates that each member firm conduct an annual compliance meeting (or make available recorded or online training) for appropriate personnel to discuss compliance matters. This must cover the firm's supervisory system, changes to WSPs, new regulatory developments, examination findings, and areas of concern. The meeting is designed to keep supervisory personnel current on their responsibilities.",
+    "subtopic": "annual-compliance-meeting",
+    "difficulty": "easy",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 3110(a)(7)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-013",
+    "section": "general-supervision",
+    "stem": "A firm's principal is reviewing the branch office inspection schedule. Under FINRA Rule 3110, how frequently must a non-supervisory branch office be inspected?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Annually",
+        "explanation": "Incorrect. Annual inspections are not required for all offices. FINRA Rule 3110(c) establishes a risk-based inspection cycle, with the maximum interval depending on the type and risk profile of the office."
+      },
+      {
+        "label": "B",
+        "text": "Every three years, with the firm establishing a risk-based schedule.",
+        "explanation": "Correct. Under FINRA Rule 3110(c)(1), non-supervisory branch offices must be inspected on a regular periodic schedule. FINRA guidance establishes that such offices should generally be inspected at least every three years, with the firm determining frequency based on risk factors including customer complaints, types of products sold, and the experience of personnel."
+      },
+      {
+        "label": "C",
+        "text": "Only when FINRA directs the firm to inspect a specific location.",
+        "explanation": "Incorrect. The firm has an independent obligation to establish and execute an inspection program. Relying solely on FINRA directives would be a failure of supervisory responsibility."
+      },
+      {
+        "label": "D",
+        "text": "Every five years.",
+        "explanation": "Incorrect. A five-year inspection cycle would be too infrequent for most branch offices. FINRA expects firms to maintain a risk-based schedule that generally does not exceed three years for non-supervisory branch offices."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA Rule 3110(c)(1) requires member firms to inspect each non-supervisory branch office on a regular periodic schedule. The inspection cycle must be based on a risk assessment that considers factors such as the office's activities, customer base, complaint history, and the experience of its registered persons. FINRA guidance generally expects these inspections to occur at least every three years, with higher-risk offices inspected more frequently.",
+    "subtopic": "branch-office-inspections",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 3110(c)(1) (Supervision — Internal Inspections)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-014",
+    "section": "general-supervision",
+    "stem": "Under the Bank Secrecy Act and FINRA Rule 3310, a broker-dealer must file a Suspicious Activity Report (SAR) with FinCEN within how many days of detecting activity that warrants reporting?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "15 calendar days",
+        "explanation": "Incorrect. The 15-day timeframe is not the standard SAR filing deadline for broker-dealers. The standard deadline is 30 calendar days from the date the suspicious activity is detected."
+      },
+      {
+        "label": "B",
+        "text": "30 calendar days",
+        "explanation": "Correct. Under the Bank Secrecy Act implementing regulations (31 CFR 1023.320) and FINRA Rule 3310, broker-dealers must file a SAR with FinCEN within 30 calendar days after the date of initial detection of facts that may constitute a basis for filing."
+      },
+      {
+        "label": "C",
+        "text": "60 calendar days",
+        "explanation": "Incorrect. A 60-day window applies in limited circumstances where the identity of the suspect is not known at the time of detection, allowing an additional 30 days. But the standard deadline remains 30 days."
+      },
+      {
+        "label": "D",
+        "text": "90 calendar days",
+        "explanation": "Incorrect. A 90-day reporting window would be excessively long for suspicious activity reporting. Timely filing is essential for law enforcement utility."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Under BSA regulations (31 CFR 1023.320) and FINRA Rule 3310, broker-dealers must file a SAR within 30 calendar days of initially detecting suspicious activity. If no suspect is identified, the firm may delay filing up to 60 days but must still file. SARs are confidential — the firm may not notify the subject of the report, and the existence of a SAR filing is not disclosed to the customer.",
+    "subtopic": "anti-money-laundering-sar-filing",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 3310; 31 CFR 1023.320 (Bank Secrecy Act); USA PATRIOT Act",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-015",
+    "section": "general-supervision",
+    "stem": "A principal at a broker-dealer discovers that a registered representative has been using a personal email account to communicate with customers about securities recommendations. What supervisory concern does this raise?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The representative may be using unapproved communication channels that the firm cannot review, retain, or supervise, in violation of FINRA recordkeeping and supervision requirements.",
+        "explanation": "Correct. Under FINRA Rules 3110 and 4511, and SEC Rules 17a-3 and 17a-4, firms must retain and supervise all business-related communications. Using personal email circumvents the firm's ability to review correspondence and maintain required records, creating both supervisory and books-and-records violations."
+      },
+      {
+        "label": "B",
+        "text": "Personal email is permitted as long as the representative copies the compliance department on all messages.",
+        "explanation": "Incorrect. Simply copying compliance does not satisfy recordkeeping requirements. The firm must capture, retain, and be able to produce all business-related correspondence through its approved systems."
+      },
+      {
+        "label": "C",
+        "text": "This is only a concern if the emails contain material nonpublic information.",
+        "explanation": "Incorrect. Any business-related communication with customers must be conducted through firm-approved channels regardless of content. The supervisory concern exists for all securities-related correspondence, not just those involving MNPI."
+      },
+      {
+        "label": "D",
+        "text": "This is acceptable if the representative discloses the personal email usage on their annual compliance questionnaire.",
+        "explanation": "Incorrect. Disclosure on an annual questionnaire does not retroactively make the use of unapproved channels compliant. The firm's obligation is to supervise and retain business communications in real time through approved platforms."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "FINRA Rules 3110 (Supervision) and 4511 (General Requirements for Books and Records), along with SEC Rules 17a-3 and 17a-4, require firms to retain and supervise all business-related communications with customers. When representatives use personal email or other unapproved channels, the firm loses its ability to review, retain, and produce these records, creating serious supervisory and regulatory compliance failures.",
+    "subtopic": "electronic-communications-supervision",
+    "difficulty": "easy",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rules 3110, 4511; SEC Rules 17a-3 and 17a-4",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-016",
+    "section": "general-supervision",
+    "stem": "Under FINRA Rule 3120, which role is responsible for testing and verifying that the firm's supervisory procedures are reasonably designed to achieve compliance?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Each branch office manager at their respective locations.",
+        "explanation": "Incorrect. While branch managers have day-to-day supervisory responsibilities, FINRA Rule 3120 requires a senior management-level function, separate from the line supervisory structure, to test and verify the firm's supervisory system."
+      },
+      {
+        "label": "B",
+        "text": "A designated principal or group of principals within the firm's supervisory control system, separate from the persons performing the supervisory functions being tested.",
+        "explanation": "Correct. FINRA Rule 3120 requires each member to designate and specifically identify one or more principals who will establish, maintain, and enforce a supervisory control system. These testing and verification functions must be separate from the persons who perform the supervisory procedures being tested."
+      },
+      {
+        "label": "C",
+        "text": "FINRA examiners during their routine cycle examinations.",
+        "explanation": "Incorrect. While FINRA does examine firms' supervisory systems, the firm has an independent obligation under Rule 3120 to test its own procedures. Relying on regulatory examinations alone would be insufficient."
+      },
+      {
+        "label": "D",
+        "text": "An independent outside auditor engaged annually by the firm.",
+        "explanation": "Incorrect. While some firms may use outside consultants to assist with testing, FINRA Rule 3120 places the obligation on designated principals within the firm. An outside auditor is not a substitute for the firm's own supervisory control system."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA Rule 3120 requires each member firm to establish a supervisory control system with designated principals responsible for testing and verifying that the firm's supervisory procedures are reasonably designed and effectively implemented. These principals must be separate from the persons whose supervisory activities are being tested, ensuring independence. The Rule 3120 report must be submitted to the firm's senior management at least annually.",
+    "subtopic": "supervisory-control-system",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 3120 (Supervisory Control System)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-017",
+    "section": "general-supervision",
+    "stem": "A broker-dealer receives a written customer complaint alleging that a registered representative recommended unsuitable investments resulting in losses of $75,000. Under FINRA rules, the firm must maintain a record of this complaint for how long?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Three years from the date of the complaint.",
+        "explanation": "Incorrect. Customer complaints are subject to longer retention requirements than the general three-year period for many business records."
+      },
+      {
+        "label": "B",
+        "text": "Four years from the date of the complaint.",
+        "explanation": "Correct. Under FINRA Rule 4513(a), each member must maintain a separate file of written customer complaints for a period of at least four years. This aligns with the books and records requirements and ensures complaints are available for regulatory review."
+      },
+      {
+        "label": "C",
+        "text": "Six years from the date of the complaint.",
+        "explanation": "Incorrect. While some records must be kept for six years under SEC Rule 17a-4, the specific FINRA requirement for the customer complaint file under Rule 4513 is four years."
+      },
+      {
+        "label": "D",
+        "text": "Permanently, with no destruction date.",
+        "explanation": "Incorrect. There is no permanent retention requirement for customer complaints under FINRA rules, although some firms may choose to retain them longer for litigation or compliance purposes."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA Rule 4513(a) requires member firms to maintain a separate file for each office containing written customer complaints. These complaint records must be preserved for at least four years. Additionally, FINRA Rule 4530 requires firms to report certain complaints to FINRA, and the complaint must be recorded in the firm's complaint log with relevant details including the allegation, representative involved, and resolution.",
+    "subtopic": "customer-complaint-recordkeeping",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rules 4513(a), 4530; SEC Rule 17a-4",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-018",
+    "section": "general-supervision",
+    "stem": "A broker-dealer's compliance department identifies a pattern of late trade reporting by one of its trading desks. Under FINRA Rule 4530, which of the following events would trigger a mandatory reporting obligation to FINRA?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Any single late trade report, regardless of the circumstances.",
+        "explanation": "Incorrect. An isolated late trade report, while a compliance issue, would not necessarily trigger a Rule 4530 filing. The rule requires reporting of conclusions that violations may have occurred or of significant events."
+      },
+      {
+        "label": "B",
+        "text": "A conclusion by the firm that the late reporting pattern constitutes a violation of FINRA rules or securities laws.",
+        "explanation": "Correct. FINRA Rule 4530(b) requires a member firm to report within 30 calendar days when it has concluded, or reasonably should have concluded, that a person associated with the firm has violated any securities-related law, rule, or regulation. A pattern of late trade reporting that constitutes a rule violation triggers this obligation."
+      },
+      {
+        "label": "C",
+        "text": "Only if FINRA requests information about the late reporting during an examination.",
+        "explanation": "Incorrect. The reporting obligation under Rule 4530 is self-initiated, not triggered by a FINRA examination request. Firms must proactively report when they identify violations or significant events."
+      },
+      {
+        "label": "D",
+        "text": "Only if a customer files a formal complaint about the late reporting.",
+        "explanation": "Incorrect. Customer complaints are a separate reporting trigger under Rule 4530(a). The obligation to report conclusions of violations exists independently of whether any customer has complained."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA Rule 4530(b) requires member firms to report to FINRA within 30 calendar days after the firm has concluded, or reasonably should have concluded, that an associated person or the firm itself has violated any securities law, regulation, or FINRA rule. This self-reporting obligation is independent of customer complaints or regulatory examinations. The firm must also file quarterly statistical summaries of customer complaints under Rule 4530(d).",
+    "subtopic": "regulatory-event-reporting",
+    "difficulty": "hard",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 4530 (Reporting Requirements)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-019",
+    "section": "general-supervision",
+    "stem": "A broker-dealer principal is reviewing the firm's Business Continuity Plan (BCP). Under FINRA Rule 4370, which of the following is a required element of the BCP?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "A guarantee that the firm will resume full operations within 24 hours of a significant business disruption.",
+        "explanation": "Incorrect. FINRA does not require a specific 24-hour recovery guarantee. The BCP must reasonably address how the firm will respond to disruptions of varying scope, but absolute recovery time guarantees are not mandated."
+      },
+      {
+        "label": "B",
+        "text": "Procedures for customer access to funds and securities in the event the firm is unable to continue business.",
+        "explanation": "Correct. FINRA Rule 4370(a) requires that the BCP address, at minimum, how customers will access their funds and securities if the firm experiences a significant business disruption and determines it cannot continue business. The BCP must also address data backup and recovery, communications with customers and regulators, and alternate office locations."
+      },
+      {
+        "label": "C",
+        "text": "A requirement that all employees maintain duplicate paper copies of customer records at their homes.",
+        "explanation": "Incorrect. Maintaining paper copies of customer records at employees' homes would create significant data security and privacy risks. The BCP should address data backup through secure, centralized methods."
+      },
+      {
+        "label": "D",
+        "text": "Annual certification by an independent auditor that the BCP is adequate.",
+        "explanation": "Incorrect. While the BCP must be reviewed and updated annually, FINRA does not require independent auditor certification. The firm is responsible for testing and updating its own BCP."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA Rule 4370 requires each member to create and maintain a written Business Continuity Plan that addresses how the firm will respond to significant business disruptions. Required elements include procedures for customer access to funds and securities, data backup and recovery, communications with customers, employees, and regulators, critical business systems and alternate processing, and regulatory reporting. The plan must be updated annually and disclosed to customers.",
+    "subtopic": "business-continuity-planning",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 4370 (Business Continuity Plans and Emergency Contact Information)",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["lehman"]
+  },
+  {
+    "id": "q-s24-020",
+    "section": "general-supervision",
+    "stem": "A principal at a broker-dealer suspects that a new customer opening an account may be attempting to launder money through the firm. Under the firm's AML program required by FINRA Rule 3310 and the Bank Secrecy Act, which of the following is NOT a required component of the firm's Customer Identification Program (CIP)?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Verifying the identity of each customer opening an account using documentary or non-documentary methods.",
+        "explanation": "Incorrect — this IS a required CIP component. Under 31 CFR 1023.220, the CIP must include procedures for verifying the identity of each customer who opens an account, using documents such as a driver's license or passport, or non-documentary methods such as database verification."
+      },
+      {
+        "label": "B",
+        "text": "Maintaining records of the identifying information obtained for five years after the account is closed.",
+        "explanation": "Incorrect — this IS a required CIP component. The CIP requires retention of identifying information for five years after the account is closed."
+      },
+      {
+        "label": "C",
+        "text": "Conducting an on-site visit to the customer's residence or place of business to verify the information provided.",
+        "explanation": "Correct. An on-site visit is NOT a required CIP component. While the CIP requires identity verification, it can be accomplished through documentary methods (government-issued ID), non-documentary methods (database checks, credit bureau reports), or a combination. Physical site visits are not mandated."
+      },
+      {
+        "label": "D",
+        "text": "Checking the customer's name against government lists of known or suspected terrorists.",
+        "explanation": "Incorrect — this IS a required CIP component. The CIP must include procedures for checking customer names against OFAC's Specially Designated Nationals (SDN) list and other government-provided lists."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The Customer Identification Program (CIP) required under Section 326 of the USA PATRIOT Act and 31 CFR 1023.220 mandates that broker-dealers establish procedures to verify customer identity, maintain records of identifying information, and check names against government terrorist lists. However, on-site visits to a customer's residence or business are not required. Identity verification may be accomplished through documentary methods, non-documentary methods, or a combination of both.",
+    "subtopic": "customer-identification-program",
+    "difficulty": "hard",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 3310; USA PATRIOT Act Section 326; 31 CFR 1023.220",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-021",
+    "section": "customer-supervision",
+    "stem": "A registered representative recommends a complex structured product to a 72-year-old retired customer living on a fixed income. The customer's account profile indicates a conservative investment objective. Under FINRA's suitability rule, this recommendation would most likely violate which component of suitability?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Reasonable-basis suitability, because the representative did not understand the product.",
+        "explanation": "Incorrect. While reasonable-basis suitability requires the representative to understand the product, the question indicates the product is complex but does not state the representative failed to understand it. The primary violation here is customer-specific."
+      },
+      {
+        "label": "B",
+        "text": "Customer-specific suitability, because the product is inconsistent with the customer's investment profile.",
+        "explanation": "Correct. Customer-specific suitability under FINRA Rule 2111 requires that a recommendation be suitable for the particular customer based on their investment profile, including age, financial situation, risk tolerance, and investment objectives. A complex structured product is inconsistent with a conservative, fixed-income retiree's profile."
+      },
+      {
+        "label": "C",
+        "text": "Quantitative suitability, because of excessive trading in the account.",
+        "explanation": "Incorrect. Quantitative suitability relates to the frequency and volume of trading (churning). A single product recommendation, even if unsuitable, does not implicate quantitative suitability."
+      },
+      {
+        "label": "D",
+        "text": "No suitability violation exists if the customer signed a written acknowledgment of the risks.",
+        "explanation": "Incorrect. A customer's signature on a risk disclosure does not relieve the representative of their suitability obligation. The firm and representative remain responsible for ensuring recommendations are suitable regardless of written acknowledgments."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA Rule 2111 establishes three components of suitability: reasonable-basis, customer-specific, and quantitative. Customer-specific suitability requires that a recommendation be suitable for the particular customer based on their investment profile — including age, financial situation, tax status, investment objectives, risk tolerance, and other relevant factors. Recommending a complex structured product to a conservative retiree on a fixed income clearly violates customer-specific suitability.",
+    "subtopic": "suitability-obligations",
+    "difficulty": "easy",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 2111 (Suitability)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-022",
+    "section": "customer-supervision",
+    "stem": "A principal is reviewing correspondence and discovers that a registered representative sent a personalized email to 30 prospective customers recommending a specific stock. Under FINRA Rule 2210, how should this communication be classified?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Retail communication, because it is distributed to more than 25 retail investors within a 30-day period.",
+        "explanation": "Correct. Under FINRA Rule 2210(a)(1), a retail communication is any written or electronic communication distributed or made available to more than 25 retail investors within any 30 calendar-day period. Since this email was sent to 30 prospective customers, it meets the threshold for retail communication and requires principal pre-approval before use."
+      },
+      {
+        "label": "B",
+        "text": "Correspondence, because it is a personalized email to individual customers.",
+        "explanation": "Incorrect. While the emails are personalized, the threshold for classification depends on the number of retail investors who receive the communication within a 30-day period. Correspondence is limited to 25 or fewer retail investors within 30 days."
+      },
+      {
+        "label": "C",
+        "text": "Institutional communication, because it is directed at prospective rather than existing customers.",
+        "explanation": "Incorrect. Institutional communication is defined as communication distributed exclusively to institutional investors. Prospective retail customers are retail investors, not institutional investors."
+      },
+      {
+        "label": "D",
+        "text": "An exempt communication not subject to FINRA filing or approval requirements.",
+        "explanation": "Incorrect. There is no exemption for personalized stock recommendations regardless of format. All communications with the public are subject to FINRA Rule 2210 classification and applicable requirements."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "FINRA Rule 2210 classifies communications into three categories: retail communications (more than 25 retail investors in 30 days), correspondence (25 or fewer retail investors in 30 days), and institutional communications (exclusively to institutional investors). Since this email reached 30 prospective retail customers, it qualifies as a retail communication, which requires principal approval before first use and may be subject to FINRA filing requirements.",
+    "subtopic": "communications-classification",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 2210 (Communications with the Public)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-023",
+    "section": "customer-supervision",
+    "stem": "A customer opens a margin account and purchases $100,000 of securities. Under Regulation T, what is the minimum initial margin deposit the customer must make?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "$25,000",
+        "explanation": "Incorrect. The $25,000 minimum applies to pattern day traders under FINRA Rule 4210. For a standard margin account purchase, Regulation T requires an initial margin of 50% of the purchase price."
+      },
+      {
+        "label": "B",
+        "text": "$50,000",
+        "explanation": "Correct. Regulation T requires an initial margin deposit of 50% of the purchase price. For a $100,000 purchase, the customer must deposit $50,000. The remaining $50,000 is the margin loan from the broker-dealer."
+      },
+      {
+        "label": "C",
+        "text": "$30,000",
+        "explanation": "Incorrect. A 30% deposit would be below the Regulation T initial margin requirement. While some firms set their own 'house' maintenance margins at various levels, the initial margin requirement under Regulation T is 50%."
+      },
+      {
+        "label": "D",
+        "text": "$75,000",
+        "explanation": "Incorrect. A 75% deposit exceeds the Regulation T minimum. While a firm could impose a higher house requirement, the Federal Reserve Board's Regulation T sets the initial margin at 50%."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Regulation T, promulgated by the Federal Reserve Board, sets the initial margin requirement at 50% for equity securities purchased on margin. For a $100,000 purchase, the customer must deposit at least $50,000. FINRA Rule 4210 sets a maintenance margin minimum of 25%, and individual firms may impose higher 'house' requirements. A margin call is issued when equity falls below required levels.",
+    "subtopic": "margin-requirements",
+    "difficulty": "easy",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "Federal Reserve Board Regulation T; FINRA Rule 4210",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-024",
+    "section": "customer-supervision",
+    "stem": "A principal reviewing daily trading activity notices that a registered representative's customer account has had 47 trades in the past month, with an annualized turnover ratio of 12 and a cost-to-equity ratio of 28%. Which supervisory concern is most strongly indicated?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The account may be subject to churning, which is excessive trading to generate commissions.",
+        "explanation": "Correct. The combination of a high turnover ratio (6 or above is generally considered excessive) and a high cost-to-equity ratio (above 20% is a red flag) strongly indicates churning. The principal must investigate whether the representative is exercising control over the account and whether the trading activity serves the customer's investment objectives."
+      },
+      {
+        "label": "B",
+        "text": "The account is likely engaged in insider trading based on the volume of activity.",
+        "explanation": "Incorrect. High trading frequency alone does not indicate insider trading. Insider trading involves trading on material nonpublic information, which cannot be determined solely from turnover and cost ratios."
+      },
+      {
+        "label": "C",
+        "text": "The account activity is normal for an active trader and requires no further review.",
+        "explanation": "Incorrect. A turnover ratio of 12 and a cost-to-equity ratio of 28% are well above thresholds that courts and regulators have found indicative of excessive trading. These metrics warrant immediate investigation."
+      },
+      {
+        "label": "D",
+        "text": "The representative should be commended for generating strong commission revenue for the firm.",
+        "explanation": "Incorrect. Commission revenue generated through excessive trading at the customer's expense is a serious regulatory violation, not a positive performance indicator. This mindset reflects exactly the kind of revenue-over-compliance culture that supervisory systems are designed to prevent."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Churning occurs when a registered representative excessively trades a customer's account primarily to generate commissions. Courts and FINRA use turnover ratios (generally above 6 is excessive) and cost-to-equity ratios (generally above 20% raises concern) as quantitative indicators. Under FINRA Rule 2111 (quantitative suitability component) and Rule 2010 (standards of commercial honor), a principal who identifies these patterns must investigate promptly and take remedial action.",
+    "subtopic": "churning-detection",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rules 2111 (Suitability — quantitative component), 2010 (Standards of Commercial Honor)",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["madoff"]
+  },
+  {
+    "id": "q-s24-025",
+    "section": "customer-supervision",
+    "stem": "Under Regulation Best Interest (Reg BI), a broker-dealer and its associated persons must satisfy four component obligations when making a recommendation to a retail customer. Which of the following is NOT one of these component obligations?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Disclosure obligation",
+        "explanation": "Incorrect — this IS a Reg BI component. The disclosure obligation requires the broker-dealer to provide, before or at the time of the recommendation, a relationship summary (Form CRS) and full disclosure of all material facts related to the recommendation."
+      },
+      {
+        "label": "B",
+        "text": "Care obligation",
+        "explanation": "Incorrect — this IS a Reg BI component. The care obligation requires the broker-dealer to exercise reasonable diligence, care, and skill when making a recommendation, considering the customer's investment profile."
+      },
+      {
+        "label": "C",
+        "text": "Conflict of interest obligation",
+        "explanation": "Incorrect — this IS a Reg BI component. The conflict of interest obligation requires policies and procedures to identify, disclose, and mitigate or eliminate conflicts of interest associated with recommendations."
+      },
+      {
+        "label": "D",
+        "text": "Fiduciary obligation requiring the broker-dealer to act solely in the customer's interest at all times.",
+        "explanation": "Correct. Reg BI does not impose a full fiduciary standard on broker-dealers. The four component obligations are: Disclosure, Care, Conflict of Interest, and Compliance. Reg BI requires acting in the customer's 'best interest,' which is not the same as the fiduciary duty imposed on registered investment advisers under the Investment Advisers Act."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Regulation Best Interest (Rule 15l-1 under the Securities Exchange Act) establishes four component obligations: Disclosure, Care, Conflict of Interest, and Compliance. Importantly, Reg BI does not create a fiduciary duty for broker-dealers. While it raises the standard above the previous suitability standard, it stops short of the full fiduciary obligation applicable to registered investment advisers under the Advisers Act.",
+    "subtopic": "regulation-best-interest",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "SEC Rule 15l-1 (Regulation Best Interest); Securities Exchange Act of 1934",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["robinhood-pfof"]
+  },
+  {
+    "id": "q-s24-026",
+    "section": "customer-supervision",
+    "stem": "A broker-dealer's registered representative sends a social media post on their personal LinkedIn account stating: 'Our firm's analysts believe XYZ Corp is poised for explosive growth — get in now before it's too late!' What supervisory violation is most likely present?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The post is not subject to FINRA rules because it was made on a personal social media account.",
+        "explanation": "Incorrect. Social media posts by registered persons about securities are subject to FINRA Rule 2210 regardless of whether they are made on personal or firm accounts. The content, not the platform ownership, determines applicability."
+      },
+      {
+        "label": "B",
+        "text": "The post violates FINRA Rule 2210 standards by making exaggerated and promissory claims about a security without balanced disclosure of risks.",
+        "explanation": "Correct. FINRA Rule 2210(d) prohibits communications that are misleading, exaggerated, or promissory. Phrases like 'explosive growth' and 'get in now before it's too late' are exaggerated claims and create urgency without balanced disclosure of investment risks. The post also likely was not pre-approved by a principal."
+      },
+      {
+        "label": "C",
+        "text": "The post is acceptable because LinkedIn is a professional networking platform, not a trading platform.",
+        "explanation": "Incorrect. The platform used does not determine whether a communication is subject to FINRA rules. Any communication by a registered person that discusses securities to retail investors must comply with content standards regardless of the platform."
+      },
+      {
+        "label": "D",
+        "text": "The only violation is the representative's failure to include required disclosures about the firm's material relationship with XYZ Corp.",
+        "explanation": "Incorrect. While failure to disclose a material relationship would be an additional violation, the primary violations are the exaggerated claims and promissory language. Even without a material relationship, the content standards under Rule 2210(d) are violated."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA Rule 2210(d) establishes content standards for all communications with the public, including social media. Communications must be fair and balanced, must not contain exaggerated or unwarranted claims, and must not predict or project performance. The language 'explosive growth' and 'get in now before it's too late' constitute exaggerated, promissory claims that create a misleading impression. Additionally, the post was likely not pre-approved by a principal as required for retail communications.",
+    "subtopic": "social-media-compliance",
+    "difficulty": "easy",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 2210(d) (Communications with the Public — Content Standards)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-027",
+    "section": "customer-supervision",
+    "stem": "A 78-year-old customer's registered representative recommends liquidating the customer's diversified portfolio of blue-chip stocks and reinvesting the proceeds into a variable annuity with a 7-year surrender charge schedule. The firm's supervisory system flags this transaction for review. Under FINRA Rule 2330, what must the principal evaluate before approving this transaction?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Only whether the variable annuity's investment options match the customer's risk tolerance.",
+        "explanation": "Incorrect. The principal must evaluate multiple factors beyond investment option suitability. The surrender period, the customer's age, liquidity needs, and whether the exchange from existing investments is beneficial must all be considered."
+      },
+      {
+        "label": "B",
+        "text": "Whether the customer will benefit from the exchange, considering the surrender charges, the customer's age and liquidity needs, and whether the transaction generates unnecessary costs.",
+        "explanation": "Correct. FINRA Rule 2330 requires a principal to evaluate whether a deferred variable annuity transaction is suitable by considering factors including the customer's age, annual income, financial situation, investment objectives, intended use of the annuity, the surrender period and charges, and whether the customer would benefit from the features of the new annuity that justify the costs of the exchange."
+      },
+      {
+        "label": "C",
+        "text": "Only whether the representative has earned excessive commissions from annuity sales in the current quarter.",
+        "explanation": "Incorrect. While commission patterns may be relevant to a broader supervisory review, the Rule 2330 principal review focuses on the specific transaction's suitability for the customer, not solely on the representative's commission activity."
+      },
+      {
+        "label": "D",
+        "text": "Whether the variable annuity issuer has a minimum credit rating of A or higher.",
+        "explanation": "Incorrect. While the financial strength of the issuer is a due diligence consideration, Rule 2330's principal review focuses on suitability factors specific to the customer and the transaction, not on a specific credit rating threshold for the issuer."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA Rule 2330 establishes specific suitability and supervision requirements for deferred variable annuity transactions. Before approving a transaction, a principal must consider the customer's age, annual income, financial situation, investment experience, investment objectives, intended use of the annuity, existing insurance and annuity holdings, liquidity needs, the surrender period and charges, and whether a 1035 exchange provides a net benefit. For a 78-year-old customer, a 7-year surrender schedule raises serious concerns about access to funds during the customer's lifetime.",
+    "subtopic": "variable-annuity-supervision",
+    "difficulty": "hard",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 2330 (Members' Responsibilities Regarding Deferred Variable Annuities)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-028",
+    "section": "customer-supervision",
+    "stem": "A customer files an arbitration claim against a broker-dealer alleging $250,000 in damages due to unauthorized trading. Under FINRA's Code of Arbitration Procedure, which of the following statements about the arbitration process is correct?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Claims of $250,000 or more are heard by a panel of three arbitrators, at least one of whom must be a public (non-industry) arbitrator.",
+        "explanation": "Incorrect. While claims over $100,000 are heard by a three-arbitrator panel, the composition changed under FINRA Rule 12401. For customer disputes, the panel consists of a majority of public arbitrators, and the customer can elect an all-public panel."
+      },
+      {
+        "label": "B",
+        "text": "The customer may elect to have the dispute heard by an all-public arbitration panel, with no industry arbitrators.",
+        "explanation": "Correct. Under FINRA Rule 12403, the customer in an arbitration proceeding has the option to elect an all-public panel. If the customer does not make this election, the default panel includes one industry and two public arbitrators for claims heard by three arbitrators."
+      },
+      {
+        "label": "C",
+        "text": "The broker-dealer may require the dispute to be resolved through mediation instead of arbitration.",
+        "explanation": "Incorrect. Under FINRA rules, customers who have signed a pre-dispute arbitration agreement are required to arbitrate, but the firm cannot unilaterally substitute mediation for arbitration. Mediation is a separate, voluntary process."
+      },
+      {
+        "label": "D",
+        "text": "Arbitration awards over $100,000 are automatically appealed to a FINRA review board.",
+        "explanation": "Incorrect. FINRA arbitration awards are generally final and binding, with very limited grounds for judicial review under the Federal Arbitration Act. There is no automatic internal FINRA appeals process based on the award amount."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Under FINRA Rule 12403, customers in arbitration proceedings may elect an all-public arbitration panel (no industry arbitrators). This option was adopted to address concerns about potential bias from industry-member arbitrators. If the customer does not elect the all-public option, the default panel for claims over $100,000 consists of two public arbitrators and one industry (non-public) arbitrator.",
+    "subtopic": "arbitration-procedures",
+    "difficulty": "hard",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rules 12401, 12403 (Code of Arbitration Procedure for Customer Disputes)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-029",
+    "section": "customer-supervision",
+    "stem": "A principal discovers that a registered representative has been exercising discretionary power in a customer's account without obtaining written authorization from the customer. The firm's records show the representative has been selecting the security, quantity, and price for transactions over the past six months. What action should the principal take?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Immediately obtain written discretionary authorization from the customer and ratify the prior trades retroactively.",
+        "explanation": "Incorrect. While obtaining proper authorization going forward is necessary, retroactive ratification does not cure the prior violation. The principal must investigate the unauthorized activity, assess customer harm, and determine appropriate disciplinary and remedial measures."
+      },
+      {
+        "label": "B",
+        "text": "Take no action because time-and-price discretion does not require written authorization.",
+        "explanation": "Incorrect. While time-and-price discretion on the day of an order may be exercised without written authorization, selecting the security and quantity (as described in the question) constitutes full discretion, which requires written authorization under FINRA Rule 3260."
+      },
+      {
+        "label": "C",
+        "text": "Investigate the scope of the unauthorized discretion, review all transactions for suitability and customer harm, and take appropriate supervisory and disciplinary action.",
+        "explanation": "Correct. The principal must conduct a thorough investigation into the unauthorized discretionary activity, review each transaction for suitability and potential customer harm, determine whether to contact the customer, and take disciplinary action against the representative. The firm must also assess whether its supervisory procedures failed to detect the activity."
+      },
+      {
+        "label": "D",
+        "text": "Report the representative to local law enforcement for criminal theft or conversion.",
+        "explanation": "Incorrect. While unauthorized trading is a serious violation, it is a regulatory and supervisory matter in the first instance. Criminal referral may be warranted in cases involving theft or conversion, but the principal's immediate obligation is to investigate and take supervisory action."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Under FINRA Rule 3260 and the firm's supervisory obligations under Rule 3110, exercising discretion over a customer's account without written authorization is a serious violation. The principal must investigate all transactions made under unauthorized discretion, assess suitability and customer harm, determine whether restitution is appropriate, take disciplinary action against the representative, and evaluate whether the firm's supervisory system should have detected the activity sooner.",
+    "subtopic": "unauthorized-discretion",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rules 3260 (Discretionary Accounts), 3110 (Supervision)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-030",
+    "section": "customer-supervision",
+    "stem": "Under FINRA Rule 2165, a member firm or associated person who reasonably believes that financial exploitation of a specified adult is occurring may place a temporary hold on disbursements from the customer's account. What is the maximum initial hold period?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "10 business days",
+        "explanation": "Incorrect. The initial hold period is longer than 10 business days. FINRA Rule 2165 provides a 15-business-day initial hold period."
+      },
+      {
+        "label": "B",
+        "text": "15 business days, with the possibility of extension to 25 business days.",
+        "explanation": "Correct. FINRA Rule 2165 permits a temporary hold on disbursements for an initial period of 15 business days. The hold may be extended for an additional 10 business days (total of 25 business days) if the firm has reported the matter to a state regulator or agency and reasonably believes the hold continues to be warranted."
+      },
+      {
+        "label": "C",
+        "text": "30 calendar days",
+        "explanation": "Incorrect. The hold period is measured in business days, not calendar days, and the initial period is 15 business days — not 30 calendar days."
+      },
+      {
+        "label": "D",
+        "text": "60 calendar days",
+        "explanation": "Incorrect. A 60-day hold would be excessively long. The rule is designed to provide a temporary pause to investigate while balancing the customer's right to access their funds."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA Rule 2165 (Financial Exploitation of Specified Adults) permits member firms to place a temporary hold on disbursements from accounts of customers aged 65 or older, or customers aged 18+ with a mental or physical impairment, when the firm reasonably believes financial exploitation is occurring. The initial hold period is 15 business days, extendable by 10 additional business days (25 total) if the matter has been reported to a state agency. The firm must immediately notify the trusted contact person and document the hold.",
+    "subtopic": "senior-investor-protection",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 2165 (Financial Exploitation of Specified Adults)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-031",
+    "section": "trading-supervision",
+    "stem": "A broker-dealer's trading desk is preparing to execute a short sale in a listed equity security. Under Regulation SHO Rule 203, what must the firm do before executing the short sale?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Obtain prior approval from the SEC for each individual short sale.",
+        "explanation": "Incorrect. The SEC does not require pre-approval of individual short sales. The locate requirement is fulfilled by the firm's own procedures."
+      },
+      {
+        "label": "B",
+        "text": "Locate and document a source of borrowable shares before accepting the short sale order or effecting the short sale.",
+        "explanation": "Correct. Regulation SHO Rule 203(b)(1) requires broker-dealers to have reasonable grounds to believe that the security can be borrowed so that it can be delivered on the date delivery is due before accepting a short sale order or effecting the short sale. This is commonly known as the 'locate' requirement."
+      },
+      {
+        "label": "C",
+        "text": "File a short sale report with FINRA disclosing the size, price, and intended duration of the position.",
+        "explanation": "Incorrect. While firms have short interest reporting obligations to FINRA under FINRA Rule 4560, there is no pre-trade filing requirement for individual short sales. The immediate obligation is the locate requirement."
+      },
+      {
+        "label": "D",
+        "text": "Notify the customer that short selling is inherently speculative and obtain written acknowledgment of unlimited loss potential.",
+        "explanation": "Incorrect. While appropriate disclosure about short selling risks is good practice, the specific Regulation SHO pre-execution requirement is the locate of borrowable shares, not a risk acknowledgment."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Regulation SHO Rule 203(b)(1) — the 'locate' requirement — mandates that a broker-dealer, before accepting a short sale order or effecting a short sale, must have reasonable grounds to believe that the security can be borrowed and delivered on the settlement date. This requirement was strengthened after the 2008 financial crisis when the SEC eliminated the options market maker exception. Failure to deliver shares ('fails to deliver') can trigger the close-out requirements of Rule 204.",
+    "subtopic": "regulation-sho-locate-requirement",
+    "difficulty": "easy",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "SEC Regulation SHO Rules 203(b)(1), 204",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["gamestop"]
+  },
+  {
+    "id": "q-s24-032",
+    "section": "trading-supervision",
+    "stem": "Under Regulation NMS Rule 611 (the Order Protection Rule), what are broker-dealers required to do when routing or executing orders in NMS stocks?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Route all orders to the exchange where the stock is listed.",
+        "explanation": "Incorrect. Rule 611 does not require routing orders to the listing exchange. It requires protection of the best available prices across all trading venues, which means orders may be routed to any venue displaying the best price."
+      },
+      {
+        "label": "B",
+        "text": "Establish, maintain, and enforce policies and procedures to prevent trade-throughs of protected quotations.",
+        "explanation": "Correct. Regulation NMS Rule 611 requires trading centers to establish policies and procedures reasonably designed to prevent 'trade-throughs' — executing trades at prices inferior to the best protected quotations displayed by other trading centers. This ensures that customers receive the benefit of the best available prices across all exchanges and trading venues."
+      },
+      {
+        "label": "C",
+        "text": "Execute all orders at the National Best Bid or Offer (NBBO) without exception.",
+        "explanation": "Incorrect. While Rule 611 protects the NBBO, there are permitted exceptions including intermarket sweep orders (ISOs), flickering quotes, and orders where the customer provides informed consent to a trade-through for specific reasons."
+      },
+      {
+        "label": "D",
+        "text": "Report all trade-throughs to the SEC within one business day.",
+        "explanation": "Incorrect. There is no requirement to report individual trade-throughs to the SEC. The obligation is to prevent trade-throughs through policies and procedures, and exceptions are self-documented."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Regulation NMS Rule 611 (the Order Protection Rule) requires all trading centers to establish and enforce policies reasonably designed to prevent trade-throughs of protected quotations. A trade-through occurs when an order is executed at a price inferior to a better-priced protected quotation available at another trading center. Exceptions include intermarket sweep orders (ISOs), flickering quotations, and certain benchmark trades.",
+    "subtopic": "regulation-nms-order-protection",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "SEC Regulation NMS Rule 611 (Order Protection Rule)",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["robinhood-pfof"]
+  },
+  {
+    "id": "q-s24-033",
+    "section": "trading-supervision",
+    "stem": "A broker-dealer's surveillance system detects that a trader has been placing large orders just above the best offer, then canceling them within milliseconds before execution, repeatedly throughout the trading day. This pattern is most consistent with which prohibited practice?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Front-running",
+        "explanation": "Incorrect. Front-running involves trading ahead of a customer order based on knowledge of that order. The pattern described — placing and rapidly canceling orders — is not front-running but rather a manipulative quoting practice."
+      },
+      {
+        "label": "B",
+        "text": "Spoofing or layering",
+        "explanation": "Correct. Spoofing (also called layering) involves placing orders with the intent to cancel them before execution, creating an artificial appearance of supply or demand to move the market price. This is prohibited under the Dodd-Frank Act Section 747 and FINRA rules against market manipulation."
+      },
+      {
+        "label": "C",
+        "text": "Interpositioning",
+        "explanation": "Incorrect. Interpositioning involves a broker-dealer inserting an unnecessary intermediary between the customer and the best available market, adding cost without benefit. It is not characterized by rapid order placement and cancellation."
+      },
+      {
+        "label": "D",
+        "text": "Free-riding",
+        "explanation": "Incorrect. Free-riding occurs when an investor buys and sells a security before paying for the initial purchase, violating Regulation T. It is unrelated to the manipulative quoting pattern described."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Spoofing or layering is a form of market manipulation where a trader places orders they intend to cancel before execution, creating a false impression of market interest to influence the price. This practice is explicitly prohibited under Section 747 of the Dodd-Frank Act (amending the Commodity Exchange Act) and violates FINRA Rule 5210 and SEC anti-manipulation provisions. The 2010 Flash Crash investigation highlighted spoofing as a significant market integrity concern.",
+    "subtopic": "spoofing-and-layering",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "Dodd-Frank Act Section 747; FINRA Rule 5210; Securities Exchange Act Section 9(a)(2)",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["flash-crash-2010"]
+  },
+  {
+    "id": "q-s24-034",
+    "section": "trading-supervision",
+    "stem": "Under SEC Rule 15c3-5 (the Market Access Rule), a broker-dealer providing market access must implement which of the following controls?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Pre-trade risk controls that prevent the entry of orders that exceed preset credit or capital thresholds.",
+        "explanation": "Correct. SEC Rule 15c3-5 requires broker-dealers with market access to implement risk management controls and supervisory procedures, including pre-trade controls that prevent the entry of orders that exceed preset credit or capital thresholds, that are erroneous, or that would violate regulatory requirements."
+      },
+      {
+        "label": "B",
+        "text": "Post-trade review of all orders within 24 hours, but no pre-trade controls are required.",
+        "explanation": "Incorrect. Rule 15c3-5 specifically requires pre-trade risk controls, not merely post-trade reviews. Post-trade surveillance alone is insufficient because erroneous or excessive orders can cause significant market disruption and financial loss before a post-trade review can identify them."
+      },
+      {
+        "label": "C",
+        "text": "Manual review by a registered principal of each order before execution.",
+        "explanation": "Incorrect. Given the speed and volume of electronic trading, manual pre-trade review of each order is impractical. Rule 15c3-5 requires automated, technology-based risk controls that operate in real time."
+      },
+      {
+        "label": "D",
+        "text": "Annual stress testing of the firm's trading systems but no real-time order controls.",
+        "explanation": "Incorrect. While periodic testing is part of the rule's requirements, the core obligation is real-time pre-trade risk controls, not merely annual testing."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "SEC Rule 15c3-5 (the Market Access Rule) was adopted in 2010 following events like the Flash Crash and the Knight Capital incident. It requires broker-dealers providing market access to implement risk management controls and supervisory procedures, including automated pre-trade risk controls that prevent orders exceeding predetermined credit or capital limits, that are erroneous, or that violate regulatory requirements. The rule also requires regular review and testing of these controls.",
+    "subtopic": "market-access-rule",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "SEC Rule 15c3-5 (Risk Management Controls for Brokers or Dealers with Market Access)",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["knight-capital"]
+  },
+  {
+    "id": "q-s24-035",
+    "section": "trading-supervision",
+    "stem": "A broker-dealer acting as a market maker in a Nasdaq-listed security receives a customer limit order at a price that would improve the market maker's published quote. Under FINRA Rule 5320 (the Manning Rule), what must the market maker do?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Execute the customer order at the market maker's current published quote.",
+        "explanation": "Incorrect. Executing at the current published quote would deprive the customer of a better price. The Manning Rule protects customer orders from being traded ahead of by the firm."
+      },
+      {
+        "label": "B",
+        "text": "Immediately improve its published quote to reflect the customer's limit price, or fill the customer order.",
+        "explanation": "Correct. Under FINRA Rule 5320 and the SEC's Limit Order Display Rule (Rule 604 of Regulation NMS), a market maker must either display the customer's limit order — thereby improving its published quote — or fill the customer order. The Manning Rule prohibits a broker-dealer from trading for its own account at a price that would satisfy a held customer order."
+      },
+      {
+        "label": "C",
+        "text": "Hold the customer order until market conditions allow execution at a more favorable price.",
+        "explanation": "Incorrect. Holding the order without displaying it or executing it could disadvantage the customer. The Manning Rule requires prompt action — either display the order or fill it."
+      },
+      {
+        "label": "D",
+        "text": "Route the customer order to another market center without displaying it.",
+        "explanation": "Incorrect. Simply routing the order elsewhere without proper handling does not satisfy the Manning Rule's requirements. The market maker must either display the order or fill it."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA Rule 5320 (formerly the Manning Rule) prohibits a broker-dealer from trading for its own account at a price that would satisfy an unexecuted customer order. When a market maker receives a customer limit order that would improve the market maker's quote, the firm must either update its published quotation to reflect the better price (under SEC Rule 604 of Regulation NMS) or execute the customer order. This protects customer order priority and market transparency.",
+    "subtopic": "manning-rule-customer-order-protection",
+    "difficulty": "hard",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 5320 (Prohibition Against Trading Ahead of Customer Orders); SEC Regulation NMS Rule 604",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-036",
+    "section": "trading-supervision",
+    "stem": "A broker-dealer fails to deliver securities on the settlement date of a short sale. Under Regulation SHO Rule 204, when must the firm close out the fail-to-deliver position?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "By the opening of trading on the settlement day plus one (T+1 after settlement).",
+        "explanation": "Incorrect. The close-out requirement for short sales is T+2 after the settlement date (settlement date plus 2 business days for short sales specifically), which allows the firm additional time compared to long-sale fails."
+      },
+      {
+        "label": "B",
+        "text": "By the opening of trading on the settlement day plus two (T+2 after settlement) for short sales.",
+        "explanation": "Incorrect. Rule 204 actually requires close-out by the beginning of regular trading hours on T+1 after settlement date, not T+2 after settlement. The longer timeframe (settlement date plus 3) applies specifically to fails resulting from long sales or bona-fide market-making activity."
+      },
+      {
+        "label": "C",
+        "text": "No later than the beginning of regular trading hours on the trading day following the settlement date (T+1 after settlement).",
+        "explanation": "Correct. Under Regulation SHO Rule 204(a), for short sale fails, the broker-dealer must close out the fail-to-deliver position by borrowing or purchasing securities of like kind and quantity no later than the beginning of regular trading hours on the trading day following the settlement date. This is commonly referred to as T+1 after settlement."
+      },
+      {
+        "label": "D",
+        "text": "Within 35 calendar days of the settlement date.",
+        "explanation": "Incorrect. The 35-calendar-day threshold was part of the former Regulation SHO threshold security provisions. The current close-out requirement is much shorter — one business day after settlement for short sales."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Regulation SHO Rule 204(a) requires that if a participant of a registered clearing agency has a fail-to-deliver position in an equity security resulting from a short sale, the participant must close out the position by borrowing or purchasing securities of like kind and quantity no later than the beginning of regular trading hours on the trading day after the settlement date. Longer close-out periods apply for fails resulting from long sales or bona-fide market-making activity.",
+    "subtopic": "regulation-sho-close-out",
+    "difficulty": "hard",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "SEC Regulation SHO Rule 204(a)",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["gamestop"]
+  },
+  {
+    "id": "q-s24-037",
+    "section": "trading-supervision",
+    "stem": "A broker-dealer receives information that one of its proprietary traders is accumulating a large position in a thinly traded stock, then posting misleading messages on social media forums to drive up the price before selling. This pattern describes which form of market manipulation?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Pump and dump",
+        "explanation": "Correct. A pump-and-dump scheme involves accumulating a position in a security, then artificially inflating the price through false or misleading promotions (the 'pump'), and selling at the inflated price (the 'dump'). This violates Section 9(a)(2) of the Securities Exchange Act and FINRA Rule 2020."
+      },
+      {
+        "label": "B",
+        "text": "Painting the tape",
+        "explanation": "Incorrect. Painting the tape (or wash trading) involves executing trades between related accounts to create the appearance of trading activity. The scenario describes promotional manipulation through social media, not artificial trade creation."
+      },
+      {
+        "label": "C",
+        "text": "Backing away",
+        "explanation": "Incorrect. Backing away occurs when a market maker fails to honor a published quote at the stated price and size. It is unrelated to the accumulation-and-promotion scheme described."
+      },
+      {
+        "label": "D",
+        "text": "Marking the close",
+        "explanation": "Incorrect. Marking the close involves placing orders near market close to manipulate the closing price. The scenario describes ongoing promotional manipulation, not a time-specific price manipulation tactic."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A pump-and-dump scheme is a classic form of securities fraud where an individual accumulates shares in a security (often a low-float or thinly traded stock), artificially inflates the price through false or misleading promotion, and then sells at the inflated price. This violates Section 9(a)(2) of the Securities Exchange Act, FINRA Rule 2020 (Use of Manipulative, Deceptive or Other Fraudulent Devices), and SEC Rule 10b-5. The use of social media for the 'pump' is an increasingly common modern variant.",
+    "subtopic": "market-manipulation-schemes",
+    "difficulty": "easy",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "Securities Exchange Act Section 9(a)(2); FINRA Rule 2020; SEC Rule 10b-5",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-038",
+    "section": "trading-supervision",
+    "stem": "A broker-dealer acts as both agent and principal in the same transaction without disclosing this dual role to the customer. Which FINRA rule is most directly violated?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "FINRA Rule 2010 (Standards of Commercial Honor and Principles of Trade)",
+        "explanation": "Incorrect. While FINRA Rule 2010 is a broad ethical standard that could apply, there is a more specific rule that directly addresses undisclosed dual-capacity transactions."
+      },
+      {
+        "label": "B",
+        "text": "FINRA Rule 5310 (Best Execution and Interpositioning)",
+        "explanation": "Incorrect. While best execution obligations are relevant, the most direct violation relates to the failure to disclose the firm's capacity in the transaction, which is governed by a different rule."
+      },
+      {
+        "label": "C",
+        "text": "FINRA Rule 2124 (Net Transactions with Customers) and SEC Rule 10b-10 (Trade Confirmation Requirements)",
+        "explanation": "Correct. SEC Rule 10b-10 requires that trade confirmations disclose whether the firm acted as agent, principal, or in a dual capacity. FINRA Rule 2124 addresses the requirements for member firms effecting net transactions. A firm that acts in both capacities without disclosure violates confirmation disclosure requirements and fair dealing obligations."
+      },
+      {
+        "label": "D",
+        "text": "FINRA Rule 5320 (Prohibition Against Trading Ahead of Customer Orders)",
+        "explanation": "Incorrect. Rule 5320 prohibits trading ahead of customer orders. While the dual-capacity issue may implicate trading ahead concerns, the direct violation is the failure to disclose the firm's role, not trading ahead."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "SEC Rule 10b-10 requires broker-dealers to provide trade confirmations disclosing whether the firm acted as agent, principal, or in a dual capacity. The confirmation must also disclose any mark-up, mark-down, or commission charged. FINRA Rule 2124 establishes requirements for member firms engaging in net transactions with customers. Failing to disclose the firm's capacity deprives the customer of material information about potential conflicts of interest in the transaction.",
+    "subtopic": "trade-confirmation-disclosure",
+    "difficulty": "hard",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "SEC Rule 10b-10; FINRA Rule 2124 (Net Transactions with Customers)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-039",
+    "section": "trading-supervision",
+    "stem": "A broker-dealer's best execution committee is reviewing its order routing practices. Under FINRA Rule 5310, which factor is LEAST relevant to the firm's best execution analysis?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The size and type of the transaction.",
+        "explanation": "Incorrect — this IS relevant. The size and type of the transaction directly affect execution quality, as large orders may face different market impact than small retail orders."
+      },
+      {
+        "label": "B",
+        "text": "The number of markets checked and the accessibility of the quotation.",
+        "explanation": "Incorrect — this IS relevant. Checking multiple markets and assessing quotation accessibility is a core element of best execution analysis."
+      },
+      {
+        "label": "C",
+        "text": "The amount of payment for order flow the firm receives from a particular market center.",
+        "explanation": "Correct. FINRA and the SEC have consistently stated that payment for order flow should not be a determinative factor in routing decisions. While PFOF must be disclosed, the best execution analysis should focus on execution quality metrics — price improvement, speed, likelihood of execution, and order size — not the rebates or payments received by the firm."
+      },
+      {
+        "label": "D",
+        "text": "The terms and conditions of the order, including any limit price.",
+        "explanation": "Incorrect — this IS relevant. The specific terms of the order, including limit prices, time-in-force conditions, and special instructions, are directly relevant to determining the best execution venue."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "FINRA Rule 5310 requires broker-dealers to use reasonable diligence to ascertain the best market for a security and execute at the most favorable terms reasonably available. Relevant factors include the character of the market, the size and type of transaction, the number of markets checked, and the accessibility of the quotation. Payment for order flow received by the firm from a market center should not be a determinative factor in routing decisions, as this creates a conflict between the firm's economic interest and the customer's interest in best execution.",
+    "subtopic": "best-execution-obligations",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 5310 (Best Execution and Interpositioning)",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["robinhood-pfof"]
+  },
+  {
+    "id": "q-s24-040",
+    "section": "trading-supervision",
+    "stem": "Under the SEC's Regulation SHO, which of the following securities is subject to the short sale circuit breaker (Rule 201)?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Any NMS stock whose price has declined by 10% or more from the prior day's closing price.",
+        "explanation": "Correct. SEC Rule 201 of Regulation SHO (the alternative uptick rule or short sale circuit breaker) is triggered when the price of an NMS stock declines by 10% or more from the prior day's closing price. Once triggered, short sales in that security may only be executed at a price above the current national best bid for the remainder of the day and the following day."
+      },
+      {
+        "label": "B",
+        "text": "Any security that appears on the SEC's threshold security list for 13 consecutive settlement days.",
+        "explanation": "Incorrect. The threshold security list relates to persistent fails to deliver under Rule 203(b)(3), not the short sale circuit breaker. These are separate provisions of Regulation SHO."
+      },
+      {
+        "label": "C",
+        "text": "Only securities with a market capitalization below $500 million.",
+        "explanation": "Incorrect. Rule 201 applies to all NMS stocks regardless of market capitalization. There is no size threshold for the circuit breaker."
+      },
+      {
+        "label": "D",
+        "text": "Only securities designated as 'hard to borrow' by the firm's stock loan department.",
+        "explanation": "Incorrect. The 'hard to borrow' designation is relevant to the locate requirement but not to the short sale circuit breaker, which is triggered solely by a 10% price decline."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "SEC Rule 201 of Regulation SHO, adopted in 2010, establishes an alternative uptick rule (circuit breaker) that is triggered when the price of an NMS stock decreases by 10% or more from the previous trading day's closing price. Once triggered, the circuit breaker restricts short selling to prices above the current national best bid for the remainder of that trading day and the entire following trading day. This replaced the former uptick rule that was eliminated in 2007.",
+    "subtopic": "short-sale-circuit-breaker",
+    "difficulty": "easy",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "SEC Regulation SHO Rule 201 (Short Sale Price Test Circuit Breaker)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-041",
+    "section": "banking-research",
+    "stem": "A broker-dealer's investment banking division is the lead underwriter for a company's IPO. Under SEC Regulation M Rule 101, which of the following activities is prohibited during the applicable restricted period?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Publishing research on other companies in the same industry sector.",
+        "explanation": "Incorrect. Research on other companies in the same sector is not prohibited. Regulation M restricts activity related to the specific security being distributed, not the entire sector."
+      },
+      {
+        "label": "B",
+        "text": "Bidding for, purchasing, or attempting to induce others to purchase the covered security during the restricted period.",
+        "explanation": "Correct. SEC Regulation M Rule 101 prohibits underwriters, broker-dealers, and other distribution participants from bidding for, purchasing, or attempting to induce any person to bid for or purchase the covered security during the applicable restricted period. This prevents artificial price support during a distribution."
+      },
+      {
+        "label": "C",
+        "text": "Meeting with institutional investors to gauge interest in the offering (book-building).",
+        "explanation": "Incorrect. Book-building and roadshow activities are a normal part of the distribution process and are not prohibited by Rule 101. The prohibition relates to secondary market purchasing activity, not marketing the offering."
+      },
+      {
+        "label": "D",
+        "text": "Allocating shares to institutional investors who expressed interest during the roadshow.",
+        "explanation": "Incorrect. Share allocation to investors is part of the distribution process itself. Rule 101 prohibits aftermarket bidding and purchasing, not the primary distribution and allocation of shares."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "SEC Regulation M Rule 101 prevents distribution participants (underwriters, broker-dealers, and their affiliates) from bidding for, purchasing, or attempting to induce purchases of the covered security during the applicable restricted period. The restricted period typically begins one or five business days before pricing (depending on ADTV and public float) and ends when the distribution is complete. This anti-manipulation rule prevents artificial inflation of the security's price during a distribution.",
+    "subtopic": "regulation-m-restricted-period",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "SEC Regulation M Rule 101 (Activities by Distribution Participants)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-042",
+    "section": "banking-research",
+    "stem": "Under FINRA Rule 2241 (Research Analysts and Research Reports), which of the following information barriers must a broker-dealer maintain between its investment banking and research departments?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Research analysts may attend investment banking pitches as long as they do not participate in the presentation.",
+        "explanation": "Incorrect. FINRA Rule 2241 generally prohibits research analysts from participating in investment banking pitches or road shows. Mere attendance could compromise the analyst's independence."
+      },
+      {
+        "label": "B",
+        "text": "Investment banking personnel may not review or approve the content of research reports before publication.",
+        "explanation": "Correct. Under FINRA Rule 2241(b)(2), investment banking personnel must not review, approve, or direct the content of research reports. This information barrier is essential to ensuring that research analysts can issue independent opinions without pressure from the investment banking division to issue favorable ratings that could benefit the firm's banking relationships."
+      },
+      {
+        "label": "C",
+        "text": "Research analysts and investment bankers may share the same office space as long as they report to different managers.",
+        "explanation": "Incorrect. The information barriers under Rule 2241 include physical separation and information flow restrictions. Simply having different reporting lines while sharing office space would be insufficient to maintain the required separation."
+      },
+      {
+        "label": "D",
+        "text": "Investment banking revenue may be a primary factor in determining research analyst compensation, provided it is disclosed.",
+        "explanation": "Incorrect. Under FINRA Rule 2241(b)(2)(K), research analyst compensation cannot be based upon specific investment banking transactions or revenue attributable to the analyst's contributions to specific transactions. Disclosure does not cure this prohibition."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA Rule 2241 establishes comprehensive information barriers between research and investment banking to protect analyst independence. Key requirements include: investment banking personnel may not review or approve research content; research analyst compensation cannot be based on specific banking transactions; research analysts cannot participate in investment banking pitches; and the firm must have policies to manage the flow of information between departments. These rules were strengthened after the 2003 Global Research Analyst Settlement.",
+    "subtopic": "research-analyst-information-barriers",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 2241 (Research Analysts and Research Reports)",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["enron"]
+  },
+  {
+    "id": "q-s24-043",
+    "section": "banking-research",
+    "stem": "A broker-dealer is acting as the managing underwriter in a firm-commitment offering. Which of the following accurately describes the firm's financial obligation in this arrangement?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The underwriter agrees to use its best efforts to sell the offering but has no obligation to purchase unsold shares.",
+        "explanation": "Incorrect. This describes a best-efforts offering, not a firm-commitment offering. In a firm commitment, the underwriter assumes the risk of unsold shares."
+      },
+      {
+        "label": "B",
+        "text": "The underwriter purchases the entire offering from the issuer at a negotiated discount and assumes the risk of reselling the securities to investors.",
+        "explanation": "Correct. In a firm-commitment underwriting, the underwriter (or underwriting syndicate) purchases the entire offering from the issuer at the public offering price less the underwriting spread. The underwriter bears the risk that if it cannot sell all the securities at the offering price, it will hold unsold inventory at a potential loss."
+      },
+      {
+        "label": "C",
+        "text": "The underwriter holds the offering in escrow until a minimum number of shares is sold, then releases funds to the issuer.",
+        "explanation": "Incorrect. This describes a mini-max or contingency offering structure, not a firm-commitment underwriting. In a firm commitment, funds are released to the issuer upon the closing of the offering."
+      },
+      {
+        "label": "D",
+        "text": "The underwriter receives a flat advisory fee regardless of whether the offering is completed.",
+        "explanation": "Incorrect. In a firm-commitment underwriting, the underwriter's compensation is the underwriting spread — the difference between the price paid to the issuer and the public offering price. It is not structured as a flat advisory fee."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "In a firm-commitment underwriting, the managing underwriter and syndicate members contractually agree to purchase the entire offering from the issuer at the public offering price less the underwriting spread. This transfers the risk of unsold securities from the issuer to the underwriter. If the underwriter cannot sell all securities at the offering price, it must absorb the loss. This is the most common underwriting structure for seasoned issuers and larger IPOs.",
+    "subtopic": "underwriting-types",
+    "difficulty": "easy",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "Securities Act of 1933; FINRA Rule 5110 (Corporate Financing Rule — Underwriting Terms and Arrangements)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-044",
+    "section": "banking-research",
+    "stem": "Under FINRA Rule 5110 (the Corporate Financing Rule), a broker-dealer participating in a public offering must file certain information with FINRA. Which of the following statements about the filing requirement is correct?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The underwriter must file documents with FINRA's Corporate Financing Department at least one business day before the offering date for a review of the underwriting compensation and terms.",
+        "explanation": "Correct. FINRA Rule 5110(b) requires that a participating member file documents with FINRA's Corporate Financing Department no later than one business day after filing with the SEC or one business day before the offering commences, whichever is earlier. FINRA reviews the underwriting terms, compensation, and lock-up arrangements to ensure they are fair and reasonable."
+      },
+      {
+        "label": "B",
+        "text": "Only offerings exceeding $50 million in gross proceeds must be filed with FINRA.",
+        "explanation": "Incorrect. The filing requirement under Rule 5110 applies regardless of the offering size. While certain exemptions exist (e.g., for securities exempted from registration, or for rights offerings to existing shareholders), there is no $50 million threshold."
+      },
+      {
+        "label": "C",
+        "text": "Filing is required only after the offering is completed, as a post-closing report.",
+        "explanation": "Incorrect. Rule 5110 requires pre-offering filing so FINRA can review the terms before the offering proceeds. Post-closing filings may also be required, but the initial review is pre-offering."
+      },
+      {
+        "label": "D",
+        "text": "The filing is optional if the underwriter self-certifies that the compensation is within FINRA guidelines.",
+        "explanation": "Incorrect. The filing requirement is mandatory and cannot be satisfied by self-certification. FINRA must independently review the underwriting arrangements."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "FINRA Rule 5110 (the Corporate Financing Rule) requires member firms participating in public offerings to file offering documents with FINRA's Corporate Financing Department for review of underwriting terms and compensation. The filing must be made no later than one business day after SEC filing or one business day before the offering commences. FINRA reviews items including total underwriting compensation, lock-up arrangements, and whether the terms are fair and reasonable.",
+    "subtopic": "corporate-financing-rule-filing",
+    "difficulty": "hard",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 5110 (Corporate Financing Rule — Underwriting Terms and Arrangements)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-045",
+    "section": "banking-research",
+    "stem": "A research analyst at a broker-dealer owns shares of a company she covers. Under FINRA Rule 2241, which of the following is required?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The analyst must immediately divest all holdings in companies she covers.",
+        "explanation": "Incorrect. FINRA Rule 2241 does not require immediate divestiture of all holdings. However, it imposes restrictions on when the analyst can trade and requires disclosure of the ownership interest in research reports."
+      },
+      {
+        "label": "B",
+        "text": "The analyst's ownership must be disclosed in any research report covering the company, and trading is restricted during certain periods.",
+        "explanation": "Correct. Under FINRA Rule 2241(c), research reports must disclose if the research analyst or a member of the analyst's household has a financial interest in the subject company. Additionally, analysts are prohibited from trading in the covered company's securities for 30 days before and 5 days after publication of a research report that includes a rating change."
+      },
+      {
+        "label": "C",
+        "text": "The analyst may retain the shares as long as the position was acquired before she began covering the company.",
+        "explanation": "Incorrect. While pre-existing positions may be retained in some circumstances, the requirement for disclosure in research reports and trading restrictions applies regardless of when the position was acquired."
+      },
+      {
+        "label": "D",
+        "text": "No disclosure is required if the position is less than $10,000 in market value.",
+        "explanation": "Incorrect. There is no de minimis threshold for disclosure of research analyst financial interests. Any financial interest in the subject company must be disclosed in the research report."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA Rule 2241(c) requires that research reports prominently disclose whether the research analyst or members of their household have a financial interest in the securities of the subject company. The rule also restricts trading by research analysts around the publication of research reports — generally prohibiting trades for 30 days before and 5 days after a report with a rating change. These requirements ensure transparency and prevent analysts from profiting from their own recommendations.",
+    "subtopic": "research-analyst-disclosures",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 2241(c) (Research Analysts and Research Reports — Disclosures in Research Reports)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-046",
+    "section": "banking-research",
+    "stem": "A broker-dealer has served as the lead underwriter for a company's IPO. Under FINRA rules, how long must the firm wait before publishing a research report on the newly public company?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "There is no mandatory quiet period for research following an IPO.",
+        "explanation": "Incorrect. FINRA Rule 2241(b)(2)(H) imposes a quiet period restricting the publication of research reports by firms involved in the distribution."
+      },
+      {
+        "label": "B",
+        "text": "10 calendar days after the IPO.",
+        "explanation": "Correct. Under FINRA Rule 2241(b)(2)(H), a member that has acted as a manager or co-manager of an IPO may not publish or distribute a research report regarding the issuer for 10 calendar days following the date of the offering. This quiet period prevents the appearance that research coverage is being used to support the new offering."
+      },
+      {
+        "label": "C",
+        "text": "25 calendar days after the IPO.",
+        "explanation": "Incorrect. The 25-day quiet period was a prior standard that has been shortened. Under the current rule, the quiet period for managers and co-managers is 10 calendar days."
+      },
+      {
+        "label": "D",
+        "text": "40 calendar days after the IPO.",
+        "explanation": "Incorrect. The 40-day period relates to the expiration of the prospectus delivery requirement for non-reporting issuers under SEC Rule 174, not to the research quiet period."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA Rule 2241(b)(2)(H) establishes a 10-calendar-day quiet period after an IPO during which a firm that served as manager or co-manager may not publish or distribute a research report on the issuer. This rule is designed to prevent the appearance that favorable research is being used as an inducement for investment banking business or to support the offering price in the aftermarket. The quiet period was shortened from 40 days (pre-2015) to the current 10 days.",
+    "subtopic": "research-quiet-period",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 2241(b)(2)(H) (Research Quiet Period)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-047",
+    "section": "banking-research",
+    "stem": "During a syndicate offering, the managing underwriter imposes a penalty bid against a syndicate member. What is the effect of a penalty bid?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The syndicate member is required to double its allotment in the offering.",
+        "explanation": "Incorrect. A penalty bid does not increase the syndicate member's allotment. It is a financial penalty mechanism related to secondary market selling activity."
+      },
+      {
+        "label": "B",
+        "text": "The selling concession is reclaimed from a syndicate member whose customers sell the newly issued securities in the immediate aftermarket.",
+        "explanation": "Correct. A penalty bid allows the managing underwriter to reclaim the selling concession from syndicate members whose allocated shares are flipped (sold in the secondary market shortly after the offering). This discourages syndicate members from allocating shares to customers who intend to immediately resell, which would put downward pressure on the offering price."
+      },
+      {
+        "label": "C",
+        "text": "The syndicate member is expelled from the syndicate and barred from future offerings by the managing underwriter.",
+        "explanation": "Incorrect. A penalty bid is a financial penalty (reclaiming the selling concession), not an expulsion from the syndicate. It is a common and accepted feature of syndicate agreements."
+      },
+      {
+        "label": "D",
+        "text": "The syndicate member must purchase additional shares from the managing underwriter at the public offering price.",
+        "explanation": "Incorrect. A penalty bid does not require additional share purchases. It is a reclamation of the selling concession from shares that were 'flipped' in the aftermarket."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A penalty bid is a provision in the syndicate agreement that allows the managing underwriter to reclaim the selling concession from syndicate members whose customers sell newly issued securities in the immediate aftermarket. This mechanism stabilizes the offering by discouraging allocations to 'flippers.' Under Regulation M Rule 104, penalty bids must be disclosed and must be imposed as part of a bona fide stabilizing effort, not as a manipulation of the aftermarket price.",
+    "subtopic": "syndicate-penalty-bids",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "SEC Regulation M Rule 104; FINRA Rule 5131 (New Issue Allocations and Distributions)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-048",
+    "section": "banking-research",
+    "stem": "Under FINRA Rule 5131 (New Issue Allocations and Distributions), which of the following allocation practices is prohibited for IPOs of equity securities?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Allocating shares to institutional investors who provided indications of interest during the book-building process.",
+        "explanation": "Incorrect. Allocating to institutional investors who expressed genuine interest during book-building is a normal and expected part of the IPO process."
+      },
+      {
+        "label": "B",
+        "text": "Allocating shares to executive officers or directors of an existing or prospective investment banking client as a quid pro quo for investment banking business.",
+        "explanation": "Correct. FINRA Rule 5131(b) (the 'quid pro quo' prohibition) prohibits offering IPO shares to executive officers and directors of a company in consideration for, or as an express or implied condition for, the receipt of investment banking business from that company. This prevents the use of hot IPO allocations as a form of commercial bribery."
+      },
+      {
+        "label": "C",
+        "text": "Allocating a portion of the offering to the firm's retail customers through its branch network.",
+        "explanation": "Incorrect. Allocating shares to retail customers is a permissible and common practice, subject to suitability and free-riding/withholding rules under FINRA Rule 5130."
+      },
+      {
+        "label": "D",
+        "text": "Allocating more shares to investors who placed larger orders during the book-building process.",
+        "explanation": "Incorrect. Allocating based on the size of orders and the quality of the investor's indication of interest is a standard element of the allocation process and is not prohibited."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "FINRA Rule 5131(b) explicitly prohibits quid pro quo allocations — offering IPO shares to executives or directors of companies as a condition of receiving investment banking business. This rule was adopted in response to practices during the late-1990s IPO boom where hot IPO shares were used to attract and retain corporate clients. The rule also prohibits spinning — allocating shares to reward executives personally for their companies' investment banking business.",
+    "subtopic": "ipo-allocation-restrictions",
+    "difficulty": "hard",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 5131 (New Issue Allocations and Distributions)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-049",
+    "section": "banking-research",
+    "stem": "A broker-dealer is conducting stabilizing activities in connection with a secondary offering. Under SEC Regulation M Rule 104, at what price level may the firm place stabilizing bids?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "At any price the firm believes will support the market for the security.",
+        "explanation": "Incorrect. Stabilizing bids are not unlimited. Regulation M Rule 104 restricts the price at which stabilizing bids may be entered to prevent excessive manipulation of the market price."
+      },
+      {
+        "label": "B",
+        "text": "At or below the public offering price.",
+        "explanation": "Correct. Under SEC Regulation M Rule 104, stabilizing bids must not exceed the offering price. The purpose of stabilization is to prevent the price from falling below the offering price during the distribution period, not to push the price above it. Stabilizing activity must also be disclosed to investors."
+      },
+      {
+        "label": "C",
+        "text": "At the previous day's closing price regardless of the offering price.",
+        "explanation": "Incorrect. The stabilizing bid price ceiling is tied to the offering price, not the previous day's closing price. If the closing price is above the offering price, stabilizing at the closing price would violate Rule 104."
+      },
+      {
+        "label": "D",
+        "text": "At exactly the offering price — no higher or lower.",
+        "explanation": "Incorrect. While stabilizing bids are often placed at the offering price, Rule 104 permits bids at or below the offering price. The firm has flexibility to bid below the offering price but cannot bid above it."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "SEC Regulation M Rule 104 permits stabilizing transactions at or below the public offering price. Stabilization is an exception to the anti-manipulation provisions of the securities laws, allowed specifically to prevent a decline in the market price during a distribution. The managing underwriter must disclose stabilizing activities on the prospectus cover page. Stabilizing bids above the offering price would constitute market manipulation rather than legitimate price support.",
+    "subtopic": "stabilizing-bids",
+    "difficulty": "easy",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "SEC Regulation M Rule 104 (Stabilizing and Other Activities in Connection with an Offering)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-050",
+    "section": "banking-research",
+    "stem": "A research analyst at a broker-dealer is invited to attend a pitch meeting with a prospective investment banking client. Under FINRA Rule 2241, how should this situation be handled?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The analyst may attend and participate fully as long as any resulting research report discloses the attendance.",
+        "explanation": "Incorrect. FINRA Rule 2241 generally prohibits research analysts from participating in investment banking pitches. Disclosure alone does not cure the prohibition."
+      },
+      {
+        "label": "B",
+        "text": "The analyst may attend only to provide general industry expertise but may not participate in efforts to solicit investment banking business.",
+        "explanation": "Incorrect. While there are limited exceptions, the general rule prohibits analyst participation in pitches. Even providing 'general industry expertise' in the context of a pitch can compromise the analyst's independence."
+      },
+      {
+        "label": "C",
+        "text": "The analyst is prohibited from participating in pitches and other efforts to solicit investment banking business.",
+        "explanation": "Correct. FINRA Rule 2241(b)(2)(G) prohibits research analysts from participating in efforts to solicit investment banking business, including pitches and road shows. This is a core information barrier requirement designed to prevent the investment banking relationship from influencing research independence."
+      },
+      {
+        "label": "D",
+        "text": "The analyst may attend if the firm's legal and compliance department provides written pre-approval.",
+        "explanation": "Incorrect. Legal and compliance pre-approval cannot override the rule's prohibition. The restriction on analyst participation in investment banking pitches is a bright-line rule, not a discretionary standard."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "FINRA Rule 2241(b)(2)(G) establishes a clear prohibition: research analysts may not participate in efforts to solicit investment banking business, including pitches and road shows conducted in connection with seeking to be retained for an investment banking services engagement. This information barrier is fundamental to research independence and was a central reform following the Global Research Analyst Settlement of 2003, which revealed widespread conflicts of interest between research and investment banking.",
+    "subtopic": "research-analyst-independence",
+    "difficulty": "easy",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "FINRA Rule 2241(b)(2)(G) (Research Analysts — Restrictions on Activities)",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["enron"]
+  },
+  {
+    "id": "q-s24-051",
+    "section": "financial-responsibility",
+    "stem": "A broker-dealer that carries customer accounts and holds customer funds is subject to the SEC's Net Capital Rule. Under SEC Rule 15c3-1, what is the minimum net capital requirement for a broker-dealer that carries customer accounts?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "$5,000",
+        "explanation": "Incorrect. $5,000 is the minimum net capital for a broker-dealer that does not carry customer accounts or hold customer funds (an introducing broker-dealer that does not receive customer securities or funds)."
+      },
+      {
+        "label": "B",
+        "text": "$50,000",
+        "explanation": "Incorrect. $50,000 is not a standard tier under the net capital rule for carrying firms. Broker-dealers that carry customer accounts have a significantly higher requirement."
+      },
+      {
+        "label": "C",
+        "text": "$250,000",
+        "explanation": "Correct. Under SEC Rule 15c3-1(a), broker-dealers that carry customer accounts (clearing or self-clearing firms) must maintain minimum net capital of $250,000. This is the standard minimum for firms that receive and hold customer funds and securities."
+      },
+      {
+        "label": "D",
+        "text": "$1,000,000",
+        "explanation": "Incorrect. While some firms may be required to maintain net capital above $250,000 based on the aggregate indebtedness or alternative method calculations, the base minimum for carrying firms under the rule is $250,000."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "SEC Rule 15c3-1 (the Net Capital Rule) establishes minimum net capital requirements based on the nature of a broker-dealer's activities. Firms that carry customer accounts (clearing or self-clearing broker-dealers) must maintain a minimum of $250,000 in net capital. Introducing broker-dealers that do not carry customer accounts have lower minimums ($5,000 to $50,000 depending on activities). The rule is designed to ensure that broker-dealers maintain sufficient liquid assets to meet obligations to customers and counterparties.",
+    "subtopic": "net-capital-minimum-requirements",
+    "difficulty": "easy",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "SEC Rule 15c3-1 (Net Capital Requirements for Brokers or Dealers)",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["lehman"]
+  },
+  {
+    "id": "q-s24-052",
+    "section": "financial-responsibility",
+    "stem": "Under the SEC's Customer Protection Rule (Rule 15c3-3), a broker-dealer that carries customer accounts must perform a reserve computation. How frequently must this computation be performed?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Monthly",
+        "explanation": "Incorrect. Monthly computations would be too infrequent for customer protection purposes. The rule requires more frequent calculations to ensure adequate customer fund segregation."
+      },
+      {
+        "label": "B",
+        "text": "Weekly, as of the close of the last business day of each week.",
+        "explanation": "Correct. SEC Rule 15c3-3 requires broker-dealers to perform the reserve computation weekly, as of the close of the last business day of each week. The firm must then make any required deposit into its Special Reserve Bank Account for the Exclusive Benefit of Customers by the following Tuesday (one business day after the computation date for monthly filers, or by the third business day for weekly filers)."
+      },
+      {
+        "label": "C",
+        "text": "Quarterly, in conjunction with FOCUS Report filings.",
+        "explanation": "Incorrect. While the FOCUS Report is filed on a periodic basis, the reserve computation must be performed much more frequently — weekly — to ensure ongoing protection of customer assets."
+      },
+      {
+        "label": "D",
+        "text": "Daily, before the opening of business.",
+        "explanation": "Incorrect. While daily monitoring of customer assets is good practice, the formal reserve computation under Rule 15c3-3 is required weekly, not daily."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "SEC Rule 15c3-3 (the Customer Protection Rule) requires broker-dealers that carry customer accounts to perform the reserve formula computation weekly. The computation determines the amount of cash or qualified securities the firm must deposit into a Special Reserve Bank Account for the Exclusive Benefit of Customers. This account is segregated to protect customer assets in the event the broker-dealer becomes insolvent. The deposit must be made by the prescribed deadline following the computation.",
+    "subtopic": "customer-reserve-computation",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "SEC Rule 15c3-3 (Customer Protection — Reserves and Custody of Securities)",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["ftx"]
+  },
+  {
+    "id": "q-s24-053",
+    "section": "financial-responsibility",
+    "stem": "A broker-dealer's net capital falls below its minimum required level on a Tuesday afternoon. What is the firm's most immediate obligation?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The firm must notify the SEC and its designated examining authority (FINRA) immediately and cease conducting a securities business until the deficiency is cured.",
+        "explanation": "Correct. Under SEC Rule 17a-11 and FINRA rules, a broker-dealer must give immediate notice (same day or next business day) to the SEC, FINRA, and other relevant SROs when its net capital falls below the minimum required amount. The firm must also cease conducting securities business until it cures the deficiency, except to liquidate positions to restore capital."
+      },
+      {
+        "label": "B",
+        "text": "The firm has 30 days to cure the net capital deficiency before any notification is required.",
+        "explanation": "Incorrect. There is no 30-day cure period for a net capital deficiency. The obligation to notify regulators is immediate, and the firm must cease business until the deficiency is resolved."
+      },
+      {
+        "label": "C",
+        "text": "The firm must include the deficiency in its next quarterly FOCUS Report but may continue operations.",
+        "explanation": "Incorrect. A net capital deficiency cannot wait for the next FOCUS Report. Immediate notification is required, and the firm may not continue normal operations while below the minimum."
+      },
+      {
+        "label": "D",
+        "text": "The firm must inform its customers within five business days that it is undercapitalized.",
+        "explanation": "Incorrect. While customer protection is paramount, the immediate obligation is to notify regulators and cease business operations. There is no five-business-day customer notification requirement for capital deficiencies."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Under SEC Rule 17a-11 (Notification Provisions for Brokers and Dealers), a broker-dealer must promptly notify the SEC, FINRA, and other examining authorities when its net capital falls below the required minimum. The firm must cease conducting securities business until the deficiency is cured, except for transactions necessary to wind down or liquidate positions. This immediate notification requirement ensures regulators can intervene to protect customer assets before the situation deteriorates further.",
+    "subtopic": "net-capital-deficiency-notification",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "SEC Rule 17a-11 (Notification Provisions for Brokers and Dealers); SEC Rule 15c3-1",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["lehman"]
+  },
+  {
+    "id": "q-s24-054",
+    "section": "financial-responsibility",
+    "stem": "Under the SEC's Net Capital Rule (Rule 15c3-1), which of the following assets must be excluded ('haircut') from a broker-dealer's net capital computation?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Cash held in a bank account in the firm's name.",
+        "explanation": "Incorrect. Cash is a fully liquid asset and is included in net capital without a haircut. It is a core component of the firm's liquid net worth."
+      },
+      {
+        "label": "B",
+        "text": "Proprietary positions in equity securities, which are subject to percentage deductions based on their market risk.",
+        "explanation": "Correct. Under SEC Rule 15c3-1, proprietary securities positions are subject to 'haircuts' — percentage deductions from market value to account for potential price declines. For example, equity positions generally receive a 15% haircut. These deductions ensure that the firm's reported net capital reflects realistically liquidatable value, not optimistic market valuations."
+      },
+      {
+        "label": "C",
+        "text": "Accrued interest receivable on corporate bonds held in inventory.",
+        "explanation": "Incorrect. While accrued interest may be included in the computation, it is the proprietary securities positions themselves that are subject to the largest haircuts. Accrued interest is treated differently depending on its collectability."
+      },
+      {
+        "label": "D",
+        "text": "U.S. Treasury securities held for trading purposes, which receive no haircut.",
+        "explanation": "Incorrect. Even U.S. Treasuries are subject to haircuts, though at lower rates than equities (reflecting their lower market risk). No security is entirely exempt from haircuts in the net capital computation."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "SEC Rule 15c3-1 requires broker-dealers to apply 'haircuts' (percentage deductions) to the market value of proprietary securities positions when computing net capital. Haircut percentages vary by security type and reflect the estimated risk of price decline during a liquidation period. Equities typically receive a 15% haircut, while U.S. Treasuries receive smaller haircuts (0-6% depending on maturity). Illiquid or non-marketable securities may be excluded entirely from net capital.",
+    "subtopic": "net-capital-haircuts",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "SEC Rule 15c3-1 (Net Capital Requirements — Computation of Net Capital)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-055",
+    "section": "financial-responsibility",
+    "stem": "A broker-dealer is required to file a FOCUS Report with FINRA. What information does the FOCUS Report primarily contain?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "A summary of all customer complaints received during the reporting period.",
+        "explanation": "Incorrect. Customer complaints are reported through FINRA Rule 4530 filings and the complaint reporting process, not through the FOCUS Report."
+      },
+      {
+        "label": "B",
+        "text": "The firm's financial and operational data, including net capital computation, balance sheet, income statement, and operational information.",
+        "explanation": "Correct. The FOCUS (Financial and Operational Combined Uniform Single) Report is the primary financial reporting form for broker-dealers. It contains the firm's balance sheet, income statement, net capital computation, customer reserve formula computation, and other financial and operational data. It is filed with FINRA (as the firm's DEA) pursuant to SEC Rule 17a-5."
+      },
+      {
+        "label": "C",
+        "text": "A list of all registered representatives and their production numbers.",
+        "explanation": "Incorrect. Personnel information and production data are maintained in CRD and internal firm records. The FOCUS Report is a financial and operational filing."
+      },
+      {
+        "label": "D",
+        "text": "Detailed records of all customer account activity during the reporting period.",
+        "explanation": "Incorrect. Customer account activity details are maintained in the firm's books and records under SEC Rules 17a-3 and 17a-4. The FOCUS Report contains summary financial and operational data."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The FOCUS Report (Financial and Operational Combined Uniform Single Report) is the primary periodic financial filing for broker-dealers, required under SEC Rule 17a-5. It contains the firm's balance sheet, income statement, net capital computation, customer reserve formula computation, and other financial and operational information. Carrying firms file the FOCUS Report monthly; introducing firms generally file quarterly. The report provides regulators with ongoing visibility into the firm's financial condition.",
+    "subtopic": "focus-report-filing",
+    "difficulty": "easy",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "SEC Rule 17a-5 (Reports to Be Made by Certain Brokers and Dealers)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-056",
+    "section": "financial-responsibility",
+    "stem": "Under SEC Rule 15c3-3 (the Customer Protection Rule), fully paid customer securities held by a broker-dealer must be:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Available for use in the firm's proprietary trading activities as long as the customer is notified.",
+        "explanation": "Incorrect. Fully paid customer securities may not be used for the firm's proprietary activities. Using customer securities for the firm's own purposes without proper authorization would be a violation of the customer protection rule and could constitute conversion."
+      },
+      {
+        "label": "B",
+        "text": "Segregated in a separate account and not commingled with the firm's proprietary securities or used as collateral for the firm's obligations.",
+        "explanation": "Correct. SEC Rule 15c3-3 requires that fully paid customer securities be segregated and held in safekeeping. They cannot be commingled with firm proprietary securities, pledged as collateral for the firm's own borrowings, or otherwise used for the firm's benefit. This segregation protects customer assets in the event of the broker-dealer's insolvency."
+      },
+      {
+        "label": "C",
+        "text": "Held at any location designated by the broker-dealer's chief financial officer.",
+        "explanation": "Incorrect. While the firm has some flexibility in choosing custodians, the securities must be held at approved control locations as defined by Rule 15c3-3 — such as a clearing corporation, a bank, or the broker-dealer's own vault. The CFO cannot designate arbitrary locations."
+      },
+      {
+        "label": "D",
+        "text": "Reported to SIPC monthly along with the identities of the customers who own them.",
+        "explanation": "Incorrect. While SIPC provides insurance coverage in case of broker-dealer failure, there is no monthly reporting requirement to SIPC of individual customer securities holdings. The primary obligation is segregation and safekeeping under Rule 15c3-3."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "SEC Rule 15c3-3 (the Customer Protection Rule) requires broker-dealers to maintain physical possession or control of all fully paid and excess-margin customer securities. These must be segregated from the firm's proprietary assets and held in designated control locations. The rule was adopted in 1972 following broker-dealer failures in the late 1960s and is designed to ensure that customer securities are available for prompt return in the event of the firm's liquidation.",
+    "subtopic": "customer-securities-segregation",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "SEC Rule 15c3-3 (Customer Protection — Reserves and Custody of Securities)",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["ftx"]
+  },
+  {
+    "id": "q-s24-057",
+    "section": "financial-responsibility",
+    "stem": "A broker-dealer uses the alternative method under SEC Rule 15c3-1 to calculate its net capital requirement. Under the alternative method, the firm must maintain net capital equal to at least:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "6-2/3% of aggregate debit items.",
+        "explanation": "Incorrect. The 6-2/3% ratio applies to the early warning level under the alternative method. The minimum net capital requirement under the alternative method is 2% of aggregate debit items."
+      },
+      {
+        "label": "B",
+        "text": "2% of aggregate debit items.",
+        "explanation": "Correct. Under the alternative method of SEC Rule 15c3-1, a broker-dealer must maintain net capital of not less than 2% of aggregate debit items as computed under the customer reserve formula of Rule 15c3-3. This method ties the capital requirement directly to the amount of customer credit the firm extends."
+      },
+      {
+        "label": "C",
+        "text": "15% of aggregate indebtedness.",
+        "explanation": "Incorrect. The aggregate indebtedness method (the basic method) uses a ratio of aggregate indebtedness to net capital. The 15:1 ratio (which requires net capital of at least 1/15th, or approximately 6.67%, of aggregate indebtedness) applies under the basic method, not the alternative method."
+      },
+      {
+        "label": "D",
+        "text": "1% of total customer assets under management.",
+        "explanation": "Incorrect. The net capital rule does not use 'assets under management' as a basis. The alternative method is based on aggregate debit items from the customer reserve formula, not total customer assets."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "SEC Rule 15c3-1 provides two methods for computing net capital requirements: the basic method (aggregate indebtedness standard, which limits aggregate indebtedness to 15 times net capital) and the alternative method (which requires net capital of at least 2% of aggregate debit items computed under Rule 15c3-3). The alternative method is used by most larger carrying firms. Early warning notifications are triggered at higher thresholds (5% of aggregate debit items under the alternative method).",
+    "subtopic": "alternative-net-capital-method",
+    "difficulty": "hard",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "SEC Rule 15c3-1(a)(1)(ii) (Alternative Standard)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-058",
+    "section": "financial-responsibility",
+    "stem": "A broker-dealer's annual audited financial statements, required under SEC Rule 17a-5, must be prepared by:",
+    "choices": [
+      {
+        "label": "A",
+        "text": "The firm's internal accounting department, certified by the chief financial officer.",
+        "explanation": "Incorrect. Annual audited financial statements must be prepared by an independent public accountant, not the firm's internal accounting staff. Internal preparation would not satisfy the independence requirement."
+      },
+      {
+        "label": "B",
+        "text": "An independent public accountant registered with the PCAOB.",
+        "explanation": "Correct. SEC Rule 17a-5 requires that a broker-dealer's annual financial statements be audited by an independent public accountant that is registered with the Public Company Accounting Oversight Board (PCAOB). The accountant must examine the financial statements and the firm's net capital and customer reserve computations."
+      },
+      {
+        "label": "C",
+        "text": "Any CPA firm, whether or not it is registered with the PCAOB.",
+        "explanation": "Incorrect. Since 2013, the SEC requires that the independent public accountant auditing a broker-dealer's financial statements be registered with the PCAOB. An unregistered CPA firm cannot perform this audit."
+      },
+      {
+        "label": "D",
+        "text": "FINRA's Department of Member Regulation as part of the annual examination.",
+        "explanation": "Incorrect. FINRA conducts regulatory examinations but does not prepare or audit the firm's financial statements. The audit must be performed by an independent external accountant."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "SEC Rule 17a-5 requires broker-dealers to file annual reports containing financial statements audited by an independent public accountant registered with the PCAOB. The auditor examines the firm's financial statements, compliance with the net capital rule, the customer reserve formula, and custody of customer securities. The auditor must also report on any material inadequacies in the firm's internal controls or procedures. The annual audit report must be filed within 60 days of the firm's fiscal year-end.",
+    "subtopic": "annual-audit-requirements",
+    "difficulty": "medium",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "SEC Rule 17a-5 (Reports to Be Made by Certain Brokers and Dealers); PCAOB registration requirements",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["enron", "worldcom"]
+  },
+  {
+    "id": "q-s24-059",
+    "section": "financial-responsibility",
+    "stem": "A broker-dealer's aggregate indebtedness is $12,000,000 and its net capital is $900,000. Under the basic method of SEC Rule 15c3-1, is the firm in compliance with the net capital rule?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "Yes, because the firm's net capital exceeds the $250,000 minimum.",
+        "explanation": "Incorrect. While $900,000 exceeds the $250,000 minimum, the basic method also imposes a ratio test. The firm must maintain aggregate indebtedness at no more than 15 times its net capital."
+      },
+      {
+        "label": "B",
+        "text": "No, because the firm's aggregate indebtedness exceeds 15 times its net capital.",
+        "explanation": "Incorrect. While the 15:1 ratio test is the correct standard, the math does not support this conclusion. The firm's aggregate indebtedness of $12,000,000 divided by net capital of $900,000 equals 13.33:1, which is below the 15:1 limit. The firm is in compliance."
+      },
+      {
+        "label": "C",
+        "text": "Yes, because the ratio of aggregate indebtedness to net capital (13.33:1) does not exceed the 15:1 limit.",
+        "explanation": "Correct. Under the basic method of Rule 15c3-1, a firm's aggregate indebtedness may not exceed 1,500% (15 times) of its net capital. The firm's ratio is $12,000,000 / $900,000 = 13.33:1, which is within the 15:1 limit. Combined with net capital exceeding the $250,000 minimum, the firm is in compliance."
+      },
+      {
+        "label": "D",
+        "text": "No, because the basic method requires net capital of at least 10% of aggregate indebtedness.",
+        "explanation": "Incorrect. The basic method requires that aggregate indebtedness not exceed 15 times net capital (equivalent to net capital being at least 6.67% of aggregate indebtedness), not 10%."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Under the basic method of SEC Rule 15c3-1, a broker-dealer's aggregate indebtedness may not exceed 15 times its net capital (a 15:1 ratio). In this case, the firm's ratio is $12,000,000 / $900,000 = 13.33:1, which is below the 15:1 limit. Additionally, the firm's net capital of $900,000 exceeds the $250,000 minimum for carrying firms. Therefore, the firm is in compliance with both the minimum dollar requirement and the ratio test under the basic method.",
+    "subtopic": "net-capital-ratio-computation",
+    "difficulty": "hard",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "SEC Rule 15c3-1(a)(1)(i) (Basic Method — Aggregate Indebtedness Standard)",
+    "lastVerified": "2026-05-21"
+  },
+  {
+    "id": "q-s24-060",
+    "section": "financial-responsibility",
+    "stem": "Under the Securities Investor Protection Act (SIPA), what is the maximum amount of coverage SIPC provides per customer for securities held at a failed broker-dealer?",
+    "choices": [
+      {
+        "label": "A",
+        "text": "$250,000 per customer, including up to $100,000 for cash claims.",
+        "explanation": "Incorrect. The $250,000 limit applies to FDIC bank deposit insurance, not SIPC protection. SIPC coverage limits are higher."
+      },
+      {
+        "label": "B",
+        "text": "$500,000 per customer, including up to $250,000 for cash claims.",
+        "explanation": "Correct. SIPC protects customers of failed broker-dealers up to $500,000 per customer, of which no more than $250,000 may be for cash claims. SIPC coverage protects against the loss of securities and cash held at a broker-dealer that fails financially, but does not protect against investment losses due to market declines."
+      },
+      {
+        "label": "C",
+        "text": "$1,000,000 per customer with no limit on cash claims.",
+        "explanation": "Incorrect. SIPC coverage is $500,000, not $1,000,000. Additionally, there is a specific sublimit of $250,000 for cash claims."
+      },
+      {
+        "label": "D",
+        "text": "Unlimited coverage for all securities, but only $500,000 for cash.",
+        "explanation": "Incorrect. SIPC coverage is not unlimited. The total per-customer protection is capped at $500,000, with a $250,000 sublimit for cash."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The Securities Investor Protection Corporation (SIPC) was created by the Securities Investor Protection Act of 1970 to protect customers of failed broker-dealers. SIPC coverage is up to $500,000 per customer, including a maximum of $250,000 for cash claims. SIPC does not protect against market losses — it protects against the loss of securities and cash when a broker-dealer fails and customer property is missing. Most FINRA-registered broker-dealers are required to be SIPC members.",
+    "subtopic": "sipc-coverage-limits",
+    "difficulty": "easy",
+    "source": "FINRA Series 24 content outline",
+    "regulatoryBasis": "Securities Investor Protection Act of 1970 (SIPA); 15 U.S.C. §78fff-3",
+    "lastVerified": "2026-05-21",
+    "relatedStories": ["lehman", "madoff"]
+  }
+]
