@@ -15,7 +15,11 @@ const { title, description = 'Free FINRA practice questions for all major securi
     <meta name="description" content={description} />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="FINRA Prep" />
+    <meta name="theme-color" content="#000000" />
     <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL.replace(/\/?$/, '/')}favicon.svg`} />
+    <link rel="manifest" href={`${import.meta.env.BASE_URL.replace(/\/?$/, '/')}manifest.json`} />
+    <link rel="apple-touch-icon" href={`${import.meta.env.BASE_URL.replace(/\/?$/, '/')}icons/icon.svg`} />
     <title>{title} | FINRA Exam Practice</title>
   </head>
   <body class="min-h-screen" style="background-color: var(--theme-bg); color: var(--theme-text);">
@@ -30,6 +34,13 @@ const { title, description = 'Free FINRA practice questions for all major securi
           if (isDark) document.documentElement.classList.add('dark');
         } catch(e) {}
       })();
+    </script>
+    <script>
+      // Register service worker for PWA offline support
+      // Skip when running inside Capacitor native shell
+      if ('serviceWorker' in navigator && !window.Capacitor) {
+        navigator.serviceWorker.register('/finra-sie-exam/sw.js');
+      }
     </script>
   </body>
 </html>
