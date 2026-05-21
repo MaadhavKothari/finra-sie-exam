@@ -4,6 +4,7 @@ import { $progress, $streak, $level, $xp, $dailyProgress, $accuracy, recordAnswe
 import { enqueueWrong } from '../stores/hotSheet';
 import { generateShareString, copyToClipboard } from '../lib/shareString';
 import { hapticLight, hapticMedium, hapticHeavy } from '../lib/haptics';
+import { soundCorrect, soundWrong, soundFanfare } from '../lib/sounds';
 import type { Question } from '../lib/types';
 import StoryCard, { type Story } from './StoryCard';
 
@@ -88,11 +89,13 @@ export default function QuizEngine({ questions: allQuestions, topic, topicName, 
     setXpPopup({ amount: result.earnedXp, multiplier: result.multiplier, show: true });
     setTimeout(() => setXpPopup((p) => ({ ...p, show: false })), 1500);
 
-    // Haptic feedback
+    // Haptic + sound feedback
     if (isCorrect) {
       hapticLight();
+      soundCorrect();
     } else {
       hapticMedium();
+      soundWrong();
     }
 
     if (isCorrect && result.newStreak > 0 && result.newStreak % 3 === 0) {
@@ -100,9 +103,10 @@ export default function QuizEngine({ questions: allQuestions, topic, topicName, 
       setTimeout(() => setStreakPopup((p) => ({ ...p, show: false })), 1800);
     }
 
-    // Streak milestone haptic (every 5)
+    // Streak milestone haptic + fanfare (every 5)
     if (isCorrect && result.newStreak > 0 && result.newStreak % 5 === 0) {
       hapticHeavy();
+      soundFanfare();
     }
 
     if (result.leveledUp) {

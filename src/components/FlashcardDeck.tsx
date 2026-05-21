@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from 'preact/hooks';
 import { getDueCards, getNextReviewDate, getBoxDistribution, initCard, rateCard, daysUntil, $flashcardState } from '../stores/flashcards';
 import { useStore } from '@nanostores/preact';
 import type { Question } from '../lib/types';
+import { soundTap } from '../lib/sounds';
 
 // JPMC brand tokens
 const B = {
@@ -73,6 +74,7 @@ export default function FlashcardDeck({ questions, topic, topicName, backUrl }: 
   const handleFlip = () => {
     if (mode !== 'session' || rated) return;
     setFlipped(!flipped);
+    soundTap();
   };
 
   const handleRate = (rating: 'hard' | 'good' | 'easy') => {

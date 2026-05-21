@@ -4,6 +4,7 @@ import { $progress, $xp, $streak, recordAnswer, recordExamResult, getExamHistory
 import { enqueueWrong } from '../stores/hotSheet';
 import { generateShareString, copyToClipboard } from '../lib/shareString';
 import { hapticLight, hapticMedium, hapticSuccess } from '../lib/haptics';
+import { soundCorrect, soundWrong, soundFanfare } from '../lib/sounds';
 import { analyzeNearMiss, getSectionBreakdown, type ExamAnswer } from '../lib/nearMiss';
 import { djb2, mulberry32 } from '../lib/rng';
 import { EXAMS, type ExamId } from '../data/exams';
@@ -127,11 +128,13 @@ export default function ExamSim({ base, questions: allQuestions, examId }: Props
       section: currentQ.section,
     });
 
-    // Haptic feedback
+    // Haptic + sound feedback
     if (correct) {
       hapticLight();
+      soundCorrect();
     } else {
       hapticMedium();
+      soundWrong();
     }
 
     // Hot sheet on wrong
@@ -159,8 +162,8 @@ export default function ExamSim({ base, questions: allQuestions, examId }: Props
     const total = finalAnswers.length;
     const passed = Math.round((correct / total) * 100) >= exam.passingScore;
 
-    // Completion haptic
-    if (passed) hapticSuccess();
+    // Completion haptic + fanfare
+    if (passed) { hapticSuccess(); soundFanfare(); }
 
     recordExamResult({
       date: todayISO(),

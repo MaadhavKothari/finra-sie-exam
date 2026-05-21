@@ -4,6 +4,7 @@ import { $progress, $xp, $streak, $accuracy, recordAnswer, recordBellResult } fr
 import { enqueueWrong } from '../stores/hotSheet';
 import { generateShareString, copyToClipboard } from '../lib/shareString';
 import { hapticLight, hapticMedium, hapticSuccess } from '../lib/haptics';
+import { soundCorrect, soundWrong, soundBell } from '../lib/sounds';
 import { getDailyBellQuestions } from '../lib/dailySeed';
 import { getGreedForDate } from '../lib/greedIndex';
 import type { Question } from '../lib/types';
@@ -76,9 +77,11 @@ export default function OpeningBell({ base, questions: allQuestions }: Props) {
     if (correct) {
       setScore((s) => s + 1);
       hapticLight();
+      soundCorrect();
     } else {
       enqueueWrong(currentQ.id, currentQ.section || currentQ.topic || 'general', currentQ.stem);
       hapticMedium();
+      soundWrong();
     }
   };
   const handleNext = () => {
@@ -88,7 +91,8 @@ export default function OpeningBell({ base, questions: allQuestions }: Props) {
       setPhase('done');
       setTickerShown(true);
       setTimeout(() => setTickerShown(false), 8000);
-      hapticSuccess(); // Bell completion haptic
+      hapticSuccess();
+      soundBell(); // NYSE bell ring
       return;
     }
     setIdx((i) => i + 1);

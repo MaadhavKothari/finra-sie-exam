@@ -3,6 +3,7 @@ import { useStore } from '@nanostores/preact';
 import { $learnProgress, getRecord, recordLearnAnswer, sectionMastery, type LearnRecord } from '../stores/learnState';
 import { recordAnswer } from '../stores/progress';
 import { hapticLight, hapticMedium } from '../lib/haptics';
+import { soundCorrect, soundWrong } from '../lib/sounds';
 import type { Question } from '../lib/types';
 
 // Brand tokens
@@ -170,7 +171,7 @@ export default function LearnEngine({ questions: allQuestions, topic, topicName,
     recordLearnAnswer(examSlug, topic, currentQ.id, isCorrect);
     recordAnswer(isCorrect, currentQ.difficulty, { topic: currentQ.topic, section: currentQ.section });
     setSessionResults((p) => [...p, { qId: currentQ.id, phase: 1, correct: isCorrect }]);
-    if (isCorrect) hapticLight(); else hapticMedium();
+    if (isCorrect) { hapticLight(); soundCorrect(); } else { hapticMedium(); soundWrong(); }
   }
 
   // ─── Phase 2: Fill-in ──────────────────────────────────────────────────
@@ -184,7 +185,7 @@ export default function LearnEngine({ questions: allQuestions, topic, topicName,
     recordLearnAnswer(examSlug, topic, currentQ.id, matched);
     recordAnswer(matched, currentQ.difficulty, { topic: currentQ.topic, section: currentQ.section });
     setSessionResults((p) => [...p, { qId: currentQ.id, phase: 2, correct: matched }]);
-    if (matched) hapticLight(); else hapticMedium();
+    if (matched) { hapticLight(); soundCorrect(); } else { hapticMedium(); soundWrong(); }
   }
 
   // ─── Phase 3: Free Recall ─────────────────────────────────────────────
@@ -193,7 +194,7 @@ export default function LearnEngine({ questions: allQuestions, topic, topicName,
     recordLearnAnswer(examSlug, topic, currentQ.id, correct);
     recordAnswer(correct, currentQ.difficulty, { topic: currentQ.topic, section: currentQ.section });
     setSessionResults((p) => [...p, { qId: currentQ.id, phase: 3, correct }]);
-    if (correct) hapticLight(); else hapticMedium();
+    if (correct) { hapticLight(); soundCorrect(); } else { hapticMedium(); soundWrong(); }
     // Auto-advance after grading
     setTimeout(() => handleNext(), 400);
   }
