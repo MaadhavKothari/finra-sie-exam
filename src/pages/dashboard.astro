@@ -1,0 +1,9 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ProgressDashboard from '../components/ProgressDashboard';
+
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+<BaseLayout title="Dashboard" description="Track your study progress across all FINRA exams">
+  <ProgressDashboard client:load base={base} />
+</BaseLayout>

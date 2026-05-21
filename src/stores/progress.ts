@@ -36,6 +36,8 @@ export const $progress = persistentMap<{
   bellLastDate: string;           // ISO date last bell taken
   // M7 — Exam Sim
   examHistory: string;            // JSON array of {date,examId,score,total,passed,duration}
+  // M8 — Dashboard
+  activityLog: string;            // JSON object mapping YYYY-MM-DD to question count
 }>('sie-progress:', {
   totalAnswered: '0',
   totalCorrect: '0',
@@ -63,6 +65,7 @@ export const $progress = persistentMap<{
   bellRunBest: '0',
   bellLastDate: '',
   examHistory: '[]',
+  activityLog: '{}',
 });
 
 export const $xp = computed($progress, (p) => parseInt(p.xp || '0', 10));
@@ -317,6 +320,13 @@ export function recordAnswer(correct: boolean, difficulty: string, opts: { topic
     }
   }
 
+  // Activity log for dashboard heatmap
+  let actLog: Record<string, number> = {};
+  try { actLog = JSON.parse($progress.get().activityLog || '{}'); }
+  catch { actLog = {}; }
+  actLog[d] = (actLog[d] ?? 0) + 1;
+  $progress.setKey('activityLog', JSON.stringify(actLog));
+
   // Streak-vault bookkeeping
   recordStudyDay(d);
   maybeGrantFreeze(d);
@@ -393,4 +403,9 @@ export function recordExamResult(entry: ExamHistoryEntry) {
 export function getExamHistory(): ExamHistoryEntry[] {
   try { return JSON.parse($progress.get().examHistory || '[]'); }
   catch { return []; }
+}
+
+export function getActivityLog(): Record<string, number> {
+  try { return JSON.parse($progress.get().activityLog || '{}'); }
+  catch { return {}; }
 }

@@ -18,6 +18,25 @@ const exams = Object.values(EXAMS);
       <ThemeToggle client:load />
     </div>
     <IdentityHeader client:load base={base} />
+
+    {/* Dashboard link */}
+    <a
+      href={`${base}dashboard`}
+      class="flex items-center justify-between px-4 py-2.5 mb-3 border border-[#E5E0D8] rounded-sm bg-white hover:bg-[#F4EFE7] transition-colors no-underline"
+    >
+      <div class="flex items-center gap-2">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none" class="shrink-0">
+          <rect x="1" y="1" width="6" height="6" rx="1" stroke="#8F5A39" stroke-width="1.5" fill="none" />
+          <rect x="9" y="1" width="6" height="6" rx="1" stroke="#8F5A39" stroke-width="1.5" fill="none" />
+          <rect x="1" y="9" width="6" height="6" rx="1" stroke="#8F5A39" stroke-width="1.5" fill="none" />
+          <rect x="9" y="9" width="6" height="6" rx="1" stroke="#8F5A39" stroke-width="1.5" fill="none" />
+        </svg>
+        <span class="text-xs font-medium text-black">Dashboard</span>
+        <span class="text-[10px] text-[#6b6560]">Progress & analytics</span>
+      </div>
+      <span class="text-[#8F5A39] text-sm">→</span>
+    </a>
+
     <HomeWidgets client:load base={base} />
 
     {/* Header */}
