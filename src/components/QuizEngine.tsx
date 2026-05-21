@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback, useRef } from 'preact/hooks';
 import { useStore } from '@nanostores/preact';
 import { $progress, $streak, $level, $xp, $dailyProgress, $accuracy, recordAnswer, xpToNextLevel } from '../stores/progress';
+import { enqueueWrong } from '../stores/hotSheet';
 import type { Question } from '../lib/types';
 import StoryCard, { type Story } from './StoryCard';
 
@@ -97,6 +98,8 @@ export default function QuizEngine({ questions: allQuestions, topic, topicName, 
     if (!isCorrect) {
       setShakeWrong(true);
       setTimeout(() => setShakeWrong(false), 500);
+      // Auto-enqueue to Hot Sheet for spaced repetition
+      enqueueWrong(currentQ.id, currentQ.section || currentQ.topic || 'general', currentQ.stem);
     }
 
     setSessionResults((prev) => [

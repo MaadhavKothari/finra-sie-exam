@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import HotSheet from '../components/HotSheet';
+
+const base = import.meta.env.BASE_URL;
+
+// Load all questions so HotSheet can resolve card IDs to full question objects
+const cm = await getCollection('capital-markets');
+const pr = await getCollection('products-risks');
+const ta = await getCollection('trading-accounts');
+const rf = await getCollection('regulatory-framework');
+const s6 = await getCollection('series-6');
+const s7 = await getCollection('series-7');
+const s63 = await getCollection('series-63');
+const s65 = await getCollection('series-65');
+const s66 = await getCollection('series-66');
+const s3 = await getCollection('series-3');
+const s24 = await getCollection('series-24');
+const s79 = await getCollection('series-79');
+
+const questions = [
+  ...cm, ...pr, ...ta, ...rf,
+  ...s6, ...s7, ...s63, ...s65, ...s66,
+  ...s3, ...s24, ...s79,
+].map((q) => q.data);
+---
+<BaseLayout title="Hot Sheet">
+  <HotSheet client:load base={base} questions={questions} />
+</BaseLayout>

@@ -1,6 +1,7 @@
 import { useState, useEffect, useMemo } from 'preact/hooks';
 import { useStore } from '@nanostores/preact';
 import { $progress, $xp, $streak, $accuracy, recordAnswer, recordBellResult } from '../stores/progress';
+import { enqueueWrong } from '../stores/hotSheet';
 import { getDailyBellQuestions } from '../lib/dailySeed';
 import { getGreedForDate } from '../lib/greedIndex';
 import type { Question } from '../lib/types';
@@ -69,7 +70,11 @@ export default function OpeningBell({ base, questions: allQuestions }: Props) {
       section: currentQ.section,
     });
     setEarnedXp((e) => e + result.earnedXp);
-    if (correct) setScore((s) => s + 1);
+    if (correct) {
+      setScore((s) => s + 1);
+    } else {
+      enqueueWrong(currentQ.id, currentQ.section || currentQ.topic || 'general', currentQ.stem);
+    }
   };
   const handleNext = () => {
     if (idx + 1 >= dailyQ.length) {
