@@ -1,0 +1,271 @@
+{
+  "id": "financial-crisis-2008",
+  "title": "The 2008 Financial Crisis",
+  "subtitle": "How deregulation, toxic mortgages, and unchecked leverage collapsed the global financial system",
+  "questions": [
+    {
+      "id": "crisis-01",
+      "year": "1990s-2003",
+      "chapterTitle": "Seeds of the Crisis",
+      "narrative": "For decades, the Glass-Steagall Act of 1933 kept commercial banking and investment banking separate. Commercial banks took deposits and made loans. Investment banks underwrote securities and traded. The wall between them existed for a reason: the conflicts of interest that arise when a bank can gamble with depositor money.\n\nOn November 12, 1999, President Clinton signed the Gramm-Leach-Bliley Act, repealing the key provisions of Glass-Steagall. Megabanks like Citigroup could now combine commercial banking, investment banking, and insurance under one roof.\n\nMeanwhile, the Federal Reserve under Alan Greenspan slashed the federal funds rate to 1% after the dot-com crash and 9/11. On April 28, 2004, the SEC changed its net capital rule, allowing the five largest investment banks to leverage up to 40:1 — meaning $40 of debt for every $1 of equity. Subprime mortgage lending exploded.",
+      "stem": "The Glass-Steagall Act of 1933 required the separation of commercial banking and investment banking. Which legislation repealed these provisions, and what was the primary regulatory concern the original separation was designed to address?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The Sarbanes-Oxley Act of 2002 repealed Glass-Steagall to improve corporate governance and financial reporting transparency",
+          "explanation": "Sarbanes-Oxley (2002) addressed corporate accounting fraud after Enron and WorldCom. It did not repeal Glass-Steagall."
+        },
+        {
+          "label": "B",
+          "text": "The Gramm-Leach-Bliley Act of 1999 repealed the separation, which had been designed to prevent conflicts of interest arising from banks using depositor funds to engage in speculative securities activities",
+          "explanation": "Correct. The Gramm-Leach-Bliley Act (Financial Services Modernization Act of 1999) repealed Sections 20 and 32 of Glass-Steagall. The original separation existed because during the 1920s, commercial banks had used depositor funds to underwrite and speculate in securities, contributing to the 1929 crash and massive bank failures."
+        },
+        {
+          "label": "C",
+          "text": "The Dodd-Frank Act of 2010 repealed Glass-Steagall to allow banks to better manage risk through diversification across financial services",
+          "explanation": "Dodd-Frank (2010) was a post-crisis reform law that added regulations. It did not repeal Glass-Steagall — that had already been done by Gramm-Leach-Bliley in 1999."
+        },
+        {
+          "label": "D",
+          "text": "The Securities Act Amendments of 1975 repealed Glass-Steagall to modernize fixed commission structures on stock exchanges",
+          "explanation": "The 1975 amendments ended fixed brokerage commissions and modernized market structure. They did not address the commercial/investment banking separation."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The Gramm-Leach-Bliley Act (also called the Financial Services Modernization Act), signed November 12, 1999, repealed the provisions of the Glass-Steagall Act that prohibited affiliations between commercial banks, investment banks, and insurance companies. Glass-Steagall's separation had been enacted in 1933 after Congress found that commercial banks' involvement in securities underwriting and speculation had contributed to the stock market crash of 1929 and the subsequent wave of bank failures.",
+      "regulatoryLesson": "The Glass-Steagall Act (Banking Act of 1933) separated commercial and investment banking to prevent conflicts of interest. The Gramm-Leach-Bliley Act (1999) repealed this separation, enabling the creation of financial conglomerates that combined banking, securities, and insurance activities.",
+      "whatActuallyHappened": "Within a decade of repeal, every major financial conglomerate that had combined commercial and investment banking was at the center of the crisis. Citigroup required a $45 billion bailout. The five investment banks that received the SEC's 2004 net capital exemption — Goldman Sachs, Morgan Stanley, Merrill Lynch, Lehman Brothers, and Bear Stearns — all either failed, were acquired under duress, or converted to bank holding companies by the end of 2008. The 40:1 leverage that regulators allowed became a death sentence when asset values declined even modestly."
+    },
+    {
+      "id": "crisis-02",
+      "year": "2003-2006",
+      "chapterTitle": "The Mortgage Machine",
+      "narrative": "The old model of mortgage lending was simple: a bank made a loan, held it on its books, and collected payments for 30 years. The bank had every incentive to ensure the borrower could repay.\n\nThe new model was \"originate to distribute.\" A mortgage broker would originate a loan and immediately sell it to an investment bank. The investment bank would pool thousands of mortgages into a mortgage-backed security (MBS), slice it into tranches rated from AAA to unrated equity, and sell the tranches to investors worldwide. The originator kept none of the risk.\n\nWith no skin in the game, lending standards collapsed. NINJA loans — No Income, No Job, No Assets — proliferated. Adjustable-rate mortgages with teaser rates lured borrowers who could never afford the reset payments. Between 2003 and 2006, U.S. housing prices rose approximately 80%. The rating agencies — Moody's, S&P, and Fitch — stamped AAA on tranches backed by subprime mortgages, collecting fees from the very banks whose products they rated.",
+      "stem": "In a mortgage-backed security (MBS), cash flows from mortgage payments are distributed to different tranches in a specific order. Which of the following best describes the structure and the primary conflict of interest in the originate-to-distribute model?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Senior tranches receive payments first and bear the least default risk; the conflict arises because originators who immediately sell loans have no financial incentive to verify borrower creditworthiness",
+          "explanation": "Correct. In a tranched MBS, senior (AAA-rated) tranches are paid first and absorb losses last, while equity/junior tranches absorb losses first. The originate-to-distribute model creates a moral hazard: since the originator sells the loan immediately, they earn fees on volume regardless of loan quality, removing the incentive to perform proper underwriting."
+        },
+        {
+          "label": "B",
+          "text": "All tranches share losses equally on a pro-rata basis; the conflict arises because borrowers are unaware their mortgages will be securitized",
+          "explanation": "Tranches do not share losses equally — the entire point of tranching is to create a waterfall structure where junior tranches absorb losses first. While borrower awareness is a concern, the primary conflict is the originator's misaligned incentives."
+        },
+        {
+          "label": "C",
+          "text": "Junior tranches receive payments first to compensate for higher risk; the conflict arises because rating agencies are paid by the government rather than the issuer",
+          "explanation": "Junior tranches absorb losses first but receive payments last (or receive higher yields as compensation). Rating agencies are paid by the issuers, not the government — this issuer-pays model is the actual conflict."
+        },
+        {
+          "label": "D",
+          "text": "Senior tranches guarantee principal repayment through FDIC insurance; the conflict arises because investment banks profit from both originating and servicing the same loans",
+          "explanation": "MBS tranches are not FDIC-insured. FDIC insurance covers bank deposits, not securities. The primary structural conflict is the originator's lack of retained risk."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Mortgage-backed securities use a waterfall payment structure where senior tranches (typically rated AAA) receive principal and interest payments first and absorb losses last. Junior and equity tranches absorb losses first in exchange for higher yields. The originate-to-distribute model created a moral hazard because mortgage originators earned fees based on loan volume, then immediately transferred the credit risk to MBS investors. With no retained exposure to the loan's performance, originators had no financial incentive to maintain underwriting standards.",
+      "regulatoryLesson": "Mortgage-backed securities use tranching to create securities with different risk profiles from a single pool of mortgages. The originate-to-distribute model's central flaw was the separation of loan origination from credit risk retention, which Dodd-Frank later addressed through risk retention rules (Section 941).",
+      "whatActuallyHappened": "By 2006, nearly 25% of all mortgage originations were subprime. Countrywide Financial, the largest mortgage originator in the U.S., made billions in origination fees while selling off the risk. Internal emails later revealed that executives at major banks referred to their own products as 'toxic waste' and 'nuclear holocaust.' The rating agencies' models assumed housing prices would not decline nationally — an assumption that had held for decades but failed catastrophically. When housing prices began falling in 2006, the AAA-rated tranches that investors believed were safe began experiencing losses, and the entire securitization chain seized up."
+    },
+    {
+      "id": "crisis-03",
+      "year": "2005-2007",
+      "chapterTitle": "The Big Short",
+      "narrative": "While most of Wall Street was gorging on mortgage profits, a handful of investors saw the disaster coming. Dr. Michael Burry, a hedge fund manager at Scion Capital, analyzed thousands of individual mortgage loans inside MBS pools. He found loans with teaser rates about to reset, borrowers with no documentation, and fraud rates that were staggering. Starting in 2005, he bought credit default swaps (CDS) — essentially insurance policies — against subprime MBS.\n\nSteve Eisman at FrontPoint Partners reached the same conclusion through different analysis. So did traders at Deutsche Bank and Cornwall Capital.\n\nMeanwhile, Goldman Sachs created the ABACUS 2007-AC1 CDO — a synthetic collateralized debt obligation designed in consultation with hedge fund manager John Paulson, who was betting against the very mortgages the CDO referenced. Goldman sold ABACUS to investors without disclosing Paulson's role in selecting the underlying assets or his short position. In July 2010, Goldman paid a $550 million fine to settle SEC charges.\n\nThrough it all, the rating agencies — Moody's, S&P, and Fitch — continued to assign AAA ratings to structured products backed by deteriorating subprime mortgages, earning hundreds of millions in fees from the banks that paid for the ratings.",
+      "stem": "Credit default swaps (CDS) played a central role in both hedging against and amplifying the crisis. Under the Dodd-Frank Act, which entity was given primary regulatory authority over security-based swaps, and what is the key characteristic that distinguishes a CDS from traditional insurance?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "FINRA was given authority over all swaps; a CDS differs from insurance because it can only be purchased by the holder of the underlying bond",
+          "explanation": "FINRA does not have primary swap oversight authority. Also, a key feature of CDS is that the buyer does not need to own the underlying reference obligation (this is called a 'naked' CDS)."
+        },
+        {
+          "label": "B",
+          "text": "The SEC was given authority over security-based swaps; unlike insurance, a CDS buyer need not own the underlying reference obligation, enabling speculative positions",
+          "explanation": "Correct. Dodd-Frank Title VII split swap regulation between the SEC (security-based swaps, including single-name CDS) and the CFTC (other swaps, including interest rate swaps). Unlike traditional insurance, which requires an insurable interest, CDS can be purchased by parties with no ownership of the underlying bond or loan, allowing purely speculative positions."
+        },
+        {
+          "label": "C",
+          "text": "The Federal Reserve was given authority over all derivatives; a CDS differs from insurance because it is guaranteed by the FDIC up to $250,000",
+          "explanation": "The Federal Reserve does not have primary swap regulatory authority. CDS are not FDIC-insured — they are bilateral contracts between counterparties."
+        },
+        {
+          "label": "D",
+          "text": "State insurance commissioners retained authority over CDS; CDS differ from insurance only in that they are traded on exchanges rather than sold by licensed agents",
+          "explanation": "CDS are regulated as financial derivatives, not insurance products. Before Dodd-Frank, most CDS traded over-the-counter (OTC), not on exchanges. Dodd-Frank moved standardized swaps toward central clearing and exchange trading."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The Dodd-Frank Act (Title VII) divided swap regulation between the SEC, which oversees security-based swaps (including CDS on individual securities or narrow-based indices), and the CFTC, which oversees other swaps (including interest rate swaps and broad-based index CDS). A defining characteristic of CDS is that the buyer does not need to own the underlying reference obligation. This means CDS can be used for pure speculation, not just hedging — a party can buy protection on a bond it does not own, effectively betting on default.",
+      "regulatoryLesson": "Under Dodd-Frank Title VII, the SEC regulates security-based swaps (including single-name CDS) and the CFTC regulates other swaps. Credit rating agencies (NRSROs) are subject to enhanced oversight, conflict-of-interest rules, and liability provisions under Dodd-Frank Title IX, Subtitle C.",
+      "whatActuallyHappened": "The CDS market grew from roughly $6 trillion in notional value in 2004 to over $60 trillion by 2007 — larger than the entire global stock market. Because CDS were unregulated and traded over-the-counter, no regulator had a clear picture of total exposure or counterparty risk. When subprime mortgages defaulted, CDS sellers (most notably AIG) owed enormous payouts they could not cover. Goldman Sachs paid the $550 million ABACUS fine — the largest SEC settlement at the time — but neither admitted nor denied wrongdoing. John Paulson's fund made approximately $15 billion betting against subprime mortgages. The rating agencies faced Congressional hearings but no criminal charges; Dodd-Frank later imposed new conflict-of-interest rules and created a new Office of Credit Ratings at the SEC."
+    },
+    {
+      "id": "crisis-04",
+      "year": "Mar 2008",
+      "chapterTitle": "Bear Stearns",
+      "narrative": "The first domino fell in June 2007, when two Bear Stearns hedge funds that had invested heavily in subprime mortgage securities collapsed, wiping out $1.6 billion in investor capital.\n\nBy March 2008, rumors about Bear Stearns' solvency spread through Wall Street. Counterparties — the firms on the other side of Bear's trades — began refusing to do business with the bank. Clients pulled their cash. In a matter of days, Bear Stearns went from reporting adequate capital to facing a liquidity crisis that threatened to bring down the entire financial system.\n\nOn March 16, 2008, the Federal Reserve brokered an emergency sale of Bear Stearns to JPMorgan Chase. The initial price was $2 per share — a 93% discount from the stock's price just days earlier. The deal was later revised to $10 per share. To make the deal work, the Fed created a special purpose vehicle called Maiden Lane LLC and assumed approximately $30 billion of Bear's most toxic mortgage assets.\n\nIt was the first time the Fed had used its emergency lending authority under Section 13(3) of the Federal Reserve Act to backstop a non-bank financial institution since the Great Depression.",
+      "stem": "The collapse of Bear Stearns illustrated the danger of counterparty risk in interconnected financial markets. What is counterparty risk, and what role does the Federal Reserve play as lender of last resort during a financial crisis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Counterparty risk is the risk that a customer will default on a margin loan; the Fed serves as lender of last resort by guaranteeing all broker-dealer customer accounts through SIPC",
+          "explanation": "Counterparty risk extends far beyond margin loans — it encompasses any obligation between two parties to a financial contract. SIPC is not a Fed program, and the Fed's lender-of-last-resort function works through lending facilities, not account guarantees."
+        },
+        {
+          "label": "B",
+          "text": "Counterparty risk is the risk that one party to a financial contract will fail to meet its obligations; the Fed can provide emergency liquidity to prevent systemic collapse, using authority under Section 13(3) of the Federal Reserve Act",
+          "explanation": "Correct. Counterparty risk is the risk that the other party in a transaction — whether a derivative, repo agreement, or securities trade — will default on its obligations. The Federal Reserve's Section 13(3) emergency lending authority allows it to extend credit to non-bank institutions in 'unusual and exigent circumstances' to prevent systemic failure."
+        },
+        {
+          "label": "C",
+          "text": "Counterparty risk is the risk of fraud by a trading partner; the Fed mitigates this by requiring all securities firms to maintain FDIC insurance on trading accounts",
+          "explanation": "Counterparty risk is about default on obligations, not fraud specifically. The FDIC insures bank deposits, not trading accounts at securities firms."
+        },
+        {
+          "label": "D",
+          "text": "Counterparty risk is the risk of loss from changes in interest rates affecting bond positions; the Fed acts as lender of last resort by purchasing bonds directly from failing firms at par value",
+          "explanation": "Interest rate risk is a distinct type of market risk. Counterparty risk specifically involves the possibility of default by the other party to a contract. The Fed does not simply purchase assets at par."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Counterparty risk is the risk that a party to a financial contract (derivative, repo, loan, or trade) will fail to fulfill its obligations, potentially causing losses to the other party and cascading failures through the financial system. The Federal Reserve serves as the lender of last resort, with the ability under Section 13(3) of the Federal Reserve Act to extend credit in 'unusual and exigent circumstances' to prevent systemic collapse. The Bear Stearns rescue was the first use of this authority for a non-bank since the 1930s.",
+      "regulatoryLesson": "Counterparty risk is the risk of default by the other party to a financial contract. The Federal Reserve's Section 13(3) emergency lending authority allows it to provide liquidity to non-bank financial institutions during systemic crises. Dodd-Frank later restricted this authority, requiring Treasury Secretary approval and prohibiting lending to individual failing firms.",
+      "whatActuallyHappened": "Bear Stearns had a leverage ratio of approximately 33:1 at the time of its collapse. When counterparties and clients lost confidence, no amount of asset quality mattered — the firm could not fund itself day-to-day. JPMorgan acquired Bear's prime brokerage, headquarters building, and other businesses. Thousands of Bear Stearns employees lost their jobs and saw their retirement savings — heavily concentrated in Bear stock — become nearly worthless. The Fed's intervention was controversial: critics argued it created moral hazard by bailing out a reckless firm, while supporters argued that Bear's failure would have triggered a cascading collapse of the financial system six months before it actually happened."
+    },
+    {
+      "id": "crisis-05",
+      "year": "Sep 7, 2008",
+      "chapterTitle": "Fannie & Freddie",
+      "narrative": "Fannie Mae (Federal National Mortgage Association) and Freddie Mac (Federal Home Loan Mortgage Corporation) were Government-Sponsored Enterprises (GSEs) — private companies with a public mission to make housing affordable. They did not originate mortgages directly. Instead, they bought mortgages from lenders, guaranteed them against default, and either held them or securitized them into mortgage-backed securities.\n\nInvestors worldwide bought Fannie and Freddie MBS because they believed these securities carried an implicit government guarantee — that if Fannie or Freddie failed, the U.S. government would step in. This belief allowed the GSEs to borrow at rates just above Treasury yields.\n\nBy 2008, Fannie and Freddie guaranteed or held approximately $5.3 trillion in mortgage obligations — nearly half of all U.S. mortgages. As housing prices fell and defaults mounted, their losses overwhelmed their thin capital cushion.\n\nOn September 7, 2008, the Federal Housing Finance Agency (FHFA) placed both Fannie Mae and Freddie Mac into conservatorship. The U.S. Treasury pledged up to $200 billion in support — a figure that would eventually grow to $187.5 billion in actual draws before the companies returned to profitability.",
+      "stem": "Fannie Mae and Freddie Mac are Government-Sponsored Enterprises (GSEs) that securitize mortgages into agency MBS. What is the key distinction between agency MBS and non-agency (private-label) MBS, and what does \"implicit government guarantee\" mean in this context?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Agency MBS are backed by the full faith and credit of the U.S. government through FDIC insurance; non-agency MBS have no government connection. The implicit guarantee means Congress has pre-authorized unlimited bailout funds.",
+          "explanation": "FDIC insures bank deposits, not MBS. Also, Fannie and Freddie MBS are not backed by the full faith and credit of the government (only Ginnie Mae MBS carry that explicit guarantee). The implicit guarantee was a market assumption, not a Congressional authorization."
+        },
+        {
+          "label": "B",
+          "text": "Agency MBS are issued or guaranteed by GSEs (Fannie, Freddie) or the government (Ginnie Mae) and carry a government guarantee or perceived guarantee; non-agency MBS have no government backing and rely solely on the credit quality of the underlying mortgages and structural protections",
+          "explanation": "Correct. Agency MBS are issued or guaranteed by Ginnie Mae (which carries the explicit full faith and credit of the U.S. government), Fannie Mae, or Freddie Mac. Fannie and Freddie MBS carry an 'implicit' guarantee — the market's belief that the government would not allow them to fail, even though no legal obligation existed. Non-agency (private-label) MBS are issued by private institutions with no government backing."
+        },
+        {
+          "label": "C",
+          "text": "Agency MBS can only contain conforming mortgages below $100,000; non-agency MBS contain jumbo loans. The implicit guarantee means the Federal Reserve automatically purchases all agency MBS at par.",
+          "explanation": "The conforming loan limit is set by FHFA and is well above $100,000. The Fed does not automatically purchase all agency MBS at par — its MBS purchases are a matter of monetary policy, not a guarantee mechanism."
+        },
+        {
+          "label": "D",
+          "text": "There is no meaningful distinction; both agency and non-agency MBS carry the same government guarantee since the 2008 bailout established permanent government support for all mortgage securities",
+          "explanation": "There is a significant distinction. Non-agency MBS have no government guarantee. The 2008 conservatorship of Fannie and Freddie did not extend government backing to private-label securities."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Agency MBS are issued or guaranteed by government-sponsored enterprises (Fannie Mae, Freddie Mac) or the Government National Mortgage Association (Ginnie Mae). Ginnie Mae MBS carry the explicit full faith and credit guarantee of the U.S. government. Fannie and Freddie MBS carry an 'implicit' guarantee — the market's longstanding belief that the government would step in to prevent their failure, even though no statutory obligation existed. Non-agency (private-label) MBS are issued by private financial institutions without any government guarantee and depend entirely on the credit quality of the underlying loans and structural features like overcollateralization and subordination.",
+      "regulatoryLesson": "Agency MBS (Fannie Mae, Freddie Mac, Ginnie Mae) carry government backing — explicit for Ginnie Mae, implicit for Fannie and Freddie. Non-agency (private-label) MBS have no government guarantee. The distinction between implicit and explicit guarantees became critically important when the GSEs' implicit guarantee was effectively made explicit through conservatorship.",
+      "whatActuallyHappened": "The conservatorship proved the market right — the implicit guarantee was real. The government could not allow $5.3 trillion in mortgage obligations to default without destroying the global financial system. The Treasury initially pledged $200 billion but eventually injected $187.5 billion into the GSEs. Fannie and Freddie eventually returned to profitability, paying the government over $300 billion in dividends by 2023 — far more than the bailout cost. However, both remain in conservatorship more than 17 years later, and the question of GSE reform remains one of the most significant unresolved issues in U.S. housing policy."
+    },
+    {
+      "id": "crisis-06",
+      "year": "Sep 15, 2008",
+      "chapterTitle": "Lehman Falls",
+      "narrative": "One week after the Fannie and Freddie conservatorship, Lehman Brothers was in its death spiral. The 158-year-old investment bank held approximately $639 billion in assets and was one of the largest participants in the mortgage-backed securities market.\n\nTreasury Secretary Hank Paulson and Fed Chairman Ben Bernanke spent a frantic weekend trying to arrange a private-sector rescue. Barclays was willing to buy Lehman but needed a government backstop that was not forthcoming. Bank of America pivoted to acquire Merrill Lynch instead.\n\nOn Monday, September 15, 2008, Lehman Brothers filed for Chapter 11 bankruptcy — the largest in American history. The decision to let Lehman fail sent shockwaves through global markets. Credit markets froze. The Dow Jones Industrial Average fell 504 points. Counterparties who had trillions in open trades with Lehman faced sudden uncertainty.\n\nLehman's approximately 111,000 clients at its broker-dealer subsidiary faced a different question: what happens to their securities and cash?",
+      "stem": "When a broker-dealer fails, the Securities Investor Protection Corporation (SIPC) oversees the liquidation and protection of customer assets. What is the maximum SIPC coverage per customer, and how does SIPC protection differ from FDIC insurance?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "SIPC covers up to $250,000 per customer for all losses including market declines; FDIC covers bank deposits up to $500,000. Both are funded by government appropriations.",
+          "explanation": "SIPC coverage is $500,000, not $250,000. Neither SIPC nor FDIC protects against market losses. SIPC is funded by member firm assessments, not government appropriations."
+        },
+        {
+          "label": "B",
+          "text": "SIPC covers up to $500,000 per customer (with a $250,000 cash sublimit) when a broker-dealer fails and cannot return customer property; FDIC covers bank deposits up to $250,000 per depositor per bank. SIPC does not protect against investment losses.",
+          "explanation": "Correct. SIPC protects customers up to $500,000 per customer (including a $250,000 sublimit for cash claims) when a SIPC-member broker-dealer is liquidated and customer assets are missing. FDIC insures bank deposits up to $250,000 per depositor per insured bank. Neither protects against losses from market declines — they protect against institutional failure."
+        },
+        {
+          "label": "C",
+          "text": "SIPC covers up to $1,000,000 per customer with no sublimit on cash; FDIC covers bank deposits up to $250,000. Both protect against market losses in addition to institutional failure.",
+          "explanation": "SIPC coverage is $500,000 with a $250,000 cash sublimit, not $1,000,000 with no sublimit. Neither SIPC nor FDIC protects against market losses."
+        },
+        {
+          "label": "D",
+          "text": "SIPC and FDIC provide identical $250,000 coverage but for different account types; both are backstopped by the Federal Reserve's emergency lending authority.",
+          "explanation": "SIPC and FDIC have different coverage amounts and different scopes. SIPC is not backstopped by the Federal Reserve — it is funded by assessments on member broker-dealers and has a line of credit with the U.S. Treasury."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "SIPC (Securities Investor Protection Corporation) protects customers of failed SIPC-member broker-dealers up to $500,000 per customer, with a sublimit of $250,000 for cash claims. SIPC coverage applies when a broker-dealer is liquidated and cannot return customer securities and cash. FDIC (Federal Deposit Insurance Corporation) insures bank deposits up to $250,000 per depositor per insured bank. Neither SIPC nor FDIC protects against losses due to market declines — they protect against the failure of the financial institution itself.",
+      "regulatoryLesson": "SIPC covers up to $500,000 per customer ($250,000 cash sublimit) at failed broker-dealers. FDIC covers up to $250,000 per depositor at failed banks. Both protect against institutional failure, not market losses. SIPC is funded by member assessments; FDIC is funded by bank-paid premiums backed by the full faith and credit of the U.S. government.",
+      "whatActuallyHappened": "Lehman's broker-dealer subsidiary, Lehman Brothers Inc., was placed into SIPC liquidation. Most customer accounts were transferred to Barclays, which acquired Lehman's North American broker-dealer operations out of bankruptcy. The vast majority of Lehman's brokerage customers recovered their assets because customer securities were segregated under SEC Rule 15c3-3. The larger devastation came from Lehman's role as a counterparty: its bankruptcy triggered billions in CDS payouts, froze the commercial paper market, and caused a global panic. The decision to let Lehman fail — after rescuing Bear Stearns — remains one of the most debated choices in financial regulatory history."
+    },
+    {
+      "id": "crisis-07",
+      "year": "Sep-Oct 2008",
+      "chapterTitle": "Contagion",
+      "narrative": "The day after Lehman's bankruptcy, the crisis metastasized. American International Group (AIG), the world's largest insurance company, had sold hundreds of billions of dollars in credit default swaps guaranteeing mortgage-backed securities. With subprime mortgages defaulting en masse, AIG owed more than it could pay. On September 16, 2008, the Federal Reserve extended an $85 billion emergency credit facility to AIG — a figure that would eventually grow to approximately $182 billion.\n\nThat same day, the Reserve Primary Fund, a money market fund with $62 billion in assets, \"broke the buck\" — its net asset value (NAV) fell below $1.00 per share to $0.97 after writing down $785 million in Lehman Brothers commercial paper. It was the first money market fund to break the buck since 1994, triggering panic redemptions across the entire money market industry. Over $300 billion fled money market funds in the following week.\n\nOn October 3, 2008, Congress passed the Emergency Economic Stabilization Act, creating the Troubled Asset Relief Program (TARP) with $700 billion in authorized spending to purchase toxic assets and inject capital into banks.",
+      "stem": "The Reserve Primary Fund breaking the buck exposed the risks inherent in money market funds. Under SEC Rule 2a-7, which governs money market funds, what are the key requirements designed to maintain a stable $1.00 NAV, and what reforms were implemented after the crisis?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Rule 2a-7 requires money market funds to invest only in government securities; post-crisis reforms eliminated money market funds entirely and replaced them with FDIC-insured sweep accounts",
+          "explanation": "Rule 2a-7 does not limit money market funds to government securities only — it permits high-quality short-term debt. Money market funds were not eliminated; they were reformed with new requirements."
+        },
+        {
+          "label": "B",
+          "text": "Rule 2a-7 imposes credit quality, diversification, and maturity restrictions to maintain a stable NAV; post-crisis reforms required institutional prime money market funds to use floating NAV and gave all money market fund boards the ability to impose liquidity fees and redemption gates",
+          "explanation": "Correct. Rule 2a-7 requires money market funds to invest in high-quality, short-term, diversified instruments with a weighted average maturity of 60 days or less. After the crisis, the SEC adopted reforms in 2014 requiring institutional prime and institutional municipal money market funds to float their NAV, and allowing fund boards to impose liquidity fees (up to 2%) and redemption gates during periods of stress."
+        },
+        {
+          "label": "C",
+          "text": "Rule 2a-7 requires money market funds to maintain SIPC insurance coverage; post-crisis reforms increased SIPC coverage to $1 million for money market accounts",
+          "explanation": "SIPC does not insure money market fund shares. Money market funds are investment companies regulated under the Investment Company Act of 1940, not broker-dealer customer accounts."
+        },
+        {
+          "label": "D",
+          "text": "Rule 2a-7 has no specific requirements beyond general Investment Company Act rules; the crisis caused no regulatory changes to money market fund rules",
+          "explanation": "Rule 2a-7 imposes highly specific requirements on money market funds that go well beyond general Investment Company Act rules, and the SEC adopted major reforms in both 2010 and 2014."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "SEC Rule 2a-7 under the Investment Company Act of 1940 governs money market funds by imposing strict requirements on credit quality (generally limited to the highest short-term ratings), diversification (no more than 5% of assets in any single issuer, with government securities exceptions), and maturity (weighted average maturity must not exceed 60 days, weighted average life must not exceed 120 days). Post-crisis reforms in 2014 required institutional prime and institutional municipal money market funds to use a floating NAV, and authorized fund boards to impose liquidity fees (up to 2%) and redemption gates (suspending redemptions for up to 10 business days) when weekly liquid assets fall below 30%.",
+      "regulatoryLesson": "SEC Rule 2a-7 imposes credit quality, diversification, and maturity limits on money market funds to maintain stable NAV. Post-crisis reforms (2014) required floating NAV for institutional prime funds and introduced liquidity fees and redemption gates as tools to prevent panic runs.",
+      "whatActuallyHappened": "The run on money market funds threatened to freeze the commercial paper market — the short-term borrowing that major corporations depend on for daily operations. The Treasury Department temporarily guaranteed money market fund balances, and the Fed created the Commercial Paper Funding Facility to directly purchase commercial paper. AIG's bailout was ultimately restructured several times. The government eventually recovered its full investment plus a $22.7 billion profit. TARP's $700 billion was never fully deployed — approximately $443 billion was disbursed, and the program returned a net profit of approximately $15 billion to taxpayers. But the human cost was enormous: 8.7 million jobs lost, 10 million foreclosures, and trillions in household wealth destroyed."
+    },
+    {
+      "id": "crisis-08",
+      "year": "2010-Present",
+      "chapterTitle": "Reform",
+      "narrative": "On July 21, 2010, President Obama signed the Dodd-Frank Wall Street Reform and Consumer Protection Act, the most sweeping financial regulation since the New Deal. The law ran 2,300 pages and reshaped every corner of the financial system.\n\nThe Volcker Rule (Section 619) prohibited banks from proprietary trading — making speculative bets with their own capital — and restricted investments in hedge funds and private equity funds. The Financial Stability Oversight Council (FSOC) was created to identify systemic risks and designate Systemically Important Financial Institutions (SIFIs) for enhanced oversight. The Office of Financial Research (OFR) was established to collect and analyze financial data.\n\nBanks designated as SIFIs were subjected to annual stress tests under the Comprehensive Capital Analysis and Review (CCAR) and Dodd-Frank Act Stress Tests (DFAST), requiring them to prove they could survive severe economic scenarios. Basel III, adopted internationally, raised minimum capital requirements and introduced new liquidity standards.\n\nThe Consumer Financial Protection Bureau (CFPB) was created to protect consumers in financial transactions. Swap markets were brought under regulatory oversight for the first time. And the debate over whether the biggest banks remain \"too big to fail\" continues to this day.",
+      "stem": "The Volcker Rule, enacted as Section 619 of the Dodd-Frank Act, restricts certain activities by banking entities. Which of the following best describes the Volcker Rule's prohibitions and the purpose of stress testing requirements like CCAR?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The Volcker Rule prohibits banks from making any securities trades; CCAR requires banks to maintain a minimum stock price to remain listed on exchanges",
+          "explanation": "The Volcker Rule prohibits proprietary trading (trading for the bank's own profit), not all securities trading. Banks can still make markets, hedge, and trade on behalf of customers. CCAR evaluates capital adequacy under stress, not stock prices."
+        },
+        {
+          "label": "B",
+          "text": "The Volcker Rule prohibits banking entities from engaging in proprietary trading and limits their investments in hedge funds and private equity funds; CCAR stress tests evaluate whether large banks maintain sufficient capital to continue operations through severe economic downturns",
+          "explanation": "Correct. The Volcker Rule (Section 619 of Dodd-Frank) prohibits banking entities from engaging in short-term proprietary trading of securities, derivatives, and certain other instruments for their own accounts, and restricts their ownership of hedge funds and private equity funds. CCAR is the Federal Reserve's annual exercise that evaluates whether the largest bank holding companies have adequate capital and robust capital planning processes to maintain operations during stressful conditions."
+        },
+        {
+          "label": "C",
+          "text": "The Volcker Rule prohibits banks from lending to hedge funds; CCAR requires banks to reduce their total assets by 10% each year to decrease systemic risk",
+          "explanation": "The Volcker Rule restricts proprietary trading and fund ownership, not lending to hedge funds. CCAR does not require asset reduction — it evaluates capital adequacy under hypothetical stress scenarios."
+        },
+        {
+          "label": "D",
+          "text": "The Volcker Rule prohibits banks from issuing new securities; CCAR stress tests are voluntary self-assessments that banks may opt out of if they maintain a 10% capital ratio",
+          "explanation": "Banks can still underwrite and issue securities. CCAR stress tests are mandatory for the largest banks, not voluntary. The Federal Reserve designs the stress scenarios and can restrict capital distributions if a bank fails."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The Volcker Rule (Dodd-Frank Section 619) prohibits banking entities from engaging in proprietary trading — short-term buying and selling of securities, derivatives, commodity futures, and options for the firm's own account — and restricts their investments in and relationships with hedge funds and private equity funds (covered funds). Permitted activities include market-making, underwriting, hedging, and trading in government securities. The Comprehensive Capital Analysis and Review (CCAR) is the Federal Reserve's annual stress testing and capital planning framework for the largest bank holding companies, evaluating whether they have sufficient capital to absorb losses and continue lending under severely adverse economic conditions.",
+      "regulatoryLesson": "The Volcker Rule prohibits proprietary trading by banking entities and limits fund investments. CCAR and DFAST stress tests ensure that systemically important banks maintain capital buffers sufficient to survive severe economic scenarios. Enhanced prudential standards under Dodd-Frank Section 165 impose heightened requirements on the largest, most interconnected financial institutions.",
+      "whatActuallyHappened": "Dodd-Frank's implementation took years and generated thousands of pages of rules. The Volcker Rule alone required five federal agencies to coordinate on a final rule that ran to nearly 1,000 pages. Banks significantly increased their capital buffers — the six largest U.S. banks held roughly $500 billion more in common equity by 2020 than they had before the crisis. Stress tests became a defining feature of bank supervision, with the Fed publicly releasing results and restricting dividends and share buybacks at banks that failed. Critics argue the rules are too complex and costly; supporters argue the banking system weathered the COVID-19 shock in 2020 far better than the 2008 crisis precisely because of these reforms. The fundamental question of whether any institution should be too big to fail remains unresolved."
+    }
+  ]
+}

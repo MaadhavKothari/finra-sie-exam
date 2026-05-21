@@ -1,0 +1,10 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import WalkthroughEngine from '../../components/WalkthroughEngine';
+import crisisData from '../../content/walkthroughs/financial-crisis-2008.json';
+
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+<BaseLayout title="The 2008 Financial Crisis" description="An 8-chapter investigation into how deregulation, toxic mortgages, and unchecked leverage collapsed the global financial system — learn regulatory concepts through the lens of a real financial crisis">
+  <WalkthroughEngine client:load walkthrough={crisisData} base={base} />
+</BaseLayout>
