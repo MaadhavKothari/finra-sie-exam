@@ -1,0 +1,10 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import WalkthroughEngine from '../../components/WalkthroughEngine';
+import gamestopData from '../../content/walkthroughs/gamestop.json';
+
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+<BaseLayout title="The GameStop Saga" description="An 8-chapter investigation into how Reddit traders broke Wall Street — learn regulatory concepts through the lens of the meme stock frenzy">
+  <WalkthroughEngine client:load walkthrough={gamestopData} base={base} />
+</BaseLayout>

@@ -1,0 +1,271 @@
+{
+  "id": "gamestop",
+  "title": "The GameStop Saga",
+  "subtitle": "How Reddit traders broke Wall Street and exposed the plumbing of modern markets",
+  "questions": [
+    {
+      "id": "gamestop-01",
+      "year": "2019",
+      "chapterTitle": "DeepFuckingValue",
+      "narrative": "In September 2019, a Massachusetts financial educator named Keith Gill began posting on Reddit's r/WallStreetBets under the handle \"DeepFuckingValue.\" On YouTube, he went by \"Roaring Kitty.\" His thesis was simple but contrarian: GameStop was deeply undervalued.\n\nGill had done his homework. GameStop was trading around $5 per share, and most of Wall Street had written it off as a dying brick-and-mortar retailer. But Gill saw something others missed — or chose to ignore. Short interest in GME had climbed above 100% of the publicly available float. That meant more shares had been borrowed and sold short than actually existed in public hands.\n\nGill began buying GME call options and shares, posting his positions and thesis publicly. At the time, almost no one was paying attention.",
+      "stem": "When short interest exceeds 100% of a stock's public float, it suggests that some short sellers may have sold shares without first locating them to borrow. Which regulation governs the locate requirement for short sales?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Regulation T, which sets initial margin requirements for securities purchases",
+          "explanation": "Regulation T governs credit extended by broker-dealers and margin requirements. While margin rules apply to short selling, Reg T does not address the locate requirement."
+        },
+        {
+          "label": "B",
+          "text": "Regulation SHO, which requires broker-dealers to locate shares to borrow before executing a short sale",
+          "explanation": "Correct. Regulation SHO, adopted by the SEC in 2005, established the locate requirement (Rule 203(b)(1)), which requires broker-dealers to have reasonable grounds to believe the security can be borrowed and delivered before accepting or executing a short sale order."
+        },
+        {
+          "label": "C",
+          "text": "Regulation NMS, which governs order routing and trade execution across exchanges",
+          "explanation": "Regulation NMS addresses the National Market System, including order protection and access rules. It does not specifically address short selling locates."
+        },
+        {
+          "label": "D",
+          "text": "Regulation ATS, which governs alternative trading systems and dark pools",
+          "explanation": "Regulation ATS establishes requirements for alternative trading systems. It does not address short selling or locate obligations."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Regulation SHO (adopted 2005) is the SEC's primary regulation governing short selling. Rule 203(b)(1) requires broker-dealers to locate shares before executing a short sale — meaning they must have reasonable grounds to believe the security can be borrowed and delivered by the settlement date. When short interest exceeds 100% of the float, it raises questions about whether all short sellers properly located shares, or whether naked short selling occurred.",
+      "regulatoryLesson": "Regulation SHO Rule 203(b)(1) requires a pre-borrow locate before short selling. Rule 203(b)(3) — the close-out requirement — mandates that fails to deliver be closed out within specific timeframes for threshold securities.",
+      "whatActuallyHappened": "GameStop's short interest exceeded 140% of its float by January 2021 — a figure that stunned retail and institutional investors alike. Critics argued this level of short interest was only possible through failures in the locate process or through the re-lending of already-borrowed shares. The SEC's October 2021 staff report confirmed that GME had unusually high short interest but did not conclusively attribute it to naked short selling. The episode reignited longstanding debates about the adequacy of Reg SHO enforcement."
+    },
+    {
+      "id": "gamestop-02",
+      "year": "2020",
+      "chapterTitle": "The Setup",
+      "narrative": "Throughout 2020, hedge funds continued to pile into short positions in GameStop. Melvin Capital, a $12.5 billion fund run by Gabe Plotkin, held one of the largest short positions. Maplelane Capital, Citron Research's Andrew Left, and other prominent short sellers were also heavily short GME.\n\nBy late 2020, short interest had reached approximately 140% of the publicly available float — an extraordinary level. For every share available to trade, roughly 1.4 shares had been borrowed and sold short. The bears were so confident GameStop was going to zero that they had created a situation with no margin for error.\n\nMeanwhile, r/WallStreetBets was growing. The subreddit swelled from under 2 million members to over 6 million in the span of weeks. DeepFuckingValue's posts documenting his growing GME position became legendary on the forum.",
+      "stem": "A hedge fund maintaining a short position must meet ongoing margin requirements. Under FINRA Rule 4210, what is the minimum maintenance margin requirement for short equity positions?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "25% of the current market value of the shorted securities",
+          "explanation": "25% is the minimum maintenance margin for long equity positions under FINRA Rule 4210, not short positions."
+        },
+        {
+          "label": "B",
+          "text": "30% of the current market value of the shorted securities",
+          "explanation": "Correct. FINRA Rule 4210(c) sets the minimum maintenance margin for short equity positions at 30% of the current market value. As the price of a shorted stock rises, the short seller must deposit additional margin to maintain this requirement. For volatile or concentrated positions, firms often impose higher \"house\" requirements."
+        },
+        {
+          "label": "C",
+          "text": "50% of the current market value of the shorted securities",
+          "explanation": "50% is the initial margin requirement under Regulation T for both long and short positions, not the maintenance margin under FINRA rules."
+        },
+        {
+          "label": "D",
+          "text": "100% of the current market value plus the original short sale proceeds",
+          "explanation": "While a short seller's account must hold the short sale proceeds plus the required margin deposit, the maintenance margin requirement itself is 30% of current market value, not 100%."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "FINRA Rule 4210(c) requires a minimum maintenance margin of 30% of the current market value for short equity positions. This is higher than the 25% maintenance requirement for long positions because short selling carries theoretically unlimited loss potential — as the stock price rises, the short seller's losses increase without a defined ceiling. Most broker-dealers impose higher \"house\" margin requirements, especially for volatile or hard-to-borrow securities.",
+      "regulatoryLesson": "FINRA Rule 4210 sets maintenance margin at 30% for short equity positions (vs 25% for long positions). Regulation T sets the initial margin at 50% for both. Firms frequently impose higher \"house\" requirements for concentrated or volatile positions.",
+      "whatActuallyHappened": "As GME's price began rising, the margin math turned catastrophic for short sellers. Melvin Capital, which had entered 2021 managing $12.5 billion, lost 53% of its value in January alone. On January 25, Citadel and Point72 Asset Management injected $2.75 billion into Melvin Capital to keep it solvent and meet margin calls. Despite the bailout, Melvin Capital never recovered. Gabe Plotkin shut the fund down in May 2022. The fund's collapse demonstrated how quickly margin requirements can overwhelm even large, well-capitalized firms when a short position moves violently against them."
+    },
+    {
+      "id": "gamestop-03",
+      "year": "Jan 11-22, 2021",
+      "chapterTitle": "The Squeeze Begins",
+      "narrative": "On January 11, 2021, GameStop announced that Ryan Cohen — the billionaire co-founder of Chewy — would join its board of directors along with two other former Chewy executives. The news was the catalyst the bulls had been waiting for.\n\nGME shares surged from $20 to $40, then to $65 by January 22. r/WallStreetBets was electrified. DeepFuckingValue's position, which had once been a punchline, was now worth millions. The buying was relentless.\n\nShort sellers were caught in a vise. As the price rose, their margin requirements increased, forcing some to buy back shares to close their positions. But buying to cover pushed the price even higher, forcing more short sellers to cover, creating a self-reinforcing feedback loop. Melvin Capital was hemorrhaging — down 30% in January alone by this point.\n\nWall Street had a name for this: a short squeeze.",
+      "stem": "During a short squeeze, a broker-dealer may issue a margin call requiring a short seller to deposit additional funds. If the short seller fails to meet the margin call, what action is the broker-dealer required to take?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Wait five business days for the customer to deposit additional funds before taking any action",
+          "explanation": "While Regulation T allows a limited time to meet initial margin requirements, maintenance margin calls — especially during volatile markets — typically require prompt action. Broker-dealers have the authority to liquidate immediately if the account poses excessive risk."
+        },
+        {
+          "label": "B",
+          "text": "Report the customer to FINRA for failure to maintain margin but continue to hold the position open",
+          "explanation": "Failing to maintain margin is not itself a reportable regulatory violation. The broker-dealer's obligation is to manage the risk in the account, not simply report the shortfall."
+        },
+        {
+          "label": "C",
+          "text": "The broker-dealer may buy in the short position (force a purchase to close the short) to bring the account into compliance",
+          "explanation": "Correct. Under FINRA Rule 4210 and the firm's margin agreement, when a customer fails to meet a margin call, the broker-dealer has the right — and in many cases the obligation — to liquidate positions to bring the account into compliance. For short positions, this means executing a buy-in: purchasing shares in the market to close the short position."
+        },
+        {
+          "label": "D",
+          "text": "Transfer the short position to a clearing firm and release the customer from further obligation",
+          "explanation": "Broker-dealers cannot simply transfer a customer's obligations to a clearing firm. The customer remains liable for losses, and the broker-dealer must manage the risk in the account."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "When a customer fails to meet a margin call, the broker-dealer has the authority under FINRA Rule 4210 and the customer's margin agreement to liquidate positions without prior notice. For short positions, this means executing a \"buy-in\" — purchasing shares in the open market to close the short position. During a short squeeze, forced buy-ins accelerate the upward price pressure, as brokers competing to buy shares drive prices even higher.",
+      "regulatoryLesson": "Broker-dealers have the right and obligation to liquidate positions when margin requirements are not met. For short positions, this forced buy-in mechanism is a key driver of short squeezes and can create rapid, extreme price movements.",
+      "whatActuallyHappened": "The short squeeze in GameStop was unlike anything Wall Street had seen. As brokers forced buy-ins on accounts that could not meet margin calls, the buying pressure intensified. The SEC's October 2021 staff report confirmed that some of the price increase was driven by short sellers covering their positions, though it also noted that much of the buying pressure came from new retail investors opening long positions. The report found that GME experienced a dramatic reduction in short interest from over 100% to approximately 30% in a matter of days as short sellers were squeezed out."
+    },
+    {
+      "id": "gamestop-04",
+      "year": "Jan 27-28, 2021",
+      "chapterTitle": "To the Moon",
+      "narrative": "On January 27, 2021, GameStop hit $380 per share. The next morning, it reached $483 intraday. AMC Entertainment, BlackBerry, Nokia, and other heavily shorted stocks surged in sympathy as the meme stock frenzy reached a fever pitch. Elon Musk tweeted \"Gamestonk!!\" with a link to r/WallStreetBets, sending the stock even higher in after-hours trading.\n\nBehind the scenes, the plumbing of the financial system was under extraordinary stress. The National Securities Clearing Corporation (NSCC), the central counterparty that guarantees equity trades, imposed a massive margin call on Robinhood. The initial demand was approximately $3.7 billion — far more than Robinhood had on hand.\n\nRobinhood had become the retail brokerage of choice for a generation of young investors drawn by its commission-free trading and gamified interface. Now it faced an existential crisis: it did not have enough capital to cover the clearinghouse's margin requirements.",
+      "stem": "The NSCC required Robinhood to post $3.7 billion in additional margin. Under NSCC rules, why does a clearinghouse impose increased margin deposits on clearing members during periods of extreme volatility?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "To punish broker-dealers for allowing customers to trade volatile securities",
+          "explanation": "Clearinghouse margin requirements are risk-based, not punitive. They are designed to protect the clearing system from counterparty default, not to discourage particular trading activity."
+        },
+        {
+          "label": "B",
+          "text": "To ensure the clearinghouse has sufficient collateral to complete settlement if a clearing member defaults during the two-day settlement period",
+          "explanation": "Correct. The NSCC acts as the central counterparty for equity trades, guaranteeing settlement. During the T+2 settlement period (now T+1), the NSCC bears the risk that a clearing member might default. Increased volatility means larger potential losses if a member fails, so the NSCC demands more collateral to cover this exposure."
+        },
+        {
+          "label": "C",
+          "text": "To comply with SEC Regulation T requirements that apply to all clearinghouse operations",
+          "explanation": "Regulation T governs margin extended by broker-dealers to customers. Clearinghouse margin requirements are separate and governed by the clearinghouse's own SEC-approved rules."
+        },
+        {
+          "label": "D",
+          "text": "To redistribute profits from volatile trading to the clearinghouse's reserve fund for general use",
+          "explanation": "Clearinghouse margin deposits belong to the clearing member and are returned after settlement. They are collateral, not profit redistribution."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The NSCC, as the central counterparty for U.S. equity trades, guarantees that trades will settle even if one party defaults. During the settlement period (T+2 at the time, now T+1 as of May 2024), the NSCC bears this counterparty risk. When volatility spikes, the potential loss from a member default increases, so the NSCC raises margin requirements to ensure it holds sufficient collateral. NSCC Rule 4 (Clearing Fund) governs these deposit requirements.",
+      "regulatoryLesson": "Clearinghouses like the NSCC use risk-based margin models to protect the settlement system from member defaults. NSCC Rule 4 governs clearing fund requirements. The GameStop episode was a key factor in the SEC's decision to shorten the settlement cycle from T+2 to T+1, effective May 2024.",
+      "whatActuallyHappened": "Robinhood scrambled to meet the NSCC's $3.7 billion margin call. After negotiations, the NSCC reduced the requirement — partly because Robinhood agreed to restrict buying in the affected stocks. Robinhood drew on credit lines and raised over $3.4 billion in emergency capital from existing investors in the days that followed. The episode exposed how thinly capitalized some retail brokerages were relative to the risk their customers were generating. It also became a central argument for moving to T+1 settlement to reduce the window of counterparty risk."
+    },
+    {
+      "id": "gamestop-05",
+      "year": "Jan 28, 2021",
+      "chapterTitle": "The Buy Button Disappears",
+      "narrative": "On the morning of January 28, 2021, Robinhood did something unprecedented: it restricted customers from buying GameStop, AMC, and about a dozen other volatile stocks. Users could sell their existing positions but could not open new ones. Other brokerages, including Interactive Brokers, Webull, and TD Ameritrade, imposed similar restrictions to varying degrees.\n\nThe reaction was volcanic. Customers felt betrayed — they believed Robinhood was protecting hedge funds at the expense of retail traders. \"You can sell but you can't buy\" looked like the market was rigged. Class action lawsuits were filed within hours. Members of Congress from both parties condemned the restrictions. Congressional hearings were announced.\n\nRobinhood CEO Vlad Tenev explained that the restrictions were driven by clearinghouse capital requirements, not by pressure from hedge funds. But the damage to trust was already done.",
+      "stem": "When Robinhood restricted customers to sell-only in certain stocks, critics alleged a violation of best execution. Under FINRA Rule 5310, what does the best execution obligation require of a broker-dealer?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A broker-dealer must execute every customer order within 30 seconds of receipt, regardless of market conditions",
+          "explanation": "Best execution does not impose a specific time requirement. It requires using reasonable diligence to obtain the most favorable terms reasonably available under the circumstances."
+        },
+        {
+          "label": "B",
+          "text": "A broker-dealer must route all customer orders to the exchange offering the lowest commission rates",
+          "explanation": "Best execution considers the overall terms of the transaction, including price, speed, and likelihood of execution, not just commission costs."
+        },
+        {
+          "label": "C",
+          "text": "A broker-dealer must use reasonable diligence to ascertain the best market for a security and buy or sell in that market so that the resultant price to the customer is as favorable as possible under prevailing market conditions",
+          "explanation": "Correct. FINRA Rule 5310 requires broker-dealers to use \"reasonable diligence\" to obtain the most favorable terms for customer orders. This includes considering factors such as the character of the market, the size and type of the transaction, the number of markets checked, and the accessibility of quotations."
+        },
+        {
+          "label": "D",
+          "text": "A broker-dealer must guarantee that every customer receives the National Best Bid or Offer (NBBO) price at the time of order entry",
+          "explanation": "While the NBBO is a key reference point, best execution requires reasonable diligence to seek favorable terms — it is a process-based obligation, not a guarantee of a specific price."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "FINRA Rule 5310 (Best Execution and Interpositioning) requires broker-dealers to use \"reasonable diligence\" to ascertain the best market for a security and to execute orders so that the price to the customer is as favorable as possible under prevailing market conditions. Best execution is a process obligation — firms must have systems and procedures to regularly evaluate execution quality across venues.",
+      "regulatoryLesson": "FINRA Rule 5310 imposes a best execution obligation that is process-based: broker-dealers must use reasonable diligence to seek favorable terms. Restricting trading is distinct from a regulatory market halt (which is imposed by an exchange or the SEC under Rule 9 of Regulation M or exchange rules).",
+      "whatActuallyHappened": "The SEC's staff report concluded that Robinhood's trading restrictions were driven by clearing deposit requirements, not by direct pressure from market makers or hedge funds. However, the report noted that Robinhood's business model — commission-free trading funded by payment for order flow — created inherent tensions between growth and risk management. The restrictions were technically permitted under Robinhood's customer agreement, which allowed the firm to restrict trading at its discretion. But the episode destroyed enormous customer trust and became a defining moment in the debate over market structure fairness."
+    },
+    {
+      "id": "gamestop-06",
+      "year": "Feb 2021",
+      "chapterTitle": "Congressional Hearings",
+      "narrative": "On February 18, 2021, the House Financial Services Committee convened a hearing titled \"Game Stopped? Who Wins and Loses When Short Sellers, Social Media, and Retail Investors Collide.\" The witnesses included Vlad Tenev (Robinhood CEO), Ken Griffin (Citadel LLC CEO), Gabe Plotkin (Melvin Capital CEO), Keith Gill (DeepFuckingValue), and Reddit CEO Steve Huffman.\n\nThe hearing thrust a previously obscure practice into the national spotlight: payment for order flow (PFOF). Robinhood, it emerged, made the vast majority of its revenue by routing customer orders to wholesale market makers — primarily Citadel Securities — who paid Robinhood for the right to execute those orders. In 2020, Robinhood received approximately $687 million in PFOF revenue.\n\nCritics argued this created a fundamental conflict of interest: Robinhood's true customers were the market makers paying for order flow, not the retail investors using the app.",
+      "stem": "SEC Rule 606 requires broker-dealers to publicly disclose their order routing practices. What specific information must a broker-dealer disclose under Rule 606?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Only the total dollar amount of payment for order flow received each quarter, with no breakdown by venue",
+          "explanation": "Rule 606 requires much more detailed disclosure than a simple aggregate total. The rule mandates venue-by-venue breakdowns."
+        },
+        {
+          "label": "B",
+          "text": "The identity of the venues to which orders are routed, the percentage of orders sent to each venue, and any payment for order flow or profit-sharing arrangements with each venue",
+          "explanation": "Correct. SEC Rule 606 requires quarterly public reports identifying the top execution venues, the percentage of different types of orders routed to each venue, and a description of material payment for order flow arrangements, including the terms of those arrangements."
+        },
+        {
+          "label": "C",
+          "text": "The names and account numbers of customers whose orders generated payment for order flow",
+          "explanation": "Rule 606 requires aggregate order routing disclosures, not individual customer-level information. Customer account data would raise serious privacy concerns."
+        },
+        {
+          "label": "D",
+          "text": "A daily real-time feed of all order routing decisions published to the firm's website",
+          "explanation": "Rule 606 requires quarterly reports, not real-time disclosure. The reporting is periodic and aggregated, not transaction-by-transaction."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "SEC Rule 606 (formerly Rule 11Ac1-6) requires broker-dealers to publish quarterly reports disclosing their order routing practices. These reports must identify the venues to which customer orders are routed, the percentage of various types of orders directed to each venue, and the nature of any payment for order flow relationships. The rule was designed to help customers understand potential conflicts of interest in how their orders are handled.",
+      "regulatoryLesson": "SEC Rule 606 mandates quarterly disclosure of order routing practices and payment for order flow arrangements. This transparency requirement allows investors and regulators to evaluate whether broker-dealers' routing decisions are influenced by revenue considerations rather than best execution.",
+      "whatActuallyHappened": "The congressional hearings revealed the scale of PFOF in retail brokerage. Citadel Securities executed approximately 47% of all U.S. retail equity order volume in early 2021. Ken Griffin testified that Citadel Securities and Citadel the hedge fund were separate entities with information barriers, though critics remained skeptical. Keith Gill testified that he was not a \"cat\" (referencing a viral hearing moment) and that he simply liked the stock based on his own analysis. The hearings did not result in immediate legislation but set the stage for the SEC's subsequent market structure reform proposals."
+    },
+    {
+      "id": "gamestop-07",
+      "year": "2021-2022",
+      "chapterTitle": "The PFOF Reckoning",
+      "narrative": "In the aftermath of GameStop, SEC Chair Gary Gensler launched the most ambitious market structure reform effort in decades. He proposed rules that would require retail orders to be exposed to competition through auctions before being executed by wholesalers, potentially upending the PFOF business model.\n\nRobinhood went public on July 29, 2021, at $38 per share. The IPO was controversial — the company was still facing dozens of lawsuits and regulatory inquiries. The stock briefly spiked to $85 but then entered a prolonged decline, eventually falling below $7 per share in 2022.\n\nIn June 2021, FINRA fined Robinhood $70 million — the largest individual fine in FINRA's history at the time. The charges: misleading customers about trading on margin, approving customers for options trading without adequate due diligence, and failing to maintain adequate systems to handle surges in trading volume. The fine covered conduct stretching back to 2016.",
+      "stem": "FINRA's $70 million fine against Robinhood cited violations of communications rules. Under FINRA Rule 2210, which category of communication has the strictest pre-use approval requirements?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Correspondence, which includes emails and letters to individual customers",
+          "explanation": "Correspondence (communication with 25 or fewer retail investors within a 30-day period) requires supervision but does not require pre-use principal approval. It is subject to review under the firm's supervisory procedures."
+        },
+        {
+          "label": "B",
+          "text": "Institutional communications, which target qualified institutional buyers and registered investment advisers",
+          "explanation": "Institutional communications require review procedures but have less restrictive pre-use approval requirements than retail communications, on the theory that institutional investors are more sophisticated."
+        },
+        {
+          "label": "C",
+          "text": "Retail communications, which include any written or electronic communication distributed to more than 25 retail investors within a 30-calendar-day period",
+          "explanation": "Correct. Under FINRA Rule 2210, retail communications — defined as any written or electronic communication distributed or made available to more than 25 retail investors within any 30-calendar-day period — require pre-use approval by a registered principal. Certain retail communications, including those concerning options or new member firms, must also be filed with FINRA."
+        },
+        {
+          "label": "D",
+          "text": "Public appearances, such as television interviews or social media posts by associated persons",
+          "explanation": "Public appearances are subject to supervision requirements but are generally not subject to the same pre-use approval requirements as retail communications."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "FINRA Rule 2210 classifies communications into three categories: retail communications, correspondence, and institutional communications. Retail communications — those distributed to more than 25 retail investors in a 30-day period — carry the strictest requirements, including mandatory pre-use approval by a registered principal. Certain retail communications must also be filed with FINRA's Advertising Regulation Department within 10 business days of first use.",
+      "regulatoryLesson": "FINRA Rule 2210 requires pre-use principal approval of retail communications (distributed to >25 retail investors in 30 days). All communications must be fair, balanced, and not misleading. Options communications carry additional disclosure requirements about risks.",
+      "whatActuallyHappened": "FINRA found that Robinhood's app and website contained misleading information about the risks of margin trading and options. The firm approved thousands of customers for options trading who did not meet its own eligibility criteria. Between 2018 and 2020, Robinhood also experienced multiple system outages during periods of peak trading volume, including a March 2020 outage that lasted nearly two full trading days. The $70 million fine included $12.6 million in restitution to affected customers. The fine underscored that commission-free does not mean risk-free, and that broker-dealers remain fully subject to communications and suitability requirements regardless of their business model."
+    },
+    {
+      "id": "gamestop-08",
+      "year": "2024",
+      "chapterTitle": "Roaring Kitty Returns",
+      "narrative": "On May 12, 2024, after nearly three years of silence, Keith Gill — Roaring Kitty — posted a cryptic image on social media: a drawing of a man leaning forward in a chair, a meme associated with getting serious. GameStop stock surged 180% in a single week on no fundamental news.\n\nGill subsequently disclosed a massive position: 5 million shares and 120,000 call options in GameStop, valued at over $200 million. The disclosure itself moved the stock. Trading volumes exploded. GameStop took advantage of the frenzy to issue new shares, raising billions in capital.\n\nThe SEC opened an investigation. The central question was one that regulators had been grappling with since the original 2021 saga: where is the line between sharing a legitimate investment thesis on social media and manipulating the market?",
+      "stem": "Section 9(a)(2) of the Securities Exchange Act of 1934 prohibits market manipulation. Which of the following best describes what constitutes manipulation under this provision?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Any purchase or sale of a security that results in a significant price movement",
+          "explanation": "Large transactions that move prices are not inherently manipulative. Manipulation requires intent to create a misleading appearance of market activity, not merely causing price impact through legitimate trading."
+        },
+        {
+          "label": "B",
+          "text": "Effecting a series of transactions creating actual or apparent active trading in a security, or raising or depressing the price of a security, for the purpose of inducing others to buy or sell",
+          "explanation": "Correct. Section 9(a)(2) prohibits transactions that create a misleading appearance of active trading or artificially move prices for the purpose of inducing other people to buy or sell. The key element is the manipulative purpose — the intent to mislead other market participants."
+        },
+        {
+          "label": "C",
+          "text": "Posting bullish or bearish opinions about a security on social media platforms with more than 10,000 followers",
+          "explanation": "Sharing investment opinions, even to large audiences, is not manipulation per se. Manipulation requires trading activity or deceptive conduct coupled with intent to mislead, not merely expressing a viewpoint."
+        },
+        {
+          "label": "D",
+          "text": "Holding a position in a security while simultaneously publishing research or analysis about that security",
+          "explanation": "Holding positions while publishing analysis is common and legal, though disclosure of the position may be required. This alone does not constitute manipulation under Section 9(a)(2)."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Section 9(a)(2) of the Securities Exchange Act of 1934 makes it unlawful to effect transactions in a security creating actual or apparent active trading, or to raise or depress the price, for the purpose of inducing the purchase or sale of such security by others. The critical element is scienter — the intent to create misleading impressions of market activity or artificial price movements to influence others' trading decisions.",
+      "regulatoryLesson": "Market manipulation under Section 9(a)(2) requires both manipulative conduct (creating misleading trading activity or artificial prices) and manipulative intent (purpose of inducing others to trade). Sharing investment theses publicly is protected speech unless coupled with deceptive trading practices.",
+      "whatActuallyHappened": "As of the time of writing, no charges have been filed against Keith Gill. The SEC investigation highlighted the difficulty of applying manipulation rules written for institutional boiler rooms to the social media age. Gill consistently maintained that he was sharing his genuine investment thesis, and he disclosed his positions publicly. The GameStop saga left lasting marks on the market: the SEC shortened settlement to T+1 in May 2024, proposed (but did not finalize) sweeping PFOF reforms, and FINRA increased scrutiny of social media activity by associated persons. Melvin Capital closed in May 2022, having never recovered. Robinhood's stock eventually rebounded as the company diversified into retirement accounts and credit cards. And GameStop, the company at the center of it all, used the meme-driven rallies to raise over $4 billion in fresh capital — transforming itself from a struggling retailer into an unlikely beneficiary of its own short squeeze."
+    }
+  ]
+}
