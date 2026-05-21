@@ -1,0 +1,9 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import StreakPanel from '../components/StreakPanel';
+
+const base = import.meta.env.BASE_URL;
+---
+<BaseLayout title="Streak Vault">
+  <StreakPanel client:load base={base} />
+</BaseLayout>
