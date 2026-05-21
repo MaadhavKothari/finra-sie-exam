@@ -68,7 +68,8 @@
     "difficulty": "medium",
     "source": "FINRA content outline",
     "regulatoryBasis": "Securities Exchange Act of 1934, Section 10(b) and Rule 10b-5",
-    "lastVerified": "2026-05-20"
+    "lastVerified": "2026-05-20",
+    "relatedStories": ["martha-stewart-imclone", "galleon-rajaratnam"]
   },
   {
     "id": "q-ta-005",
@@ -405,7 +406,8 @@
     "difficulty": "easy",
     "source": "FINRA content outline",
     "regulatoryBasis": "Securities Exchange Act of 1934, Section 10(b) and Rule 10b-5",
-    "lastVerified": "2026-05-20"
+    "lastVerified": "2026-05-20",
+    "relatedStories": ["martha-stewart-imclone", "galleon-rajaratnam"]
   },
   {
     "id": "q-ta-024",
@@ -423,7 +425,8 @@
     "difficulty": "hard",
     "source": "FINRA content outline",
     "regulatoryBasis": "Insider Trading Sanctions Act of 1984; Insider Trading and Securities Fraud Enforcement Act of 1988; Sarbanes-Oxley Act of 2002",
-    "lastVerified": "2026-05-20"
+    "lastVerified": "2026-05-20",
+    "relatedStories": ["galleon-rajaratnam"]
   },
   {
     "id": "q-ta-025",
