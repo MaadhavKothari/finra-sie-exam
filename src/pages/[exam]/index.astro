@@ -93,23 +93,34 @@ const isLight = examData.headerClass.includes('text-black');
       </div>
     </div>
 
-    {/* Quick practice CTA */}
-    <a
-      href={`${base}${exam}/drill/all`}
-      class="group block w-full border border-black hover:bg-black transition-colors rounded-sm p-5 mb-6 no-underline"
-    >
-      <div class="flex items-center justify-between">
-        <div>
-          <div style="font-family: var(--font-display);" class="text-lg text-black group-hover:text-white transition-colors">
-            Practice all sections
+    {/* Quick practice CTA — only when content exists */}
+    {totalQuestions > 0 ? (
+      <a
+        href={`${base}${exam}/drill/all`}
+        class="group block w-full border border-black hover:bg-black transition-colors rounded-sm p-5 mb-6 no-underline"
+      >
+        <div class="flex items-center justify-between">
+          <div>
+            <div style="font-family: var(--font-display);" class="text-lg text-black group-hover:text-white transition-colors">
+              Practice all sections
+            </div>
+            <div class="text-xs text-[#6b6560] group-hover:text-white/70 transition-colors mt-0.5">
+              {totalQuestions} questions available
+            </div>
           </div>
-          <div class="text-xs text-[#6b6560] group-hover:text-white/70 transition-colors mt-0.5">
-            {totalQuestions} questions available
-          </div>
+          <div class="text-[#8F5A39] group-hover:text-white transition-colors text-lg">→</div>
         </div>
-        <div class="text-[#8F5A39] group-hover:text-white transition-colors text-lg">→</div>
+      </a>
+    ) : (
+      <div class="w-full border border-[#E5E0D8] bg-[#F4EFE7] rounded-sm p-5 mb-6">
+        <div style="font-family: var(--font-display);" class="text-lg text-black mb-1">
+          Questions coming soon
+        </div>
+        <div class="text-xs text-[#6b6560] leading-relaxed">
+          We're still writing the question bank for {examData.name}. Check back shortly — or practice other exams in the meantime.
+        </div>
       </div>
-    </a>
+    )}
 
     {/* Sections */}
     <h2 class="text-xs uppercase tracking-[0.15em] text-[#6b6560] font-medium mb-3">Practice by section</h2>
@@ -118,10 +129,12 @@ const isLight = examData.headerClass.includes('text-black');
         const count = sectionCounts[section.id] ?? 0;
         const weight = Math.round(section.weight * 100);
         const isLast = i === examData.sections.length - 1;
+        const hasContent = count > 0;
+        const Tag: any = hasContent ? 'a' : 'div';
         return (
-          <a
-            href={`${base}${exam}/drill/${section.id}`}
-            class={`group block bg-white hover:bg-[#F4EFE7] transition-colors no-underline ${!isLast ? 'border-b border-[#E5E0D8]' : ''}`}
+          <Tag
+            href={hasContent ? `${base}${exam}/drill/${section.id}` : undefined}
+            class={`group block bg-white ${hasContent ? 'hover:bg-[#F4EFE7] cursor-pointer' : 'opacity-60 cursor-not-allowed'} transition-colors no-underline ${!isLast ? 'border-b border-[#E5E0D8]' : ''}`}
           >
             <div class="px-5 py-4">
               <div class="flex items-start justify-between gap-3 mb-2">
@@ -143,7 +156,7 @@ const isLight = examData.headerClass.includes('text-black');
                 <span class="text-[#8F5A39] text-xs opacity-0 group-hover:opacity-100 transition-opacity shrink-0">→</span>
               </div>
             </div>
-          </a>
+          </Tag>
         );
       })}
     </div>
