@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import WalkthroughEngine from '../../components/WalkthroughEngine';
 import madoffData from '../../content/walkthroughs/madoff.json';
 
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 ---
 <BaseLayout title="The Madoff Fraud" description="An 8-chapter investigation into the largest Ponzi scheme in history — learn regulatory concepts through the lens of a real financial scandal">
   <WalkthroughEngine client:load walkthrough={madoffData} base={base} />

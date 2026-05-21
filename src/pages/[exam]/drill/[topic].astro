@@ -110,7 +110,7 @@ const sectionMeta = topic === 'all' ? null : examData.sections.find(s => s.id ==
 const topicName = topic === 'all'
   ? `${examData.name} – All Topics`
   : (sectionMeta?.name ?? topic.replace(/-/g, ' '));
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const backUrl = `${base}${exam}`;
 
 // Story cards — load all and pass as id->Story map so QuizEngine can resolve relatedStories[]

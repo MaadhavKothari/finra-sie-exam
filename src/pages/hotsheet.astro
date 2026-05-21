@@ -3,7 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import HotSheet from '../components/HotSheet';
 
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 
 // Load all questions so HotSheet can resolve card IDs to full question objects
 const cm = await getCollection('capital-markets');
