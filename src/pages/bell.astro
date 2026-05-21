@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import OpeningBell from '../components/OpeningBell';
+
+const base = import.meta.env.BASE_URL;
+
+const cm = await getCollection('capital-markets');
+const pr = await getCollection('products-risks');
+const ta = await getCollection('trading-accounts');
+const rf = await getCollection('regulatory-framework');
+const questions = [...cm, ...pr, ...ta, ...rf].map((q) => q.data);
+---
+<BaseLayout title="Opening Bell">
+  <OpeningBell client:load base={base} questions={questions} />
+</BaseLayout>
