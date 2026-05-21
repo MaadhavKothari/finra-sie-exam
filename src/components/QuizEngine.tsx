@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback, useRef } from 'preact/hooks';
 import { useStore } from '@nanostores/preact';
 import { $progress, $streak, $level, $xp, $dailyProgress, $accuracy, recordAnswer, xpToNextLevel } from '../stores/progress';
 import { enqueueWrong } from '../stores/hotSheet';
+import { generateShareString, copyToClipboard } from '../lib/shareString';
 import type { Question } from '../lib/types';
 import StoryCard, { type Story } from './StoryCard';
 
@@ -45,6 +46,7 @@ export default function QuizEngine({ questions: allQuestions, topic, topicName, 
   const [streakPopup, setStreakPopup] = useState<{ count: number; show: boolean }>({ count: 0, show: false });
   const [levelUpPopup, setLevelUpPopup] = useState(false);
   const [shakeWrong, setShakeWrong] = useState(false);
+  const [shareToast, setShareToast] = useState(false);
   const questionStartTime = useRef(Date.now());
 
   const streak = useStore($streak);
@@ -282,6 +284,31 @@ export default function QuizEngine({ questions: allQuestions, topic, topicName, 
             </div>
           </div>
         </div>
+
+        {/* Share button */}
+        <button
+          onClick={async () => {
+            const shareResults = sessionResults.map((r) => ({ correct: r.isCorrect }));
+            const text = generateShareString(shareResults, {
+              mode: 'drill',
+              title: topicName,
+              streak: streak,
+              xp: xp,
+            });
+            await copyToClipboard(text);
+            setShareToast(true);
+            setTimeout(() => setShareToast(false), 2000);
+          }}
+          class="w-full py-3.5 border border-[#E5E0D8] hover:border-black text-black text-sm font-medium rounded-sm transition-colors mb-3"
+        >
+          Share results
+        </button>
+
+        {shareToast && (
+          <div class="fixed top-4 left-1/2 -translate-x-1/2 z-50 px-4 py-2.5 bg-black text-white text-sm rounded-sm shadow-lg" style="animation: fadeIn 0.2s ease-in">
+            Copied to clipboard
+          </div>
+        )}
 
         <div class="flex gap-3">
           <button

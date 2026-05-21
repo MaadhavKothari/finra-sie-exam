@@ -2,6 +2,7 @@ import { useState, useEffect, useMemo } from 'preact/hooks';
 import { useStore } from '@nanostores/preact';
 import { $progress, $xp, $streak, $accuracy, recordAnswer, recordBellResult } from '../stores/progress';
 import { enqueueWrong } from '../stores/hotSheet';
+import { generateShareString, copyToClipboard } from '../lib/shareString';
 import { getDailyBellQuestions } from '../lib/dailySeed';
 import { getGreedForDate } from '../lib/greedIndex';
 import type { Question } from '../lib/types';
@@ -43,6 +44,7 @@ export default function OpeningBell({ base, questions: allQuestions }: Props) {
   const [score, setScore] = useState(0);
   const [earnedXp, setEarnedXp] = useState(0);
   const [tickerShown, setTickerShown] = useState(false);
+  const [shareToast, setShareToast] = useState(false);
 
   const currentQ = dailyQ[idx];
 
@@ -138,11 +140,38 @@ export default function OpeningBell({ base, questions: allQuestions }: Props) {
           </h1>
           <p class="text-sm text-[#6b6560]">Bell rung. Tomorrow at 9:30.</p>
         </div>
-        <div class="border border-[#E5E0D8] rounded-sm p-4 bg-white text-center">
+        <div class="border border-[#E5E0D8] rounded-sm p-4 bg-white text-center mb-4">
           <div class="text-xs text-[#6b6560] uppercase tracking-wider mb-1">Bell run</div>
           <div style="font-family: var(--font-display);" class="text-3xl text-black">{runCurrent}</div>
           <div class="text-[11px] text-[#6b6560] mt-0.5">consecutive days</div>
         </div>
+
+        <button
+          onClick={async () => {
+            const bellScore = todayEntry?.score ?? score;
+            // Build result array from score (we know 5 questions, first N correct)
+            const results = dailyQ.map((_, i) => ({ correct: i < bellScore }));
+            const text = generateShareString(results, {
+              mode: 'bell',
+              date: today,
+              streak: parseInt(p.bellRunCurrent || '0', 10),
+              xp: parseInt(p.xp || '0', 10),
+              greedMultiplier: greed.multiplier,
+            });
+            await copyToClipboard(text);
+            setShareToast(true);
+            setTimeout(() => setShareToast(false), 2000);
+          }}
+          class="w-full py-3.5 border border-[#E5E0D8] hover:border-black text-black text-sm font-medium rounded-sm transition-colors"
+        >
+          Share results
+        </button>
+
+        {shareToast && (
+          <div class="fixed top-4 left-1/2 -translate-x-1/2 z-50 px-4 py-2.5 bg-black text-white text-sm rounded-sm shadow-lg" style="animation: fadeIn 0.2s ease-in">
+            Copied to clipboard
+          </div>
+        )}
       </div>
     );
   }
