@@ -40,7 +40,7 @@ export default function QuizEngine({ questions: allQuestions, topic, topicName, 
   const [revealed, setRevealed] = useState(false);
   const [sessionResults, setSessionResults] = useState<{ qId: string; selected: string; correct: string; isCorrect: boolean }[]>([]);
   const [quizLength, setQuizLength] = useState(10);
-  const [xpPopup, setXpPopup] = useState<{ amount: number; show: boolean }>({ amount: 0, show: false });
+  const [xpPopup, setXpPopup] = useState<{ amount: number; multiplier: number; show: boolean }>({ amount: 0, multiplier: 1, show: false });
   const [streakPopup, setStreakPopup] = useState<{ count: number; show: boolean }>({ count: 0, show: false });
   const [levelUpPopup, setLevelUpPopup] = useState(false);
   const [shakeWrong, setShakeWrong] = useState(false);
@@ -81,8 +81,8 @@ export default function QuizEngine({ questions: allQuestions, topic, topicName, 
       section: currentQ.section,
     });
 
-    setXpPopup({ amount: result.earnedXp, show: true });
-    setTimeout(() => setXpPopup((p) => ({ ...p, show: false })), 1200);
+    setXpPopup({ amount: result.earnedXp, multiplier: result.multiplier, show: true });
+    setTimeout(() => setXpPopup((p) => ({ ...p, show: false })), 1500);
 
     if (isCorrect && result.newStreak > 0 && result.newStreak % 3 === 0) {
       setStreakPopup({ count: result.newStreak, show: true });
@@ -416,7 +416,7 @@ export default function QuizEngine({ questions: allQuestions, topic, topicName, 
       {xpPopup.show && (
         <div class="fixed top-20 left-1/2 -translate-x-1/2 z-50 pointer-events-none">
           <div class="bg-[#8F5A39] text-white font-semibold px-4 py-2 rounded-sm text-sm">
-            +{xpPopup.amount} XP
+            +{xpPopup.amount} XP{xpPopup.multiplier !== 1 ? ` (${xpPopup.multiplier}x today)` : ''}
           </div>
         </div>
       )}
