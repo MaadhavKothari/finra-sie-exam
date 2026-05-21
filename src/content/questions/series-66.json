@@ -195,7 +195,8 @@
     "difficulty": "medium",
     "source": "NASAA Series 66 content outline",
     "regulatoryBasis": "Investment Company Act of 1940 Sections 3(c)(1) and 3(c)(7); Securities Act Regulation D",
-    "lastVerified": "2026-05-20"
+    "lastVerified": "2026-05-20",
+    "relatedStories": ["ltcm", "archegos"]
   },
   {
     "id": "q-s66-012",

@@ -285,7 +285,8 @@
     "difficulty": "easy",
     "source": "NASAA Series 65 content outline",
     "regulatoryBasis": "Hedge fund structure and compensation",
-    "lastVerified": "2026-05-20"
+    "lastVerified": "2026-05-20",
+    "relatedStories": ["ltcm"]
   },
   {
     "id": "q-s65-017",
@@ -303,7 +304,8 @@
     "difficulty": "easy",
     "source": "NASAA Series 65 content outline",
     "regulatoryBasis": "Investment Company Act exemptions; SEC accredited investor definition",
-    "lastVerified": "2026-05-20"
+    "lastVerified": "2026-05-20",
+    "relatedStories": ["ltcm", "archegos"]
   },
   {
     "id": "q-s65-018",

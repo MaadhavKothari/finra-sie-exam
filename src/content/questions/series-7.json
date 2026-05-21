@@ -201,7 +201,8 @@
     "difficulty": "easy",
     "source": "FINRA Series 7 content outline",
     "regulatoryBasis": "FINRA Series 7 equity securities module; Reg T",
-    "lastVerified": "2026-05-20"
+    "lastVerified": "2026-05-20",
+    "relatedStories": ["gamestop"]
   },
   {
     "id": "q-s7-007",
