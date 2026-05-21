@@ -1,0 +1,271 @@
+{
+  "id": "madoff",
+  "title": "The Madoff Fraud",
+  "subtitle": "How a $65 billion Ponzi scheme evaded regulators for decades",
+  "questions": [
+    {
+      "id": "madoff-01",
+      "year": "1960",
+      "chapterTitle": "The Beginning",
+      "narrative": "In 1960, Bernard Madoff founded Bernard L. Madoff Investment Securities LLC with $5,000 earned from lifeguarding and installing sprinkler systems. The firm initially dealt in penny stocks on the over-the-counter market, buying and selling securities not listed on the New York Stock Exchange.\n\nOver the next decade, the firm grew into a legitimate market-making operation. Madoff was among the first to use computer technology to disseminate quotes, a practice that would eventually help create the NASDAQ stock market.\n\nBut to operate at all, the firm needed something fundamental from the federal government first.",
+      "stem": "What type of registration would Madoff's firm have needed with the SEC to legally buy and sell securities for customers?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Investment company registration under the Investment Company Act of 1940",
+          "explanation": "Investment company registration is for pooled investment vehicles like mutual funds, not for firms that buy and sell securities as a business."
+        },
+        {
+          "label": "B",
+          "text": "Broker-dealer registration under Section 15 of the Securities Exchange Act of 1934",
+          "explanation": "Correct. Any firm in the business of buying and selling securities for others (broker) or for its own account (dealer) must register as a broker-dealer under Section 15 of the Exchange Act."
+        },
+        {
+          "label": "C",
+          "text": "Transfer agent registration under Section 17A of the Securities Exchange Act of 1934",
+          "explanation": "Transfer agents maintain records of securities ownership and handle transfers. Madoff's firm was trading securities, not maintaining ownership records."
+        },
+        {
+          "label": "D",
+          "text": "Municipal advisor registration under Section 15B of the Securities Exchange Act of 1934",
+          "explanation": "Municipal advisor registration is for firms advising state and local governments on municipal securities issuances, not for market-making firms."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A firm that effects transactions in securities for the accounts of others (a broker) or buys and sells securities for its own account as a regular business (a dealer) must register with the SEC as a broker-dealer under Section 15 of the Securities Exchange Act of 1934. The firm must also become a member of a self-regulatory organization, typically FINRA.",
+      "regulatoryLesson": "Broker-dealer registration under Section 15 of the Securities Exchange Act of 1934 is the foundational requirement for any firm in the securities business.",
+      "whatActuallyHappened": "Madoff did register as a broker-dealer. His legitimate market-making business was real and profitable. The fraud was layered on top of a genuine operation, which made it far harder to detect. This is a common pattern in financial fraud: the legitimate business provides cover for the illegitimate one."
+    },
+    {
+      "id": "madoff-02",
+      "year": "1970s-80s",
+      "chapterTitle": "Building Legitimacy",
+      "narrative": "By the 1970s, Madoff's market-making firm was one of the largest on Wall Street. He was a pioneer in electronic trading and played a key role in developing the NASDAQ stock market.\n\nHis influence grew. Madoff served as chairman of the NASDAQ stock market in 1990, 1991, and 1993. He sat on the board of directors of the Securities Industry Association and was a member of its board of governors. He advised the SEC on market structure.\n\nAll the while, he was running a separate, secretive investment advisory business from a different floor of the same building. And he was using his regulatory influence to shape the very rules meant to catch people like him.",
+      "stem": "NASDAQ is a self-regulatory organization (SRO). What is the primary concern when the chairman of an SRO also operates a securities firm subject to that SRO's oversight?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The chairman might use SRO resources to promote their own firm's products to customers",
+          "explanation": "While concerning, this describes a marketing issue. The deeper structural problem is about the SRO's regulatory function itself."
+        },
+        {
+          "label": "B",
+          "text": "The chairman has a conflict of interest between their duty to enforce rules and their firm's interest in avoiding enforcement",
+          "explanation": "Correct. SROs have a dual mandate: they operate markets and regulate their members. When a regulated member's principal leads the regulator, there is an inherent conflict between the duty to enforce rules and the personal interest in avoiding scrutiny."
+        },
+        {
+          "label": "C",
+          "text": "The chairman gains an unfair speed advantage in executing trades on the exchange",
+          "explanation": "While front-running is a serious concern, the question addresses the structural governance conflict, not trading advantages."
+        },
+        {
+          "label": "D",
+          "text": "The chairman can unilaterally change SRO rules without SEC approval",
+          "explanation": "SRO rule changes must be filed with and approved by the SEC under Section 19(b) of the Exchange Act. No individual can unilaterally change rules."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Self-regulatory organizations like FINRA and the exchanges have a dual mandate: they operate markets and regulate their members. This creates an inherent tension. When a regulated firm's leader also leads the regulator, the conflict of interest is acute. The SRO might be less likely to scrutinize the chairman's firm, and the chairman might influence rules in ways that benefit their own operations.",
+      "regulatoryLesson": "SROs must manage conflicts of interest between their commercial operations and regulatory responsibilities. FINRA, which does not operate a market, was created in part to reduce these conflicts after the NASD-NYSE regulatory consolidation in 2007.",
+      "whatActuallyHappened": "Madoff's prominence in the regulatory community gave him an aura of credibility. When concerns were raised about his investment returns, many dismissed them precisely because of his standing. His role at NASDAQ did not directly enable the fraud, but it gave him the social capital and institutional knowledge to avoid detection for decades."
+    },
+    {
+      "id": "madoff-03",
+      "year": "1990s",
+      "chapterTitle": "The Investment Advisory Side",
+      "narrative": "While his market-making business was the public face of the firm, Madoff quietly built an investment advisory operation that would become the largest fraud in history. He promised wealthy individuals and institutions consistent returns of 10-12% per year, regardless of market conditions.\n\nHis client list grew through word of mouth in exclusive circles: country clubs, charities, and especially \"feeder funds\" like Fairfield Greenwich Group, which raised billions from investors and funneled the money to Madoff. By the late 1990s, he was managing billions of dollars.\n\nBut Madoff resisted registering as an investment adviser for years. He finally registered with the SEC in 2006 after a rule change made it unavoidable.",
+      "stem": "Under the Investment Advisers Act of 1940, investment advisers with custody of client assets must follow specific rules. Which of the following is a key requirement of the SEC's custody rule?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The adviser must maintain all client assets in a single omnibus account under the adviser's name",
+          "explanation": "The custody rule actually requires the opposite approach: assets should be held by a qualified custodian, not commingled under the adviser's name."
+        },
+        {
+          "label": "B",
+          "text": "Client assets must be held by a qualified custodian and subject to an annual surprise examination by an independent public accountant",
+          "explanation": "Correct. The custody rule (Rule 206(4)-2 under the Advisers Act) requires that client assets be maintained by a qualified custodian, and the adviser must undergo an annual surprise examination by an independent public accountant to verify client assets."
+        },
+        {
+          "label": "C",
+          "text": "The adviser must personally guarantee all client assets against loss up to $500,000 per account",
+          "explanation": "There is no personal guarantee requirement. The $500,000 figure relates to SIPC coverage for broker-dealer customers, not investment adviser obligations."
+        },
+        {
+          "label": "D",
+          "text": "Client assets must be invested exclusively in SEC-registered securities to comply with custody requirements",
+          "explanation": "The custody rule governs how assets are held and verified, not which securities can be purchased."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The SEC's custody rule (Rule 206(4)-2 under the Investment Advisers Act of 1940) requires investment advisers with custody of client assets to maintain those assets with a qualified custodian (such as a bank or registered broker-dealer). The adviser must also undergo an annual surprise examination by an independent public accountant to verify the existence of client assets.",
+      "regulatoryLesson": "The custody rule under the Investment Advisers Act of 1940 (Rule 206(4)-2) exists to prevent advisers from misappropriating client funds. Qualified custodians and surprise audits are the key safeguards.",
+      "whatActuallyHappened": "Madoff acted as his own custodian and his own broker-dealer for the advisory accounts, meaning client money never left his control. His auditor, Friehling & Horowitz, was a three-person firm operating out of a tiny office in suburban New York. David Friehling later admitted he had not conducted a single legitimate audit. The entire custody safeguard was a fiction."
+    },
+    {
+      "id": "madoff-04",
+      "year": "2000-2005",
+      "chapterTitle": "The Whistleblower",
+      "narrative": "In 2000, financial analyst Harry Markopolos submitted a detailed report to the SEC's Boston office titled \"The World's Largest Hedge Fund Is a Fraud.\" He had mathematically demonstrated that Madoff's claimed split-strike conversion strategy could not possibly generate the consistent returns being reported.\n\nMarkopolos submitted updated complaints in 2001, 2005, and 2007. Each time, the SEC either failed to act or conducted superficial examinations that missed the fraud. In one examination, SEC staff took Madoff at his word when he claimed his advisory business was too small to require registration.\n\nMarkopolos later testified before Congress: \"I gift-wrapped and delivered the largest Ponzi scheme in history to them, and somehow they couldn't be bothered to conduct a thorough and proper investigation.\"",
+      "stem": "After the Madoff fraud was exposed, Congress passed the Dodd-Frank Act, which included whistleblower protections. Under Dodd-Frank Section 922, what financial incentive does the SEC whistleblower program provide?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "A flat $100,000 payment for any tip that leads to an SEC enforcement action",
+          "explanation": "The program uses a percentage-based award, not a flat fee. This structure aligns the whistleblower's incentive with the significance of the fraud uncovered."
+        },
+        {
+          "label": "B",
+          "text": "10-30% of monetary sanctions collected in SEC enforcement actions exceeding $1 million, paid from a dedicated investor protection fund",
+          "explanation": "Correct. Dodd-Frank Section 922 established the SEC whistleblower program, which awards 10-30% of collected monetary sanctions over $1 million. Awards are paid from the SEC's investor protection fund, not from recovered victim funds."
+        },
+        {
+          "label": "C",
+          "text": "Full reimbursement of legal fees plus a guaranteed minimum payment of $250,000",
+          "explanation": "While Dodd-Frank includes anti-retaliation protections, the financial incentive is a percentage of sanctions, not fee reimbursement with a minimum payment."
+        },
+        {
+          "label": "D",
+          "text": "Tax-exempt status on any personal investment gains for five years following a successful tip",
+          "explanation": "The program provides cash awards from enforcement proceeds, not tax benefits on personal investments."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Dodd-Frank Section 922 created the SEC whistleblower program, which awards between 10% and 30% of monetary sanctions collected in enforcement actions where sanctions exceed $1 million. The program is designed to incentivize individuals with knowledge of securities violations to come forward. Awards are paid from a dedicated investor protection fund, not from money recovered for victims.",
+      "regulatoryLesson": "The Dodd-Frank whistleblower program (Section 922) awards 10-30% of sanctions over $1 million and includes anti-retaliation protections. It was a direct response to the SEC's failure to act on Markopolos's Madoff warnings.",
+      "whatActuallyHappened": "Markopolos received no financial reward for his years of effort. The SEC whistleblower program did not exist until 2010. Since its creation, the program has awarded over $2 billion to whistleblowers. Had the program existed in 2000, Markopolos would have had both financial incentive and formal channels for his complaints. The SEC Office of Inspector General later issued a scathing report documenting the agency's repeated failures to investigate Madoff despite credible tips."
+    },
+    {
+      "id": "madoff-05",
+      "year": "2000s",
+      "chapterTitle": "The Feeder Fund Network",
+      "narrative": "Madoff did not solicit most of his investors directly. Instead, a network of \"feeder funds\" raised money from wealthy individuals and institutions and invested it with Madoff. Fairfield Greenwich Group alone channeled over $7 billion to him. Other major feeders included Tremont Group, Banco Santander's Optimal fund, and HSBC's managed accounts.\n\nThese funds charged their own management fees on top of whatever Madoff was doing with the money. They performed little or no independent due diligence. Red flags were everywhere: Madoff's auditor, Friehling & Horowitz, was a three-person firm with one active accountant, operating from a 13-by-18-foot office in New City, New York. David Friehling had not undergone a peer review in the 17 years he had been signing Madoff's audits.\n\nThe major banks that served as custodians and administrators also failed to raise alarms.",
+      "stem": "A registered representative recommends that a client invest in a feeder fund that places all assets with a single outside manager. Under FINRA suitability rules, what due diligence obligation does the representative have?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "None, because the feeder fund manager bears sole responsibility for selecting the underlying investment manager",
+          "explanation": "A registered representative cannot delegate their suitability obligation to a fund manager. The rep must conduct their own reasonable investigation."
+        },
+        {
+          "label": "B",
+          "text": "Only to verify that the feeder fund is registered as a securities offering with the SEC",
+          "explanation": "Registration status is necessary but not sufficient. The representative must understand the investment well enough to determine its suitability for the customer."
+        },
+        {
+          "label": "C",
+          "text": "A reasonable-basis suitability obligation to understand the product, including the risks of concentrating all assets with a single manager, before recommending it",
+          "explanation": "Correct. Under FINRA Rule 2111, a representative must perform reasonable diligence to understand the investment (reasonable-basis suitability) before recommending it. This includes understanding the risk of concentrating all fund assets with one manager and evaluating the adequacy of the manager's oversight, including its auditor."
+        },
+        {
+          "label": "D",
+          "text": "To personally audit the outside manager's trading records before making any recommendation",
+          "explanation": "While thorough investigation is required, the standard is reasonable diligence, not a personal audit. The rep must understand the product and its risks, but is not expected to conduct a forensic audit."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "FINRA Rule 2111 imposes three suitability obligations: reasonable-basis (understanding the product), customer-specific (matching it to the customer's profile), and quantitative (avoiding excessive trading). Reasonable-basis suitability requires the representative to conduct sufficient due diligence to understand the investment's risks and features. Concentrating all assets with a single manager who also serves as custodian and uses a tiny, unknown audit firm should have raised serious red flags.",
+      "regulatoryLesson": "FINRA Rule 2111 suitability obligations include reasonable-basis suitability, which requires a broker to understand an investment product before recommending it. The three components are: reasonable-basis, customer-specific, and quantitative suitability.",
+      "whatActuallyHappened": "The feeder funds charged management and performance fees while performing virtually no oversight. Fairfield Greenwich collected hundreds of millions in fees. When the fraud collapsed, feeder funds and their principals faced lawsuits and regulatory actions for their due diligence failures. The Madoff trustee recovered billions in clawback settlements from feeder funds that had withdrawn more than they invested. Friehling pleaded guilty to securities fraud, aiding the scheme by rubber-stamping audits for 17 years."
+    },
+    {
+      "id": "madoff-06",
+      "year": "2007-2008",
+      "chapterTitle": "The Unraveling",
+      "narrative": "The 2008 financial crisis was the match that lit the fuse. As markets cratered, Madoff's investors rushed to redeem their holdings. In November 2008 alone, clients requested approximately $7 billion in withdrawals.\n\nA Ponzi scheme survives only as long as new money coming in exceeds money going out. For decades, Madoff had been paying \"returns\" to earlier investors with money from newer investors. No actual trading was taking place in the advisory accounts. Client statements showing positions in blue-chip stocks and options were entirely fabricated.\n\nMadoff scrambled to borrow money from other parts of his business and from outside sources, but the redemption wave was insurmountable. The scheme that had operated for at least 17 years was about to collapse.",
+      "stem": "SEC Rule 15c3-3, the Customer Protection Rule, requires broker-dealers to take specific steps to safeguard customer assets. Which of the following is a core requirement of this rule?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Broker-dealers must maintain a reserve of customer cash and securities in a special reserve bank account, segregated from the firm's proprietary assets",
+          "explanation": "Correct. Rule 15c3-3 requires broker-dealers to maintain customer funds in a Special Reserve Bank Account, separate from the firm's own money. The firm must perform a weekly computation to ensure it holds enough in reserve to cover all customer obligations."
+        },
+        {
+          "label": "B",
+          "text": "Broker-dealers must insure all customer accounts up to $500,000 through a private insurance policy",
+          "explanation": "SIPC provides up to $500,000 in protection, but this is not a private insurance policy and is separate from Rule 15c3-3. The rule requires actual segregation of customer assets."
+        },
+        {
+          "label": "C",
+          "text": "Broker-dealers must limit each customer's account to no more than 20% of the firm's total assets under management",
+          "explanation": "There is no such concentration limit in Rule 15c3-3. The rule focuses on segregation and reserve requirements, not position limits."
+        },
+        {
+          "label": "D",
+          "text": "Broker-dealers must submit daily reports to FINRA listing all customer account balances",
+          "explanation": "While broker-dealers have extensive reporting obligations, Rule 15c3-3 specifically addresses segregation of customer funds, not daily balance reporting."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "SEC Rule 15c3-3 (the Customer Protection Rule) requires broker-dealers to segregate customer cash and securities from the firm's proprietary assets. Specifically, the firm must maintain a Special Reserve Bank Account for the exclusive benefit of customers, and perform a weekly reserve computation. This prevents broker-dealers from using customer assets to fund their own operations or trading.",
+      "regulatoryLesson": "SEC Rule 15c3-3 (Customer Protection Rule) requires broker-dealers to segregate customer funds in a Special Reserve Bank Account and perform weekly reserve computations. This is one of the most important investor protection rules in securities regulation.",
+      "whatActuallyHappened": "Madoff's advisory business maintained no segregation whatsoever. Customer deposits went into a single JPMorgan Chase bank account at the firm's disposal. Madoff used incoming deposits to pay redemptions to other clients and to fund the operations of his market-making business. No securities were ever purchased for advisory clients. The customer statements showing stock and options positions were printed by a small team on the 17th floor of Madoff's office building using custom software designed to fabricate trading records."
+    },
+    {
+      "id": "madoff-07",
+      "year": "December 2008",
+      "chapterTitle": "The Confession",
+      "narrative": "On December 10, 2008, Bernard Madoff told his two sons, Mark and Andrew, who worked in the firm's legitimate trading operation, that the investment advisory business was \"one big lie\" and \"basically, a giant Ponzi scheme.\" He said he estimated the losses at approximately $50 billion.\n\nMark and Andrew Madoff contacted a lawyer that evening, who advised them to report their father to the authorities. The next morning, December 11, 2008, FBI agents arrived at Madoff's apartment. When they asked if there was an innocent explanation, Madoff replied: \"There is no innocent explanation.\"\n\nHe was arrested and charged with securities fraud. The fabricated account statements ultimately totaled approximately $64.8 billion, though actual principal invested and lost by customers was approximately $17.5 billion.",
+      "stem": "Under FINRA Rule 3110, member firms must establish supervisory procedures. If an employee discovers that a principal of the firm is engaged in fraud, what is the firm's obligation?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "The firm must conduct an internal investigation and report findings to FINRA only if the investigation confirms wrongdoing",
+          "explanation": "Waiting for a completed internal investigation before reporting can delay regulatory action. Firms have an obligation to report promptly when they have knowledge of violations."
+        },
+        {
+          "label": "B",
+          "text": "The firm must promptly report the violation to FINRA under its obligation to report statutory disqualifications and customer complaints, and must file a Form U5 amendment if the person is terminated",
+          "explanation": "Correct. FINRA rules require member firms to promptly report violations to FINRA, including through Form U5 amendments when associated persons are terminated for cause. Firms also have obligations under FINRA Rule 4530 to report certain events, including criminal actions and regulatory violations by associated persons."
+        },
+        {
+          "label": "C",
+          "text": "The firm may handle the matter internally by terminating the employee and reimbursing affected clients without notifying regulators",
+          "explanation": "Firms cannot resolve violations internally without reporting to regulators. Failure to report can result in the firm itself facing disciplinary action."
+        },
+        {
+          "label": "D",
+          "text": "The firm is only required to report to the SEC, not FINRA, since fraud is a federal matter outside FINRA's jurisdiction",
+          "explanation": "FINRA has jurisdiction over its member firms and associated persons. Firms must report to FINRA as well as cooperate with SEC investigations. Both regulators may be involved."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "FINRA Rule 3110 requires member firms to establish and maintain supervisory systems and written supervisory procedures. When violations are discovered, firms have reporting obligations under FINRA Rule 4530, which requires prompt reporting of specified events including criminal actions, regulatory actions, and customer complaints. When an associated person is terminated for cause, the firm must amend the individual's Form U5 to disclose the reason.",
+      "regulatoryLesson": "FINRA Rule 3110 (Supervision) requires firms to establish supervisory procedures, and FINRA Rule 4530 requires firms to promptly report specified events to FINRA, including violations of securities laws by associated persons.",
+      "whatActuallyHappened": "Madoff's sons reported him to federal authorities, not to FINRA or the SEC. There was no functional supervisory system over the advisory business. The 17th floor where the fraud was run was physically and operationally separated from the legitimate market-making floors. Mark Madoff died by suicide in December 2010, on the second anniversary of his father's arrest. Andrew Madoff died of lymphoma in September 2014. Neither was charged with wrongdoing."
+    },
+    {
+      "id": "madoff-08",
+      "year": "2009-Present",
+      "chapterTitle": "The Aftermath",
+      "narrative": "On March 12, 2009, Madoff pleaded guilty to 11 federal felonies. On June 29, 2009, he was sentenced to 150 years in federal prison, the maximum allowed. He died in prison on April 14, 2021, at the age of 82.\n\nSIPC appointed trustee Irving Picard to recover assets for victims. Through clawback lawsuits, settlements with feeder funds, banks, and other parties, Picard has recovered approximately $14.7 billion of the roughly $17.5 billion in principal lost by customers.\n\nThe Dodd-Frank Wall Street Reform and Consumer Protection Act of 2010, passed partly in response to the Madoff scandal, reformed SEC operations, created the whistleblower program, and strengthened oversight of investment advisers. The SEC itself overhauled its examination program and created a dedicated Office of the Whistleblower.",
+      "stem": "After Madoff's firm was liquidated, the Securities Investor Protection Corporation (SIPC) oversaw the claims process. What is the maximum amount of SIPC protection available per customer?",
+      "choices": [
+        {
+          "label": "A",
+          "text": "$250,000 per customer for all securities and cash combined",
+          "explanation": "The $250,000 figure is the standard FDIC insurance limit for bank deposits, not SIPC protection. SIPC provides higher coverage."
+        },
+        {
+          "label": "B",
+          "text": "$500,000 per customer, of which no more than $250,000 may be for cash claims",
+          "explanation": "Correct. SIPC protects customers up to $500,000 per customer, including a $250,000 limit for cash claims. SIPC protection covers missing securities and cash held by a failed broker-dealer, not investment losses."
+        },
+        {
+          "label": "C",
+          "text": "$1,000,000 per customer with no sublimit on cash",
+          "explanation": "SIPC coverage is $500,000 per customer with a $250,000 cash sublimit, not $1,000,000 with no sublimit."
+        },
+        {
+          "label": "D",
+          "text": "$500,000 per account, so a customer with multiple accounts at the same firm receives $500,000 per account",
+          "explanation": "SIPC protection is per customer per firm, not per account. However, certain distinct legal capacities (such as individual and IRA accounts) may each receive separate coverage."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "SIPC (Securities Investor Protection Corporation) protects customers of failed broker-dealers up to $500,000 per customer, with a sublimit of $250,000 for cash claims. Unlike FDIC insurance, which covers bank deposits, SIPC covers securities and cash held by a broker-dealer that fails and cannot return customer property. SIPC does not protect against investment losses from market declines.",
+      "regulatoryLesson": "SIPC coverage is $500,000 per customer (with a $250,000 cash sublimit) at a failed broker-dealer. It protects against broker-dealer failure, not market losses. FDIC covers bank deposits up to $250,000 per depositor per bank.",
+      "whatActuallyHappened": "In the Madoff case, SIPC protection was limited because Madoff never actually purchased the securities shown on customer statements. The trustee calculated claims based on actual cash deposited minus cash withdrawn (the \"net equity\" method), not the fictional account values. This meant many customers who had shown large paper profits on their statements received far less than they expected. Some \"net winners\" who had withdrawn more than they deposited were subject to clawback suits. The case produced years of litigation over how to calculate customer claims when the underlying securities never existed."
+    }
+  ]
+}
