@@ -18,7 +18,18 @@ const { title, description = 'Free FINRA practice questions for all major securi
     <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
     <title>{title} | FINRA Exam Practice</title>
   </head>
-  <body class="bg-white text-black min-h-screen">
+  <body class="min-h-screen" style="background-color: var(--theme-bg); color: var(--theme-text);">
     <slot />
+    <script>
+      // Apply dark mode before paint to prevent flash
+      (function() {
+        try {
+          const stored = localStorage.getItem('sie-settings:theme');
+          const theme = stored || 'system';
+          const isDark = theme === 'dark' || (theme === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          if (isDark) document.documentElement.classList.add('dark');
+        } catch(e) {}
+      })();
+    </script>
   </body>
 </html>

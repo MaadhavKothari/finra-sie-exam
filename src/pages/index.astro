@@ -4,6 +4,7 @@ import { EXAMS } from '../data/exams';
 import IdentityHeader from '../components/IdentityHeader';
 import HomeWidgets from '../components/HomeWidgets';
 import DailyCheck from '../components/DailyCheck';
+import ThemeToggle from '../components/ThemeToggle';
 
 const base = import.meta.env.BASE_URL;
 const exams = Object.values(EXAMS);
@@ -12,6 +13,9 @@ const exams = Object.values(EXAMS);
   <main class="max-w-lg mx-auto px-4 py-8">
 
     <DailyCheck client:load />
+    <div class="flex items-center justify-end mb-2">
+      <ThemeToggle client:load />
+    </div>
     <IdentityHeader client:load base={base} />
     <HomeWidgets client:load base={base} />
 

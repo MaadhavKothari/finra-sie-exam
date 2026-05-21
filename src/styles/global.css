@@ -16,12 +16,73 @@
   --font-body:    "Inter", system-ui, -apple-system, sans-serif;
 }
 
+/* ─── Theme custom properties ─────────────────────────────────────────── */
+:root {
+  --theme-bg:         #ffffff;
+  --theme-card-bg:    #ffffff;
+  --theme-text:       #000000;
+  --theme-text-muted: #6b6560;
+  --theme-border:     #e5e0d8;
+  --theme-surface:    #f4efe7;
+  --theme-muted:      #6b6560;
+}
+
+html.dark {
+  --theme-bg:         #1a1a1a;
+  --theme-card-bg:    #242424;
+  --theme-text:       #e5e0d8;
+  --theme-text-muted: #a09890;
+  --theme-border:     #333333;
+  --theme-surface:    #2a2520;
+  --theme-muted:      #a09890;
+}
+
 html, body {
   font-family: var(--font-body);
-  background-color: #ffffff;
-  color: #000000;
+  background-color: var(--theme-bg);
+  color: var(--theme-text);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── Dark mode overrides for hardcoded colors ────────────────────────── */
+/* These target the most common patterns in the component library.        */
+html.dark .bg-white { background-color: var(--theme-card-bg) !important; }
+html.dark .bg-\[\#F4EFE7\] { background-color: var(--theme-surface) !important; }
+html.dark .bg-\[\#f4efe7\] { background-color: var(--theme-surface) !important; }
+html.dark .text-black { color: var(--theme-text) !important; }
+html.dark .text-\[\#6b6560\] { color: var(--theme-text-muted) !important; }
+html.dark .border-\[\#E5E0D8\] { border-color: var(--theme-border) !important; }
+html.dark .border-\[\#e5e0d8\] { border-color: var(--theme-border) !important; }
+html.dark .bg-\[\#E5E0D8\] { background-color: #3a3a3a !important; }
+html.dark .bg-\[\#e5e0d8\] { background-color: #3a3a3a !important; }
+html.dark .bg-black\/5 { background-color: rgba(255, 255, 255, 0.08) !important; }
+html.dark .text-white\/50 { color: rgba(255, 255, 255, 0.5) !important; }
+html.dark .text-white\/40 { color: rgba(255, 255, 255, 0.4) !important; }
+html.dark .bg-white\/10 { background-color: rgba(255, 255, 255, 0.1) !important; }
+
+/* Dark mode for hover states */
+html.dark .hover\:bg-\[\#F4EFE7\]:hover { background-color: var(--theme-surface) !important; }
+html.dark .hover\:border-black:hover { border-color: #888 !important; }
+html.dark .hover\:text-black:hover { color: var(--theme-text) !important; }
+html.dark .hover\:bg-black:hover { background-color: #333 !important; }
+
+/* Border-black needs to stay visible in dark mode */
+html.dark .border-black { border-color: #555 !important; }
+
+/* Group hover overrides */
+html.dark .group:hover .group-hover\:text-white { color: #fff !important; }
+html.dark .group:hover .group-hover\:text-white\/70 { color: rgba(255,255,255,0.7) !important; }
+
+/* Body-level dark override */
+html.dark body {
+  background-color: var(--theme-bg);
+  color: var(--theme-text);
+}
+
+/* Ensure the meta theme-color matches */
+html.dark {
+  color-scheme: dark;
 }
 
 /* iOS safe-area: respect notch + home indicator when running in WKWebView */
