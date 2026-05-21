@@ -2,3 +2,11 @@ node_modules/
 dist/
 .astro/
 .DS_Store
+
+# iOS / Capacitor
+ios/App/Pods/
+ios/App/Podfile.lock
+ios/App/App/public/
+ios/DerivedData/
+xcuserdata/
+*.xcuserstate

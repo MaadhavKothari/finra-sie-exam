@@ -24,6 +24,20 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* iOS safe-area: respect notch + home indicator when running in WKWebView */
+body {
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+/* Disable iOS text size adjust + tap highlight */
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
 /* Keyframes used by QuizEngine */
 @keyframes shake {
   0%, 100% { transform: translateX(0); }
