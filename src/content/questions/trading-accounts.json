@@ -3,10 +3,26 @@
     "id": "q-ta-001",
     "stem": "A customer places an order to buy 100 shares of ABC stock at $45 or better. This is an example of which type of order?",
     "choices": [
-      { "label": "A", "text": "Market order", "explanation": "Incorrect. A market order is executed immediately at the best available price and does not specify a price limit." },
-      { "label": "B", "text": "Limit order", "explanation": "Correct. A limit order specifies the maximum price a buyer is willing to pay (or the minimum price a seller will accept). In this case, the customer will only buy at $45 or lower ('or better' for a buy limit means at or below the stated price). Limit orders provide price protection but do not guarantee execution." },
-      { "label": "C", "text": "Stop order", "explanation": "Incorrect. A stop order (or stop-loss order) becomes a market order once a specified trigger price is reached. The order described specifies a maximum purchase price, which is a limit order." },
-      { "label": "D", "text": "Stop-limit order", "explanation": "Incorrect. A stop-limit order combines a stop trigger with a limit price. The order described has only a price limit without a trigger, making it a simple limit order." }
+      {
+        "label": "A",
+        "text": "Market order",
+        "explanation": "Incorrect. A market order is executed immediately at the best available price and does not specify a price limit."
+      },
+      {
+        "label": "B",
+        "text": "Limit order",
+        "explanation": "Correct. A limit order specifies the maximum price a buyer is willing to pay (or the minimum price a seller will accept). In this case, the customer will only buy at $45 or lower ('or better' for a buy limit means at or below the stated price). Limit orders provide price protection but do not guarantee execution."
+      },
+      {
+        "label": "C",
+        "text": "Stop order",
+        "explanation": "Incorrect. A stop order (or stop-loss order) becomes a market order once a specified trigger price is reached. The order described specifies a maximum purchase price, which is a limit order."
+      },
+      {
+        "label": "D",
+        "text": "Stop-limit order",
+        "explanation": "Incorrect. A stop-limit order combines a stop trigger with a limit price. The order described has only a price limit without a trigger, making it a simple limit order."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "A limit order specifies the maximum price for a purchase or minimum price for a sale. The phrase 'or better' is inherent in all limit orders — for a buy, 'better' means a lower price; for a sell, 'better' means a higher price. Limit orders guarantee price but not execution.",
@@ -20,12 +36,28 @@
     "id": "q-ta-002",
     "stem": "Under the Bank Secrecy Act, a broker-dealer must file a Currency Transaction Report (CTR) for cash transactions exceeding which amount?",
     "choices": [
-      { "label": "A", "text": "$3,000", "explanation": "Incorrect. $3,000 is the threshold for broker-dealers to verify customer identity for certain transactions, but it is not the CTR filing threshold." },
-      { "label": "B", "text": "$5,000", "explanation": "Incorrect. While $5,000 is a threshold used in some AML-related contexts (such as Suspicious Activity Reports), the CTR threshold is higher." },
-      { "label": "C", "text": "$10,000", "explanation": "Correct. Under the Bank Secrecy Act and FinCEN regulations, broker-dealers must file a Currency Transaction Report (CTR) for any cash transaction exceeding $10,000 in a single business day. This applies to both single transactions and multiple related transactions that aggregate above $10,000. The requirement is designed to detect potential money laundering activity." },
-      { "label": "D", "text": "$25,000", "explanation": "Incorrect. $25,000 is not a standard AML reporting threshold. The CTR filing requirement applies to cash transactions exceeding $10,000." }
+      {
+        "label": "A",
+        "text": "$10,000",
+        "explanation": "Correct. Under the Bank Secrecy Act and FinCEN regulations, broker-dealers must file a Currency Transaction Report (CTR) for any cash transaction exceeding $10,000 in a single business day. This applies to both single transactions and multiple related transactions that aggregate above $10,000. The requirement is designed to detect potential money laundering activity."
+      },
+      {
+        "label": "B",
+        "text": "$5,000",
+        "explanation": "Incorrect. While $5,000 is a threshold used in some AML-related contexts (such as Suspicious Activity Reports), the CTR threshold is higher."
+      },
+      {
+        "label": "C",
+        "text": "$3,000",
+        "explanation": "Incorrect. $3,000 is the threshold for broker-dealers to verify customer identity for certain transactions, but it is not the CTR filing threshold."
+      },
+      {
+        "label": "D",
+        "text": "$25,000",
+        "explanation": "Incorrect. $25,000 is not a standard AML reporting threshold. The CTR filing requirement applies to cash transactions exceeding $10,000."
+      }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "explanation": "The Bank Secrecy Act requires broker-dealers to file a Currency Transaction Report (CTR) with FinCEN for any cash transactions exceeding $10,000 in a single business day. This includes aggregated transactions by the same person. The requirement is a key component of anti-money laundering (AML) compliance.",
     "topic": "trading-accounts",
     "subtopic": "anti-money-laundering",
@@ -38,12 +70,28 @@
     "id": "q-ta-003",
     "stem": "For regular-way settlement of corporate stock trades, settlement occurs on which day after the trade date?",
     "choices": [
-      { "label": "A", "text": "T+0 (same day)", "explanation": "Incorrect. Same-day settlement applies to cash trades, not regular-way trades for corporate stock." },
-      { "label": "B", "text": "T+1 (one business day)", "explanation": "Correct. As of May 2024, regular-way settlement for most securities including corporate stocks, bonds, and municipal securities occurs on T+1 (one business day after the trade date). This was shortened from the previous T+2 cycle by SEC Rule 15c6-1(a) to reduce counterparty risk and improve market efficiency." },
-      { "label": "C", "text": "T+2 (two business days)", "explanation": "Incorrect. T+2 was the standard settlement cycle prior to May 28, 2024. The SEC shortened the cycle to T+1 effective that date." },
-      { "label": "D", "text": "T+3 (three business days)", "explanation": "Incorrect. T+3 was the settlement cycle used before 2017. The cycle has been progressively shortened from T+3 to T+2 to the current T+1." }
+      {
+        "label": "A",
+        "text": "T+0 (same day)",
+        "explanation": "Incorrect. Same-day settlement applies to cash trades, not regular-way trades for corporate stock."
+      },
+      {
+        "label": "B",
+        "text": "T+3 (three business days)",
+        "explanation": "Incorrect. T+3 was the settlement cycle used before 2017. The cycle has been progressively shortened from T+3 to T+2 to the current T+1."
+      },
+      {
+        "label": "C",
+        "text": "T+2 (two business days)",
+        "explanation": "Incorrect. T+2 was the standard settlement cycle prior to May 28, 2024. The SEC shortened the cycle to T+1 effective that date."
+      },
+      {
+        "label": "D",
+        "text": "T+1 (one business day)",
+        "explanation": "Correct. As of May 2024, regular-way settlement for most securities including corporate stocks, bonds, and municipal securities occurs on T+1 (one business day after the trade date). This was shortened from the previous T+2 cycle by SEC Rule 15c6-1(a) to reduce counterparty risk and improve market efficiency."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Regular-way settlement for corporate securities is T+1, meaning one business day after the trade date. The SEC shortened the settlement cycle from T+2 to T+1 effective May 28, 2024, to reduce counterparty risk, decrease margin requirements, and improve operational efficiency in the securities markets.",
     "topic": "trading-accounts",
     "subtopic": "trade-settlement",
@@ -56,12 +104,28 @@
     "id": "q-ta-004",
     "stem": "An employee at a publicly traded company learns that the company will announce a merger next week. Before the announcement, the employee purchases shares of the company's stock. This activity is BEST described as:",
     "choices": [
-      { "label": "A", "text": "Front-running", "explanation": "Incorrect. Front-running involves a broker-dealer trading ahead of a customer's large order. This scenario involves trading on material non-public information about a corporate event." },
-      { "label": "B", "text": "Insider trading", "explanation": "Correct. Insider trading occurs when a person trades securities based on material, non-public information (MNPI) in breach of a duty of trust or confidence. A pending merger announcement is material information that would likely affect the stock price. The employee has access to this information through their position and trades before it becomes public, which violates SEC Rule 10b-5 and the Securities Exchange Act of 1934." },
-      { "label": "C", "text": "Market manipulation", "explanation": "Incorrect. Market manipulation involves artificially influencing the price of a security through deceptive practices. While insider trading is illegal, it is a separate violation from market manipulation." },
-      { "label": "D", "text": "Churning", "explanation": "Incorrect. Churning refers to excessive trading in a customer's account to generate commissions. This scenario involves an individual trading on insider information, not excessive broker-driven activity." }
+      {
+        "label": "A",
+        "text": "Front-running",
+        "explanation": "Incorrect. Front-running involves a broker-dealer trading ahead of a customer's large order. This scenario involves trading on material non-public information about a corporate event."
+      },
+      {
+        "label": "B",
+        "text": "Market manipulation",
+        "explanation": "Incorrect. Market manipulation involves artificially influencing the price of a security through deceptive practices. While insider trading is illegal, it is a separate violation from market manipulation."
+      },
+      {
+        "label": "C",
+        "text": "Insider trading",
+        "explanation": "Correct. Insider trading occurs when a person trades securities based on material, non-public information (MNPI) in breach of a duty of trust or confidence. A pending merger announcement is material information that would likely affect the stock price. The employee has access to this information through their position and trades before it becomes public, which violates SEC Rule 10b-5 and the Securities Exchange Act of 1934."
+      },
+      {
+        "label": "D",
+        "text": "Churning",
+        "explanation": "Incorrect. Churning refers to excessive trading in a customer's account to generate commissions. This scenario involves an individual trading on insider information, not excessive broker-driven activity."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Trading on material, non-public information (MNPI) constitutes insider trading, which violates federal securities laws. Material information is any information that a reasonable investor would consider important in making an investment decision. A pending merger announcement is a classic example of MNPI.",
     "topic": "trading-accounts",
     "subtopic": "insider-trading",
@@ -69,18 +133,37 @@
     "source": "FINRA content outline",
     "regulatoryBasis": "Securities Exchange Act of 1934, Section 10(b) and Rule 10b-5",
     "lastVerified": "2026-05-20",
-    "relatedStories": ["martha-stewart-imclone", "galleon-rajaratnam"]
+    "relatedStories": [
+      "martha-stewart-imclone",
+      "galleon-rajaratnam"
+    ]
   },
   {
     "id": "q-ta-005",
     "stem": "Which of the following account types requires that a customer grant the registered representative authority to make investment decisions without obtaining prior approval for each trade?",
     "choices": [
-      { "label": "A", "text": "Cash account", "explanation": "Incorrect. A cash account is a standard brokerage account requiring full payment for securities purchased. It does not inherently grant trading authority to the representative." },
-      { "label": "B", "text": "Margin account", "explanation": "Incorrect. A margin account allows a customer to borrow money to purchase securities, but it does not automatically grant trading discretion to the representative." },
-      { "label": "C", "text": "Discretionary account", "explanation": "Correct. A discretionary account grants the registered representative the authority to make investment decisions on behalf of the customer without obtaining prior approval for each transaction. The customer must provide written authorization (a power of attorney or trading authorization), and a principal must approve the account. FINRA rules require that all discretionary transactions be reviewed and approved by a principal promptly." },
-      { "label": "D", "text": "Joint tenants with rights of survivorship (JTWROS) account", "explanation": "Incorrect. JTWROS is an ownership registration type for joint accounts, not a designation of trading authority." }
+      {
+        "label": "A",
+        "text": "Cash account",
+        "explanation": "Incorrect. A cash account is a standard brokerage account requiring full payment for securities purchased. It does not inherently grant trading authority to the representative."
+      },
+      {
+        "label": "B",
+        "text": "Discretionary account",
+        "explanation": "Correct. A discretionary account grants the registered representative the authority to make investment decisions on behalf of the customer without obtaining prior approval for each transaction. The customer must provide written authorization (a power of attorney or trading authorization), and a principal must approve the account. FINRA rules require that all discretionary transactions be reviewed and approved by a principal promptly."
+      },
+      {
+        "label": "C",
+        "text": "Margin account",
+        "explanation": "Incorrect. A margin account allows a customer to borrow money to purchase securities, but it does not automatically grant trading discretion to the representative."
+      },
+      {
+        "label": "D",
+        "text": "Joint tenants with rights of survivorship (JTWROS) account",
+        "explanation": "Incorrect. JTWROS is an ownership registration type for joint accounts, not a designation of trading authority."
+      }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "B",
     "explanation": "A discretionary account gives a registered representative the authority to make trading decisions without the customer's prior approval for each transaction. Written authorization is required, and a principal must approve the account. FINRA Rule 3260 governs discretionary accounts and requires supervisory review of discretionary transactions.",
     "topic": "trading-accounts",
     "subtopic": "account-types",
@@ -93,12 +176,28 @@
     "id": "q-ta-006",
     "stem": "A stop order to sell is entered at $50 on a stock currently trading at $55. Which of the following statements is MOST accurate?",
     "choices": [
-      { "label": "A", "text": "The order will execute immediately because the current price is above $50.", "explanation": "Incorrect. A stop order does not execute based on the current price relative to the stop price; it triggers only if the market price falls to or through the stop price." },
-      { "label": "B", "text": "The order becomes a market order to sell if and when the stock trades at or below $50.", "explanation": "Correct. A stop order (also called a stop-loss order) is held in reserve and is activated only when the security's price reaches the specified stop price. For a sell stop at $50, the order is triggered when the market price falls to $50 or below, at which point it becomes a market order and is executed at the next available price. This is commonly used to limit downside risk on a long position." },
-      { "label": "C", "text": "The order will execute at exactly $50.", "explanation": "Incorrect. A stop order becomes a market order once triggered — it does not guarantee execution at the stop price. The actual fill price may be below $50, especially in a rapidly declining market." },
-      { "label": "D", "text": "The order will execute only if the stock reaches exactly $50, not if it gaps below.", "explanation": "Incorrect. A stop order triggers if the price reaches or passes through the stop price. If the stock gaps down below $50, the order is still triggered and executes at the next available market price." }
+      {
+        "label": "A",
+        "text": "The order becomes a market order to sell if and when the stock trades at or below $50.",
+        "explanation": "Correct. A stop order (also called a stop-loss order) is held in reserve and is activated only when the security's price reaches the specified stop price. For a sell stop at $50, the order is triggered when the market price falls to $50 or below, at which point it becomes a market order and is executed at the next available price. This is commonly used to limit downside risk on a long position."
+      },
+      {
+        "label": "B",
+        "text": "The order will execute immediately because the current price is above $50.",
+        "explanation": "Incorrect. A stop order does not execute based on the current price relative to the stop price; it triggers only if the market price falls to or through the stop price."
+      },
+      {
+        "label": "C",
+        "text": "The order will execute at exactly $50.",
+        "explanation": "Incorrect. A stop order becomes a market order once triggered — it does not guarantee execution at the stop price. The actual fill price may be below $50, especially in a rapidly declining market."
+      },
+      {
+        "label": "D",
+        "text": "The order will execute only if the stock reaches exactly $50, not if it gaps below.",
+        "explanation": "Incorrect. A stop order triggers if the price reaches or passes through the stop price. If the stock gaps down below $50, the order is still triggered and executes at the next available market price."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "A sell stop order is entered below the current market price and serves as a downside protection mechanism. When the stock trades at or below the stop price, the order is activated and becomes a market order, subject to execution at the best available price at that time. Stop orders do not guarantee execution at the stop price — in fast-moving markets, the fill may be significantly lower.",
     "topic": "trading-accounts",
     "subtopic": "orders-and-strategies",
@@ -111,12 +210,28 @@
     "id": "q-ta-007",
     "stem": "A stop-limit order to sell is entered with a stop price of $48 and a limit price of $46. If the stock gaps down from $50 to $44, what happens to the order?",
     "choices": [
-      { "label": "A", "text": "The order executes at $44, the current market price.", "explanation": "Incorrect. Unlike a plain stop order, a stop-limit order does not become a market order when triggered. It becomes a limit order with a minimum acceptable price of $46, so it will not execute at $44." },
-      { "label": "B", "text": "The order executes at $46, the limit price.", "explanation": "Incorrect. The order is triggered at $48 and becomes a limit order to sell at no less than $46. However, if the best available price is $44, the order cannot fill at $46 and remains unexecuted. There is no guarantee it executes at the limit price." },
-      { "label": "C", "text": "The order is triggered but may not execute because the market price is below the limit price.", "explanation": "Correct. When the stock gaps to $44, the stop price of $48 is triggered (the stock passed through it). The order then becomes a limit order to sell at $46 or better. Since the best available price is $44, which is below the $46 limit, the order cannot execute. The key difference between a stop order and a stop-limit order is that the stop-limit provides price protection but risks non-execution if the market moves past the limit price." },
-      { "label": "D", "text": "The order is cancelled because the stock bypassed the stop price.", "explanation": "Incorrect. A stop-limit order is triggered when the market trades through or at the stop price — it does not require the stock to trade exactly at $48. The order is activated by the gap, not cancelled." }
+      {
+        "label": "A",
+        "text": "The order executes at $44, the current market price.",
+        "explanation": "Incorrect. Unlike a plain stop order, a stop-limit order does not become a market order when triggered. It becomes a limit order with a minimum acceptable price of $46, so it will not execute at $44."
+      },
+      {
+        "label": "B",
+        "text": "The order executes at $46, the limit price.",
+        "explanation": "Incorrect. The order is triggered at $48 and becomes a limit order to sell at no less than $46. However, if the best available price is $44, the order cannot fill at $46 and remains unexecuted. There is no guarantee it executes at the limit price."
+      },
+      {
+        "label": "C",
+        "text": "The order is cancelled because the stock bypassed the stop price.",
+        "explanation": "Incorrect. A stop-limit order is triggered when the market trades through or at the stop price — it does not require the stock to trade exactly at $48. The order is activated by the gap, not cancelled."
+      },
+      {
+        "label": "D",
+        "text": "The order is triggered but may not execute because the market price is below the limit price.",
+        "explanation": "Correct. When the stock gaps to $44, the stop price of $48 is triggered (the stock passed through it). The order then becomes a limit order to sell at $46 or better. Since the best available price is $44, which is below the $46 limit, the order cannot execute. The key difference between a stop order and a stop-limit order is that the stop-limit provides price protection but risks non-execution if the market moves past the limit price."
+      }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "explanation": "A stop-limit order combines two price points: a stop price that triggers the order and a limit price that sets the minimum acceptable execution price. When the stock gaps from $50 to $44, the stop at $48 is triggered. The order then becomes a limit order to sell at $46 minimum. Since no buyer exists at $46 or higher, the order remains open and unexecuted. This illustrates the key trade-off: stop-limit orders offer price protection but carry the risk of non-execution in fast or gapping markets.",
     "topic": "trading-accounts",
     "subtopic": "orders-and-strategies",
@@ -129,12 +244,28 @@
     "id": "q-ta-008",
     "stem": "A customer enters a Good-Till-Canceled (GTC) limit order to buy 200 shares of XYZ at $30. The stock never reaches $30 during the trading day. What occurs at the end of the trading session?",
     "choices": [
-      { "label": "A", "text": "The order expires at the end of the trading day.", "explanation": "Incorrect. A day order expires at the end of the trading day, but a GTC order remains open until it is either filled, canceled, or expires per firm policy." },
-      { "label": "B", "text": "The order remains open until it is executed or canceled.", "explanation": "Correct. A Good-Till-Canceled (GTC) order remains active across multiple trading sessions until it is either filled or explicitly canceled by the customer or the broker-dealer. Unlike a day order, which expires at end of day, a GTC order persists indefinitely (subject to firm-specific time limits, often 60–90 days). The customer should be aware that the order could execute days or weeks later under changed market conditions." },
-      { "label": "C", "text": "The order automatically converts to a market order the next trading day.", "explanation": "Incorrect. GTC orders do not convert to market orders. They remain as the original order type (in this case, a limit order at $30) until filled or canceled." },
-      { "label": "D", "text": "The order is re-entered at the opening price the following day.", "explanation": "Incorrect. GTC orders are not re-entered at new prices. They persist with the original limit price across multiple trading sessions." }
+      {
+        "label": "A",
+        "text": "The order expires at the end of the trading day.",
+        "explanation": "Incorrect. A day order expires at the end of the trading day, but a GTC order remains open until it is either filled, canceled, or expires per firm policy."
+      },
+      {
+        "label": "B",
+        "text": "The order automatically converts to a market order the next trading day.",
+        "explanation": "Incorrect. GTC orders do not convert to market orders. They remain as the original order type (in this case, a limit order at $30) until filled or canceled."
+      },
+      {
+        "label": "C",
+        "text": "The order remains open until it is executed or canceled.",
+        "explanation": "Correct. A Good-Till-Canceled (GTC) order remains active across multiple trading sessions until it is either filled or explicitly canceled by the customer or the broker-dealer. Unlike a day order, which expires at end of day, a GTC order persists indefinitely (subject to firm-specific time limits, often 60–90 days). The customer should be aware that the order could execute days or weeks later under changed market conditions."
+      },
+      {
+        "label": "D",
+        "text": "The order is re-entered at the opening price the following day.",
+        "explanation": "Incorrect. GTC orders are not re-entered at new prices. They persist with the original limit price across multiple trading sessions."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "A GTC order remains in effect across multiple trading sessions until it is executed or canceled. This differs from a day order, which automatically expires at the close of the trading day it was entered. Customers using GTC orders must monitor open orders carefully, as market conditions may change significantly between the time the order is entered and when it eventually executes. Many broker-dealers impose their own maximum duration on GTC orders (commonly 60–90 days).",
     "topic": "trading-accounts",
     "subtopic": "orders-and-strategies",
@@ -146,12 +277,28 @@
     "id": "q-ta-009",
     "stem": "An investor enters a Fill-or-Kill (FOK) order to buy 1,000 shares of DEF at $22. Only 600 shares are available at $22. What happens to the order?",
     "choices": [
-      { "label": "A", "text": "600 shares are purchased and the remaining 400 shares become a GTC order.", "explanation": "Incorrect. A FOK order requires the entire order to be filled immediately and completely. Partial fills are not permitted, and the unfilled remainder is not converted to a GTC order." },
-      { "label": "B", "text": "600 shares are purchased and the remaining 400 shares are canceled.", "explanation": "Incorrect. This describes an Immediate-or-Cancel (IOC) order, which accepts partial fills. A FOK order must be filled entirely or not at all." },
-      { "label": "C", "text": "The entire order is canceled because it cannot be filled completely and immediately.", "explanation": "Correct. A Fill-or-Kill (FOK) order must be executed in its entirety immediately. If the full quantity cannot be filled at the specified price at once, the entire order is canceled. FOK orders are typically used by institutional investors who need to ensure that their entire position is established at a single price without any partial fills." },
-      { "label": "D", "text": "The order is held until 1,000 shares become available at $22.", "explanation": "Incorrect. FOK orders are not held for future execution. 'Kill' means the order is immediately canceled if it cannot be completely filled right away." }
+      {
+        "label": "A",
+        "text": "600 shares are purchased and the remaining 400 shares become a GTC order.",
+        "explanation": "Incorrect. A FOK order requires the entire order to be filled immediately and completely. Partial fills are not permitted, and the unfilled remainder is not converted to a GTC order."
+      },
+      {
+        "label": "B",
+        "text": "The entire order is canceled because it cannot be filled completely and immediately.",
+        "explanation": "Correct. A Fill-or-Kill (FOK) order must be executed in its entirety immediately. If the full quantity cannot be filled at the specified price at once, the entire order is canceled. FOK orders are typically used by institutional investors who need to ensure that their entire position is established at a single price without any partial fills."
+      },
+      {
+        "label": "C",
+        "text": "600 shares are purchased and the remaining 400 shares are canceled.",
+        "explanation": "Incorrect. This describes an Immediate-or-Cancel (IOC) order, which accepts partial fills. A FOK order must be filled entirely or not at all."
+      },
+      {
+        "label": "D",
+        "text": "The order is held until 1,000 shares become available at $22.",
+        "explanation": "Incorrect. FOK orders are not held for future execution. 'Kill' means the order is immediately canceled if it cannot be completely filled right away."
+      }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "B",
     "explanation": "A Fill-or-Kill order requires immediate, complete execution — all or nothing. If the full 1,000 shares cannot be purchased at $22 simultaneously, the entire order is killed (canceled). This is distinct from an Immediate-or-Cancel (IOC) order, which accepts partial fills and cancels only the unfilled portion. FOK orders are common in algorithmic and institutional trading where partial fills create position management problems.",
     "topic": "trading-accounts",
     "subtopic": "orders-and-strategies",
@@ -163,12 +310,28 @@
     "id": "q-ta-010",
     "stem": "Which of the following BEST distinguishes a market order from a limit order?",
     "choices": [
-      { "label": "A", "text": "A market order guarantees execution at a specific price; a limit order does not.", "explanation": "Incorrect. This is backwards. A market order guarantees execution (at the best available price) but not a specific price. A limit order specifies a price but does not guarantee execution." },
-      { "label": "B", "text": "A limit order guarantees execution; a market order may not be filled if there are no sellers.", "explanation": "Incorrect. Limit orders do not guarantee execution. A limit order to buy will only fill if the market price reaches the specified limit price. Market orders, on the other hand, are virtually always executed as long as a counterparty exists." },
-      { "label": "C", "text": "A market order guarantees execution but not price; a limit order specifies a price but does not guarantee execution.", "explanation": "Correct. This is the fundamental distinction. A market order instructs the broker to buy or sell immediately at the best available price — execution is virtually guaranteed but the price is unknown until execution. A limit order specifies the maximum buy price or minimum sell price — the investor controls the price but risks the order never being filled if the market does not reach the limit price." },
-      { "label": "D", "text": "A market order is used only in bear markets; a limit order is used only in bull markets.", "explanation": "Incorrect. Both order types can be used in any market condition. The choice between them depends on the investor's priorities (certainty of execution vs. price protection), not the direction of the market." }
+      {
+        "label": "A",
+        "text": "A market order guarantees execution but not price; a limit order specifies a price but does not guarantee execution.",
+        "explanation": "Correct. This is the fundamental distinction. A market order instructs the broker to buy or sell immediately at the best available price — execution is virtually guaranteed but the price is unknown until execution. A limit order specifies the maximum buy price or minimum sell price — the investor controls the price but risks the order never being filled if the market does not reach the limit price."
+      },
+      {
+        "label": "B",
+        "text": "A limit order guarantees execution; a market order may not be filled if there are no sellers.",
+        "explanation": "Incorrect. Limit orders do not guarantee execution. A limit order to buy will only fill if the market price reaches the specified limit price. Market orders, on the other hand, are virtually always executed as long as a counterparty exists."
+      },
+      {
+        "label": "C",
+        "text": "A market order guarantees execution at a specific price; a limit order does not.",
+        "explanation": "Incorrect. This is backwards. A market order guarantees execution (at the best available price) but not a specific price. A limit order specifies a price but does not guarantee execution."
+      },
+      {
+        "label": "D",
+        "text": "A market order is used only in bear markets; a limit order is used only in bull markets.",
+        "explanation": "Incorrect. Both order types can be used in any market condition. The choice between them depends on the investor's priorities (certainty of execution vs. price protection), not the direction of the market."
+      }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "explanation": "The core trade-off between market and limit orders is execution certainty vs. price control. Market orders execute immediately at prevailing prices — suitable when getting into or out of a position quickly is more important than the exact price. Limit orders execute only at a specified price or better — suitable when price is the priority and the investor is willing to risk non-execution. Understanding this distinction is fundamental to order management.",
     "topic": "trading-accounts",
     "subtopic": "orders-and-strategies",
@@ -180,12 +343,28 @@
     "id": "q-ta-011",
     "stem": "Which of the following BEST describes the primary difference between a cash account and a margin account?",
     "choices": [
-      { "label": "A", "text": "Cash accounts can hold only money market instruments; margin accounts can hold equities.", "explanation": "Incorrect. Cash accounts can hold a wide variety of securities including equities, bonds, and options. The distinction is about payment method, not the types of securities allowed." },
-      { "label": "B", "text": "In a cash account, the customer must pay in full for securities purchased; in a margin account, the customer may borrow funds from the broker-dealer to finance part of the purchase.", "explanation": "Correct. In a cash account, the customer must pay the full purchase price of any security by the settlement date. In a margin account, the customer can borrow a portion of the purchase price from the broker-dealer, using the securities in the account as collateral. Margin accounts are governed by Regulation T of the Federal Reserve, which generally sets the initial margin requirement at 50% for equity securities." },
-      { "label": "C", "text": "Margin accounts offer lower risk than cash accounts because losses are shared with the broker.", "explanation": "Incorrect. Margin accounts actually increase risk. Borrowing to invest amplifies both gains and losses. The broker-dealer does not share in the customer's losses; in fact, a margin call requires the customer to deposit additional funds if the account falls below maintenance margin requirements." },
-      { "label": "D", "text": "Cash accounts require the customer to maintain a minimum balance of $2,000.", "explanation": "Incorrect. The $2,000 minimum equity requirement applies to margin accounts, not cash accounts. FINRA Rule 4210 requires a minimum of $2,000 equity to open a margin account." }
+      {
+        "label": "A",
+        "text": "Cash accounts can hold only money market instruments; margin accounts can hold equities.",
+        "explanation": "Incorrect. Cash accounts can hold a wide variety of securities including equities, bonds, and options. The distinction is about payment method, not the types of securities allowed."
+      },
+      {
+        "label": "B",
+        "text": "Cash accounts require the customer to maintain a minimum balance of $2,000.",
+        "explanation": "Incorrect. The $2,000 minimum equity requirement applies to margin accounts, not cash accounts. FINRA Rule 4210 requires a minimum of $2,000 equity to open a margin account."
+      },
+      {
+        "label": "C",
+        "text": "Margin accounts offer lower risk than cash accounts because losses are shared with the broker.",
+        "explanation": "Incorrect. Margin accounts actually increase risk. Borrowing to invest amplifies both gains and losses. The broker-dealer does not share in the customer's losses; in fact, a margin call requires the customer to deposit additional funds if the account falls below maintenance margin requirements."
+      },
+      {
+        "label": "D",
+        "text": "In a cash account, the customer must pay in full for securities purchased; in a margin account, the customer may borrow funds from the broker-dealer to finance part of the purchase.",
+        "explanation": "Correct. In a cash account, the customer must pay the full purchase price of any security by the settlement date. In a margin account, the customer can borrow a portion of the purchase price from the broker-dealer, using the securities in the account as collateral. Margin accounts are governed by Regulation T of the Federal Reserve, which generally sets the initial margin requirement at 50% for equity securities."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "The defining characteristic of a margin account is the ability to borrow funds from the broker-dealer to purchase securities. Regulation T (issued by the Federal Reserve) governs initial margin requirements, currently set at 50% for most equities — meaning a customer can borrow up to 50% of the purchase price. Cash accounts require full payment by settlement and do not involve borrowing. The $2,000 minimum equity requirement under FINRA Rule 4210 applies to margin accounts.",
     "topic": "trading-accounts",
     "subtopic": "account-types",
@@ -198,12 +377,28 @@
     "id": "q-ta-012",
     "stem": "A married couple opens a joint brokerage account with right of survivorship. One spouse passes away. Which of the following BEST describes what happens to the account assets?",
     "choices": [
-      { "label": "A", "text": "The account assets are split equally between the surviving spouse and the deceased spouse's estate.", "explanation": "Incorrect. In a JTWROS account, there is no split with the estate. The surviving joint tenant receives the entire account, bypassing the probate process." },
-      { "label": "B", "text": "The entire account passes to the surviving spouse, bypassing probate.", "explanation": "Correct. Joint Tenants with Right of Survivorship (JTWROS) means that upon the death of one account holder, the entire account passes automatically to the surviving joint tenant(s). This is a key feature of JTWROS — assets transfer outside of probate (the legal process for distributing a deceased person's estate). This differs from Tenants in Common (TIC), where the deceased's share passes according to their will or intestate succession laws." },
-      { "label": "C", "text": "The account is frozen until the deceased's estate is settled through probate.", "explanation": "Incorrect. One of the primary advantages of JTWROS is that assets pass outside of probate. The surviving joint tenant typically needs to provide a death certificate to the broker-dealer to retitle the account." },
-      { "label": "D", "text": "The deceased spouse's share passes to heirs as directed by the will.", "explanation": "Incorrect. This describes Tenants in Common (TIC), not JTWROS. In a TIC account, each owner's share passes through their estate. In JTWROS, the right of survivorship overrides the will for those assets." }
+      {
+        "label": "A",
+        "text": "The account assets are split equally between the surviving spouse and the deceased spouse's estate.",
+        "explanation": "Incorrect. In a JTWROS account, there is no split with the estate. The surviving joint tenant receives the entire account, bypassing the probate process."
+      },
+      {
+        "label": "B",
+        "text": "The account is frozen until the deceased's estate is settled through probate.",
+        "explanation": "Incorrect. One of the primary advantages of JTWROS is that assets pass outside of probate. The surviving joint tenant typically needs to provide a death certificate to the broker-dealer to retitle the account."
+      },
+      {
+        "label": "C",
+        "text": "The entire account passes to the surviving spouse, bypassing probate.",
+        "explanation": "Correct. Joint Tenants with Right of Survivorship (JTWROS) means that upon the death of one account holder, the entire account passes automatically to the surviving joint tenant(s). This is a key feature of JTWROS — assets transfer outside of probate (the legal process for distributing a deceased person's estate). This differs from Tenants in Common (TIC), where the deceased's share passes according to their will or intestate succession laws."
+      },
+      {
+        "label": "D",
+        "text": "The deceased spouse's share passes to heirs as directed by the will.",
+        "explanation": "Incorrect. This describes Tenants in Common (TIC), not JTWROS. In a TIC account, each owner's share passes through their estate. In JTWROS, the right of survivorship overrides the will for those assets."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "JTWROS accounts carry the right of survivorship, meaning the surviving account owner(s) automatically inherit the full account upon the death of a co-owner. This bypasses probate, allowing for a faster and more straightforward transfer of assets. The surviving spouse must provide documentation (typically a death certificate) to the broker-dealer. This contrasts with Tenants in Common (TIC), where each co-owner's share is part of their individual estate and subject to probate.",
     "topic": "trading-accounts",
     "subtopic": "account-types",
@@ -215,10 +410,26 @@
     "id": "q-ta-013",
     "stem": "A parent opens a custodial account under the Uniform Gifts to Minors Act (UGMA) for their 10-year-old child. Which of the following statements about UGMA accounts is CORRECT?",
     "choices": [
-      { "label": "A", "text": "The custodian (parent) retains full ownership of the assets and can take them back at any time.", "explanation": "Incorrect. Under UGMA, gifts to the minor are irrevocable — they cannot be taken back by the donor. The assets legally belong to the minor, with the custodian managing them on the minor's behalf." },
-      { "label": "B", "text": "The minor takes full control of the account assets when they reach the age of majority in their state, typically 18 or 21.", "explanation": "Correct. UGMA accounts are custodial accounts where an adult manages assets on behalf of a minor. The gift is irrevocable — the assets belong to the minor. Upon reaching the age of majority (typically 18 or 21, depending on the state), the minor gains full, unrestricted control of the account. The custodian has no authority to restrict the minor's access once majority is reached." },
-      { "label": "C", "text": "The age of majority for UGMA accounts is uniformly 21 in all states.", "explanation": "Incorrect. The age of majority varies by state. Under UGMA, it is typically 18 in most states, though some states allow 21. UTMA (Uniform Transfers to Minors Act) accounts may allow custodianship to extend up to age 25 in some states, which is a key distinction." },
-      { "label": "D", "text": "UGMA accounts can hold real estate and other complex assets such as limited partnership interests.", "explanation": "Incorrect. UGMA accounts are more restrictive in the types of assets they can hold. UTMA accounts were created specifically to allow a broader range of asset types, including real estate and certain other non-standard assets. This is one of the key differences between UGMA and UTMA." }
+      {
+        "label": "A",
+        "text": "The custodian (parent) retains full ownership of the assets and can take them back at any time.",
+        "explanation": "Incorrect. Under UGMA, gifts to the minor are irrevocable — they cannot be taken back by the donor. The assets legally belong to the minor, with the custodian managing them on the minor's behalf."
+      },
+      {
+        "label": "B",
+        "text": "The minor takes full control of the account assets when they reach the age of majority in their state, typically 18 or 21.",
+        "explanation": "Correct. UGMA accounts are custodial accounts where an adult manages assets on behalf of a minor. The gift is irrevocable — the assets belong to the minor. Upon reaching the age of majority (typically 18 or 21, depending on the state), the minor gains full, unrestricted control of the account. The custodian has no authority to restrict the minor's access once majority is reached."
+      },
+      {
+        "label": "C",
+        "text": "The age of majority for UGMA accounts is uniformly 21 in all states.",
+        "explanation": "Incorrect. The age of majority varies by state. Under UGMA, it is typically 18 in most states, though some states allow 21. UTMA (Uniform Transfers to Minors Act) accounts may allow custodianship to extend up to age 25 in some states, which is a key distinction."
+      },
+      {
+        "label": "D",
+        "text": "UGMA accounts can hold real estate and other complex assets such as limited partnership interests.",
+        "explanation": "Incorrect. UGMA accounts are more restrictive in the types of assets they can hold. UTMA accounts were created specifically to allow a broader range of asset types, including real estate and certain other non-standard assets. This is one of the key differences between UGMA and UTMA."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "UGMA custodial accounts are established for the benefit of a minor. The gift is irrevocable — once assets are transferred, they belong to the minor and cannot be reclaimed by the donor. The custodian manages the account until the minor reaches the age of majority (typically 18 or 21, state-dependent), at which point the minor assumes full control. UTMA accounts offer more flexibility in asset types and may allow custodianship to extend beyond the standard age of majority in some states.",
@@ -232,10 +443,26 @@
     "id": "q-ta-014",
     "stem": "A customer asks their registered representative about setting up a Transfer on Death (TOD) account. Which of the following BEST describes a TOD account?",
     "choices": [
-      { "label": "A", "text": "A TOD account allows the account owner to name a beneficiary who will receive the account assets upon the owner's death, bypassing probate.", "explanation": "Correct. A Transfer on Death (TOD) designation allows a brokerage account owner to name one or more beneficiaries. Upon the account owner's death, the assets pass directly to the named beneficiary(ies) without going through the probate process. The account owner retains full control of the account during their lifetime and can change the beneficiary designation at any time. TOD is the brokerage account equivalent of a bank account's Payable on Death (POD) designation." },
-      { "label": "B", "text": "A TOD account is a joint account where both account holders have equal trading rights.", "explanation": "Incorrect. A TOD account is an individually owned account with a beneficiary designation. It is not a joint account — the named beneficiary has no rights to the account until the owner's death." },
-      { "label": "C", "text": "In a TOD account, the beneficiary has co-ownership rights and may trade in the account during the owner's lifetime.", "explanation": "Incorrect. The TOD beneficiary has no rights whatsoever while the account owner is alive. The beneficiary designation only takes effect upon the owner's death." },
-      { "label": "D", "text": "A TOD designation is irrevocable once established and cannot be changed.", "explanation": "Incorrect. TOD designations are fully revocable. The account owner can change or remove the beneficiary designation at any time during their lifetime by submitting a new form to the broker-dealer." }
+      {
+        "label": "A",
+        "text": "A TOD account allows the account owner to name a beneficiary who will receive the account assets upon the owner's death, bypassing probate.",
+        "explanation": "Correct. A Transfer on Death (TOD) designation allows a brokerage account owner to name one or more beneficiaries. Upon the account owner's death, the assets pass directly to the named beneficiary(ies) without going through the probate process. The account owner retains full control of the account during their lifetime and can change the beneficiary designation at any time. TOD is the brokerage account equivalent of a bank account's Payable on Death (POD) designation."
+      },
+      {
+        "label": "B",
+        "text": "A TOD account is a joint account where both account holders have equal trading rights.",
+        "explanation": "Incorrect. A TOD account is an individually owned account with a beneficiary designation. It is not a joint account — the named beneficiary has no rights to the account until the owner's death."
+      },
+      {
+        "label": "C",
+        "text": "In a TOD account, the beneficiary has co-ownership rights and may trade in the account during the owner's lifetime.",
+        "explanation": "Incorrect. The TOD beneficiary has no rights whatsoever while the account owner is alive. The beneficiary designation only takes effect upon the owner's death."
+      },
+      {
+        "label": "D",
+        "text": "A TOD designation is irrevocable once established and cannot be changed.",
+        "explanation": "Incorrect. TOD designations are fully revocable. The account owner can change or remove the beneficiary designation at any time during their lifetime by submitting a new form to the broker-dealer."
+      }
     ],
     "correctAnswer": "A",
     "explanation": "A Transfer on Death (TOD) account allows a brokerage account owner to designate beneficiaries who will receive the assets directly upon the owner's death, avoiding probate. The owner retains complete control — they can trade, withdraw, or change beneficiaries at any time. TOD accounts are a common estate planning tool that provides a simple, efficient way to transfer assets to heirs. Multiple beneficiaries can be named, with assets split by percentage.",
@@ -249,12 +476,28 @@
     "id": "q-ta-015",
     "stem": "An investor executes 5 day trades within a 5-business-day period in a margin account. The trades represent more than 6% of the account's total trading activity. Under FINRA rules, what label applies to this investor, and what is the minimum equity requirement?",
     "choices": [
-      { "label": "A", "text": "Active trader; minimum equity of $10,000", "explanation": "Incorrect. 'Active trader' is not a regulatory designation with a specific equity requirement. The relevant category is 'pattern day trader,' with a $25,000 minimum equity requirement." },
-      { "label": "B", "text": "Pattern day trader; minimum equity of $25,000", "explanation": "Correct. FINRA Rule 4210 defines a pattern day trader (PDT) as any customer who executes four or more day trades in a rolling five-business-day period, provided those trades represent more than 6% of the account's total trades during that period. Once classified as a PDT, the customer must maintain minimum equity of $25,000 in their margin account on any day that day trading occurs. If the account falls below $25,000, day trading is restricted until the minimum is restored." },
-      { "label": "C", "text": "Pattern day trader; minimum equity of $2,000", "explanation": "Incorrect. $2,000 is the minimum equity required to open a general margin account, not the pattern day trader minimum. PDTs are subject to a higher $25,000 requirement." },
-      { "label": "D", "text": "Day trader; minimum equity of $50,000", "explanation": "Incorrect. $50,000 is not a standard regulatory minimum for any common account classification. The pattern day trader minimum under FINRA Rule 4210 is $25,000." }
+      {
+        "label": "A",
+        "text": "Active trader; minimum equity of $10,000",
+        "explanation": "Incorrect. 'Active trader' is not a regulatory designation with a specific equity requirement. The relevant category is 'pattern day trader,' with a $25,000 minimum equity requirement."
+      },
+      {
+        "label": "B",
+        "text": "Day trader; minimum equity of $50,000",
+        "explanation": "Incorrect. $50,000 is not a standard regulatory minimum for any common account classification. The pattern day trader minimum under FINRA Rule 4210 is $25,000."
+      },
+      {
+        "label": "C",
+        "text": "Pattern day trader; minimum equity of $2,000",
+        "explanation": "Incorrect. $2,000 is the minimum equity required to open a general margin account, not the pattern day trader minimum. PDTs are subject to a higher $25,000 requirement."
+      },
+      {
+        "label": "D",
+        "text": "Pattern day trader; minimum equity of $25,000",
+        "explanation": "Correct. FINRA Rule 4210 defines a pattern day trader (PDT) as any customer who executes four or more day trades in a rolling five-business-day period, provided those trades represent more than 6% of the account's total trades during that period. Once classified as a PDT, the customer must maintain minimum equity of $25,000 in their margin account on any day that day trading occurs. If the account falls below $25,000, day trading is restricted until the minimum is restored."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "FINRA Rule 4210 establishes the pattern day trader (PDT) rule. A PDT is an investor who executes 4 or more day trades (buying and selling the same security on the same day) within any 5-business-day rolling period, where those trades account for more than 6% of total trading activity. PDTs must maintain at least $25,000 in their margin account at all times on days when day trading occurs. This rule exists because day trading involves higher risk due to intraday price volatility and the use of margin.",
     "topic": "trading-accounts",
     "subtopic": "account-types",
@@ -267,12 +510,28 @@
     "id": "q-ta-016",
     "stem": "Under the standard settlement cycle, equity options contracts settle on which timeline?",
     "choices": [
-      { "label": "A", "text": "T+0 (same day as the trade)", "explanation": "Incorrect. Options do not settle on the trade date. Same-day settlement is a special cash settlement arrangement, not the standard for listed options." },
-      { "label": "B", "text": "T+1 (one business day after the trade)", "explanation": "Correct. Listed equity options settle on T+1, one business day after the trade date. This is consistent with the T+1 settlement cycle adopted for equities and certain other securities in 2024. The premium paid or received by the option buyer or writer, respectively, is exchanged on T+1." },
-      { "label": "C", "text": "T+2 (two business days after the trade)", "explanation": "Incorrect. T+2 was the previous standard for equities and is the current standard for corporate bonds. Listed equity options settle on T+1." },
-      { "label": "D", "text": "T+3 (three business days after the trade)", "explanation": "Incorrect. T+3 was the equity settlement standard before 2017 and does not apply to options." }
+      {
+        "label": "A",
+        "text": "T+0 (same day as the trade)",
+        "explanation": "Incorrect. Options do not settle on the trade date. Same-day settlement is a special cash settlement arrangement, not the standard for listed options."
+      },
+      {
+        "label": "B",
+        "text": "T+2 (two business days after the trade)",
+        "explanation": "Incorrect. T+2 was the previous standard for equities and is the current standard for corporate bonds. Listed equity options settle on T+1."
+      },
+      {
+        "label": "C",
+        "text": "T+1 (one business day after the trade)",
+        "explanation": "Correct. Listed equity options settle on T+1, one business day after the trade date. This is consistent with the T+1 settlement cycle adopted for equities and certain other securities in 2024. The premium paid or received by the option buyer or writer, respectively, is exchanged on T+1."
+      },
+      {
+        "label": "D",
+        "text": "T+3 (three business days after the trade)",
+        "explanation": "Incorrect. T+3 was the equity settlement standard before 2017 and does not apply to options."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Listed equity options settle on T+1, one business day after the trade date. This aligns options settlement with the T+1 cycle for equities, which became effective in May 2024. Settlement refers to the exchange of the option premium between buyer and seller. Note that exercise and assignment of options involves a different timeline: upon exercise, the resulting stock transaction settles on T+1 (same as a regular stock trade).",
     "topic": "trading-accounts",
     "subtopic": "trade-settlement",
@@ -285,12 +544,28 @@
     "id": "q-ta-017",
     "stem": "A customer purchases corporate bonds on a Monday. Under current settlement rules, when is the trade expected to settle?",
     "choices": [
-      { "label": "A", "text": "Monday (same day)", "explanation": "Incorrect. Same-day settlement applies to special cash trades, not regular-way corporate bond transactions." },
-      { "label": "B", "text": "Tuesday (T+1)", "explanation": "Incorrect. T+1 is the current standard for equity and options settlement. Corporate bonds follow a T+2 settlement cycle." },
-      { "label": "C", "text": "Wednesday (T+2)", "explanation": "Correct. Corporate bonds settle on T+2, two business days after the trade date. While equities moved to T+1 settlement in May 2024, corporate bonds have retained the T+2 cycle. A trade on Monday settles Wednesday (assuming no holidays). This longer cycle reflects the additional complexity of bond transfers and documentation." },
-      { "label": "D", "text": "Thursday (T+3)", "explanation": "Incorrect. T+3 was the former settlement standard for many securities prior to 2017. Corporate bonds currently settle T+2." }
+      {
+        "label": "A",
+        "text": "Monday (same day)",
+        "explanation": "Incorrect. Same-day settlement applies to special cash trades, not regular-way corporate bond transactions."
+      },
+      {
+        "label": "B",
+        "text": "Wednesday (T+2)",
+        "explanation": "Correct. Corporate bonds settle on T+2, two business days after the trade date. While equities moved to T+1 settlement in May 2024, corporate bonds have retained the T+2 cycle. A trade on Monday settles Wednesday (assuming no holidays). This longer cycle reflects the additional complexity of bond transfers and documentation."
+      },
+      {
+        "label": "C",
+        "text": "Tuesday (T+1)",
+        "explanation": "Incorrect. T+1 is the current standard for equity and options settlement. Corporate bonds follow a T+2 settlement cycle."
+      },
+      {
+        "label": "D",
+        "text": "Thursday (T+3)",
+        "explanation": "Incorrect. T+3 was the former settlement standard for many securities prior to 2017. Corporate bonds currently settle T+2."
+      }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "B",
     "explanation": "Corporate bonds settle on T+2 (two business days after the trade date), which distinguishes them from equities and listed options that now settle on T+1. For a trade on Monday, the settlement date is Wednesday (assuming no intervening holidays). Understanding the different settlement cycles for equities (T+1), corporate bonds (T+2), options (T+1), and government securities (T+1) is an important SIE exam topic.",
     "topic": "trading-accounts",
     "subtopic": "trade-settlement",
@@ -303,12 +578,28 @@
     "id": "q-ta-018",
     "stem": "Why does settlement date matter for securities transactions? Which of the following BEST explains its significance?",
     "choices": [
-      { "label": "A", "text": "Settlement date determines when the trade is reported to FINRA and the public.", "explanation": "Incorrect. Trade reporting (e.g., via TRACE or ORF) occurs much more quickly — typically within 15 minutes to a few hours of execution, not on settlement date." },
-      { "label": "B", "text": "Settlement date is when actual ownership of the securities transfers and payment is exchanged, creating obligations for both buyer and seller.", "explanation": "Correct. Settlement is the process by which the buyer pays for the securities and the seller delivers them, completing the trade. On the settlement date, legal ownership formally transfers. Failure to settle — known as a 'fail' — occurs when either party does not fulfill their obligation: the buyer does not pay, or the seller does not deliver. Settlement rules exist to reduce counterparty risk (the risk that the other party will not fulfill their obligation) and to ensure market stability." },
-      { "label": "C", "text": "Settlement date determines the price at which the trade executes.", "explanation": "Incorrect. The execution price is determined at the time the order is matched in the market, not on settlement date. Settlement is purely the financial and delivery process that concludes the transaction." },
-      { "label": "D", "text": "Settlement date is relevant only for institutional investors; retail investors are unaffected.", "explanation": "Incorrect. Settlement rules apply to all investors. For retail investors, failing to have sufficient funds in a cash account by the settlement date can result in a margin call, a cash account freeze, or a forced sale of securities." }
+      {
+        "label": "A",
+        "text": "Settlement date is when actual ownership of the securities transfers and payment is exchanged, creating obligations for both buyer and seller.",
+        "explanation": "Correct. Settlement is the process by which the buyer pays for the securities and the seller delivers them, completing the trade. On the settlement date, legal ownership formally transfers. Failure to settle — known as a 'fail' — occurs when either party does not fulfill their obligation: the buyer does not pay, or the seller does not deliver. Settlement rules exist to reduce counterparty risk (the risk that the other party will not fulfill their obligation) and to ensure market stability."
+      },
+      {
+        "label": "B",
+        "text": "Settlement date determines when the trade is reported to FINRA and the public.",
+        "explanation": "Incorrect. Trade reporting (e.g., via TRACE or ORF) occurs much more quickly — typically within 15 minutes to a few hours of execution, not on settlement date."
+      },
+      {
+        "label": "C",
+        "text": "Settlement date determines the price at which the trade executes.",
+        "explanation": "Incorrect. The execution price is determined at the time the order is matched in the market, not on settlement date. Settlement is purely the financial and delivery process that concludes the transaction."
+      },
+      {
+        "label": "D",
+        "text": "Settlement date is relevant only for institutional investors; retail investors are unaffected.",
+        "explanation": "Incorrect. Settlement rules apply to all investors. For retail investors, failing to have sufficient funds in a cash account by the settlement date can result in a margin call, a cash account freeze, or a forced sale of securities."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Settlement is the final step in a securities transaction where money and securities actually change hands. On the settlement date, the buyer delivers payment and the seller delivers the securities, formally transferring ownership. Settlement risk (also called counterparty risk) is the risk that one party fails to fulfill their obligation. The move from T+3 to T+2 to T+1 settlement has progressively reduced the window of time during which this risk exists, improving market stability and efficiency.",
     "topic": "trading-accounts",
     "subtopic": "trade-settlement",
@@ -321,12 +612,28 @@
     "id": "q-ta-019",
     "stem": "A broker-dealer's AML compliance officer notices that a customer is making frequent cash deposits of $9,500 — just under the $10,000 CTR threshold. This pattern is MOST consistent with which prohibited activity?",
     "choices": [
-      { "label": "A", "text": "Layering", "explanation": "Incorrect. Layering involves conducting a series of complex transactions to obscure the audit trail of funds, typically after placement has occurred. The described activity — making deposits just under the CTR threshold — is specifically called structuring." },
-      { "label": "B", "text": "Structuring (smurfing)", "explanation": "Correct. Structuring, also called 'smurfing,' is the deliberate act of breaking up currency transactions to stay below the $10,000 CTR reporting threshold. It is a federal crime under the Bank Secrecy Act, regardless of whether the underlying funds are from legal or illegal sources. The mere act of deliberately structuring transactions to avoid reporting is itself illegal. This activity should be reported via a Suspicious Activity Report (SAR)." },
-      { "label": "C", "text": "Integration", "explanation": "Incorrect. Integration is the third and final stage of money laundering, where laundered funds are reintroduced into the legitimate economy in a way that appears normal. The described activity — breaking up deposits — occurs at the placement stage and is specifically called structuring." },
-      { "label": "D", "text": "Churning", "explanation": "Incorrect. Churning refers to excessive trading in a customer's account to generate commissions. The described activity involves cash deposits structured to avoid reporting, not trading." }
+      {
+        "label": "A",
+        "text": "Layering",
+        "explanation": "Incorrect. Layering involves conducting a series of complex transactions to obscure the audit trail of funds, typically after placement has occurred. The described activity — making deposits just under the CTR threshold — is specifically called structuring."
+      },
+      {
+        "label": "B",
+        "text": "Churning",
+        "explanation": "Incorrect. Churning refers to excessive trading in a customer's account to generate commissions. The described activity involves cash deposits structured to avoid reporting, not trading."
+      },
+      {
+        "label": "C",
+        "text": "Integration",
+        "explanation": "Incorrect. Integration is the third and final stage of money laundering, where laundered funds are reintroduced into the legitimate economy in a way that appears normal. The described activity — breaking up deposits — occurs at the placement stage and is specifically called structuring."
+      },
+      {
+        "label": "D",
+        "text": "Structuring (smurfing)",
+        "explanation": "Correct. Structuring, also called 'smurfing,' is the deliberate act of breaking up currency transactions to stay below the $10,000 CTR reporting threshold. It is a federal crime under the Bank Secrecy Act, regardless of whether the underlying funds are from legal or illegal sources. The mere act of deliberately structuring transactions to avoid reporting is itself illegal. This activity should be reported via a Suspicious Activity Report (SAR)."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Structuring (also known as smurfing) is the illegal practice of deliberately breaking up currency transactions to fall below the $10,000 CTR reporting threshold. It violates 31 U.S.C. § 5324, regardless of whether the underlying funds are from legitimate sources. When a broker-dealer identifies structuring patterns, the compliance officer must file a Suspicious Activity Report (SAR) with FinCEN. Structuring is one of the most common red flags in AML monitoring.",
     "topic": "trading-accounts",
     "subtopic": "anti-money-laundering",
@@ -339,12 +646,28 @@
     "id": "q-ta-020",
     "stem": "A broker-dealer suspects that a customer is using their brokerage account to facilitate money laundering. Under the Bank Secrecy Act, the broker-dealer must file a Suspicious Activity Report (SAR) under which of the following circumstances?",
     "choices": [
-      { "label": "A", "text": "Only if the broker-dealer has confirmed evidence that the customer has committed a crime.", "explanation": "Incorrect. A SAR is filed on suspicion, not confirmed proof. Waiting for confirmed evidence before filing would defeat the purpose of the SAR, which is to alert authorities to suspicious patterns that warrant further investigation." },
-      { "label": "B", "text": "When a transaction involves $5,000 or more and the broker-dealer knows, suspects, or has reason to suspect the transaction involves illegal activity, a SAR must be filed within 30 days.", "explanation": "Correct. Under FinCEN regulations implementing the Bank Secrecy Act, broker-dealers must file a SAR when a transaction (or pattern of transactions) involves $5,000 or more and the firm knows, suspects, or has reason to suspect that the transaction: (1) involves funds from illegal activity; (2) is designed to evade BSA reporting requirements; or (3) lacks a lawful purpose. The SAR must be filed within 30 days of detecting the suspicious activity (or 60 days if additional information is needed to identify a suspect)." },
-      { "label": "C", "text": "Only when a transaction exceeds $10,000 in cash.", "explanation": "Incorrect. The $10,000 threshold applies to Currency Transaction Reports (CTRs), not SARs. SAR reporting has a lower $5,000 threshold and applies to a much broader range of suspicious activity, not just cash transactions." },
-      { "label": "D", "text": "The broker-dealer must notify the customer that a SAR has been filed.", "explanation": "Incorrect. This is exactly the opposite of the rule. Broker-dealers are specifically prohibited from disclosing to the subject of a SAR (or any unauthorized person) that a SAR has been filed. This prohibition on 'tipping off' is a critical SAR requirement." }
+      {
+        "label": "A",
+        "text": "Only if the broker-dealer has confirmed evidence that the customer has committed a crime.",
+        "explanation": "Incorrect. A SAR is filed on suspicion, not confirmed proof. Waiting for confirmed evidence before filing would defeat the purpose of the SAR, which is to alert authorities to suspicious patterns that warrant further investigation."
+      },
+      {
+        "label": "B",
+        "text": "Only when a transaction exceeds $10,000 in cash.",
+        "explanation": "Incorrect. The $10,000 threshold applies to Currency Transaction Reports (CTRs), not SARs. SAR reporting has a lower $5,000 threshold and applies to a much broader range of suspicious activity, not just cash transactions."
+      },
+      {
+        "label": "C",
+        "text": "When a transaction involves $5,000 or more and the broker-dealer knows, suspects, or has reason to suspect the transaction involves illegal activity, a SAR must be filed within 30 days.",
+        "explanation": "Correct. Under FinCEN regulations implementing the Bank Secrecy Act, broker-dealers must file a SAR when a transaction (or pattern of transactions) involves $5,000 or more and the firm knows, suspects, or has reason to suspect that the transaction: (1) involves funds from illegal activity; (2) is designed to evade BSA reporting requirements; or (3) lacks a lawful purpose. The SAR must be filed within 30 days of detecting the suspicious activity (or 60 days if additional information is needed to identify a suspect)."
+      },
+      {
+        "label": "D",
+        "text": "The broker-dealer must notify the customer that a SAR has been filed.",
+        "explanation": "Incorrect. This is exactly the opposite of the rule. Broker-dealers are specifically prohibited from disclosing to the subject of a SAR (or any unauthorized person) that a SAR has been filed. This prohibition on 'tipping off' is a critical SAR requirement."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "A Suspicious Activity Report must be filed by a broker-dealer when: (1) a transaction involves $5,000 or more; and (2) the firm has reason to suspect illegal activity, BSA evasion, or no apparent lawful purpose. The SAR must be filed within 30 days (or 60 days if needed to identify a suspect). Critically, the broker-dealer must NOT disclose to the customer or any third party that a SAR has been filed — this anti-tipping-off requirement is a key BSA provision designed to protect investigations.",
     "topic": "trading-accounts",
     "subtopic": "anti-money-laundering",
@@ -357,12 +680,28 @@
     "id": "q-ta-021",
     "stem": "Under FINRA's Customer Identification Program (CIP) requirements, which of the following information must a broker-dealer collect from an individual customer when opening a new account?",
     "choices": [
-      { "label": "A", "text": "Name, date of birth, address, and identification number (e.g., Social Security Number)", "explanation": "Correct. Under the Bank Secrecy Act and USA PATRIOT Act, FINRA Rule 3310 requires broker-dealers to implement a Customer Identification Program (CIP). For individual customers, the minimum required information is: (1) name; (2) date of birth; (3) address; and (4) an identification number — typically a Social Security Number for U.S. persons, or a passport number/equivalent for non-U.S. persons. The broker-dealer must also verify this information through documents, non-documentary means, or a combination of both." },
-      { "label": "B", "text": "Name and Social Security Number only.", "explanation": "Incorrect. While name and SSN are required, CIP also requires date of birth and address. All four elements are mandatory for individual customers." },
-      { "label": "C", "text": "Name, employer information, annual income, and net worth.", "explanation": "Incorrect. Employer, income, and net worth are suitability-related information collected to understand the customer's financial profile. While important, these are not the four required CIP elements. CIP requirements focus on identity verification, not financial suitability." },
-      { "label": "D", "text": "Name, home phone number, investment objectives, and risk tolerance.", "explanation": "Incorrect. Phone number, investment objectives, and risk tolerance are collected as part of 'know your customer' (KYC) suitability requirements, but are not the four mandatory CIP elements. CIP specifically requires name, date of birth, address, and identification number." }
+      {
+        "label": "A",
+        "text": "Name and Social Security Number only.",
+        "explanation": "Incorrect. While name and SSN are required, CIP also requires date of birth and address. All four elements are mandatory for individual customers."
+      },
+      {
+        "label": "B",
+        "text": "Name, date of birth, address, and identification number (e.g., Social Security Number)",
+        "explanation": "Correct. Under the Bank Secrecy Act and USA PATRIOT Act, FINRA Rule 3310 requires broker-dealers to implement a Customer Identification Program (CIP). For individual customers, the minimum required information is: (1) name; (2) date of birth; (3) address; and (4) an identification number — typically a Social Security Number for U.S. persons, or a passport number/equivalent for non-U.S. persons. The broker-dealer must also verify this information through documents, non-documentary means, or a combination of both."
+      },
+      {
+        "label": "C",
+        "text": "Name, employer information, annual income, and net worth.",
+        "explanation": "Incorrect. Employer, income, and net worth are suitability-related information collected to understand the customer's financial profile. While important, these are not the four required CIP elements. CIP requirements focus on identity verification, not financial suitability."
+      },
+      {
+        "label": "D",
+        "text": "Name, home phone number, investment objectives, and risk tolerance.",
+        "explanation": "Incorrect. Phone number, investment objectives, and risk tolerance are collected as part of 'know your customer' (KYC) suitability requirements, but are not the four mandatory CIP elements. CIP specifically requires name, date of birth, address, and identification number."
+      }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The Customer Identification Program under FINRA Rule 3310 (implementing the Bank Secrecy Act and USA PATRIOT Act) requires broker-dealers to collect and verify four pieces of information from individual customers: (1) name, (2) date of birth, (3) address, and (4) identification number (SSN for U.S. persons). The broker-dealer must verify this information using documents (e.g., driver's license, passport) or non-documentary means. CIP is the foundation of anti-money laundering compliance and 'knowing your customer.'",
     "topic": "trading-accounts",
     "subtopic": "anti-money-laundering",
@@ -375,12 +714,28 @@
     "id": "q-ta-022",
     "stem": "Under the Dirks v. SEC Supreme Court standard, a 'tippee' who receives material non-public information from an insider can be liable for insider trading if which condition is met?",
     "choices": [
-      { "label": "A", "text": "The tippee traded the securities, regardless of whether the tipper received any benefit.", "explanation": "Incorrect. Under the Dirks standard, tippee liability requires that the tipper breached a fiduciary duty by disclosing the information, and a key element of that breach is that the tipper personally benefited (directly or indirectly) from the disclosure. A tip given with no personal benefit to the tipper generally does not establish insider trading liability for the tippee." },
-      { "label": "B", "text": "The tippee knew or should have known that the tipper breached a fiduciary duty for personal benefit in disclosing the information.", "explanation": "Correct. The Supreme Court's Dirks v. SEC (1983) decision established a two-part test for tippee liability: (1) the tipper must have breached a fiduciary duty by disclosing the information, and that breach must have been motivated by some personal benefit (financial gain, reputational benefit, or even a gift to a friend); and (2) the tippee must have known or should have known that the tipper's disclosure constituted such a breach. Both conditions must be met for tippee liability to attach." },
-      { "label": "C", "text": "The tippee works at the same company as the tipper.", "explanation": "Incorrect. Tippee liability is not limited to employees of the same company. The relationship between tipper and tippee, the nature of the duty breached, and the tippee's knowledge are what matter — not whether they work together." },
-      { "label": "D", "text": "The tippee made a profit on the trade.", "explanation": "Incorrect. While profits are relevant to damages, a tippee's liability does not depend on whether they made a profit. Even a losing trade based on MNPI received from a tipper who breached a fiduciary duty could constitute insider trading." }
+      {
+        "label": "A",
+        "text": "The tippee knew or should have known that the tipper breached a fiduciary duty for personal benefit in disclosing the information.",
+        "explanation": "Correct. The Supreme Court's Dirks v. SEC (1983) decision established a two-part test for tippee liability: (1) the tipper must have breached a fiduciary duty by disclosing the information, and that breach must have been motivated by some personal benefit (financial gain, reputational benefit, or even a gift to a friend); and (2) the tippee must have known or should have known that the tipper's disclosure constituted such a breach. Both conditions must be met for tippee liability to attach."
+      },
+      {
+        "label": "B",
+        "text": "The tippee traded the securities, regardless of whether the tipper received any benefit.",
+        "explanation": "Incorrect. Under the Dirks standard, tippee liability requires that the tipper breached a fiduciary duty by disclosing the information, and a key element of that breach is that the tipper personally benefited (directly or indirectly) from the disclosure. A tip given with no personal benefit to the tipper generally does not establish insider trading liability for the tippee."
+      },
+      {
+        "label": "C",
+        "text": "The tippee works at the same company as the tipper.",
+        "explanation": "Incorrect. Tippee liability is not limited to employees of the same company. The relationship between tipper and tippee, the nature of the duty breached, and the tippee's knowledge are what matter — not whether they work together."
+      },
+      {
+        "label": "D",
+        "text": "The tippee made a profit on the trade.",
+        "explanation": "Incorrect. While profits are relevant to damages, a tippee's liability does not depend on whether they made a profit. Even a losing trade based on MNPI received from a tipper who breached a fiduciary duty could constitute insider trading."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Dirks v. SEC (1983) established the foundational framework for tippee insider trading liability. The Supreme Court held that a tippee assumes liability when: (1) the corporate insider (tipper) breached a fiduciary duty by sharing the information, motivated by personal benefit; and (2) the tippee knew or had reason to know of that breach. If the tipper received no personal benefit, no breach occurred, and the tippee has no liability — even if they traded on the information. This standard was further developed in Salman v. United States (2016), where the Court clarified that a gift of information to a friend or family member satisfies the personal benefit requirement.",
     "topic": "trading-accounts",
     "subtopic": "insider-trading",
@@ -388,18 +743,37 @@
     "source": "FINRA content outline",
     "regulatoryBasis": "Securities Exchange Act of 1934, Section 10(b); Dirks v. SEC, 463 U.S. 646 (1983)",
     "lastVerified": "2026-05-20",
-    "relatedStories": ["galleon-rajaratnam", "martha-stewart-imclone"]
+    "relatedStories": [
+      "galleon-rajaratnam",
+      "martha-stewart-imclone"
+    ]
   },
   {
     "id": "q-ta-023",
     "stem": "Which of the following is an example of material non-public information (MNPI)?",
     "choices": [
-      { "label": "A", "text": "A company's earnings announcement that was publicly released this morning via press release.", "explanation": "Incorrect. Once information is publicly released, it is no longer 'non-public.' Publicly announced earnings can be freely used by investors without violating insider trading laws." },
-      { "label": "B", "text": "An analyst's published recommendation upgrading a stock to a 'buy' rating based on publicly available financial data.", "explanation": "Incorrect. An analyst's recommendation based on public information is itself public information (once published). Even before publication, analyst opinions based solely on public data generally do not constitute MNPI." },
-      { "label": "C", "text": "A CFO's knowledge that the company will miss its earnings estimates by 40% before that information is announced to the public.", "explanation": "Correct. Material non-public information (MNPI) is information that (1) is material — a reasonable investor would consider it important in making an investment decision — and (2) has not been disclosed to the public. A 40% earnings miss is clearly material (it would significantly affect the stock price), and it is non-public until formally disclosed. Trading on this information, or tipping others to trade on it, constitutes insider trading." },
-      { "label": "D", "text": "An investor's opinion, based on a company's publicly available 10-K filing, that the stock is undervalued.", "explanation": "Incorrect. An opinion formed entirely from public information (such as SEC filings) is not MNPI, regardless of how insightful the analysis. Insider trading laws target trading on information that is not available to other market participants — not on superior analytical ability." }
+      {
+        "label": "A",
+        "text": "A company's earnings announcement that was publicly released this morning via press release.",
+        "explanation": "Incorrect. Once information is publicly released, it is no longer 'non-public.' Publicly announced earnings can be freely used by investors without violating insider trading laws."
+      },
+      {
+        "label": "B",
+        "text": "An analyst's published recommendation upgrading a stock to a 'buy' rating based on publicly available financial data.",
+        "explanation": "Incorrect. An analyst's recommendation based on public information is itself public information (once published). Even before publication, analyst opinions based solely on public data generally do not constitute MNPI."
+      },
+      {
+        "label": "C",
+        "text": "An investor's opinion, based on a company's publicly available 10-K filing, that the stock is undervalued.",
+        "explanation": "Incorrect. An opinion formed entirely from public information (such as SEC filings) is not MNPI, regardless of how insightful the analysis. Insider trading laws target trading on information that is not available to other market participants — not on superior analytical ability."
+      },
+      {
+        "label": "D",
+        "text": "A CFO's knowledge that the company will miss its earnings estimates by 40% before that information is announced to the public.",
+        "explanation": "Correct. Material non-public information (MNPI) is information that (1) is material — a reasonable investor would consider it important in making an investment decision — and (2) has not been disclosed to the public. A 40% earnings miss is clearly material (it would significantly affect the stock price), and it is non-public until formally disclosed. Trading on this information, or tipping others to trade on it, constitutes insider trading."
+      }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "explanation": "Material non-public information (MNPI) has two components: (1) materiality — information that a reasonable investor would consider significant in deciding whether to buy, sell, or hold a security; and (2) non-public — information not yet available to the general investing public. A pending earnings miss of 40% is clearly material and, before announcement, non-public. The CFO trading on this information, or tipping others, would violate Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5.",
     "topic": "trading-accounts",
     "subtopic": "insider-trading",
@@ -407,18 +781,37 @@
     "source": "FINRA content outline",
     "regulatoryBasis": "Securities Exchange Act of 1934, Section 10(b) and Rule 10b-5",
     "lastVerified": "2026-05-20",
-    "relatedStories": ["martha-stewart-imclone", "galleon-rajaratnam"]
+    "relatedStories": [
+      "martha-stewart-imclone",
+      "galleon-rajaratnam"
+    ]
   },
   {
     "id": "q-ta-024",
     "stem": "Under the Insider Trading Sanctions Act of 1984 and the Insider Trading and Securities Fraud Enforcement Act of 1988, what are the maximum civil and criminal penalties for individuals convicted of insider trading?",
     "choices": [
-      { "label": "A", "text": "Civil penalty of up to 3 times the profit gained; criminal fine of up to $5 million and 20 years in prison.", "explanation": "Correct. The maximum civil penalty for insider trading is three times the profit gained or loss avoided, known as a treble damages penalty. The maximum criminal penalty for individuals under the Insider Trading and Securities Fraud Enforcement Act (as amended by the Sarbanes-Oxley Act) is a fine of up to $5 million and imprisonment of up to 20 years. For entities (such as broker-dealers), the maximum criminal fine is $25 million." },
-      { "label": "B", "text": "Civil penalty of up to the profit gained; criminal fine of up to $1 million and 5 years in prison.", "explanation": "Incorrect. The civil penalty is actually up to three times the profit gained or loss avoided (treble damages), not merely the profit itself. The criminal fine cap is $5 million for individuals (not $1 million), and the maximum prison term is 20 years (not 5 years)." },
-      { "label": "C", "text": "Civil penalty of $10,000 per violation; criminal fine of up to $500,000 and 10 years in prison.", "explanation": "Incorrect. These figures do not accurately reflect the penalties under current law. The civil penalty scales with the profit gained (up to 3x), and the criminal penalties are significantly higher — up to $5 million and 20 years for individuals." },
-      { "label": "D", "text": "There are no civil penalties for insider trading; only criminal penalties apply.", "explanation": "Incorrect. Both civil and criminal penalties apply to insider trading. The SEC may bring civil enforcement actions seeking disgorgement of profits and civil monetary penalties (up to 3x the profit), while criminal prosecution by the Department of Justice can result in fines and imprisonment." }
+      {
+        "label": "A",
+        "text": "Civil penalty of $10,000 per violation; criminal fine of up to $500,000 and 10 years in prison.",
+        "explanation": "Incorrect. These figures do not accurately reflect the penalties under current law. The civil penalty scales with the profit gained (up to 3x), and the criminal penalties are significantly higher — up to $5 million and 20 years for individuals."
+      },
+      {
+        "label": "B",
+        "text": "Civil penalty of up to the profit gained; criminal fine of up to $1 million and 5 years in prison.",
+        "explanation": "Incorrect. The civil penalty is actually up to three times the profit gained or loss avoided (treble damages), not merely the profit itself. The criminal fine cap is $5 million for individuals (not $1 million), and the maximum prison term is 20 years (not 5 years)."
+      },
+      {
+        "label": "C",
+        "text": "Civil penalty of up to 3 times the profit gained; criminal fine of up to $5 million and 20 years in prison.",
+        "explanation": "Correct. The maximum civil penalty for insider trading is three times the profit gained or loss avoided, known as a treble damages penalty. The maximum criminal penalty for individuals under the Insider Trading and Securities Fraud Enforcement Act (as amended by the Sarbanes-Oxley Act) is a fine of up to $5 million and imprisonment of up to 20 years. For entities (such as broker-dealers), the maximum criminal fine is $25 million."
+      },
+      {
+        "label": "D",
+        "text": "There are no civil penalties for insider trading; only criminal penalties apply.",
+        "explanation": "Incorrect. Both civil and criminal penalties apply to insider trading. The SEC may bring civil enforcement actions seeking disgorgement of profits and civil monetary penalties (up to 3x the profit), while criminal prosecution by the Department of Justice can result in fines and imprisonment."
+      }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Insider trading carries both civil and criminal penalties. Civilly, violators may be required to pay up to three times the profit gained or loss avoided (treble damages) in addition to disgorgement of profits. Criminally, individuals face up to $5 million in fines and 20 years in prison under the Insider Trading and Securities Fraud Enforcement Act of 1988, as enhanced by the Sarbanes-Oxley Act of 2002. Corporations and other entities face criminal fines up to $25 million. These severe penalties reflect Congress's intent to deter insider trading as a serious threat to market integrity.",
     "topic": "trading-accounts",
     "subtopic": "insider-trading",
@@ -426,16 +819,34 @@
     "source": "FINRA content outline",
     "regulatoryBasis": "Insider Trading Sanctions Act of 1984; Insider Trading and Securities Fraud Enforcement Act of 1988; Sarbanes-Oxley Act of 2002",
     "lastVerified": "2026-05-20",
-    "relatedStories": ["galleon-rajaratnam"]
+    "relatedStories": [
+      "galleon-rajaratnam"
+    ]
   },
   {
     "id": "q-ta-025",
     "stem": "A registered representative frequently recommends trades in a customer's account, resulting in very high turnover relative to the account's value and generating substantial commissions. The customer has not specifically requested these trades. This activity MOST likely describes which prohibited practice?",
     "choices": [
-      { "label": "A", "text": "Front-running", "explanation": "Incorrect. Front-running involves a broker trading in the same security ahead of a customer's known order, profiting from the anticipated price movement. The described behavior — excessive trading for commissions — is churning." },
-      { "label": "B", "text": "Churning", "explanation": "Correct. Churning is the practice of recommending excessive trading in a customer's account primarily to generate commissions, without regard to the customer's investment objectives or financial situation. Key indicators include high account turnover (the ratio of purchases to average account value), excessive commissions relative to account size, and trading that does not align with the customer's stated objectives. Churning violates FINRA Rule 2111 (suitability) and SEC Rule 10b-5, and constitutes fraud." },
-      { "label": "C", "text": "Unauthorized trading", "explanation": "Incorrect. Unauthorized trading involves executing trades without the customer's prior knowledge or consent, regardless of turnover levels. Churning specifically involves the pattern of excessive trading for commission generation. The two violations can overlap, but the question's emphasis on high turnover and commission generation points to churning." },
-      { "label": "D", "text": "Selling away", "explanation": "Incorrect. Selling away refers to a registered representative conducting securities transactions outside the scope of their employment with a broker-dealer, without the firm's knowledge or approval. The described activity occurs within the customer's account at the firm." }
+      {
+        "label": "A",
+        "text": "Front-running",
+        "explanation": "Incorrect. Front-running involves a broker trading in the same security ahead of a customer's known order, profiting from the anticipated price movement. The described behavior — excessive trading for commissions — is churning."
+      },
+      {
+        "label": "B",
+        "text": "Churning",
+        "explanation": "Correct. Churning is the practice of recommending excessive trading in a customer's account primarily to generate commissions, without regard to the customer's investment objectives or financial situation. Key indicators include high account turnover (the ratio of purchases to average account value), excessive commissions relative to account size, and trading that does not align with the customer's stated objectives. Churning violates FINRA Rule 2111 (suitability) and SEC Rule 10b-5, and constitutes fraud."
+      },
+      {
+        "label": "C",
+        "text": "Unauthorized trading",
+        "explanation": "Incorrect. Unauthorized trading involves executing trades without the customer's prior knowledge or consent, regardless of turnover levels. Churning specifically involves the pattern of excessive trading for commission generation. The two violations can overlap, but the question's emphasis on high turnover and commission generation points to churning."
+      },
+      {
+        "label": "D",
+        "text": "Selling away",
+        "explanation": "Incorrect. Selling away refers to a registered representative conducting securities transactions outside the scope of their employment with a broker-dealer, without the firm's knowledge or approval. The described activity occurs within the customer's account at the firm."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "Churning occurs when a registered representative recommends excessive trading in a customer's account to generate commissions, without a reasonable basis to believe the trading is in the customer's best interest. Courts and regulators look at account turnover ratio (annualized purchases divided by average account value — a ratio above 2 or 3 is often considered excessive), commission-to-equity ratio, and whether the trading was consistent with the customer's objectives. Churning violates FINRA Rule 2111 (suitability/best interest) and is considered fraud under SEC Rule 10b-5.",
@@ -450,12 +861,28 @@
     "id": "q-ta-026",
     "stem": "A registered representative executes several trades in a customer's margin account without discussing the trades with the customer beforehand and without having written discretionary authority. This is an example of which prohibited activity?",
     "choices": [
-      { "label": "A", "text": "Churning", "explanation": "Incorrect. Churning involves excessive trading to generate commissions. While it could occur alongside unauthorized trading, the defining characteristic of the described conduct is that trades were executed without the customer's knowledge or consent and without proper discretionary authority." },
-      { "label": "B", "text": "Unauthorized trading", "explanation": "Correct. Unauthorized trading occurs when a registered representative executes trades in a customer's account without the customer's explicit prior approval and without proper written discretionary authority. Unless a customer has granted written discretionary authority (FINRA Rule 3260), every trade must be pre-approved by the customer. Executing trades without such authorization is a serious violation that can result in disciplinary action, fines, and criminal liability." },
-      { "label": "C", "text": "Selling away", "explanation": "Incorrect. Selling away involves a representative conducting transactions outside their firm's platform or in securities not approved by the firm. The described conduct — trading in a customer's existing account without authorization — is unauthorized trading." },
-      { "label": "D", "text": "Insider trading", "explanation": "Incorrect. Insider trading involves trading based on material non-public information. The described conduct involves trading without the customer's consent, which is unauthorized trading regardless of whether insider information was involved." }
+      {
+        "label": "A",
+        "text": "Unauthorized trading",
+        "explanation": "Correct. Unauthorized trading occurs when a registered representative executes trades in a customer's account without the customer's explicit prior approval and without proper written discretionary authority. Unless a customer has granted written discretionary authority (FINRA Rule 3260), every trade must be pre-approved by the customer. Executing trades without such authorization is a serious violation that can result in disciplinary action, fines, and criminal liability."
+      },
+      {
+        "label": "B",
+        "text": "Churning",
+        "explanation": "Incorrect. Churning involves excessive trading to generate commissions. While it could occur alongside unauthorized trading, the defining characteristic of the described conduct is that trades were executed without the customer's knowledge or consent and without proper discretionary authority."
+      },
+      {
+        "label": "C",
+        "text": "Selling away",
+        "explanation": "Incorrect. Selling away involves a representative conducting transactions outside their firm's platform or in securities not approved by the firm. The described conduct — trading in a customer's existing account without authorization — is unauthorized trading."
+      },
+      {
+        "label": "D",
+        "text": "Insider trading",
+        "explanation": "Incorrect. Insider trading involves trading based on material non-public information. The described conduct involves trading without the customer's consent, which is unauthorized trading regardless of whether insider information was involved."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Unauthorized trading is the execution of securities transactions in a customer's account without the customer's prior consent and without proper written discretionary authority. FINRA Rule 3260 requires that discretionary authority be granted in writing before a representative can trade without prior customer approval. Unauthorized trading is a fundamental violation of fiduciary duty and FINRA rules, and can expose the representative and firm to customer complaints, FINRA disciplinary proceedings, and civil liability.",
     "topic": "trading-accounts",
     "subtopic": "other-prohibited-activities",
@@ -468,12 +895,28 @@
     "id": "q-ta-027",
     "stem": "A registered representative recommends an investment in a private placement offered by a company unrelated to their member firm, without disclosing the activity to or getting approval from their firm. This is BEST described as:",
     "choices": [
-      { "label": "A", "text": "Insider trading", "explanation": "Incorrect. Insider trading involves trading on material non-public information. The described conduct — participating in an outside securities transaction without firm approval — is called selling away." },
-      { "label": "B", "text": "Selling away", "explanation": "Correct. Selling away (also called a private securities transaction) occurs when a registered representative participates in a securities transaction outside the regular course or scope of their employment with their member firm, without the firm's prior written approval. FINRA Rule 3280 requires representatives to notify their firm in writing before engaging in any private securities transaction. Selling away is prohibited because it deprives the firm of the ability to supervise the transaction and protect customers, and it may expose customers to undue risk." },
-      { "label": "C", "text": "Unauthorized trading", "explanation": "Incorrect. Unauthorized trading refers to making trades in a customer's existing account without the customer's consent. Selling away involves transactions entirely outside the firm's platform and supervision." },
-      { "label": "D", "text": "An acceptable outside business activity, as long as it is disclosed on Form U4.", "explanation": "Incorrect. Outside business activities (OBAs) disclosed on Form U4 are governed by FINRA Rule 3270, but private securities transactions (selling away) are specifically prohibited under FINRA Rule 3280 unless prior written notice and firm approval are obtained. Disclosure on Form U4 alone is not sufficient authorization for a private securities transaction." }
+      {
+        "label": "A",
+        "text": "Insider trading",
+        "explanation": "Incorrect. Insider trading involves trading on material non-public information. The described conduct — participating in an outside securities transaction without firm approval — is called selling away."
+      },
+      {
+        "label": "B",
+        "text": "An acceptable outside business activity, as long as it is disclosed on Form U4.",
+        "explanation": "Incorrect. Outside business activities (OBAs) disclosed on Form U4 are governed by FINRA Rule 3270, but private securities transactions (selling away) are specifically prohibited under FINRA Rule 3280 unless prior written notice and firm approval are obtained. Disclosure on Form U4 alone is not sufficient authorization for a private securities transaction."
+      },
+      {
+        "label": "C",
+        "text": "Unauthorized trading",
+        "explanation": "Incorrect. Unauthorized trading refers to making trades in a customer's existing account without the customer's consent. Selling away involves transactions entirely outside the firm's platform and supervision."
+      },
+      {
+        "label": "D",
+        "text": "Selling away",
+        "explanation": "Correct. Selling away (also called a private securities transaction) occurs when a registered representative participates in a securities transaction outside the regular course or scope of their employment with their member firm, without the firm's prior written approval. FINRA Rule 3280 requires representatives to notify their firm in writing before engaging in any private securities transaction. Selling away is prohibited because it deprives the firm of the ability to supervise the transaction and protect customers, and it may expose customers to undue risk."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Selling away (private securities transactions) is addressed under FINRA Rule 3280. A registered representative must provide prior written notice to their member firm before participating in any private securities transaction and must obtain the firm's written approval. The firm must then supervise the activity as if it were its own transaction. Selling away is a serious violation because it undermines the firm's ability to supervise, may expose customers to unsuitable or fraudulent investments, and removes the regulatory protections that apply to firm-supervised transactions.",
     "topic": "trading-accounts",
     "subtopic": "other-prohibited-activities",
@@ -486,10 +929,26 @@
     "id": "q-ta-028",
     "stem": "Under FINRA Rule 2150, under which circumstances may a registered representative share in the profits and losses of a customer's account?",
     "choices": [
-      { "label": "A", "text": "A registered representative may never share in a customer's account profits or losses under any circumstances.", "explanation": "Incorrect. FINRA Rule 2150 does permit sharing in customer accounts, but only under strictly defined conditions. An absolute prohibition would be incorrect." },
-      { "label": "B", "text": "A registered representative may share in a customer's account only if the customer provides verbal authorization.", "explanation": "Incorrect. Verbal authorization is insufficient. FINRA Rule 2150 requires written authorization from both the customer and the member firm. Additionally, the sharing must be proportionate to the representative's financial contribution to the account." },
-      { "label": "C", "text": "A registered representative may share in a customer's account profits and losses only with prior written authorization from both the customer and the member firm, and only in proportion to the representative's actual financial contribution to the account.", "explanation": "Correct. FINRA Rule 2150 prohibits registered representatives from sharing in the profits or losses of a customer's account except under specific conditions: (1) the representative must obtain prior written authorization from the customer; (2) the member firm must provide prior written approval; and (3) the representative must participate proportionately based on their actual financial contribution to the account. An exception exists for accounts of immediate family members, where the proportionality requirement may be waived." },
-      { "label": "D", "text": "A registered representative may freely share in a customer's profits if the customer requests it in writing.", "explanation": "Incorrect. Customer consent alone is not sufficient. Firm approval is also required, and the sharing arrangement must be proportionate to the representative's actual financial contribution. Without firm approval and proportionality, the arrangement violates FINRA Rule 2150 even if the customer has consented." }
+      {
+        "label": "A",
+        "text": "A registered representative may never share in a customer's account profits or losses under any circumstances.",
+        "explanation": "Incorrect. FINRA Rule 2150 does permit sharing in customer accounts, but only under strictly defined conditions. An absolute prohibition would be incorrect."
+      },
+      {
+        "label": "B",
+        "text": "A registered representative may share in a customer's account only if the customer provides verbal authorization.",
+        "explanation": "Incorrect. Verbal authorization is insufficient. FINRA Rule 2150 requires written authorization from both the customer and the member firm. Additionally, the sharing must be proportionate to the representative's financial contribution to the account."
+      },
+      {
+        "label": "C",
+        "text": "A registered representative may share in a customer's account profits and losses only with prior written authorization from both the customer and the member firm, and only in proportion to the representative's actual financial contribution to the account.",
+        "explanation": "Correct. FINRA Rule 2150 prohibits registered representatives from sharing in the profits or losses of a customer's account except under specific conditions: (1) the representative must obtain prior written authorization from the customer; (2) the member firm must provide prior written approval; and (3) the representative must participate proportionately based on their actual financial contribution to the account. An exception exists for accounts of immediate family members, where the proportionality requirement may be waived."
+      },
+      {
+        "label": "D",
+        "text": "A registered representative may freely share in a customer's profits if the customer requests it in writing.",
+        "explanation": "Incorrect. Customer consent alone is not sufficient. Firm approval is also required, and the sharing arrangement must be proportionate to the representative's actual financial contribution. Without firm approval and proportionality, the arrangement violates FINRA Rule 2150 even if the customer has consented."
+      }
     ],
     "correctAnswer": "C",
     "explanation": "FINRA Rule 2150 governs sharing in customer accounts. Sharing is permitted only when: (1) the customer provides prior written authorization; (2) the member firm provides prior written approval; and (3) the representative's share of profits and losses is proportional to their actual financial contribution to the account. An exception to the proportionality requirement applies to accounts of the representative's immediate family members. The rule prevents conflicts of interest, protects customers, and ensures that representatives do not have improper financial incentives tied to customer account performance.",
@@ -504,10 +963,26 @@
     "id": "q-ta-029",
     "stem": "A customer opens a margin account and purchases $100,000 of stock. Under Regulation T, the initial margin requirement is 50%. How much must the customer deposit, and how much can the customer borrow from the broker-dealer?",
     "choices": [
-      { "label": "A", "text": "Deposit $25,000; borrow $75,000.", "explanation": "Incorrect. A 25% deposit would not meet the 50% initial margin requirement under Regulation T." },
-      { "label": "B", "text": "Deposit $50,000; borrow $50,000.", "explanation": "Correct. Regulation T, issued by the Federal Reserve Board, requires an initial margin deposit of 50% for equity securities. For a $100,000 purchase, the customer must deposit $50,000 (in cash or eligible securities) and may borrow the remaining $50,000 from the broker-dealer. The borrowed amount accrues interest, and the securities serve as collateral for the loan." },
-      { "label": "C", "text": "Deposit $100,000; borrow nothing.", "explanation": "Incorrect. This describes a cash account. Margin accounts allow borrowing up to the Regulation T limit, which permits 50% leverage on the initial purchase." },
-      { "label": "D", "text": "Deposit $2,000; borrow $98,000.", "explanation": "Incorrect. $2,000 is the minimum equity to open a margin account under FINRA Rule 4210, but the initial margin requirement for this purchase is 50%, requiring $50,000." }
+      {
+        "label": "A",
+        "text": "Deposit $25,000; borrow $75,000.",
+        "explanation": "Incorrect. A 25% deposit would not meet the 50% initial margin requirement under Regulation T."
+      },
+      {
+        "label": "B",
+        "text": "Deposit $50,000; borrow $50,000.",
+        "explanation": "Correct. Regulation T, issued by the Federal Reserve Board, requires an initial margin deposit of 50% for equity securities. For a $100,000 purchase, the customer must deposit $50,000 (in cash or eligible securities) and may borrow the remaining $50,000 from the broker-dealer. The borrowed amount accrues interest, and the securities serve as collateral for the loan."
+      },
+      {
+        "label": "C",
+        "text": "Deposit $100,000; borrow nothing.",
+        "explanation": "Incorrect. This describes a cash account. Margin accounts allow borrowing up to the Regulation T limit, which permits 50% leverage on the initial purchase."
+      },
+      {
+        "label": "D",
+        "text": "Deposit $2,000; borrow $98,000.",
+        "explanation": "Incorrect. $2,000 is the minimum equity to open a margin account under FINRA Rule 4210, but the initial margin requirement for this purchase is 50%, requiring $50,000."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "Regulation T sets the initial margin requirement at 50% for most equity securities. The customer must deposit at least 50% of the purchase price; the broker-dealer extends a margin loan for the remainder. The securities purchased serve as collateral. FINRA Rule 4210 sets the minimum margin account equity at $2,000, but the Reg T percentage applies to each specific purchase.",
@@ -522,12 +997,28 @@
     "id": "q-ta-030",
     "stem": "FINRA defines a 'pattern day trader' as a customer who executes how many day trades in a rolling five-business-day period in a margin account?",
     "choices": [
-      { "label": "A", "text": "Two or more day trades.", "explanation": "Incorrect. Two day trades in five business days does not trigger the pattern day trader classification. The threshold is higher." },
-      { "label": "B", "text": "Four or more day trades, if they represent more than 6% of the account's total trading activity.", "explanation": "Correct. Under FINRA Rule 4210, a pattern day trader (PDT) is anyone who executes four or more day trades within any five consecutive business days, provided those trades represent more than 6% of total activity. Once classified as a PDT, the customer must maintain minimum equity of $25,000 in the margin account on any day that day trading occurs." },
-      { "label": "C", "text": "Ten or more day trades.", "explanation": "Incorrect. The threshold is four day trades within five business days (subject to the 6% test), not ten." },
-      { "label": "D", "text": "Any single day trade triggers the classification.", "explanation": "Incorrect. A single day trade does not make someone a pattern day trader. The rule requires four or more day trades in five business days." }
+      {
+        "label": "A",
+        "text": "Four or more day trades, if they represent more than 6% of the account's total trading activity.",
+        "explanation": "Correct. Under FINRA Rule 4210, a pattern day trader (PDT) is anyone who executes four or more day trades within any five consecutive business days, provided those trades represent more than 6% of total activity. Once classified as a PDT, the customer must maintain minimum equity of $25,000 in the margin account on any day that day trading occurs."
+      },
+      {
+        "label": "B",
+        "text": "Two or more day trades.",
+        "explanation": "Incorrect. Two day trades in five business days does not trigger the pattern day trader classification. The threshold is higher."
+      },
+      {
+        "label": "C",
+        "text": "Ten or more day trades.",
+        "explanation": "Incorrect. The threshold is four day trades within five business days (subject to the 6% test), not ten."
+      },
+      {
+        "label": "D",
+        "text": "Any single day trade triggers the classification.",
+        "explanation": "Incorrect. A single day trade does not make someone a pattern day trader. The rule requires four or more day trades in five business days."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "FINRA Rule 4210 defines a pattern day trader as a customer who makes four or more day trades in any rolling five-business-day period, representing more than 6% of total trades. PDTs must maintain at least $25,000 in equity in their margin account. If equity falls below $25,000, the account is restricted from day trading until the minimum is restored.",
     "topic": "trading-accounts",
     "subtopic": "account-types",
@@ -540,12 +1031,28 @@
     "id": "q-ta-031",
     "stem": "An investor sells a stock at a loss and repurchases substantially identical securities within 30 days. Under IRS rules, what happens to the loss?",
     "choices": [
-      { "label": "A", "text": "The loss is fully deductible in the current tax year.", "explanation": "Incorrect. The wash sale rule disallows the loss when substantially identical securities are repurchased within 30 days before or after the sale." },
-      { "label": "B", "text": "The loss is disallowed under the wash sale rule, but it is added to the cost basis of the replacement shares.", "explanation": "Correct. IRS Section 1091 (the wash sale rule) disallows a tax loss deduction when the investor buys substantially identical securities within 30 days before or after the loss sale. However, the disallowed loss is not permanently lost — it is added to the cost basis of the replacement shares, effectively deferring the tax benefit until the replacement shares are sold." },
-      { "label": "C", "text": "The loss is permanently disallowed and can never be used for tax purposes.", "explanation": "Incorrect. The loss is not permanently lost. The disallowed loss is added to the cost basis of the replacement shares, deferring (not eliminating) the tax benefit." },
-      { "label": "D", "text": "The loss is deductible but only up to $3,000 per year.", "explanation": "Incorrect. The $3,000 annual limit applies to net capital losses that exceed capital gains. The wash sale rule is a separate issue — it disallows the loss entirely in the current period when substantially identical securities are repurchased within the 30-day window." }
+      {
+        "label": "A",
+        "text": "The loss is fully deductible in the current tax year.",
+        "explanation": "Incorrect. The wash sale rule disallows the loss when substantially identical securities are repurchased within 30 days before or after the sale."
+      },
+      {
+        "label": "B",
+        "text": "The loss is deductible but only up to $3,000 per year.",
+        "explanation": "Incorrect. The $3,000 annual limit applies to net capital losses that exceed capital gains. The wash sale rule is a separate issue — it disallows the loss entirely in the current period when substantially identical securities are repurchased within the 30-day window."
+      },
+      {
+        "label": "C",
+        "text": "The loss is permanently disallowed and can never be used for tax purposes.",
+        "explanation": "Incorrect. The loss is not permanently lost. The disallowed loss is added to the cost basis of the replacement shares, deferring (not eliminating) the tax benefit."
+      },
+      {
+        "label": "D",
+        "text": "The loss is disallowed under the wash sale rule, but it is added to the cost basis of the replacement shares.",
+        "explanation": "Correct. IRS Section 1091 (the wash sale rule) disallows a tax loss deduction when the investor buys substantially identical securities within 30 days before or after the loss sale. However, the disallowed loss is not permanently lost — it is added to the cost basis of the replacement shares, effectively deferring the tax benefit until the replacement shares are sold."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "The wash sale rule (IRS Section 1091) prevents investors from claiming a tax loss while maintaining substantially the same investment position. The 30-day window runs both before and after the loss sale (61-day total window). The disallowed loss is added to the cost basis of the replacement shares, deferring the deduction rather than eliminating it.",
     "topic": "trading-accounts",
     "subtopic": "orders-and-strategies",
@@ -558,12 +1065,28 @@
     "id": "q-ta-032",
     "stem": "Which of the following methods can investors use to determine the cost basis of shares when selling partial positions of the same security acquired at different times and prices?",
     "choices": [
-      { "label": "A", "text": "Only the FIFO (first-in, first-out) method is permitted.", "explanation": "Incorrect. FIFO is the default method if the investor does not specify, but it is not the only permitted method." },
-      { "label": "B", "text": "Investors may choose among FIFO, specific share identification, and average cost (for mutual fund shares), depending on the type of security.", "explanation": "Correct. Investors can use multiple cost basis methods: FIFO (the default, where the earliest shares purchased are deemed sold first), specific share identification (the investor specifies exactly which shares to sell), and average cost (permitted for mutual fund shares and certain dividend reinvestment plan shares). The choice affects taxable gain or loss and should align with the investor's tax strategy." },
-      { "label": "C", "text": "Cost basis is always calculated as the average purchase price of all shares held.", "explanation": "Incorrect. Average cost is only one method and is permitted primarily for mutual fund shares. For individual stocks, FIFO or specific identification is used." },
-      { "label": "D", "text": "The IRS assigns cost basis automatically; investors have no choice in the matter.", "explanation": "Incorrect. Investors can select their cost basis method, though FIFO applies by default if no election is made. Broker-dealers are required to report cost basis on Form 1099-B." }
+      {
+        "label": "A",
+        "text": "Only the FIFO (first-in, first-out) method is permitted.",
+        "explanation": "Incorrect. FIFO is the default method if the investor does not specify, but it is not the only permitted method."
+      },
+      {
+        "label": "B",
+        "text": "Cost basis is always calculated as the average purchase price of all shares held.",
+        "explanation": "Incorrect. Average cost is only one method and is permitted primarily for mutual fund shares. For individual stocks, FIFO or specific identification is used."
+      },
+      {
+        "label": "C",
+        "text": "Investors may choose among FIFO, specific share identification, and average cost (for mutual fund shares), depending on the type of security.",
+        "explanation": "Correct. Investors can use multiple cost basis methods: FIFO (the default, where the earliest shares purchased are deemed sold first), specific share identification (the investor specifies exactly which shares to sell), and average cost (permitted for mutual fund shares and certain dividend reinvestment plan shares). The choice affects taxable gain or loss and should align with the investor's tax strategy."
+      },
+      {
+        "label": "D",
+        "text": "The IRS assigns cost basis automatically; investors have no choice in the matter.",
+        "explanation": "Incorrect. Investors can select their cost basis method, though FIFO applies by default if no election is made. Broker-dealers are required to report cost basis on Form 1099-B."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Cost basis methods determine which shares are deemed sold and affect the taxable gain or loss. FIFO sells the oldest shares first (default). Specific identification allows selecting particular lots (useful for tax-loss harvesting). Average cost is available for mutual fund and DRIP shares. Broker-dealers must track and report cost basis to the IRS on Form 1099-B.",
     "topic": "trading-accounts",
     "subtopic": "orders-and-strategies",
@@ -575,10 +1098,26 @@
     "id": "q-ta-033",
     "stem": "In a brokerage account with a Transfer on Death (TOD) designation, what happens to the beneficiary designation if the account holder also has a will that specifies different heirs for the account?",
     "choices": [
-      { "label": "A", "text": "The will overrides the TOD designation in all cases.", "explanation": "Incorrect. TOD designations take precedence over wills for the specific account. The assets pass directly to the named TOD beneficiary, bypassing probate and the will." },
-      { "label": "B", "text": "The TOD designation takes precedence — assets pass directly to the named beneficiary regardless of what the will states.", "explanation": "Correct. A TOD designation is a contractual arrangement that supersedes the will for the specific account. Upon the account holder's death, the assets transfer directly to the named beneficiary, bypassing probate. If the account holder wants to change who receives the account assets, they must update the TOD designation itself, not just the will." },
-      { "label": "C", "text": "A court must decide which document controls.", "explanation": "Incorrect. The legal hierarchy is clear: TOD designations on brokerage accounts operate by contract and bypass probate. No court intervention is needed to determine the beneficiary." },
-      { "label": "D", "text": "Both the TOD beneficiary and the heirs named in the will split the account equally.", "explanation": "Incorrect. There is no automatic splitting. The TOD beneficiary receives the account assets in full; the will has no effect on the TOD account." }
+      {
+        "label": "A",
+        "text": "The will overrides the TOD designation in all cases.",
+        "explanation": "Incorrect. TOD designations take precedence over wills for the specific account. The assets pass directly to the named TOD beneficiary, bypassing probate and the will."
+      },
+      {
+        "label": "B",
+        "text": "The TOD designation takes precedence — assets pass directly to the named beneficiary regardless of what the will states.",
+        "explanation": "Correct. A TOD designation is a contractual arrangement that supersedes the will for the specific account. Upon the account holder's death, the assets transfer directly to the named beneficiary, bypassing probate. If the account holder wants to change who receives the account assets, they must update the TOD designation itself, not just the will."
+      },
+      {
+        "label": "C",
+        "text": "A court must decide which document controls.",
+        "explanation": "Incorrect. The legal hierarchy is clear: TOD designations on brokerage accounts operate by contract and bypass probate. No court intervention is needed to determine the beneficiary."
+      },
+      {
+        "label": "D",
+        "text": "Both the TOD beneficiary and the heirs named in the will split the account equally.",
+        "explanation": "Incorrect. There is no automatic splitting. The TOD beneficiary receives the account assets in full; the will has no effect on the TOD account."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "TOD designations operate as beneficiary contracts that supersede wills for the specific account. Assets pass directly to the named beneficiary outside of probate. This is why estate planning requires coordination between account beneficiary designations and the overall estate plan — a stale TOD designation can unintentionally disinherit intended heirs.",
@@ -592,12 +1131,28 @@
     "id": "q-ta-034",
     "stem": "Which of the following statements about UGMA and UTMA custodial accounts is CORRECT?",
     "choices": [
-      { "label": "A", "text": "Both UGMA and UTMA accounts allow the custodian to invest in the same types of assets — there is no difference.", "explanation": "Incorrect. A key distinction is that UTMA accounts can hold a wider range of assets than UGMA accounts, including real estate, patents, and other non-standard assets." },
-      { "label": "B", "text": "UTMA accounts allow a broader range of assets (including real estate) and may extend custodianship beyond age 18, while UGMA accounts are limited to financial assets and typically transfer at 18.", "explanation": "Correct. UGMA accounts can hold financial assets such as cash, securities, and insurance policies. UTMA accounts expanded the permissible assets to include real estate, royalties, patents, and other property. Additionally, some states allow UTMA custodianship to extend to age 21 or even 25, whereas UGMA accounts typically transfer at 18 (the age of majority in most states)." },
-      { "label": "C", "text": "UGMA accounts are revocable — the donor can reclaim the gifted assets at any time.", "explanation": "Incorrect. Gifts under both UGMA and UTMA are irrevocable. Once assets are transferred to the minor's custodial account, they belong to the minor and cannot be reclaimed by the donor." },
-      { "label": "D", "text": "UTMA accounts are only available for minors under age 14.", "explanation": "Incorrect. Both UGMA and UTMA accounts can be established for any minor (under the age of majority). There is no age-14 restriction." }
+      {
+        "label": "A",
+        "text": "UTMA accounts allow a broader range of assets (including real estate) and may extend custodianship beyond age 18, while UGMA accounts are limited to financial assets and typically transfer at 18.",
+        "explanation": "Correct. UGMA accounts can hold financial assets such as cash, securities, and insurance policies. UTMA accounts expanded the permissible assets to include real estate, royalties, patents, and other property. Additionally, some states allow UTMA custodianship to extend to age 21 or even 25, whereas UGMA accounts typically transfer at 18 (the age of majority in most states)."
+      },
+      {
+        "label": "B",
+        "text": "Both UGMA and UTMA accounts allow the custodian to invest in the same types of assets — there is no difference.",
+        "explanation": "Incorrect. A key distinction is that UTMA accounts can hold a wider range of assets than UGMA accounts, including real estate, patents, and other non-standard assets."
+      },
+      {
+        "label": "C",
+        "text": "UGMA accounts are revocable — the donor can reclaim the gifted assets at any time.",
+        "explanation": "Incorrect. Gifts under both UGMA and UTMA are irrevocable. Once assets are transferred to the minor's custodial account, they belong to the minor and cannot be reclaimed by the donor."
+      },
+      {
+        "label": "D",
+        "text": "UTMA accounts are only available for minors under age 14.",
+        "explanation": "Incorrect. Both UGMA and UTMA accounts can be established for any minor (under the age of majority). There is no age-14 restriction."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "UTMA expanded upon UGMA by allowing custodial accounts to hold a wider range of assets (real estate, intellectual property, etc.) and by permitting some states to extend the custodianship period beyond the standard age of majority. Both types involve irrevocable gifts to the minor, with the custodian managing assets until the minor reaches the specified age.",
     "topic": "trading-accounts",
     "subtopic": "account-types",
@@ -609,12 +1164,28 @@
     "id": "q-ta-035",
     "stem": "A 529 plan is primarily used for which purpose?",
     "choices": [
-      { "label": "A", "text": "Saving for retirement with tax-deferred growth.", "explanation": "Incorrect. Retirement savings vehicles include IRAs, 401(k)s, and similar plans. 529 plans are specifically designed for education expenses." },
-      { "label": "B", "text": "Saving for qualified education expenses with tax-free growth and tax-free withdrawals for qualifying costs.", "explanation": "Correct. Section 529 plans are tax-advantaged savings accounts designed for education expenses. Contributions grow tax-deferred, and withdrawals are tax-free when used for qualified education expenses (tuition, room, board, books, and certain K-12 expenses up to $10,000/year). Non-qualified withdrawals are subject to income tax and a 10% penalty on earnings." },
-      { "label": "C", "text": "Saving for a first home purchase with no penalties on withdrawal.", "explanation": "Incorrect. First-time home purchase exceptions apply to IRAs, not 529 plans (though the SECURE 2.0 Act allows limited rollovers from 529s to Roth IRAs under certain conditions)." },
-      { "label": "D", "text": "Providing health insurance coverage for dependents.", "explanation": "Incorrect. Health savings are served by HSAs (Health Savings Accounts). 529 plans are exclusively for education savings." }
+      {
+        "label": "A",
+        "text": "Saving for retirement with tax-deferred growth.",
+        "explanation": "Incorrect. Retirement savings vehicles include IRAs, 401(k)s, and similar plans. 529 plans are specifically designed for education expenses."
+      },
+      {
+        "label": "B",
+        "text": "Providing health insurance coverage for dependents.",
+        "explanation": "Incorrect. Health savings are served by HSAs (Health Savings Accounts). 529 plans are exclusively for education savings."
+      },
+      {
+        "label": "C",
+        "text": "Saving for a first home purchase with no penalties on withdrawal.",
+        "explanation": "Incorrect. First-time home purchase exceptions apply to IRAs, not 529 plans (though the SECURE 2.0 Act allows limited rollovers from 529s to Roth IRAs under certain conditions)."
+      },
+      {
+        "label": "D",
+        "text": "Saving for qualified education expenses with tax-free growth and tax-free withdrawals for qualifying costs.",
+        "explanation": "Correct. Section 529 plans are tax-advantaged savings accounts designed for education expenses. Contributions grow tax-deferred, and withdrawals are tax-free when used for qualified education expenses (tuition, room, board, books, and certain K-12 expenses up to $10,000/year). Non-qualified withdrawals are subject to income tax and a 10% penalty on earnings."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Section 529 plans provide tax-advantaged education savings. Earnings grow tax-free, and withdrawals for qualified education expenses are not taxed. Plans are sponsored by states and may offer state income tax deductions for contributions. Account owners retain control (unlike UGMA/UTMA) and can change beneficiaries within the family.",
     "topic": "trading-accounts",
     "subtopic": "account-types",
@@ -626,12 +1197,28 @@
     "id": "q-ta-036",
     "stem": "An IRA holder who is under age 59 1/2 takes a distribution from a traditional IRA. Assuming no exceptions apply, which of the following tax consequences result?",
     "choices": [
-      { "label": "A", "text": "The distribution is tax-free because IRA contributions were made with after-tax dollars.", "explanation": "Incorrect. Traditional IRA contributions are typically made with pre-tax dollars (tax-deductible). Distributions are taxed as ordinary income, and an early withdrawal penalty applies before age 59 1/2." },
-      { "label": "B", "text": "The distribution is subject to ordinary income tax plus a 10% early withdrawal penalty.", "explanation": "Correct. Distributions from a traditional IRA before age 59 1/2 are subject to two layers of cost: (1) the full distribution is taxed as ordinary income (because contributions were tax-deductible), and (2) a 10% additional early withdrawal penalty applies under IRC Section 72(t). Exceptions to the 10% penalty include disability, first-time home purchase (up to $10,000), and substantially equal periodic payments (72(t) distributions)." },
-      { "label": "C", "text": "The distribution is subject to capital gains tax only.", "explanation": "Incorrect. IRA distributions are taxed as ordinary income, not capital gains, regardless of the underlying investments. The 10% penalty also applies for early withdrawals." },
-      { "label": "D", "text": "No tax or penalty applies if the distribution is less than $10,000.", "explanation": "Incorrect. There is no blanket $10,000 exemption for early IRA withdrawals. The $10,000 exception applies only to first-time home purchases, not to all distributions under that amount." }
+      {
+        "label": "A",
+        "text": "The distribution is tax-free because IRA contributions were made with after-tax dollars.",
+        "explanation": "Incorrect. Traditional IRA contributions are typically made with pre-tax dollars (tax-deductible). Distributions are taxed as ordinary income, and an early withdrawal penalty applies before age 59 1/2."
+      },
+      {
+        "label": "B",
+        "text": "The distribution is subject to capital gains tax only.",
+        "explanation": "Incorrect. IRA distributions are taxed as ordinary income, not capital gains, regardless of the underlying investments. The 10% penalty also applies for early withdrawals."
+      },
+      {
+        "label": "C",
+        "text": "The distribution is subject to ordinary income tax plus a 10% early withdrawal penalty.",
+        "explanation": "Correct. Distributions from a traditional IRA before age 59 1/2 are subject to two layers of cost: (1) the full distribution is taxed as ordinary income (because contributions were tax-deductible), and (2) a 10% additional early withdrawal penalty applies under IRC Section 72(t). Exceptions to the 10% penalty include disability, first-time home purchase (up to $10,000), and substantially equal periodic payments (72(t) distributions)."
+      },
+      {
+        "label": "D",
+        "text": "No tax or penalty applies if the distribution is less than $10,000.",
+        "explanation": "Incorrect. There is no blanket $10,000 exemption for early IRA withdrawals. The $10,000 exception applies only to first-time home purchases, not to all distributions under that amount."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Traditional IRA distributions before age 59 1/2 are subject to ordinary income tax plus a 10% early withdrawal penalty. The penalty is designed to discourage using retirement savings prematurely. Exceptions exist for death, disability, first-time home purchase ($10,000 lifetime), qualified education expenses, and certain other circumstances. Required minimum distributions (RMDs) begin at age 73 under current law.",
     "topic": "trading-accounts",
     "subtopic": "account-types",
@@ -644,10 +1231,26 @@
     "id": "q-ta-037",
     "stem": "Under Regulation T, which of the following statements about the initial margin requirement for equity securities is CORRECT?",
     "choices": [
-      { "label": "A", "text": "The initial margin requirement is set by each individual broker-dealer and can be as low as 10%.", "explanation": "Incorrect. While broker-dealers may impose higher (house) margin requirements, they cannot set initial margin below the Regulation T minimum of 50%. FINRA may also set minimums that exceed Regulation T." },
-      { "label": "B", "text": "Regulation T requires an initial deposit of 50% of the purchase price when buying equity securities on margin.", "explanation": "Correct. The Federal Reserve Board's Regulation T sets the initial margin requirement at 50% for most equity securities. When a customer buys $100,000 of stock on margin, they must deposit at least $50,000. The remaining $50,000 is a margin loan from the broker-dealer, secured by the securities. Broker-dealers may require more than 50% (called 'house requirements') but never less." },
-      { "label": "C", "text": "The initial margin requirement applies only to short sales, not to long purchases.", "explanation": "Incorrect. Regulation T's 50% requirement applies to both long purchases on margin and short sales. Both create a debit balance (long) or an obligation to return borrowed shares (short) that requires collateral." },
-      { "label": "D", "text": "FINRA, not the Federal Reserve, sets the initial margin requirement.", "explanation": "Incorrect. The initial margin requirement is set by Regulation T, issued by the Federal Reserve Board. FINRA sets maintenance margin requirements (minimum 25% equity) and may impose additional requirements above Regulation T." }
+      {
+        "label": "A",
+        "text": "The initial margin requirement is set by each individual broker-dealer and can be as low as 10%.",
+        "explanation": "Incorrect. While broker-dealers may impose higher (house) margin requirements, they cannot set initial margin below the Regulation T minimum of 50%. FINRA may also set minimums that exceed Regulation T."
+      },
+      {
+        "label": "B",
+        "text": "Regulation T requires an initial deposit of 50% of the purchase price when buying equity securities on margin.",
+        "explanation": "Correct. The Federal Reserve Board's Regulation T sets the initial margin requirement at 50% for most equity securities. When a customer buys $100,000 of stock on margin, they must deposit at least $50,000. The remaining $50,000 is a margin loan from the broker-dealer, secured by the securities. Broker-dealers may require more than 50% (called 'house requirements') but never less."
+      },
+      {
+        "label": "C",
+        "text": "The initial margin requirement applies only to short sales, not to long purchases.",
+        "explanation": "Incorrect. Regulation T's 50% requirement applies to both long purchases on margin and short sales. Both create a debit balance (long) or an obligation to return borrowed shares (short) that requires collateral."
+      },
+      {
+        "label": "D",
+        "text": "FINRA, not the Federal Reserve, sets the initial margin requirement.",
+        "explanation": "Incorrect. The initial margin requirement is set by Regulation T, issued by the Federal Reserve Board. FINRA sets maintenance margin requirements (minimum 25% equity) and may impose additional requirements above Regulation T."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "Regulation T, issued by the Federal Reserve Board under the Securities Exchange Act of 1934, sets the initial margin requirement at 50% for most equity securities. This means customers must deposit at least half the purchase price; the balance is financed by the broker-dealer as a margin loan. FINRA Rule 4210 separately sets maintenance margin at a minimum of 25% equity, below which a margin call is issued.",
@@ -662,12 +1265,28 @@
     "id": "q-ta-038",
     "stem": "Under the Bank Secrecy Act, a broker-dealer must file a Currency Transaction Report (CTR) for cash transactions exceeding $10,000. Which of the following statements about CTRs is CORRECT?",
     "choices": [
-      { "label": "A", "text": "CTRs are filed only for single transactions exceeding $10,000; multiple smaller transactions by the same person on the same day are not aggregated.", "explanation": "Incorrect. The regulation requires aggregation of multiple cash transactions by the same person in a single business day. If the aggregate exceeds $10,000, a CTR must be filed." },
-      { "label": "B", "text": "A CTR must be filed for cash transactions exceeding $10,000 in a single business day, including aggregated transactions by the same person, and the filing is required regardless of whether the activity appears suspicious.", "explanation": "Correct. CTR filing is a mandatory, non-discretionary requirement triggered solely by the dollar threshold — $10,000 in cash in a single business day, including aggregated transactions. Unlike SARs, which require suspicion of wrongdoing, CTRs are filed based on objective dollar amount alone. The firm must file within 15 days of the transaction. Deliberately structuring transactions to avoid the $10,000 threshold is itself a federal crime." },
-      { "label": "C", "text": "The customer must be notified before a CTR is filed.", "explanation": "Incorrect. There is no requirement to notify the customer that a CTR is being filed. CTR filing is a routine regulatory requirement, not a discretionary action requiring customer notice." },
-      { "label": "D", "text": "CTRs are filed only when the broker-dealer suspects money laundering.", "explanation": "Incorrect. CTRs are filed based on the dollar threshold alone, not on suspicion. SARs (Suspicious Activity Reports) are the mechanism for reporting suspected money laundering." }
+      {
+        "label": "A",
+        "text": "A CTR must be filed for cash transactions exceeding $10,000 in a single business day, including aggregated transactions by the same person, and the filing is required regardless of whether the activity appears suspicious.",
+        "explanation": "Correct. CTR filing is a mandatory, non-discretionary requirement triggered solely by the dollar threshold — $10,000 in cash in a single business day, including aggregated transactions. Unlike SARs, which require suspicion of wrongdoing, CTRs are filed based on objective dollar amount alone. The firm must file within 15 days of the transaction. Deliberately structuring transactions to avoid the $10,000 threshold is itself a federal crime."
+      },
+      {
+        "label": "B",
+        "text": "CTRs are filed only for single transactions exceeding $10,000; multiple smaller transactions by the same person on the same day are not aggregated.",
+        "explanation": "Incorrect. The regulation requires aggregation of multiple cash transactions by the same person in a single business day. If the aggregate exceeds $10,000, a CTR must be filed."
+      },
+      {
+        "label": "C",
+        "text": "The customer must be notified before a CTR is filed.",
+        "explanation": "Incorrect. There is no requirement to notify the customer that a CTR is being filed. CTR filing is a routine regulatory requirement, not a discretionary action requiring customer notice."
+      },
+      {
+        "label": "D",
+        "text": "CTRs are filed only when the broker-dealer suspects money laundering.",
+        "explanation": "Incorrect. CTRs are filed based on the dollar threshold alone, not on suspicion. SARs (Suspicious Activity Reports) are the mechanism for reporting suspected money laundering."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "CTR filing under the Bank Secrecy Act is a purely threshold-based requirement: any cash transaction (or aggregate of related cash transactions by the same person) exceeding $10,000 in a single business day triggers a CTR filing. The filing must occur within 15 days. Structuring transactions to avoid the $10,000 threshold is a federal crime under 31 U.S.C. Section 5324, regardless of whether the underlying funds are from legal or illegal sources.",
     "topic": "trading-accounts",
     "subtopic": "anti-money-laundering",

@@ -3,12 +3,28 @@
     "id": "q-cm-001",
     "stem": "Which of the following organizations is a self-regulatory organization (SRO) responsible for overseeing broker-dealers and their registered representatives?",
     "choices": [
-      { "label": "A", "text": "The Securities and Exchange Commission (SEC)", "explanation": "Incorrect. The SEC is a federal government agency that oversees the securities industry, but it is not classified as a self-regulatory organization." },
-      { "label": "B", "text": "The Financial Industry Regulatory Authority (FINRA)", "explanation": "Correct. FINRA is the largest self-regulatory organization in the United States. It was formed in 2007 through the consolidation of NASD and NYSE regulatory functions, and it is responsible for writing and enforcing rules governing broker-dealers and their registered representatives." },
-      { "label": "C", "text": "The Federal Reserve Board (FRB)", "explanation": "Incorrect. The Federal Reserve Board is the central bank of the United States and primarily oversees monetary policy, not broker-dealer regulation." },
-      { "label": "D", "text": "The Municipal Securities Rulemaking Board (MSRB)", "explanation": "Incorrect. While the MSRB is an SRO, it specifically oversees municipal securities dealers and municipal advisors, not all broker-dealers broadly." }
+      {
+        "label": "A",
+        "text": "The Securities and Exchange Commission (SEC)",
+        "explanation": "Incorrect. The SEC is a federal government agency that oversees the securities industry, but it is not classified as a self-regulatory organization."
+      },
+      {
+        "label": "B",
+        "text": "The Municipal Securities Rulemaking Board (MSRB)",
+        "explanation": "Incorrect. While the MSRB is an SRO, it specifically oversees municipal securities dealers and municipal advisors, not all broker-dealers broadly."
+      },
+      {
+        "label": "C",
+        "text": "The Federal Reserve Board (FRB)",
+        "explanation": "Incorrect. The Federal Reserve Board is the central bank of the United States and primarily oversees monetary policy, not broker-dealer regulation."
+      },
+      {
+        "label": "D",
+        "text": "The Financial Industry Regulatory Authority (FINRA)",
+        "explanation": "Correct. FINRA is the largest self-regulatory organization in the United States. It was formed in 2007 through the consolidation of NASD and NYSE regulatory functions, and it is responsible for writing and enforcing rules governing broker-dealers and their registered representatives."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "FINRA is the primary self-regulatory organization responsible for overseeing broker-dealers in the United States. Unlike government agencies such as the SEC, SROs are non-governmental organizations authorized by Congress to regulate their own members.",
     "topic": "capital-markets",
     "subtopic": "regulatory-entities-agencies",
@@ -21,10 +37,26 @@
     "id": "q-cm-002",
     "stem": "In the primary market, which of the following best describes an initial public offering (IPO)?",
     "choices": [
-      { "label": "A", "text": "The first time a company's existing shares are traded on a secondary exchange", "explanation": "Incorrect. Trading on a secondary exchange describes the secondary market, not an IPO in the primary market." },
-      { "label": "B", "text": "A company selling additional shares after already being publicly traded", "explanation": "Incorrect. This describes a follow-on offering or secondary offering, not an initial public offering." },
-      { "label": "C", "text": "The first sale of a company's stock to the public through a registered offering", "explanation": "Correct. An IPO is the first time a company offers its shares to the public through a registration statement filed with the SEC. This occurs in the primary market where the issuer receives the proceeds from the sale." },
-      { "label": "D", "text": "A private placement of securities to institutional investors under Regulation D", "explanation": "Incorrect. A Regulation D private placement is an exempt offering sold to accredited investors, not a public offering." }
+      {
+        "label": "A",
+        "text": "The first time a company's existing shares are traded on a secondary exchange",
+        "explanation": "Incorrect. Trading on a secondary exchange describes the secondary market, not an IPO in the primary market."
+      },
+      {
+        "label": "B",
+        "text": "A company selling additional shares after already being publicly traded",
+        "explanation": "Incorrect. This describes a follow-on offering or secondary offering, not an initial public offering."
+      },
+      {
+        "label": "C",
+        "text": "The first sale of a company's stock to the public through a registered offering",
+        "explanation": "Correct. An IPO is the first time a company offers its shares to the public through a registration statement filed with the SEC. This occurs in the primary market where the issuer receives the proceeds from the sale."
+      },
+      {
+        "label": "D",
+        "text": "A private placement of securities to institutional investors under Regulation D",
+        "explanation": "Incorrect. A Regulation D private placement is an exempt offering sold to accredited investors, not a public offering."
+      }
     ],
     "correctAnswer": "C",
     "explanation": "An IPO represents the first time a company sells its securities to the general public. This transaction occurs in the primary market, meaning the issuing company receives the proceeds. The Securities Act of 1933 requires companies to register their securities with the SEC before conducting an IPO.",
@@ -39,10 +71,26 @@
     "id": "q-cm-003",
     "stem": "Which of the following is a characteristic of the over-the-counter (OTC) market?",
     "choices": [
-      { "label": "A", "text": "All trades are executed through a centralized physical exchange floor", "explanation": "Incorrect. The OTC market is decentralized and does not use a physical exchange floor. This describes exchanges like the NYSE." },
-      { "label": "B", "text": "Securities are traded through a network of dealers who negotiate directly", "explanation": "Correct. The OTC market is a decentralized market where securities are traded through a network of broker-dealers rather than on a centralized exchange. Dealers negotiate prices directly with each other or with customers." },
-      { "label": "C", "text": "Only listed securities meeting strict financial requirements may be traded", "explanation": "Incorrect. Strict listing requirements are characteristic of exchanges like the NYSE or Nasdaq. The OTC market typically has fewer listing requirements." },
-      { "label": "D", "text": "Prices are determined solely through an electronic auction process", "explanation": "Incorrect. Electronic auction processes are used by exchanges like the NYSE. The OTC market uses a negotiated dealer market where prices are determined through direct negotiation." }
+      {
+        "label": "A",
+        "text": "All trades are executed through a centralized physical exchange floor",
+        "explanation": "Incorrect. The OTC market is decentralized and does not use a physical exchange floor. This describes exchanges like the NYSE."
+      },
+      {
+        "label": "B",
+        "text": "Securities are traded through a network of dealers who negotiate directly",
+        "explanation": "Correct. The OTC market is a decentralized market where securities are traded through a network of broker-dealers rather than on a centralized exchange. Dealers negotiate prices directly with each other or with customers."
+      },
+      {
+        "label": "C",
+        "text": "Only listed securities meeting strict financial requirements may be traded",
+        "explanation": "Incorrect. Strict listing requirements are characteristic of exchanges like the NYSE or Nasdaq. The OTC market typically has fewer listing requirements."
+      },
+      {
+        "label": "D",
+        "text": "Prices are determined solely through an electronic auction process",
+        "explanation": "Incorrect. Electronic auction processes are used by exchanges like the NYSE. The OTC market uses a negotiated dealer market where prices are determined through direct negotiation."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "The OTC market is a decentralized, dealer-based market where transactions are negotiated directly between parties rather than through a centralized exchange. This distinguishes it from exchange markets like the NYSE, which use centralized auction mechanisms.",
@@ -57,12 +105,28 @@
     "id": "q-cm-004",
     "stem": "When the Federal Reserve Board raises the federal funds rate, which of the following is the MOST likely effect on the bond market?",
     "choices": [
-      { "label": "A", "text": "Existing bond prices increase because yields become more attractive", "explanation": "Incorrect. When interest rates rise, existing bonds with lower coupon rates become less attractive, causing their prices to fall, not rise." },
-      { "label": "B", "text": "Existing bond prices decrease as newly issued bonds offer higher yields", "explanation": "Correct. There is an inverse relationship between interest rates and bond prices. When the Federal Reserve raises the federal funds rate, newly issued bonds offer higher yields. Existing bonds with lower coupon rates become relatively less attractive, so their prices decline to bring their effective yield in line with market rates." },
-      { "label": "C", "text": "Bond prices remain unchanged because the federal funds rate only affects banks", "explanation": "Incorrect. While the federal funds rate directly applies to overnight bank lending, it influences the entire yield curve and affects bond prices across the market." },
-      { "label": "D", "text": "All bonds are immediately repriced to match the new federal funds rate", "explanation": "Incorrect. Bond prices adjust through market trading, not through an automatic repricing mechanism." }
+      {
+        "label": "A",
+        "text": "Existing bond prices decrease as newly issued bonds offer higher yields",
+        "explanation": "Correct. There is an inverse relationship between interest rates and bond prices. When the Federal Reserve raises the federal funds rate, newly issued bonds offer higher yields. Existing bonds with lower coupon rates become relatively less attractive, so their prices decline to bring their effective yield in line with market rates."
+      },
+      {
+        "label": "B",
+        "text": "Existing bond prices increase because yields become more attractive",
+        "explanation": "Incorrect. When interest rates rise, existing bonds with lower coupon rates become less attractive, causing their prices to fall, not rise."
+      },
+      {
+        "label": "C",
+        "text": "Bond prices remain unchanged because the federal funds rate only affects banks",
+        "explanation": "Incorrect. While the federal funds rate directly applies to overnight bank lending, it influences the entire yield curve and affects bond prices across the market."
+      },
+      {
+        "label": "D",
+        "text": "All bonds are immediately repriced to match the new federal funds rate",
+        "explanation": "Incorrect. Bond prices adjust through market trading, not through an automatic repricing mechanism."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Bond prices and interest rates have an inverse relationship. When the Federal Reserve raises the federal funds rate, market interest rates generally rise, making existing bonds with lower coupon rates less attractive. Their prices decline until their yield to maturity is competitive with newly issued bonds.",
     "topic": "capital-markets",
     "subtopic": "economic-factors",
@@ -74,12 +138,28 @@
     "id": "q-cm-005",
     "stem": "A company wants to raise capital quickly without the full SEC registration process. Under which exemption could it sell securities only to accredited investors through a private placement?",
     "choices": [
-      { "label": "A", "text": "Regulation A+", "explanation": "Incorrect. Regulation A+ allows companies to offer securities to both accredited and non-accredited investors through a simplified registration process." },
-      { "label": "B", "text": "Regulation D, Rule 506(b)", "explanation": "Correct. Under Regulation D, Rule 506(b), companies can raise an unlimited amount of capital from accredited investors without general solicitation. Rule 506(c) allows general solicitation but requires all purchasers to be verified accredited investors." },
-      { "label": "C", "text": "Regulation S", "explanation": "Incorrect. Regulation S provides an exemption for securities offered and sold outside the United States. It does not address domestic private placements." },
-      { "label": "D", "text": "Rule 144", "explanation": "Incorrect. Rule 144 governs the resale of restricted and control securities, not the initial issuance of securities through a private placement." }
+      {
+        "label": "A",
+        "text": "Regulation A+",
+        "explanation": "Incorrect. Regulation A+ allows companies to offer securities to both accredited and non-accredited investors through a simplified registration process."
+      },
+      {
+        "label": "B",
+        "text": "Rule 144",
+        "explanation": "Incorrect. Rule 144 governs the resale of restricted and control securities, not the initial issuance of securities through a private placement."
+      },
+      {
+        "label": "C",
+        "text": "Regulation S",
+        "explanation": "Incorrect. Regulation S provides an exemption for securities offered and sold outside the United States. It does not address domestic private placements."
+      },
+      {
+        "label": "D",
+        "text": "Regulation D, Rule 506(b)",
+        "explanation": "Correct. Under Regulation D, Rule 506(b), companies can raise an unlimited amount of capital from accredited investors without general solicitation. Rule 506(c) allows general solicitation but requires all purchasers to be verified accredited investors."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Regulation D provides exemptions from full SEC registration for private placements. Rule 506(b) allows issuers to raise unlimited capital from accredited investors without general solicitation, making it the most common exemption for private placements.",
     "topic": "capital-markets",
     "subtopic": "offerings",
@@ -92,10 +172,26 @@
     "id": "q-cm-006",
     "stem": "Which federal agency has primary oversight responsibility for the securities industry, including the power to bring enforcement actions against violators of securities laws?",
     "choices": [
-      { "label": "A", "text": "The Department of the Treasury", "explanation": "Incorrect. The Treasury manages federal finances and the national debt but does not directly regulate the securities industry." },
-      { "label": "B", "text": "The Federal Reserve Board", "explanation": "Incorrect. The Federal Reserve primarily regulates the money supply and banking system, not the broader securities markets." },
-      { "label": "C", "text": "The Securities and Exchange Commission (SEC)", "explanation": "Correct. The SEC was created by the Securities Exchange Act of 1934 and has broad authority to oversee securities markets, require disclosure from public companies, regulate broker-dealers and investment advisers, and bring civil enforcement actions for securities law violations." },
-      { "label": "D", "text": "The Commodity Futures Trading Commission (CFTC)", "explanation": "Incorrect. The CFTC oversees futures and derivatives markets, not the equity and debt securities markets broadly regulated by the SEC." }
+      {
+        "label": "A",
+        "text": "The Department of the Treasury",
+        "explanation": "Incorrect. The Treasury manages federal finances and the national debt but does not directly regulate the securities industry."
+      },
+      {
+        "label": "B",
+        "text": "The Federal Reserve Board",
+        "explanation": "Incorrect. The Federal Reserve primarily regulates the money supply and banking system, not the broader securities markets."
+      },
+      {
+        "label": "C",
+        "text": "The Securities and Exchange Commission (SEC)",
+        "explanation": "Correct. The SEC was created by the Securities Exchange Act of 1934 and has broad authority to oversee securities markets, require disclosure from public companies, regulate broker-dealers and investment advisers, and bring civil enforcement actions for securities law violations."
+      },
+      {
+        "label": "D",
+        "text": "The Commodity Futures Trading Commission (CFTC)",
+        "explanation": "Incorrect. The CFTC oversees futures and derivatives markets, not the equity and debt securities markets broadly regulated by the SEC."
+      }
     ],
     "correctAnswer": "C",
     "explanation": "The SEC is the primary federal regulator of the securities industry. Created by the Securities Exchange Act of 1934, it has the authority to regulate exchanges, broker-dealers, investment advisers, and investment companies. It can bring civil enforcement actions and refer criminal cases to the DOJ.",
@@ -110,10 +206,26 @@
     "id": "q-cm-007",
     "stem": "The Municipal Securities Rulemaking Board (MSRB) was established primarily to:",
     "choices": [
-      { "label": "A", "text": "Regulate all corporate bond dealers and underwriters nationwide", "explanation": "Incorrect. Corporate bonds are regulated primarily by the SEC and FINRA, not the MSRB." },
-      { "label": "B", "text": "Set rules for broker-dealers and banks engaged in municipal securities activities", "explanation": "Correct. The MSRB was created by the Securities Acts Amendments of 1975 to regulate the municipal securities market. It sets rules for broker-dealers and banks that underwrite, trade, and sell municipal securities, though enforcement is carried out by FINRA and federal banking regulators." },
-      { "label": "C", "text": "Insure customer accounts at member broker-dealers up to $500,000", "explanation": "Incorrect. This describes SIPC (Securities Investor Protection Corporation), not the MSRB." },
-      { "label": "D", "text": "Regulate commodity futures contracts and derivatives markets", "explanation": "Incorrect. Commodity futures are regulated by the CFTC (Commodity Futures Trading Commission)." }
+      {
+        "label": "A",
+        "text": "Regulate all corporate bond dealers and underwriters nationwide",
+        "explanation": "Incorrect. Corporate bonds are regulated primarily by the SEC and FINRA, not the MSRB."
+      },
+      {
+        "label": "B",
+        "text": "Set rules for broker-dealers and banks engaged in municipal securities activities",
+        "explanation": "Correct. The MSRB was created by the Securities Acts Amendments of 1975 to regulate the municipal securities market. It sets rules for broker-dealers and banks that underwrite, trade, and sell municipal securities, though enforcement is carried out by FINRA and federal banking regulators."
+      },
+      {
+        "label": "C",
+        "text": "Insure customer accounts at member broker-dealers up to $500,000",
+        "explanation": "Incorrect. This describes SIPC (Securities Investor Protection Corporation), not the MSRB."
+      },
+      {
+        "label": "D",
+        "text": "Regulate commodity futures contracts and derivatives markets",
+        "explanation": "Incorrect. Commodity futures are regulated by the CFTC (Commodity Futures Trading Commission)."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "The MSRB is a self-regulatory organization that writes rules for broker-dealers and banks in the municipal securities market. A key distinction: the MSRB writes the rules but does NOT enforce them — enforcement falls to FINRA for broker-dealers and federal banking regulators for banks.",
@@ -128,12 +240,28 @@
     "id": "q-cm-008",
     "stem": "Which of the following best describes the difference between a broker and a dealer?",
     "choices": [
-      { "label": "A", "text": "A broker trades for its own account while a dealer acts as an agent for customers", "explanation": "Incorrect. This has the definitions reversed. A dealer trades for its own account; a broker acts as an agent." },
-      { "label": "B", "text": "A broker acts as an agent earning a commission; a dealer buys and sells from its own inventory earning a markup or markdown", "explanation": "Correct. When acting as a broker, a firm acts as agent between buyers and sellers and charges a commission. When acting as a dealer (principal), the firm buys securities for its own inventory and sells them to customers, earning a markup on sales or markdown on purchases." },
-      { "label": "C", "text": "A broker can only trade equities while a dealer can trade all security types", "explanation": "Incorrect. Both brokers and dealers can transact in various security types. The distinction is about their role (agent vs. principal), not the products they trade." },
-      { "label": "D", "text": "A dealer is registered with FINRA while a broker is registered with the SEC only", "explanation": "Incorrect. Both broker-dealers are registered with the SEC and FINRA. The terms broker and dealer describe different roles, not different registration categories." }
+      {
+        "label": "A",
+        "text": "A broker acts as an agent earning a commission; a dealer buys and sells from its own inventory earning a markup or markdown",
+        "explanation": "Correct. When acting as a broker, a firm acts as agent between buyers and sellers and charges a commission. When acting as a dealer (principal), the firm buys securities for its own inventory and sells them to customers, earning a markup on sales or markdown on purchases."
+      },
+      {
+        "label": "B",
+        "text": "A broker trades for its own account while a dealer acts as an agent for customers",
+        "explanation": "Incorrect. This has the definitions reversed. A dealer trades for its own account; a broker acts as an agent."
+      },
+      {
+        "label": "C",
+        "text": "A broker can only trade equities while a dealer can trade all security types",
+        "explanation": "Incorrect. Both brokers and dealers can transact in various security types. The distinction is about their role (agent vs. principal), not the products they trade."
+      },
+      {
+        "label": "D",
+        "text": "A dealer is registered with FINRA while a broker is registered with the SEC only",
+        "explanation": "Incorrect. Both broker-dealers are registered with the SEC and FINRA. The terms broker and dealer describe different roles, not different registration categories."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "The broker/dealer distinction is about the role played in a transaction. As a broker (agent), the firm arranges trades between parties and earns a commission. As a dealer (principal), the firm trades from its own inventory and earns a markup or markdown. Most firms are registered as 'broker-dealers' and may act in either capacity.",
     "topic": "capital-markets",
     "subtopic": "market-participants",
@@ -146,12 +274,28 @@
     "id": "q-cm-009",
     "stem": "In an underwriting agreement, if the underwriting syndicate agrees to purchase the ENTIRE new issue from the issuer and resell it to the public, this is called a:",
     "choices": [
-      { "label": "A", "text": "Best efforts underwriting", "explanation": "Incorrect. In a best efforts arrangement, the underwriter agrees to sell as much as possible but does NOT guarantee to purchase any unsold shares. The risk stays with the issuer." },
-      { "label": "B", "text": "Standby underwriting", "explanation": "Incorrect. Standby underwriting is used specifically with rights offerings, where underwriters agree to purchase any shares not taken up by existing shareholders." },
-      { "label": "C", "text": "Firm commitment underwriting", "explanation": "Correct. In a firm commitment underwriting, the underwriter(s) purchase the entire new issue from the issuer at a set price and then resell it to the public. The underwriter bears the risk of unsold inventory — this is the most common type of underwriting for large offerings." },
-      { "label": "D", "text": "All-or-none underwriting", "explanation": "Incorrect. In an all-or-none offering, the entire issue must be sold or the deal is cancelled. This differs from firm commitment, where the underwriters buy the shares regardless of public demand." }
+      {
+        "label": "A",
+        "text": "Best efforts underwriting",
+        "explanation": "Incorrect. In a best efforts arrangement, the underwriter agrees to sell as much as possible but does NOT guarantee to purchase any unsold shares. The risk stays with the issuer."
+      },
+      {
+        "label": "B",
+        "text": "Standby underwriting",
+        "explanation": "Incorrect. Standby underwriting is used specifically with rights offerings, where underwriters agree to purchase any shares not taken up by existing shareholders."
+      },
+      {
+        "label": "C",
+        "text": "All-or-none underwriting",
+        "explanation": "Incorrect. In an all-or-none offering, the entire issue must be sold or the deal is cancelled. This differs from firm commitment, where the underwriters buy the shares regardless of public demand."
+      },
+      {
+        "label": "D",
+        "text": "Firm commitment underwriting",
+        "explanation": "Correct. In a firm commitment underwriting, the underwriter(s) purchase the entire new issue from the issuer at a set price and then resell it to the public. The underwriter bears the risk of unsold inventory — this is the most common type of underwriting for large offerings."
+      }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "explanation": "A firm commitment underwriting means the underwriting syndicate buys the entire new issue from the issuer at a negotiated price and resells it to investors. The underwriters take on the market risk — if they can't sell all the shares at the offering price, they absorb the loss on unsold inventory.",
     "topic": "capital-markets",
     "subtopic": "offerings",
@@ -163,10 +307,26 @@
     "id": "q-cm-010",
     "stem": "Which phase of the business cycle is characterized by rising GDP, declining unemployment, and increasing corporate profits?",
     "choices": [
-      { "label": "A", "text": "Contraction (Recession)", "explanation": "Incorrect. During a contraction, GDP falls for at least two consecutive quarters, unemployment rises, and corporate profits typically decline." },
-      { "label": "B", "text": "Trough", "explanation": "Incorrect. A trough is the lowest point of a business cycle, just before the economy begins recovering. Economic indicators are at their worst at the trough." },
-      { "label": "C", "text": "Expansion", "explanation": "Correct. During an expansion (also called a recovery or boom), GDP grows, unemployment falls, consumer spending rises, and corporate profits increase. The stock market generally performs well during expansions as investor confidence and earnings growth increase." },
-      { "label": "D", "text": "Peak", "explanation": "Incorrect. A peak is the highest point of an expansion before the economy begins contracting. While economic indicators are strong at the peak, the peak itself is a turning point, not the phase of rising indicators." }
+      {
+        "label": "A",
+        "text": "Contraction (Recession)",
+        "explanation": "Incorrect. During a contraction, GDP falls for at least two consecutive quarters, unemployment rises, and corporate profits typically decline."
+      },
+      {
+        "label": "B",
+        "text": "Trough",
+        "explanation": "Incorrect. A trough is the lowest point of a business cycle, just before the economy begins recovering. Economic indicators are at their worst at the trough."
+      },
+      {
+        "label": "C",
+        "text": "Expansion",
+        "explanation": "Correct. During an expansion (also called a recovery or boom), GDP grows, unemployment falls, consumer spending rises, and corporate profits increase. The stock market generally performs well during expansions as investor confidence and earnings growth increase."
+      },
+      {
+        "label": "D",
+        "text": "Peak",
+        "explanation": "Incorrect. A peak is the highest point of an expansion before the economy begins contracting. While economic indicators are strong at the peak, the peak itself is a turning point, not the phase of rising indicators."
+      }
     ],
     "correctAnswer": "C",
     "explanation": "An economic expansion is characterized by rising GDP, falling unemployment, increasing consumer confidence, and growing corporate profits. This is typically a favorable environment for equity markets. The four phases of the business cycle are: expansion, peak, contraction (recession), and trough.",
@@ -180,10 +340,26 @@
     "id": "q-cm-011",
     "stem": "The Federal Reserve uses which of the following tools to implement monetary policy?",
     "choices": [
-      { "label": "A", "text": "Setting income tax rates and government spending levels", "explanation": "Incorrect. Income tax rates and government spending are tools of fiscal policy, which is controlled by Congress and the President — not the Federal Reserve." },
-      { "label": "B", "text": "Open market operations, reserve requirements, and the discount rate", "explanation": "Correct. The Federal Reserve's primary monetary policy tools include: (1) open market operations — buying/selling Treasury securities to influence bank reserves; (2) reserve requirements — the percentage of deposits banks must hold; and (3) the discount rate — the interest rate charged to banks borrowing from the Fed. The federal funds rate target is also set through open market operations." },
-      { "label": "C", "text": "Regulating mortgage lending standards and issuing currency only", "explanation": "Incorrect. While the Fed does have some regulatory authority over bank lending, this does not describe its primary monetary policy tools." },
-      { "label": "D", "text": "Controlling tariffs on imports to manage inflation", "explanation": "Incorrect. Tariff policy is a trade policy tool managed by the executive branch, not a Federal Reserve monetary policy tool." }
+      {
+        "label": "A",
+        "text": "Setting income tax rates and government spending levels",
+        "explanation": "Incorrect. Income tax rates and government spending are tools of fiscal policy, which is controlled by Congress and the President — not the Federal Reserve."
+      },
+      {
+        "label": "B",
+        "text": "Open market operations, reserve requirements, and the discount rate",
+        "explanation": "Correct. The Federal Reserve's primary monetary policy tools include: (1) open market operations — buying/selling Treasury securities to influence bank reserves; (2) reserve requirements — the percentage of deposits banks must hold; and (3) the discount rate — the interest rate charged to banks borrowing from the Fed. The federal funds rate target is also set through open market operations."
+      },
+      {
+        "label": "C",
+        "text": "Regulating mortgage lending standards and issuing currency only",
+        "explanation": "Incorrect. While the Fed does have some regulatory authority over bank lending, this does not describe its primary monetary policy tools."
+      },
+      {
+        "label": "D",
+        "text": "Controlling tariffs on imports to manage inflation",
+        "explanation": "Incorrect. Tariff policy is a trade policy tool managed by the executive branch, not a Federal Reserve monetary policy tool."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "The Federal Reserve implements monetary policy through three main tools: open market operations (buying/selling government securities), the discount rate (interest rate for bank borrowing from the Fed), and reserve requirements (percentage of deposits banks must keep). These tools influence the money supply and interest rates to achieve price stability and maximum employment.",
@@ -197,12 +373,28 @@
     "id": "q-cm-012",
     "stem": "What is the primary distinction between the primary market and the secondary market?",
     "choices": [
-      { "label": "A", "text": "The primary market trades bonds while the secondary market trades stocks", "explanation": "Incorrect. Both stocks and bonds can be issued in the primary market and traded in the secondary market. The distinction is not based on security type." },
-      { "label": "B", "text": "In the primary market, proceeds go to the issuer; in the secondary market, proceeds go to the seller", "explanation": "Correct. In the primary market, securities are sold for the first time and the issuing company receives the proceeds. In the secondary market, previously issued securities are traded between investors, and proceeds go to the selling investor, not the original issuer." },
-      { "label": "C", "text": "The primary market is regulated by FINRA while the secondary market is regulated by the SEC", "explanation": "Incorrect. Both markets are subject to SEC oversight. FINRA regulates broker-dealers who participate in both markets." },
-      { "label": "D", "text": "The primary market only includes exchanges like NYSE while secondary markets are OTC", "explanation": "Incorrect. Both primary and secondary market transactions can occur on exchanges or OTC. IPOs can be conducted through underwriters regardless of where the stock subsequently lists." }
+      {
+        "label": "A",
+        "text": "In the primary market, proceeds go to the issuer; in the secondary market, proceeds go to the seller",
+        "explanation": "Correct. In the primary market, securities are sold for the first time and the issuing company receives the proceeds. In the secondary market, previously issued securities are traded between investors, and proceeds go to the selling investor, not the original issuer."
+      },
+      {
+        "label": "B",
+        "text": "The primary market trades bonds while the secondary market trades stocks",
+        "explanation": "Incorrect. Both stocks and bonds can be issued in the primary market and traded in the secondary market. The distinction is not based on security type."
+      },
+      {
+        "label": "C",
+        "text": "The primary market is regulated by FINRA while the secondary market is regulated by the SEC",
+        "explanation": "Incorrect. Both markets are subject to SEC oversight. FINRA regulates broker-dealers who participate in both markets."
+      },
+      {
+        "label": "D",
+        "text": "The primary market only includes exchanges like NYSE while secondary markets are OTC",
+        "explanation": "Incorrect. Both primary and secondary market transactions can occur on exchanges or OTC. IPOs can be conducted through underwriters regardless of where the stock subsequently lists."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "The key distinction: in the primary market, the issuing company sells NEW securities directly to investors and receives the proceeds (used for business purposes). In the secondary market, investors buy and sell PREVIOUSLY ISSUED securities among themselves — the issuer receives nothing from these subsequent trades.",
     "topic": "capital-markets",
     "subtopic": "market-structure",
@@ -214,12 +406,28 @@
     "id": "q-cm-013",
     "stem": "Under Regulation A+, what is the maximum amount a company may raise in a 12-month period under Tier 2?",
     "choices": [
-      { "label": "A", "text": "$5 million", "explanation": "Incorrect. $5 million is the Tier 1 limit under Regulation A+, not the Tier 2 limit." },
-      { "label": "B", "text": "$20 million", "explanation": "Incorrect. $20 million was the original limit before the SEC increased the Tier 2 cap." },
-      { "label": "C", "text": "$75 million", "explanation": "Correct. Following the SEC's 2021 rule amendments, Tier 2 of Regulation A+ allows companies to raise up to $75 million in a 12-month period from both accredited and non-accredited investors, with certain investor limits for non-accredited investors. This is sometimes called a 'mini-IPO' pathway." },
-      { "label": "D", "text": "$100 million", "explanation": "Incorrect. The Tier 2 cap under Regulation A+ is $75 million, not $100 million." }
+      {
+        "label": "A",
+        "text": "$5 million",
+        "explanation": "Incorrect. $5 million is the Tier 1 limit under Regulation A+, not the Tier 2 limit."
+      },
+      {
+        "label": "B",
+        "text": "$20 million",
+        "explanation": "Incorrect. $20 million was the original limit before the SEC increased the Tier 2 cap."
+      },
+      {
+        "label": "C",
+        "text": "$100 million",
+        "explanation": "Incorrect. The Tier 2 cap under Regulation A+ is $75 million, not $100 million."
+      },
+      {
+        "label": "D",
+        "text": "$75 million",
+        "explanation": "Correct. Following the SEC's 2021 rule amendments, Tier 2 of Regulation A+ allows companies to raise up to $75 million in a 12-month period from both accredited and non-accredited investors, with certain investor limits for non-accredited investors. This is sometimes called a 'mini-IPO' pathway."
+      }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "explanation": "Regulation A+ (adopted under the JOBS Act and updated in 2021) has two tiers: Tier 1 allows up to $20 million in a 12-month period (with state review required), and Tier 2 allows up to $75 million from all investors — both accredited and non-accredited — with fewer state-level requirements.",
     "topic": "capital-markets",
     "subtopic": "offerings",
@@ -232,12 +440,28 @@
     "id": "q-cm-014",
     "stem": "A market maker in Nasdaq-listed securities is required to do which of the following?",
     "choices": [
-      { "label": "A", "text": "Execute all customer orders at the best available national price", "explanation": "Incorrect. While best execution obligations exist, this is not the defining requirement specific to market makers." },
-      { "label": "B", "text": "Post continuous bid and ask quotes in the stocks for which it is a market maker", "explanation": "Correct. A Nasdaq market maker must continuously post firm bid and ask quotations during market hours for the securities in which it is registered as a market maker. This commitment to provide continuous two-sided markets (to buy and to sell) is the core obligation of market making, which provides liquidity to the market." },
-      { "label": "C", "text": "Purchase any security at the asking price without restrictions", "explanation": "Incorrect. Market makers post quotes at which they are willing to trade, but these quotes are for specific sizes and are updated continuously. There is no obligation to purchase any security at an arbitrary asking price." },
-      { "label": "D", "text": "Act only as an agent and charge commissions on all transactions", "explanation": "Incorrect. Market makers act as dealers (principals), trading from their own inventory and earning the bid-ask spread. They are not agents earning commissions." }
+      {
+        "label": "A",
+        "text": "Execute all customer orders at the best available national price",
+        "explanation": "Incorrect. While best execution obligations exist, this is not the defining requirement specific to market makers."
+      },
+      {
+        "label": "B",
+        "text": "Purchase any security at the asking price without restrictions",
+        "explanation": "Incorrect. Market makers post quotes at which they are willing to trade, but these quotes are for specific sizes and are updated continuously. There is no obligation to purchase any security at an arbitrary asking price."
+      },
+      {
+        "label": "C",
+        "text": "Post continuous bid and ask quotes in the stocks for which it is a market maker",
+        "explanation": "Correct. A Nasdaq market maker must continuously post firm bid and ask quotations during market hours for the securities in which it is registered as a market maker. This commitment to provide continuous two-sided markets (to buy and to sell) is the core obligation of market making, which provides liquidity to the market."
+      },
+      {
+        "label": "D",
+        "text": "Act only as an agent and charge commissions on all transactions",
+        "explanation": "Incorrect. Market makers act as dealers (principals), trading from their own inventory and earning the bid-ask spread. They are not agents earning commissions."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Market makers provide liquidity by continuously posting firm two-sided quotes (bid and ask) for securities they make markets in. This obligation to always be willing to buy at the bid and sell at the ask — in minimum quantities — is what makes them 'market makers' as opposed to ordinary broker-dealers. Their compensation is the bid-ask spread.",
     "topic": "capital-markets",
     "subtopic": "market-participants",
@@ -249,12 +473,28 @@
     "id": "q-cm-015",
     "stem": "When a company issues additional shares of stock after its IPO to raise more capital, this is called a:",
     "choices": [
-      { "label": "A", "text": "Stock split", "explanation": "Incorrect. A stock split divides existing shares into more shares (e.g., 2-for-1), increasing the share count without raising new capital." },
-      { "label": "B", "text": "Stock buyback (repurchase)", "explanation": "Incorrect. A stock buyback is when a company purchases its own shares from the market, reducing the share count and returning capital to shareholders." },
-      { "label": "C", "text": "Seasoned equity offering (SEO) or follow-on offering", "explanation": "Correct. After a company's IPO, if it needs to raise additional equity capital, it can conduct a follow-on offering (also called a seasoned equity offering or secondary offering). New shares are created and sold, diluting existing shareholders. The issuing company receives the proceeds, unlike a 'secondary distribution' where existing shareholders sell their shares." },
-      { "label": "D", "text": "Rights distribution", "explanation": "Incorrect. A rights offering is a type of follow-on offering where existing shareholders are given the right to buy new shares at a discount before the public, but it is more specifically categorized as a rights offering rather than a generic follow-on." }
+      {
+        "label": "A",
+        "text": "Stock split",
+        "explanation": "Incorrect. A stock split divides existing shares into more shares (e.g., 2-for-1), increasing the share count without raising new capital."
+      },
+      {
+        "label": "B",
+        "text": "Seasoned equity offering (SEO) or follow-on offering",
+        "explanation": "Correct. After a company's IPO, if it needs to raise additional equity capital, it can conduct a follow-on offering (also called a seasoned equity offering or secondary offering). New shares are created and sold, diluting existing shareholders. The issuing company receives the proceeds, unlike a 'secondary distribution' where existing shareholders sell their shares."
+      },
+      {
+        "label": "C",
+        "text": "Stock buyback (repurchase)",
+        "explanation": "Incorrect. A stock buyback is when a company purchases its own shares from the market, reducing the share count and returning capital to shareholders."
+      },
+      {
+        "label": "D",
+        "text": "Rights distribution",
+        "explanation": "Incorrect. A rights offering is a type of follow-on offering where existing shareholders are given the right to buy new shares at a discount before the public, but it is more specifically categorized as a rights offering rather than a generic follow-on."
+      }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "B",
     "explanation": "A follow-on offering (SEO) occurs when a publicly traded company issues additional shares to raise new capital. The proceeds go to the company (unlike a secondary distribution where existing shareholders sell). Follow-on offerings dilute existing shareholders but fund business expansion.",
     "topic": "capital-markets",
     "subtopic": "offerings",
@@ -266,12 +506,28 @@
     "id": "q-cm-016",
     "stem": "What does 'GDP' measure, and why is it important to securities markets?",
     "choices": [
-      { "label": "A", "text": "The total value of a nation's outstanding debt; high GDP means the country is heavily indebted", "explanation": "Incorrect. GDP (Gross Domestic Product) measures economic output, not debt levels." },
-      { "label": "B", "text": "The total market value of all goods and services produced in a country in a given period; growth signals economic health that often supports rising corporate profits and equity prices", "explanation": "Correct. GDP (Gross Domestic Product) is the broadest measure of economic activity — it sums the value of all final goods and services produced. Rising GDP typically signals corporate earnings growth and higher employment, which tends to support stock prices. Two consecutive quarters of negative GDP growth is the common definition of a recession." },
-      { "label": "C", "text": "The average price level of consumer goods; it is used solely to measure inflation", "explanation": "Incorrect. Average price levels are measured by the Consumer Price Index (CPI) or Producer Price Index (PPI), not GDP." },
-      { "label": "D", "text": "The Federal Reserve's benchmark interest rate for overnight bank lending", "explanation": "Incorrect. That describes the federal funds rate, not GDP." }
+      {
+        "label": "A",
+        "text": "The total market value of all goods and services produced in a country in a given period; growth signals economic health that often supports rising corporate profits and equity prices",
+        "explanation": "Correct. GDP (Gross Domestic Product) is the broadest measure of economic activity — it sums the value of all final goods and services produced. Rising GDP typically signals corporate earnings growth and higher employment, which tends to support stock prices. Two consecutive quarters of negative GDP growth is the common definition of a recession."
+      },
+      {
+        "label": "B",
+        "text": "The total value of a nation's outstanding debt; high GDP means the country is heavily indebted",
+        "explanation": "Incorrect. GDP (Gross Domestic Product) measures economic output, not debt levels."
+      },
+      {
+        "label": "C",
+        "text": "The average price level of consumer goods; it is used solely to measure inflation",
+        "explanation": "Incorrect. Average price levels are measured by the Consumer Price Index (CPI) or Producer Price Index (PPI), not GDP."
+      },
+      {
+        "label": "D",
+        "text": "The Federal Reserve's benchmark interest rate for overnight bank lending",
+        "explanation": "Incorrect. That describes the federal funds rate, not GDP."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Gross Domestic Product (GDP) is the total monetary value of all final goods and services produced within a country's borders over a specific period. For securities markets, GDP growth rates are closely watched: strong GDP growth typically correlates with rising corporate earnings, which supports equity valuations. A technical recession is often defined as two consecutive quarters of negative GDP growth.",
     "topic": "capital-markets",
     "subtopic": "economic-factors",
@@ -283,12 +539,28 @@
     "id": "q-cm-017",
     "stem": "Which of the following describes the 'third market'?",
     "choices": [
-      { "label": "A", "text": "Trading of listed securities between institutional investors on exchanges during after-hours sessions", "explanation": "Incorrect. After-hours sessions on exchanges would still be exchange trading, not the third market." },
-      { "label": "B", "text": "The trading of exchange-listed securities in the OTC market by broker-dealers not members of that exchange", "explanation": "Correct. The 'third market' refers to trading of securities that are listed on an exchange but executed in the OTC market. This allows non-exchange-member broker-dealers to trade listed securities away from the exchange floor. The fourth market refers to direct trading between institutions without broker-dealers." },
-      { "label": "C", "text": "Direct trading of unlisted securities between two institutional investors without a broker-dealer intermediary", "explanation": "Incorrect. This describes the 'fourth market' — direct institution-to-institution trading typically through electronic communication networks (ECNs)." },
-      { "label": "D", "text": "The market for futures and commodity contracts separate from equity securities", "explanation": "Incorrect. Futures markets are regulated by the CFTC and are not described as the 'third market' in the context of equity market structure." }
+      {
+        "label": "A",
+        "text": "Trading of listed securities between institutional investors on exchanges during after-hours sessions",
+        "explanation": "Incorrect. After-hours sessions on exchanges would still be exchange trading, not the third market."
+      },
+      {
+        "label": "B",
+        "text": "The market for futures and commodity contracts separate from equity securities",
+        "explanation": "Incorrect. Futures markets are regulated by the CFTC and are not described as the 'third market' in the context of equity market structure."
+      },
+      {
+        "label": "C",
+        "text": "Direct trading of unlisted securities between two institutional investors without a broker-dealer intermediary",
+        "explanation": "Incorrect. This describes the 'fourth market' — direct institution-to-institution trading typically through electronic communication networks (ECNs)."
+      },
+      {
+        "label": "D",
+        "text": "The trading of exchange-listed securities in the OTC market by broker-dealers not members of that exchange",
+        "explanation": "Correct. The 'third market' refers to trading of securities that are listed on an exchange but executed in the OTC market. This allows non-exchange-member broker-dealers to trade listed securities away from the exchange floor. The fourth market refers to direct trading between institutions without broker-dealers."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Market structure terminology: First market = listed securities on exchanges. Second market = OTC trading of unlisted securities. Third market = exchange-listed securities traded OTC by non-member broker-dealers. Fourth market = direct institution-to-institution trading (via ECNs) without broker-dealer intermediaries.",
     "topic": "capital-markets",
     "subtopic": "market-structure",
@@ -300,12 +572,28 @@
     "id": "q-cm-018",
     "stem": "Under Rule 144, which of the following persons is considered a 'control person' or 'affiliate' of a company?",
     "choices": [
-      { "label": "A", "text": "Any investor who has held shares of the company for more than 6 months", "explanation": "Incorrect. Holding period alone does not make someone an affiliate. Rule 144 holding periods apply to restricted securities, but affiliation is defined by a relationship of control." },
-      { "label": "B", "text": "A person who directly or indirectly controls, is controlled by, or is under common control with the issuer — such as an officer, director, or large shareholder", "explanation": "Correct. Under Rule 144, an 'affiliate' is any person who controls, is controlled by, or is under common control with the issuer. This typically includes directors, officers, and shareholders owning 10% or more of a class of securities. Affiliates must follow Rule 144's volume, timing, and filing requirements when selling company shares." },
-      { "label": "C", "text": "Any institutional investor that owns more than 1% of a company's shares", "explanation": "Incorrect. A 1% threshold is not the definition of affiliate status. The control relationship, often indicated by 10%+ ownership along with board representation or executive roles, is what defines an affiliate." },
-      { "label": "D", "text": "A registered investment adviser that manages a portfolio containing company shares", "explanation": "Incorrect. An investment adviser managing shares of a company is not automatically an affiliate. Affiliation requires a control relationship with the issuer itself." }
+      {
+        "label": "A",
+        "text": "Any investor who has held shares of the company for more than 6 months",
+        "explanation": "Incorrect. Holding period alone does not make someone an affiliate. Rule 144 holding periods apply to restricted securities, but affiliation is defined by a relationship of control."
+      },
+      {
+        "label": "B",
+        "text": "Any institutional investor that owns more than 1% of a company's shares",
+        "explanation": "Incorrect. A 1% threshold is not the definition of affiliate status. The control relationship, often indicated by 10%+ ownership along with board representation or executive roles, is what defines an affiliate."
+      },
+      {
+        "label": "C",
+        "text": "A person who directly or indirectly controls, is controlled by, or is under common control with the issuer — such as an officer, director, or large shareholder",
+        "explanation": "Correct. Under Rule 144, an 'affiliate' is any person who controls, is controlled by, or is under common control with the issuer. This typically includes directors, officers, and shareholders owning 10% or more of a class of securities. Affiliates must follow Rule 144's volume, timing, and filing requirements when selling company shares."
+      },
+      {
+        "label": "D",
+        "text": "A registered investment adviser that manages a portfolio containing company shares",
+        "explanation": "Incorrect. An investment adviser managing shares of a company is not automatically an affiliate. Affiliation requires a control relationship with the issuer itself."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Rule 144 governs the resale of restricted and control securities. An 'affiliate' (control person) is someone who has a relationship of control with the issuer — such as an officer, director, or 10%+ shareholder. Affiliates must comply with volume limitations, manner-of-sale requirements, current public information requirements, and in some cases file Form 144 when selling company shares.",
     "topic": "capital-markets",
     "subtopic": "offerings",
@@ -318,10 +606,26 @@
     "id": "q-cm-019",
     "stem": "Which of the following best describes the role of the Commodity Futures Trading Commission (CFTC)?",
     "choices": [
-      { "label": "A", "text": "It regulates equity securities, mutual funds, and broker-dealers", "explanation": "Incorrect. Equity securities and mutual funds fall under the SEC's jurisdiction, not the CFTC." },
-      { "label": "B", "text": "It oversees futures contracts, commodity options, and swaps markets", "explanation": "Correct. The CFTC is the federal agency that regulates futures markets, commodity options, and most swaps markets. Created in 1974, the CFTC oversees futures exchanges (like the CME Group), swap dealers, and commodity pool operators." },
-      { "label": "C", "text": "It acts as a self-regulatory organization setting rules for municipal bond dealers", "explanation": "Incorrect. The MSRB sets rules for municipal bond dealers. The CFTC is a government agency focused on commodity derivatives, not municipal securities." },
-      { "label": "D", "text": "It manages the federal deposit insurance fund protecting bank customers", "explanation": "Incorrect. The FDIC (Federal Deposit Insurance Corporation) manages deposit insurance for bank customers, not the CFTC." }
+      {
+        "label": "A",
+        "text": "It regulates equity securities, mutual funds, and broker-dealers",
+        "explanation": "Incorrect. Equity securities and mutual funds fall under the SEC's jurisdiction, not the CFTC."
+      },
+      {
+        "label": "B",
+        "text": "It oversees futures contracts, commodity options, and swaps markets",
+        "explanation": "Correct. The CFTC is the federal agency that regulates futures markets, commodity options, and most swaps markets. Created in 1974, the CFTC oversees futures exchanges (like the CME Group), swap dealers, and commodity pool operators."
+      },
+      {
+        "label": "C",
+        "text": "It acts as a self-regulatory organization setting rules for municipal bond dealers",
+        "explanation": "Incorrect. The MSRB sets rules for municipal bond dealers. The CFTC is a government agency focused on commodity derivatives, not municipal securities."
+      },
+      {
+        "label": "D",
+        "text": "It manages the federal deposit insurance fund protecting bank customers",
+        "explanation": "Incorrect. The FDIC (Federal Deposit Insurance Corporation) manages deposit insurance for bank customers, not the CFTC."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "The CFTC (Commodity Futures Trading Commission) is the federal regulatory agency for futures, commodity options, and swaps markets. It oversees futures exchanges, clearing organizations, and market participants like commodity trading advisors and commodity pool operators. The CFTC and SEC coordinate on products with both securities and commodities characteristics.",
@@ -335,12 +639,28 @@
     "id": "q-cm-020",
     "stem": "During a period of high inflation, the Federal Reserve is most likely to:",
     "choices": [
-      { "label": "A", "text": "Purchase Treasury securities in the open market to increase the money supply", "explanation": "Incorrect. Purchasing Treasury securities (quantitative easing) expands the money supply and lowers interest rates — a stimulative action used during recessions, not to fight inflation." },
-      { "label": "B", "text": "Raise the federal funds rate target to reduce borrowing and cool economic activity", "explanation": "Correct. To combat inflation, the Federal Reserve raises interest rates (the federal funds rate target) by selling Treasury securities in open market operations. Higher rates make borrowing more expensive, reduce consumer spending and business investment, and cool demand — which reduces inflationary pressure." },
-      { "label": "C", "text": "Lower reserve requirements to encourage banks to lend more", "explanation": "Incorrect. Lowering reserve requirements would expand credit availability and increase the money supply, which would worsen inflation rather than reduce it." },
-      { "label": "D", "text": "Reduce the discount rate to make borrowing from the Fed cheaper", "explanation": "Incorrect. Reducing the discount rate makes it cheaper for banks to borrow from the Fed, which expands credit — the opposite of what is needed to fight inflation." }
+      {
+        "label": "A",
+        "text": "Raise the federal funds rate target to reduce borrowing and cool economic activity",
+        "explanation": "Correct. To combat inflation, the Federal Reserve raises interest rates (the federal funds rate target) by selling Treasury securities in open market operations. Higher rates make borrowing more expensive, reduce consumer spending and business investment, and cool demand — which reduces inflationary pressure."
+      },
+      {
+        "label": "B",
+        "text": "Purchase Treasury securities in the open market to increase the money supply",
+        "explanation": "Incorrect. Purchasing Treasury securities (quantitative easing) expands the money supply and lowers interest rates — a stimulative action used during recessions, not to fight inflation."
+      },
+      {
+        "label": "C",
+        "text": "Lower reserve requirements to encourage banks to lend more",
+        "explanation": "Incorrect. Lowering reserve requirements would expand credit availability and increase the money supply, which would worsen inflation rather than reduce it."
+      },
+      {
+        "label": "D",
+        "text": "Reduce the discount rate to make borrowing from the Fed cheaper",
+        "explanation": "Incorrect. Reducing the discount rate makes it cheaper for banks to borrow from the Fed, which expands credit — the opposite of what is needed to fight inflation."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "The Federal Reserve uses contractionary monetary policy to combat inflation: it raises the federal funds rate target (by selling Treasury securities in open market operations), increases the discount rate, or raises reserve requirements. Higher interest rates slow borrowing, reduce money supply growth, and cool inflationary demand in the economy.",
     "topic": "capital-markets",
     "subtopic": "economic-factors",
@@ -352,12 +672,28 @@
     "id": "q-cm-021",
     "stem": "An investment bank acting as an underwriter for a new issue must file which document with the SEC that discloses key information about the offering to potential investors?",
     "choices": [
-      { "label": "A", "text": "Form ADV", "explanation": "Incorrect. Form ADV is the registration document for investment advisers (RIAs), not for securities offerings." },
-      { "label": "B", "text": "Form U4", "explanation": "Incorrect. Form U4 is the Uniform Application for Securities Industry Registration, used by individuals registering as registered representatives." },
-      { "label": "C", "text": "Prospectus (filed as part of a registration statement)", "explanation": "Correct. Under the Securities Act of 1933, an issuer must file a registration statement with the SEC that includes a prospectus — a disclosure document containing financial statements, management information, risk factors, and details about the use of proceeds. Investors must receive a prospectus before or at the time of purchase." },
-      { "label": "D", "text": "Form 10-K", "explanation": "Incorrect. Form 10-K is an annual report filed by public companies with the SEC, covering business operations and financial results — not for new securities offerings." }
+      {
+        "label": "A",
+        "text": "Form ADV",
+        "explanation": "Incorrect. Form ADV is the registration document for investment advisers (RIAs), not for securities offerings."
+      },
+      {
+        "label": "B",
+        "text": "Form U4",
+        "explanation": "Incorrect. Form U4 is the Uniform Application for Securities Industry Registration, used by individuals registering as registered representatives."
+      },
+      {
+        "label": "C",
+        "text": "Form 10-K",
+        "explanation": "Incorrect. Form 10-K is an annual report filed by public companies with the SEC, covering business operations and financial results — not for new securities offerings."
+      },
+      {
+        "label": "D",
+        "text": "Prospectus (filed as part of a registration statement)",
+        "explanation": "Correct. Under the Securities Act of 1933, an issuer must file a registration statement with the SEC that includes a prospectus — a disclosure document containing financial statements, management information, risk factors, and details about the use of proceeds. Investors must receive a prospectus before or at the time of purchase."
+      }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "explanation": "The Securities Act of 1933 requires that a prospectus be provided to investors for registered public offerings. The prospectus (part of the registration statement, typically Form S-1 for IPOs) discloses material information about the company, the offering terms, risk factors, financial statements, and use of proceeds. The goal is 'full and fair disclosure' so investors can make informed decisions.",
     "topic": "capital-markets",
     "subtopic": "offerings",
@@ -370,12 +706,28 @@
     "id": "q-cm-022",
     "stem": "What is a 'tombstone advertisement' in the context of a securities offering?",
     "choices": [
-      { "label": "A", "text": "A formal legal notice announcing a company's bankruptcy filing", "explanation": "Incorrect. Tombstone advertisements are used in securities offerings, not bankruptcy proceedings." },
-      { "label": "B", "text": "A limited advertisement placed during the waiting period that announces a new offering but includes only basic information without soliciting purchases", "explanation": "Correct. A tombstone advertisement (named for its plain rectangular appearance) is a brief announcement of a new securities offering. During the waiting period between SEC filing and effectiveness, issuers may distribute tombstones that state the security type, size, offering price, and the underwriters — but cannot solicit purchases or provide full details. This is permitted under Rule 134." },
-      { "label": "C", "text": "The final prospectus distributed to all investors after the offering is complete", "explanation": "Incorrect. The final prospectus (also called the 'definitive prospectus') is distributed to investors, but this is separate from the tombstone advertisement." },
-      { "label": "D", "text": "A SEC-required post-offering disclosure of who purchased shares in the IPO", "explanation": "Incorrect. No such post-offering purchaser disclosure is required to be published as a tombstone." }
+      {
+        "label": "A",
+        "text": "A formal legal notice announcing a company's bankruptcy filing",
+        "explanation": "Incorrect. Tombstone advertisements are used in securities offerings, not bankruptcy proceedings."
+      },
+      {
+        "label": "B",
+        "text": "The final prospectus distributed to all investors after the offering is complete",
+        "explanation": "Incorrect. The final prospectus (also called the 'definitive prospectus') is distributed to investors, but this is separate from the tombstone advertisement."
+      },
+      {
+        "label": "C",
+        "text": "A limited advertisement placed during the waiting period that announces a new offering but includes only basic information without soliciting purchases",
+        "explanation": "Correct. A tombstone advertisement (named for its plain rectangular appearance) is a brief announcement of a new securities offering. During the waiting period between SEC filing and effectiveness, issuers may distribute tombstones that state the security type, size, offering price, and the underwriters — but cannot solicit purchases or provide full details. This is permitted under Rule 134."
+      },
+      {
+        "label": "D",
+        "text": "A SEC-required post-offering disclosure of who purchased shares in the IPO",
+        "explanation": "Incorrect. No such post-offering purchaser disclosure is required to be published as a tombstone."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "A tombstone advertisement is a limited announcement of a securities offering, permitted during the waiting period under Securities Act Rule 134. It can only include factual information about the offering (issuer name, type of security, aggregate offering amount, underwriters, where to obtain a prospectus) without constituting a sales solicitation.",
     "topic": "capital-markets",
     "subtopic": "offerings",
@@ -388,10 +740,26 @@
     "id": "q-cm-023",
     "stem": "Which of the following statements about fiscal policy is CORRECT?",
     "choices": [
-      { "label": "A", "text": "Fiscal policy is conducted by the Federal Reserve through adjustments to interest rates", "explanation": "Incorrect. The Federal Reserve conducts monetary policy (interest rates, money supply). Fiscal policy involves government spending and taxation." },
-      { "label": "B", "text": "Fiscal policy refers to government decisions about taxes and spending, controlled by Congress and the President", "explanation": "Correct. Fiscal policy consists of two tools: government spending (increased spending stimulates economic activity) and taxation (tax cuts leave more money for consumers/businesses). In the U.S., fiscal policy decisions are made by Congress and the President. During recessions, expansionary fiscal policy (increased spending, tax cuts) may be used; contractionary fiscal policy (spending cuts, tax increases) can cool inflation." },
-      { "label": "C", "text": "Fiscal policy is exclusively used to control inflation through money supply management", "explanation": "Incorrect. Money supply management is monetary policy (Federal Reserve's domain). Fiscal policy can affect inflation but through different tools." },
-      { "label": "D", "text": "Fiscal policy tools include the reserve requirement and the discount rate", "explanation": "Incorrect. Reserve requirements and the discount rate are monetary policy tools of the Federal Reserve, not fiscal policy tools." }
+      {
+        "label": "A",
+        "text": "Fiscal policy is conducted by the Federal Reserve through adjustments to interest rates",
+        "explanation": "Incorrect. The Federal Reserve conducts monetary policy (interest rates, money supply). Fiscal policy involves government spending and taxation."
+      },
+      {
+        "label": "B",
+        "text": "Fiscal policy refers to government decisions about taxes and spending, controlled by Congress and the President",
+        "explanation": "Correct. Fiscal policy consists of two tools: government spending (increased spending stimulates economic activity) and taxation (tax cuts leave more money for consumers/businesses). In the U.S., fiscal policy decisions are made by Congress and the President. During recessions, expansionary fiscal policy (increased spending, tax cuts) may be used; contractionary fiscal policy (spending cuts, tax increases) can cool inflation."
+      },
+      {
+        "label": "C",
+        "text": "Fiscal policy is exclusively used to control inflation through money supply management",
+        "explanation": "Incorrect. Money supply management is monetary policy (Federal Reserve's domain). Fiscal policy can affect inflation but through different tools."
+      },
+      {
+        "label": "D",
+        "text": "Fiscal policy tools include the reserve requirement and the discount rate",
+        "explanation": "Incorrect. Reserve requirements and the discount rate are monetary policy tools of the Federal Reserve, not fiscal policy tools."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "Fiscal policy involves government decisions on taxing and spending, made by Congress and the President (not the Federal Reserve). Expansionary fiscal policy (cutting taxes, increasing government spending) stimulates economic growth. Contractionary fiscal policy (raising taxes, cutting spending) can reduce inflationary pressure. This is distinct from monetary policy, which is the Federal Reserve's domain.",
@@ -405,12 +773,28 @@
     "id": "q-cm-024",
     "stem": "What is the 'cooling-off period' during a registered securities offering?",
     "choices": [
-      { "label": "A", "text": "The period after the offering closes during which the underwriter can withdraw", "explanation": "Incorrect. Underwriters do not have a general right to withdraw after the offering closes." },
-      { "label": "B", "text": "The time between filing the registration statement with the SEC and when the registration becomes effective", "explanation": "Correct. The cooling-off period (also called the waiting period) begins when the registration statement is filed with the SEC and ends when the SEC declares it effective. During this time, issuers and underwriters can solicit indications of interest (using a 'red herring' preliminary prospectus) but cannot make sales. The SEC reviews the filing during this period, which typically lasts at least 20 days." },
-      { "label": "C", "text": "A mandatory period after the offering in which the issuer cannot repurchase its own shares", "explanation": "Incorrect. While lock-up periods exist restricting insiders from selling, there is no standard 'cooling-off' period restricting the company from repurchasing shares post-offering." },
-      { "label": "D", "text": "The period during which investors can cancel their purchase orders without penalty", "explanation": "Incorrect. In standard registered offerings, investors do not have an automatic cancellation right during a cooling-off period. Some specific product types (like variable annuities) do have free-look periods, but that is different." }
+      {
+        "label": "A",
+        "text": "The time between filing the registration statement with the SEC and when the registration becomes effective",
+        "explanation": "Correct. The cooling-off period (also called the waiting period) begins when the registration statement is filed with the SEC and ends when the SEC declares it effective. During this time, issuers and underwriters can solicit indications of interest (using a 'red herring' preliminary prospectus) but cannot make sales. The SEC reviews the filing during this period, which typically lasts at least 20 days."
+      },
+      {
+        "label": "B",
+        "text": "The period after the offering closes during which the underwriter can withdraw",
+        "explanation": "Incorrect. Underwriters do not have a general right to withdraw after the offering closes."
+      },
+      {
+        "label": "C",
+        "text": "A mandatory period after the offering in which the issuer cannot repurchase its own shares",
+        "explanation": "Incorrect. While lock-up periods exist restricting insiders from selling, there is no standard 'cooling-off' period restricting the company from repurchasing shares post-offering."
+      },
+      {
+        "label": "D",
+        "text": "The period during which investors can cancel their purchase orders without penalty",
+        "explanation": "Incorrect. In standard registered offerings, investors do not have an automatic cancellation right during a cooling-off period. Some specific product types (like variable annuities) do have free-look periods, but that is different."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "The cooling-off period (waiting period) is the time between filing the registration statement and SEC effectiveness — a minimum of 20 days. During this period, the issuer and underwriters can distribute a preliminary prospectus ('red herring') and take indications of interest, but NO sales can be made. The SEC uses this time to review the filing and request changes.",
     "topic": "capital-markets",
     "subtopic": "offerings",
@@ -423,12 +807,28 @@
     "id": "q-cm-025",
     "stem": "Which economic indicator is considered a 'leading indicator' that tends to predict future economic activity?",
     "choices": [
-      { "label": "A", "text": "Unemployment rate", "explanation": "Incorrect. The unemployment rate is considered a lagging indicator — it tends to rise after a recession has already begun and fall after recovery is well underway." },
-      { "label": "B", "text": "Stock market prices", "explanation": "Correct. Stock market prices are considered a leading economic indicator because investors buy and sell based on expectations of future earnings. Rising stock prices often precede economic expansion; falling prices may signal future slowdowns. Other leading indicators include new housing permits, manufacturing orders, and consumer confidence." },
-      { "label": "C", "text": "Average duration of unemployment", "explanation": "Incorrect. The average duration of unemployment is a lagging indicator — it remains elevated after a recession ends because it takes time for discouraged workers to find employment." },
-      { "label": "D", "text": "Outstanding commercial and industrial loans", "explanation": "Incorrect. Business loan levels are a lagging indicator — businesses typically seek loans to expand after economic growth has already occurred." }
+      {
+        "label": "A",
+        "text": "Unemployment rate",
+        "explanation": "Incorrect. The unemployment rate is considered a lagging indicator — it tends to rise after a recession has already begun and fall after recovery is well underway."
+      },
+      {
+        "label": "B",
+        "text": "Outstanding commercial and industrial loans",
+        "explanation": "Incorrect. Business loan levels are a lagging indicator — businesses typically seek loans to expand after economic growth has already occurred."
+      },
+      {
+        "label": "C",
+        "text": "Average duration of unemployment",
+        "explanation": "Incorrect. The average duration of unemployment is a lagging indicator — it remains elevated after a recession ends because it takes time for discouraged workers to find employment."
+      },
+      {
+        "label": "D",
+        "text": "Stock market prices",
+        "explanation": "Correct. Stock market prices are considered a leading economic indicator because investors buy and sell based on expectations of future earnings. Rising stock prices often precede economic expansion; falling prices may signal future slowdowns. Other leading indicators include new housing permits, manufacturing orders, and consumer confidence."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Leading indicators change before the economy changes direction and help predict future trends. Stock market prices are a classic leading indicator. Lagging indicators (like unemployment, CPI) confirm trends after they've begun. Coincident indicators (like retail sales, industrial production) move with the economy in real time.",
     "topic": "capital-markets",
     "subtopic": "economic-factors",
@@ -440,12 +840,28 @@
     "id": "q-cm-026",
     "stem": "What is the primary function of a transfer agent?",
     "choices": [
-      { "label": "A", "text": "To set the offering price for IPOs and manage the underwriting syndicate", "explanation": "Incorrect. Setting the offering price and managing underwriting syndicates is the role of the lead underwriter (investment bank)." },
-      { "label": "B", "text": "To maintain records of securities owners, process name changes, cancel old certificates, and distribute dividends", "explanation": "Correct. A transfer agent is engaged by the issuing company to maintain the official shareholder records, process transfers of ownership (when shares change hands), cancel old certificates and issue new ones, and distribute dividends or other distributions to registered holders. Transfer agents may be banks, trust companies, or the issuer itself." },
-      { "label": "C", "text": "To provide custody of customer securities and cash at broker-dealer firms", "explanation": "Incorrect. This describes the role of a custodian or broker-dealer's clearing firm, not a transfer agent. Transfer agents work for the issuer, not the broker-dealer." },
-      { "label": "D", "text": "To execute trades on behalf of institutional clients at the best available prices", "explanation": "Incorrect. Trade execution is the function of a broker-dealer, not a transfer agent." }
+      {
+        "label": "A",
+        "text": "To set the offering price for IPOs and manage the underwriting syndicate",
+        "explanation": "Incorrect. Setting the offering price and managing underwriting syndicates is the role of the lead underwriter (investment bank)."
+      },
+      {
+        "label": "B",
+        "text": "To provide custody of customer securities and cash at broker-dealer firms",
+        "explanation": "Incorrect. This describes the role of a custodian or broker-dealer's clearing firm, not a transfer agent. Transfer agents work for the issuer, not the broker-dealer."
+      },
+      {
+        "label": "C",
+        "text": "To maintain records of securities owners, process name changes, cancel old certificates, and distribute dividends",
+        "explanation": "Correct. A transfer agent is engaged by the issuing company to maintain the official shareholder records, process transfers of ownership (when shares change hands), cancel old certificates and issue new ones, and distribute dividends or other distributions to registered holders. Transfer agents may be banks, trust companies, or the issuer itself."
+      },
+      {
+        "label": "D",
+        "text": "To execute trades on behalf of institutional clients at the best available prices",
+        "explanation": "Incorrect. Trade execution is the function of a broker-dealer, not a transfer agent."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "A transfer agent performs record-keeping functions for the issuing company: maintaining the official register of shareholders, processing changes in ownership, issuing/canceling stock certificates, distributing dividends, and handling rights offerings. They act on behalf of the issuer (not investors) and ensure accurate corporate records.",
     "topic": "capital-markets",
     "subtopic": "market-participants",
@@ -457,10 +873,26 @@
     "id": "q-cm-027",
     "stem": "Which of the following is TRUE regarding Rule 144A securities?",
     "choices": [
-      { "label": "A", "text": "They can be sold to any retail investor without restriction after a 6-month holding period", "explanation": "Incorrect. Rule 144A securities can only be traded among Qualified Institutional Buyers (QIBs) — not retail investors. They are not freely tradeable in the public market." },
-      { "label": "B", "text": "They allow unregistered securities to be resold only among Qualified Institutional Buyers (QIBs)", "explanation": "Correct. SEC Rule 144A allows the resale of privately placed, unregistered securities to Qualified Institutional Buyers (QIBs — institutions managing at least $100 million in securities). This rule created a more liquid private market for institutional investors without requiring full SEC registration." },
-      { "label": "C", "text": "They require full SEC registration before trading can occur", "explanation": "Incorrect. The whole point of Rule 144A is to allow trading of unregistered securities (bypassing full registration requirements) — but only among QIBs." },
-      { "label": "D", "text": "They are exempt from all disclosure requirements permanently", "explanation": "Incorrect. While Rule 144A securities avoid full SEC registration, issuers typically must still provide financial information to QIB purchasers upon request, and many 144A deals have registration rights requiring eventual registration." }
+      {
+        "label": "A",
+        "text": "They can be sold to any retail investor without restriction after a 6-month holding period",
+        "explanation": "Incorrect. Rule 144A securities can only be traded among Qualified Institutional Buyers (QIBs) — not retail investors. They are not freely tradeable in the public market."
+      },
+      {
+        "label": "B",
+        "text": "They allow unregistered securities to be resold only among Qualified Institutional Buyers (QIBs)",
+        "explanation": "Correct. SEC Rule 144A allows the resale of privately placed, unregistered securities to Qualified Institutional Buyers (QIBs — institutions managing at least $100 million in securities). This rule created a more liquid private market for institutional investors without requiring full SEC registration."
+      },
+      {
+        "label": "C",
+        "text": "They require full SEC registration before trading can occur",
+        "explanation": "Incorrect. The whole point of Rule 144A is to allow trading of unregistered securities (bypassing full registration requirements) — but only among QIBs."
+      },
+      {
+        "label": "D",
+        "text": "They are exempt from all disclosure requirements permanently",
+        "explanation": "Incorrect. While Rule 144A securities avoid full SEC registration, issuers typically must still provide financial information to QIB purchasers upon request, and many 144A deals have registration rights requiring eventual registration."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "Rule 144A created a private resale market for unregistered securities among Qualified Institutional Buyers (QIBs — institutional investors that manage at least $100 million in securities). This allows issuers to raise capital quickly without SEC registration, while QIBs gain more liquidity for their private investments. The PORTAL system facilitates Rule 144A trading.",
@@ -475,12 +907,28 @@
     "id": "q-cm-028",
     "stem": "Rising inflation generally has which of the following effects on interest rates and stock valuations?",
     "choices": [
-      { "label": "A", "text": "It causes interest rates to fall and stock prices to rise as purchasing power increases", "explanation": "Incorrect. Inflation typically causes interest rates to rise (lenders demand higher rates to compensate for purchasing power erosion), and higher interest rates often pressure stock valuations downward." },
-      { "label": "B", "text": "It tends to push interest rates higher and can reduce stock valuations by increasing the discount rate applied to future earnings", "explanation": "Correct. Inflation erodes purchasing power, leading investors to demand higher yields, pushing interest rates up. Higher interest rates increase the discount rate applied to future corporate cash flows, reducing the present value of stocks. Additionally, cost pressures from inflation can compress corporate profit margins." },
-      { "label": "C", "text": "It has no measurable effect on either interest rates or equity valuations", "explanation": "Incorrect. Inflation is one of the most impactful macroeconomic forces on both interest rates and asset valuations." },
-      { "label": "D", "text": "It causes interest rates to rise but always leads to higher stock prices due to increased revenue", "explanation": "Incorrect. While revenues may rise with inflation, higher interest rates typically compress valuations, and profit margins may not keep pace with inflationary costs." }
+      {
+        "label": "A",
+        "text": "It tends to push interest rates higher and can reduce stock valuations by increasing the discount rate applied to future earnings",
+        "explanation": "Correct. Inflation erodes purchasing power, leading investors to demand higher yields, pushing interest rates up. Higher interest rates increase the discount rate applied to future corporate cash flows, reducing the present value of stocks. Additionally, cost pressures from inflation can compress corporate profit margins."
+      },
+      {
+        "label": "B",
+        "text": "It causes interest rates to fall and stock prices to rise as purchasing power increases",
+        "explanation": "Incorrect. Inflation typically causes interest rates to rise (lenders demand higher rates to compensate for purchasing power erosion), and higher interest rates often pressure stock valuations downward."
+      },
+      {
+        "label": "C",
+        "text": "It has no measurable effect on either interest rates or equity valuations",
+        "explanation": "Incorrect. Inflation is one of the most impactful macroeconomic forces on both interest rates and asset valuations."
+      },
+      {
+        "label": "D",
+        "text": "It causes interest rates to rise but always leads to higher stock prices due to increased revenue",
+        "explanation": "Incorrect. While revenues may rise with inflation, higher interest rates typically compress valuations, and profit margins may not keep pace with inflationary costs."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Inflation and interest rates are closely linked. Higher inflation leads to higher interest rates (as bond investors demand higher yields to compensate for lost purchasing power). Higher interest rates increase the discount rate for stock valuations (reducing the present value of future cash flows), can raise corporate borrowing costs, and pressure profit margins — generally a headwind for equity prices.",
     "topic": "capital-markets",
     "subtopic": "economic-factors",
@@ -492,12 +940,28 @@
     "id": "q-cm-029",
     "stem": "A shelf registration allows a public company to:",
     "choices": [
-      { "label": "A", "text": "Store unregistered securities for sale to accredited investors without SEC review", "explanation": "Incorrect. Shelf registration involves filing with the SEC for registered securities. It does not bypass SEC review." },
-      { "label": "B", "text": "Register securities in advance and then sell them to the public in pieces over time without filing a new registration each time", "explanation": "Correct. A shelf registration (filed on Form S-3 for eligible companies) allows a company to register a large amount of securities upfront and then 'take them off the shelf' to sell in multiple tranches over 3 years as market conditions are favorable. This provides flexibility without the delay of a new full registration each time." },
-      { "label": "C", "text": "Issue securities without any disclosure to investors or the SEC", "explanation": "Incorrect. Shelf registrations still require full disclosure in the registration statement. Investors still receive a prospectus." },
-      { "label": "D", "text": "Sell securities exclusively to foreign investors outside the United States", "explanation": "Incorrect. That describes Regulation S offerings. Shelf registrations are for domestic public offerings." }
+      {
+        "label": "A",
+        "text": "Store unregistered securities for sale to accredited investors without SEC review",
+        "explanation": "Incorrect. Shelf registration involves filing with the SEC for registered securities. It does not bypass SEC review."
+      },
+      {
+        "label": "B",
+        "text": "Sell securities exclusively to foreign investors outside the United States",
+        "explanation": "Incorrect. That describes Regulation S offerings. Shelf registrations are for domestic public offerings."
+      },
+      {
+        "label": "C",
+        "text": "Issue securities without any disclosure to investors or the SEC",
+        "explanation": "Incorrect. Shelf registrations still require full disclosure in the registration statement. Investors still receive a prospectus."
+      },
+      {
+        "label": "D",
+        "text": "Register securities in advance and then sell them to the public in pieces over time without filing a new registration each time",
+        "explanation": "Correct. A shelf registration (filed on Form S-3 for eligible companies) allows a company to register a large amount of securities upfront and then 'take them off the shelf' to sell in multiple tranches over 3 years as market conditions are favorable. This provides flexibility without the delay of a new full registration each time."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "A shelf registration (Rule 415) allows eligible public companies to file a single registration statement covering securities they intend to offer over the next three years, then sell them in pieces ('off the shelf') when market timing is favorable. This is common for large, well-known companies that need recurring capital raises.",
     "topic": "capital-markets",
     "subtopic": "offerings",
@@ -510,12 +974,28 @@
     "id": "q-cm-030",
     "stem": "Which of the following best describes 'investment banking' activities?",
     "choices": [
-      { "label": "A", "text": "Accepting deposits and making loans to consumers and businesses", "explanation": "Incorrect. Accepting deposits and making loans is commercial banking. The Glass-Steagall Act (largely repealed by Gramm-Leach-Bliley in 1999) once separated these activities from investment banking." },
-      { "label": "B", "text": "Underwriting securities offerings, providing M&A advisory, and arranging private placements for corporate clients", "explanation": "Correct. Investment banking services include: (1) underwriting — helping companies raise capital through IPOs, follow-on offerings, and debt issuances; (2) M&A advisory — advising on mergers, acquisitions, and restructurings; and (3) private placements — arranging sales of unregistered securities to institutional investors." },
-      { "label": "C", "text": "Trading securities for retail customers and providing brokerage services to individual investors", "explanation": "Incorrect. Retail brokerage services are provided by broker-dealers in their capacity as agents and dealers. Investment banking focuses on capital markets transactions for corporations and institutions." },
-      { "label": "D", "text": "Managing investment portfolios for high-net-worth individuals as a fiduciary", "explanation": "Incorrect. Portfolio management for individuals describes wealth management or investment advisory services, not investment banking." }
+      {
+        "label": "A",
+        "text": "Accepting deposits and making loans to consumers and businesses",
+        "explanation": "Incorrect. Accepting deposits and making loans is commercial banking. The Glass-Steagall Act (largely repealed by Gramm-Leach-Bliley in 1999) once separated these activities from investment banking."
+      },
+      {
+        "label": "B",
+        "text": "Trading securities for retail customers and providing brokerage services to individual investors",
+        "explanation": "Incorrect. Retail brokerage services are provided by broker-dealers in their capacity as agents and dealers. Investment banking focuses on capital markets transactions for corporations and institutions."
+      },
+      {
+        "label": "C",
+        "text": "Underwriting securities offerings, providing M&A advisory, and arranging private placements for corporate clients",
+        "explanation": "Correct. Investment banking services include: (1) underwriting — helping companies raise capital through IPOs, follow-on offerings, and debt issuances; (2) M&A advisory — advising on mergers, acquisitions, and restructurings; and (3) private placements — arranging sales of unregistered securities to institutional investors."
+      },
+      {
+        "label": "D",
+        "text": "Managing investment portfolios for high-net-worth individuals as a fiduciary",
+        "explanation": "Incorrect. Portfolio management for individuals describes wealth management or investment advisory services, not investment banking."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Investment banking encompasses activities that help companies and governments raise capital and complete strategic transactions. Key functions include underwriting (securities offerings), M&A advisory, leveraged buyouts, and private placements. Investment banks act primarily in a principal or advisory capacity, unlike retail brokers who primarily serve individual investors.",
     "topic": "capital-markets",
     "subtopic": "market-participants",
@@ -527,10 +1007,26 @@
     "id": "q-cm-031",
     "stem": "A company that completed its IPO two years ago announces a new public offering of additional shares to raise capital for an acquisition. Which of the following BEST describes this type of offering?",
     "choices": [
-      { "label": "A", "text": "Initial public offering (IPO)", "explanation": "Incorrect. An IPO is the first-ever sale of a company's stock to the public. This company is already publicly traded." },
-      { "label": "B", "text": "Secondary offering (follow-on offering)", "explanation": "Correct. A secondary offering (also called a follow-on or seasoned equity offering) occurs when a company that is already publicly traded issues additional shares to raise new capital. The proceeds go to the issuer. This is distinct from an IPO (which is the first public sale) and from a secondary market transaction (which involves trading between investors)." },
-      { "label": "C", "text": "Private placement under Regulation D", "explanation": "Incorrect. A private placement is an exempt offering to accredited investors that does not involve a public sale. The question describes a public offering." },
-      { "label": "D", "text": "Tender offer", "explanation": "Incorrect. A tender offer is a bid to purchase shares from existing shareholders, typically at a premium. It is not a mechanism for issuing new shares." }
+      {
+        "label": "A",
+        "text": "Initial public offering (IPO)",
+        "explanation": "Incorrect. An IPO is the first-ever sale of a company's stock to the public. This company is already publicly traded."
+      },
+      {
+        "label": "B",
+        "text": "Secondary offering (follow-on offering)",
+        "explanation": "Correct. A secondary offering (also called a follow-on or seasoned equity offering) occurs when a company that is already publicly traded issues additional shares to raise new capital. The proceeds go to the issuer. This is distinct from an IPO (which is the first public sale) and from a secondary market transaction (which involves trading between investors)."
+      },
+      {
+        "label": "C",
+        "text": "Private placement under Regulation D",
+        "explanation": "Incorrect. A private placement is an exempt offering to accredited investors that does not involve a public sale. The question describes a public offering."
+      },
+      {
+        "label": "D",
+        "text": "Tender offer",
+        "explanation": "Incorrect. A tender offer is a bid to purchase shares from existing shareholders, typically at a premium. It is not a mechanism for issuing new shares."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "When an already-public company issues new shares to raise capital, it conducts a secondary (follow-on) offering. The company files a new registration statement or uses a shelf registration (Rule 415) if eligible. Proceeds go to the issuer, and existing shareholders may experience dilution.",
@@ -545,12 +1041,28 @@
     "id": "q-cm-032",
     "stem": "As of May 2024, the standard regular-way settlement cycle for U.S. equity securities is:",
     "choices": [
-      { "label": "A", "text": "T+0 (trade date)", "explanation": "Incorrect. Same-day settlement applies only to certain cash transactions, not to regular-way equity trades." },
-      { "label": "B", "text": "T+1 (one business day after trade date)", "explanation": "Correct. Effective May 28, 2024, the SEC shortened the standard settlement cycle for most securities — including equities, corporate bonds, and municipal securities — from T+2 to T+1. This reduces counterparty risk and lowers margin requirements at clearinghouses." },
-      { "label": "C", "text": "T+2 (two business days after trade date)", "explanation": "Incorrect. T+2 was the standard from 2017 until May 2024, when the SEC shortened the cycle to T+1." },
-      { "label": "D", "text": "T+3 (three business days after trade date)", "explanation": "Incorrect. T+3 was the settlement standard before September 2017. It has been shortened twice since then." }
+      {
+        "label": "A",
+        "text": "T+1 (one business day after trade date)",
+        "explanation": "Correct. Effective May 28, 2024, the SEC shortened the standard settlement cycle for most securities — including equities, corporate bonds, and municipal securities — from T+2 to T+1. This reduces counterparty risk and lowers margin requirements at clearinghouses."
+      },
+      {
+        "label": "B",
+        "text": "T+0 (trade date)",
+        "explanation": "Incorrect. Same-day settlement applies only to certain cash transactions, not to regular-way equity trades."
+      },
+      {
+        "label": "C",
+        "text": "T+2 (two business days after trade date)",
+        "explanation": "Incorrect. T+2 was the standard from 2017 until May 2024, when the SEC shortened the cycle to T+1."
+      },
+      {
+        "label": "D",
+        "text": "T+3 (three business days after trade date)",
+        "explanation": "Incorrect. T+3 was the settlement standard before September 2017. It has been shortened twice since then."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "The SEC adopted T+1 settlement effective May 28, 2024, under an amendment to Rule 15c6-1(a). The shorter cycle reduces the time between trade execution and final settlement, lowering counterparty and systemic risk. The GameStop short squeeze in January 2021 highlighted how the longer T+2 cycle amplified collateral demands at clearinghouses.",
     "topic": "capital-markets",
     "subtopic": "market-structure",
@@ -558,18 +1070,36 @@
     "source": "FINRA content outline",
     "regulatoryBasis": "SEC Rule 15c6-1(a)",
     "lastVerified": "2026-05-21",
-    "relatedStories": ["gamestop"]
+    "relatedStories": [
+      "gamestop"
+    ]
   },
   {
     "id": "q-cm-033",
     "stem": "An investor places a market order to buy 500 shares of XYZ stock. Which of the following is TRUE about this order?",
     "choices": [
-      { "label": "A", "text": "The order guarantees execution at the last quoted price.", "explanation": "Incorrect. A market order guarantees execution but not the price. The fill may differ from the last quoted price, especially in fast-moving or illiquid markets." },
-      { "label": "B", "text": "The order guarantees execution at the best available price but does not guarantee a specific price.", "explanation": "Correct. A market order instructs the broker to execute immediately at the best available price. Execution is virtually guaranteed (as long as there is a counterparty), but the actual fill price may differ from the most recently displayed quote, particularly for large orders or in volatile markets." },
-      { "label": "C", "text": "The order will only execute if the stock can be purchased at $30 or less.", "explanation": "Incorrect. This describes a limit order, not a market order. Market orders have no price restriction." },
-      { "label": "D", "text": "The order will be held until the end of the day and then cancelled if unfilled.", "explanation": "Incorrect. A market order executes immediately upon submission. It does not wait until end of day. A day limit order might expire unfilled, but a market order is filled promptly." }
+      {
+        "label": "A",
+        "text": "The order guarantees execution at the last quoted price.",
+        "explanation": "Incorrect. A market order guarantees execution but not the price. The fill may differ from the last quoted price, especially in fast-moving or illiquid markets."
+      },
+      {
+        "label": "B",
+        "text": "The order will be held until the end of the day and then cancelled if unfilled.",
+        "explanation": "Incorrect. A market order executes immediately upon submission. It does not wait until end of day. A day limit order might expire unfilled, but a market order is filled promptly."
+      },
+      {
+        "label": "C",
+        "text": "The order will only execute if the stock can be purchased at $30 or less.",
+        "explanation": "Incorrect. This describes a limit order, not a market order. Market orders have no price restriction."
+      },
+      {
+        "label": "D",
+        "text": "The order guarantees execution at the best available price but does not guarantee a specific price.",
+        "explanation": "Correct. A market order instructs the broker to execute immediately at the best available price. Execution is virtually guaranteed (as long as there is a counterparty), but the actual fill price may differ from the most recently displayed quote, particularly for large orders or in volatile markets."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Market orders prioritize speed of execution over price certainty. They execute at the best available bid (for sells) or ask (for buys) at the time the order reaches the market. This makes them suitable when getting into or out of a position quickly matters more than the exact price. The trade-off is the risk of slippage — receiving a worse price than expected in volatile or illiquid conditions.",
     "topic": "capital-markets",
     "subtopic": "market-structure",
@@ -581,12 +1111,28 @@
     "id": "q-cm-034",
     "stem": "Which of the following BEST describes the over-the-counter (OTC) market for equities?",
     "choices": [
-      { "label": "A", "text": "A centralized exchange with a physical trading floor where all trades are executed by specialists.", "explanation": "Incorrect. This describes a traditional exchange model like the NYSE floor. The OTC market is decentralized with no physical trading floor." },
-      { "label": "B", "text": "A decentralized network of dealers who negotiate trades electronically or by phone, primarily for securities not listed on major exchanges.", "explanation": "Correct. The OTC market is a dealer-based, decentralized market where broker-dealers negotiate trades directly with each other. It handles securities not listed on exchanges such as NYSE or Nasdaq, including many small-company stocks, penny stocks, and some bonds. OTC markets are facilitated through systems like OTC Markets Group (formerly the OTC Bulletin Board)." },
-      { "label": "C", "text": "An electronic order book identical to Nasdaq where all trades are automatically matched.", "explanation": "Incorrect. While electronic systems exist for OTC trading, the OTC market is fundamentally a negotiated dealer market, not an automated order-matching exchange like Nasdaq." },
-      { "label": "D", "text": "A market exclusively for government bonds and money market instruments.", "explanation": "Incorrect. While many government bonds do trade OTC, the OTC equity market also includes common stocks, preferred stocks, and other securities not listed on exchanges." }
+      {
+        "label": "A",
+        "text": "A centralized exchange with a physical trading floor where all trades are executed by specialists.",
+        "explanation": "Incorrect. This describes a traditional exchange model like the NYSE floor. The OTC market is decentralized with no physical trading floor."
+      },
+      {
+        "label": "B",
+        "text": "An electronic order book identical to Nasdaq where all trades are automatically matched.",
+        "explanation": "Incorrect. While electronic systems exist for OTC trading, the OTC market is fundamentally a negotiated dealer market, not an automated order-matching exchange like Nasdaq."
+      },
+      {
+        "label": "C",
+        "text": "A decentralized network of dealers who negotiate trades electronically or by phone, primarily for securities not listed on major exchanges.",
+        "explanation": "Correct. The OTC market is a dealer-based, decentralized market where broker-dealers negotiate trades directly with each other. It handles securities not listed on exchanges such as NYSE or Nasdaq, including many small-company stocks, penny stocks, and some bonds. OTC markets are facilitated through systems like OTC Markets Group (formerly the OTC Bulletin Board)."
+      },
+      {
+        "label": "D",
+        "text": "A market exclusively for government bonds and money market instruments.",
+        "explanation": "Incorrect. While many government bonds do trade OTC, the OTC equity market also includes common stocks, preferred stocks, and other securities not listed on exchanges."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "The OTC market is a decentralized, dealer-driven market where securities not listed on formal exchanges are traded through negotiation. Dealers (market makers) post bid and ask quotes and negotiate directly with counterparties. OTC Markets Group categorizes OTC equities into tiers: OTCQX (highest quality), OTCQB (venture market), and Pink (speculative/limited information).",
     "topic": "capital-markets",
     "subtopic": "market-structure",
@@ -598,10 +1144,26 @@
     "id": "q-cm-035",
     "stem": "Which of the following BEST describes an Electronic Communication Network (ECN)?",
     "choices": [
-      { "label": "A", "text": "A government-operated exchange for trading Treasury securities.", "explanation": "Incorrect. ECNs are privately operated systems for matching buy and sell orders. Treasury securities are traded through separate dealer and auction mechanisms." },
-      { "label": "B", "text": "An electronic system that automatically matches buy and sell orders for securities without using a traditional market maker as an intermediary.", "explanation": "Correct. An ECN is an automated trading system that directly matches buy and sell orders from participants without routing through a traditional market maker or specialist. ECNs provide anonymous, low-cost execution and operate as alternative trading systems (ATS) registered with the SEC under Regulation ATS. Examples include Instinet and ARCA." },
-      { "label": "C", "text": "A FINRA-operated communication system for reporting trade data to the public.", "explanation": "Incorrect. Trade reporting facilities (like TRACE for bonds or ORF for OTC equities) handle trade data dissemination. ECNs are order-matching systems, not reporting systems." },
-      { "label": "D", "text": "A physical network of telephone lines connecting exchange floor brokers.", "explanation": "Incorrect. ECNs are fully electronic. They replaced many functions that formerly required phone-based communication between brokers." }
+      {
+        "label": "A",
+        "text": "A government-operated exchange for trading Treasury securities.",
+        "explanation": "Incorrect. ECNs are privately operated systems for matching buy and sell orders. Treasury securities are traded through separate dealer and auction mechanisms."
+      },
+      {
+        "label": "B",
+        "text": "An electronic system that automatically matches buy and sell orders for securities without using a traditional market maker as an intermediary.",
+        "explanation": "Correct. An ECN is an automated trading system that directly matches buy and sell orders from participants without routing through a traditional market maker or specialist. ECNs provide anonymous, low-cost execution and operate as alternative trading systems (ATS) registered with the SEC under Regulation ATS. Examples include Instinet and ARCA."
+      },
+      {
+        "label": "C",
+        "text": "A FINRA-operated communication system for reporting trade data to the public.",
+        "explanation": "Incorrect. Trade reporting facilities (like TRACE for bonds or ORF for OTC equities) handle trade data dissemination. ECNs are order-matching systems, not reporting systems."
+      },
+      {
+        "label": "D",
+        "text": "A physical network of telephone lines connecting exchange floor brokers.",
+        "explanation": "Incorrect. ECNs are fully electronic. They replaced many functions that formerly required phone-based communication between brokers."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "ECNs are electronic alternative trading systems that match buy and sell orders directly, bypassing traditional intermediaries. They operate under SEC Regulation ATS, display orders in the national market system, and provide benefits including anonymity, lower costs, and extended trading hours. ECNs have significantly increased competition and efficiency in U.S. equity markets.",
@@ -616,12 +1178,28 @@
     "id": "q-cm-036",
     "stem": "Which of the following BEST describes a 'dark pool'?",
     "choices": [
-      { "label": "A", "text": "An illegal, unregulated trading venue where securities are traded without SEC oversight.", "explanation": "Incorrect. Dark pools are legal, SEC-registered alternative trading systems. They must comply with Regulation ATS and are subject to SEC and FINRA oversight." },
-      { "label": "B", "text": "A private trading venue where buy and sell orders are matched without pre-trade transparency — order details are not displayed publicly before execution.", "explanation": "Correct. Dark pools are alternative trading systems that do not display orders in the public quote system before execution. Institutional investors use them to execute large block trades without revealing their intentions to the broader market, which could cause adverse price movements (market impact). Dark pools must be registered with the SEC under Regulation ATS and report trades after execution." },
-      { "label": "C", "text": "A trading platform that operates only during after-hours sessions when exchanges are closed.", "explanation": "Incorrect. Dark pools can operate during regular market hours and are not defined by when they operate but by the lack of pre-trade order transparency." },
-      { "label": "D", "text": "An exchange-operated order type that guarantees execution at the midpoint of the NBBO.", "explanation": "Incorrect. While some dark pools offer midpoint matching, dark pools are not exchange-operated. They are separately registered alternative trading systems." }
+      {
+        "label": "A",
+        "text": "A private trading venue where buy and sell orders are matched without pre-trade transparency — order details are not displayed publicly before execution.",
+        "explanation": "Correct. Dark pools are alternative trading systems that do not display orders in the public quote system before execution. Institutional investors use them to execute large block trades without revealing their intentions to the broader market, which could cause adverse price movements (market impact). Dark pools must be registered with the SEC under Regulation ATS and report trades after execution."
+      },
+      {
+        "label": "B",
+        "text": "An illegal, unregulated trading venue where securities are traded without SEC oversight.",
+        "explanation": "Incorrect. Dark pools are legal, SEC-registered alternative trading systems. They must comply with Regulation ATS and are subject to SEC and FINRA oversight."
+      },
+      {
+        "label": "C",
+        "text": "A trading platform that operates only during after-hours sessions when exchanges are closed.",
+        "explanation": "Incorrect. Dark pools can operate during regular market hours and are not defined by when they operate but by the lack of pre-trade order transparency."
+      },
+      {
+        "label": "D",
+        "text": "An exchange-operated order type that guarantees execution at the midpoint of the NBBO.",
+        "explanation": "Incorrect. While some dark pools offer midpoint matching, dark pools are not exchange-operated. They are separately registered alternative trading systems."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Dark pools are private alternative trading systems that provide no pre-trade transparency — they do not display orders before execution. Institutional investors use them to trade large blocks without signaling their intentions to the market. While legal and regulated, dark pools have drawn regulatory scrutiny regarding fairness and the impact of reduced transparency on price discovery.",
     "topic": "capital-markets",
     "subtopic": "market-structure",
@@ -634,12 +1212,28 @@
     "id": "q-cm-037",
     "stem": "General obligation (GO) municipal bonds are backed by which of the following?",
     "choices": [
-      { "label": "A", "text": "Revenue from a specific project such as a toll road or hospital.", "explanation": "Incorrect. Bonds backed by revenue from a specific project are revenue bonds, not general obligation bonds." },
-      { "label": "B", "text": "The full faith, credit, and taxing power of the issuing municipality.", "explanation": "Correct. General obligation bonds are backed by the issuing government's full taxing authority — including property taxes, sales taxes, and other general tax revenues. The municipality pledges its ability to raise taxes to meet debt obligations, making GO bonds generally considered safer than revenue bonds for the same issuer." },
-      { "label": "C", "text": "Federal government guarantees similar to Treasury securities.", "explanation": "Incorrect. Municipal bonds are obligations of state and local governments, not the federal government. They do not carry federal government backing." },
-      { "label": "D", "text": "Corporate assets pledged as collateral by the municipality's commercial partners.", "explanation": "Incorrect. GO bonds are backed by the municipality's taxing power, not by corporate or private-sector collateral." }
+      {
+        "label": "A",
+        "text": "Revenue from a specific project such as a toll road or hospital.",
+        "explanation": "Incorrect. Bonds backed by revenue from a specific project are revenue bonds, not general obligation bonds."
+      },
+      {
+        "label": "B",
+        "text": "Corporate assets pledged as collateral by the municipality's commercial partners.",
+        "explanation": "Incorrect. GO bonds are backed by the municipality's taxing power, not by corporate or private-sector collateral."
+      },
+      {
+        "label": "C",
+        "text": "Federal government guarantees similar to Treasury securities.",
+        "explanation": "Incorrect. Municipal bonds are obligations of state and local governments, not the federal government. They do not carry federal government backing."
+      },
+      {
+        "label": "D",
+        "text": "The full faith, credit, and taxing power of the issuing municipality.",
+        "explanation": "Correct. General obligation bonds are backed by the issuing government's full taxing authority — including property taxes, sales taxes, and other general tax revenues. The municipality pledges its ability to raise taxes to meet debt obligations, making GO bonds generally considered safer than revenue bonds for the same issuer."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "General obligation (GO) municipal bonds are secured by the issuer's full faith, credit, and taxing power. The municipality pledges its general tax revenues (property taxes, income taxes, sales taxes) to service the debt. This differs from revenue bonds, which are backed only by income from a specific project. GO bonds typically require voter approval for issuance.",
     "topic": "capital-markets",
     "subtopic": "market-structure",
@@ -651,10 +1245,26 @@
     "id": "q-cm-038",
     "stem": "U.S. Treasury securities are considered virtually free of which type of risk?",
     "choices": [
-      { "label": "A", "text": "Interest rate risk", "explanation": "Incorrect. Treasury securities are subject to interest rate risk — their market prices fall when interest rates rise. Long-term Treasuries have significant interest rate risk." },
-      { "label": "B", "text": "Inflation risk (purchasing power risk)", "explanation": "Incorrect. Except for TIPS, fixed-rate Treasury securities are exposed to inflation risk. If inflation exceeds the coupon rate, the real return is negative." },
-      { "label": "C", "text": "Credit risk (default risk)", "explanation": "Correct. U.S. Treasury securities are backed by the full faith and credit of the U.S. government, which has the power to tax and print currency. They are considered virtually free of credit (default) risk and serve as the benchmark 'risk-free' rate in finance. However, they remain subject to interest rate risk, inflation risk, and reinvestment risk." },
-      { "label": "D", "text": "Reinvestment risk", "explanation": "Incorrect. Treasury coupon payments must be reinvested at prevailing rates, which may be lower than the original yield. Treasury securities carry reinvestment risk like other fixed-income instruments." }
+      {
+        "label": "A",
+        "text": "Interest rate risk",
+        "explanation": "Incorrect. Treasury securities are subject to interest rate risk — their market prices fall when interest rates rise. Long-term Treasuries have significant interest rate risk."
+      },
+      {
+        "label": "B",
+        "text": "Inflation risk (purchasing power risk)",
+        "explanation": "Incorrect. Except for TIPS, fixed-rate Treasury securities are exposed to inflation risk. If inflation exceeds the coupon rate, the real return is negative."
+      },
+      {
+        "label": "C",
+        "text": "Credit risk (default risk)",
+        "explanation": "Correct. U.S. Treasury securities are backed by the full faith and credit of the U.S. government, which has the power to tax and print currency. They are considered virtually free of credit (default) risk and serve as the benchmark 'risk-free' rate in finance. However, they remain subject to interest rate risk, inflation risk, and reinvestment risk."
+      },
+      {
+        "label": "D",
+        "text": "Reinvestment risk",
+        "explanation": "Incorrect. Treasury coupon payments must be reinvested at prevailing rates, which may be lower than the original yield. Treasury securities carry reinvestment risk like other fixed-income instruments."
+      }
     ],
     "correctAnswer": "C",
     "explanation": "U.S. Treasury securities carry essentially zero credit risk because they are backed by the U.S. government's taxing authority. This makes them the benchmark risk-free asset. However, investors in Treasuries still face interest rate risk (prices fall when rates rise), reinvestment risk (coupons may be reinvested at lower rates), and inflation risk (fixed payments may lose purchasing power).",
@@ -663,16 +1273,34 @@
     "difficulty": "medium",
     "source": "FINRA content outline",
     "lastVerified": "2026-05-21",
-    "relatedStories": ["svb"]
+    "relatedStories": [
+      "svb"
+    ]
   },
   {
     "id": "q-cm-039",
     "stem": "An investor enters a limit order to buy 200 shares of ABC at $48. The stock is currently trading at $50. Which of the following is TRUE?",
     "choices": [
-      { "label": "A", "text": "The order will execute immediately at $50, the current market price.", "explanation": "Incorrect. A buy limit order will only execute at the limit price or lower. Since the current price ($50) exceeds the limit ($48), the order will not execute immediately." },
-      { "label": "B", "text": "The order will execute only if ABC's price drops to $48 or below.", "explanation": "Correct. A buy limit order sets a maximum purchase price. The order sits on the order book and will execute only when the stock's ask price reaches $48 or lower. This gives the investor price protection — they will never pay more than $48 — but the order may never fill if the stock does not decline to $48." },
-      { "label": "C", "text": "The order is invalid because the limit price must be above the current market price for a buy order.", "explanation": "Incorrect. Buy limit orders are typically set below the current market price (the investor wants to buy on a dip). This is a valid and common order type." },
-      { "label": "D", "text": "The order becomes a market order at the end of the trading day.", "explanation": "Incorrect. Limit orders do not convert to market orders. If unfilled, a day limit order expires at the end of the session; a GTC limit order remains open for future sessions." }
+      {
+        "label": "A",
+        "text": "The order will execute immediately at $50, the current market price.",
+        "explanation": "Incorrect. A buy limit order will only execute at the limit price or lower. Since the current price ($50) exceeds the limit ($48), the order will not execute immediately."
+      },
+      {
+        "label": "B",
+        "text": "The order will execute only if ABC's price drops to $48 or below.",
+        "explanation": "Correct. A buy limit order sets a maximum purchase price. The order sits on the order book and will execute only when the stock's ask price reaches $48 or lower. This gives the investor price protection — they will never pay more than $48 — but the order may never fill if the stock does not decline to $48."
+      },
+      {
+        "label": "C",
+        "text": "The order is invalid because the limit price must be above the current market price for a buy order.",
+        "explanation": "Incorrect. Buy limit orders are typically set below the current market price (the investor wants to buy on a dip). This is a valid and common order type."
+      },
+      {
+        "label": "D",
+        "text": "The order becomes a market order at the end of the trading day.",
+        "explanation": "Incorrect. Limit orders do not convert to market orders. If unfilled, a day limit order expires at the end of the session; a GTC limit order remains open for future sessions."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "A buy limit order sets the maximum price the investor is willing to pay. It will only execute at the limit price or better (lower for a buy). Since the stock trades at $50 and the limit is $48, the order waits. The trade-off: the investor gets price protection but risks the stock never dropping to $48, meaning the order goes unfilled.",
@@ -686,12 +1314,28 @@
     "id": "q-cm-040",
     "stem": "Which of the following BEST describes the role of exchanges such as the New York Stock Exchange (NYSE)?",
     "choices": [
-      { "label": "A", "text": "Exchanges are government agencies that regulate the securities industry.", "explanation": "Incorrect. Exchanges are self-regulatory organizations (SROs) that operate as private entities, not government agencies. The SEC is the primary government regulator." },
-      { "label": "B", "text": "Exchanges provide a centralized, regulated marketplace where buyers and sellers can trade listed securities with price transparency and fair access.", "explanation": "Correct. Exchanges like the NYSE provide an organized marketplace with standardized rules, continuous price discovery, trade execution, and public price transparency. They are registered with the SEC as national securities exchanges and function as self-regulatory organizations that set listing standards and enforce trading rules for member participants." },
-      { "label": "C", "text": "Exchanges exclusively serve institutional investors and do not permit retail participation.", "explanation": "Incorrect. Exchanges serve both institutional and retail investors. Retail orders are routed to exchanges through broker-dealers." },
-      { "label": "D", "text": "Exchanges guarantee that all listed securities will increase in value over time.", "explanation": "Incorrect. Exchanges provide a fair and orderly marketplace but make no guarantees about the performance of listed securities." }
+      {
+        "label": "A",
+        "text": "Exchanges provide a centralized, regulated marketplace where buyers and sellers can trade listed securities with price transparency and fair access.",
+        "explanation": "Correct. Exchanges like the NYSE provide an organized marketplace with standardized rules, continuous price discovery, trade execution, and public price transparency. They are registered with the SEC as national securities exchanges and function as self-regulatory organizations that set listing standards and enforce trading rules for member participants."
+      },
+      {
+        "label": "B",
+        "text": "Exchanges are government agencies that regulate the securities industry.",
+        "explanation": "Incorrect. Exchanges are self-regulatory organizations (SROs) that operate as private entities, not government agencies. The SEC is the primary government regulator."
+      },
+      {
+        "label": "C",
+        "text": "Exchanges exclusively serve institutional investors and do not permit retail participation.",
+        "explanation": "Incorrect. Exchanges serve both institutional and retail investors. Retail orders are routed to exchanges through broker-dealers."
+      },
+      {
+        "label": "D",
+        "text": "Exchanges guarantee that all listed securities will increase in value over time.",
+        "explanation": "Incorrect. Exchanges provide a fair and orderly marketplace but make no guarantees about the performance of listed securities."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "National securities exchanges like the NYSE and Nasdaq provide regulated, transparent marketplaces for trading listed securities. They facilitate price discovery through order matching, enforce listing standards and trading rules, and disseminate real-time price data. As SROs, exchanges both operate markets and regulate their participants, subject to SEC oversight.",
     "topic": "capital-markets",
     "subtopic": "market-structure",

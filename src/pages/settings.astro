@@ -1,0 +1,9 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SettingsPanel from '../components/SettingsPanel';
+
+const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
+---
+<BaseLayout title="Settings">
+  <SettingsPanel client:load base={base} />
+</BaseLayout>

@@ -43,7 +43,40 @@ export const SECRET_TITLES: Record<string, SecretTitle> = {
     name: 'Cold Streak',
     description: 'Held a 30-day streak.',
   },
+  'the-insider': {
+    id: 'the-insider',
+    name: 'The Insider',
+    description: 'You\'ve been flagged.',
+  },
+  'mr-market': {
+    id: 'mr-market',
+    name: 'Mr. Market',
+    description: 'Closed a session at exactly :30 past the hour.',
+  },
+  'the-quant': {
+    id: 'the-quant',
+    name: 'The Quant',
+    description: '100 calculation-tagged questions correct.',
+  },
+  'the-whistleblower': {
+    id: 'the-whistleblower',
+    name: 'The Whistleblower',
+    description: 'Discovered the tap pattern.',
+  },
 };
+
+/** Heuristic: does this stem look like a calculation question? */
+export function isCalcQuestion(stem: string, subtopic?: string): boolean {
+  if (subtopic && /calc|yield|margin|premium|breakeven/i.test(subtopic)) return true;
+  // $123 / $12,345 or 12% / 12.5% or "calculate" verb
+  return /\$\s?\d|\d+(\.\d+)?\s?%|calculat/i.test(stem);
+}
+
+/** Heuristic: does this stem look like an insider-trading question? */
+export function isInsiderQuestion(stem: string, subtopic?: string): boolean {
+  if (subtopic && /insider/i.test(subtopic)) return true;
+  return /insider trad|inside information|tipper|tippee|material nonpublic/i.test(stem);
+}
 
 export function titleForXp(xp: number): Title {
   let current = TITLE_LADDER[0];

@@ -6,13 +6,13 @@
     "choices": [
       {
         "label": "A",
-        "text": "The cost of the company's equity financing only, adjusted for the tax shield on dividends.",
-        "explanation": "Incorrect. WACC includes both equity and debt costs, not equity alone. Dividends do not provide a tax shield; interest payments do."
+        "text": "The blended cost of all sources of capital — debt and equity — weighted by their market-value proportions, with the cost of debt adjusted for the tax deductibility of interest.",
+        "explanation": "Correct. WACC blends the after-tax cost of debt and the cost of equity, each weighted by the company's market-value capital structure. The tax adjustment applies to debt because interest expense is tax-deductible."
       },
       {
         "label": "B",
-        "text": "The blended cost of all sources of capital — debt and equity — weighted by their market-value proportions, with the cost of debt adjusted for the tax deductibility of interest.",
-        "explanation": "Correct. WACC blends the after-tax cost of debt and the cost of equity, each weighted by the company's market-value capital structure. The tax adjustment applies to debt because interest expense is tax-deductible."
+        "text": "The cost of the company's equity financing only, adjusted for the tax shield on dividends.",
+        "explanation": "Incorrect. WACC includes both equity and debt costs, not equity alone. Dividends do not provide a tax shield; interest payments do."
       },
       {
         "label": "C",
@@ -25,7 +25,7 @@
         "explanation": "Incorrect. WACC is a forward-looking required rate of return on the firm's total capital, not a backward-looking measure of equity returns."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "WACC represents the blended required rate of return across all sources of a company's financing. It is calculated as: WACC = (E/V x Re) + (D/V x Rd x (1 - T)), where E is equity, D is debt, V is total capital, Re is cost of equity, Rd is cost of debt, and T is the tax rate. The cost of debt is tax-adjusted because interest is deductible.",
     "subtopic": "Weighted average cost of capital",
     "difficulty": "easy",
@@ -40,8 +40,8 @@
     "choices": [
       {
         "label": "A",
-        "text": "8.0x; the company may be overvalued relative to peers.",
-        "explanation": "Correct. $400M / $50M = 8.0x. A higher EV/EBITDA multiple relative to the peer median suggests the market is pricing this company at a premium, which may indicate overvaluation unless justified by superior growth or margins."
+        "text": "6.0x; the company is trading exactly at the peer median.",
+        "explanation": "Incorrect. $400M divided by $50M = 8.0x, not 6.0x. The company's multiple exceeds the peer median."
       },
       {
         "label": "B",
@@ -55,11 +55,11 @@
       },
       {
         "label": "D",
-        "text": "6.0x; the company is trading exactly at the peer median.",
-        "explanation": "Incorrect. $400M divided by $50M = 8.0x, not 6.0x. The company's multiple exceeds the peer median."
+        "text": "8.0x; the company may be overvalued relative to peers.",
+        "explanation": "Correct. $400M / $50M = 8.0x. A higher EV/EBITDA multiple relative to the peer median suggests the market is pricing this company at a premium, which may indicate overvaluation unless justified by superior growth or margins."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "EV/EBITDA is a widely used valuation multiple in investment banking. Here, $400M divided by $50M = 8.0x. Compared to a peer median of 6.0x, the company trades at a premium. This could indicate overvaluation or reflect market expectations of superior growth, margins, or other qualitative factors.",
     "subtopic": "Comparable company analysis",
     "difficulty": "easy",
@@ -79,13 +79,13 @@
       },
       {
         "label": "B",
-        "text": "Include it but note the credit environment at the time and consider adjusting the implied range to account for the favorable financing conditions.",
-        "explanation": "Correct. Precedent transaction analysis should capture actual deal multiples, but the banker must contextualize outliers. Noting that cheap credit inflated the multiple allows the reader to weight it appropriately."
+        "text": "Use it as the primary benchmark because actual transaction prices are the most reliable data.",
+        "explanation": "Incorrect. While transaction prices are real-world data, using a single data point from an unusual environment as the primary benchmark would be misleading without context."
       },
       {
         "label": "C",
-        "text": "Use it as the primary benchmark because actual transaction prices are the most reliable data.",
-        "explanation": "Incorrect. While transaction prices are real-world data, using a single data point from an unusual environment as the primary benchmark would be misleading without context."
+        "text": "Include it but note the credit environment at the time and consider adjusting the implied range to account for the favorable financing conditions.",
+        "explanation": "Correct. Precedent transaction analysis should capture actual deal multiples, but the banker must contextualize outliers. Noting that cheap credit inflated the multiple allows the reader to weight it appropriately."
       },
       {
         "label": "D",
@@ -93,14 +93,16 @@
         "explanation": "Incorrect. Replacing an actual data point with an average of others fabricates data. The correct approach is to present the actual multiple with appropriate context."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Precedent transaction analysis uses actual deal multiples, but an investment banker must provide context for outliers. A transaction completed during a credit bubble likely reflects inflated pricing due to cheap leverage. The banker should include the data point, note the market conditions, and adjust the implied valuation range accordingly.",
     "subtopic": "Precedent transaction analysis",
     "difficulty": "medium",
     "source": "FINRA Series 79 content outline",
     "regulatoryBasis": "Series 79 Section 1: Collection, analysis & evaluation of data",
     "lastVerified": "2026-05-21",
-    "relatedStories": ["lehman"]
+    "relatedStories": [
+      "lehman"
+    ]
   },
   {
     "id": "q-s79-004",
@@ -114,13 +116,13 @@
       },
       {
         "label": "B",
-        "text": "Use only the terminal value and ignore the projection period entirely.",
-        "explanation": "Incorrect. Ignoring the projection period eliminates important information about the company's near-term cash flow profile and the trajectory toward positive FCF."
+        "text": "Project cash flows over the forecast period, including negative years, and discount all cash flows — including the terminal value — back to present value at the WACC.",
+        "explanation": "Correct. A DCF model discounts all projected free cash flows, whether positive or negative, plus the terminal value. Negative near-term cash flows are common for high-growth or turnaround companies."
       },
       {
         "label": "C",
-        "text": "Project cash flows over the forecast period, including negative years, and discount all cash flows — including the terminal value — back to present value at the WACC.",
-        "explanation": "Correct. A DCF model discounts all projected free cash flows, whether positive or negative, plus the terminal value. Negative near-term cash flows are common for high-growth or turnaround companies."
+        "text": "Use only the terminal value and ignore the projection period entirely.",
+        "explanation": "Incorrect. Ignoring the projection period eliminates important information about the company's near-term cash flow profile and the trajectory toward positive FCF."
       },
       {
         "label": "D",
@@ -128,7 +130,7 @@
         "explanation": "Incorrect. Setting negative cash flows to zero would overstate the company's value. All projected cash flows, positive or negative, must be included in the discounting."
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "B",
     "explanation": "A DCF model values a business by discounting all projected free cash flows — including negative ones — and the terminal value back to the present at the appropriate discount rate (typically WACC for FCFF). Negative near-term cash flows are common for companies investing heavily in growth or undergoing restructuring.",
     "subtopic": "DCF valuation methodology",
     "difficulty": "medium",
@@ -143,8 +145,8 @@
     "choices": [
       {
         "label": "A",
-        "text": "Net profit margin",
-        "explanation": "Incorrect. Net profit margin is affected by both interest expense (capital structure) and taxes, making it a poor comparison tool when these vary significantly between companies."
+        "text": "EBITDA margin",
+        "explanation": "Correct. EBITDA margin (EBITDA divided by Revenue) strips out interest, taxes, depreciation, and amortization, providing an operating profitability measure that is largely unaffected by capital structure or tax jurisdiction differences."
       },
       {
         "label": "B",
@@ -153,8 +155,8 @@
       },
       {
         "label": "C",
-        "text": "EBITDA margin",
-        "explanation": "Correct. EBITDA margin (EBITDA divided by Revenue) strips out interest, taxes, depreciation, and amortization, providing an operating profitability measure that is largely unaffected by capital structure or tax jurisdiction differences."
+        "text": "Net profit margin",
+        "explanation": "Incorrect. Net profit margin is affected by both interest expense (capital structure) and taxes, making it a poor comparison tool when these vary significantly between companies."
       },
       {
         "label": "D",
@@ -162,7 +164,7 @@
         "explanation": "Incorrect. EPS is affected by share count, capital structure, and taxes. It is not useful for cross-company operating profitability comparisons."
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "explanation": "EBITDA margin removes the effects of financing decisions (interest), tax regimes, and depreciation policies, making it the most suitable metric for comparing operating profitability between companies with different capital structures and tax jurisdictions. This is why investment bankers frequently use EBITDA-based metrics in valuation.",
     "subtopic": "Financial ratio analysis",
     "difficulty": "easy",
@@ -182,8 +184,8 @@
       },
       {
         "label": "B",
-        "text": "Reclassify the capitalized amounts as operating expenses to improve comparability with peers that expense similar costs.",
-        "explanation": "Correct. To compare companies on a like-for-like basis, the analyst should adjust for differences in capitalization policies by reclassifying aggressively capitalized items as operating expenses, which reduces EBITDA and may increase comparability."
+        "text": "Only adjust the balance sheet; the income statement effects are immaterial.",
+        "explanation": "Incorrect. Capitalization policies affect both the balance sheet (through asset inflation) and the income statement (through lower current-period expenses and higher future depreciation). Both must be considered."
       },
       {
         "label": "C",
@@ -192,18 +194,20 @@
       },
       {
         "label": "D",
-        "text": "Only adjust the balance sheet; the income statement effects are immaterial.",
-        "explanation": "Incorrect. Capitalization policies affect both the balance sheet (through asset inflation) and the income statement (through lower current-period expenses and higher future depreciation). Both must be considered."
+        "text": "Reclassify the capitalized amounts as operating expenses to improve comparability with peers that expense similar costs.",
+        "explanation": "Correct. To compare companies on a like-for-like basis, the analyst should adjust for differences in capitalization policies by reclassifying aggressively capitalized items as operating expenses, which reduces EBITDA and may increase comparability."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "When normalizing financial statements, an analyst should reclassify aggressively capitalized operating costs as expenses to ensure comparability with peers. This is critical in investment banking because different capitalization policies can distort EBITDA, margins, and valuation multiples.",
     "subtopic": "Financial statement normalization",
     "difficulty": "medium",
     "source": "FINRA Series 79 content outline",
     "regulatoryBasis": "Series 79 Section 1: Collection, analysis & evaluation of data",
     "lastVerified": "2026-05-21",
-    "relatedStories": ["worldcom"]
+    "relatedStories": [
+      "worldcom"
+    ]
   },
   {
     "id": "q-s79-007",
@@ -217,13 +221,13 @@
       },
       {
         "label": "B",
-        "text": "The exit multiple relative to the entry multiple.",
-        "explanation": "Correct. The spread between exit and entry multiples (multiple expansion or contraction) is typically the single largest driver of IRR in an LBO. Even small changes in the exit multiple can dramatically alter equity returns."
+        "text": "The interest rate on the acquisition debt.",
+        "explanation": "Incorrect. While the interest rate affects cash flow available for debt paydown, it has a smaller impact on IRR than the exit/entry multiple spread."
       },
       {
         "label": "C",
-        "text": "The interest rate on the acquisition debt.",
-        "explanation": "Incorrect. While the interest rate affects cash flow available for debt paydown, it has a smaller impact on IRR than the exit/entry multiple spread."
+        "text": "The exit multiple relative to the entry multiple.",
+        "explanation": "Correct. The spread between exit and entry multiples (multiple expansion or contraction) is typically the single largest driver of IRR in an LBO. Even small changes in the exit multiple can dramatically alter equity returns."
       },
       {
         "label": "D",
@@ -231,7 +235,7 @@
         "explanation": "Incorrect. In an LBO, excess cash flow is typically used to pay down debt rather than pay dividends. The dividend payout ratio of the public company pre-acquisition is largely irrelevant."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "In LBO analysis, IRR is driven by three main levers: (1) multiple expansion (exit vs. entry), (2) debt paydown from free cash flow, and (3) EBITDA growth. Of these, multiple expansion typically has the greatest impact. A PE sponsor buying at 6x EBITDA and selling at 8x EBITDA achieves significant returns from that expansion alone.",
     "subtopic": "LBO analysis",
     "difficulty": "medium",
@@ -272,7 +276,9 @@
     "source": "FINRA Series 79 content outline",
     "regulatoryBasis": "Series 79 Section 1: Collection, analysis & evaluation of data",
     "lastVerified": "2026-05-21",
-    "relatedStories": ["enron"]
+    "relatedStories": [
+      "enron"
+    ]
   },
   {
     "id": "q-s79-009",
@@ -320,8 +326,8 @@
       },
       {
         "label": "B",
-        "text": "12.4%",
-        "explanation": "Correct. CAPM: Cost of Equity = Rf + Beta x (Rm - Rf) = 4% + 1.4 x 6% = 4% + 8.4% = 12.4%."
+        "text": "14.0%",
+        "explanation": "Incorrect. This would result from multiplying the entire required market return by the beta or using incorrect inputs."
       },
       {
         "label": "C",
@@ -330,11 +336,11 @@
       },
       {
         "label": "D",
-        "text": "14.0%",
-        "explanation": "Incorrect. This would result from multiplying the entire required market return by the beta or using incorrect inputs."
+        "text": "12.4%",
+        "explanation": "Correct. CAPM: Cost of Equity = Rf + Beta x (Rm - Rf) = 4% + 1.4 x 6% = 4% + 8.4% = 12.4%."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "The CAPM formula is: Cost of Equity = Risk-Free Rate + Beta x Equity Risk Premium = 4% + 1.4 x 6% = 12.4%. This is a fundamental calculation in DCF analysis, as the cost of equity is a key input to WACC.",
     "subtopic": "CAPM and cost of equity",
     "difficulty": "easy",
@@ -354,13 +360,13 @@
       },
       {
         "label": "B",
-        "text": "WorldCom's capex-to-revenue ratio would have been abnormally high relative to peers, suggesting capital expenditures were being overstated.",
-        "explanation": "Correct. By reclassifying operating expenses as capital expenditures, WorldCom inflated its capex while simultaneously inflating EBITDA (since the expenses no longer flowed through operating costs). A peer comparison of capex-to-revenue ratios would have flagged the anomaly."
+        "text": "WorldCom's revenue growth would have appeared unsustainably high.",
+        "explanation": "Incorrect. The fraud involved capitalizing expenses, not inflating revenue. Revenue figures were not the primary area of manipulation in the WorldCom case."
       },
       {
         "label": "C",
-        "text": "WorldCom's revenue growth would have appeared unsustainably high.",
-        "explanation": "Incorrect. The fraud involved capitalizing expenses, not inflating revenue. Revenue figures were not the primary area of manipulation in the WorldCom case."
+        "text": "WorldCom's capex-to-revenue ratio would have been abnormally high relative to peers, suggesting capital expenditures were being overstated.",
+        "explanation": "Correct. By reclassifying operating expenses as capital expenditures, WorldCom inflated its capex while simultaneously inflating EBITDA (since the expenses no longer flowed through operating costs). A peer comparison of capex-to-revenue ratios would have flagged the anomaly."
       },
       {
         "label": "D",
@@ -368,14 +374,16 @@
         "explanation": "Incorrect. While capitalizing expenses increases assets, this is not what a capex-to-revenue peer comparison would directly detect."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "WorldCom's fraud involved booking operating line costs as capital expenditures, which inflated both reported assets and EBITDA. A simple peer comparison of the capex-to-revenue ratio would have revealed that WorldCom's capital spending appeared abnormally high relative to telecom peers, raising a red flag for due diligence.",
     "subtopic": "Forensic financial analysis",
     "difficulty": "hard",
     "source": "FINRA Series 79 content outline",
     "regulatoryBasis": "Sarbanes-Oxley Act Section 404; Series 79 Section 1",
     "lastVerified": "2026-05-21",
-    "relatedStories": ["worldcom"]
+    "relatedStories": [
+      "worldcom"
+    ]
   },
   {
     "id": "q-s79-012",
@@ -389,13 +397,13 @@
       },
       {
         "label": "B",
-        "text": "Similar growth rates and profit margins",
-        "explanation": "Incorrect. Financial profile similarity (growth, margins, returns) is critical to ensuring meaningful comparisons."
+        "text": "Headquarters located in the same geographic region",
+        "explanation": "Correct. While geography can matter (e.g., for regulatory or market exposure), it is typically the least important criterion compared to business model, financial profile, and size. A company in the same industry with similar financials in a different geography is usually a better comp than a geographically proximate company in a different business."
       },
       {
         "label": "C",
-        "text": "Headquarters located in the same geographic region",
-        "explanation": "Correct. While geography can matter (e.g., for regulatory or market exposure), it is typically the least important criterion compared to business model, financial profile, and size. A company in the same industry with similar financials in a different geography is usually a better comp than a geographically proximate company in a different business."
+        "text": "Similar growth rates and profit margins",
+        "explanation": "Incorrect. Financial profile similarity (growth, margins, returns) is critical to ensuring meaningful comparisons."
       },
       {
         "label": "D",
@@ -403,7 +411,7 @@
         "explanation": "Incorrect. Size comparability is important because smaller and larger companies often trade at different valuation multiples due to liquidity premiums, growth potential, and risk profiles."
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "B",
     "explanation": "When selecting comparables, the key criteria are: (1) similar business model and industry, (2) similar financial profile (growth, margins, capital intensity), and (3) similar size. While geographic location can influence valuation, it is typically the least important factor and should not override more fundamental business and financial similarities.",
     "subtopic": "Comparable company selection",
     "difficulty": "easy",
@@ -418,13 +426,13 @@
     "choices": [
       {
         "label": "A",
-        "text": "$24.00",
-        "explanation": "Incorrect. This would imply an equity value of $1,200M ($24 x 50M shares), which would mean no net debt was subtracted from enterprise value."
+        "text": "$20.00",
+        "explanation": "Correct. Implied EV = 10.0x x $120M = $1,200M. Subtract $200M net debt to get implied equity value of $1,000M. Divide by 50M diluted shares = $20.00 per share, which matches the current price."
       },
       {
         "label": "B",
-        "text": "$20.00",
-        "explanation": "Correct. Implied EV = 10.0x x $120M = $1,200M. Subtract $200M net debt to get implied equity value of $1,000M. Divide by 50M diluted shares = $20.00 per share, which matches the current price."
+        "text": "$24.00",
+        "explanation": "Incorrect. This would imply an equity value of $1,200M ($24 x 50M shares), which would mean no net debt was subtracted from enterprise value."
       },
       {
         "label": "C",
@@ -437,7 +445,7 @@
         "explanation": "Incorrect. $16.00 would imply an equity value of $800M, which would require either a lower multiple or the addition of net debt rather than subtraction."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Implied EV = EV/EBITDA multiple x EBITDA = 10.0x x $120M = $1,200M. To derive equity value from enterprise value, subtract net debt: $1,200M - $200M = $1,000M. Implied price per share = $1,000M / 50M diluted shares = $20.00. This indicates the company is trading in line with its peers.",
     "subtopic": "Equity value bridge from enterprise value",
     "difficulty": "medium",
@@ -457,8 +465,8 @@
       },
       {
         "label": "B",
-        "text": "Consolidate the SPEs' debt and assets into the company's financials when building the valuation model, and disclose the adjustment.",
-        "explanation": "Correct. Investment bankers must look through the legal structure to understand the economic substance. Off-balance-sheet debt that has recourse to the parent or that the parent is economically obligated to support should be consolidated for valuation purposes."
+        "text": "Apply a standard 10% discount to the company's equity value to account for potential hidden liabilities.",
+        "explanation": "Incorrect. An arbitrary discount is not an acceptable substitute for properly analyzing and quantifying the off-balance-sheet exposure."
       },
       {
         "label": "C",
@@ -467,18 +475,20 @@
       },
       {
         "label": "D",
-        "text": "Apply a standard 10% discount to the company's equity value to account for potential hidden liabilities.",
-        "explanation": "Incorrect. An arbitrary discount is not an acceptable substitute for properly analyzing and quantifying the off-balance-sheet exposure."
+        "text": "Consolidate the SPEs' debt and assets into the company's financials when building the valuation model, and disclose the adjustment.",
+        "explanation": "Correct. Investment bankers must look through the legal structure to understand the economic substance. Off-balance-sheet debt that has recourse to the parent or that the parent is economically obligated to support should be consolidated for valuation purposes."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Post-Enron, Sarbanes-Oxley and updated accounting standards (ASC 810) require more rigorous consolidation of variable interest entities. For valuation purposes, an investment banker should consolidate off-balance-sheet debt when the parent bears the economic risk, and clearly disclose the adjustment. Enron's collapse showed that ignoring these structures can lead to catastrophic mispricing.",
     "subtopic": "Off-balance-sheet analysis",
     "difficulty": "hard",
     "source": "FINRA Series 79 content outline",
     "regulatoryBasis": "Sarbanes-Oxley Act; ASC 810 (Consolidation); Series 79 Section 1",
     "lastVerified": "2026-05-21",
-    "relatedStories": ["enron"]
+    "relatedStories": [
+      "enron"
+    ]
   },
   {
     "id": "q-s79-015",
@@ -492,13 +502,13 @@
       },
       {
         "label": "B",
-        "text": "The terminal value equals the final projected year's free cash flow multiplied by (1 + g) and divided by (WACC - g), where g is the long-term sustainable growth rate.",
-        "explanation": "Correct. The Gordon Growth Model applied to terminal value is: TV = FCF x (1 + g) / (WACC - g). The growth rate (g) must be less than WACC and should approximate or be below the long-term nominal GDP growth rate."
+        "text": "The perpetuity growth rate must exactly equal the company's historical compound annual revenue growth rate.",
+        "explanation": "Incorrect. Historical growth rates often exceed long-term sustainable rates. The terminal growth rate reflects the company's growth after it has reached a steady state, which is typically much lower than historical growth."
       },
       {
         "label": "C",
-        "text": "The perpetuity growth rate must exactly equal the company's historical compound annual revenue growth rate.",
-        "explanation": "Incorrect. Historical growth rates often exceed long-term sustainable rates. The terminal growth rate reflects the company's growth after it has reached a steady state, which is typically much lower than historical growth."
+        "text": "The terminal value equals the final projected year's free cash flow multiplied by (1 + g) and divided by (WACC - g), where g is the long-term sustainable growth rate.",
+        "explanation": "Correct. The Gordon Growth Model applied to terminal value is: TV = FCF x (1 + g) / (WACC - g). The growth rate (g) must be less than WACC and should approximate or be below the long-term nominal GDP growth rate."
       },
       {
         "label": "D",
@@ -506,7 +516,7 @@
         "explanation": "Incorrect. The terminal value often accounts for 60-80% of total enterprise value in a DCF. Even small changes in the terminal growth rate can significantly affect the output."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "The perpetuity growth method calculates terminal value as: TV = FCFn x (1 + g) / (WACC - g). The terminal growth rate (g) must be less than WACC and should generally not exceed the long-term nominal GDP growth rate (typically 2-3%). Because terminal value often represents the majority of total DCF value, this assumption is one of the most sensitive in the entire model.",
     "subtopic": "Terminal value methodology",
     "difficulty": "medium",
@@ -555,13 +565,13 @@
     "choices": [
       {
         "label": "A",
-        "text": "Pre-filing period",
-        "explanation": "Incorrect. The pre-filing period is before the registration statement is filed. During this period, offers to sell are generally prohibited (subject to Rule 163A and 163B safe harbors)."
+        "text": "Waiting period (cooling-off period)",
+        "explanation": "Correct. The waiting period begins when the registration statement is filed and ends when the SEC declares it effective. During this period, oral offers are permitted, preliminary prospectuses (red herrings) may be distributed, and roadshows may be conducted, but sales may not be completed."
       },
       {
         "label": "B",
-        "text": "Waiting period (cooling-off period)",
-        "explanation": "Correct. The waiting period begins when the registration statement is filed and ends when the SEC declares it effective. During this period, oral offers are permitted, preliminary prospectuses (red herrings) may be distributed, and roadshows may be conducted, but sales may not be completed."
+        "text": "Pre-filing period",
+        "explanation": "Incorrect. The pre-filing period is before the registration statement is filed. During this period, offers to sell are generally prohibited (subject to Rule 163A and 163B safe harbors)."
       },
       {
         "label": "C",
@@ -574,7 +584,7 @@
         "explanation": "Incorrect. The quiet period (now more accurately called the research blackout period) restricts research analyst activity. It is not the formal name for the period between filing and effectiveness."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "The waiting period (also called the cooling-off period) runs from the filing of the registration statement until the SEC declares it effective (typically 20 days minimum). During this period, the issuer and underwriters may make oral offers, distribute the preliminary prospectus (red herring), and conduct the roadshow, but may not complete any sales.",
     "subtopic": "SEC registration process",
     "difficulty": "easy",
@@ -594,8 +604,8 @@
       },
       {
         "label": "B",
-        "text": "The underwriting syndicate, which has purchased the entire offering from the issuer.",
-        "explanation": "Correct. In a firm commitment underwriting, the syndicate buys the entire offering from the issuer at the agreed price less the underwriting spread. If the shares cannot be resold to investors, the syndicate bears the loss."
+        "text": "The investors who submitted indications of interest during the roadshow.",
+        "explanation": "Incorrect. Indications of interest are non-binding. Investors are not obligated to purchase shares based on roadshow IOIs."
       },
       {
         "label": "C",
@@ -604,11 +614,11 @@
       },
       {
         "label": "D",
-        "text": "The investors who submitted indications of interest during the roadshow.",
-        "explanation": "Incorrect. Indications of interest are non-binding. Investors are not obligated to purchase shares based on roadshow IOIs."
+        "text": "The underwriting syndicate, which has purchased the entire offering from the issuer.",
+        "explanation": "Correct. In a firm commitment underwriting, the syndicate buys the entire offering from the issuer at the agreed price less the underwriting spread. If the shares cannot be resold to investors, the syndicate bears the loss."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "In a firm commitment underwriting, the underwriting syndicate purchases the entire offering from the issuer at the public offering price minus the underwriting spread (discount). The syndicate then resells the shares to investors. If demand is insufficient, the syndicate — not the issuer — bears the risk of holding unsold inventory. This contrasts with a best-efforts offering, where the issuer retains the risk.",
     "subtopic": "Underwriting structures",
     "difficulty": "easy",
@@ -623,8 +633,8 @@
     "choices": [
       {
         "label": "A",
-        "text": "Purchase up to 15% additional shares from the issuer at the offering price to cover over-allotments.",
-        "explanation": "Correct. The standard green shoe option allows underwriters to purchase up to 15% of the original offering size from the issuer at the IPO price. This is used to stabilize the aftermarket price and cover the syndicate's short position created by over-allotting shares."
+        "text": "Increase the offering price by up to 15% if demand exceeds expectations.",
+        "explanation": "Incorrect. The green shoe relates to additional share volume, not price increases. Price adjustments occur through the book-building and pricing process."
       },
       {
         "label": "B",
@@ -633,8 +643,8 @@
       },
       {
         "label": "C",
-        "text": "Increase the offering price by up to 15% if demand exceeds expectations.",
-        "explanation": "Incorrect. The green shoe relates to additional share volume, not price increases. Price adjustments occur through the book-building and pricing process."
+        "text": "Purchase up to 15% additional shares from the issuer at the offering price to cover over-allotments.",
+        "explanation": "Correct. The standard green shoe option allows underwriters to purchase up to 15% of the original offering size from the issuer at the IPO price. This is used to stabilize the aftermarket price and cover the syndicate's short position created by over-allotting shares."
       },
       {
         "label": "D",
@@ -642,7 +652,7 @@
         "explanation": "Incorrect. The green shoe has nothing to do with settlement timing. It is strictly an option to purchase additional shares to cover over-allotments."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The green shoe (over-allotment option), named after the first company to use it, allows underwriters to purchase up to 15% of the original offering from the issuer at the offering price within 30 days. Underwriters typically over-allot shares, creating a short position. If the stock trades above the IPO price, they exercise the green shoe; if it falls below, they cover by purchasing in the open market, which provides price stabilization.",
     "subtopic": "Green shoe / over-allotment option",
     "difficulty": "medium",
@@ -657,13 +667,13 @@
     "choices": [
       {
         "label": "A",
-        "text": "Bidding for or purchasing the offered security in the secondary market by the lead underwriter.",
-        "explanation": "Correct. Regulation M (Rule 101 and Rule 102) prohibits underwriters and other distribution participants from bidding for or purchasing the security being distributed during the applicable restricted period. This prevents artificial price support that could mislead investors about actual market demand."
+        "text": "Publishing research reports about the issuer after the offering is priced.",
+        "explanation": "Incorrect. Regulation M does not directly regulate research reports. Research restrictions come from the research analyst rules under FINRA Rules 2241/2242 and the Global Research Settlement."
       },
       {
         "label": "B",
-        "text": "Publishing research reports about the issuer after the offering is priced.",
-        "explanation": "Incorrect. Regulation M does not directly regulate research reports. Research restrictions come from the research analyst rules under FINRA Rules 2241/2242 and the Global Research Settlement."
+        "text": "Bidding for or purchasing the offered security in the secondary market by the lead underwriter.",
+        "explanation": "Correct. Regulation M (Rule 101 and Rule 102) prohibits underwriters and other distribution participants from bidding for or purchasing the security being distributed during the applicable restricted period. This prevents artificial price support that could mislead investors about actual market demand."
       },
       {
         "label": "C",
@@ -676,7 +686,7 @@
         "explanation": "Incorrect. Form D relates to Regulation D private placement filings. It has no connection to Regulation M's anti-manipulation rules."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Regulation M is an anti-manipulation regulation that restricts distribution participants (underwriters, issuers, selling shareholders) from bidding for, purchasing, or inducing others to buy the offered security during the distribution. The restricted period depends on the security's average daily trading volume and public float. Exceptions exist for stabilization bids under Rule 104.",
     "subtopic": "Regulation M",
     "difficulty": "medium",
@@ -691,13 +701,13 @@
     "choices": [
       {
         "label": "A",
-        "text": "A portfolio manager at a registered investment company (mutual fund).",
-        "explanation": "Incorrect. Registered investment companies are exempt from Rule 5130 restrictions. The rule targets individuals associated with the securities industry, not institutional investors acting on behalf of public fund shareholders."
+        "text": "A registered representative at a FINRA member firm that is not involved in the offering.",
+        "explanation": "Correct. Rule 5130 prohibits FINRA member firms from selling new issues to restricted persons, which includes most broker-dealer employees (officers, directors, registered representatives) and their immediate family members, regardless of whether their firm is involved in the specific offering."
       },
       {
         "label": "B",
-        "text": "A registered representative at a FINRA member firm that is not involved in the offering.",
-        "explanation": "Correct. Rule 5130 prohibits FINRA member firms from selling new issues to restricted persons, which includes most broker-dealer employees (officers, directors, registered representatives) and their immediate family members, regardless of whether their firm is involved in the specific offering."
+        "text": "A portfolio manager at a registered investment company (mutual fund).",
+        "explanation": "Incorrect. Registered investment companies are exempt from Rule 5130 restrictions. The rule targets individuals associated with the securities industry, not institutional investors acting on behalf of public fund shareholders."
       },
       {
         "label": "C",
@@ -710,7 +720,7 @@
         "explanation": "Incorrect. Pension funds and other institutional investors managed by independent advisers are generally exempt from Rule 5130 restrictions."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "FINRA Rule 5130 (Restrictions on the Purchase and Sale of Initial Equity Public Offerings) prohibits member firms from selling new issues to restricted persons, including broker-dealer personnel, their immediate family, and certain other industry-associated persons. The rule prevents industry insiders from receiving preferential allocations of underpriced IPOs.",
     "subtopic": "FINRA Rule 5130",
     "difficulty": "medium",
@@ -730,8 +740,8 @@
       },
       {
         "label": "B",
-        "text": "Qualified institutional buyers (QIBs) — institutions with at least $100 million in securities owned and invested on a discretionary basis.",
-        "explanation": "Correct. Rule 144A provides a safe harbor for resale of unregistered (restricted) securities to QIBs. A QIB must own and invest on a discretionary basis at least $100 million in securities of unaffiliated issuers (or $10 million for broker-dealers)."
+        "text": "Individual investors who have held the securities for at least six months.",
+        "explanation": "Incorrect. The six-month holding period relates to Rule 144 (not 144A), and Rule 144A is specifically for institutional resales, not individual investor resales."
       },
       {
         "label": "C",
@@ -740,11 +750,11 @@
       },
       {
         "label": "D",
-        "text": "Individual investors who have held the securities for at least six months.",
-        "explanation": "Incorrect. The six-month holding period relates to Rule 144 (not 144A), and Rule 144A is specifically for institutional resales, not individual investor resales."
+        "text": "Qualified institutional buyers (QIBs) — institutions with at least $100 million in securities owned and invested on a discretionary basis.",
+        "explanation": "Correct. Rule 144A provides a safe harbor for resale of unregistered (restricted) securities to QIBs. A QIB must own and invest on a discretionary basis at least $100 million in securities of unaffiliated issuers (or $10 million for broker-dealers)."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Rule 144A provides a safe harbor exemption from Securities Act registration for resales of restricted securities to qualified institutional buyers (QIBs). A QIB is an institution that owns and invests at least $100 million in securities on a discretionary basis. This rule facilitates the institutional private placement market and is commonly paired with Regulation S for international offerings.",
     "subtopic": "Rule 144A",
     "difficulty": "medium",
@@ -764,13 +774,13 @@
       },
       {
         "label": "B",
-        "text": "To review the underwriting compensation and terms to ensure they are fair and reasonable.",
-        "explanation": "Correct. FINRA Rule 5110 requires member firms to file offering documents so that FINRA's Corporate Financing Department can review whether the underwriting compensation and terms are fair and reasonable and do not impose unfair arrangements on the issuer."
+        "text": "To verify that all investors in the offering meet suitability requirements.",
+        "explanation": "Incorrect. Rule 5110 focuses on underwriting compensation, not investor suitability. Suitability is addressed by other FINRA rules."
       },
       {
         "label": "C",
-        "text": "To verify that all investors in the offering meet suitability requirements.",
-        "explanation": "Incorrect. Rule 5110 focuses on underwriting compensation, not investor suitability. Suitability is addressed by other FINRA rules."
+        "text": "To review the underwriting compensation and terms to ensure they are fair and reasonable.",
+        "explanation": "Correct. FINRA Rule 5110 requires member firms to file offering documents so that FINRA's Corporate Financing Department can review whether the underwriting compensation and terms are fair and reasonable and do not impose unfair arrangements on the issuer."
       },
       {
         "label": "D",
@@ -778,7 +788,7 @@
         "explanation": "Incorrect. Net capital requirements apply to broker-dealers, not issuers. Rule 5110 reviews underwriting arrangements, not issuer capitalization."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "FINRA Rule 5110 (Corporate Financing Rule) requires member firms to file offering documents with FINRA for review of underwriting compensation and arrangements. FINRA's Corporate Financing Department evaluates whether total compensation (cash, warrants, expense reimbursements, rights of first refusal, etc.) is fair and reasonable, protecting both issuers and investors from excessive underwriter fees.",
     "subtopic": "FINRA Rule 5110",
     "difficulty": "easy",
@@ -827,13 +837,13 @@
     "choices": [
       {
         "label": "A",
-        "text": "To U.S. institutional investors who agree not to resell for six months.",
-        "explanation": "Incorrect. Regulation S governs offshore transactions, not sales to U.S. investors regardless of holding period agreements."
+        "text": "Outside the United States to non-U.S. persons in offshore transactions.",
+        "explanation": "Correct. Regulation S provides a safe harbor from Securities Act registration for offers and sales of securities occurring outside the United States to non-U.S. persons. No directed selling efforts may be made in the United States."
       },
       {
         "label": "B",
-        "text": "Outside the United States to non-U.S. persons in offshore transactions.",
-        "explanation": "Correct. Regulation S provides a safe harbor from Securities Act registration for offers and sales of securities occurring outside the United States to non-U.S. persons. No directed selling efforts may be made in the United States."
+        "text": "To U.S. institutional investors who agree not to resell for six months.",
+        "explanation": "Incorrect. Regulation S governs offshore transactions, not sales to U.S. investors regardless of holding period agreements."
       },
       {
         "label": "C",
@@ -846,7 +856,7 @@
         "explanation": "Incorrect. A sale in the United States does not qualify as an offshore transaction under Regulation S, regardless of the buyer's citizenship."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Regulation S provides safe harbor exemptions from Securities Act registration for offers and sales of securities in offshore transactions to non-U.S. persons, provided no directed selling efforts are made in the United States. It is commonly used in conjunction with Rule 144A offerings — a 144A/Reg S structure allows placement with U.S. QIBs and offshore investors simultaneously.",
     "subtopic": "Regulation S",
     "difficulty": "medium",
@@ -866,8 +876,8 @@
       },
       {
         "label": "B",
-        "text": "To establish a defense under Section 11 of the Securities Act against liability for material misstatements or omissions in the registration statement.",
-        "explanation": "Correct. Section 11 imposes strict liability on issuers and near-strict liability on underwriters for material misstatements in the registration statement. Underwriters can establish a due diligence defense by demonstrating they conducted a reasonable investigation and had reasonable grounds to believe the statements were true."
+        "text": "To determine the exact offering price before the registration statement is filed.",
+        "explanation": "Incorrect. The offering price is typically set after the roadshow and book-building process, not as part of the initial due diligence investigation."
       },
       {
         "label": "C",
@@ -876,11 +886,11 @@
       },
       {
         "label": "D",
-        "text": "To determine the exact offering price before the registration statement is filed.",
-        "explanation": "Incorrect. The offering price is typically set after the roadshow and book-building process, not as part of the initial due diligence investigation."
+        "text": "To establish a defense under Section 11 of the Securities Act against liability for material misstatements or omissions in the registration statement.",
+        "explanation": "Correct. Section 11 imposes strict liability on issuers and near-strict liability on underwriters for material misstatements in the registration statement. Underwriters can establish a due diligence defense by demonstrating they conducted a reasonable investigation and had reasonable grounds to believe the statements were true."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "A primary purpose of underwriter due diligence is to establish the Section 11 defense. Under Section 11 of the Securities Act, underwriters can be held liable for material misstatements or omissions in the registration statement. The due diligence defense requires showing that the underwriter conducted a reasonable investigation and had reasonable grounds to believe the statements were true and complete.",
     "subtopic": "Due diligence and Section 11 liability",
     "difficulty": "medium",
@@ -900,13 +910,13 @@
       },
       {
         "label": "B",
-        "text": "A member firm is underwriting an offering where the firm or an affiliate will receive 5% or more of the net offering proceeds.",
-        "explanation": "Correct. Rule 5121 is triggered when a member firm has a conflict of interest, including when the firm or its affiliates will receive 5% or more of the net offering proceeds (excluding underwriting compensation), or when the issuer controls, is controlled by, or is under common control with the member."
+        "text": "A member firm's research analyst has a buy rating on the issuer.",
+        "explanation": "Incorrect. A buy rating by a research analyst does not constitute a conflict of interest under Rule 5121. Research analyst conflicts are governed by FINRA Rules 2241/2242."
       },
       {
         "label": "C",
-        "text": "A member firm's research analyst has a buy rating on the issuer.",
-        "explanation": "Incorrect. A buy rating by a research analyst does not constitute a conflict of interest under Rule 5121. Research analyst conflicts are governed by FINRA Rules 2241/2242."
+        "text": "A member firm is underwriting an offering where the firm or an affiliate will receive 5% or more of the net offering proceeds.",
+        "explanation": "Correct. Rule 5121 is triggered when a member firm has a conflict of interest, including when the firm or its affiliates will receive 5% or more of the net offering proceeds (excluding underwriting compensation), or when the issuer controls, is controlled by, or is under common control with the member."
       },
       {
         "label": "D",
@@ -914,7 +924,7 @@
         "explanation": "Incorrect. A small personal holding by an individual registered representative does not trigger Rule 5121. The rule applies to firm-level conflicts, not personal employee holdings."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "FINRA Rule 5121 (Public Offerings of Securities with Conflicts of Interest) applies when a member firm has a conflict, such as receiving 5% or more of the net offering proceeds, being an affiliate of the issuer, or having certain other financial relationships. When triggered, Rule 5121 generally requires a qualified independent underwriter (QIU) to participate in the offering and perform due diligence.",
     "subtopic": "FINRA Rule 5121",
     "difficulty": "hard",
@@ -929,13 +939,13 @@
     "choices": [
       {
         "label": "A",
-        "text": "A penalty bid is imposed by the lead manager on syndicate members whose customers immediately flip (sell) their IPO allocations, and is designed to discourage flipping.",
-        "explanation": "Correct. A penalty bid allows the lead underwriter to reclaim the selling concession from syndicate members whose customers flip their IPO shares. This mechanism discourages flipping and supports aftermarket price stabilization."
+        "text": "A penalty bid is a fine imposed by FINRA on underwriters who fail to stabilize the aftermarket price.",
+        "explanation": "Incorrect. Penalty bids are an internal syndicate mechanism, not a FINRA regulatory fine. There is no requirement to stabilize, and FINRA does not penalize underwriters for failing to do so."
       },
       {
         "label": "B",
-        "text": "A penalty bid is a fine imposed by FINRA on underwriters who fail to stabilize the aftermarket price.",
-        "explanation": "Incorrect. Penalty bids are an internal syndicate mechanism, not a FINRA regulatory fine. There is no requirement to stabilize, and FINRA does not penalize underwriters for failing to do so."
+        "text": "A penalty bid is imposed by the lead manager on syndicate members whose customers immediately flip (sell) their IPO allocations, and is designed to discourage flipping.",
+        "explanation": "Correct. A penalty bid allows the lead underwriter to reclaim the selling concession from syndicate members whose customers flip their IPO shares. This mechanism discourages flipping and supports aftermarket price stabilization."
       },
       {
         "label": "C",
@@ -948,7 +958,7 @@
         "explanation": "Incorrect. Penalty bids are expressly permitted under Regulation M (Rule 104) as a legitimate stabilization tool, provided they are properly disclosed."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Penalty bids are a syndicate management tool permitted under Regulation M Rule 104. The lead underwriter may reclaim the selling concession from syndicate members whose customers quickly sell (flip) their IPO allocations. This mechanism incentivizes syndicate members to allocate shares to long-term holders, supporting aftermarket price stability.",
     "subtopic": "IPO stabilization and penalty bids",
     "difficulty": "hard",
@@ -1002,8 +1012,8 @@
       },
       {
         "label": "B",
-        "text": "Requiring investors to provide quid pro quo consideration — such as excessive trading commissions — as a condition for receiving a new-issue allocation.",
-        "explanation": "Correct. Rule 5131 prohibits quid pro quo allocations, where underwriters condition allocations on the investor's agreement to pay excessive commissions, purchase other services, or provide other forms of compensation beyond the normal sales concession."
+        "text": "Reducing an investor's allocation because they provided a lower price limit in the book-building process.",
+        "explanation": "Incorrect. Allocating more shares to investors with higher price indications is a normal part of the book-building process and reflects investor demand."
       },
       {
         "label": "C",
@@ -1012,11 +1022,11 @@
       },
       {
         "label": "D",
-        "text": "Reducing an investor's allocation because they provided a lower price limit in the book-building process.",
-        "explanation": "Incorrect. Allocating more shares to investors with higher price indications is a normal part of the book-building process and reflects investor demand."
+        "text": "Requiring investors to provide quid pro quo consideration — such as excessive trading commissions — as a condition for receiving a new-issue allocation.",
+        "explanation": "Correct. Rule 5131 prohibits quid pro quo allocations, where underwriters condition allocations on the investor's agreement to pay excessive commissions, purchase other services, or provide other forms of compensation beyond the normal sales concession."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "FINRA Rule 5131 (New Issue Allocations and Distributions) prohibits several abusive allocation practices, including: quid pro quo allocations (conditioning allocations on excessive commissions or purchase of other services), spinning (allocating shares to executives to win investment banking business), and flipping without penalty bid disclosure. These rules were adopted to address allocation abuses exposed in the early 2000s.",
     "subtopic": "FINRA Rule 5131",
     "difficulty": "medium",
@@ -1036,13 +1046,13 @@
       },
       {
         "label": "B",
-        "text": "A stock-for-stock merger (exchange offer).",
-        "explanation": "Correct. When the acquirer issues its own shares as consideration for the target's shares, the transaction is a stock-for-stock merger or exchange offer. The exchange ratio determines how many acquirer shares each target shareholder receives."
+        "text": "A leveraged buyout.",
+        "explanation": "Incorrect. An LBO involves acquiring a company primarily with borrowed funds, not through issuance of the acquirer's equity to target shareholders."
       },
       {
         "label": "C",
-        "text": "A leveraged buyout.",
-        "explanation": "Incorrect. An LBO involves acquiring a company primarily with borrowed funds, not through issuance of the acquirer's equity to target shareholders."
+        "text": "A stock-for-stock merger (exchange offer).",
+        "explanation": "Correct. When the acquirer issues its own shares as consideration for the target's shares, the transaction is a stock-for-stock merger or exchange offer. The exchange ratio determines how many acquirer shares each target shareholder receives."
       },
       {
         "label": "D",
@@ -1050,7 +1060,7 @@
         "explanation": "Incorrect. A management buyout involves the target's existing management team acquiring the company, typically using debt financing. It is not defined by the form of consideration."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "A stock-for-stock merger involves the acquiring company issuing its shares to the target company's shareholders in exchange for their target shares. The exchange ratio (e.g., 1.5 acquirer shares per target share) is negotiated. Stock-for-stock deals may qualify for tax-free reorganization treatment under IRC Section 368, which is a key consideration in deal structuring.",
     "subtopic": "Merger consideration types",
     "difficulty": "easy",
@@ -1099,13 +1109,13 @@
     "choices": [
       {
         "label": "A",
-        "text": "To permanently prevent any acquisition of the company.",
-        "explanation": "Incorrect. A poison pill does not permanently block an acquisition. The board can redeem the pill if it approves a bid. The pill is designed to give the board leverage and time, not to make the company permanently untakeable."
+        "text": "To dilute a hostile acquirer's stake if it exceeds a specified ownership threshold, thereby giving the board negotiating leverage.",
+        "explanation": "Correct. A poison pill typically triggers when an acquirer crosses an ownership threshold (commonly 15-20%), allowing other shareholders to purchase discounted shares, massively diluting the acquirer. This forces the acquirer to negotiate with the board rather than bypassing it."
       },
       {
         "label": "B",
-        "text": "To dilute a hostile acquirer's stake if it exceeds a specified ownership threshold, thereby giving the board negotiating leverage.",
-        "explanation": "Correct. A poison pill typically triggers when an acquirer crosses an ownership threshold (commonly 15-20%), allowing other shareholders to purchase discounted shares, massively diluting the acquirer. This forces the acquirer to negotiate with the board rather than bypassing it."
+        "text": "To permanently prevent any acquisition of the company.",
+        "explanation": "Incorrect. A poison pill does not permanently block an acquisition. The board can redeem the pill if it approves a bid. The pill is designed to give the board leverage and time, not to make the company permanently untakeable."
       },
       {
         "label": "C",
@@ -1118,7 +1128,7 @@
         "explanation": "Incorrect. A poison pill does not guarantee any specific premium. It is a defensive mechanism that empowers the board to negotiate, which may result in a higher premium but does not guarantee one."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "A shareholder rights plan (poison pill) is a defensive mechanism that triggers when a hostile acquirer crosses a specified ownership threshold. When triggered, existing shareholders (other than the acquirer) can purchase additional shares at a steep discount, massively diluting the acquirer's position. The pill gives the board time and leverage to negotiate better terms or reject inadequate offers.",
     "subtopic": "Takeover defenses",
     "difficulty": "medium",
@@ -1138,8 +1148,8 @@
       },
       {
         "label": "B",
-        "text": "20 business days.",
-        "explanation": "Correct. SEC Rule 14e-1(a) requires that a tender offer remain open for a minimum of 20 business days from the date it is first published or sent to security holders."
+        "text": "5 business days.",
+        "explanation": "Incorrect. Five business days is far too short. The 20-business-day minimum ensures shareholders have adequate time to evaluate the offer."
       },
       {
         "label": "C",
@@ -1148,11 +1158,11 @@
       },
       {
         "label": "D",
-        "text": "5 business days.",
-        "explanation": "Incorrect. Five business days is far too short. The 20-business-day minimum ensures shareholders have adequate time to evaluate the offer."
+        "text": "20 business days.",
+        "explanation": "Correct. SEC Rule 14e-1(a) requires that a tender offer remain open for a minimum of 20 business days from the date it is first published or sent to security holders."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "SEC Rule 14e-1(a) under Regulation 14E mandates that a tender offer remain open for a minimum of 20 business days from commencement. If the bidder increases the price or changes other material terms, the offer must remain open for at least 10 additional business days from the date of the change. This ensures target shareholders have sufficient time to make informed decisions.",
     "subtopic": "Tender offer rules",
     "difficulty": "easy",
@@ -1172,13 +1182,13 @@
       },
       {
         "label": "B",
-        "text": "Provide the board of directors with an independent financial analysis supporting its conclusion that the transaction consideration is fair from a financial point of view.",
-        "explanation": "Correct. A fairness opinion helps the board satisfy its fiduciary duties (duty of care) by demonstrating that it relied on independent financial analysis in approving the transaction. It is a key element of the board's decision-making process and can serve as evidence in any shareholder litigation challenging the deal."
+        "text": "Satisfy the SEC's requirement that all merger transactions be reviewed by a third-party financial adviser.",
+        "explanation": "Incorrect. The SEC does not require fairness opinions. They are obtained voluntarily by boards as a matter of fiduciary practice, not regulatory mandate."
       },
       {
         "label": "C",
-        "text": "Satisfy the SEC's requirement that all merger transactions be reviewed by a third-party financial adviser.",
-        "explanation": "Incorrect. The SEC does not require fairness opinions. They are obtained voluntarily by boards as a matter of fiduciary practice, not regulatory mandate."
+        "text": "Provide the board of directors with an independent financial analysis supporting its conclusion that the transaction consideration is fair from a financial point of view.",
+        "explanation": "Correct. A fairness opinion helps the board satisfy its fiduciary duties (duty of care) by demonstrating that it relied on independent financial analysis in approving the transaction. It is a key element of the board's decision-making process and can serve as evidence in any shareholder litigation challenging the deal."
       },
       {
         "label": "D",
@@ -1186,7 +1196,7 @@
         "explanation": "Incorrect. The deal price or exchange ratio is negotiated between the parties. The fairness opinion evaluates whether the agreed-upon consideration is fair, but does not determine the price."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "A fairness opinion is an investment bank's professional judgment that a proposed transaction's consideration is fair from a financial point of view. It supports the board's fiduciary duties under the business judgment rule by demonstrating informed decision-making. In Delaware law (the dominant jurisdiction for corporate transactions), fairness opinions are part of the process evidence reviewed in cases challenging board approvals.",
     "subtopic": "Fairness opinions",
     "difficulty": "medium",
@@ -1274,8 +1284,8 @@
       },
       {
         "label": "B",
-        "text": "Whether the proposed transaction poses a risk to U.S. national security.",
-        "explanation": "Correct. CFIUS, an interagency committee chaired by the Treasury Secretary, reviews transactions that could result in foreign control of a U.S. business to determine whether they pose a national security risk. CFIUS can recommend that the President block a transaction."
+        "text": "Whether the target company's employees will retain their positions post-merger.",
+        "explanation": "Incorrect. CFIUS does not review employment impacts. Its focus is exclusively on national security implications of foreign investment."
       },
       {
         "label": "C",
@@ -1284,11 +1294,11 @@
       },
       {
         "label": "D",
-        "text": "Whether the target company's employees will retain their positions post-merger.",
-        "explanation": "Incorrect. CFIUS does not review employment impacts. Its focus is exclusively on national security implications of foreign investment."
+        "text": "Whether the proposed transaction poses a risk to U.S. national security.",
+        "explanation": "Correct. CFIUS, an interagency committee chaired by the Treasury Secretary, reviews transactions that could result in foreign control of a U.S. business to determine whether they pose a national security risk. CFIUS can recommend that the President block a transaction."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "CFIUS reviews mergers, acquisitions, and takeovers by foreign persons that could result in foreign control of a U.S. business for national security implications. Under the Foreign Investment Risk Review Modernization Act (FIRRMA) of 2018, CFIUS jurisdiction was expanded to cover certain non-controlling investments in companies dealing with critical technology, critical infrastructure, or sensitive personal data.",
     "subtopic": "CFIUS review",
     "difficulty": "easy",
@@ -1308,13 +1318,13 @@
       },
       {
         "label": "B",
-        "text": "A preliminary proxy statement on Schedule 14A, disclosing the dissident's proposals and solicitation materials.",
-        "explanation": "Correct. Under Regulation 14A, any party soliciting proxies from shareholders must file proxy materials with the SEC. A dissident group in a proxy fight files its own preliminary proxy statement on Schedule 14A, which must disclose its proposals, the identities of participants, and their interests in the matter."
+        "text": "A Form 8-K reporting a material event.",
+        "explanation": "Incorrect. Form 8-K is filed by the company to report material events, not by dissident shareholders launching a proxy fight."
       },
       {
         "label": "C",
-        "text": "A Form 8-K reporting a material event.",
-        "explanation": "Incorrect. Form 8-K is filed by the company to report material events, not by dissident shareholders launching a proxy fight."
+        "text": "A preliminary proxy statement on Schedule 14A, disclosing the dissident's proposals and solicitation materials.",
+        "explanation": "Correct. Under Regulation 14A, any party soliciting proxies from shareholders must file proxy materials with the SEC. A dissident group in a proxy fight files its own preliminary proxy statement on Schedule 14A, which must disclose its proposals, the identities of participants, and their interests in the matter."
       },
       {
         "label": "D",
@@ -1322,7 +1332,7 @@
         "explanation": "Incorrect. HSR filings relate to acquisitions above certain size thresholds. A proxy fight to elect directors is not an acquisition requiring HSR notification."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Under SEC Regulation 14A, anyone soliciting proxies from shareholders must file proxy materials with the SEC. In a proxy contest, the dissident group files its own preliminary proxy statement on Schedule 14A before distributing solicitation materials to shareholders. The SEC reviews these materials to ensure adequate disclosure. Both the company and the dissident file competing proxy statements.",
     "subtopic": "Proxy contests",
     "difficulty": "medium",
@@ -1371,13 +1381,13 @@
     "choices": [
       {
         "label": "A",
-        "text": "Secured creditors are paid after unsecured creditors if the reorganization plan is approved by a majority of equity holders.",
-        "explanation": "Incorrect. Secured creditors have the highest priority in the capital structure and are paid before unsecured creditors. Equity holders cannot override the priority of creditors."
+        "text": "Each class of claims must be paid in full before any junior class receives any distribution, unless the junior class's plan is accepted by the senior class.",
+        "explanation": "Correct. The absolute priority rule provides that in a cramdown scenario, senior classes must be paid in full before any junior class receives a distribution. However, if all impaired classes consent to the plan, the rule does not apply — a consensual plan can deviate from strict priority."
       },
       {
         "label": "B",
-        "text": "Each class of claims must be paid in full before any junior class receives any distribution, unless the junior class's plan is accepted by the senior class.",
-        "explanation": "Correct. The absolute priority rule provides that in a cramdown scenario, senior classes must be paid in full before any junior class receives a distribution. However, if all impaired classes consent to the plan, the rule does not apply — a consensual plan can deviate from strict priority."
+        "text": "Secured creditors are paid after unsecured creditors if the reorganization plan is approved by a majority of equity holders.",
+        "explanation": "Incorrect. Secured creditors have the highest priority in the capital structure and are paid before unsecured creditors. Equity holders cannot override the priority of creditors."
       },
       {
         "label": "C",
@@ -1390,14 +1400,16 @@
         "explanation": "Incorrect. There is no guaranteed minimum recovery for equity holders. Under the absolute priority rule, equity often receives nothing if senior creditors' claims are not fully satisfied."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "The absolute priority rule, codified in Section 1129(b) of the Bankruptcy Code, requires that in a cramdown (non-consensual confirmation), each senior class must be paid in full before any junior class receives anything. In practice, however, consensual plans may deviate from strict priority with the agreement of affected classes.",
     "subtopic": "Bankruptcy and the absolute priority rule",
     "difficulty": "hard",
     "source": "FINRA Series 79 content outline",
     "regulatoryBasis": "U.S. Bankruptcy Code, 11 U.S.C. Section 1129(b)",
     "lastVerified": "2026-05-21",
-    "relatedStories": ["lehman"]
+    "relatedStories": [
+      "lehman"
+    ]
   },
   {
     "id": "q-s79-042",
@@ -1411,8 +1423,8 @@
       },
       {
         "label": "B",
-        "text": "The quality, liquidity, and mark-to-market valuation of the firm's asset portfolio, including off-balance-sheet exposures.",
-        "explanation": "Correct. Lehman's collapse demonstrated that illiquid, hard-to-value assets (Level 2 and Level 3 under fair value accounting) and off-balance-sheet exposures can create catastrophic losses. For any leveraged financial institution, the acquirer must rigorously analyze asset quality and liquidity."
+        "text": "The company's dividend payout history.",
+        "explanation": "Incorrect. Dividend history reveals little about the embedded risks in a leveraged financial institution's balance sheet."
       },
       {
         "label": "C",
@@ -1421,18 +1433,20 @@
       },
       {
         "label": "D",
-        "text": "The company's dividend payout history.",
-        "explanation": "Incorrect. Dividend history reveals little about the embedded risks in a leveraged financial institution's balance sheet."
+        "text": "The quality, liquidity, and mark-to-market valuation of the firm's asset portfolio, including off-balance-sheet exposures.",
+        "explanation": "Correct. Lehman's collapse demonstrated that illiquid, hard-to-value assets (Level 2 and Level 3 under fair value accounting) and off-balance-sheet exposures can create catastrophic losses. For any leveraged financial institution, the acquirer must rigorously analyze asset quality and liquidity."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Lehman Brothers' failure was driven by concentrated positions in illiquid mortgage-backed securities and CDOs, compounded by high leverage and reliance on short-term repo funding. When acquiring a leveraged financial institution, the acquirer must carefully analyze asset quality (including Level 3 fair value assets), liquidity of the portfolio, counterparty exposures, and off-balance-sheet commitments.",
     "subtopic": "Financial institution valuation risk",
     "difficulty": "hard",
     "source": "FINRA Series 79 content outline",
     "regulatoryBasis": "Dodd-Frank Act; SEC net capital rule; ASC 820 (Fair Value Measurement)",
     "lastVerified": "2026-05-21",
-    "relatedStories": ["lehman"]
+    "relatedStories": [
+      "lehman"
+    ]
   },
   {
     "id": "q-s79-043",
@@ -1446,13 +1460,13 @@
       },
       {
         "label": "B",
-        "text": "A Schedule TO (Tender Offer Statement), disclosing the terms of the offer, the source and amount of funds, the purpose of the tender offer, and the bidder's plans for the target.",
-        "explanation": "Correct. Regulation 14D requires the bidder to file Schedule TO with the SEC and disseminate it to the target's shareholders. The schedule must disclose the identity of the bidder, terms of the offer, source of financing, purpose, plans for the target company, and other material information."
+        "text": "An HSR notification filing receipt proving antitrust clearance has been obtained.",
+        "explanation": "Incorrect. While HSR filing may be required separately, providing the receipt to shareholders is not a Regulation 14D requirement."
       },
       {
         "label": "C",
-        "text": "An HSR notification filing receipt proving antitrust clearance has been obtained.",
-        "explanation": "Incorrect. While HSR filing may be required separately, providing the receipt to shareholders is not a Regulation 14D requirement."
+        "text": "A Schedule TO (Tender Offer Statement), disclosing the terms of the offer, the source and amount of funds, the purpose of the tender offer, and the bidder's plans for the target.",
+        "explanation": "Correct. Regulation 14D requires the bidder to file Schedule TO with the SEC and disseminate it to the target's shareholders. The schedule must disclose the identity of the bidder, terms of the offer, source of financing, purpose, plans for the target company, and other material information."
       },
       {
         "label": "D",
@@ -1460,7 +1474,7 @@
         "explanation": "Incorrect. While tender offers may include minimum conditions, there is no regulatory requirement to commit to a 90% minimum. The bidder sets its own conditions subject to disclosure requirements."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Under Regulation 14D of the Exchange Act, a bidder commencing a tender offer must file Schedule TO with the SEC and deliver it to the target's shareholders. Schedule TO requires comprehensive disclosure of the offer terms, funding sources, purposes, plans for the target, the bidder's financial condition, and any agreements with the target's management or board.",
     "subtopic": "Tender offer disclosure requirements",
     "difficulty": "medium",
@@ -1509,13 +1523,13 @@
     "choices": [
       {
         "label": "A",
-        "text": "Renegotiate the purchase price downward by a fixed percentage if the target's stock price declines.",
-        "explanation": "Incorrect. A MAC clause does not automatically renegotiate the price. Stock price declines are often specifically excluded from MAC definitions in modern merger agreements."
+        "text": "Terminate the merger agreement without penalty if the target experiences a material adverse change in its business, financial condition, or results of operations between signing and closing.",
+        "explanation": "Correct. A MAC clause gives the acquirer the right to walk away from the deal if the target suffers a material adverse change between signing and closing. The exact definition of MAC is heavily negotiated and typically includes carve-outs for general economic conditions, industry-wide changes, and changes in law."
       },
       {
         "label": "B",
-        "text": "Terminate the merger agreement without penalty if the target experiences a material adverse change in its business, financial condition, or results of operations between signing and closing.",
-        "explanation": "Correct. A MAC clause gives the acquirer the right to walk away from the deal if the target suffers a material adverse change between signing and closing. The exact definition of MAC is heavily negotiated and typically includes carve-outs for general economic conditions, industry-wide changes, and changes in law."
+        "text": "Renegotiate the purchase price downward by a fixed percentage if the target's stock price declines.",
+        "explanation": "Incorrect. A MAC clause does not automatically renegotiate the price. Stock price declines are often specifically excluded from MAC definitions in modern merger agreements."
       },
       {
         "label": "C",
@@ -1528,7 +1542,7 @@
         "explanation": "Incorrect. A MAC clause provides a termination right, not a price-adjustment mechanism. The acquirer can choose to close at the agreed price or walk away, but cannot unilaterally impose a lower price."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "A material adverse change (MAC) or material adverse effect (MAE) clause is a key closing condition in merger agreements. It allows the acquirer to terminate the deal if the target experiences a material deterioration in its business between signing and closing. MAC definitions are among the most heavily negotiated provisions, with extensive carve-outs for general market conditions, industry trends, and other specified events.",
     "subtopic": "MAC clauses in merger agreements",
     "difficulty": "medium",

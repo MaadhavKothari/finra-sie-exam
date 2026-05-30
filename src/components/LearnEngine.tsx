@@ -169,7 +169,7 @@ export default function LearnEngine({ questions: allQuestions, topic, topicName,
     const isCorrect = selected === currentQ.correctAnswer;
     setMcqRevealed(true);
     recordLearnAnswer(examSlug, topic, currentQ.id, isCorrect);
-    recordAnswer(isCorrect, currentQ.difficulty, { topic: currentQ.topic, section: currentQ.section });
+    recordAnswer(isCorrect, currentQ.difficulty, { topic: currentQ.topic, section: currentQ.section, stem: currentQ.stem, subtopic: currentQ.subtopic });
     setSessionResults((p) => [...p, { qId: currentQ.id, phase: 1, correct: isCorrect }]);
     if (isCorrect) { hapticLight(); soundCorrect(); } else { hapticMedium(); soundWrong(); }
   }
@@ -183,7 +183,7 @@ export default function LearnEngine({ questions: allQuestions, topic, topicName,
     setFillCorrect(matched);
     setFillRevealed(true);
     recordLearnAnswer(examSlug, topic, currentQ.id, matched);
-    recordAnswer(matched, currentQ.difficulty, { topic: currentQ.topic, section: currentQ.section });
+    recordAnswer(matched, currentQ.difficulty, { topic: currentQ.topic, section: currentQ.section, stem: currentQ.stem, subtopic: currentQ.subtopic });
     setSessionResults((p) => [...p, { qId: currentQ.id, phase: 2, correct: matched }]);
     if (matched) { hapticLight(); soundCorrect(); } else { hapticMedium(); soundWrong(); }
   }
@@ -192,7 +192,7 @@ export default function LearnEngine({ questions: allQuestions, topic, topicName,
   function handleRecallGrade(correct: boolean) {
     if (!currentQ) return;
     recordLearnAnswer(examSlug, topic, currentQ.id, correct);
-    recordAnswer(correct, currentQ.difficulty, { topic: currentQ.topic, section: currentQ.section });
+    recordAnswer(correct, currentQ.difficulty, { topic: currentQ.topic, section: currentQ.section, stem: currentQ.stem, subtopic: currentQ.subtopic });
     setSessionResults((p) => [...p, { qId: currentQ.id, phase: 3, correct }]);
     if (correct) { hapticLight(); soundCorrect(); } else { hapticMedium(); soundWrong(); }
     // Auto-advance after grading

@@ -3,12 +3,28 @@
     "id": "q-rf-001",
     "stem": "Which of the following exams must an individual pass before taking a qualification exam such as the Series 7 or Series 6?",
     "choices": [
-      { "label": "A", "text": "The Series 63 (Uniform Securities Agent State Law Exam)", "explanation": "Incorrect. The Series 63 is a state law exam that may be required in addition to a qualification exam, but it is not a prerequisite for taking the Series 7 or Series 6." },
-      { "label": "B", "text": "The Securities Industry Essentials (SIE) exam", "explanation": "Correct. FINRA requires individuals to pass the SIE exam as a corequisite for any representative-level qualification exam. The SIE tests fundamental securities industry knowledge and can be taken by anyone age 18 or older, even without firm sponsorship. A representative-level exam (such as the Series 7) requires both the SIE and the specific top-off exam." },
-      { "label": "C", "text": "The Series 24 (General Securities Principal Exam)", "explanation": "Incorrect. The Series 24 is a principal-level exam for supervisors, not a prerequisite for representative-level exams." },
-      { "label": "D", "text": "No prerequisite exam is required", "explanation": "Incorrect. Since October 2018, the SIE exam has been required as a corequisite for all FINRA representative-level qualification exams." }
+      {
+        "label": "A",
+        "text": "The Securities Industry Essentials (SIE) exam",
+        "explanation": "Correct. FINRA requires individuals to pass the SIE exam as a corequisite for any representative-level qualification exam. The SIE tests fundamental securities industry knowledge and can be taken by anyone age 18 or older, even without firm sponsorship. A representative-level exam (such as the Series 7) requires both the SIE and the specific top-off exam."
+      },
+      {
+        "label": "B",
+        "text": "The Series 63 (Uniform Securities Agent State Law Exam)",
+        "explanation": "Incorrect. The Series 63 is a state law exam that may be required in addition to a qualification exam, but it is not a prerequisite for taking the Series 7 or Series 6."
+      },
+      {
+        "label": "C",
+        "text": "The Series 24 (General Securities Principal Exam)",
+        "explanation": "Incorrect. The Series 24 is a principal-level exam for supervisors, not a prerequisite for representative-level exams."
+      },
+      {
+        "label": "D",
+        "text": "No prerequisite exam is required",
+        "explanation": "Incorrect. Since October 2018, the SIE exam has been required as a corequisite for all FINRA representative-level qualification exams."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "The SIE exam is a corequisite for all FINRA representative-level qualification exams. It was introduced in October 2018 to assess fundamental industry knowledge separately from the specialized top-off exams like the Series 7 or Series 6. The SIE can be taken without firm sponsorship by anyone 18 or older.",
     "topic": "regulatory-framework",
     "subtopic": "registration-continuing-education",
@@ -21,12 +37,28 @@
     "id": "q-rf-002",
     "stem": "A registered representative wants to engage in an outside business activity (OBA) by working part-time at a local accounting firm. Which of the following is required BEFORE the representative begins the activity?",
     "choices": [
-      { "label": "A", "text": "The representative must obtain approval from FINRA", "explanation": "Incorrect. FINRA does not directly approve outside business activities. The requirement is to provide written notice to the employing member firm." },
-      { "label": "B", "text": "The representative must provide prior written notice to the employing member firm", "explanation": "Correct. Under FINRA Rule 3270, registered representatives must provide written notice to their employing member firm before engaging in any outside business activity. The notice must describe the activity, the expected compensation, and whether the representative will be an employee, independent contractor, or otherwise. The firm evaluates the activity for potential conflicts of interest and may impose conditions or prohibit it." },
-      { "label": "C", "text": "The representative must resign from the broker-dealer", "explanation": "Incorrect. Engaging in an outside business activity does not require resignation. The representative must disclose the activity to the firm, which will determine whether it is permissible." },
-      { "label": "D", "text": "No action is required as long as the activity is unrelated to securities", "explanation": "Incorrect. FINRA Rule 3270 requires written notice for ALL outside business activities, not only those related to securities." }
+      {
+        "label": "A",
+        "text": "The representative must obtain approval from FINRA",
+        "explanation": "Incorrect. FINRA does not directly approve outside business activities. The requirement is to provide written notice to the employing member firm."
+      },
+      {
+        "label": "B",
+        "text": "No action is required as long as the activity is unrelated to securities",
+        "explanation": "Incorrect. FINRA Rule 3270 requires written notice for ALL outside business activities, not only those related to securities."
+      },
+      {
+        "label": "C",
+        "text": "The representative must resign from the broker-dealer",
+        "explanation": "Incorrect. Engaging in an outside business activity does not require resignation. The representative must disclose the activity to the firm, which will determine whether it is permissible."
+      },
+      {
+        "label": "D",
+        "text": "The representative must provide prior written notice to the employing member firm",
+        "explanation": "Correct. Under FINRA Rule 3270, registered representatives must provide written notice to their employing member firm before engaging in any outside business activity. The notice must describe the activity, the expected compensation, and whether the representative will be an employee, independent contractor, or otherwise. The firm evaluates the activity for potential conflicts of interest and may impose conditions or prohibit it."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "FINRA Rule 3270 requires registered representatives to provide written notice to their employer before engaging in any outside business activity, regardless of whether it is related to the securities industry. The member firm then determines whether the activity poses conflicts of interest and whether to approve, condition, or prohibit it.",
     "topic": "regulatory-framework",
     "subtopic": "employee-conduct",
@@ -39,12 +71,28 @@
     "id": "q-rf-003",
     "stem": "FINRA's Continuing Education (CE) program requires registered persons to complete which of the following?",
     "choices": [
-      { "label": "A", "text": "A regulatory element only, administered by FINRA on a periodic basis", "explanation": "Incorrect. While the Regulatory Element is a required component of FINRA's CE program, registered persons must also complete a Firm Element administered by their employing member firm." },
-      { "label": "B", "text": "Both a Regulatory Element administered by FINRA and a Firm Element administered by the member firm", "explanation": "Correct. FINRA's Continuing Education program has two components. The Regulatory Element is a computer-based training program administered by FINRA that must be completed within 120 days of a registered person's second registration anniversary and annually thereafter. The Firm Element is an annual training program developed and administered by each member firm, tailored to the firm's business and the needs of its registered persons." },
-      { "label": "C", "text": "An annual exam recertification administered by FINRA", "explanation": "Incorrect. FINRA does not require registered persons to retake their qualification exams annually. Continuing education is fulfilled through the Regulatory and Firm Elements." },
-      { "label": "D", "text": "A firm element only, as determined by the employing broker-dealer", "explanation": "Incorrect. Both the Regulatory Element (FINRA-administered) and the Firm Element (firm-administered) are required components of FINRA's continuing education program." }
+      {
+        "label": "A",
+        "text": "A regulatory element only, administered by FINRA on a periodic basis",
+        "explanation": "Incorrect. While the Regulatory Element is a required component of FINRA's CE program, registered persons must also complete a Firm Element administered by their employing member firm."
+      },
+      {
+        "label": "B",
+        "text": "An annual exam recertification administered by FINRA",
+        "explanation": "Incorrect. FINRA does not require registered persons to retake their qualification exams annually. Continuing education is fulfilled through the Regulatory and Firm Elements."
+      },
+      {
+        "label": "C",
+        "text": "Both a Regulatory Element administered by FINRA and a Firm Element administered by the member firm",
+        "explanation": "Correct. FINRA's Continuing Education program has two components. The Regulatory Element is a computer-based training program administered by FINRA that must be completed within 120 days of a registered person's second registration anniversary and annually thereafter. The Firm Element is an annual training program developed and administered by each member firm, tailored to the firm's business and the needs of its registered persons."
+      },
+      {
+        "label": "D",
+        "text": "A firm element only, as determined by the employing broker-dealer",
+        "explanation": "Incorrect. Both the Regulatory Element (FINRA-administered) and the Firm Element (firm-administered) are required components of FINRA's continuing education program."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "FINRA's Continuing Education program consists of two mandatory components: the Regulatory Element, which is a FINRA-administered computer-based training completed periodically, and the Firm Element, which is an annual training program developed by each member firm to address relevant regulatory and compliance topics specific to its business.",
     "topic": "regulatory-framework",
     "subtopic": "registration-continuing-education",
@@ -57,10 +105,26 @@
     "id": "q-rf-004",
     "stem": "A registered representative is terminated by their employing broker-dealer after a customer complaint alleging unauthorized trading. Which form must the broker-dealer file to report this termination?",
     "choices": [
-      { "label": "A", "text": "Form U4 (Uniform Application for Securities Industry Registration)", "explanation": "Incorrect. Form U4 is used to register an individual with a member firm and to update their registration information. It is not used to report terminations." },
-      { "label": "B", "text": "Form U5 (Uniform Termination Notice for Securities Industry Registration)", "explanation": "Correct. When a registered representative's association with a member firm ends, the firm must file a Form U5 within 30 days. The form must disclose the reason for termination, including any customer complaints, regulatory actions, or internal review findings. In this case, the firm must disclose the customer complaint alleging unauthorized trading as the reason for termination." },
-      { "label": "C", "text": "Form BD (Uniform Application for Broker-Dealer Registration)", "explanation": "Incorrect. Form BD is used by firms to register as broker-dealers with the SEC. It is not used to report individual representative terminations." },
-      { "label": "D", "text": "Suspicious Activity Report (SAR)", "explanation": "Incorrect. A SAR is filed to report suspected money laundering or other financial crimes. While unauthorized trading is a serious violation, the reporting mechanism for terminations is Form U5." }
+      {
+        "label": "A",
+        "text": "Form U4 (Uniform Application for Securities Industry Registration)",
+        "explanation": "Incorrect. Form U4 is used to register an individual with a member firm and to update their registration information. It is not used to report terminations."
+      },
+      {
+        "label": "B",
+        "text": "Form U5 (Uniform Termination Notice for Securities Industry Registration)",
+        "explanation": "Correct. When a registered representative's association with a member firm ends, the firm must file a Form U5 within 30 days. The form must disclose the reason for termination, including any customer complaints, regulatory actions, or internal review findings. In this case, the firm must disclose the customer complaint alleging unauthorized trading as the reason for termination."
+      },
+      {
+        "label": "C",
+        "text": "Form BD (Uniform Application for Broker-Dealer Registration)",
+        "explanation": "Incorrect. Form BD is used by firms to register as broker-dealers with the SEC. It is not used to report individual representative terminations."
+      },
+      {
+        "label": "D",
+        "text": "Suspicious Activity Report (SAR)",
+        "explanation": "Incorrect. A SAR is filed to report suspected money laundering or other financial crimes. While unauthorized trading is a serious violation, the reporting mechanism for terminations is Form U5."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "Form U5 must be filed within 30 days when a registered representative's association with a member firm ends. The form requires disclosure of the circumstances surrounding the termination, including customer complaints, regulatory investigations, or internal findings. This information becomes part of the representative's permanent CRD record.",
@@ -75,10 +139,26 @@
     "id": "q-rf-005",
     "stem": "A registered representative receives a gift of $150 from a client during the holidays. Under FINRA rules, which of the following statements is correct?",
     "choices": [
-      { "label": "A", "text": "The gift is prohibited because it exceeds the $100 per-person annual limit", "explanation": "Correct. FINRA Rule 3220 limits gifts given or received by associated persons to $100 per individual per year. A $150 gift exceeds this threshold and would violate the rule. The rule is designed to prevent potential conflicts of interest and ensure that business decisions are not influenced by gifts. The representative should decline the gift or return any amount exceeding $100." },
-      { "label": "B", "text": "The gift is permitted because there is no dollar limit on gifts from clients", "explanation": "Incorrect. FINRA Rule 3220 imposes a $100 per-person annual limit on gifts. There is a clear dollar threshold that must be respected." },
-      { "label": "C", "text": "The gift is permitted if the representative reports it to their compliance department", "explanation": "Incorrect. While reporting may be required by firm policy, reporting alone does not make a gift that exceeds the $100 limit permissible under FINRA rules." },
-      { "label": "D", "text": "The gift is permitted because it is under the $250 annual limit", "explanation": "Incorrect. The FINRA gift limit is $100 per individual per year, not $250. A $150 gift exceeds the limit." }
+      {
+        "label": "A",
+        "text": "The gift is prohibited because it exceeds the $100 per-person annual limit",
+        "explanation": "Correct. FINRA Rule 3220 limits gifts given or received by associated persons to $100 per individual per year. A $150 gift exceeds this threshold and would violate the rule. The rule is designed to prevent potential conflicts of interest and ensure that business decisions are not influenced by gifts. The representative should decline the gift or return any amount exceeding $100."
+      },
+      {
+        "label": "B",
+        "text": "The gift is permitted because there is no dollar limit on gifts from clients",
+        "explanation": "Incorrect. FINRA Rule 3220 imposes a $100 per-person annual limit on gifts. There is a clear dollar threshold that must be respected."
+      },
+      {
+        "label": "C",
+        "text": "The gift is permitted if the representative reports it to their compliance department",
+        "explanation": "Incorrect. While reporting may be required by firm policy, reporting alone does not make a gift that exceeds the $100 limit permissible under FINRA rules."
+      },
+      {
+        "label": "D",
+        "text": "The gift is permitted because it is under the $250 annual limit",
+        "explanation": "Incorrect. The FINRA gift limit is $100 per individual per year, not $250. A $150 gift exceeds the limit."
+      }
     ],
     "correctAnswer": "A",
     "explanation": "FINRA Rule 3220 limits gifts given or received by associated persons to $100 per individual per year. This rule prevents conflicts of interest and ensures that business relationships remain professional. The $150 gift exceeds this threshold and must be declined or the excess returned.",
@@ -93,12 +173,28 @@
     "id": "q-rf-006",
     "stem": "A newly hired registered representative is completing their registration paperwork. Which of the following best describes the purpose of Form U4?",
     "choices": [
-      { "label": "A", "text": "It is used by broker-dealers to register as member firms with FINRA", "explanation": "Incorrect. Broker-dealer firms register using Form BD, not Form U4. Form U4 is specific to individual associated persons." },
-      { "label": "B", "text": "It is the Uniform Application for Securities Industry Registration used to register individual associated persons with FINRA and state securities regulators", "explanation": "Correct. Form U4 is the Uniform Application for Securities Industry Registration. Member firms file it on behalf of individuals to register them as associated persons with FINRA, the relevant exchanges, and state securities regulators. It collects personal background information, employment history, disclosure items (criminal, regulatory, financial), and exam qualification data. The information is stored in FINRA's Central Registration Depository (CRD) and is partially accessible to the public via BrokerCheck." },
-      { "label": "C", "text": "It is filed by a firm when a registered representative is terminated to report the circumstances of departure", "explanation": "Incorrect. Termination is reported on Form U5. Form U4 is used to initiate and maintain a representative's registration, not to report their departure." },
-      { "label": "D", "text": "It is submitted by a registered representative directly to FINRA without firm involvement", "explanation": "Incorrect. The employing member firm files Form U4 through the Web CRD system on behalf of the associated person. The representative does not file directly with FINRA." }
+      {
+        "label": "A",
+        "text": "It is used by broker-dealers to register as member firms with FINRA",
+        "explanation": "Incorrect. Broker-dealer firms register using Form BD, not Form U4. Form U4 is specific to individual associated persons."
+      },
+      {
+        "label": "B",
+        "text": "It is submitted by a registered representative directly to FINRA without firm involvement",
+        "explanation": "Incorrect. The employing member firm files Form U4 through the Web CRD system on behalf of the associated person. The representative does not file directly with FINRA."
+      },
+      {
+        "label": "C",
+        "text": "It is filed by a firm when a registered representative is terminated to report the circumstances of departure",
+        "explanation": "Incorrect. Termination is reported on Form U5. Form U4 is used to initiate and maintain a representative's registration, not to report their departure."
+      },
+      {
+        "label": "D",
+        "text": "It is the Uniform Application for Securities Industry Registration used to register individual associated persons with FINRA and state securities regulators",
+        "explanation": "Correct. Form U4 is the Uniform Application for Securities Industry Registration. Member firms file it on behalf of individuals to register them as associated persons with FINRA, the relevant exchanges, and state securities regulators. It collects personal background information, employment history, disclosure items (criminal, regulatory, financial), and exam qualification data. The information is stored in FINRA's Central Registration Depository (CRD) and is partially accessible to the public via BrokerCheck."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Form U4 (Uniform Application for Securities Industry Registration) is filed by the employing member firm through FINRA's CRD system to register an individual as an associated person. It includes background, employment history, and disclosure information. It must be amended within 30 days of any material change in the disclosed information.",
     "topic": "regulatory-framework",
     "subtopic": "registration-continuing-education",
@@ -111,12 +207,28 @@
     "id": "q-rf-007",
     "stem": "Under FINRA rules, within how many days must a member firm file an amendment to Form U4 after a registered representative is charged with a felony?",
     "choices": [
-      { "label": "A", "text": "10 calendar days", "explanation": "Incorrect. The standard amendment deadline for most reportable events is 30 days. However, for certain criminal charges — specifically felony charges — the deadline is actually shorter, but the 10-day figure applies to specific statutory disqualification events under the rules." },
-      { "label": "B", "text": "30 calendar days", "explanation": "Incorrect. While 30 days is the general amendment deadline for many Form U4 updates, felony charges require faster reporting. FINRA rules require that criminal charges involving a felony be reported within 30 days for most events, but a felony charge is specifically reportable — however, a felony charge or indictment triggers a 30-day requirement under standard rule language." },
-      { "label": "C", "text": "30 calendar days for most reportable events, but within 10 business days if the charge involves a crime that could lead to statutory disqualification", "explanation": "Incorrect. This framing conflates two separate rules. The standard deadline for Form U4 amendments is 30 calendar days after the registered person learns of the event." },
-      { "label": "D", "text": "30 calendar days after the registered person learns of the event or occurrence", "explanation": "Correct. FINRA rules require that Form U4 be amended within 30 calendar days after the registered person becomes aware of the facts that would trigger the amendment obligation, including criminal charges. This applies to felony charges, regulatory actions, customer complaints settled for $15,000 or more, and other reportable events listed on Form U4. Prompt disclosure is essential because this information affects the representative's registration status and public BrokerCheck record." }
+      {
+        "label": "A",
+        "text": "10 calendar days",
+        "explanation": "Incorrect. The standard amendment deadline for most reportable events is 30 days. However, for certain criminal charges — specifically felony charges — the deadline is actually shorter, but the 10-day figure applies to specific statutory disqualification events under the rules."
+      },
+      {
+        "label": "B",
+        "text": "30 calendar days",
+        "explanation": "Incorrect. While 30 days is the general amendment deadline for many Form U4 updates, felony charges require faster reporting. FINRA rules require that criminal charges involving a felony be reported within 30 days for most events, but a felony charge is specifically reportable — however, a felony charge or indictment triggers a 30-day requirement under standard rule language."
+      },
+      {
+        "label": "C",
+        "text": "30 calendar days after the registered person learns of the event or occurrence",
+        "explanation": "Correct. FINRA rules require that Form U4 be amended within 30 calendar days after the registered person becomes aware of the facts that would trigger the amendment obligation, including criminal charges. This applies to felony charges, regulatory actions, customer complaints settled for $15,000 or more, and other reportable events listed on Form U4. Prompt disclosure is essential because this information affects the representative's registration status and public BrokerCheck record."
+      },
+      {
+        "label": "D",
+        "text": "30 calendar days for most reportable events, but within 10 business days if the charge involves a crime that could lead to statutory disqualification",
+        "explanation": "Incorrect. This framing conflates two separate rules. The standard deadline for Form U4 amendments is 30 calendar days after the registered person learns of the event."
+      }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "C",
     "explanation": "Form U4 must be amended within 30 calendar days after the registered person becomes aware of a reportable event — including felony charges, certain misdemeanor charges, regulatory sanctions, customer complaints with settlements of $15,000 or more, and civil judgments of $15,000 or more. Timely amendment is critical because the information is publicly accessible through FINRA BrokerCheck.",
     "topic": "regulatory-framework",
     "subtopic": "registration-continuing-education",
@@ -129,10 +241,26 @@
     "id": "q-rf-008",
     "stem": "Which of the following events would constitute a statutory disqualification that could bar an individual from association with a FINRA member firm?",
     "choices": [
-      { "label": "A", "text": "Failing a FINRA qualification exam on the first attempt", "explanation": "Incorrect. Failing a qualification exam is not a basis for statutory disqualification. Candidates may retake exams after a waiting period." },
-      { "label": "B", "text": "Being convicted of a felony within the past ten years", "explanation": "Correct. Under Section 3(a)(39) of the Securities Exchange Act of 1934, statutory disqualification is triggered by a conviction (not merely a charge) of any felony within the past ten years, a conviction involving certain financial crimes, being expelled or suspended from a self-regulatory organization, having a registration revoked by the SEC, or being subject to an SEC bar or order. Statutory disqualification means the person cannot be associated with a FINRA member without the firm first applying for an SEC order permitting the association." },
-      { "label": "C", "text": "Receiving more than three customer complaints in a single year", "explanation": "Incorrect. While multiple customer complaints may trigger heightened supervision requirements, they do not by themselves constitute statutory disqualification. Statutory disqualification arises from specific legal events enumerated in the Exchange Act." },
-      { "label": "D", "text": "Failing to complete the Firm Element of continuing education in a given year", "explanation": "Incorrect. Failure to complete the Firm Element continuing education requirement results in a registered person's registration being suspended, not statutory disqualification. Statutory disqualification arises from criminal convictions, regulatory bars, and similar enumerated events." }
+      {
+        "label": "A",
+        "text": "Failing a FINRA qualification exam on the first attempt",
+        "explanation": "Incorrect. Failing a qualification exam is not a basis for statutory disqualification. Candidates may retake exams after a waiting period."
+      },
+      {
+        "label": "B",
+        "text": "Being convicted of a felony within the past ten years",
+        "explanation": "Correct. Under Section 3(a)(39) of the Securities Exchange Act of 1934, statutory disqualification is triggered by a conviction (not merely a charge) of any felony within the past ten years, a conviction involving certain financial crimes, being expelled or suspended from a self-regulatory organization, having a registration revoked by the SEC, or being subject to an SEC bar or order. Statutory disqualification means the person cannot be associated with a FINRA member without the firm first applying for an SEC order permitting the association."
+      },
+      {
+        "label": "C",
+        "text": "Receiving more than three customer complaints in a single year",
+        "explanation": "Incorrect. While multiple customer complaints may trigger heightened supervision requirements, they do not by themselves constitute statutory disqualification. Statutory disqualification arises from specific legal events enumerated in the Exchange Act."
+      },
+      {
+        "label": "D",
+        "text": "Failing to complete the Firm Element of continuing education in a given year",
+        "explanation": "Incorrect. Failure to complete the Firm Element continuing education requirement results in a registered person's registration being suspended, not statutory disqualification. Statutory disqualification arises from criminal convictions, regulatory bars, and similar enumerated events."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "Statutory disqualification under Section 3(a)(39) of the Securities Exchange Act of 1934 is triggered by events including felony convictions within the past ten years, convictions for financial crimes, SRO expulsions or suspensions, SEC registration revocations, and certain other regulatory and court orders. A statutorily disqualified person cannot associate with a FINRA member unless FINRA and the SEC approve an application under the statutory disqualification review process.",
@@ -147,12 +275,28 @@
     "id": "q-rf-009",
     "stem": "The Regulatory Element of FINRA's continuing education program is best described as which of the following?",
     "choices": [
-      { "label": "A", "text": "An in-person classroom training program organized by the member firm each year", "explanation": "Incorrect. The Regulatory Element is administered by FINRA as a computer-based program, not an in-person classroom session organized by the firm. In-person or firm-organized training describes the Firm Element." },
-      { "label": "B", "text": "A computer-based training program administered by FINRA that registered persons must complete annually after their first registration anniversary", "explanation": "Correct. The Regulatory Element is a FINRA-administered, computer-based training module that registered persons must complete within 120 days of their first registration anniversary and annually thereafter. As of January 2023, FINRA transitioned the Regulatory Element to an annual requirement. Failure to complete it within the prescribed window results in the person's registration being automatically suspended until the requirement is satisfied." },
-      { "label": "C", "text": "A self-study program that registered persons may complete at any time before their fifth registration anniversary", "explanation": "Incorrect. The Regulatory Element has specific annual deadlines tied to registration anniversaries. It is not an open-ended self-study program with a five-year window." },
-      { "label": "D", "text": "A voluntary program that only applies to registered persons who received customer complaints during the year", "explanation": "Incorrect. The Regulatory Element is mandatory for all registered persons regardless of complaint history. It is not triggered by customer complaints." }
+      {
+        "label": "A",
+        "text": "A computer-based training program administered by FINRA that registered persons must complete annually after their first registration anniversary",
+        "explanation": "Correct. The Regulatory Element is a FINRA-administered, computer-based training module that registered persons must complete within 120 days of their first registration anniversary and annually thereafter. As of January 2023, FINRA transitioned the Regulatory Element to an annual requirement. Failure to complete it within the prescribed window results in the person's registration being automatically suspended until the requirement is satisfied."
+      },
+      {
+        "label": "B",
+        "text": "An in-person classroom training program organized by the member firm each year",
+        "explanation": "Incorrect. The Regulatory Element is administered by FINRA as a computer-based program, not an in-person classroom session organized by the firm. In-person or firm-organized training describes the Firm Element."
+      },
+      {
+        "label": "C",
+        "text": "A self-study program that registered persons may complete at any time before their fifth registration anniversary",
+        "explanation": "Incorrect. The Regulatory Element has specific annual deadlines tied to registration anniversaries. It is not an open-ended self-study program with a five-year window."
+      },
+      {
+        "label": "D",
+        "text": "A voluntary program that only applies to registered persons who received customer complaints during the year",
+        "explanation": "Incorrect. The Regulatory Element is mandatory for all registered persons regardless of complaint history. It is not triggered by customer complaints."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "The Regulatory Element is a FINRA-administered, computer-based continuing education program that all registered persons must complete annually, beginning after their first registration anniversary. Effective January 2023, FINRA moved the Regulatory Element to an annual cycle. A registered person whose Regulatory Element is past due is automatically suspended and may not conduct securities business until the requirement is fulfilled.",
     "topic": "regulatory-framework",
     "subtopic": "registration-continuing-education",
@@ -165,12 +309,28 @@
     "id": "q-rf-010",
     "stem": "Under FINRA Rule 1240, a member firm's Firm Element continuing education program must include which of the following?",
     "choices": [
-      { "label": "A", "text": "An annual training needs analysis and a written training plan covering topics relevant to the firm's business and its registered persons", "explanation": "Correct. FINRA Rule 1240(b) requires member firms to maintain a written training plan for their Firm Element continuing education program. Each year, the firm must conduct a needs analysis to identify training priorities based on the firm's products, services, customer base, regulatory developments, and prior examination findings. The resulting training plan must be designed to enhance the knowledge and skills of covered registered persons and kept on file for FINRA review." },
-      { "label": "B", "text": "A standardized, FINRA-prescribed curriculum the same for all broker-dealers", "explanation": "Incorrect. The Firm Element is not standardized by FINRA. Each member firm develops its own curriculum based on a needs analysis specific to its business activities and registered persons." },
-      { "label": "C", "text": "Training administered exclusively through FINRA's Web CRD system", "explanation": "Incorrect. The Firm Element is delivered by the member firm through its own training platform or provider of choice. It is not administered through Web CRD, which is primarily a registration and reporting system." },
-      { "label": "D", "text": "A minimum of 40 credit hours of continuing education per registered person per year", "explanation": "Incorrect. FINRA does not prescribe a specific credit hour requirement for the Firm Element. The rule requires a training plan and annual delivery; the scope is determined by the firm's needs analysis." }
+      {
+        "label": "A",
+        "text": "A minimum of 40 credit hours of continuing education per registered person per year",
+        "explanation": "Incorrect. FINRA does not prescribe a specific credit hour requirement for the Firm Element. The rule requires a training plan and annual delivery; the scope is determined by the firm's needs analysis."
+      },
+      {
+        "label": "B",
+        "text": "A standardized, FINRA-prescribed curriculum the same for all broker-dealers",
+        "explanation": "Incorrect. The Firm Element is not standardized by FINRA. Each member firm develops its own curriculum based on a needs analysis specific to its business activities and registered persons."
+      },
+      {
+        "label": "C",
+        "text": "Training administered exclusively through FINRA's Web CRD system",
+        "explanation": "Incorrect. The Firm Element is delivered by the member firm through its own training platform or provider of choice. It is not administered through Web CRD, which is primarily a registration and reporting system."
+      },
+      {
+        "label": "D",
+        "text": "An annual training needs analysis and a written training plan covering topics relevant to the firm's business and its registered persons",
+        "explanation": "Correct. FINRA Rule 1240(b) requires member firms to maintain a written training plan for their Firm Element continuing education program. Each year, the firm must conduct a needs analysis to identify training priorities based on the firm's products, services, customer base, regulatory developments, and prior examination findings. The resulting training plan must be designed to enhance the knowledge and skills of covered registered persons and kept on file for FINRA review."
+      }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Firm Element requires member firms to complete an annual training needs analysis and develop a written training plan tailored to the firm's business, products, and registered personnel. The program must address regulatory topics and product knowledge relevant to the firm's operations. Covered persons must complete the training annually, and firms must maintain records of completion.",
     "topic": "regulatory-framework",
     "subtopic": "registration-continuing-education",
@@ -183,12 +343,28 @@
     "id": "q-rf-011",
     "stem": "Which of the following statements most accurately describes the coverage provided by the Securities Investor Protection Corporation (SIPC)?",
     "choices": [
-      { "label": "A", "text": "SIPC insures customers against investment losses caused by market declines and poor investment decisions", "explanation": "Incorrect. SIPC does not protect customers from investment losses due to market fluctuations or bad investment decisions. SIPC protection is limited to losses arising from the financial failure of a member broker-dealer." },
-      { "label": "B", "text": "SIPC protects customers of failed broker-dealers up to $500,000 per customer, including up to $250,000 in cash claims", "explanation": "Correct. SIPC is a nonprofit membership corporation funded by broker-dealers. When a SIPC member firm fails, SIPC facilitates the return of missing securities and cash up to $500,000 per customer, of which no more than $250,000 can be for cash claims. The protection applies only to securities and cash held at the failed firm — not to investment losses from market risk, fraud by a third party not connected to the broker-dealer, or commodity contracts." },
-      { "label": "C", "text": "SIPC coverage applies to all financial accounts including bank deposits, mutual fund shares held directly with a fund company, and commodity futures contracts", "explanation": "Incorrect. SIPC coverage is limited to securities accounts at SIPC member broker-dealers. Bank deposits are covered by FDIC, not SIPC. Mutual fund shares held directly with a fund company and commodity futures contracts are not covered by SIPC." },
-      { "label": "D", "text": "SIPC coverage is unlimited for accounts held by individual retail investors at member broker-dealers", "explanation": "Incorrect. SIPC coverage is capped at $500,000 per customer (with a $250,000 sublimit for cash). There is no unlimited coverage, even for retail investors." }
+      {
+        "label": "A",
+        "text": "SIPC insures customers against investment losses caused by market declines and poor investment decisions",
+        "explanation": "Incorrect. SIPC does not protect customers from investment losses due to market fluctuations or bad investment decisions. SIPC protection is limited to losses arising from the financial failure of a member broker-dealer."
+      },
+      {
+        "label": "B",
+        "text": "SIPC coverage applies to all financial accounts including bank deposits, mutual fund shares held directly with a fund company, and commodity futures contracts",
+        "explanation": "Incorrect. SIPC coverage is limited to securities accounts at SIPC member broker-dealers. Bank deposits are covered by FDIC, not SIPC. Mutual fund shares held directly with a fund company and commodity futures contracts are not covered by SIPC."
+      },
+      {
+        "label": "C",
+        "text": "SIPC protects customers of failed broker-dealers up to $500,000 per customer, including up to $250,000 in cash claims",
+        "explanation": "Correct. SIPC is a nonprofit membership corporation funded by broker-dealers. When a SIPC member firm fails, SIPC facilitates the return of missing securities and cash up to $500,000 per customer, of which no more than $250,000 can be for cash claims. The protection applies only to securities and cash held at the failed firm — not to investment losses from market risk, fraud by a third party not connected to the broker-dealer, or commodity contracts."
+      },
+      {
+        "label": "D",
+        "text": "SIPC coverage is unlimited for accounts held by individual retail investors at member broker-dealers",
+        "explanation": "Incorrect. SIPC coverage is capped at $500,000 per customer (with a $250,000 sublimit for cash). There is no unlimited coverage, even for retail investors."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "SIPC (Securities Investor Protection Corporation) protects customers of SIPC member broker-dealers if the firm becomes insolvent. Coverage is up to $500,000 per customer, with a $250,000 sublimit for cash. SIPC does not cover market losses, losses from fraud by third parties, or investments in commodities, currencies, or investment contracts not registered as securities.",
     "topic": "regulatory-framework",
     "subtopic": "registration-continuing-education",
@@ -196,16 +372,34 @@
     "source": "FINRA content outline",
     "regulatoryBasis": "Securities Investor Protection Act of 1970 (SIPA)",
     "lastVerified": "2026-05-20",
-    "relatedStories": ["lehman"]
+    "relatedStories": [
+      "lehman"
+    ]
   },
   {
     "id": "q-rf-012",
     "stem": "An investor has $600,000 in securities and $300,000 in cash held at a broker-dealer that subsequently fails. Assuming SIPC coverage applies, what is the maximum combined amount SIPC will protect for this customer?",
     "choices": [
-      { "label": "A", "text": "$600,000 for the securities and $300,000 for the cash — $900,000 total", "explanation": "Incorrect. SIPC coverage has an overall cap of $500,000 per customer regardless of the total account value, so the combined maximum is $500,000, not $900,000." },
-      { "label": "B", "text": "$500,000 total, of which no more than $250,000 may cover the cash claim", "explanation": "Correct. SIPC coverage is capped at $500,000 per customer. Within that cap, the maximum for cash is $250,000. In this example, the customer has $300,000 in cash, but only $250,000 of that is covered. The remaining $250,000 of the $500,000 cap would apply toward the $600,000 in securities, meaning $250,000 of the securities position is also covered — for a total of $500,000 in SIPC protection. The remaining $400,000 in securities value and $50,000 in cash above the cash sublimit would not be covered by SIPC." },
-      { "label": "C", "text": "$250,000 total, because only cash claims are covered by SIPC", "explanation": "Incorrect. SIPC covers both securities and cash. The overall limit is $500,000, with a $250,000 sublimit specifically for cash claims. Securities in customer accounts are covered up to the remaining balance of the $500,000 cap." },
-      { "label": "D", "text": "$500,000 for securities plus $250,000 for cash — $750,000 total", "explanation": "Incorrect. The $500,000 is an overall cap that includes both securities and cash together. It is not a separate $500,000 for securities and $250,000 for cash." }
+      {
+        "label": "A",
+        "text": "$600,000 for the securities and $300,000 for the cash — $900,000 total",
+        "explanation": "Incorrect. SIPC coverage has an overall cap of $500,000 per customer regardless of the total account value, so the combined maximum is $500,000, not $900,000."
+      },
+      {
+        "label": "B",
+        "text": "$500,000 total, of which no more than $250,000 may cover the cash claim",
+        "explanation": "Correct. SIPC coverage is capped at $500,000 per customer. Within that cap, the maximum for cash is $250,000. In this example, the customer has $300,000 in cash, but only $250,000 of that is covered. The remaining $250,000 of the $500,000 cap would apply toward the $600,000 in securities, meaning $250,000 of the securities position is also covered — for a total of $500,000 in SIPC protection. The remaining $400,000 in securities value and $50,000 in cash above the cash sublimit would not be covered by SIPC."
+      },
+      {
+        "label": "C",
+        "text": "$250,000 total, because only cash claims are covered by SIPC",
+        "explanation": "Incorrect. SIPC covers both securities and cash. The overall limit is $500,000, with a $250,000 sublimit specifically for cash claims. Securities in customer accounts are covered up to the remaining balance of the $500,000 cap."
+      },
+      {
+        "label": "D",
+        "text": "$500,000 for securities plus $250,000 for cash — $750,000 total",
+        "explanation": "Incorrect. The $500,000 is an overall cap that includes both securities and cash together. It is not a separate $500,000 for securities and $250,000 for cash."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "SIPC protects up to $500,000 per customer in total, with a sublimit of $250,000 for cash. In this scenario, of the $300,000 cash, only $250,000 is covered. The remaining $250,000 of the $500,000 cap can be applied to the $600,000 in securities. The customer's unprotected amount is $50,000 in cash and $350,000 in securities — a total of $400,000 beyond SIPC's reach.",
@@ -215,18 +409,36 @@
     "source": "FINRA content outline",
     "regulatoryBasis": "Securities Investor Protection Act of 1970 (SIPA), Section 9",
     "lastVerified": "2026-05-20",
-    "relatedStories": ["lehman"]
+    "relatedStories": [
+      "lehman"
+    ]
   },
   {
     "id": "q-rf-013",
     "stem": "A registered representative participates in a securities transaction for a customer outside the scope of their employment at the member firm, without first obtaining the firm's approval. This activity is known as:",
     "choices": [
-      { "label": "A", "text": "An outside business activity (OBA), which requires only written notice to the firm", "explanation": "Incorrect. Outside business activities cover non-securities employment and business activities. Participating in a securities transaction outside the firm is more specifically governed by FINRA's private securities transactions rule, which requires prior written approval — not merely notice." },
-      { "label": "B", "text": "Selling away, also called a private securities transaction, which is prohibited unless the firm grants prior written approval", "explanation": "Correct. FINRA Rule 3280 prohibits registered representatives from participating in any securities transaction outside the regular course of their employment without first providing written notice to their firm and, if the representative is to receive compensation, obtaining prior written approval. This practice is commonly called 'selling away' and is a serious regulatory violation. Firms that approve the transaction must supervise it as if it were the firm's own business." },
-      { "label": "C", "text": "An exempt transaction that does not require disclosure to the firm", "explanation": "Incorrect. There is no blanket exemption from the private securities transactions rule. All securities transactions outside the firm require prior notice and, where compensation is involved, approval." },
-      { "label": "D", "text": "A permissible activity as long as the representative discloses it on their next Form U4 amendment", "explanation": "Incorrect. Retroactive disclosure on Form U4 does not satisfy the prior written notice and approval requirements of FINRA Rule 3280. The requirement is prior to participation in the transaction, not after." }
+      {
+        "label": "A",
+        "text": "Selling away, also called a private securities transaction, which is prohibited unless the firm grants prior written approval",
+        "explanation": "Correct. FINRA Rule 3280 prohibits registered representatives from participating in any securities transaction outside the regular course of their employment without first providing written notice to their firm and, if the representative is to receive compensation, obtaining prior written approval. This practice is commonly called 'selling away' and is a serious regulatory violation. Firms that approve the transaction must supervise it as if it were the firm's own business."
+      },
+      {
+        "label": "B",
+        "text": "An outside business activity (OBA), which requires only written notice to the firm",
+        "explanation": "Incorrect. Outside business activities cover non-securities employment and business activities. Participating in a securities transaction outside the firm is more specifically governed by FINRA's private securities transactions rule, which requires prior written approval — not merely notice."
+      },
+      {
+        "label": "C",
+        "text": "An exempt transaction that does not require disclosure to the firm",
+        "explanation": "Incorrect. There is no blanket exemption from the private securities transactions rule. All securities transactions outside the firm require prior notice and, where compensation is involved, approval."
+      },
+      {
+        "label": "D",
+        "text": "A permissible activity as long as the representative discloses it on their next Form U4 amendment",
+        "explanation": "Incorrect. Retroactive disclosure on Form U4 does not satisfy the prior written notice and approval requirements of FINRA Rule 3280. The requirement is prior to participation in the transaction, not after."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "FINRA Rule 3280 governs private securities transactions. A registered representative who participates in a securities transaction outside their employing firm without proper notice and approval is said to be 'selling away.' If the rep receives or may receive compensation, they must obtain prior written approval from the firm. The firm then must supervise the transaction. Violations can result in suspension, bar, or fines.",
     "topic": "regulatory-framework",
     "subtopic": "employee-conduct",
@@ -239,12 +451,28 @@
     "id": "q-rf-014",
     "stem": "Under FINRA Rule 3240, a registered representative is generally prohibited from borrowing money from a customer UNLESS which of the following conditions is met?",
     "choices": [
-      { "label": "A", "text": "The customer is an immediate family member, or the customer is a financial institution that regularly extends credit as part of its business", "explanation": "Correct. FINRA Rule 3240 generally prohibits registered representatives from borrowing money from or lending money to customers. Exceptions exist for: (1) immediate family members (parent, grandparent, mother/father-in-law, sibling, spouse, child, or any other person that the registered person financially supports); (2) customers who are financial institutions that lend money in the ordinary course of business (banks, thrifts, credit unions, etc.); (3) customers with personal relationships that predate the broker-customer relationship, if permitted by the firm; and (4) certain other circumstances permitted in writing by the member firm. Even for permitted borrowing, firms may impose additional restrictions." },
-      { "label": "B", "text": "The loan is for less than $10,000 and repaid within one year", "explanation": "Incorrect. There is no dollar threshold or repayment timeline that creates a general exception to the borrowing prohibition under FINRA Rule 3240. The exceptions are based on the nature of the relationship, not the amount or term of the loan." },
-      { "label": "C", "text": "The registered representative discloses the loan to FINRA within 30 days", "explanation": "Incorrect. Disclosure to FINRA does not create an exception to the borrowing prohibition. The exceptions are defined by the customer relationship (immediate family, financial institution, etc.), and in many cases also require member firm approval." },
-      { "label": "D", "text": "The borrowing is permitted whenever the customer voluntarily offers the loan", "explanation": "Incorrect. A customer's voluntary offer does not override the restrictions in FINRA Rule 3240. The rule exists to prevent exploitation of the inherently unequal broker-customer relationship, regardless of who initiates the transaction." }
+      {
+        "label": "A",
+        "text": "The borrowing is permitted whenever the customer voluntarily offers the loan",
+        "explanation": "Incorrect. A customer's voluntary offer does not override the restrictions in FINRA Rule 3240. The rule exists to prevent exploitation of the inherently unequal broker-customer relationship, regardless of who initiates the transaction."
+      },
+      {
+        "label": "B",
+        "text": "The loan is for less than $10,000 and repaid within one year",
+        "explanation": "Incorrect. There is no dollar threshold or repayment timeline that creates a general exception to the borrowing prohibition under FINRA Rule 3240. The exceptions are based on the nature of the relationship, not the amount or term of the loan."
+      },
+      {
+        "label": "C",
+        "text": "The registered representative discloses the loan to FINRA within 30 days",
+        "explanation": "Incorrect. Disclosure to FINRA does not create an exception to the borrowing prohibition. The exceptions are defined by the customer relationship (immediate family, financial institution, etc.), and in many cases also require member firm approval."
+      },
+      {
+        "label": "D",
+        "text": "The customer is an immediate family member, or the customer is a financial institution that regularly extends credit as part of its business",
+        "explanation": "Correct. FINRA Rule 3240 generally prohibits registered representatives from borrowing money from or lending money to customers. Exceptions exist for: (1) immediate family members (parent, grandparent, mother/father-in-law, sibling, spouse, child, or any other person that the registered person financially supports); (2) customers who are financial institutions that lend money in the ordinary course of business (banks, thrifts, credit unions, etc.); (3) customers with personal relationships that predate the broker-customer relationship, if permitted by the firm; and (4) certain other circumstances permitted in writing by the member firm. Even for permitted borrowing, firms may impose additional restrictions."
+      }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "FINRA Rule 3240 prohibits borrowing from or lending to customers except in limited circumstances: the customer is an immediate family member, the customer is a financial institution regularly extending credit in the ordinary course of business, or the firm has specifically approved the arrangement under a written policy. The rule is designed to prevent exploitation of client trust and the potential for conflicts of interest.",
     "topic": "regulatory-framework",
     "subtopic": "employee-conduct",
@@ -257,12 +485,28 @@
     "id": "q-rf-015",
     "stem": "Which of the following best describes the supervision requirement that FINRA places on member firms with respect to their registered representatives?",
     "choices": [
-      { "label": "A", "text": "Supervision is only required for registered representatives who have received customer complaints within the past two years", "explanation": "Incorrect. FINRA Rule 3110 requires all member firms to establish a supervisory system for all registered persons and all aspects of their securities business — not only those with complaint histories. Heightened supervision may be required for reps with disciplinary history, but baseline supervision applies to everyone." },
-      { "label": "B", "text": "Member firms must establish and maintain a supervisory system and written supervisory procedures reasonably designed to achieve compliance with applicable securities laws and FINRA rules", "explanation": "Correct. Under FINRA Rule 3110, every member firm must establish and maintain a system for supervising the activities of each associated person that is reasonably designed to achieve compliance with applicable securities laws, regulations, and FINRA rules. This includes designating qualified registered principals to supervise each type of business activity, maintaining written supervisory procedures (WSPs), conducting regular branch office inspections, and reviewing correspondence and transactions. Failure to supervise is itself a FINRA rule violation." },
-      { "label": "C", "text": "Supervision of registered representatives is the sole responsibility of FINRA examiners, not the member firm", "explanation": "Incorrect. Regulatory examinations conducted by FINRA are separate from the firm's own ongoing supervisory obligations. Member firms bear the primary duty to supervise their own employees on a day-to-day basis." },
-      { "label": "D", "text": "Supervision requirements apply only to principals, not to registered representatives", "explanation": "Incorrect. While principals are responsible for supervising registered representatives, the obligation under FINRA Rule 3110 applies to the member firm as a whole, covering all associated persons including both registered representatives and principals." }
+      {
+        "label": "A",
+        "text": "Supervision is only required for registered representatives who have received customer complaints within the past two years",
+        "explanation": "Incorrect. FINRA Rule 3110 requires all member firms to establish a supervisory system for all registered persons and all aspects of their securities business — not only those with complaint histories. Heightened supervision may be required for reps with disciplinary history, but baseline supervision applies to everyone."
+      },
+      {
+        "label": "B",
+        "text": "Supervision of registered representatives is the sole responsibility of FINRA examiners, not the member firm",
+        "explanation": "Incorrect. Regulatory examinations conducted by FINRA are separate from the firm's own ongoing supervisory obligations. Member firms bear the primary duty to supervise their own employees on a day-to-day basis."
+      },
+      {
+        "label": "C",
+        "text": "Member firms must establish and maintain a supervisory system and written supervisory procedures reasonably designed to achieve compliance with applicable securities laws and FINRA rules",
+        "explanation": "Correct. Under FINRA Rule 3110, every member firm must establish and maintain a system for supervising the activities of each associated person that is reasonably designed to achieve compliance with applicable securities laws, regulations, and FINRA rules. This includes designating qualified registered principals to supervise each type of business activity, maintaining written supervisory procedures (WSPs), conducting regular branch office inspections, and reviewing correspondence and transactions. Failure to supervise is itself a FINRA rule violation."
+      },
+      {
+        "label": "D",
+        "text": "Supervision requirements apply only to principals, not to registered representatives",
+        "explanation": "Incorrect. While principals are responsible for supervising registered representatives, the obligation under FINRA Rule 3110 applies to the member firm as a whole, covering all associated persons including both registered representatives and principals."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "FINRA Rule 3110 requires each member firm to establish a supervisory system with written supervisory procedures (WSPs) reasonably designed to achieve compliance with securities laws and FINRA rules. The system must include designated supervisory principals for each business area, branch office inspections (annual for OSJs, at least every three years for non-OSJ offices), and review of registered person activities. Failure to supervise is itself sanctionable under FINRA rules.",
     "topic": "regulatory-framework",
     "subtopic": "employee-conduct",
@@ -275,10 +519,26 @@
     "id": "q-rf-016",
     "stem": "A registered representative gives a $120 gift basket to an employee of another FINRA member firm who referred several clients. Which of the following is the most accurate statement about this situation?",
     "choices": [
-      { "label": "A", "text": "The gift is permissible because the recipient works at a regulated firm", "explanation": "Incorrect. FINRA Rule 3220 applies specifically to gifts given to employees of other FINRA member firms in connection with the business of the recipient's employer. Working at a regulated firm does not exempt the transaction from the $100 annual per-person limit." },
-      { "label": "B", "text": "The gift violates FINRA Rule 3220 because it exceeds the $100 annual per-person limit for gifts to employees of other FINRA members", "explanation": "Correct. FINRA Rule 3220 (the Influencing or Rewarding Employees of Others rule) prohibits giving anything of value in excess of $100 per person per year to any person associated with a member firm or other financial institution, where such payment is related to the business of the recipient's employer. A $120 gift basket exceeds this limit. The rule is intended to prevent improper inducements that could compromise the objectivity of employees at other firms." },
-      { "label": "C", "text": "The gift is permissible because it is a business expense and not a cash payment", "explanation": "Incorrect. FINRA Rule 3220 applies to 'anything of value,' which includes non-cash gifts such as gift baskets, entertainment, and merchandise. There is no exemption for non-cash gifts above the $100 threshold." },
-      { "label": "D", "text": "The gift is permissible only if the representative's firm pre-approves it in writing", "explanation": "Incorrect. Firm pre-approval does not override the $100 limit in FINRA Rule 3220. No amount of internal approval makes a gift above $100 to an employee of another FINRA member permissible under this rule." }
+      {
+        "label": "A",
+        "text": "The gift is permissible because the recipient works at a regulated firm",
+        "explanation": "Incorrect. FINRA Rule 3220 applies specifically to gifts given to employees of other FINRA member firms in connection with the business of the recipient's employer. Working at a regulated firm does not exempt the transaction from the $100 annual per-person limit."
+      },
+      {
+        "label": "B",
+        "text": "The gift violates FINRA Rule 3220 because it exceeds the $100 annual per-person limit for gifts to employees of other FINRA members",
+        "explanation": "Correct. FINRA Rule 3220 (the Influencing or Rewarding Employees of Others rule) prohibits giving anything of value in excess of $100 per person per year to any person associated with a member firm or other financial institution, where such payment is related to the business of the recipient's employer. A $120 gift basket exceeds this limit. The rule is intended to prevent improper inducements that could compromise the objectivity of employees at other firms."
+      },
+      {
+        "label": "C",
+        "text": "The gift is permissible because it is a business expense and not a cash payment",
+        "explanation": "Incorrect. FINRA Rule 3220 applies to 'anything of value,' which includes non-cash gifts such as gift baskets, entertainment, and merchandise. There is no exemption for non-cash gifts above the $100 threshold."
+      },
+      {
+        "label": "D",
+        "text": "The gift is permissible only if the representative's firm pre-approves it in writing",
+        "explanation": "Incorrect. Firm pre-approval does not override the $100 limit in FINRA Rule 3220. No amount of internal approval makes a gift above $100 to an employee of another FINRA member permissible under this rule."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "FINRA Rule 3220 limits gifts to employees of other FINRA member firms (and other financial institutions) to $100 per person per year where the gift is in connection with the business of the recipient's employer. The rule covers anything of value, not just cash. A $120 gift basket exceeds the limit and violates the rule.",
@@ -293,12 +553,28 @@
     "id": "q-rf-017",
     "stem": "Which of the following events requires a registered representative's Form U4 to be amended within 30 days?",
     "choices": [
-      { "label": "A", "text": "The representative opens a new personal brokerage account at another broker-dealer", "explanation": "Incorrect. While opening an account at another broker-dealer may require disclosure under firm policies, it is not one of the enumerated events that require a Form U4 amendment within 30 days under FINRA rules." },
-      { "label": "B", "text": "The representative completes all required continuing education modules for the year", "explanation": "Incorrect. Completing continuing education does not trigger a Form U4 amendment. CE completion is tracked separately in the CRD system." },
-      { "label": "C", "text": "A customer complaint is settled by the firm for $15,000 or more, naming the representative", "explanation": "Correct. Form U4 must be amended within 30 calendar days of the registered person becoming aware of a reportable event. One such event is any written customer complaint that has been settled for $15,000 or more. Other triggering events include criminal charges, regulatory sanctions, judgments or liens of $15,000 or more, and specified financial disclosures. These disclosures are publicly available on FINRA BrokerCheck to help investors make informed choices." },
-      { "label": "D", "text": "The representative receives a promotion to a senior registered representative title", "explanation": "Incorrect. A title change that does not affect registration category (for example, adding a principal license) does not independently require a Form U4 amendment. Only the enumerated events on Form U4 trigger the 30-day amendment requirement." }
+      {
+        "label": "A",
+        "text": "A customer complaint is settled by the firm for $15,000 or more, naming the representative",
+        "explanation": "Correct. Form U4 must be amended within 30 calendar days of the registered person becoming aware of a reportable event. One such event is any written customer complaint that has been settled for $15,000 or more. Other triggering events include criminal charges, regulatory sanctions, judgments or liens of $15,000 or more, and specified financial disclosures. These disclosures are publicly available on FINRA BrokerCheck to help investors make informed choices."
+      },
+      {
+        "label": "B",
+        "text": "The representative completes all required continuing education modules for the year",
+        "explanation": "Incorrect. Completing continuing education does not trigger a Form U4 amendment. CE completion is tracked separately in the CRD system."
+      },
+      {
+        "label": "C",
+        "text": "The representative opens a new personal brokerage account at another broker-dealer",
+        "explanation": "Incorrect. While opening an account at another broker-dealer may require disclosure under firm policies, it is not one of the enumerated events that require a Form U4 amendment within 30 days under FINRA rules."
+      },
+      {
+        "label": "D",
+        "text": "The representative receives a promotion to a senior registered representative title",
+        "explanation": "Incorrect. A title change that does not affect registration category (for example, adding a principal license) does not independently require a Form U4 amendment. Only the enumerated events on Form U4 trigger the 30-day amendment requirement."
+      }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "explanation": "Form U4 must be amended within 30 days when a registered person becomes aware of certain reportable events, including customer complaints settled for $15,000 or more, criminal charges, regulatory sanctions, civil judgments of $15,000 or more, and specified financial disclosures such as bankruptcies or liens. These disclosures appear on FINRA BrokerCheck and are critical for investor protection.",
     "topic": "regulatory-framework",
     "subtopic": "reportable-events",
@@ -311,12 +587,28 @@
     "id": "q-rf-018",
     "stem": "A customer files a written complaint alleging that a registered representative recommended unsuitable investments. The complaint does not yet involve any settlement demand. Which of the following best describes the firm's obligation under FINRA rules?",
     "choices": [
-      { "label": "A", "text": "No action is required until the complaint results in arbitration or litigation", "explanation": "Incorrect. Member firms are required to acknowledge, investigate, and respond to all written customer complaints, regardless of whether they result in arbitration. Ignoring complaints is itself a compliance failure." },
-      { "label": "B", "text": "The firm must acknowledge, investigate, and respond to the written complaint, and maintain records of all written complaints for at least four years", "explanation": "Correct. FINRA Rule 4513 requires member firms to keep records of all written complaints received from customers. Firms must also follow their written supervisory procedures for handling complaints. While a Form U4 amendment is only required if the complaint is settled for $15,000 or more, the firm must still acknowledge and investigate all written complaints. A principal must review the complaint and take appropriate action. Written complaint records must be retained for at least four years and be accessible to FINRA during examinations." },
-      { "label": "C", "text": "The firm must immediately file a report with FINRA using the Complaints section of Web CRD", "explanation": "Incorrect. Not all written customer complaints must be immediately reported to FINRA. However, complaints that involve potential rule violations or criminal activity may trigger reporting obligations under FINRA Rule 4530. Routine complaint recordkeeping and response is handled under the firm's supervisory system and Rule 4513." },
-      { "label": "D", "text": "The representative must immediately disclose the complaint by filing a Form U4 amendment", "explanation": "Incorrect. A Form U4 amendment is required only if a written complaint has been settled for $15,000 or more. A complaint that has not been settled yet does not by itself trigger a Form U4 amendment obligation, though the firm must still handle and record it." }
+      {
+        "label": "A",
+        "text": "No action is required until the complaint results in arbitration or litigation",
+        "explanation": "Incorrect. Member firms are required to acknowledge, investigate, and respond to all written customer complaints, regardless of whether they result in arbitration. Ignoring complaints is itself a compliance failure."
+      },
+      {
+        "label": "B",
+        "text": "The representative must immediately disclose the complaint by filing a Form U4 amendment",
+        "explanation": "Incorrect. A Form U4 amendment is required only if a written complaint has been settled for $15,000 or more. A complaint that has not been settled yet does not by itself trigger a Form U4 amendment obligation, though the firm must still handle and record it."
+      },
+      {
+        "label": "C",
+        "text": "The firm must immediately file a report with FINRA using the Complaints section of Web CRD",
+        "explanation": "Incorrect. Not all written customer complaints must be immediately reported to FINRA. However, complaints that involve potential rule violations or criminal activity may trigger reporting obligations under FINRA Rule 4530. Routine complaint recordkeeping and response is handled under the firm's supervisory system and Rule 4513."
+      },
+      {
+        "label": "D",
+        "text": "The firm must acknowledge, investigate, and respond to the written complaint, and maintain records of all written complaints for at least four years",
+        "explanation": "Correct. FINRA Rule 4513 requires member firms to keep records of all written complaints received from customers. Firms must also follow their written supervisory procedures for handling complaints. While a Form U4 amendment is only required if the complaint is settled for $15,000 or more, the firm must still acknowledge and investigate all written complaints. A principal must review the complaint and take appropriate action. Written complaint records must be retained for at least four years and be accessible to FINRA during examinations."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Under FINRA Rule 4513, firms must maintain records of all written customer complaints for at least four years. Firms must have written supervisory procedures for complaint handling, investigate each complaint, and take appropriate supervisory action. A Form U4 amendment is only required if the complaint is settled for $15,000 or more, but the underlying obligation to handle, investigate, and record all written complaints exists independently.",
     "topic": "regulatory-framework",
     "subtopic": "reportable-events",
@@ -329,12 +621,28 @@
     "id": "q-rf-019",
     "stem": "Under FINRA Rule 4530, which of the following events would require a member firm to report to FINRA promptly?",
     "choices": [
-      { "label": "A", "text": "A registered representative receives a parking ticket while commuting to work", "explanation": "Incorrect. A parking violation is a minor civil infraction that has no bearing on the fitness of a registered person or the firm's compliance with securities laws. FINRA Rule 4530 reporting is reserved for material events involving criminal activity, regulatory proceedings, and similar significant matters." },
-      { "label": "B", "text": "The firm determines that it or any associated person may have violated a securities law, FINRA rule, or applicable regulation in a manner that is substantial", "explanation": "Correct. FINRA Rule 4530 requires member firms to report to FINRA within 30 calendar days if the firm concludes, or reasonably should have concluded, that an associated person or the firm itself has violated any applicable securities law, regulation, or rule of a self-regulatory organization, if the violation is substantial. Specific triggering events also include: criminal indictments, findings by courts or regulators of rule violations, customer complaints or arbitration awards exceeding $15,000, and civil suits or arbitrations involving matters specified in the rule. The rule is designed to ensure FINRA has timely notice of significant compliance failures." },
-      { "label": "C", "text": "A registered representative loses a personal lawsuit involving a car accident with no securities nexus", "explanation": "Incorrect. A personal lawsuit unrelated to the securities business does not trigger FINRA Rule 4530 firm reporting. However, it may require a Form U4 amendment if a civil judgment of $15,000 or more results." },
-      { "label": "D", "text": "The firm decides to change its clearing arrangement from self-clearing to fully disclosed clearing", "explanation": "Incorrect. Changes in clearing arrangements are operational matters that require FINRA notification through other channels (such as Form BD amendments) but are not events triggering a Rule 4530 report about violations or regulatory proceedings." }
+      {
+        "label": "A",
+        "text": "A registered representative receives a parking ticket while commuting to work",
+        "explanation": "Incorrect. A parking violation is a minor civil infraction that has no bearing on the fitness of a registered person or the firm's compliance with securities laws. FINRA Rule 4530 reporting is reserved for material events involving criminal activity, regulatory proceedings, and similar significant matters."
+      },
+      {
+        "label": "B",
+        "text": "A registered representative loses a personal lawsuit involving a car accident with no securities nexus",
+        "explanation": "Incorrect. A personal lawsuit unrelated to the securities business does not trigger FINRA Rule 4530 firm reporting. However, it may require a Form U4 amendment if a civil judgment of $15,000 or more results."
+      },
+      {
+        "label": "C",
+        "text": "The firm determines that it or any associated person may have violated a securities law, FINRA rule, or applicable regulation in a manner that is substantial",
+        "explanation": "Correct. FINRA Rule 4530 requires member firms to report to FINRA within 30 calendar days if the firm concludes, or reasonably should have concluded, that an associated person or the firm itself has violated any applicable securities law, regulation, or rule of a self-regulatory organization, if the violation is substantial. Specific triggering events also include: criminal indictments, findings by courts or regulators of rule violations, customer complaints or arbitration awards exceeding $15,000, and civil suits or arbitrations involving matters specified in the rule. The rule is designed to ensure FINRA has timely notice of significant compliance failures."
+      },
+      {
+        "label": "D",
+        "text": "The firm decides to change its clearing arrangement from self-clearing to fully disclosed clearing",
+        "explanation": "Incorrect. Changes in clearing arrangements are operational matters that require FINRA notification through other channels (such as Form BD amendments) but are not events triggering a Rule 4530 report about violations or regulatory proceedings."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "FINRA Rule 4530 requires member firms to promptly report to FINRA when they conclude, or should reasonably have concluded, that the firm or an associated person has committed a substantial violation of a securities law, rule, or regulation. The rule also covers criminal indictments, regulatory findings of violations, customer-related arbitration awards or settlements above $15,000, and civil lawsuits covered by the rule's scope. Reports must generally be filed within 30 calendar days.",
     "topic": "regulatory-framework",
     "subtopic": "reportable-events",
@@ -347,10 +655,26 @@
     "id": "q-rf-020",
     "stem": "A registered representative was previously fined and suspended by a state securities regulator for making unsuitable recommendations. The representative has since joined a new broker-dealer. Under FINRA rules, what is the most likely supervisory response at the new firm?",
     "choices": [
-      { "label": "A", "text": "The representative may be barred from the industry by FINRA as a result of the state regulatory action", "explanation": "Incorrect. A state regulatory fine and suspension does not automatically result in a FINRA industry bar. FINRA conducts its own review, but the firm's immediate obligation is heightened supervision of the individual based on the prior disciplinary history." },
-      { "label": "B", "text": "The new firm must place the representative under heightened supervision with a written plan tailored to the specific risks identified by the prior disciplinary history", "explanation": "Correct. FINRA Rule 3110 and related guidance require member firms to implement heightened supervisory procedures for registered persons with a history of significant regulatory, customer complaint, or disciplinary events. When a representative with prior disciplinary history joins a new firm, that firm must conduct due diligence (reviewing CRD disclosures, Form U4/U5 history), assess the risk presented, and — if warranted — put in place a formal heightened supervision plan. The plan should be tailored to the individual's specific violations and risk profile, specifying who supervises the individual and how often." },
-      { "label": "C", "text": "No special supervision is required because the prior action was taken by a state regulator, not FINRA", "explanation": "Incorrect. Prior actions by state securities regulators are disclosed on Form U4 and CRD, and member firms are expected to review and act on all relevant prior disciplinary history regardless of which regulator took the prior action." },
-      { "label": "D", "text": "The new firm should notify the previous firm about the hiring but no additional supervision is required", "explanation": "Incorrect. There is no general requirement to notify the previous firm upon hiring. The new firm's obligation is to conduct due diligence and implement appropriate supervision — which may include heightened supervision — based on the candidate's disclosed history." }
+      {
+        "label": "A",
+        "text": "The representative may be barred from the industry by FINRA as a result of the state regulatory action",
+        "explanation": "Incorrect. A state regulatory fine and suspension does not automatically result in a FINRA industry bar. FINRA conducts its own review, but the firm's immediate obligation is heightened supervision of the individual based on the prior disciplinary history."
+      },
+      {
+        "label": "B",
+        "text": "The new firm must place the representative under heightened supervision with a written plan tailored to the specific risks identified by the prior disciplinary history",
+        "explanation": "Correct. FINRA Rule 3110 and related guidance require member firms to implement heightened supervisory procedures for registered persons with a history of significant regulatory, customer complaint, or disciplinary events. When a representative with prior disciplinary history joins a new firm, that firm must conduct due diligence (reviewing CRD disclosures, Form U4/U5 history), assess the risk presented, and — if warranted — put in place a formal heightened supervision plan. The plan should be tailored to the individual's specific violations and risk profile, specifying who supervises the individual and how often."
+      },
+      {
+        "label": "C",
+        "text": "No special supervision is required because the prior action was taken by a state regulator, not FINRA",
+        "explanation": "Incorrect. Prior actions by state securities regulators are disclosed on Form U4 and CRD, and member firms are expected to review and act on all relevant prior disciplinary history regardless of which regulator took the prior action."
+      },
+      {
+        "label": "D",
+        "text": "The new firm should notify the previous firm about the hiring but no additional supervision is required",
+        "explanation": "Incorrect. There is no general requirement to notify the previous firm upon hiring. The new firm's obligation is to conduct due diligence and implement appropriate supervision — which may include heightened supervision — based on the candidate's disclosed history."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "FINRA Rule 3110 and FINRA's heightened supervision guidance require member firms to evaluate the background of each associated person and implement appropriate supervisory controls. For individuals with prior disciplinary histories — including state regulatory actions — firms are expected to implement a written heightened supervision plan specifying the activities to be supervised, the supervisor responsible, and the frequency of oversight. Failure to do so when the history warrants it can itself constitute a supervisory failure.",
@@ -365,12 +689,28 @@
     "id": "q-rf-021",
     "stem": "Which of the following registered persons is required to be fingerprinted as part of their FINRA registration?",
     "choices": [
-      { "label": "A", "text": "Only registered principals, because they have supervisory authority over client funds", "explanation": "Incorrect. The fingerprinting requirement under Section 17(f)(2) of the Securities Exchange Act of 1934 and SEC Rule 17f-2 applies broadly to associated persons who have access to securities, funds, or books and records — not just to principals." },
-      { "label": "B", "text": "All persons who are required to be registered with FINRA, subject to limited exemptions for certain categories of persons", "explanation": "Correct. Under SEC Rule 17f-2 and FINRA rules, associated persons who have access to funds or securities, keep records of transactions, or are registered representatives must be fingerprinted. The fingerprints are submitted to the FBI for a background check. Certain persons may be exempt — for example, those who work only in clerical or ministerial capacities with no access to funds, securities, or customer records. Registered persons are generally not exempt and must be fingerprinted as part of the registration process." },
-      { "label": "C", "text": "Only newly hired registered persons with no prior industry experience; experienced reps who transfer firms are exempt", "explanation": "Incorrect. The fingerprinting requirement applies regardless of prior industry experience. Transferring between firms does not automatically exempt a person from the fingerprinting requirement, although in some cases previously filed fingerprint information may remain valid." },
-      { "label": "D", "text": "Fingerprinting is optional and is only required if the firm decides to conduct a background check", "explanation": "Incorrect. Fingerprinting is a federal legal requirement under Section 17(f)(2) of the Securities Exchange Act of 1934, not an optional firm policy. It is mandatory for covered persons regardless of individual firm discretion." }
+      {
+        "label": "A",
+        "text": "All persons who are required to be registered with FINRA, subject to limited exemptions for certain categories of persons",
+        "explanation": "Correct. Under SEC Rule 17f-2 and FINRA rules, associated persons who have access to funds or securities, keep records of transactions, or are registered representatives must be fingerprinted. The fingerprints are submitted to the FBI for a background check. Certain persons may be exempt — for example, those who work only in clerical or ministerial capacities with no access to funds, securities, or customer records. Registered persons are generally not exempt and must be fingerprinted as part of the registration process."
+      },
+      {
+        "label": "B",
+        "text": "Only registered principals, because they have supervisory authority over client funds",
+        "explanation": "Incorrect. The fingerprinting requirement under Section 17(f)(2) of the Securities Exchange Act of 1934 and SEC Rule 17f-2 applies broadly to associated persons who have access to securities, funds, or books and records — not just to principals."
+      },
+      {
+        "label": "C",
+        "text": "Only newly hired registered persons with no prior industry experience; experienced reps who transfer firms are exempt",
+        "explanation": "Incorrect. The fingerprinting requirement applies regardless of prior industry experience. Transferring between firms does not automatically exempt a person from the fingerprinting requirement, although in some cases previously filed fingerprint information may remain valid."
+      },
+      {
+        "label": "D",
+        "text": "Fingerprinting is optional and is only required if the firm decides to conduct a background check",
+        "explanation": "Incorrect. Fingerprinting is a federal legal requirement under Section 17(f)(2) of the Securities Exchange Act of 1934, not an optional firm policy. It is mandatory for covered persons regardless of individual firm discretion."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "SEC Rule 17f-2, adopted under Section 17(f)(2) of the Securities Exchange Act of 1934, requires associated persons of broker-dealers who have access to funds, securities, books, or records — including all registered persons — to be fingerprinted. The fingerprints are submitted to the Attorney General (via the FBI) for a criminal background check. Limited exemptions exist for persons in purely clerical or ministerial roles with no access to covered assets.",
     "topic": "regulatory-framework",
     "subtopic": "registration-continuing-education",
@@ -383,12 +723,28 @@
     "id": "q-rf-022",
     "stem": "A Form U5 filed by a broker-dealer indicates that a registered representative was terminated for cause following an internal investigation into potential churning. Which of the following statements about this Form U5 is most accurate?",
     "choices": [
-      { "label": "A", "text": "The information on Form U5 is kept confidential between the firm and FINRA and is not available to the representative or the public", "explanation": "Incorrect. Form U5 disclosures are entered into FINRA's Central Registration Depository (CRD). While the full text is accessible to the individual representative (who may dispute inaccurate information), certain disclosure information is also made publicly available through FINRA BrokerCheck." },
-      { "label": "B", "text": "The broker-dealer must file Form U5 within 30 days of termination, and the representative has the right to dispute inaccurate information through the CRD expungement or amendment process", "explanation": "Correct. Form U5 must be filed within 30 calendar days of a registered person's termination. The filing becomes part of the representative's permanent CRD record and certain information appears on FINRA BrokerCheck. If the representative believes that statements on Form U5 are inaccurate or defamatory, they have the right to submit a written response that is attached to the record. They may also seek expungement of certain information through FINRA arbitration if they believe the disclosure is factually incorrect, clearly erroneous, or defamatory." },
-      { "label": "C", "text": "The firm should leave the reason for termination blank to avoid potential defamation claims", "explanation": "Incorrect. Member firms are required to disclose accurate information on Form U5, including the reason for termination. Firms may face FINRA sanctions for filing a misleading or incomplete Form U5. Concerns about defamation liability do not permit firms to omit required disclosures." },
-      { "label": "D", "text": "Form U5 is only required if the representative was registered for more than two years at the firm", "explanation": "Incorrect. Form U5 must be filed upon termination of any registered person's association with the member firm, regardless of how long they were registered at that firm." }
+      {
+        "label": "A",
+        "text": "The information on Form U5 is kept confidential between the firm and FINRA and is not available to the representative or the public",
+        "explanation": "Incorrect. Form U5 disclosures are entered into FINRA's Central Registration Depository (CRD). While the full text is accessible to the individual representative (who may dispute inaccurate information), certain disclosure information is also made publicly available through FINRA BrokerCheck."
+      },
+      {
+        "label": "B",
+        "text": "Form U5 is only required if the representative was registered for more than two years at the firm",
+        "explanation": "Incorrect. Form U5 must be filed upon termination of any registered person's association with the member firm, regardless of how long they were registered at that firm."
+      },
+      {
+        "label": "C",
+        "text": "The firm should leave the reason for termination blank to avoid potential defamation claims",
+        "explanation": "Incorrect. Member firms are required to disclose accurate information on Form U5, including the reason for termination. Firms may face FINRA sanctions for filing a misleading or incomplete Form U5. Concerns about defamation liability do not permit firms to omit required disclosures."
+      },
+      {
+        "label": "D",
+        "text": "The broker-dealer must file Form U5 within 30 days of termination, and the representative has the right to dispute inaccurate information through the CRD expungement or amendment process",
+        "explanation": "Correct. Form U5 must be filed within 30 calendar days of a registered person's termination. The filing becomes part of the representative's permanent CRD record and certain information appears on FINRA BrokerCheck. If the representative believes that statements on Form U5 are inaccurate or defamatory, they have the right to submit a written response that is attached to the record. They may also seek expungement of certain information through FINRA arbitration if they believe the disclosure is factually incorrect, clearly erroneous, or defamatory."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Form U5 must be filed within 30 days of termination and must accurately describe the circumstances, including whether the termination was voluntary or for cause. The disclosure becomes part of the representative's CRD record, with certain information visible on BrokerCheck. Representatives may submit written responses to disputed disclosures and may seek expungement through FINRA arbitration for inaccurate or defamatory information.",
     "topic": "regulatory-framework",
     "subtopic": "reportable-events",
@@ -401,12 +757,28 @@
     "id": "q-rf-023",
     "stem": "A registered representative simultaneously holds licenses at two different broker-dealers under a formal dual registration arrangement. Under FINRA rules, what is the key requirement for this arrangement?",
     "choices": [
-      { "label": "A", "text": "Dual registration is absolutely prohibited; a registered representative may be associated with only one FINRA member firm at a time", "explanation": "Incorrect. Dual or multiple registration is permissible under FINRA rules. A registered representative may be registered with more than one FINRA member firm simultaneously, provided the arrangement is disclosed and both firms are aware of and consent to the arrangement." },
-      { "label": "B", "text": "Both member firms must be aware of and consent to the dual registration, and the representative must disclose the arrangement on Form U4", "explanation": "Correct. FINRA rules permit a registered representative to be simultaneously registered with two or more FINRA member firms, provided both firms know of and consent to the arrangement. The dual registration must be disclosed on Form U4 (which shows all current registrations), and each firm retains supervisory responsibility for the activities conducted under its registration. The arrangement is common in the independent broker-dealer space, where registered investment adviser (RIA) representatives may also maintain a broker-dealer registration." },
-      { "label": "C", "text": "The representative must apply for a special dual-registration license from FINRA before registering at two firms simultaneously", "explanation": "Incorrect. There is no special 'dual-registration license' issued by FINRA. The arrangement is permitted under existing registration rules, provided each firm consents and the dual registration is properly reflected in the CRD system via Form U4." },
-      { "label": "D", "text": "Dual registration is permitted only for principals, not for registered representatives", "explanation": "Incorrect. Dual registration is available to both registered representatives and principals, subject to the consent and disclosure requirements described under FINRA rules." }
+      {
+        "label": "A",
+        "text": "Dual registration is absolutely prohibited; a registered representative may be associated with only one FINRA member firm at a time",
+        "explanation": "Incorrect. Dual or multiple registration is permissible under FINRA rules. A registered representative may be registered with more than one FINRA member firm simultaneously, provided the arrangement is disclosed and both firms are aware of and consent to the arrangement."
+      },
+      {
+        "label": "B",
+        "text": "The representative must apply for a special dual-registration license from FINRA before registering at two firms simultaneously",
+        "explanation": "Incorrect. There is no special 'dual-registration license' issued by FINRA. The arrangement is permitted under existing registration rules, provided each firm consents and the dual registration is properly reflected in the CRD system via Form U4."
+      },
+      {
+        "label": "C",
+        "text": "Both member firms must be aware of and consent to the dual registration, and the representative must disclose the arrangement on Form U4",
+        "explanation": "Correct. FINRA rules permit a registered representative to be simultaneously registered with two or more FINRA member firms, provided both firms know of and consent to the arrangement. The dual registration must be disclosed on Form U4 (which shows all current registrations), and each firm retains supervisory responsibility for the activities conducted under its registration. The arrangement is common in the independent broker-dealer space, where registered investment adviser (RIA) representatives may also maintain a broker-dealer registration."
+      },
+      {
+        "label": "D",
+        "text": "Dual registration is permitted only for principals, not for registered representatives",
+        "explanation": "Incorrect. Dual registration is available to both registered representatives and principals, subject to the consent and disclosure requirements described under FINRA rules."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "FINRA rules permit dual or multiple firm registration. Both firms must be aware of and consent to the arrangement, which must be reflected on the representative's Form U4. Each firm is responsible for supervising the activities conducted under its registration. Dual registration commonly occurs when a rep is affiliated with both a broker-dealer and a registered investment adviser, or when working for affiliated firms within the same financial group.",
     "topic": "regulatory-framework",
     "subtopic": "registration-continuing-education",
@@ -419,10 +791,26 @@
     "id": "q-rf-024",
     "stem": "FINRA Rule 2111 (Suitability) requires a registered representative to have a reasonable basis for believing that a recommendation is suitable for a particular customer. Which of the following types of suitability analysis does this rule require?",
     "choices": [
-      { "label": "A", "text": "Only reasonable-basis suitability — the investment must be suitable for at least some investors.", "explanation": "Incorrect. While reasonable-basis suitability is one component, FINRA Rule 2111 requires three types of suitability analysis, not just one." },
-      { "label": "B", "text": "Reasonable-basis suitability, customer-specific suitability, and quantitative suitability.", "explanation": "Correct. FINRA Rule 2111 requires three distinct suitability obligations: (1) Reasonable-basis suitability — the representative must understand the investment and have a reasonable basis to believe it is suitable for at least some investors; (2) Customer-specific suitability — the recommendation must be suitable for the particular customer based on their investment profile; and (3) Quantitative suitability — even individually suitable transactions must not be excessive in frequency or size when viewed in the aggregate." },
-      { "label": "C", "text": "Only customer-specific suitability — the investment must match the individual customer's risk tolerance.", "explanation": "Incorrect. Customer-specific suitability is one of three required components. The rule also requires reasonable-basis and quantitative suitability analysis." },
-      { "label": "D", "text": "FINRA Rule 2111 has been completely replaced by Regulation Best Interest and no longer applies.", "explanation": "Incorrect. Regulation Best Interest (Reg BI) applies to broker-dealer recommendations to retail customers, but FINRA Rule 2111 remains in effect and applies to all customer recommendations, including those to institutional customers." }
+      {
+        "label": "A",
+        "text": "Only reasonable-basis suitability — the investment must be suitable for at least some investors.",
+        "explanation": "Incorrect. While reasonable-basis suitability is one component, FINRA Rule 2111 requires three types of suitability analysis, not just one."
+      },
+      {
+        "label": "B",
+        "text": "Reasonable-basis suitability, customer-specific suitability, and quantitative suitability.",
+        "explanation": "Correct. FINRA Rule 2111 requires three distinct suitability obligations: (1) Reasonable-basis suitability — the representative must understand the investment and have a reasonable basis to believe it is suitable for at least some investors; (2) Customer-specific suitability — the recommendation must be suitable for the particular customer based on their investment profile; and (3) Quantitative suitability — even individually suitable transactions must not be excessive in frequency or size when viewed in the aggregate."
+      },
+      {
+        "label": "C",
+        "text": "Only customer-specific suitability — the investment must match the individual customer's risk tolerance.",
+        "explanation": "Incorrect. Customer-specific suitability is one of three required components. The rule also requires reasonable-basis and quantitative suitability analysis."
+      },
+      {
+        "label": "D",
+        "text": "FINRA Rule 2111 has been completely replaced by Regulation Best Interest and no longer applies.",
+        "explanation": "Incorrect. Regulation Best Interest (Reg BI) applies to broker-dealer recommendations to retail customers, but FINRA Rule 2111 remains in effect and applies to all customer recommendations, including those to institutional customers."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "FINRA Rule 2111 establishes a three-part suitability framework: (1) reasonable-basis — the rep understands the product and it is suitable for some investors; (2) customer-specific — the recommendation fits the individual customer's investment profile (age, financial situation, objectives, risk tolerance, time horizon); and (3) quantitative — the series of recommended transactions is not excessive when viewed together. This rule works alongside Regulation Best Interest for retail customers.",
@@ -437,12 +825,28 @@
     "id": "q-rf-025",
     "stem": "Regulation Best Interest (Reg BI) requires broker-dealers making recommendations to retail customers to act in the customer's best interest. Which of the following is a key component obligation of Reg BI?",
     "choices": [
-      { "label": "A", "text": "Broker-dealers must charge the lowest possible commission on every transaction.", "explanation": "Incorrect. Reg BI does not mandate the lowest possible commission. It requires that costs be disclosed and considered, but it does not impose a specific commission cap." },
-      { "label": "B", "text": "The broker-dealer must satisfy disclosure, care, conflict of interest, and compliance obligations when making a recommendation to a retail customer.", "explanation": "Correct. Reg BI (adopted June 2019, effective June 2020) has four component obligations: (1) Disclosure — provide Form CRS and disclose material facts about the relationship including fees and conflicts; (2) Care — exercise reasonable diligence and skill to understand the product and the customer, and have a reasonable basis to believe the recommendation is in the customer's best interest; (3) Conflict of Interest — establish policies to identify, disclose, and mitigate or eliminate conflicts; and (4) Compliance — establish written policies and procedures to achieve compliance." },
-      { "label": "C", "text": "Broker-dealers must become fiduciaries identical to registered investment advisers.", "explanation": "Incorrect. Reg BI raises the standard above traditional suitability but does not impose a full fiduciary duty identical to that of RIAs under the Investment Advisers Act. The standards are related but distinct." },
-      { "label": "D", "text": "Reg BI applies only when the customer has more than $250,000 in their account.", "explanation": "Incorrect. Reg BI applies to all recommendations to retail customers regardless of account size. There is no minimum account balance threshold." }
+      {
+        "label": "A",
+        "text": "The broker-dealer must satisfy disclosure, care, conflict of interest, and compliance obligations when making a recommendation to a retail customer.",
+        "explanation": "Correct. Reg BI (adopted June 2019, effective June 2020) has four component obligations: (1) Disclosure — provide Form CRS and disclose material facts about the relationship including fees and conflicts; (2) Care — exercise reasonable diligence and skill to understand the product and the customer, and have a reasonable basis to believe the recommendation is in the customer's best interest; (3) Conflict of Interest — establish policies to identify, disclose, and mitigate or eliminate conflicts; and (4) Compliance — establish written policies and procedures to achieve compliance."
+      },
+      {
+        "label": "B",
+        "text": "Broker-dealers must charge the lowest possible commission on every transaction.",
+        "explanation": "Incorrect. Reg BI does not mandate the lowest possible commission. It requires that costs be disclosed and considered, but it does not impose a specific commission cap."
+      },
+      {
+        "label": "C",
+        "text": "Broker-dealers must become fiduciaries identical to registered investment advisers.",
+        "explanation": "Incorrect. Reg BI raises the standard above traditional suitability but does not impose a full fiduciary duty identical to that of RIAs under the Investment Advisers Act. The standards are related but distinct."
+      },
+      {
+        "label": "D",
+        "text": "Reg BI applies only when the customer has more than $250,000 in their account.",
+        "explanation": "Incorrect. Reg BI applies to all recommendations to retail customers regardless of account size. There is no minimum account balance threshold."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Regulation Best Interest requires broker-dealers to satisfy four obligations when making recommendations to retail customers: disclosure, care, conflict of interest mitigation, and compliance. It was adopted by the SEC in June 2019 to raise the standard above traditional suitability while maintaining the distinct regulatory frameworks for broker-dealers and investment advisers.",
     "topic": "regulatory-framework",
     "subtopic": "employee-conduct",
@@ -450,18 +854,36 @@
     "source": "FINRA content outline",
     "regulatoryBasis": "SEC Regulation Best Interest (17 CFR 240.15l-1)",
     "lastVerified": "2026-05-21",
-    "relatedStories": ["robinhood-pfof"]
+    "relatedStories": [
+      "robinhood-pfof"
+    ]
   },
   {
     "id": "q-rf-026",
     "stem": "Form CRS (Client Relationship Summary) must be delivered to retail investors by broker-dealers and investment advisers. Which of the following BEST describes Form CRS?",
     "choices": [
-      { "label": "A", "text": "A lengthy legal document that replaces the prospectus for all investment products.", "explanation": "Incorrect. Form CRS does not replace prospectuses. It is a brief (maximum 2 pages for standalone broker-dealers) summary document about the firm's relationship with the client." },
-      { "label": "B", "text": "A brief, plain-language document (maximum 2 pages for a standalone broker-dealer) that summarizes the firm's services, fees, conflicts of interest, and disciplinary history, and must be delivered at the start of the client relationship.", "explanation": "Correct. Form CRS is a concise relationship summary that must be written in plain language and delivered to retail investors at or before the earliest of: a recommendation, placing an order, or opening an account. It covers the type of services offered, fees and costs, conflicts of interest, the standard of conduct (suitability vs. fiduciary), and the firm's disciplinary history. It is filed with the SEC via EDGAR and posted on the firm's website." },
-      { "label": "C", "text": "A quarterly account statement showing all trades executed.", "explanation": "Incorrect. Quarterly account statements are separate regulatory requirements. Form CRS is a one-time relationship disclosure document delivered at the start of the relationship." },
-      { "label": "D", "text": "An internal compliance document not shared with customers.", "explanation": "Incorrect. Form CRS must be delivered to retail investors. It is a customer-facing disclosure document, not an internal compliance tool." }
+      {
+        "label": "A",
+        "text": "A lengthy legal document that replaces the prospectus for all investment products.",
+        "explanation": "Incorrect. Form CRS does not replace prospectuses. It is a brief (maximum 2 pages for standalone broker-dealers) summary document about the firm's relationship with the client."
+      },
+      {
+        "label": "B",
+        "text": "An internal compliance document not shared with customers.",
+        "explanation": "Incorrect. Form CRS must be delivered to retail investors. It is a customer-facing disclosure document, not an internal compliance tool."
+      },
+      {
+        "label": "C",
+        "text": "A quarterly account statement showing all trades executed.",
+        "explanation": "Incorrect. Quarterly account statements are separate regulatory requirements. Form CRS is a one-time relationship disclosure document delivered at the start of the relationship."
+      },
+      {
+        "label": "D",
+        "text": "A brief, plain-language document (maximum 2 pages for a standalone broker-dealer) that summarizes the firm's services, fees, conflicts of interest, and disciplinary history, and must be delivered at the start of the client relationship.",
+        "explanation": "Correct. Form CRS is a concise relationship summary that must be written in plain language and delivered to retail investors at or before the earliest of: a recommendation, placing an order, or opening an account. It covers the type of services offered, fees and costs, conflicts of interest, the standard of conduct (suitability vs. fiduciary), and the firm's disciplinary history. It is filed with the SEC via EDGAR and posted on the firm's website."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Form CRS (Client Relationship Summary) was adopted as part of the SEC's Regulation Best Interest package. It requires broker-dealers and investment advisers to provide retail investors with a brief, plain-language summary of the firm's services, fees, conflicts, standard of conduct, and disciplinary history. The goal is to help investors make informed choices about their financial relationships.",
     "topic": "regulatory-framework",
     "subtopic": "employee-conduct",
@@ -474,12 +896,28 @@
     "id": "q-rf-027",
     "stem": "Under the Bank Secrecy Act, every broker-dealer must establish and implement an anti-money laundering (AML) compliance program. Which of the following is a required component of this program?",
     "choices": [
-      { "label": "A", "text": "Hiring an external auditor to review all customer transactions daily.", "explanation": "Incorrect. While independent testing of AML procedures is required, it does not have to be daily or performed by an external auditor in all cases. The program must include internal policies, a compliance officer, training, and independent testing." },
-      { "label": "B", "text": "Designation of an AML compliance officer, written internal policies and procedures, ongoing employee training, and independent testing of the program.", "explanation": "Correct. FINRA Rule 3310 requires every member firm to establish an AML compliance program with four minimum components: (1) written policies and procedures reasonably designed to achieve compliance with the Bank Secrecy Act and FinCEN regulations; (2) designation of an AML compliance officer responsible for implementing and monitoring the program; (3) ongoing training for appropriate personnel; and (4) independent testing of the AML program, conducted by the firm's internal audit department or an outside party." },
-      { "label": "C", "text": "Filing a SAR for every cash transaction, regardless of amount.", "explanation": "Incorrect. SARs are filed when there is reason to suspect illegal activity in transactions of $5,000 or more. Routine cash transactions above $10,000 require CTRs, not SARs. Not every transaction requires a SAR." },
-      { "label": "D", "text": "Reporting all customer identity information to FinCEN on a monthly basis.", "explanation": "Incorrect. There is no monthly mass-reporting of customer identity data to FinCEN. Customer identification is part of CIP procedures, and specific reporting (CTRs, SARs) occurs based on triggering events." }
+      {
+        "label": "A",
+        "text": "Hiring an external auditor to review all customer transactions daily.",
+        "explanation": "Incorrect. While independent testing of AML procedures is required, it does not have to be daily or performed by an external auditor in all cases. The program must include internal policies, a compliance officer, training, and independent testing."
+      },
+      {
+        "label": "B",
+        "text": "Filing a SAR for every cash transaction, regardless of amount.",
+        "explanation": "Incorrect. SARs are filed when there is reason to suspect illegal activity in transactions of $5,000 or more. Routine cash transactions above $10,000 require CTRs, not SARs. Not every transaction requires a SAR."
+      },
+      {
+        "label": "C",
+        "text": "Designation of an AML compliance officer, written internal policies and procedures, ongoing employee training, and independent testing of the program.",
+        "explanation": "Correct. FINRA Rule 3310 requires every member firm to establish an AML compliance program with four minimum components: (1) written policies and procedures reasonably designed to achieve compliance with the Bank Secrecy Act and FinCEN regulations; (2) designation of an AML compliance officer responsible for implementing and monitoring the program; (3) ongoing training for appropriate personnel; and (4) independent testing of the AML program, conducted by the firm's internal audit department or an outside party."
+      },
+      {
+        "label": "D",
+        "text": "Reporting all customer identity information to FinCEN on a monthly basis.",
+        "explanation": "Incorrect. There is no monthly mass-reporting of customer identity data to FinCEN. Customer identification is part of CIP procedures, and specific reporting (CTRs, SARs) occurs based on triggering events."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "FINRA Rule 3310 mandates four components for a broker-dealer's AML program: (1) written policies and procedures for BSA compliance; (2) a designated AML compliance officer; (3) ongoing employee training; and (4) independent testing. The AML program must also include a Customer Identification Program (CIP) to verify the identity of all customers opening accounts.",
     "topic": "regulatory-framework",
     "subtopic": "employee-conduct",
@@ -492,10 +930,26 @@
     "id": "q-rf-028",
     "stem": "A bank teller at a broker-dealer's affiliated bank notices a customer depositing $9,800 in cash on Monday, $9,700 on Tuesday, and $9,900 on Wednesday. These transactions are most likely an attempt to:",
     "choices": [
-      { "label": "A", "text": "Avoid the $25,000 SAR filing threshold.", "explanation": "Incorrect. The SAR threshold is $5,000, not $25,000. And these transactions are designed to avoid the $10,000 CTR threshold, not the SAR threshold." },
-      { "label": "B", "text": "Structure (smurf) cash deposits to stay below the $10,000 CTR reporting threshold, which is itself a federal crime.", "explanation": "Correct. Structuring is the deliberate breaking up of cash transactions to avoid triggering the $10,000 CTR filing requirement. It violates 31 U.S.C. Section 5324 regardless of whether the underlying funds are from legal or illegal activity. The pattern of repeated deposits just under $10,000 is a classic structuring red flag. The firm should file a SAR to report the suspicious activity." },
-      { "label": "C", "text": "Legally manage cash flow across multiple business days, which is permissible.", "explanation": "Incorrect. While individuals can make multiple legitimate deposits, a clear pattern of keeping each transaction just below $10,000 is a hallmark of structuring, which is illegal." },
-      { "label": "D", "text": "Maximize FDIC insurance coverage by spreading deposits across days.", "explanation": "Incorrect. FDIC insurance is based on account ownership categories, not the timing of deposits. This pattern is consistent with structuring to evade BSA reporting." }
+      {
+        "label": "A",
+        "text": "Avoid the $25,000 SAR filing threshold.",
+        "explanation": "Incorrect. The SAR threshold is $5,000, not $25,000. And these transactions are designed to avoid the $10,000 CTR threshold, not the SAR threshold."
+      },
+      {
+        "label": "B",
+        "text": "Structure (smurf) cash deposits to stay below the $10,000 CTR reporting threshold, which is itself a federal crime.",
+        "explanation": "Correct. Structuring is the deliberate breaking up of cash transactions to avoid triggering the $10,000 CTR filing requirement. It violates 31 U.S.C. Section 5324 regardless of whether the underlying funds are from legal or illegal activity. The pattern of repeated deposits just under $10,000 is a classic structuring red flag. The firm should file a SAR to report the suspicious activity."
+      },
+      {
+        "label": "C",
+        "text": "Legally manage cash flow across multiple business days, which is permissible.",
+        "explanation": "Incorrect. While individuals can make multiple legitimate deposits, a clear pattern of keeping each transaction just below $10,000 is a hallmark of structuring, which is illegal."
+      },
+      {
+        "label": "D",
+        "text": "Maximize FDIC insurance coverage by spreading deposits across days.",
+        "explanation": "Incorrect. FDIC insurance is based on account ownership categories, not the timing of deposits. This pattern is consistent with structuring to evade BSA reporting."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "Structuring (smurfing) is the illegal practice of deliberately keeping cash transactions below $10,000 to avoid CTR filings. The pattern of deposits at $9,800, $9,700, and $9,900 across consecutive days is a textbook structuring red flag. The BSA makes structuring a federal crime under 31 U.S.C. Section 5324, even if the money comes from lawful sources. The firm must file a SAR.",
@@ -510,12 +964,28 @@
     "id": "q-rf-029",
     "stem": "A Suspicious Activity Report (SAR) must be filed by a broker-dealer when a transaction involves $5,000 or more and the firm suspects illegal activity. Which of the following statements about SARs is CORRECT?",
     "choices": [
-      { "label": "A", "text": "The broker-dealer must notify the customer before filing a SAR.", "explanation": "Incorrect. The BSA specifically prohibits notifying the customer (or anyone not authorized) that a SAR has been or will be filed. This anti-tipping-off provision protects investigations." },
-      { "label": "B", "text": "SARs must be filed within 30 days of detecting the suspicious activity, and the firm must NOT disclose the filing to the customer.", "explanation": "Correct. Under FinCEN regulations, a SAR must be filed within 30 calendar days of the initial detection of the suspicious activity (60 days if additional time is needed to identify a suspect). Critically, the broker-dealer is prohibited from disclosing to the customer or any unauthorized person that a SAR has been filed. This anti-tipping-off rule is essential to preserving the integrity of the investigation." },
-      { "label": "C", "text": "SARs are only filed for transactions involving foreign nationals.", "explanation": "Incorrect. SAR filing requirements apply to all suspicious transactions regardless of the customer's nationality. The BSA does not limit SAR requirements to foreign nationals." },
-      { "label": "D", "text": "SARs are filed with FINRA, not FinCEN.", "explanation": "Incorrect. SARs are filed with FinCEN (Financial Crimes Enforcement Network), a bureau of the U.S. Department of the Treasury. FINRA oversees compliance but does not receive SAR filings directly." }
+      {
+        "label": "A",
+        "text": "SARs must be filed within 30 days of detecting the suspicious activity, and the firm must NOT disclose the filing to the customer.",
+        "explanation": "Correct. Under FinCEN regulations, a SAR must be filed within 30 calendar days of the initial detection of the suspicious activity (60 days if additional time is needed to identify a suspect). Critically, the broker-dealer is prohibited from disclosing to the customer or any unauthorized person that a SAR has been filed. This anti-tipping-off rule is essential to preserving the integrity of the investigation."
+      },
+      {
+        "label": "B",
+        "text": "The broker-dealer must notify the customer before filing a SAR.",
+        "explanation": "Incorrect. The BSA specifically prohibits notifying the customer (or anyone not authorized) that a SAR has been or will be filed. This anti-tipping-off provision protects investigations."
+      },
+      {
+        "label": "C",
+        "text": "SARs are only filed for transactions involving foreign nationals.",
+        "explanation": "Incorrect. SAR filing requirements apply to all suspicious transactions regardless of the customer's nationality. The BSA does not limit SAR requirements to foreign nationals."
+      },
+      {
+        "label": "D",
+        "text": "SARs are filed with FINRA, not FinCEN.",
+        "explanation": "Incorrect. SARs are filed with FinCEN (Financial Crimes Enforcement Network), a bureau of the U.S. Department of the Treasury. FINRA oversees compliance but does not receive SAR filings directly."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "SARs must be filed with FinCEN within 30 days of detecting suspicious activity (or 60 days if more time is needed to identify a suspect). The filing is mandatory when a transaction of $5,000 or more involves suspected illegal activity, BSA evasion, or lacks a lawful purpose. The anti-tipping-off prohibition prevents disclosure of the SAR to the subject or any unauthorized person, protecting law enforcement investigations.",
     "topic": "regulatory-framework",
     "subtopic": "employee-conduct",
@@ -528,12 +998,28 @@
     "id": "q-rf-030",
     "stem": "Under the Insider Trading and Securities Fraud Enforcement Act of 1988, a person convicted of insider trading may face which of the following maximum criminal penalties?",
     "choices": [
-      { "label": "A", "text": "A fine of up to $1 million and 5 years in prison.", "explanation": "Incorrect. These were the original penalties before being increased by subsequent legislation. Current maximums are significantly higher." },
-      { "label": "B", "text": "A fine of up to $5 million and up to 20 years in prison for individuals.", "explanation": "Correct. The maximum criminal penalties for insider trading by individuals are a fine of up to $5 million and imprisonment for up to 20 years (as enhanced by the Sarbanes-Oxley Act of 2002). For entities such as broker-dealers, the maximum criminal fine is $25 million. In addition, the SEC can seek civil penalties of up to three times the profit gained or loss avoided (treble damages)." },
-      { "label": "C", "text": "A fine of up to $100,000 and 1 year in prison.", "explanation": "Incorrect. These amounts are far below the actual maximums. Congress increased the penalties substantially to deter insider trading." },
-      { "label": "D", "text": "There are no criminal penalties for insider trading; only civil fines apply.", "explanation": "Incorrect. Insider trading carries both civil and criminal penalties. Criminal prosecution by the DOJ can result in both prison time and substantial fines." }
+      {
+        "label": "A",
+        "text": "A fine of up to $1 million and 5 years in prison.",
+        "explanation": "Incorrect. These were the original penalties before being increased by subsequent legislation. Current maximums are significantly higher."
+      },
+      {
+        "label": "B",
+        "text": "There are no criminal penalties for insider trading; only civil fines apply.",
+        "explanation": "Incorrect. Insider trading carries both civil and criminal penalties. Criminal prosecution by the DOJ can result in both prison time and substantial fines."
+      },
+      {
+        "label": "C",
+        "text": "A fine of up to $100,000 and 1 year in prison.",
+        "explanation": "Incorrect. These amounts are far below the actual maximums. Congress increased the penalties substantially to deter insider trading."
+      },
+      {
+        "label": "D",
+        "text": "A fine of up to $5 million and up to 20 years in prison for individuals.",
+        "explanation": "Correct. The maximum criminal penalties for insider trading by individuals are a fine of up to $5 million and imprisonment for up to 20 years (as enhanced by the Sarbanes-Oxley Act of 2002). For entities such as broker-dealers, the maximum criminal fine is $25 million. In addition, the SEC can seek civil penalties of up to three times the profit gained or loss avoided (treble damages)."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Criminal penalties for insider trading include fines up to $5 million and 20 years imprisonment for individuals (up to $25 million for entities), as established by the Insider Trading and Securities Fraud Enforcement Act of 1988 and enhanced by the Sarbanes-Oxley Act of 2002. Civil penalties add up to 3x the profit gained or loss avoided. These severe penalties reflect the importance of market integrity.",
     "topic": "regulatory-framework",
     "subtopic": "employee-conduct",
@@ -541,18 +1027,37 @@
     "source": "FINRA content outline",
     "regulatoryBasis": "Insider Trading and Securities Fraud Enforcement Act of 1988; Sarbanes-Oxley Act of 2002",
     "lastVerified": "2026-05-21",
-    "relatedStories": ["galleon-rajaratnam", "martha-stewart-imclone"]
+    "relatedStories": [
+      "galleon-rajaratnam",
+      "martha-stewart-imclone"
+    ]
   },
   {
     "id": "q-rf-031",
     "stem": "In a securities firm, 'Chinese walls' (information barriers) are established primarily to prevent which of the following?",
     "choices": [
-      { "label": "A", "text": "Customer complaints about trade execution quality.", "explanation": "Incorrect. Chinese walls address information flow within the firm, not trade execution quality. Best execution obligations are handled by separate compliance procedures." },
-      { "label": "B", "text": "The flow of material non-public information between the investment banking division and the trading or research divisions to prevent insider trading.", "explanation": "Correct. Chinese walls (information barriers) are physical and procedural separations within financial firms designed to prevent MNPI from flowing between departments that have it (such as investment banking, which works on M&A and underwriting) and departments that could trade on it (such as proprietary trading desks or research analysts). These barriers are critical to preventing insider trading and maintaining market integrity." },
-      { "label": "C", "text": "Employees from working at two different firms simultaneously.", "explanation": "Incorrect. Dual registration is a separate regulatory issue. Chinese walls address internal information flow within a single firm, not external employment arrangements." },
-      { "label": "D", "text": "Foreign investors from purchasing U.S. securities.", "explanation": "Incorrect. Chinese walls have nothing to do with restricting foreign investor access. They are internal compliance structures preventing misuse of MNPI." }
+      {
+        "label": "A",
+        "text": "Customer complaints about trade execution quality.",
+        "explanation": "Incorrect. Chinese walls address information flow within the firm, not trade execution quality. Best execution obligations are handled by separate compliance procedures."
+      },
+      {
+        "label": "B",
+        "text": "Employees from working at two different firms simultaneously.",
+        "explanation": "Incorrect. Dual registration is a separate regulatory issue. Chinese walls address internal information flow within a single firm, not external employment arrangements."
+      },
+      {
+        "label": "C",
+        "text": "The flow of material non-public information between the investment banking division and the trading or research divisions to prevent insider trading.",
+        "explanation": "Correct. Chinese walls (information barriers) are physical and procedural separations within financial firms designed to prevent MNPI from flowing between departments that have it (such as investment banking, which works on M&A and underwriting) and departments that could trade on it (such as proprietary trading desks or research analysts). These barriers are critical to preventing insider trading and maintaining market integrity."
+      },
+      {
+        "label": "D",
+        "text": "Foreign investors from purchasing U.S. securities.",
+        "explanation": "Incorrect. Chinese walls have nothing to do with restricting foreign investor access. They are internal compliance structures preventing misuse of MNPI."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Chinese walls (information barriers) are compliance structures that separate firm departments with access to MNPI (investment banking, corporate advisory) from departments that could misuse it (trading, research, sales). They include physical separation, restricted access lists, employee education, and monitoring. These barriers are a cornerstone of insider trading prevention in multi-service financial firms.",
     "topic": "regulatory-framework",
     "subtopic": "employee-conduct",
@@ -560,16 +1065,34 @@
     "source": "FINRA content outline",
     "regulatoryBasis": "Securities Exchange Act of 1934; Insider Trading and Securities Fraud Enforcement Act of 1988",
     "lastVerified": "2026-05-21",
-    "relatedStories": ["galleon-rajaratnam"]
+    "relatedStories": [
+      "galleon-rajaratnam"
+    ]
   },
   {
     "id": "q-rf-032",
     "stem": "During a 'quiet period' following an IPO, which of the following restrictions applies to the underwriting firm's research department?",
     "choices": [
-      { "label": "A", "text": "The firm may publish research reports immediately after the IPO closes.", "explanation": "Incorrect. Regulatory rules impose a quiet period during which the underwriting firm's research analysts are restricted from publishing research on the newly public company." },
-      { "label": "B", "text": "Research analysts at the managing underwriter are restricted from publishing research reports on the newly public company for a specified period after the IPO.", "explanation": "Correct. FINRA rules restrict research analysts at the managing underwriter from publishing research or making public appearances regarding the issuer for a period following the IPO (typically 10 calendar days for the manager, though rules have evolved). This quiet period prevents the perception that favorable research is being used to support the new issue's stock price for the benefit of the underwriting firm's investment banking relationship." },
-      { "label": "C", "text": "All broker-dealers, not just the underwriter, are prohibited from covering the stock.", "explanation": "Incorrect. The quiet period restriction applies primarily to research analysts at the firms involved in the underwriting syndicate, not to all broker-dealers. Firms with no underwriting relationship may publish research freely." },
-      { "label": "D", "text": "The quiet period only applies to the CEO of the issuing company, not to the underwriter's research department.", "explanation": "Incorrect. While the issuer's management may also be subject to quiet-period restrictions under SEC rules, the FINRA quiet period specifically restricts the underwriting firm's research analysts from publishing research on the newly issued security." }
+      {
+        "label": "A",
+        "text": "The firm may publish research reports immediately after the IPO closes.",
+        "explanation": "Incorrect. Regulatory rules impose a quiet period during which the underwriting firm's research analysts are restricted from publishing research on the newly public company."
+      },
+      {
+        "label": "B",
+        "text": "Research analysts at the managing underwriter are restricted from publishing research reports on the newly public company for a specified period after the IPO.",
+        "explanation": "Correct. FINRA rules restrict research analysts at the managing underwriter from publishing research or making public appearances regarding the issuer for a period following the IPO (typically 10 calendar days for the manager, though rules have evolved). This quiet period prevents the perception that favorable research is being used to support the new issue's stock price for the benefit of the underwriting firm's investment banking relationship."
+      },
+      {
+        "label": "C",
+        "text": "All broker-dealers, not just the underwriter, are prohibited from covering the stock.",
+        "explanation": "Incorrect. The quiet period restriction applies primarily to research analysts at the firms involved in the underwriting syndicate, not to all broker-dealers. Firms with no underwriting relationship may publish research freely."
+      },
+      {
+        "label": "D",
+        "text": "The quiet period only applies to the CEO of the issuing company, not to the underwriter's research department.",
+        "explanation": "Incorrect. While the issuer's management may also be subject to quiet-period restrictions under SEC rules, the FINRA quiet period specifically restricts the underwriting firm's research analysts from publishing research on the newly issued security."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "The quiet period is designed to prevent underwriting firms from using favorable research to artificially support the price of a newly issued security. FINRA research analyst rules restrict managing underwriters from publishing research reports for a specified period following the IPO. This separation helps maintain the independence of research from investment banking interests.",
@@ -584,10 +1107,26 @@
     "id": "q-rf-033",
     "stem": "FINRA rules require that research analysts at broker-dealers disclose certain conflicts of interest in their research reports. Which of the following is a conflict that must be disclosed?",
     "choices": [
-      { "label": "A", "text": "The analyst holds a personal financial interest (owns stock) in the company covered by the research report.", "explanation": "Correct. FINRA Rule 2241 requires research analysts to disclose personal financial interests in the subject company, including ownership of securities. Other required disclosures include whether the broker-dealer has received investment banking compensation from the subject company in the past 12 months, whether the firm makes a market in the security, and other material conflicts that could influence the analyst's objectivity." },
-      { "label": "B", "text": "The analyst attended the same university as the CEO of the covered company.", "explanation": "Incorrect. Educational background shared with company management is not a material financial conflict requiring disclosure under FINRA research analyst rules." },
-      { "label": "C", "text": "The analyst has published a negative rating on a competitor of the covered company.", "explanation": "Incorrect. Ratings on competitors are part of normal research activities and do not constitute a personal financial conflict requiring disclosure." },
-      { "label": "D", "text": "The analyst subscribes to the same data service as other analysts covering the stock.", "explanation": "Incorrect. Using common data services is standard industry practice and does not create a financial conflict of interest requiring disclosure." }
+      {
+        "label": "A",
+        "text": "The analyst holds a personal financial interest (owns stock) in the company covered by the research report.",
+        "explanation": "Correct. FINRA Rule 2241 requires research analysts to disclose personal financial interests in the subject company, including ownership of securities. Other required disclosures include whether the broker-dealer has received investment banking compensation from the subject company in the past 12 months, whether the firm makes a market in the security, and other material conflicts that could influence the analyst's objectivity."
+      },
+      {
+        "label": "B",
+        "text": "The analyst attended the same university as the CEO of the covered company.",
+        "explanation": "Incorrect. Educational background shared with company management is not a material financial conflict requiring disclosure under FINRA research analyst rules."
+      },
+      {
+        "label": "C",
+        "text": "The analyst has published a negative rating on a competitor of the covered company.",
+        "explanation": "Incorrect. Ratings on competitors are part of normal research activities and do not constitute a personal financial conflict requiring disclosure."
+      },
+      {
+        "label": "D",
+        "text": "The analyst subscribes to the same data service as other analysts covering the stock.",
+        "explanation": "Incorrect. Using common data services is standard industry practice and does not create a financial conflict of interest requiring disclosure."
+      }
     ],
     "correctAnswer": "A",
     "explanation": "FINRA Rule 2241 (Research Analysts and Research Reports) requires disclosure of material conflicts of interest including: the analyst's personal financial interests in the subject company, the firm's investment banking relationship with the company, the firm's market-making activities, and other financial interests. These disclosures help investors evaluate the objectivity and reliability of research recommendations.",
@@ -597,6 +1136,8 @@
     "source": "FINRA content outline",
     "regulatoryBasis": "FINRA Rule 2241",
     "lastVerified": "2026-05-21",
-    "relatedStories": ["enron"]
+    "relatedStories": [
+      "enron"
+    ]
   }
 ]

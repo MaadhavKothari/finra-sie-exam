@@ -72,6 +72,8 @@ export default function OpeningBell({ base, questions: allQuestions }: Props) {
     const result = recordAnswer(correct, currentQ.difficulty, {
       topic: currentQ.topic,
       section: currentQ.section,
+      stem: currentQ.stem,
+      subtopic: currentQ.subtopic,
     });
     setEarnedXp((e) => e + result.earnedXp);
     if (correct) {

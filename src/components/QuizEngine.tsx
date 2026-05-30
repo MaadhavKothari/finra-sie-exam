@@ -84,6 +84,8 @@ export default function QuizEngine({ questions: allQuestions, topic, topicName, 
     const result = recordAnswer(isCorrect, currentQ.difficulty, {
       topic: currentQ.topic,
       section: currentQ.section,
+      stem: currentQ.stem,
+      subtopic: currentQ.subtopic,
     });
 
     setXpPopup({ amount: result.earnedXp, multiplier: result.multiplier, show: true });

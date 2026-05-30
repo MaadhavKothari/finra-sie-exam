@@ -1,9 +1,41 @@
 import { persistentMap } from '@nanostores/persistent';
 import { computed } from 'nanostores';
-import { titleForXp, xpToNextTitle, SECRET_TITLES } from '../lib/titles';
+import { titleForXp, xpToNextTitle, SECRET_TITLES, isCalcQuestion, isInsiderQuestion } from '../lib/titles';
 import { getMultiplierForDate } from '../lib/greedIndex';
 
 const today = () => new Date().toISOString().split('T')[0];
+
+// Lazy sound trigger — avoid a static cycle through the sound module.
+function playSecretSound(id: string) {
+  if (typeof window === 'undefined') return;
+  import('../lib/sounds').then((m) => {
+    switch (id) {
+      case 'diamond-hands': m.soundDiamondHands?.(); break;
+      case 'the-insider':   m.soundInsider?.(); break;
+      case 'mr-market':     m.soundMrMarket?.(); break;
+      case 'cold-streak':
+      case 'first-bell':
+      case 'bond-whisperer':
+      case 'the-quant':
+      case 'the-whistleblower':
+        m.soundPromotion?.();
+        break;
+    }
+  }).catch(() => {});
+}
+
+// Fire-and-forget notification reschedule. Lazy-imported to avoid a static cycle
+// (notifications.ts imports $progress). No-op on web — guard lives inside the module.
+let _notifyScheduled = false;
+function scheduleNotifyReschedule() {
+  if (typeof window === 'undefined') return;
+  if (_notifyScheduled) return;
+  _notifyScheduled = true;
+  queueMicrotask(() => {
+    _notifyScheduled = false;
+    import('../lib/notifications').then((m) => m.rescheduleFireForget()).catch(() => {});
+  });
+}
 
 export const $progress = persistentMap<{
   totalAnswered: string;
@@ -38,6 +70,9 @@ export const $progress = persistentMap<{
   examHistory: string;            // JSON array of {date,examId,score,total,passed,duration}
   // M8 — Dashboard
   activityLog: string;            // JSON object mapping YYYY-MM-DD to question count
+  // M10 — Easter-egg counters
+  insiderWrongStreak: string;     // consecutive insider Q wrong (resets on correct or non-insider)
+  calcCorrect: string;            // running count of calculation-tagged Q correct
 }>('sie-progress:', {
   totalAnswered: '0',
   totalCorrect: '0',
@@ -66,6 +101,8 @@ export const $progress = persistentMap<{
   bellLastDate: '',
   examHistory: '[]',
   activityLog: '{}',
+  insiderWrongStreak: '0',
+  calcCorrect: '0',
 });
 
 export const $xp = computed($progress, (p) => parseInt(p.xp || '0', 10));
@@ -154,6 +191,7 @@ function pushEarnedTitle(id: string) {
   if (!cur.includes(id)) {
     cur.push(id);
     $progress.setKey('earnedTitles', JSON.stringify(cur));
+    playSecretSound(id);
   }
 }
 
@@ -243,7 +281,11 @@ export interface AnswerResult {
   newSecretTitle?: string;
 }
 
-export function recordAnswer(correct: boolean, difficulty: string, opts: { topic?: string; section?: string } = {}): AnswerResult {
+export function recordAnswer(
+  correct: boolean,
+  difficulty: string,
+  opts: { topic?: string; section?: string; stem?: string; subtopic?: string } = {},
+): AnswerResult {
   const p = $progress.get();
   const currentStreak = parseInt(p.streak || '0', 10);
   const bestStreak = parseInt(p.bestStreak || '0', 10);
@@ -341,6 +383,53 @@ export function recordAnswer(correct: boolean, difficulty: string, opts: { topic
     }
   }
 
+  // ─── M10 Easter eggs ──────────────────────────────────────────────────
+  if (opts.stem) {
+    // The Insider — wrong on an insider-trading question twice in a row.
+    if (isInsiderQuestion(opts.stem, opts.subtopic)) {
+      if (!correct) {
+        const ws = parseInt(p.insiderWrongStreak || '0', 10) + 1;
+        $progress.setKey('insiderWrongStreak', String(ws));
+        if (ws >= 2) {
+          const cur = (() => { try { return JSON.parse($progress.get().earnedTitles || '[]') as string[]; } catch { return []; } })();
+          if (!cur.includes('the-insider')) {
+            pushEarnedTitle('the-insider');
+            newSecret = newSecret || SECRET_TITLES['the-insider'].name;
+          }
+        }
+      } else {
+        $progress.setKey('insiderWrongStreak', '0');
+      }
+    } else if (!correct) {
+      // Non-insider wrong answer breaks the streak too (must be consecutive insider wrongs).
+      $progress.setKey('insiderWrongStreak', '0');
+    }
+
+    // The Quant — 100 calculation questions correct.
+    if (correct && isCalcQuestion(opts.stem, opts.subtopic)) {
+      const cc = parseInt(p.calcCorrect || '0', 10) + 1;
+      $progress.setKey('calcCorrect', String(cc));
+      if (cc >= 100) {
+        const cur = (() => { try { return JSON.parse($progress.get().earnedTitles || '[]') as string[]; } catch { return []; } })();
+        if (!cur.includes('the-quant')) {
+          pushEarnedTitle('the-quant');
+          newSecret = newSecret || SECRET_TITLES['the-quant'].name;
+        }
+      }
+    }
+  }
+
+  // Mr. Market — any answer recorded at exactly :30 past the hour.
+  if (new Date().getMinutes() === 30) {
+    const cur = (() => { try { return JSON.parse($progress.get().earnedTitles || '[]') as string[]; } catch { return []; } })();
+    if (!cur.includes('mr-market')) {
+      pushEarnedTitle('mr-market');
+      newSecret = newSecret || SECRET_TITLES['mr-market'].name;
+    }
+  }
+
+  scheduleNotifyReschedule();
+
   return {
     earnedXp,
     baseXp,
@@ -378,6 +467,7 @@ export function recordBellResult(date: string, score: number) {
   if (nextRun > best) $progress.setKey('bellRunBest', String(nextRun));
   // secret: first-bell title
   if (hist.length === 1) pushEarnedTitle('first-bell');
+  scheduleNotifyReschedule();
 }
 
 // Public helper used by ExamSim after completion.

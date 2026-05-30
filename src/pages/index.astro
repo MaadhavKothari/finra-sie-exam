@@ -6,6 +6,9 @@ import HomeWidgets from '../components/HomeWidgets';
 import DailyCheck from '../components/DailyCheck';
 import ThemeToggle from '../components/ThemeToggle';
 import InvestigationsAccordion from '../components/InvestigationsAccordion';
+import BlackSwanLayer from '../components/BlackSwanLayer';
+import WhistleblowerTrap from '../components/WhistleblowerTrap';
+import SoundBridge from '../components/SoundBridge';
 
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const exams = Object.values(EXAMS);
@@ -14,7 +17,20 @@ const exams = Object.values(EXAMS);
   <main class="max-w-lg mx-auto px-4 py-8">
 
     <DailyCheck client:load />
-    <div class="flex items-center justify-end mb-2">
+    <BlackSwanLayer client:load />
+    <SoundBridge client:load />
+    <div class="flex items-center justify-end gap-2 mb-2">
+      <a
+        href={`${base}settings`}
+        class="flex items-center gap-1.5 text-[10px] uppercase tracking-[0.12em] px-2 py-1 rounded-sm border border-[var(--theme-border)] text-[var(--theme-muted)] hover:text-[var(--theme-text)] transition-colors no-underline"
+        title="Settings"
+      >
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <circle cx="12" cy="12" r="3" />
+          <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
+        </svg>
+        Settings
+      </a>
       <ThemeToggle client:load />
     </div>
     <IdentityHeader client:load base={base} />
@@ -108,7 +124,9 @@ const exams = Object.values(EXAMS);
     {/* Footer */}
     <footer class="mt-10 pt-6 border-t border-[#E5E0D8]">
       <p class="text-xs text-[#6b6560] leading-relaxed mb-4">
-        All practice questions are original content based on FINRA public content outlines.
+        All practice questions are original content based on{' '}
+        <WhistleblowerTrap client:visible>FINRA</WhistleblowerTrap>
+        {' '}public content outlines.
         This site is not affiliated with or endorsed by FINRA.
       </p>
       <p class="text-xs text-[#6b6560] leading-relaxed italic">

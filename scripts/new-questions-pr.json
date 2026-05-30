@@ -1,0 +1,482 @@
+[
+  {
+    "id": "q-pr-039",
+    "stem": "A 6% cumulative preferred stock has missed dividends for two years. Before any common stock dividend can be paid, the issuer must pay the preferred holders:",
+    "choices": [
+      { "label": "A", "text": "The current year's $6 dividend only.", "explanation": "Incorrect. Cumulative preferred requires payment of all skipped dividends in arrears before any common dividend." },
+      { "label": "B", "text": "The two skipped years plus the current year — $18 per share — before any common dividend.", "explanation": "Correct. Cumulative preferred accrues missed dividends. All arrears must be cleared before common stock receives anything." },
+      { "label": "C", "text": "Nothing additional — skipped dividends on preferred are forfeit.", "explanation": "Incorrect. That describes non-cumulative preferred, not cumulative." },
+      { "label": "D", "text": "Only the most recent year that was skipped.", "explanation": "Incorrect. All arrears accumulate; the issuer must clear the full unpaid history." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Cumulative preferred stock accrues unpaid dividends as a senior claim. Issuers must clear all arrears before paying any common-stock dividend.",
+    "topic": "products-risks",
+    "subtopic": "equity-securities",
+    "difficulty": "medium",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-040",
+    "stem": "A customer owns 100 shares of XYZ at a cost basis of $60. XYZ declares a 2-for-1 stock split. After the split, the customer's position is:",
+    "choices": [
+      { "label": "A", "text": "100 shares at a $30 cost basis.", "explanation": "Incorrect. Share count adjusts in a split — the holder receives additional shares." },
+      { "label": "B", "text": "200 shares at a $60 cost basis.", "explanation": "Incorrect. Cost basis is reduced proportionally in a forward split." },
+      { "label": "C", "text": "200 shares at a $30 cost basis.", "explanation": "Correct. Forward splits double share count and halve per-share basis. Total economic value is unchanged at $6,000." },
+      { "label": "D", "text": "50 shares at a $120 cost basis.", "explanation": "Incorrect. That would be a 1-for-2 reverse split, not 2-for-1." }
+    ],
+    "correctAnswer": "C",
+    "explanation": "In a 2-for-1 forward split, share count doubles and per-share cost basis halves. Total investment value before and after the split is identical.",
+    "topic": "products-risks",
+    "subtopic": "equity-securities",
+    "difficulty": "easy",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-041",
+    "stem": "Which of the following is true of stock rights compared to warrants?",
+    "choices": [
+      { "label": "A", "text": "Rights are typically long-term (5+ years); warrants are short-term (30-45 days).", "explanation": "Incorrect. The terms are reversed." },
+      { "label": "B", "text": "Rights are typically short-term (30-45 days) and issued to existing shareholders at below-market subscription prices; warrants are long-term and often attached as sweeteners to debt offerings.", "explanation": "Correct. Rights preserve preemptive ownership; warrants are long-dated sweeteners with exercise prices typically above current market." },
+      { "label": "C", "text": "Both rights and warrants are issued exclusively to bondholders.", "explanation": "Incorrect. Rights go to existing shareholders; warrants are often attached to bonds but not exclusively." },
+      { "label": "D", "text": "Rights and warrants have identical expiration and pricing characteristics.", "explanation": "Incorrect. They differ on tenor, exercise price relationship, and intended audience." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Rights are short-term (~30-45 days) issued to existing shareholders at below-market subscription prices to preserve their ownership percentage. Warrants are long-term (often years), have exercise prices typically above market at issue, and are usually attached to debt offerings to enhance their attractiveness.",
+    "topic": "products-risks",
+    "subtopic": "equity-securities",
+    "difficulty": "medium",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-042",
+    "stem": "An American Depositary Receipt (ADR) representing a Japanese company exposes the U.S. investor to which risk that is NOT present in a U.S. domestic stock?",
+    "choices": [
+      { "label": "A", "text": "Market risk.", "explanation": "Incorrect. Market risk applies to all equity securities." },
+      { "label": "B", "text": "Business risk.", "explanation": "Incorrect. Business risk is present in any individual stock." },
+      { "label": "C", "text": "Currency exchange-rate risk.", "explanation": "Correct. ADR dividends and the underlying security are denominated in the home currency (yen). Changes in the dollar/yen rate directly affect the U.S. investor's return." },
+      { "label": "D", "text": "Interest-rate risk.", "explanation": "Incorrect. Interest-rate risk primarily affects fixed-income securities." }
+    ],
+    "correctAnswer": "C",
+    "explanation": "ADRs introduce currency exchange-rate risk because the underlying security and dividends originate in a foreign currency. A weakening yen against the dollar reduces the dollar value of yen-denominated dividends and the underlying share value to a U.S. holder.",
+    "topic": "products-risks",
+    "subtopic": "equity-securities",
+    "difficulty": "medium",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-043",
+    "stem": "Treasury stock is BEST defined as:",
+    "choices": [
+      { "label": "A", "text": "Stock issued by the U.S. Department of the Treasury.", "explanation": "Incorrect. The Treasury issues debt securities (T-bills, notes, bonds), not corporate stock." },
+      { "label": "B", "text": "Shares that have been issued by the company and subsequently repurchased; they have no voting rights and do not receive dividends.", "explanation": "Correct. Treasury stock is repurchased outstanding stock held by the issuer; it cannot vote or receive dividends and is excluded from EPS calculations." },
+      { "label": "C", "text": "Stock issued to corporate executives as compensation.", "explanation": "Incorrect. That describes restricted stock or stock options." },
+      { "label": "D", "text": "Authorized but unissued stock held in reserve.", "explanation": "Incorrect. Authorized-but-unissued shares have never been issued; they are not treasury stock." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Treasury stock consists of previously issued shares that the company has bought back. These shares have no voting rights, receive no dividends, and are excluded from the EPS denominator.",
+    "topic": "products-risks",
+    "subtopic": "equity-securities",
+    "difficulty": "easy",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-044",
+    "stem": "A 'normal' (upward-sloping) yield curve suggests that:",
+    "choices": [
+      { "label": "A", "text": "Short-term rates are higher than long-term rates, signaling potential recession.", "explanation": "Incorrect. That describes an inverted yield curve." },
+      { "label": "B", "text": "Investors demand higher yields for longer maturities to compensate for time and inflation risk.", "explanation": "Correct. A positively sloped yield curve is the normal shape; longer-dated bonds yield more to compensate holders for duration and inflation risk." },
+      { "label": "C", "text": "All maturities yield the same, indicating market indifference to duration.", "explanation": "Incorrect. That is a flat yield curve." },
+      { "label": "D", "text": "The Federal Reserve has cut short-term rates aggressively.", "explanation": "Incorrect. Fed action affects the short end; a normal curve can exist in many policy regimes." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "A normal yield curve slopes upward because investors require additional yield to lock up money for longer periods. Inversion (short > long) historically precedes recessions; flat curves signal indecision.",
+    "topic": "products-risks",
+    "subtopic": "debt-instruments",
+    "difficulty": "easy",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-045",
+    "stem": "A customer in a high state-income-tax state asks about the tax treatment of a municipal bond issued by a different state. The interest is:",
+    "choices": [
+      { "label": "A", "text": "Federally taxable but state tax-exempt.", "explanation": "Incorrect. The tax treatment is reversed: federally exempt, but taxable in the customer's home state because the issuer is out of state." },
+      { "label": "B", "text": "Federally tax-exempt and exempt in the issuer's state, but taxable in the holder's home state (unless held in a state with no income tax).", "explanation": "Correct. Federal exemption applies regardless of issuing state. State exemption typically applies only when the bond is issued by the holder's own state or by a U.S. territory (Puerto Rico, Guam, etc.)." },
+      { "label": "C", "text": "Fully taxable at all levels because it crosses state lines.", "explanation": "Incorrect. Federal interest exemption is not affected by which state issues the bond." },
+      { "label": "D", "text": "Subject only to the federal AMT regardless of state.", "explanation": "Incorrect. Only certain private-activity munis trigger AMT; standard GO/revenue bonds do not." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Municipal bond interest is generally federally tax-exempt. State-tax exemption follows the 'home-state' rule — exempt in the issuing state and U.S. territories, taxable in other states.",
+    "topic": "products-risks",
+    "subtopic": "debt-instruments",
+    "difficulty": "hard",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-046",
+    "stem": "Which Treasury security pays interest semi-annually and matures in more than 10 years?",
+    "choices": [
+      { "label": "A", "text": "T-bill.", "explanation": "Incorrect. T-bills mature in one year or less and are issued at a discount; they pay no coupon." },
+      { "label": "B", "text": "T-note.", "explanation": "Incorrect. T-notes mature between 2 and 10 years." },
+      { "label": "C", "text": "T-bond.", "explanation": "Correct. Treasury bonds mature in 10 to 30 years and pay coupon interest semi-annually." },
+      { "label": "D", "text": "TIPS only.", "explanation": "Incorrect. TIPS are inflation-protected but available in 5, 10, and 30-year maturities; T-bond is the correct generic term for long-dated coupon-bearing Treasuries." }
+    ],
+    "correctAnswer": "C",
+    "explanation": "T-bills: ≤1 year, zero-coupon at discount. T-notes: 2-10 years, semi-annual coupon. T-bonds: 10-30 years, semi-annual coupon. TIPS exist at multiple maturities with inflation indexing.",
+    "topic": "products-risks",
+    "subtopic": "debt-instruments",
+    "difficulty": "easy",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-047",
+    "stem": "Interest rates have just declined sharply. A customer holding a callable corporate bond is MOST exposed to which risk?",
+    "choices": [
+      { "label": "A", "text": "Default risk on the issuer.", "explanation": "Incorrect. Default risk depends on issuer credit, not the rate environment." },
+      { "label": "B", "text": "Reinvestment risk — the issuer will likely call the bond and the holder must reinvest at lower prevailing rates.", "explanation": "Correct. Callable bonds are typically called when rates fall, forcing the holder to reinvest principal at lower rates and limiting capital appreciation." },
+      { "label": "C", "text": "Inflation risk.", "explanation": "Incorrect. While inflation is a general bond risk, a sudden rate decline does not directly worsen it." },
+      { "label": "D", "text": "Currency risk.", "explanation": "Incorrect. Currency risk applies to foreign-denominated bonds." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "When rates decline, issuers call high-coupon bonds and refinance cheaper. The holder receives principal back early and must reinvest at lower rates — the textbook definition of reinvestment risk on callable bonds.",
+    "topic": "products-risks",
+    "subtopic": "debt-instruments",
+    "difficulty": "medium",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-048",
+    "stem": "A customer buys a zero-coupon corporate bond at $700 with 5 years to maturity, $1,000 face. What tax treatment applies during the holding period?",
+    "choices": [
+      { "label": "A", "text": "No tax is owed until the bond matures and the full gain is recognized then.", "explanation": "Incorrect. Zero-coupon bonds accrue 'imputed' interest annually that is taxable currently — known as phantom income." },
+      { "label": "B", "text": "The annual accretion of the discount is reported as taxable interest each year ('phantom income'), even though no cash is received.", "explanation": "Correct. The IRS requires holders of taxable zero-coupon bonds to accrete the discount and report it as ordinary income annually." },
+      { "label": "C", "text": "The bond pays no interest; therefore, no tax is owed.", "explanation": "Incorrect. The accretion is imputed interest income for tax purposes." },
+      { "label": "D", "text": "Only the final maturity payment is taxed, and only as long-term capital gains.", "explanation": "Incorrect. The accretion is ordinary income, not capital gain, and is recognized annually." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Taxable zero-coupon bonds force annual recognition of imputed interest (phantom income) even though no cash changes hands. This is one of the main downsides of holding them in a taxable account.",
+    "topic": "products-risks",
+    "subtopic": "debt-instruments",
+    "difficulty": "hard",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-049",
+    "stem": "An investor buys 1 XYZ Oct 50 call for a premium of $3. The breakeven point at expiration is:",
+    "choices": [
+      { "label": "A", "text": "$47.", "explanation": "Incorrect. That subtracts the premium from the strike — that's the put breakeven calculation." },
+      { "label": "B", "text": "$50.", "explanation": "Incorrect. At strike, the holder still loses the premium paid." },
+      { "label": "C", "text": "$53.", "explanation": "Correct. Long call breakeven = strike + premium = $50 + $3 = $53. At that price the holder recovers the premium paid." },
+      { "label": "D", "text": "$56.", "explanation": "Incorrect. That double-counts the premium." }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Long call breakeven equals strike plus premium. The stock must rise above $53 for the position to be profitable at expiration. Long put breakeven is strike minus premium.",
+    "topic": "products-risks",
+    "subtopic": "options",
+    "difficulty": "medium",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-050",
+    "stem": "A customer writes 1 ABC Sep 40 put for $2 premium. The maximum loss is:",
+    "choices": [
+      { "label": "A", "text": "$2 — limited to the premium.", "explanation": "Incorrect. Premium-limited loss applies to long options, not short options." },
+      { "label": "B", "text": "$3,800 — strike minus premium times 100.", "explanation": "Correct. Maximum loss on a short put occurs if the stock goes to zero. Loss = (strike − premium) × 100 = ($40 − $2) × 100 = $3,800." },
+      { "label": "C", "text": "Unlimited.", "explanation": "Incorrect. Unlimited loss applies to a naked short call (stock can rise infinitely). A short put is bounded by zero stock price." },
+      { "label": "D", "text": "$4,000 — full strike value.", "explanation": "Incorrect. The premium received offsets part of the loss." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Short puts have substantial but bounded downside — the worst case is the stock at zero, requiring the writer to buy at strike. Net loss = (strike − premium) × 100.",
+    "topic": "products-risks",
+    "subtopic": "options",
+    "difficulty": "hard",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-051",
+    "stem": "An investor owns 100 shares of stock at $50 and writes 1 covered call with a $55 strike for $2 premium. The position is best described as:",
+    "choices": [
+      { "label": "A", "text": "Unlimited downside with limited upside; appropriate for a strongly bearish view.", "explanation": "Incorrect. Covered calls are not strongly bearish — they're slightly bullish to neutral." },
+      { "label": "B", "text": "Limited downside protection equal to the premium, with upside capped at the strike plus premium.", "explanation": "Correct. The premium provides $2 of cushion below cost. Upside is capped at $55 + $2 = $57 because the shares are called away above $55." },
+      { "label": "C", "text": "A bet that the stock will move sharply in either direction.", "explanation": "Incorrect. That describes a long straddle." },
+      { "label": "D", "text": "Identical risk to owning the stock outright.", "explanation": "Incorrect. Adding a short call modifies the risk profile by capping upside and providing partial downside cushion." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Covered calls are slightly bullish to neutral: they provide premium cushion below cost ($2 protection), cap upside at strike + premium ($57), and produce income in flat-to-mildly-rising markets.",
+    "topic": "products-risks",
+    "subtopic": "options",
+    "difficulty": "medium",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-052",
+    "stem": "A long-time stockholder buys a protective put on her shares. The strategy is BEST described as:",
+    "choices": [
+      { "label": "A", "text": "Speculation that the stock will decline.", "explanation": "Incorrect. The investor already owns the stock and wants to protect it — this is insurance, not speculation." },
+      { "label": "B", "text": "Insurance against a decline in the stock price; loss is limited to the strike, cost basis, plus the premium paid.", "explanation": "Correct. A protective put establishes a floor at the strike price. The put premium is the cost of the insurance." },
+      { "label": "C", "text": "An obligation to sell the stock at a higher price.", "explanation": "Incorrect. That describes writing a covered call." },
+      { "label": "D", "text": "A guarantee that the stock will rise.", "explanation": "Incorrect. Puts limit losses; they do not guarantee gains." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Protective puts are stock-position insurance. The investor pays a premium to establish a price floor (the strike). Maximum loss = (cost basis − strike) + premium paid.",
+    "topic": "products-risks",
+    "subtopic": "options",
+    "difficulty": "easy",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-053",
+    "stem": "LEAPS (Long-term Equity AnticiPation Securities) differ from standard listed options primarily in that they:",
+    "choices": [
+      { "label": "A", "text": "Can be exercised only on the expiration date (European-style).", "explanation": "Incorrect. LEAPS on most equities remain American-style — exercisable at any time." },
+      { "label": "B", "text": "Have expiration dates greater than 9 months out, typically up to 2-3 years.", "explanation": "Correct. LEAPS are long-dated options, allowing investors to take multi-year directional positions with limited capital." },
+      { "label": "C", "text": "Trade only over-the-counter, not on exchanges.", "explanation": "Incorrect. LEAPS are listed on standard option exchanges (CBOE, etc.)." },
+      { "label": "D", "text": "Cover a different number of shares per contract.", "explanation": "Incorrect. LEAPS typically cover 100 shares per contract, same as standard options." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "LEAPS are long-dated equity options with expirations from 9 months to roughly 3 years out. They retain American-style exercise, 100-share contract size, and standard exchange listing.",
+    "topic": "products-risks",
+    "subtopic": "options",
+    "difficulty": "medium",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-054",
+    "stem": "Class A mutual fund shares typically have:",
+    "choices": [
+      { "label": "A", "text": "A back-end load (CDSC) that declines to zero after several years.", "explanation": "Incorrect. That describes Class B shares." },
+      { "label": "B", "text": "A front-end sales load and lower annual 12b-1 fees, suitable for long-term holdings.", "explanation": "Correct. Class A charges a sales load at purchase but has lower ongoing fees, making them economical for buy-and-hold investors." },
+      { "label": "C", "text": "A level load and no breakpoint discounts.", "explanation": "Incorrect. That describes Class C shares." },
+      { "label": "D", "text": "No sales charges of any kind and no expenses.", "explanation": "Incorrect. No fund is fee-free; that description matches no-load funds, which still have expense ratios." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Class A: front-end load + low 12b-1, breakpoint discounts available, best for long-term. Class B: back-end CDSC, higher 12b-1, converts to A after ~6-8 years. Class C: level 1% 12b-1, no breakpoints, best for short-term.",
+    "topic": "products-risks",
+    "subtopic": "packaged-products",
+    "difficulty": "medium",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-055",
+    "stem": "Compared to a comparable mutual fund, an ETF tracking the same index is generally more tax-efficient because:",
+    "choices": [
+      { "label": "A", "text": "ETFs are exempt from capital gains tax.", "explanation": "Incorrect. ETFs are subject to capital gains tax; the difference is in WHEN gains are realized." },
+      { "label": "B", "text": "ETFs use an in-kind creation/redemption mechanism that generally avoids triggering taxable capital-gains distributions inside the fund.", "explanation": "Correct. The in-kind process lets ETFs distribute appreciated securities to authorized participants without selling, avoiding fund-level capital gains that mutual funds typically pass through." },
+      { "label": "C", "text": "ETFs do not pay any dividends.", "explanation": "Incorrect. ETFs pass through dividends from their underlying holdings." },
+      { "label": "D", "text": "ETF investors never owe taxes until they sell.", "explanation": "Incorrect. Investors still owe tax on dividends and any annual distributions, but ETFs minimize the latter via in-kind transfers." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The in-kind creation/redemption mechanism is the structural reason ETFs are more tax-efficient than equivalent mutual funds: it minimizes year-end capital-gains distributions to shareholders.",
+    "topic": "products-risks",
+    "subtopic": "packaged-products",
+    "difficulty": "hard",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-056",
+    "stem": "A closed-end fund trading at a 5% discount to NAV indicates that:",
+    "choices": [
+      { "label": "A", "text": "The fund is in violation of the Investment Company Act of 1940.", "explanation": "Incorrect. Trading at discount or premium is normal for closed-end funds and is not a regulatory issue." },
+      { "label": "B", "text": "Market participants are selling shares for less than the per-share value of the underlying portfolio, often reflecting sentiment, illiquidity, or expected expenses.", "explanation": "Correct. Unlike mutual funds, closed-end funds trade on secondary markets and prices fluctuate independently of NAV. Discounts and premiums are common and persistent." },
+      { "label": "C", "text": "The fund has paid a special distribution.", "explanation": "Incorrect. Special distributions reduce NAV but don't define discount/premium." },
+      { "label": "D", "text": "Mutual fund pricing rules require immediate liquidation.", "explanation": "Incorrect. Closed-end funds do not redeem at NAV; that is the open-end (mutual fund) feature." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Closed-end fund shares trade on exchanges at market-driven prices that can persistently differ from NAV. Discounts are common and may reflect manager performance, sector sentiment, or structural drags.",
+    "topic": "products-risks",
+    "subtopic": "packaged-products",
+    "difficulty": "medium",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-057",
+    "stem": "A variable annuity's death benefit typically guarantees that the beneficiary will receive at least:",
+    "choices": [
+      { "label": "A", "text": "Twice the contract value at any point.", "explanation": "Incorrect. That is not a standard death benefit feature." },
+      { "label": "B", "text": "The greater of the current contract value or the total premiums paid (less withdrawals).", "explanation": "Correct. Standard VA death benefits provide a return-of-premium floor: the beneficiary receives at least premiums-paid minus withdrawals, even if the separate account has declined." },
+      { "label": "C", "text": "The original premium adjusted for inflation.", "explanation": "Incorrect. That describes a specific enhanced rider, not the standard death benefit." },
+      { "label": "D", "text": "Zero if markets have declined.", "explanation": "Incorrect. The death benefit specifically protects against this scenario." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Variable annuities typically offer a standard death benefit equal to the greater of current contract value or total premiums paid (less withdrawals). Enhanced riders add features like high-water-mark step-ups.",
+    "topic": "products-risks",
+    "subtopic": "packaged-products",
+    "difficulty": "medium",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-058",
+    "stem": "To qualify as a REIT under federal tax law, the entity must:",
+    "choices": [
+      { "label": "A", "text": "Distribute at least 90% of its taxable income to shareholders as dividends.", "explanation": "Correct. The 90% distribution test is one of the core REIT qualifications, alongside the 75% asset and 75% income tests. Meeting them allows the REIT to pass through income without entity-level tax." },
+      { "label": "B", "text": "Distribute exactly 50% of its taxable income annually.", "explanation": "Incorrect. The threshold is 90%." },
+      { "label": "C", "text": "Be organized as a partnership rather than a corporation.", "explanation": "Incorrect. REITs are organized as trusts or corporations, not partnerships." },
+      { "label": "D", "text": "Have at least 50% of its assets invested in publicly traded equities.", "explanation": "Incorrect. The 75% asset test requires real-estate-related holdings, not public equities." }
+    ],
+    "correctAnswer": "A",
+    "explanation": "REITs must distribute at least 90% of taxable income as dividends to qualify for pass-through treatment. They also must derive at least 75% of income from real-estate sources and hold at least 75% of assets in real-estate-related investments.",
+    "topic": "products-risks",
+    "subtopic": "packaged-products",
+    "difficulty": "medium",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-059",
+    "stem": "Purchasing-power (inflation) risk is the risk that:",
+    "choices": [
+      { "label": "A", "text": "An issuer will default on its obligations.", "explanation": "Incorrect. That describes credit/default risk." },
+      { "label": "B", "text": "Returns will fail to keep up with the rate of inflation, eroding real spending power.", "explanation": "Correct. Inflation risk especially threatens fixed-income holders whose nominal coupons lose real value as prices rise." },
+      { "label": "C", "text": "A security will be difficult to sell quickly.", "explanation": "Incorrect. That describes liquidity (marketability) risk." },
+      { "label": "D", "text": "The entire market will decline.", "explanation": "Incorrect. That describes systematic/market risk." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Purchasing-power risk is the erosion of real returns by inflation. Long-dated fixed-income securities are particularly vulnerable; TIPS, equities, and real assets are common hedges.",
+    "topic": "products-risks",
+    "subtopic": "investment-risks",
+    "difficulty": "easy",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-060",
+    "stem": "A stock with a beta of 1.5 is expected to:",
+    "choices": [
+      { "label": "A", "text": "Move 50% more than the overall market in either direction.", "explanation": "Correct. Beta measures sensitivity to the broad market. A beta of 1.5 means the stock historically moves 1.5× the market — up 15% when the market is up 10%, down 15% when the market is down 10%." },
+      { "label": "B", "text": "Be uncorrelated with the market.", "explanation": "Incorrect. Beta near 0 indicates low correlation; 1.5 indicates strong positive correlation with amplification." },
+      { "label": "C", "text": "Pay a dividend yield 1.5× the market average.", "explanation": "Incorrect. Beta measures price volatility, not dividend yield." },
+      { "label": "D", "text": "Be inversely correlated with the market.", "explanation": "Incorrect. Negative beta would indicate inverse correlation; 1.5 is positive." }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Beta measures the systematic-risk sensitivity of a stock to broad market movements. Beta = 1.5 amplifies market moves by 50%; beta = 1.0 matches the market; beta = 0.5 dampens market moves.",
+    "topic": "products-risks",
+    "subtopic": "investment-risks",
+    "difficulty": "medium",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-061",
+    "stem": "An investor holds a portfolio of thinly-traded micro-cap stocks. What risk is MOST elevated?",
+    "choices": [
+      { "label": "A", "text": "Interest-rate risk.", "explanation": "Incorrect. Interest-rate risk primarily affects fixed-income securities." },
+      { "label": "B", "text": "Currency risk.", "explanation": "Incorrect. Currency risk applies to foreign-denominated holdings." },
+      { "label": "C", "text": "Liquidity (marketability) risk — wide bid-ask spreads and difficulty selling at fair value.", "explanation": "Correct. Thinly-traded securities have few willing buyers, leading to wider spreads and the risk of being unable to exit at favorable prices." },
+      { "label": "D", "text": "Sovereign risk.", "explanation": "Incorrect. Sovereign risk relates to foreign government actions, not stock liquidity." }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Liquidity risk is highest in thinly-traded securities, where wide spreads, low volume, and the absence of natural buyers make exiting positions costly. Common in micro-caps, OTC bulletin board stocks, and exotic structured products.",
+    "topic": "products-risks",
+    "subtopic": "investment-risks",
+    "difficulty": "easy",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-062",
+    "stem": "A pharmaceutical company's stock drops sharply after Congress passes a drug-pricing reform bill. This is an example of:",
+    "choices": [
+      { "label": "A", "text": "Credit risk.", "explanation": "Incorrect. Credit risk relates to default on debt obligations." },
+      { "label": "B", "text": "Legislative / political risk — adverse government action altering the business environment.", "explanation": "Correct. Legislative or regulatory action that materially affects an industry is political/legislative risk. Common in healthcare, energy, and financial services." },
+      { "label": "C", "text": "Currency risk.", "explanation": "Incorrect. Currency risk is unrelated to legislative changes affecting a U.S. company." },
+      { "label": "D", "text": "Reinvestment risk.", "explanation": "Incorrect. Reinvestment risk applies to coupon and principal cash flows on debt instruments." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Legislative/political risk is the risk that government action (laws, regulations, executive orders) will change the economics of an investment. Heavily regulated sectors carry the highest exposure.",
+    "topic": "products-risks",
+    "subtopic": "investment-risks",
+    "difficulty": "medium",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-063",
+    "stem": "Diversification across multiple unrelated industries is most effective at reducing:",
+    "choices": [
+      { "label": "A", "text": "Systematic (market) risk.", "explanation": "Incorrect. Systematic risk cannot be diversified away — it affects the broad market." },
+      { "label": "B", "text": "Unsystematic (company-specific or industry-specific) risk.", "explanation": "Correct. Diversification specifically reduces idiosyncratic risk by averaging out company- and industry-specific shocks." },
+      { "label": "C", "text": "Inflation risk.", "explanation": "Incorrect. Inflation risk affects most asset classes broadly and is not eliminated by diversification within equities." },
+      { "label": "D", "text": "Interest-rate risk.", "explanation": "Incorrect. Interest-rate risk affects entire asset classes (especially bonds) systematically." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Modern portfolio theory: diversification reduces unsystematic (specific) risk but not systematic (market-wide) risk. The latter requires asset-class diversification (stocks + bonds + alternatives), not just stock-picking.",
+    "topic": "products-risks",
+    "subtopic": "investment-risks",
+    "difficulty": "medium",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-064",
+    "stem": "A junk (high-yield) bond differs from an investment-grade bond primarily because it:",
+    "choices": [
+      { "label": "A", "text": "Has a longer maturity.", "explanation": "Incorrect. Maturity is independent of credit rating." },
+      { "label": "B", "text": "Carries a credit rating of BB+ / Ba1 or lower and offers a higher yield to compensate for elevated default risk.", "explanation": "Correct. The investment-grade / high-yield boundary is BBB-/Baa3 (investment grade) vs BB+/Ba1 (speculative). High-yield bonds compensate the higher default risk with higher coupons." },
+      { "label": "C", "text": "Pays interest in foreign currency.", "explanation": "Incorrect. Currency denomination is independent of credit rating." },
+      { "label": "D", "text": "Is always backed by collateral.", "explanation": "Incorrect. Junk bonds are often unsecured or subordinated; their lower rating reflects elevated credit risk." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The investment-grade / high-yield divide is the BBB-/Baa3 boundary. Below it, bonds are 'speculative' or 'junk' and offer higher yields to compensate for materially higher default risk.",
+    "topic": "products-risks",
+    "subtopic": "debt-instruments",
+    "difficulty": "medium",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-065",
+    "stem": "Eurodollar bonds are:",
+    "choices": [
+      { "label": "A", "text": "Bonds issued in euros by European governments.", "explanation": "Incorrect. Euros are issued in many currencies; Eurodollar specifically refers to U.S. dollar-denominated obligations outside the U.S." },
+      { "label": "B", "text": "U.S. dollar-denominated bonds issued and held outside the United States.", "explanation": "Correct. The 'Euro' prefix indicates issuance outside the home country of the currency. Eurodollar bonds are USD-denominated but issued in international markets (often London), typically outside U.S. securities regulation." },
+      { "label": "C", "text": "Bonds backed by gold reserves.", "explanation": "Incorrect. Eurodollar bonds have no commodity backing requirement." },
+      { "label": "D", "text": "Bonds issued by European Union member states.", "explanation": "Incorrect. EU member-state bonds are sovereign issues unrelated to the Eurodollar market." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Eurodollar bonds are U.S. dollar-denominated bonds issued outside the United States, primarily in London and other international financial centers. They are typically not registered with the SEC.",
+    "topic": "products-risks",
+    "subtopic": "debt-instruments",
+    "difficulty": "hard",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-066",
+    "stem": "A unit investment trust (UIT) differs from a mutual fund in that it:",
+    "choices": [
+      { "label": "A", "text": "Is actively managed by a portfolio manager who buys and sells securities.", "explanation": "Incorrect. UITs hold a fixed portfolio of securities for a stated term; no active trading occurs after launch." },
+      { "label": "B", "text": "Holds a fixed, unmanaged portfolio of securities for a specified termination date.", "explanation": "Correct. UITs are passive packaged products: a sponsor selects securities at launch, the portfolio is fixed, and the trust terminates on a stated maturity date when the holdings are sold and proceeds distributed." },
+      { "label": "C", "text": "Trades on a securities exchange like an ETF.", "explanation": "Incorrect. UIT units are typically redeemable from the sponsor, not exchange-traded." },
+      { "label": "D", "text": "Pays no fees of any kind.", "explanation": "Incorrect. UITs have sales charges and modest expenses." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "UITs are non-managed, fixed-portfolio packaged products with stated termination dates. They are redeemable at NAV from the sponsor. Their key distinction from mutual funds is the lack of active management.",
+    "topic": "products-risks",
+    "subtopic": "packaged-products",
+    "difficulty": "medium",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-067",
+    "stem": "A customer purchases 100 shares of XYZ at $40 and writes 1 XYZ Jan 45 call for $2. The maximum gain is:",
+    "choices": [
+      { "label": "A", "text": "$200.", "explanation": "Incorrect. That is the premium only — it ignores the stock appreciation up to strike." },
+      { "label": "B", "text": "$500.", "explanation": "Incorrect. That is the stock appreciation only — it omits the premium." },
+      { "label": "C", "text": "$700 — appreciation to strike ($500) plus premium ($200).", "explanation": "Correct. Max gain on a covered call = (strike − cost) × 100 + premium = ($45 − $40) × 100 + $200 = $700." },
+      { "label": "D", "text": "Unlimited.", "explanation": "Incorrect. Covered calls cap upside at the strike. Unlimited gain requires uncovered stock with no short call." }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Covered call max gain = stock appreciation to strike + premium received. The short call caps the upside at the strike. Below cost basis, the premium provides limited cushion.",
+    "topic": "products-risks",
+    "subtopic": "options",
+    "difficulty": "hard",
+    "source": "SIE-2026"
+  },
+  {
+    "id": "q-pr-068",
+    "stem": "A 30-year-old investor with high risk tolerance and a long time horizon should generally favor:",
+    "choices": [
+      { "label": "A", "text": "Short-term Treasury bills exclusively.", "explanation": "Incorrect. Bills offer safety but no growth — inadequate for a long horizon needing real returns above inflation." },
+      { "label": "B", "text": "A heavy allocation to equities (domestic + international) with smaller fixed-income and alternative allocations.", "explanation": "Correct. Long time horizon allows the investor to weather equity volatility and capture the equity risk premium. Common heuristic: 100 − age = % in equities, modified by risk tolerance." },
+      { "label": "C", "text": "A 100% allocation to municipal bonds.", "explanation": "Incorrect. Munis are tax-efficient but provide low long-term real returns; mismatched for a young investor." },
+      { "label": "D", "text": "Cash and money-market funds only.", "explanation": "Incorrect. Cash loses purchasing power over decades; inadequate for a long horizon." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Long time horizons + high risk tolerance favor equity-heavy portfolios to capture the equity risk premium and outpace inflation. Diversification across regions, sectors, and asset classes manages within-equity risk.",
+    "topic": "products-risks",
+    "subtopic": "investment-risks",
+    "difficulty": "easy",
+    "source": "SIE-2026"
+  }
+]

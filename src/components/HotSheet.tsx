@@ -6,6 +6,8 @@ import {
 } from '../stores/hotSheet';
 import { daysUntilReview, type HotSheetCard, type Ring } from '../lib/srs';
 import type { Question } from '../lib/types';
+import { hapticHeavy } from '../lib/haptics';
+import { soundStamp } from '../lib/sounds';
 
 interface Props {
   base: string;
@@ -65,6 +67,7 @@ export default function HotSheet({ base, questions }: Props) {
   const [selected, setSelected] = useState<string | null>(null);
   const [revealed, setRevealed] = useState(false);
   const [drillResults, setDrillResults] = useState<{ qId: string; correct: boolean }[]>([]);
+  const [stamp, setStamp] = useState(false);
 
   // Resolve due cards to full questions
   const drillQuestions = useMemo(() => {
@@ -92,7 +95,15 @@ export default function HotSheet({ base, questions }: Props) {
     setRevealed(true);
 
     if (correct) {
+      // A mastery transition is when consecutiveCorrect was 2 and now would be 3.
+      const becameMastered = item.card.consecutiveCorrect === 2 && item.card.ring !== 'mastered';
       recordReviewCorrect(item.card.questionId);
+      if (becameMastered) {
+        setStamp(true);
+        hapticHeavy();
+        soundStamp();
+        setTimeout(() => setStamp(false), 1600);
+      }
     } else {
       recordReviewWrong(item.card.questionId);
     }
@@ -116,7 +127,18 @@ export default function HotSheet({ base, questions }: Props) {
     const progress = Math.round(((drillIdx + (revealed ? 1 : 0)) / drillQuestions.length) * 100);
 
     return (
-      <div class="max-w-lg mx-auto px-4 py-4">
+      <div class="max-w-lg mx-auto px-4 py-4 relative">
+        {stamp && (
+          <div class="pointer-events-none fixed inset-0 z-40 flex items-center justify-center">
+            <div
+              class="border-[5px] border-[#a13a26] text-[#a13a26] px-6 py-3 rounded-sm bg-white/95"
+              style="font-family: var(--font-display); transform: rotate(-14deg); animation: stampDown 0.45s ease-out both; letter-spacing: 0.15em;"
+            >
+              <p class="text-[10px] uppercase tracking-[0.3em] mb-0.5 text-center">— Closed —</p>
+              <p class="text-2xl font-bold uppercase">Paid in Full</p>
+            </div>
+          </div>
+        )}
         <div class="flex items-center justify-between mb-3">
           <button onClick={() => setMode('dashboard')} class="text-xs uppercase tracking-[0.1em] text-[#6b6560] hover:text-black transition-colors">
             Quit

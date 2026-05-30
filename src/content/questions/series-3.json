@@ -6,8 +6,8 @@
     "choices": [
       {
         "label": "A",
-        "text": "$1,250",
-        "explanation": "Correct. The price increase is $0.25 per bushel. With 5,000 bushels per contract, the profit is $0.25 x 5,000 = $1,250."
+        "text": "$125",
+        "explanation": "Incorrect. This calculation divides the correct profit by 10. The full contract profit is $0.25 x 5,000 = $1,250."
       },
       {
         "label": "B",
@@ -21,11 +21,11 @@
       },
       {
         "label": "D",
-        "text": "$125",
-        "explanation": "Incorrect. This calculation divides the correct profit by 10. The full contract profit is $0.25 x 5,000 = $1,250."
+        "text": "$1,250",
+        "explanation": "Correct. The price increase is $0.25 per bushel. With 5,000 bushels per contract, the profit is $0.25 x 5,000 = $1,250."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Futures profit or loss is calculated as the change in price multiplied by the contract size. Here, ($5.75 - $5.50) x 5,000 bushels = $0.25 x 5,000 = $1,250. A long position profits when prices rise.",
     "subtopic": "Futures contract specifications and P&L calculation",
     "difficulty": "easy",
@@ -45,13 +45,13 @@
       },
       {
         "label": "B",
-        "text": "It is a good-faith deposit, or performance bond, ensuring the trader can meet daily mark-to-market obligations.",
-        "explanation": "Correct. Futures initial margin is a performance bond deposited with the clearinghouse to guarantee the trader can absorb potential daily losses. It is not a loan or partial payment."
+        "text": "It is the maximum amount a trader can lose on a futures position.",
+        "explanation": "Incorrect. Losses on a futures position can exceed the initial margin deposit. Futures carry theoretically unlimited risk on long positions and substantial risk on short positions."
       },
       {
         "label": "C",
-        "text": "It is the maximum amount a trader can lose on a futures position.",
-        "explanation": "Incorrect. Losses on a futures position can exceed the initial margin deposit. Futures carry theoretically unlimited risk on long positions and substantial risk on short positions."
+        "text": "It is a good-faith deposit, or performance bond, ensuring the trader can meet daily mark-to-market obligations.",
+        "explanation": "Correct. Futures initial margin is a performance bond deposited with the clearinghouse to guarantee the trader can absorb potential daily losses. It is not a loan or partial payment."
       },
       {
         "label": "D",
@@ -59,14 +59,16 @@
         "explanation": "Incorrect. There is no loan involved in futures trading. Initial margin is a performance bond, not an interest-bearing loan from the broker."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Futures initial margin is fundamentally different from securities margin. It is a performance bond — a good-faith deposit posted to ensure the trader can meet obligations arising from daily mark-to-market settlement. No money is being borrowed.",
     "subtopic": "Futures margin and performance bonds",
     "difficulty": "easy",
     "source": "NFA Series 3 content outline",
     "regulatoryBasis": "CFTC Regulation 1.58; NFA Financial Requirements Section 4",
     "lastVerified": "2026-05-21",
-    "relatedStories": ["archegos"]
+    "relatedStories": [
+      "archegos"
+    ]
   },
   {
     "id": "q-s3-003",
@@ -75,13 +77,13 @@
     "choices": [
       {
         "label": "A",
-        "text": "$25,000 profit",
-        "explanation": "Correct. The short seller profits when prices decline. Profit = ($78.00 - $75.50) x 1,000 barrels x 10 contracts = $2.50 x 10,000 = $25,000."
+        "text": "$25,000 loss",
+        "explanation": "Incorrect. Since the speculator sold at $78.00 and bought back at $75.50, the price moved in the short seller's favor, resulting in a profit, not a loss."
       },
       {
         "label": "B",
-        "text": "$25,000 loss",
-        "explanation": "Incorrect. Since the speculator sold at $78.00 and bought back at $75.50, the price moved in the short seller's favor, resulting in a profit, not a loss."
+        "text": "$25,000 profit",
+        "explanation": "Correct. The short seller profits when prices decline. Profit = ($78.00 - $75.50) x 1,000 barrels x 10 contracts = $2.50 x 10,000 = $25,000."
       },
       {
         "label": "C",
@@ -94,7 +96,7 @@
         "explanation": "Incorrect. This overstates the result by a factor of 10, likely by miscalculating the number of barrels as 10,000 per contract instead of the correct 1,000."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "A short futures position profits when the market declines. The speculator sold at $78.00 and covered at $75.50, earning $2.50 per barrel. With 10 contracts of 1,000 barrels each, the total profit is $2.50 x 10,000 barrels = $25,000.",
     "subtopic": "Short selling futures and P&L calculation",
     "difficulty": "easy",
@@ -109,13 +111,13 @@
     "choices": [
       {
         "label": "A",
-        "text": "Buy wheat futures contracts.",
-        "explanation": "Incorrect. Buying futures would create a long hedge, which benefits from rising prices. The farmer already has a natural long position in wheat and needs to sell futures to hedge against falling prices."
+        "text": "Sell wheat futures contracts.",
+        "explanation": "Correct. A farmer who will harvest and sell wheat is naturally long the commodity. Selling (shorting) wheat futures locks in a price and protects against a price decline — this is called a short hedge or selling hedge."
       },
       {
         "label": "B",
-        "text": "Sell wheat futures contracts.",
-        "explanation": "Correct. A farmer who will harvest and sell wheat is naturally long the commodity. Selling (shorting) wheat futures locks in a price and protects against a price decline — this is called a short hedge or selling hedge."
+        "text": "Buy wheat futures contracts.",
+        "explanation": "Incorrect. Buying futures would create a long hedge, which benefits from rising prices. The farmer already has a natural long position in wheat and needs to sell futures to hedge against falling prices."
       },
       {
         "label": "C",
@@ -128,7 +130,7 @@
         "explanation": "Incorrect. Selling puts obligates the farmer to buy wheat at the strike price and provides no downside protection. It actually increases the farmer's exposure to the physical commodity."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "A producer (the farmer) who is naturally long the physical commodity hedges by selling futures contracts. This short hedge locks in a selling price so that if cash prices fall, the gain on the short futures offsets the loss on the physical commodity.",
     "subtopic": "Short hedging for producers",
     "difficulty": "easy",
@@ -148,8 +150,8 @@
       },
       {
         "label": "B",
-        "text": "Deferred delivery months are priced higher than nearby months, typically reflecting carrying costs.",
-        "explanation": "Correct. Contango means deferred futures prices exceed nearby prices, usually because of the costs of storing, insuring, and financing the commodity over time."
+        "text": "The futures price is below the expected future spot price.",
+        "explanation": "Incorrect. This describes the theory of normal backwardation (Keynes' hypothesis). Contango refers to the observable price relationship where deferred months trade at a premium to nearby months."
       },
       {
         "label": "C",
@@ -158,11 +160,11 @@
       },
       {
         "label": "D",
-        "text": "The futures price is below the expected future spot price.",
-        "explanation": "Incorrect. This describes the theory of normal backwardation (Keynes' hypothesis). Contango refers to the observable price relationship where deferred months trade at a premium to nearby months."
+        "text": "Deferred delivery months are priced higher than nearby months, typically reflecting carrying costs.",
+        "explanation": "Correct. Contango means deferred futures prices exceed nearby prices, usually because of the costs of storing, insuring, and financing the commodity over time."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Contango is a market condition where deferred-month futures prices are higher than nearby-month prices. This premium typically reflects the cost of carry: storage, insurance, and financing costs. It is the 'normal' condition for many storable commodities.",
     "subtopic": "Contango and backwardation",
     "difficulty": "easy",
@@ -177,8 +179,8 @@
     "choices": [
       {
         "label": "A",
-        "text": "$3,750",
-        "explanation": "Correct. The index moved 15 points (4,215 - 4,200). At $250 per point, the gain is 15 x $250 = $3,750."
+        "text": "$15,000",
+        "explanation": "Incorrect. This would require a multiplier of $1,000 per point. The specified multiplier is $250."
       },
       {
         "label": "B",
@@ -187,8 +189,8 @@
       },
       {
         "label": "C",
-        "text": "$15,000",
-        "explanation": "Incorrect. This would require a multiplier of $1,000 per point. The specified multiplier is $250."
+        "text": "$3,750",
+        "explanation": "Correct. The index moved 15 points (4,215 - 4,200). At $250 per point, the gain is 15 x $250 = $3,750."
       },
       {
         "label": "D",
@@ -196,7 +198,7 @@
         "explanation": "Incorrect. This multiplies by $2,500 instead of $250, overstating the gain by a factor of 10."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Stock index futures profit is calculated as the point change multiplied by the dollar multiplier. The S&P 500 full-size contract has a $250 multiplier. A 15-point gain (4,215 - 4,200) yields 15 x $250 = $3,750.",
     "subtopic": "Stock index futures",
     "difficulty": "easy",
@@ -211,13 +213,13 @@
     "choices": [
       {
         "label": "A",
-        "text": "$4,500",
-        "explanation": "Correct. The buyer of a call option can lose only the premium paid. Premium = $45/oz x 100 oz = $4,500. This is the maximum loss regardless of how far gold prices fall."
+        "text": "Unlimited",
+        "explanation": "Incorrect. Unlimited loss applies to the seller (writer) of a naked call option, not the buyer. The buyer's loss is limited to the premium paid."
       },
       {
         "label": "B",
-        "text": "Unlimited",
-        "explanation": "Incorrect. Unlimited loss applies to the seller (writer) of a naked call option, not the buyer. The buyer's loss is limited to the premium paid."
+        "text": "$4,500",
+        "explanation": "Correct. The buyer of a call option can lose only the premium paid. Premium = $45/oz x 100 oz = $4,500. This is the maximum loss regardless of how far gold prices fall."
       },
       {
         "label": "C",
@@ -230,7 +232,7 @@
         "explanation": "Incorrect. This adds the strike value ($200,000) to the premium ($4,500). The maximum risk for an option buyer is always limited to the premium paid."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The maximum loss for any option buyer — whether a call or a put — is limited to the premium paid. At $45 per ounce and 100 ounces per contract, the maximum loss is $45 x 100 = $4,500.",
     "subtopic": "Options on futures — maximum loss for buyers",
     "difficulty": "easy",
@@ -245,13 +247,13 @@
     "choices": [
       {
         "label": "A",
-        "text": "40 contracts",
-        "explanation": "Incorrect. This calculation omits the beta adjustment. Without the beta multiplier, 40 contracts would hedge only $50M / $1.25M = 40, but the portfolio's higher beta requires more contracts."
+        "text": "48 contracts",
+        "explanation": "Correct. Number of contracts = (Portfolio value / Contract value) x Beta = ($50,000,000 / (5,000 x $250)) x 1.20 = ($50,000,000 / $1,250,000) x 1.20 = 40 x 1.20 = 48 contracts."
       },
       {
         "label": "B",
-        "text": "48 contracts",
-        "explanation": "Correct. Number of contracts = (Portfolio value / Contract value) x Beta = ($50,000,000 / (5,000 x $250)) x 1.20 = ($50,000,000 / $1,250,000) x 1.20 = 40 x 1.20 = 48 contracts."
+        "text": "40 contracts",
+        "explanation": "Incorrect. This calculation omits the beta adjustment. Without the beta multiplier, 40 contracts would hedge only $50M / $1.25M = 40, but the portfolio's higher beta requires more contracts."
       },
       {
         "label": "C",
@@ -264,7 +266,7 @@
         "explanation": "Incorrect. This significantly overstates the hedge. The correct formula uses (portfolio value / contract notional) x beta = 48."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "To hedge a stock portfolio with index futures, calculate: (Portfolio value / Index futures notional) x Beta. Contract notional = 5,000 x $250 = $1,250,000. Number of contracts = ($50,000,000 / $1,250,000) x 1.20 = 40 x 1.20 = 48.",
     "subtopic": "Stock index futures hedging with beta adjustment",
     "difficulty": "hard",
@@ -279,8 +281,8 @@
     "choices": [
       {
         "label": "A",
-        "text": "$0.20 profit per bushel",
-        "explanation": "Correct. The trader bought the spread at -$0.30 (March $13.50 minus May $13.80) and exited at -$0.10 (March $13.90 minus May $14.00). The spread moved from -$0.30 to -$0.10, a gain of $0.20 for the trader who is long the nearby."
+        "text": "$0.10 profit per bushel",
+        "explanation": "Incorrect. $0.10 is the final spread width, not the profit. The profit is the difference between the initial and final spread values."
       },
       {
         "label": "B",
@@ -294,11 +296,11 @@
       },
       {
         "label": "D",
-        "text": "$0.10 profit per bushel",
-        "explanation": "Incorrect. $0.10 is the final spread width, not the profit. The profit is the difference between the initial and final spread values."
+        "text": "$0.20 profit per bushel",
+        "explanation": "Correct. The trader bought the spread at -$0.30 (March $13.50 minus May $13.80) and exited at -$0.10 (March $13.90 minus May $14.00). The spread moved from -$0.30 to -$0.10, a gain of $0.20 for the trader who is long the nearby."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "In an intra-commodity bull spread (long nearby, short deferred), the trader profits when the spread narrows or the nearby gains relative to the deferred. Initial spread: March - May = -$0.30. Final spread: -$0.10. Gain = -$0.10 - (-$0.30) = $0.20 per bushel.",
     "subtopic": "Calendar spreads in futures",
     "difficulty": "medium",
@@ -339,7 +341,9 @@
     "source": "NFA Series 3 content outline",
     "regulatoryBasis": "CFTC Regulation 39.13 — risk management by derivatives clearing organizations; NFA Financial Requirements",
     "lastVerified": "2026-05-21",
-    "relatedStories": ["archegos"]
+    "relatedStories": [
+      "archegos"
+    ]
   },
   {
     "id": "q-s3-011",
@@ -416,8 +420,8 @@
     "choices": [
       {
         "label": "A",
-        "text": "Experience a net gain on the hedged position.",
-        "explanation": "Correct. A short hedger (short futures, long cash) benefits from a strengthening basis. When the basis becomes more positive, the cash price rises relative to futures, benefiting the short hedger who sells cash and buys back futures."
+        "text": "Be required to post additional margin.",
+        "explanation": "Incorrect. A change in basis does not automatically trigger margin calls. Margin calls are based on the futures position's mark-to-market, not basis movements."
       },
       {
         "label": "B",
@@ -431,11 +435,11 @@
       },
       {
         "label": "D",
-        "text": "Be required to post additional margin.",
-        "explanation": "Incorrect. A change in basis does not automatically trigger margin calls. Margin calls are based on the futures position's mark-to-market, not basis movements."
+        "text": "Experience a net gain on the hedged position.",
+        "explanation": "Correct. A short hedger (short futures, long cash) benefits from a strengthening basis. When the basis becomes more positive, the cash price rises relative to futures, benefiting the short hedger who sells cash and buys back futures."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Basis = Cash price - Futures price. A short hedger profits from a strengthening (widening) basis because the gain on the cash position relative to the futures position exceeds expectations. Conversely, a long hedger benefits from a weakening basis.",
     "subtopic": "Basis risk and hedging",
     "difficulty": "medium",
@@ -455,13 +459,13 @@
       },
       {
         "label": "B",
-        "text": "Short Treasury bond futures.",
-        "explanation": "Correct. When interest rates rise, bond prices decline. A short position in Treasury bond futures profits from the price decline that accompanies rising rates."
+        "text": "Long Eurodollar futures.",
+        "explanation": "Incorrect. Eurodollar futures prices move inversely to interest rates (price = 100 - rate). Rising rates cause Eurodollar futures prices to fall, harming the long position."
       },
       {
         "label": "C",
-        "text": "Long Eurodollar futures.",
-        "explanation": "Incorrect. Eurodollar futures prices move inversely to interest rates (price = 100 - rate). Rising rates cause Eurodollar futures prices to fall, harming the long position."
+        "text": "Short Treasury bond futures.",
+        "explanation": "Correct. When interest rates rise, bond prices decline. A short position in Treasury bond futures profits from the price decline that accompanies rising rates."
       },
       {
         "label": "D",
@@ -469,7 +473,7 @@
         "explanation": "Incorrect. Both instruments decline in price when interest rates rise. Being long both would double the losses from a rate increase."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Bond prices and interest rates have an inverse relationship. When rates rise, bond prices fall. A trader who is short Treasury bond futures profits from the resulting price decline. Similarly, Eurodollar futures prices also fall when rates rise, so a short Eurodollar position would also benefit.",
     "subtopic": "Interest rate futures",
     "difficulty": "medium",
@@ -562,16 +566,16 @@
       },
       {
         "label": "C",
-        "text": "$5,000 net profit",
-        "explanation": "Correct. Long December gain: ($2,080 - $2,050) x 100 oz x 5 = $15,000. Short March loss: ($2,090 - $2,070) x 100 oz x 5 = $10,000. Net profit = $15,000 - $10,000 = $5,000. The spread narrowed from $20 to $10, yielding $10/oz x 500 oz = $5,000."
+        "text": "$25,000 net profit",
+        "explanation": "Incorrect. This incorrectly adds the gains on both legs. The short March position lost money because the price rose, so the legs partially offset each other."
       },
       {
         "label": "D",
-        "text": "$25,000 net profit",
-        "explanation": "Incorrect. This incorrectly adds the gains on both legs. The short March position lost money because the price rose, so the legs partially offset each other."
+        "text": "$5,000 net profit",
+        "explanation": "Correct. Long December gain: ($2,080 - $2,050) x 100 oz x 5 = $15,000. Short March loss: ($2,090 - $2,070) x 100 oz x 5 = $10,000. Net profit = $15,000 - $10,000 = $5,000. The spread narrowed from $20 to $10, yielding $10/oz x 500 oz = $5,000."
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "explanation": "The trader entered a bull spread: long nearby (December), short deferred (March). Initial spread: March - Dec = $20. Final spread: $10. The spread narrowed by $10, benefiting the long nearby position. Profit = $10 x 100 oz x 5 contracts = $5,000. Alternatively: Dec gain ($30 x 500 oz = $15,000) minus March loss ($20 x 500 oz = $10,000) = $5,000.",
     "subtopic": "Inter-month spread trading",
     "difficulty": "hard",
@@ -596,16 +600,16 @@
       },
       {
         "label": "C",
-        "text": "The relationship between the futures price and the strike price (moneyness).",
-        "explanation": "Incorrect — moneyness (intrinsic value) directly affects the premium. An in-the-money option has higher premium than an at-the-money or out-of-the-money option."
+        "text": "The total open interest in the underlying futures contract.",
+        "explanation": "Correct. Open interest measures the number of outstanding contracts but does not directly factor into option pricing models. Time, volatility, moneyness, and interest rates are the primary determinants."
       },
       {
         "label": "D",
-        "text": "The total open interest in the underlying futures contract.",
-        "explanation": "Correct. Open interest measures the number of outstanding contracts but does not directly factor into option pricing models. Time, volatility, moneyness, and interest rates are the primary determinants."
+        "text": "The relationship between the futures price and the strike price (moneyness).",
+        "explanation": "Incorrect — moneyness (intrinsic value) directly affects the premium. An in-the-money option has higher premium than an at-the-money or out-of-the-money option."
       }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "C",
     "explanation": "Option premium is determined by intrinsic value (moneyness), time value (time to expiration), volatility of the underlying, and interest rates. Open interest reflects market participation but does not directly affect option pricing models such as Black-Scholes or Black-76.",
     "subtopic": "Options on futures pricing factors",
     "difficulty": "medium",
@@ -620,13 +624,13 @@
     "choices": [
       {
         "label": "A",
-        "text": "Excessive leverage in derivatives can cause losses that far exceed the initial capital invested, threatening both the trader and counterparties.",
-        "explanation": "Correct. LTCM used leverage exceeding 25:1 across derivative positions. When markets moved against them, losses vastly exceeded equity, requiring a Fed-brokered bailout. This illustrates the core risk of leverage in futures and derivatives."
+        "text": "Index fund investing always outperforms active management.",
+        "explanation": "Incorrect. LTCM's failure was about excessive leverage and concentrated risk in derivatives, not about the merits of passive versus active management."
       },
       {
         "label": "B",
-        "text": "Index fund investing always outperforms active management.",
-        "explanation": "Incorrect. LTCM's failure was about excessive leverage and concentrated risk in derivatives, not about the merits of passive versus active management."
+        "text": "Excessive leverage in derivatives can cause losses that far exceed the initial capital invested, threatening both the trader and counterparties.",
+        "explanation": "Correct. LTCM used leverage exceeding 25:1 across derivative positions. When markets moved against them, losses vastly exceeded equity, requiring a Fed-brokered bailout. This illustrates the core risk of leverage in futures and derivatives."
       },
       {
         "label": "C",
@@ -639,14 +643,16 @@
         "explanation": "Incorrect. LTCM's collapse is a vivid example of counterparty risk in OTC derivatives — precisely the risk that exchange-traded futures with central clearing are designed to mitigate."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "LTCM's collapse in 1998 is the canonical cautionary tale about leverage in derivatives markets. The fund's 25:1+ leverage meant small adverse price movements produced devastating losses. This directly parallels the leverage inherent in futures trading, where initial margin is a small fraction of notional value.",
     "subtopic": "Leverage risk in futures and derivatives",
     "difficulty": "medium",
     "source": "NFA Series 3 content outline",
     "regulatoryBasis": "Commodity Exchange Act §4a — position limits and risk management; CFTC regulatory framework for leverage",
     "lastVerified": "2026-05-21",
-    "relatedStories": ["ltcm"]
+    "relatedStories": [
+      "ltcm"
+    ]
   },
   {
     "id": "q-s3-020",
@@ -694,8 +700,8 @@
       },
       {
         "label": "B",
-        "text": "The Commodity Futures Trading Commission (CFTC).",
-        "explanation": "Correct. The CFTC was established by Congress in 1974 under the Commodity Futures Trading Commission Act to regulate commodity futures and options markets, including oversight of exchanges, intermediaries, and self-regulatory organizations like the NFA."
+        "text": "The National Futures Association (NFA).",
+        "explanation": "Incorrect. The NFA is a self-regulatory organization (SRO) for the futures industry, operating under CFTC oversight. It is not the primary government regulator — the CFTC holds that authority."
       },
       {
         "label": "C",
@@ -704,11 +710,11 @@
       },
       {
         "label": "D",
-        "text": "The National Futures Association (NFA).",
-        "explanation": "Incorrect. The NFA is a self-regulatory organization (SRO) for the futures industry, operating under CFTC oversight. It is not the primary government regulator — the CFTC holds that authority."
+        "text": "The Commodity Futures Trading Commission (CFTC).",
+        "explanation": "Correct. The CFTC was established by Congress in 1974 under the Commodity Futures Trading Commission Act to regulate commodity futures and options markets, including oversight of exchanges, intermediaries, and self-regulatory organizations like the NFA."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "The Commodity Futures Trading Commission (CFTC) is the independent federal agency with primary jurisdiction over U.S. commodity futures and options markets, as established by the Commodity Futures Trading Commission Act of 1974.",
     "subtopic": "CFTC authority and jurisdiction",
     "difficulty": "easy",
@@ -728,13 +734,13 @@
       },
       {
         "label": "B",
-        "text": "A self-regulatory organization (SRO) for the U.S. futures industry that operates under CFTC oversight.",
-        "explanation": "Correct. The NFA is the industry-wide SRO registered under the Commodity Exchange Act. It sets rules for members, conducts audits, handles arbitration, and enforces compliance — all under the CFTC's oversight."
+        "text": "A private exchange that lists and trades futures contracts.",
+        "explanation": "Incorrect. The NFA does not operate an exchange or list contracts. It is a regulatory body that oversees futures industry professionals and firms."
       },
       {
         "label": "C",
-        "text": "A private exchange that lists and trades futures contracts.",
-        "explanation": "Incorrect. The NFA does not operate an exchange or list contracts. It is a regulatory body that oversees futures industry professionals and firms."
+        "text": "A self-regulatory organization (SRO) for the U.S. futures industry that operates under CFTC oversight.",
+        "explanation": "Correct. The NFA is the industry-wide SRO registered under the Commodity Exchange Act. It sets rules for members, conducts audits, handles arbitration, and enforces compliance — all under the CFTC's oversight."
       },
       {
         "label": "D",
@@ -742,7 +748,7 @@
         "explanation": "Incorrect. The NFA is entirely separate from FINRA. FINRA regulates securities broker-dealers; the NFA regulates futures industry participants."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "The NFA is a self-regulatory organization (SRO) registered under Section 17 of the Commodity Exchange Act. It develops rules, conducts compliance audits, and provides arbitration services for the futures industry, all under the supervisory authority of the CFTC.",
     "subtopic": "NFA structure and role",
     "difficulty": "easy",
@@ -791,13 +797,13 @@
     "choices": [
       {
         "label": "A",
-        "text": "Ensure the FCM can meet its own trading obligations.",
-        "explanation": "Incorrect. Segregation protects customer funds, not the firm's proprietary trading capital. The firm's own obligations are separate from customer fund protection."
+        "text": "Protect customer funds so they are not used for the firm's business purposes or commingled with firm assets in the event of insolvency.",
+        "explanation": "Correct. Segregation requirements under the Commodity Exchange Act protect customer margin deposits and profits by keeping them separate from the FCM's proprietary assets, ensuring customers can recover their funds if the FCM becomes insolvent."
       },
       {
         "label": "B",
-        "text": "Protect customer funds so they are not used for the firm's business purposes or commingled with firm assets in the event of insolvency.",
-        "explanation": "Correct. Segregation requirements under the Commodity Exchange Act protect customer margin deposits and profits by keeping them separate from the FCM's proprietary assets, ensuring customers can recover their funds if the FCM becomes insolvent."
+        "text": "Ensure the FCM can meet its own trading obligations.",
+        "explanation": "Incorrect. Segregation protects customer funds, not the firm's proprietary trading capital. The firm's own obligations are separate from customer fund protection."
       },
       {
         "label": "C",
@@ -810,14 +816,16 @@
         "explanation": "Incorrect. Fund segregation has nothing to do with tax treatment. It is a customer-protection measure required by federal commodity law."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Under the Commodity Exchange Act and CFTC Regulations, FCMs must segregate customer funds in special accounts separate from the firm's own money. This ensures that if the FCM fails, customer assets are protected and can be returned — not used to pay the firm's creditors.",
     "subtopic": "Customer fund segregation",
     "difficulty": "easy",
     "source": "NFA Series 3 content outline",
     "regulatoryBasis": "Commodity Exchange Act §4d(a)(2); CFTC Regulation 1.20 — segregation of customer funds",
     "lastVerified": "2026-05-21",
-    "relatedStories": ["ftx"]
+    "relatedStories": [
+      "ftx"
+    ]
   },
   {
     "id": "q-s3-025",
@@ -836,16 +844,16 @@
       },
       {
         "label": "C",
-        "text": "Churning — excessive trading in a customer's account primarily to generate commissions.",
-        "explanation": "Correct. Churning is a prohibited practice under CFTC Regulation 166.3 and NFA rules. It involves an AP trading a customer's account excessively to generate commissions rather than for the customer's benefit."
+        "text": "Recommending a hedge position to a commercial customer who faces price risk.",
+        "explanation": "Incorrect. Recommending hedging to a customer with genuine price exposure is a legitimate and appropriate service."
       },
       {
         "label": "D",
-        "text": "Recommending a hedge position to a commercial customer who faces price risk.",
-        "explanation": "Incorrect. Recommending hedging to a customer with genuine price exposure is a legitimate and appropriate service."
+        "text": "Churning — excessive trading in a customer's account primarily to generate commissions.",
+        "explanation": "Correct. Churning is a prohibited practice under CFTC Regulation 166.3 and NFA rules. It involves an AP trading a customer's account excessively to generate commissions rather than for the customer's benefit."
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "explanation": "Churning — excessive trading in a customer's account to generate commissions without regard to the customer's interest — is prohibited under CFTC anti-fraud regulations and NFA compliance rules. It constitutes a breach of the AP's duty to the customer.",
     "subtopic": "Anti-fraud rules — churning",
     "difficulty": "easy",
@@ -865,13 +873,13 @@
       },
       {
         "label": "B",
-        "text": "Obtained in writing before any discretionary trades are executed, and the account must be supervised by a designated supervisor.",
-        "explanation": "Correct. NFA Compliance Rule 2-8 requires written authorization from the customer before discretionary trading begins. The account must also be subject to supervisory review to ensure the discretion is exercised properly."
+        "text": "Filed with the CFTC within 10 business days of the first discretionary trade.",
+        "explanation": "Incorrect. Discretionary authorizations are maintained by the firm and available for NFA audit, but they are not filed directly with the CFTC."
       },
       {
         "label": "C",
-        "text": "Filed with the CFTC within 10 business days of the first discretionary trade.",
-        "explanation": "Incorrect. Discretionary authorizations are maintained by the firm and available for NFA audit, but they are not filed directly with the CFTC."
+        "text": "Obtained in writing before any discretionary trades are executed, and the account must be supervised by a designated supervisor.",
+        "explanation": "Correct. NFA Compliance Rule 2-8 requires written authorization from the customer before discretionary trading begins. The account must also be subject to supervisory review to ensure the discretion is exercised properly."
       },
       {
         "label": "D",
@@ -879,7 +887,7 @@
         "explanation": "Incorrect. Written discretionary authorization is required regardless of account size. All discretionary accounts must comply with NFA rules."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "NFA Compliance Rule 2-8 requires that an AP obtain written discretionary trading authorization from the customer before executing any discretionary trades. Additionally, the FCM or IB must designate a supervisor to oversee discretionary account activity.",
     "subtopic": "Discretionary account requirements",
     "difficulty": "medium",
@@ -928,8 +936,8 @@
     "choices": [
       {
         "label": "A",
-        "text": "Introducing Broker (IB).",
-        "explanation": "Incorrect. An IB solicits or accepts customer orders but does not hold customer funds or margin. An IB must introduce its customers to an FCM for account carrying and fund management."
+        "text": "Futures Commission Merchant (FCM).",
+        "explanation": "Correct. An FCM solicits or accepts orders for futures and options on futures and accepts money or property from customers as margin. FCMs are the central customer-facing intermediary in the futures industry."
       },
       {
         "label": "B",
@@ -938,8 +946,8 @@
       },
       {
         "label": "C",
-        "text": "Futures Commission Merchant (FCM).",
-        "explanation": "Correct. An FCM solicits or accepts orders for futures and options on futures and accepts money or property from customers as margin. FCMs are the central customer-facing intermediary in the futures industry."
+        "text": "Introducing Broker (IB).",
+        "explanation": "Incorrect. An IB solicits or accepts customer orders but does not hold customer funds or margin. An IB must introduce its customers to an FCM for account carrying and fund management."
       },
       {
         "label": "D",
@@ -947,7 +955,7 @@
         "explanation": "Incorrect. A CPO operates a pooled investment fund that trades in futures, similar to a hedge fund. While a CPO collects investor capital for the pool, the firm itself does not operate as a customer-order intermediary holding margin."
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "explanation": "A Futures Commission Merchant (FCM) is the registrant category for firms that solicit or accept orders to buy/sell futures and hold customer margin funds. FCMs are required to segregate customer funds and maintain minimum net capital under CFTC regulations.",
     "subtopic": "Registration categories — FCM, IB, CTA, CPO",
     "difficulty": "easy",
@@ -967,8 +975,8 @@
       },
       {
         "label": "B",
-        "text": "Prevent excessive speculation that may cause unwarranted or unreasonable price fluctuations.",
-        "explanation": "Correct. The Commodity Exchange Act directs the CFTC to establish position limits to prevent excessive speculation that might burden interstate commerce through unreasonable price movements or market manipulation."
+        "text": "Reduce the volume of trading to keep exchange fees manageable.",
+        "explanation": "Incorrect. Position limits restrict the size of individual positions, not overall market volume. Exchanges benefit from higher volume and would not seek to limit it."
       },
       {
         "label": "C",
@@ -977,11 +985,11 @@
       },
       {
         "label": "D",
-        "text": "Reduce the volume of trading to keep exchange fees manageable.",
-        "explanation": "Incorrect. Position limits restrict the size of individual positions, not overall market volume. Exchanges benefit from higher volume and would not seek to limit it."
+        "text": "Prevent excessive speculation that may cause unwarranted or unreasonable price fluctuations.",
+        "explanation": "Correct. The Commodity Exchange Act directs the CFTC to establish position limits to prevent excessive speculation that might burden interstate commerce through unreasonable price movements or market manipulation."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Speculative position limits under the Commodity Exchange Act §4a are designed to prevent any single trader or group from accumulating a position large enough to manipulate or unreasonably influence commodity prices, protecting the price discovery function of futures markets.",
     "subtopic": "Speculative position limits",
     "difficulty": "medium",
@@ -1001,13 +1009,13 @@
       },
       {
         "label": "B",
-        "text": "File large-trader reports with the CFTC identifying the position size, type, and purpose.",
-        "explanation": "Correct. Under CFTC Part 17 regulations, traders holding reportable positions must file Form 40 (Statement of Reporting Trader) and ongoing large-trader reports disclosing position details."
+        "text": "Notify other market participants of the large position.",
+        "explanation": "Incorrect. There is no requirement to disclose positions to other traders. Reports are filed confidentially with the CFTC for market surveillance purposes."
       },
       {
         "label": "C",
-        "text": "Notify other market participants of the large position.",
-        "explanation": "Incorrect. There is no requirement to disclose positions to other traders. Reports are filed confidentially with the CFTC for market surveillance purposes."
+        "text": "File large-trader reports with the CFTC identifying the position size, type, and purpose.",
+        "explanation": "Correct. Under CFTC Part 17 regulations, traders holding reportable positions must file Form 40 (Statement of Reporting Trader) and ongoing large-trader reports disclosing position details."
       },
       {
         "label": "D",
@@ -1015,7 +1023,7 @@
         "explanation": "Incorrect. A trader cannot simply relabel a speculative position as a hedge. Bona fide hedging requires a genuine underlying commercial risk, and reclassification is subject to CFTC rules."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Under CFTC Part 17 regulations, traders whose positions equal or exceed CFTC-specified reporting levels must file large-trader reports. These reports provide the CFTC with data for market surveillance, detecting potential manipulation, and monitoring speculative activity.",
     "subtopic": "Reportable positions and large-trader reporting",
     "difficulty": "medium",
@@ -1064,13 +1072,13 @@
     "choices": [
       {
         "label": "A",
-        "text": "Including a balanced discussion of both profits and losses in a brochure.",
-        "explanation": "Incorrect. A balanced discussion that addresses both potential gains and risks is exactly what NFA rules require in promotional material."
+        "text": "Using hypothetical performance results in an advertisement without the required disclaimers about the limitations of hypothetical results.",
+        "explanation": "Correct. NFA Compliance Rule 2-29 requires specific disclaimers whenever hypothetical trading results are presented, including warnings that hypothetical results have inherent limitations and that no representation is being made that any account will achieve similar results."
       },
       {
         "label": "B",
-        "text": "Using hypothetical performance results in an advertisement without the required disclaimers about the limitations of hypothetical results.",
-        "explanation": "Correct. NFA Compliance Rule 2-29 requires specific disclaimers whenever hypothetical trading results are presented, including warnings that hypothetical results have inherent limitations and that no representation is being made that any account will achieve similar results."
+        "text": "Including a balanced discussion of both profits and losses in a brochure.",
+        "explanation": "Incorrect. A balanced discussion that addresses both potential gains and risks is exactly what NFA rules require in promotional material."
       },
       {
         "label": "C",
@@ -1083,7 +1091,7 @@
         "explanation": "Incorrect. Including required risk disclosures is proper compliance with NFA Rule 2-29. Omitting them would be the violation."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "NFA Compliance Rule 2-29(c) specifically addresses the use of hypothetical trading results in promotional material. Any such material must include prescribed disclaimers explaining that hypothetical results are not actual results, may not reflect slippage and commissions, and are subject to the benefit of hindsight.",
     "subtopic": "NFA promotional material and advertising rules",
     "difficulty": "medium",
@@ -1108,23 +1116,25 @@
       },
       {
         "label": "C",
-        "text": "A prohibited form of market manipulation that can result in civil and criminal penalties.",
-        "explanation": "Correct. Section 4c(a)(5) of the Commodity Exchange Act, added by the Dodd-Frank Act, specifically prohibits spoofing. Violations can lead to both CFTC civil enforcement actions and DOJ criminal prosecution."
+        "text": "Permitted if the trader is a registered market maker.",
+        "explanation": "Incorrect. No exemption exists for market makers. Spoofing is prohibited for all market participants regardless of their registration status."
       },
       {
         "label": "D",
-        "text": "Permitted if the trader is a registered market maker.",
-        "explanation": "Incorrect. No exemption exists for market makers. Spoofing is prohibited for all market participants regardless of their registration status."
+        "text": "A prohibited form of market manipulation that can result in civil and criminal penalties.",
+        "explanation": "Correct. Section 4c(a)(5) of the Commodity Exchange Act, added by the Dodd-Frank Act, specifically prohibits spoofing. Violations can lead to both CFTC civil enforcement actions and DOJ criminal prosecution."
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "explanation": "Spoofing was explicitly made illegal by the Dodd-Frank Act under CEA §4c(a)(5)(C). It is defined as bidding or offering with the intent to cancel before execution. The CFTC can impose civil penalties, and the DOJ can bring criminal charges, as demonstrated in the prosecution of Navinder Sarao following the 2010 Flash Crash.",
     "subtopic": "Spoofing and market manipulation",
     "difficulty": "medium",
     "source": "NFA Series 3 content outline",
     "regulatoryBasis": "Commodity Exchange Act §4c(a)(5)(C) — spoofing; Dodd-Frank Act §747",
     "lastVerified": "2026-05-21",
-    "relatedStories": ["flash-crash-2010"]
+    "relatedStories": [
+      "flash-crash-2010"
+    ]
   },
   {
     "id": "q-s3-034",
@@ -1133,8 +1143,8 @@
     "choices": [
       {
         "label": "A",
-        "text": "Provide each participant with a disclosure document describing the pool's trading program, risks, fees, and the CPO's background.",
-        "explanation": "Correct. CFTC Part 4 regulations require CPOs to deliver a disclosure document to prospective participants before accepting their investment. The document must include information about trading strategy, risks, fees, past performance, and conflicts of interest."
+        "text": "Register the pool as a mutual fund with the SEC.",
+        "explanation": "Incorrect. Commodity pools are regulated by the CFTC and NFA, not the SEC (unless they also invest in securities). The CPO must register with the CFTC and become an NFA member."
       },
       {
         "label": "B",
@@ -1143,8 +1153,8 @@
       },
       {
         "label": "C",
-        "text": "Register the pool as a mutual fund with the SEC.",
-        "explanation": "Incorrect. Commodity pools are regulated by the CFTC and NFA, not the SEC (unless they also invest in securities). The CPO must register with the CFTC and become an NFA member."
+        "text": "Provide each participant with a disclosure document describing the pool's trading program, risks, fees, and the CPO's background.",
+        "explanation": "Correct. CFTC Part 4 regulations require CPOs to deliver a disclosure document to prospective participants before accepting their investment. The document must include information about trading strategy, risks, fees, past performance, and conflicts of interest."
       },
       {
         "label": "D",
@@ -1152,7 +1162,7 @@
         "explanation": "Incorrect. Pool agreements typically specify redemption terms and lock-up periods. There is no CFTC requirement that investors be able to withdraw at any time."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Under CFTC Part 4 regulations, a CPO must provide prospective pool participants with a written disclosure document before they invest. The document must describe the pool's trading program, risks, fee structure, the CPO's performance record, conflicts of interest, and break-even analysis.",
     "subtopic": "CPO disclosure and registration requirements",
     "difficulty": "medium",
@@ -1167,13 +1177,13 @@
     "choices": [
       {
         "label": "A",
-        "text": "Obtain information about the customer's financial situation, trading experience, and investment objectives to determine whether futures trading is appropriate.",
-        "explanation": "Correct. NFA Rule 2-30 requires members to obtain and evaluate customer information — including income, net worth, trading experience, and objectives — before making trading recommendations or opening a futures account."
+        "text": "Only verify that the customer is at least 18 years of age.",
+        "explanation": "Incorrect. While age verification is necessary, NFA Rule 2-30 requires much broader customer due diligence including financial situation, experience, and suitability assessment."
       },
       {
         "label": "B",
-        "text": "Only verify that the customer is at least 18 years of age.",
-        "explanation": "Incorrect. While age verification is necessary, NFA Rule 2-30 requires much broader customer due diligence including financial situation, experience, and suitability assessment."
+        "text": "Obtain information about the customer's financial situation, trading experience, and investment objectives to determine whether futures trading is appropriate.",
+        "explanation": "Correct. NFA Rule 2-30 requires members to obtain and evaluate customer information — including income, net worth, trading experience, and objectives — before making trading recommendations or opening a futures account."
       },
       {
         "label": "C",
@@ -1186,7 +1196,7 @@
         "explanation": "Incorrect. Individual trade recommendations do not require CFTC approval. The AP must exercise due diligence under know-your-customer rules but does not need regulator pre-approval."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "NFA Rule 2-30 (Customer Information and Risk Disclosure) requires APs to gather essential information about customers — financial condition, trading experience, and objectives — before recommending trades. This ensures that recommendations are suitable for the customer's circumstances.",
     "subtopic": "Know Your Customer and suitability",
     "difficulty": "easy",
@@ -1201,13 +1211,13 @@
     "choices": [
       {
         "label": "A",
-        "text": "Buying and selling the same futures contract in different delivery months to establish a spread.",
-        "explanation": "Incorrect. A calendar spread (buying one month and selling another) is a legitimate trading strategy. Wash trades involve transactions that produce no genuine change in market position."
+        "text": "Entering into a transaction that is designed to produce no genuine change in market position, typically to create the appearance of market activity.",
+        "explanation": "Correct. A wash trade involves buying and selling the same contract to create artificial volume without actually changing one's net position. It is prohibited because it misleads other participants about genuine supply, demand, and trading interest."
       },
       {
         "label": "B",
-        "text": "Entering into a transaction that is designed to produce no genuine change in market position, typically to create the appearance of market activity.",
-        "explanation": "Correct. A wash trade involves buying and selling the same contract to create artificial volume without actually changing one's net position. It is prohibited because it misleads other participants about genuine supply, demand, and trading interest."
+        "text": "Buying and selling the same futures contract in different delivery months to establish a spread.",
+        "explanation": "Incorrect. A calendar spread (buying one month and selling another) is a legitimate trading strategy. Wash trades involve transactions that produce no genuine change in market position."
       },
       {
         "label": "C",
@@ -1220,7 +1230,7 @@
         "explanation": "Incorrect. Offsetting a position before delivery is the normal way most futures traders close positions. This is legitimate and is how most futures contracts are settled."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Wash trading, prohibited under Commodity Exchange Act §4c(a), involves entering into transactions that result in no genuine change in market position. The purpose is typically to create fictitious trading volume, mislead other market participants, or generate tax benefits. Both the buyer and seller are effectively the same party.",
     "subtopic": "Prohibited trading practices — wash trading",
     "difficulty": "medium",
@@ -1235,8 +1245,8 @@
     "choices": [
       {
         "label": "A",
-        "text": "Liquidate the customer's positions without further notice to bring the account into compliance.",
-        "explanation": "Correct. When a customer fails to meet a margin call, the FCM has the right — and often the obligation under its customer agreement — to liquidate some or all of the customer's positions to bring the account back into compliance. No additional notice is required."
+        "text": "Only request that the customer voluntarily close positions; forced liquidation is never permitted.",
+        "explanation": "Incorrect. Forced liquidation is explicitly permitted when margin calls are not met. The customer agreement grants the FCM the right to liquidate positions to manage risk."
       },
       {
         "label": "B",
@@ -1250,18 +1260,20 @@
       },
       {
         "label": "D",
-        "text": "Only request that the customer voluntarily close positions; forced liquidation is never permitted.",
-        "explanation": "Incorrect. Forced liquidation is explicitly permitted when margin calls are not met. The customer agreement grants the FCM the right to liquidate positions to manage risk."
+        "text": "Liquidate the customer's positions without further notice to bring the account into compliance.",
+        "explanation": "Correct. When a customer fails to meet a margin call, the FCM has the right — and often the obligation under its customer agreement — to liquidate some or all of the customer's positions to bring the account back into compliance. No additional notice is required."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "When a customer fails to meet a margin call, the FCM has the authority to liquidate positions in the customer's account to bring it into compliance. This right is established in the customer agreement and supported by exchange rules and CFTC regulations governing margin requirements.",
     "subtopic": "Margin calls and forced liquidation",
     "difficulty": "medium",
     "source": "NFA Series 3 content outline",
     "regulatoryBasis": "CFTC Regulation 1.17 — minimum financial requirements; Exchange margin rules; Customer account agreement terms",
     "lastVerified": "2026-05-21",
-    "relatedStories": ["archegos"]
+    "relatedStories": [
+      "archegos"
+    ]
   },
   {
     "id": "q-s3-038",
@@ -1275,13 +1287,13 @@
       },
       {
         "label": "B",
-        "text": "A commercial firm using futures as a bona fide hedge against positions in the physical commodity.",
-        "explanation": "Correct. The Commodity Exchange Act provides an exemption from speculative position limits for bona fide hedging. A commercial firm that uses futures to offset price risk in its actual physical commodity business qualifies for this exemption."
+        "text": "Any trader who has been registered with the NFA for more than five years.",
+        "explanation": "Incorrect. Registration tenure does not affect position limit applicability. The exemption is based on the nature of the position (hedging vs. speculation), not the trader's registration history."
       },
       {
         "label": "C",
-        "text": "Any trader who has been registered with the NFA for more than five years.",
-        "explanation": "Incorrect. Registration tenure does not affect position limit applicability. The exemption is based on the nature of the position (hedging vs. speculation), not the trader's registration history."
+        "text": "A commercial firm using futures as a bona fide hedge against positions in the physical commodity.",
+        "explanation": "Correct. The Commodity Exchange Act provides an exemption from speculative position limits for bona fide hedging. A commercial firm that uses futures to offset price risk in its actual physical commodity business qualifies for this exemption."
       },
       {
         "label": "D",
@@ -1289,7 +1301,7 @@
         "explanation": "Incorrect. Position limits are often stricter during the delivery month, not relaxed. Spot-month position limits are designed to prevent corners and squeezes."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Under CEA §4a and CFTC Part 150, bona fide hedgers are exempt from speculative position limits. A bona fide hedge is a futures position that offsets genuine price risk in the underlying physical commodity or cash market. The hedger must demonstrate a commercial reason for the position.",
     "subtopic": "Bona fide hedging exemption from position limits",
     "difficulty": "hard",
@@ -1304,13 +1316,13 @@
     "choices": [
       {
         "label": "A",
-        "text": "Daily mark-to-market settlement and margin calls through the clearinghouse, which ensure losing positions are funded in real time.",
-        "explanation": "Correct. The futures clearinghouse marks all positions to market daily and issues margin calls for accounts that fall below maintenance levels. This mechanism ensures that losses are recognized and funded promptly, reducing the risk of counterparty default that triggered the GameStop broker restrictions."
+        "text": "The CFTC personally guarantees all futures trades.",
+        "explanation": "Incorrect. The CFTC does not guarantee trades. The clearinghouse acts as central counterparty and manages credit risk through margin, but no government agency guarantees futures positions."
       },
       {
         "label": "B",
-        "text": "The CFTC personally guarantees all futures trades.",
-        "explanation": "Incorrect. The CFTC does not guarantee trades. The clearinghouse acts as central counterparty and manages credit risk through margin, but no government agency guarantees futures positions."
+        "text": "Daily mark-to-market settlement and margin calls through the clearinghouse, which ensure losing positions are funded in real time.",
+        "explanation": "Correct. The futures clearinghouse marks all positions to market daily and issues margin calls for accounts that fall below maintenance levels. This mechanism ensures that losses are recognized and funded promptly, reducing the risk of counterparty default that triggered the GameStop broker restrictions."
       },
       {
         "label": "C",
@@ -1323,14 +1335,16 @@
         "explanation": "Incorrect. All leveraged markets face systemic risk. The futures industry addresses it through the central counterparty clearinghouse model with daily mark-to-market and margin requirements."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The futures clearinghouse system uses daily mark-to-market settlement and margin calls to ensure that losses are funded in real time. This mechanism is the industry's primary defense against the kind of cascading counterparty risk that emerged during the GameStop episode, where brokers faced sudden collateral demands from their clearinghouse.",
     "subtopic": "Clearinghouse risk management",
     "difficulty": "hard",
     "source": "NFA Series 3 content outline",
     "regulatoryBasis": "CFTC Regulation 39.13 — risk management by DCOs; Commodity Exchange Act §5b",
     "lastVerified": "2026-05-21",
-    "relatedStories": ["gamestop"]
+    "relatedStories": [
+      "gamestop"
+    ]
   },
   {
     "id": "q-s3-040",
@@ -1339,8 +1353,8 @@
     "choices": [
       {
         "label": "A",
-        "text": "Permitted if the proprietary trade does not affect the price at which the customer order is filled.",
-        "explanation": "Incorrect. Front-running is prohibited regardless of whether it demonstrably affects the customer's fill price. The act of trading ahead of a known customer order for personal or firm benefit is itself the violation."
+        "text": "A prohibited practice constituting fraud and a breach of the duty owed to customers, subject to both civil and criminal penalties.",
+        "explanation": "Correct. Front-running violates the Commodity Exchange Act's anti-fraud provisions (§4b), NFA compliance rules, and exchange rules. It constitutes a breach of the firm's duty to customers and can result in fines, suspension, expulsion from NFA, and criminal prosecution."
       },
       {
         "label": "B",
@@ -1349,8 +1363,8 @@
       },
       {
         "label": "C",
-        "text": "A prohibited practice constituting fraud and a breach of the duty owed to customers, subject to both civil and criminal penalties.",
-        "explanation": "Correct. Front-running violates the Commodity Exchange Act's anti-fraud provisions (§4b), NFA compliance rules, and exchange rules. It constitutes a breach of the firm's duty to customers and can result in fines, suspension, expulsion from NFA, and criminal prosecution."
+        "text": "Permitted if the proprietary trade does not affect the price at which the customer order is filled.",
+        "explanation": "Incorrect. Front-running is prohibited regardless of whether it demonstrably affects the customer's fill price. The act of trading ahead of a known customer order for personal or firm benefit is itself the violation."
       },
       {
         "label": "D",
@@ -1358,7 +1372,7 @@
         "explanation": "Incorrect. Front-running cannot be authorized by disclosure. It is an inherently fraudulent and prohibited practice that no amount of disclosure can make permissible."
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "explanation": "Front-running — trading ahead of known customer orders to benefit the firm or its employees — is a serious violation of the Commodity Exchange Act §4b (fraud), CFTC regulations, NFA compliance rules, and exchange rules. It can result in civil penalties, NFA disciplinary action, and criminal prosecution.",
     "subtopic": "Front-running and trading ahead",
     "difficulty": "hard",

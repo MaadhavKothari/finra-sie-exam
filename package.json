@@ -9,7 +9,9 @@
     "preview": "astro preview",
     "astro": "astro",
     "ios:sync": "npm run build:ios && cap sync ios",
-    "ios:open": "cap open ios"
+    "ios:open": "cap open ios",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@astrojs/preact": "^5.1.3",
@@ -17,6 +19,7 @@
     "@capacitor/core": "^8.3.4",
     "@capacitor/haptics": "^8.0.2",
     "@capacitor/ios": "^8.3.4",
+    "@capacitor/local-notifications": "^8.2.0",
     "@capacitor/splash-screen": "^8.0.1",
     "@capacitor/status-bar": "^8.0.2",
     "@nanostores/persistent": "^1.3.4",
@@ -30,7 +33,8 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.0",
-    "@capacitor/cli": "^8.3.4"
+    "@capacitor/cli": "^8.3.4",
+    "vitest": "^3.2.4"
   },
   "overrides": {
     "vite": "^7"

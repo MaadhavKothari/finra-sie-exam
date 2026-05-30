@@ -126,6 +126,8 @@ export default function ExamSim({ base, questions: allQuestions, examId }: Props
     recordAnswer(correct, currentQ.difficulty, {
       topic: currentQ.topic,
       section: currentQ.section,
+      stem: currentQ.stem,
+      subtopic: currentQ.subtopic,
     });
 
     // Haptic + sound feedback

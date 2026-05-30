@@ -114,6 +114,21 @@ html {
   to   { transform: translateX(-100%); }
 }
 
+/* ─── Black Swan day — subtle tint on body, no copy ─────────────────── */
+html[data-swan="1"] body {
+  background-image:
+    radial-gradient(at top right, rgba(0,0,0,0.025), transparent 60%),
+    radial-gradient(at bottom left, rgba(166,215,240,0.045), transparent 55%);
+}
+
+/* ─── PAID IN FULL stamp animation (Hot Sheet mastery) ──────────────── */
+@keyframes stampDown {
+  0%   { opacity: 0; transform: scale(2.4) rotate(-14deg); }
+  60%  { opacity: 1; transform: scale(0.92) rotate(-14deg); }
+  75%  { transform: scale(1.04) rotate(-14deg); }
+  100% { opacity: 1; transform: scale(1) rotate(-14deg); }
+}
+
 /* ─── Flashcard 3D flip animation ────────────────────────────────────── */
 .flashcard-container {
   -webkit-perspective: 1000px;

@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'preact/hooks';
 import { $progress, dailyStreakCheck, clearPendingReopen } from '../stores/progress';
+import { rescheduleFireForget } from '../lib/notifications';
+import { soundFreeze, soundMarketsReopen } from '../lib/sounds';
 
 // Runs once on home page load.
 // - Calls dailyStreakCheck() to auto-consume a freeze or archive the streak.
@@ -10,13 +12,16 @@ export default function DailyCheck() {
 
   useEffect(() => {
     const r = dailyStreakCheck();
+    rescheduleFireForget();
     if (r && (r as any).freezeUsed) {
       setToast('Freeze used. Streak preserved.');
+      soundFreeze();
       const t = setTimeout(() => setToast(null), 2800);
       return () => clearTimeout(t);
     }
     if ($progress.get().pendingReopen === '1') {
       setReopenOpen(true);
+      soundMarketsReopen();
     }
   }, []);
 

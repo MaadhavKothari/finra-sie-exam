@@ -4,12 +4,28 @@
     "section": "economic-analysis",
     "stem": "An investment adviser is explaining Modern Portfolio Theory to a client. Which statement BEST describes the benefit of combining assets with low correlation in a portfolio?",
     "choices": [
-      {"label": "A", "text": "It guarantees a higher return than any individual asset in the portfolio.", "explanation": "Incorrect. Diversification does not guarantee higher returns; it reduces unsystematic risk without necessarily increasing expected return."},
-      {"label": "B", "text": "It eliminates both systematic and unsystematic risk.", "explanation": "Incorrect. Diversification can eliminate unsystematic (company-specific) risk, but systematic (market) risk cannot be diversified away."},
-      {"label": "C", "text": "It reduces unsystematic risk, potentially improving the risk-adjusted return of the portfolio.", "explanation": "Correct. MPT demonstrates that combining assets with low or negative correlation reduces portfolio volatility (unsystematic risk) without proportionally reducing expected return, thereby improving the risk-adjusted return."},
-      {"label": "D", "text": "It lowers the portfolio beta to zero, removing all market exposure.", "explanation": "Incorrect. Beta measures systematic risk; diversification reduces unsystematic risk but does not eliminate beta unless the portfolio is specifically constructed to be market-neutral."}
+      {
+        "label": "A",
+        "text": "It reduces unsystematic risk, potentially improving the risk-adjusted return of the portfolio.",
+        "explanation": "Correct. MPT demonstrates that combining assets with low or negative correlation reduces portfolio volatility (unsystematic risk) without proportionally reducing expected return, thereby improving the risk-adjusted return."
+      },
+      {
+        "label": "B",
+        "text": "It eliminates both systematic and unsystematic risk.",
+        "explanation": "Incorrect. Diversification can eliminate unsystematic (company-specific) risk, but systematic (market) risk cannot be diversified away."
+      },
+      {
+        "label": "C",
+        "text": "It guarantees a higher return than any individual asset in the portfolio.",
+        "explanation": "Incorrect. Diversification does not guarantee higher returns; it reduces unsystematic risk without necessarily increasing expected return."
+      },
+      {
+        "label": "D",
+        "text": "It lowers the portfolio beta to zero, removing all market exposure.",
+        "explanation": "Incorrect. Beta measures systematic risk; diversification reduces unsystematic risk but does not eliminate beta unless the portfolio is specifically constructed to be market-neutral."
+      }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "explanation": "Modern Portfolio Theory holds that diversification across low-correlated assets reduces unsystematic risk. Systematic risk (market risk, measured by beta) cannot be diversified away. The efficient frontier represents portfolios with the highest expected return for a given level of risk.",
     "subtopic": "portfolio-management-theory",
     "difficulty": "easy",
@@ -22,12 +38,28 @@
     "section": "economic-analysis",
     "stem": "A stock has a beta of 1.4, the risk-free rate is 3%, and the expected market return is 9%. Using the Capital Asset Pricing Model, what is the stock's expected return?",
     "choices": [
-      {"label": "A", "text": "9.0%", "explanation": "Incorrect. This is simply the market return and ignores the stock's above-market beta."},
-      {"label": "B", "text": "11.4%", "explanation": "Correct. CAPM: E(R) = Rf + Beta × (Rm - Rf) = 3% + 1.4 × (9% - 3%) = 3% + 1.4 × 6% = 3% + 8.4% = 11.4%."},
-      {"label": "C", "text": "12.6%", "explanation": "Incorrect. This would result from multiplying beta times the full market return (1.4 × 9%) rather than the market risk premium."},
-      {"label": "D", "text": "15.6%", "explanation": "Incorrect. This appears to add the risk-free rate and beta times the market return (3% + 1.4 × 9% = 15.6%), which is not the correct CAPM formula."}
+      {
+        "label": "A",
+        "text": "9.0%",
+        "explanation": "Incorrect. This is simply the market return and ignores the stock's above-market beta."
+      },
+      {
+        "label": "B",
+        "text": "15.6%",
+        "explanation": "Incorrect. This appears to add the risk-free rate and beta times the market return (3% + 1.4 × 9% = 15.6%), which is not the correct CAPM formula."
+      },
+      {
+        "label": "C",
+        "text": "12.6%",
+        "explanation": "Incorrect. This would result from multiplying beta times the full market return (1.4 × 9%) rather than the market risk premium."
+      },
+      {
+        "label": "D",
+        "text": "11.4%",
+        "explanation": "Correct. CAPM: E(R) = Rf + Beta × (Rm - Rf) = 3% + 1.4 × (9% - 3%) = 3% + 1.4 × 6% = 3% + 8.4% = 11.4%."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "The CAPM formula is: Expected Return = Risk-Free Rate + Beta × (Market Return - Risk-Free Rate). The term (Market Return - Risk-Free Rate) is the market risk premium. Here: 3% + 1.4 × 6% = 11.4%.",
     "subtopic": "portfolio-management-theory",
     "difficulty": "medium",
@@ -40,10 +72,26 @@
     "section": "economic-analysis",
     "stem": "Portfolio A has an annual return of 12%, a standard deviation of 18%, and the risk-free rate is 2%. Portfolio B has an annual return of 10% and a standard deviation of 10%. Which portfolio has the superior Sharpe ratio, and what does that indicate?",
     "choices": [
-      {"label": "A", "text": "Portfolio A, because it has the higher absolute return.", "explanation": "Incorrect. The Sharpe ratio adjusts for risk; a higher absolute return does not make a portfolio superior on a risk-adjusted basis."},
-      {"label": "B", "text": "Portfolio A, with a Sharpe ratio of approximately 0.56, indicating better risk-adjusted performance.", "explanation": "Incorrect. Portfolio A Sharpe = (12% - 2%) / 18% = 0.556. Portfolio B Sharpe = (10% - 2%) / 10% = 0.80. Portfolio B is actually superior."},
-      {"label": "C", "text": "Portfolio B, with a Sharpe ratio of 0.80, indicating better return per unit of total risk.", "explanation": "Correct. Sharpe ratio = (Return - Risk-Free Rate) / Standard Deviation. Portfolio B: (10% - 2%) / 10% = 0.80. Portfolio A: (12% - 2%) / 18% = 0.556. Portfolio B delivers more excess return per unit of total risk."},
-      {"label": "D", "text": "They are equivalent because both beat the risk-free rate by the same margin.", "explanation": "Incorrect. They do not beat the risk-free rate by the same margin (A exceeds it by 10%, B by 8%), and the Sharpe ratio also accounts for the standard deviation, making them clearly different."}
+      {
+        "label": "A",
+        "text": "Portfolio A, because it has the higher absolute return.",
+        "explanation": "Incorrect. The Sharpe ratio adjusts for risk; a higher absolute return does not make a portfolio superior on a risk-adjusted basis."
+      },
+      {
+        "label": "B",
+        "text": "Portfolio A, with a Sharpe ratio of approximately 0.56, indicating better risk-adjusted performance.",
+        "explanation": "Incorrect. Portfolio A Sharpe = (12% - 2%) / 18% = 0.556. Portfolio B Sharpe = (10% - 2%) / 10% = 0.80. Portfolio B is actually superior."
+      },
+      {
+        "label": "C",
+        "text": "Portfolio B, with a Sharpe ratio of 0.80, indicating better return per unit of total risk.",
+        "explanation": "Correct. Sharpe ratio = (Return - Risk-Free Rate) / Standard Deviation. Portfolio B: (10% - 2%) / 10% = 0.80. Portfolio A: (12% - 2%) / 18% = 0.556. Portfolio B delivers more excess return per unit of total risk."
+      },
+      {
+        "label": "D",
+        "text": "They are equivalent because both beat the risk-free rate by the same margin.",
+        "explanation": "Incorrect. They do not beat the risk-free rate by the same margin (A exceeds it by 10%, B by 8%), and the Sharpe ratio also accounts for the standard deviation, making them clearly different."
+      }
     ],
     "correctAnswer": "C",
     "explanation": "The Sharpe ratio measures excess return (return minus risk-free rate) per unit of total risk (standard deviation). Portfolio B's Sharpe of 0.80 exceeds Portfolio A's 0.556, meaning Portfolio B is more efficient on a risk-adjusted basis despite its lower absolute return.",
@@ -58,12 +106,28 @@
     "section": "economic-analysis",
     "stem": "A portfolio manager notices that a stock's alpha is persistently negative over several quarters. What does this MOST LIKELY indicate?",
     "choices": [
-      {"label": "A", "text": "The stock's beta is greater than 1.0, making it more volatile than the market.", "explanation": "Incorrect. Beta measures sensitivity to market movements, not whether the stock is meeting its risk-adjusted expectations. A stock can have high beta and positive or negative alpha."},
-      {"label": "B", "text": "The stock's standard deviation is higher than the market's, indicating excessive total risk.", "explanation": "Incorrect. Standard deviation measures total risk; alpha specifically measures risk-adjusted excess return relative to beta-implied expectations."},
-      {"label": "C", "text": "The stock's correlation with the market is declining, reducing its usefulness for diversification.", "explanation": "Incorrect. Correlation with the market relates to beta, not alpha. Negative alpha is about return shortfall versus expectations, not correlation trends."},
-      {"label": "D", "text": "The stock is underperforming its expected return given its level of systematic risk.", "explanation": "Correct. Alpha is the difference between a security's actual return and its CAPM-expected return. Negative alpha means the stock is delivering less return than justified by its beta risk, indicating underperformance on a risk-adjusted basis."}
+      {
+        "label": "A",
+        "text": "The stock's beta is greater than 1.0, making it more volatile than the market.",
+        "explanation": "Incorrect. Beta measures sensitivity to market movements, not whether the stock is meeting its risk-adjusted expectations. A stock can have high beta and positive or negative alpha."
+      },
+      {
+        "label": "B",
+        "text": "The stock is underperforming its expected return given its level of systematic risk.",
+        "explanation": "Correct. Alpha is the difference between a security's actual return and its CAPM-expected return. Negative alpha means the stock is delivering less return than justified by its beta risk, indicating underperformance on a risk-adjusted basis."
+      },
+      {
+        "label": "C",
+        "text": "The stock's correlation with the market is declining, reducing its usefulness for diversification.",
+        "explanation": "Incorrect. Correlation with the market relates to beta, not alpha. Negative alpha is about return shortfall versus expectations, not correlation trends."
+      },
+      {
+        "label": "D",
+        "text": "The stock's standard deviation is higher than the market's, indicating excessive total risk.",
+        "explanation": "Incorrect. Standard deviation measures total risk; alpha specifically measures risk-adjusted excess return relative to beta-implied expectations."
+      }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "B",
     "explanation": "Alpha represents risk-adjusted excess return — the return above or below what CAPM predicts given the asset's beta. Persistently negative alpha suggests the manager or security is consistently destroying value on a risk-adjusted basis.",
     "subtopic": "portfolio-management-theory",
     "difficulty": "medium",
@@ -76,10 +140,26 @@
     "section": "economic-analysis",
     "stem": "Which of the following is BEST classified as a leading economic indicator?",
     "choices": [
-      {"label": "A", "text": "The index of new private housing building permits.", "explanation": "Correct. Building permits are a leading indicator because construction decisions are made in anticipation of future economic activity. Other leading indicators include stock prices, consumer confidence, and ISM manufacturing new orders."},
-      {"label": "B", "text": "The average prime rate charged by banks.", "explanation": "Incorrect. The average prime rate is a lagging indicator — it changes after the economy has already shifted direction, reflecting past monetary policy decisions."},
-      {"label": "C", "text": "The unemployment rate.", "explanation": "Incorrect. The unemployment rate is a lagging indicator. Employers typically wait until a recovery is well established before hiring, and layoffs persist after a downturn begins."},
-      {"label": "D", "text": "Industrial production index.", "explanation": "Incorrect. Industrial production is a coincident indicator — it moves roughly in sync with the overall economy and is used to confirm the current phase of the business cycle."}
+      {
+        "label": "A",
+        "text": "The index of new private housing building permits.",
+        "explanation": "Correct. Building permits are a leading indicator because construction decisions are made in anticipation of future economic activity. Other leading indicators include stock prices, consumer confidence, and ISM manufacturing new orders."
+      },
+      {
+        "label": "B",
+        "text": "The average prime rate charged by banks.",
+        "explanation": "Incorrect. The average prime rate is a lagging indicator — it changes after the economy has already shifted direction, reflecting past monetary policy decisions."
+      },
+      {
+        "label": "C",
+        "text": "The unemployment rate.",
+        "explanation": "Incorrect. The unemployment rate is a lagging indicator. Employers typically wait until a recovery is well established before hiring, and layoffs persist after a downturn begins."
+      },
+      {
+        "label": "D",
+        "text": "Industrial production index.",
+        "explanation": "Incorrect. Industrial production is a coincident indicator — it moves roughly in sync with the overall economy and is used to confirm the current phase of the business cycle."
+      }
     ],
     "correctAnswer": "A",
     "explanation": "Leading indicators change before the economy as a whole changes and are used to predict future activity. New building permits, stock prices, consumer confidence, and ISM manufacturing orders are leading indicators. Unemployment and the prime rate are lagging; industrial production and personal income are coincident.",
@@ -94,10 +174,26 @@
     "section": "economic-analysis",
     "stem": "An investment adviser is advising a client during what appears to be the peak phase of the business cycle. GDP growth is slowing, inflation is near its cycle high, and unemployment is at a multi-year low. Which portfolio adjustment is MOST consistent with a sector rotation strategy?",
     "choices": [
-      {"label": "A", "text": "Increase allocation to consumer discretionary and technology stocks.", "explanation": "Incorrect. Consumer discretionary and technology are cyclical sectors that typically outperform during economic expansion, not at the peak when a contraction may be approaching."},
-      {"label": "B", "text": "Concentrate in energy and materials, which benefit from rising commodity prices.", "explanation": "Incorrect. Energy and materials are cyclical and commodity-sensitive; while they may benefit from inflation near the peak, sector rotation strategy at cycle peak typically favors defensives in anticipation of the coming contraction."},
-      {"label": "C", "text": "Move entirely into cash and money market instruments.", "explanation": "Incorrect. Moving entirely to cash is too extreme and not a typical sector rotation strategy. Sector rotation involves reallocating among equities, not abandoning them."},
-      {"label": "D", "text": "Shift toward defensive sectors such as utilities, consumer staples, and healthcare.", "explanation": "Correct. Sector rotation strategy calls for rotating into defensive sectors (utilities, consumer staples, healthcare) as the cycle peaks and heads toward contraction, since these sectors hold up better when economic activity declines."}
+      {
+        "label": "A",
+        "text": "Increase allocation to consumer discretionary and technology stocks.",
+        "explanation": "Incorrect. Consumer discretionary and technology are cyclical sectors that typically outperform during economic expansion, not at the peak when a contraction may be approaching."
+      },
+      {
+        "label": "B",
+        "text": "Concentrate in energy and materials, which benefit from rising commodity prices.",
+        "explanation": "Incorrect. Energy and materials are cyclical and commodity-sensitive; while they may benefit from inflation near the peak, sector rotation strategy at cycle peak typically favors defensives in anticipation of the coming contraction."
+      },
+      {
+        "label": "C",
+        "text": "Move entirely into cash and money market instruments.",
+        "explanation": "Incorrect. Moving entirely to cash is too extreme and not a typical sector rotation strategy. Sector rotation involves reallocating among equities, not abandoning them."
+      },
+      {
+        "label": "D",
+        "text": "Shift toward defensive sectors such as utilities, consumer staples, and healthcare.",
+        "explanation": "Correct. Sector rotation strategy calls for rotating into defensive sectors (utilities, consumer staples, healthcare) as the cycle peaks and heads toward contraction, since these sectors hold up better when economic activity declines."
+      }
     ],
     "correctAnswer": "D",
     "explanation": "Sector rotation strategy involves shifting portfolio exposure across economic sectors in line with business cycle phases. At or near the cycle peak, advisers typically rotate into defensive sectors (utilities, consumer staples, healthcare) that are less sensitive to economic slowdowns, away from cyclicals that led the expansion.",
@@ -112,10 +208,26 @@
     "section": "economic-analysis",
     "stem": "The Consumer Price Index (CPI) has been rising steadily for six consecutive months after a period of economic contraction. Under the framework of business cycle analysis, in which phase does this pattern MOST likely indicate the economy currently sits?",
     "choices": [
-      {"label": "A", "text": "Trough, because CPI rarely rises at the lowest point of the cycle.", "explanation": "Incorrect. The trough is the lowest point of contraction. Prices often lag the cycle, but a trough is characterized by the economy bottoming out, not by sustained price increases."},
-      {"label": "B", "text": "Contraction, because rising CPI confirms ongoing economic weakness.", "explanation": "Incorrect. While CPI is a lagging indicator, steady increases following a contraction are more consistent with early expansion, not ongoing contraction."},
-      {"label": "C", "text": "Early expansion, because inflationary pressure often builds after the trough as demand recovers.", "explanation": "Correct. CPI is a lagging indicator. After the trough, as the economy expands, rising demand pushes prices up. Steadily rising CPI following a contraction is characteristic of early expansion."},
-      {"label": "D", "text": "Peak, because CPI typically reaches its highest rate at the cyclical peak.", "explanation": "Incorrect. While CPI can peak late in the cycle, the question specifies CPI rising after a contraction, which is more consistent with early expansion than with a peak that follows a long expansion."}
+      {
+        "label": "A",
+        "text": "Trough, because CPI rarely rises at the lowest point of the cycle.",
+        "explanation": "Incorrect. The trough is the lowest point of contraction. Prices often lag the cycle, but a trough is characterized by the economy bottoming out, not by sustained price increases."
+      },
+      {
+        "label": "B",
+        "text": "Contraction, because rising CPI confirms ongoing economic weakness.",
+        "explanation": "Incorrect. While CPI is a lagging indicator, steady increases following a contraction are more consistent with early expansion, not ongoing contraction."
+      },
+      {
+        "label": "C",
+        "text": "Early expansion, because inflationary pressure often builds after the trough as demand recovers.",
+        "explanation": "Correct. CPI is a lagging indicator. After the trough, as the economy expands, rising demand pushes prices up. Steadily rising CPI following a contraction is characteristic of early expansion."
+      },
+      {
+        "label": "D",
+        "text": "Peak, because CPI typically reaches its highest rate at the cyclical peak.",
+        "explanation": "Incorrect. While CPI can peak late in the cycle, the question specifies CPI rising after a contraction, which is more consistent with early expansion than with a peak that follows a long expansion."
+      }
     ],
     "correctAnswer": "C",
     "explanation": "CPI is a lagging indicator. After a contraction bottoms out at the trough, economic activity begins to recover (expansion phase), and with a lag, prices start to rise as demand strengthens. Rising CPI after a period of contraction most likely signals early expansion.",
@@ -130,12 +242,28 @@
     "section": "economic-analysis",
     "stem": "A client holds a 20-year zero-coupon Treasury bond and a 5-year Treasury note with the same yield. Interest rates rise by 1%. Which bond will experience a GREATER decline in price, and why?",
     "choices": [
-      {"label": "A", "text": "The 20-year zero-coupon bond, because it has the longer duration and therefore greater price sensitivity to rate changes.", "explanation": "Correct. Duration measures interest rate sensitivity. Zero-coupon bonds have duration equal to their maturity, making the 20-year zero-coupon bond the most sensitive. Longer duration = greater price decline when rates rise."},
-      {"label": "B", "text": "The 5-year note, because shorter-term bonds are more sensitive to rate changes.", "explanation": "Incorrect. This is the opposite of the correct relationship. Shorter duration means less price sensitivity to interest rate changes."},
-      {"label": "C", "text": "Both bonds will decline by the same amount because they have the same yield.", "explanation": "Incorrect. Equal yields do not produce equal price sensitivity. Duration — driven by maturity and coupon structure — determines the price impact of rate changes."},
-      {"label": "D", "text": "The 20-year zero-coupon bond will rise in price, as long-term bonds benefit from rate increases.", "explanation": "Incorrect. Bond prices move inversely with interest rates. When rates rise, all existing bond prices fall; longer-duration bonds fall more."}
+      {
+        "label": "A",
+        "text": "The 5-year note, because shorter-term bonds are more sensitive to rate changes.",
+        "explanation": "Incorrect. This is the opposite of the correct relationship. Shorter duration means less price sensitivity to interest rate changes."
+      },
+      {
+        "label": "B",
+        "text": "The 20-year zero-coupon bond, because it has the longer duration and therefore greater price sensitivity to rate changes.",
+        "explanation": "Correct. Duration measures interest rate sensitivity. Zero-coupon bonds have duration equal to their maturity, making the 20-year zero-coupon bond the most sensitive. Longer duration = greater price decline when rates rise."
+      },
+      {
+        "label": "C",
+        "text": "Both bonds will decline by the same amount because they have the same yield.",
+        "explanation": "Incorrect. Equal yields do not produce equal price sensitivity. Duration — driven by maturity and coupon structure — determines the price impact of rate changes."
+      },
+      {
+        "label": "D",
+        "text": "The 20-year zero-coupon bond will rise in price, as long-term bonds benefit from rate increases.",
+        "explanation": "Incorrect. Bond prices move inversely with interest rates. When rates rise, all existing bond prices fall; longer-duration bonds fall more."
+      }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Duration measures a bond's price sensitivity to interest rate changes. A zero-coupon bond's duration equals its maturity (all cash flow comes at maturity). The 20-year zero-coupon bond has a duration of 20 years versus the 5-year note's shorter duration, making it far more price-sensitive to the 1% rate increase.",
     "subtopic": "investment-vehicles-overview",
     "difficulty": "medium",
@@ -148,12 +276,28 @@
     "section": "economic-analysis",
     "stem": "A client concerned about inflation asks about Treasury Inflation-Protected Securities (TIPS). Which statement BEST describes how TIPS protect purchasing power?",
     "choices": [
-      {"label": "A", "text": "TIPS pay a higher fixed coupon rate than comparable nominal Treasury bonds to compensate for expected inflation.", "explanation": "Incorrect. TIPS typically carry a lower stated coupon than nominal Treasuries. Their inflation protection comes from principal adjustment, not a higher coupon rate."},
-      {"label": "B", "text": "The principal of TIPS is adjusted semiannually based on changes in the Consumer Price Index, and interest is paid on the adjusted principal.", "explanation": "Correct. TIPS principal is indexed to the CPI. As inflation rises, the principal increases; the fixed coupon rate is then applied to the higher principal, increasing the dollar interest payment and protecting real purchasing power."},
-      {"label": "C", "text": "TIPS are exempt from federal income tax, which offsets the effect of inflation on after-tax returns.", "explanation": "Incorrect. TIPS are subject to federal income tax (including tax on the phantom income from principal adjustments) and are exempt only from state and local taxes, like other Treasury securities."},
-      {"label": "D", "text": "TIPS automatically convert to equity when inflation exceeds 3%, providing upside participation.", "explanation": "Incorrect. TIPS are debt securities; they do not convert to equity under any circumstance. This description is entirely fictional."}
+      {
+        "label": "A",
+        "text": "The principal of TIPS is adjusted semiannually based on changes in the Consumer Price Index, and interest is paid on the adjusted principal.",
+        "explanation": "Correct. TIPS principal is indexed to the CPI. As inflation rises, the principal increases; the fixed coupon rate is then applied to the higher principal, increasing the dollar interest payment and protecting real purchasing power."
+      },
+      {
+        "label": "B",
+        "text": "TIPS pay a higher fixed coupon rate than comparable nominal Treasury bonds to compensate for expected inflation.",
+        "explanation": "Incorrect. TIPS typically carry a lower stated coupon than nominal Treasuries. Their inflation protection comes from principal adjustment, not a higher coupon rate."
+      },
+      {
+        "label": "C",
+        "text": "TIPS are exempt from federal income tax, which offsets the effect of inflation on after-tax returns.",
+        "explanation": "Incorrect. TIPS are subject to federal income tax (including tax on the phantom income from principal adjustments) and are exempt only from state and local taxes, like other Treasury securities."
+      },
+      {
+        "label": "D",
+        "text": "TIPS automatically convert to equity when inflation exceeds 3%, providing upside participation.",
+        "explanation": "Incorrect. TIPS are debt securities; they do not convert to equity under any circumstance. This description is entirely fictional."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "TIPS (Treasury Inflation-Protected Securities) protect against inflation by adjusting the principal value based on CPI changes. Interest is paid at a fixed rate on the inflation-adjusted principal, so both principal and interest payments rise with inflation. At maturity, investors receive the greater of the adjusted or original principal.",
     "subtopic": "investment-vehicles-overview",
     "difficulty": "easy",
@@ -166,10 +310,26 @@
     "section": "economic-analysis",
     "stem": "The yield curve is currently inverted, with 2-year Treasury yields exceeding 10-year Treasury yields. Which economic condition does this yield curve shape MOST historically signal?",
     "choices": [
-      {"label": "A", "text": "Strong economic expansion with rising corporate earnings.", "explanation": "Incorrect. A normal (upward-sloping) yield curve typically accompanies economic expansion. An inverted yield curve signals the opposite."},
-      {"label": "B", "text": "A period of stable, moderate inflation and steady growth.", "explanation": "Incorrect. This scenario is more consistent with a flat or moderately upward-sloping yield curve, not an inverted one."},
-      {"label": "C", "text": "Hyperinflation, as investors demand higher short-term yields to compensate for eroding purchasing power.", "explanation": "Incorrect. While inflation expectations influence yields, an inverted curve is specifically associated with recession expectations and anticipated future rate cuts, not hyperinflation."},
-      {"label": "D", "text": "An impending or likely recession.", "explanation": "Correct. An inverted yield curve — where short-term rates exceed long-term rates — has historically been one of the most reliable leading indicators of recession. It reflects market expectations that the central bank will cut rates in the future due to economic weakness."}
+      {
+        "label": "A",
+        "text": "Strong economic expansion with rising corporate earnings.",
+        "explanation": "Incorrect. A normal (upward-sloping) yield curve typically accompanies economic expansion. An inverted yield curve signals the opposite."
+      },
+      {
+        "label": "B",
+        "text": "A period of stable, moderate inflation and steady growth.",
+        "explanation": "Incorrect. This scenario is more consistent with a flat or moderately upward-sloping yield curve, not an inverted one."
+      },
+      {
+        "label": "C",
+        "text": "Hyperinflation, as investors demand higher short-term yields to compensate for eroding purchasing power.",
+        "explanation": "Incorrect. While inflation expectations influence yields, an inverted curve is specifically associated with recession expectations and anticipated future rate cuts, not hyperinflation."
+      },
+      {
+        "label": "D",
+        "text": "An impending or likely recession.",
+        "explanation": "Correct. An inverted yield curve — where short-term rates exceed long-term rates — has historically been one of the most reliable leading indicators of recession. It reflects market expectations that the central bank will cut rates in the future due to economic weakness."
+      }
     ],
     "correctAnswer": "D",
     "explanation": "An inverted yield curve occurs when short-term rates exceed long-term rates. Historically, this has preceded recessions as it signals that investors expect the central bank to lower short-term rates in response to future economic weakness. It reflects tight current monetary policy and pessimistic long-term growth expectations.",
@@ -184,29 +344,64 @@
     "section": "economic-analysis",
     "stem": "Which characteristic BEST distinguishes hedge funds from traditional mutual funds with respect to investor suitability?",
     "choices": [
-      {"label": "A", "text": "Hedge funds are registered under the Investment Company Act of 1940 and are available to any investor.", "explanation": "Incorrect. Hedge funds typically rely on exemptions from registration under the Investment Company Act of 1940 (e.g., Section 3(c)(1) or 3(c)(7)) and are NOT available to the general public."},
-      {"label": "B", "text": "Hedge funds offer daily liquidity and are subject to the same SEC disclosure requirements as mutual funds.", "explanation": "Incorrect. Hedge funds typically impose lock-up periods and limited redemption windows, not daily liquidity. They also have far fewer disclosure requirements than registered mutual funds."},
-      {"label": "C", "text": "Hedge funds are safer than mutual funds because they hedge all market risk by definition.", "explanation": "Incorrect. The term 'hedge fund' is a misnomer; many hedge funds take on significant risk and do not fully hedge positions. Some strategies are highly speculative."},
-      {"label": "D", "text": "Hedge funds are generally limited to accredited investors or qualified purchasers and use strategies including leverage, short-selling, and derivatives that mutual funds typically cannot.", "explanation": "Correct. Hedge funds are private investment vehicles restricted to accredited investors (or qualified purchasers for 3(c)(7) funds). They employ strategies like leverage, short-selling, arbitrage, and derivatives — strategies prohibited or restricted for registered mutual funds."}
+      {
+        "label": "A",
+        "text": "Hedge funds are registered under the Investment Company Act of 1940 and are available to any investor.",
+        "explanation": "Incorrect. Hedge funds typically rely on exemptions from registration under the Investment Company Act of 1940 (e.g., Section 3(c)(1) or 3(c)(7)) and are NOT available to the general public."
+      },
+      {
+        "label": "B",
+        "text": "Hedge funds offer daily liquidity and are subject to the same SEC disclosure requirements as mutual funds.",
+        "explanation": "Incorrect. Hedge funds typically impose lock-up periods and limited redemption windows, not daily liquidity. They also have far fewer disclosure requirements than registered mutual funds."
+      },
+      {
+        "label": "C",
+        "text": "Hedge funds are generally limited to accredited investors or qualified purchasers and use strategies including leverage, short-selling, and derivatives that mutual funds typically cannot.",
+        "explanation": "Correct. Hedge funds are private investment vehicles restricted to accredited investors (or qualified purchasers for 3(c)(7) funds). They employ strategies like leverage, short-selling, arbitrage, and derivatives — strategies prohibited or restricted for registered mutual funds."
+      },
+      {
+        "label": "D",
+        "text": "Hedge funds are safer than mutual funds because they hedge all market risk by definition.",
+        "explanation": "Incorrect. The term 'hedge fund' is a misnomer; many hedge funds take on significant risk and do not fully hedge positions. Some strategies are highly speculative."
+      }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "C",
     "explanation": "Hedge funds are alternative investments structured as private funds exempt from Investment Company Act registration. They are restricted to accredited investors (net worth > $1M excluding primary residence, or income > $200K/$300K with spouse) or qualified purchasers. They use sophisticated strategies unavailable to registered funds, carry higher fees (typically 2-and-20), and have limited liquidity.",
     "subtopic": "investment-vehicles-overview",
     "difficulty": "medium",
     "source": "NASAA Series 66 content outline",
     "regulatoryBasis": "Investment Company Act of 1940 Sections 3(c)(1) and 3(c)(7); Securities Act Regulation D",
     "lastVerified": "2026-05-20",
-    "relatedStories": ["ltcm", "archegos"]
+    "relatedStories": [
+      "ltcm",
+      "archegos"
+    ]
   },
   {
     "id": "q-s66-012",
     "section": "economic-analysis",
     "stem": "A REIT (Real Estate Investment Trust) distributes 92% of its taxable income to shareholders each year. Which tax characteristic makes REITs potentially advantageous for income-seeking investors in a tax-deferred account?",
     "choices": [
-      {"label": "A", "text": "REIT distributions qualify as long-term capital gains taxed at preferential rates for all shareholders.", "explanation": "Incorrect. Most REIT distributions are ordinary dividends (pass-through income), not qualified dividends or long-term capital gains. Only the portion representing capital gain distributions receives capital gains treatment."},
-      {"label": "B", "text": "REITs avoid entity-level corporate income tax by distributing at least 90% of taxable income, passing through income without double taxation.", "explanation": "Correct. To qualify as a REIT, a trust must distribute at least 90% of taxable income to shareholders annually. By doing so, REITs avoid the corporate-level income tax (unlike C-corporations), creating a pass-through structure that benefits income-focused investors."},
-      {"label": "C", "text": "REIT distributions are always tax-exempt at the federal level regardless of the investor's account type.", "explanation": "Incorrect. REIT distributions are generally taxable as ordinary income for shareholders (in taxable accounts). They are not federally tax-exempt."},
-      {"label": "D", "text": "REITs are exempt from SEC registration and therefore have no regulatory burden that would reduce returns.", "explanation": "Incorrect. Publicly traded REITs are registered securities subject to SEC disclosure requirements. This statement is false on both facts."}
+      {
+        "label": "A",
+        "text": "REIT distributions qualify as long-term capital gains taxed at preferential rates for all shareholders.",
+        "explanation": "Incorrect. Most REIT distributions are ordinary dividends (pass-through income), not qualified dividends or long-term capital gains. Only the portion representing capital gain distributions receives capital gains treatment."
+      },
+      {
+        "label": "B",
+        "text": "REITs avoid entity-level corporate income tax by distributing at least 90% of taxable income, passing through income without double taxation.",
+        "explanation": "Correct. To qualify as a REIT, a trust must distribute at least 90% of taxable income to shareholders annually. By doing so, REITs avoid the corporate-level income tax (unlike C-corporations), creating a pass-through structure that benefits income-focused investors."
+      },
+      {
+        "label": "C",
+        "text": "REIT distributions are always tax-exempt at the federal level regardless of the investor's account type.",
+        "explanation": "Incorrect. REIT distributions are generally taxable as ordinary income for shareholders (in taxable accounts). They are not federally tax-exempt."
+      },
+      {
+        "label": "D",
+        "text": "REITs are exempt from SEC registration and therefore have no regulatory burden that would reduce returns.",
+        "explanation": "Incorrect. Publicly traded REITs are registered securities subject to SEC disclosure requirements. This statement is false on both facts."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "REITs must distribute at least 90% of taxable income annually to maintain their REIT status and avoid entity-level corporate income tax. This pass-through structure avoids double taxation (corporate + shareholder). In a tax-deferred account, the ordinary income nature of distributions is sheltered, making REITs particularly effective in IRAs and 401(k)s.",
@@ -221,12 +416,28 @@
     "section": "recommendations-strategies",
     "stem": "An investment adviser is drafting an Investment Policy Statement (IPS) for a new client. Which component of the IPS addresses the client's need to access a portion of her portfolio within the next six months to fund a planned home renovation?",
     "choices": [
-      {"label": "A", "text": "Return objective", "explanation": "Incorrect. The return objective specifies the target rate of return the portfolio must achieve, not the timing of cash needs."},
-      {"label": "B", "text": "Risk tolerance", "explanation": "Incorrect. Risk tolerance describes the client's willingness and ability to absorb portfolio losses, not specific upcoming cash needs."},
-      {"label": "C", "text": "Liquidity needs", "explanation": "Correct. The liquidity needs component of an IPS identifies near-term cash requirements that must be met from the portfolio. Funds needed within six months should be held in liquid, low-risk instruments and excluded from long-term investment allocation."},
-      {"label": "D", "text": "Legal and regulatory constraints", "explanation": "Incorrect. Legal and regulatory constraints address restrictions such as insider trading rules, ERISA requirements, or trust provisions — not the client's personal cash flow needs."}
+      {
+        "label": "A",
+        "text": "Liquidity needs",
+        "explanation": "Correct. The liquidity needs component of an IPS identifies near-term cash requirements that must be met from the portfolio. Funds needed within six months should be held in liquid, low-risk instruments and excluded from long-term investment allocation."
+      },
+      {
+        "label": "B",
+        "text": "Risk tolerance",
+        "explanation": "Incorrect. Risk tolerance describes the client's willingness and ability to absorb portfolio losses, not specific upcoming cash needs."
+      },
+      {
+        "label": "C",
+        "text": "Return objective",
+        "explanation": "Incorrect. The return objective specifies the target rate of return the portfolio must achieve, not the timing of cash needs."
+      },
+      {
+        "label": "D",
+        "text": "Legal and regulatory constraints",
+        "explanation": "Incorrect. Legal and regulatory constraints address restrictions such as insider trading rules, ERISA requirements, or trust provisions — not the client's personal cash flow needs."
+      }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "explanation": "An Investment Policy Statement contains several components: return objective, risk tolerance, time horizon, liquidity needs, tax situation, legal/regulatory constraints, and unique circumstances. Near-term cash needs (such as a home renovation in six months) fall under liquidity needs and should inform the portion of the portfolio held in liquid instruments.",
     "subtopic": "client-profiling",
     "difficulty": "easy",
@@ -239,12 +450,28 @@
     "section": "recommendations-strategies",
     "stem": "A 68-year-old client on a fixed pension tells her investment adviser that she cannot afford to lose any of her principal and is extremely uncomfortable with market volatility. Her adviser determines, however, that her long-term financial plan actually requires a 5% annual return to meet her goals, which necessitates some equity exposure. Which statement BEST describes the adviser's appropriate course of action?",
     "choices": [
-      {"label": "A", "text": "Recommend an all-cash portfolio matching the client's stated risk tolerance, because the client's wishes must always override the adviser's judgment.", "explanation": "Incorrect. An adviser acting in a fiduciary capacity must consider both the client's willingness to take risk (subjective tolerance) AND the client's need to take risk (objective capacity). An all-cash portfolio may fail to meet the client's long-term financial goals."},
-      {"label": "B", "text": "Recommend an all-equity portfolio to maximize the probability of meeting the 5% return target, overriding the client's stated discomfort.", "explanation": "Incorrect. Completely ignoring the client's stated risk tolerance is not appropriate. The adviser must educate and reconcile differences, not simply override the client's expressed preferences."},
-      {"label": "C", "text": "Educate the client on the trade-off between her comfort with low risk and her need for return, then collaboratively develop a portfolio that attempts to balance both constraints.", "explanation": "Correct. When a client's risk tolerance (willingness) conflicts with their risk capacity (need), the adviser should educate the client, discuss the implications of each approach, and collaboratively reach a solution. This reflects both the duty of care and client-centric suitability."},
-      {"label": "D", "text": "Defer the engagement until the client changes her risk tolerance to match the required return.", "explanation": "Incorrect. Refusing to serve a client because their risk tolerance conflicts with their return needs is not an acceptable approach. The adviser's role is to help reconcile such conflicts, not to walk away."}
+      {
+        "label": "A",
+        "text": "Recommend an all-cash portfolio matching the client's stated risk tolerance, because the client's wishes must always override the adviser's judgment.",
+        "explanation": "Incorrect. An adviser acting in a fiduciary capacity must consider both the client's willingness to take risk (subjective tolerance) AND the client's need to take risk (objective capacity). An all-cash portfolio may fail to meet the client's long-term financial goals."
+      },
+      {
+        "label": "B",
+        "text": "Recommend an all-equity portfolio to maximize the probability of meeting the 5% return target, overriding the client's stated discomfort.",
+        "explanation": "Incorrect. Completely ignoring the client's stated risk tolerance is not appropriate. The adviser must educate and reconcile differences, not simply override the client's expressed preferences."
+      },
+      {
+        "label": "C",
+        "text": "Defer the engagement until the client changes her risk tolerance to match the required return.",
+        "explanation": "Incorrect. Refusing to serve a client because their risk tolerance conflicts with their return needs is not an acceptable approach. The adviser's role is to help reconcile such conflicts, not to walk away."
+      },
+      {
+        "label": "D",
+        "text": "Educate the client on the trade-off between her comfort with low risk and her need for return, then collaboratively develop a portfolio that attempts to balance both constraints.",
+        "explanation": "Correct. When a client's risk tolerance (willingness) conflicts with their risk capacity (need), the adviser should educate the client, discuss the implications of each approach, and collaboratively reach a solution. This reflects both the duty of care and client-centric suitability."
+      }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "explanation": "Suitability and the fiduciary standard both require advisers to consider the full picture — including a client's stated risk tolerance AND their objective need for return. When these conflict, the appropriate response is client education and collaborative problem-solving, not blindly following one constraint while ignoring the other.",
     "subtopic": "client-profiling",
     "difficulty": "medium",
@@ -257,10 +484,26 @@
     "section": "recommendations-strategies",
     "stem": "Under the suitability standard applicable to broker-dealers (FINRA Rule 2111), which type of suitability obligation requires a broker-dealer to have a reasonable basis to believe that a series of recommended transactions are suitable for the customer in light of the customer's financial profile, even if each individual transaction might be suitable on its own?",
     "choices": [
-      {"label": "A", "text": "Customer-specific suitability", "explanation": "Incorrect. Customer-specific suitability requires that a recommendation be suitable for the particular customer based on their profile — it addresses individual transactions in light of the customer's circumstances, not the aggregate pattern."},
-      {"label": "B", "text": "Reasonable-basis suitability", "explanation": "Incorrect. Reasonable-basis suitability requires that the broker-dealer have a reasonable basis to believe the recommendation is suitable for at least some investors — it is about the product or strategy generally, not the pattern of recommendations for one customer."},
-      {"label": "C", "text": "Quantitative suitability", "explanation": "Correct. Quantitative suitability under FINRA Rule 2111 requires a broker-dealer who controls a customer's account to have a reasonable basis for believing that a series of recommended transactions — even if individually suitable — are not excessive and suitable for the customer in aggregate. This is designed to address churning."},
-      {"label": "D", "text": "Best interest suitability", "explanation": "Incorrect. 'Best interest suitability' is not a defined prong of FINRA Rule 2111. Regulation Best Interest (Reg BI) applies a best interest standard to broker-dealer recommendations and is a separate, higher standard from the three-prong FINRA suitability rule."}
+      {
+        "label": "A",
+        "text": "Customer-specific suitability",
+        "explanation": "Incorrect. Customer-specific suitability requires that a recommendation be suitable for the particular customer based on their profile — it addresses individual transactions in light of the customer's circumstances, not the aggregate pattern."
+      },
+      {
+        "label": "B",
+        "text": "Reasonable-basis suitability",
+        "explanation": "Incorrect. Reasonable-basis suitability requires that the broker-dealer have a reasonable basis to believe the recommendation is suitable for at least some investors — it is about the product or strategy generally, not the pattern of recommendations for one customer."
+      },
+      {
+        "label": "C",
+        "text": "Quantitative suitability",
+        "explanation": "Correct. Quantitative suitability under FINRA Rule 2111 requires a broker-dealer who controls a customer's account to have a reasonable basis for believing that a series of recommended transactions — even if individually suitable — are not excessive and suitable for the customer in aggregate. This is designed to address churning."
+      },
+      {
+        "label": "D",
+        "text": "Best interest suitability",
+        "explanation": "Incorrect. 'Best interest suitability' is not a defined prong of FINRA Rule 2111. Regulation Best Interest (Reg BI) applies a best interest standard to broker-dealer recommendations and is a separate, higher standard from the three-prong FINRA suitability rule."
+      }
     ],
     "correctAnswer": "C",
     "explanation": "FINRA Rule 2111 contains three suitability obligations: (1) reasonable-basis suitability (the strategy must be suitable for at least some investors), (2) customer-specific suitability (the strategy must be suitable for the particular customer), and (3) quantitative suitability (a series of recommendations must not be excessive in light of the customer's profile). Quantitative suitability is the prong that addresses patterns of trading, including excessive trading (churning).",
@@ -275,12 +518,28 @@
     "section": "recommendations-strategies",
     "stem": "A 35-year-old client has a moderate risk tolerance and a 30-year horizon until retirement. His adviser recommends a lifecycle (target-date) fund with a current 85% equity / 15% bond allocation that automatically becomes more conservative as the target retirement date approaches. What investment principle does this glide path feature reflect?",
     "choices": [
-      {"label": "A", "text": "Dollar-cost averaging, because contributions are spread over many years.", "explanation": "Incorrect. Dollar-cost averaging refers to investing fixed dollar amounts at regular intervals, not to the automatic shift in asset allocation over time."},
-      {"label": "B", "text": "Portfolio immunization, because the bond duration matches the investment horizon.", "explanation": "Incorrect. Portfolio immunization is a fixed-income strategy that matches a bond portfolio's duration to a specific liability horizon to protect against interest rate risk. It does not describe the equity-to-bond shift in lifecycle funds."},
-      {"label": "C", "text": "Lifecycle investing and the glide path principle, recognizing that younger investors can accept more equity risk and should reduce it as retirement approaches.", "explanation": "Correct. Lifecycle investing holds that younger investors have a longer time horizon to recover from market losses and should hold more equities. As retirement approaches, the portfolio shifts toward bonds and cash (the glide path), reducing sequence-of-returns risk."},
-      {"label": "D", "text": "Tactical asset allocation, because the fund manager actively shifts allocations based on current market conditions.", "explanation": "Incorrect. Tactical asset allocation involves short-term deviations from a strategic allocation based on market outlook. A lifecycle fund's glide path is a pre-determined, rules-based shift tied to age/time horizon — this is strategic, not tactical."}
+      {
+        "label": "A",
+        "text": "Dollar-cost averaging, because contributions are spread over many years.",
+        "explanation": "Incorrect. Dollar-cost averaging refers to investing fixed dollar amounts at regular intervals, not to the automatic shift in asset allocation over time."
+      },
+      {
+        "label": "B",
+        "text": "Lifecycle investing and the glide path principle, recognizing that younger investors can accept more equity risk and should reduce it as retirement approaches.",
+        "explanation": "Correct. Lifecycle investing holds that younger investors have a longer time horizon to recover from market losses and should hold more equities. As retirement approaches, the portfolio shifts toward bonds and cash (the glide path), reducing sequence-of-returns risk."
+      },
+      {
+        "label": "C",
+        "text": "Portfolio immunization, because the bond duration matches the investment horizon.",
+        "explanation": "Incorrect. Portfolio immunization is a fixed-income strategy that matches a bond portfolio's duration to a specific liability horizon to protect against interest rate risk. It does not describe the equity-to-bond shift in lifecycle funds."
+      },
+      {
+        "label": "D",
+        "text": "Tactical asset allocation, because the fund manager actively shifts allocations based on current market conditions.",
+        "explanation": "Incorrect. Tactical asset allocation involves short-term deviations from a strategic allocation based on market outlook. A lifecycle fund's glide path is a pre-determined, rules-based shift tied to age/time horizon — this is strategic, not tactical."
+      }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "B",
     "explanation": "Lifecycle investing (target-date funds) employs a glide path — a systematic reduction in equity exposure and increase in fixed-income exposure as the investor approaches their target date. This reflects the principle that younger investors can tolerate more risk due to their longer time horizon, while those near retirement should prioritize capital preservation to reduce sequence-of-returns risk.",
     "subtopic": "portfolio-strategies",
     "difficulty": "easy",
@@ -293,10 +552,26 @@
     "section": "recommendations-strategies",
     "stem": "An adviser uses a threshold-based rebalancing strategy for a client with a target allocation of 60% equities / 40% bonds. After a strong equity rally, the portfolio drifts to 72% equities / 28% bonds, triggering the rebalancing threshold. What action does the adviser take, and what risk does this address?",
     "choices": [
-      {"label": "A", "text": "Sell equities and buy bonds to restore the 60/40 target; this addresses the client drifting into a risk profile higher than intended.", "explanation": "Correct. When equities outperform and push allocation above the threshold, the adviser sells equities and buys bonds (or adds new contributions to bonds) to restore the target. This prevents the portfolio from carrying more risk than the client's IPS specifies, addressing unintended risk drift."},
-      {"label": "B", "text": "Buy more equities to capitalize on momentum; this enhances return by following market trends.", "explanation": "Incorrect. Buying more equities when they have already rallied above target increases risk exposure beyond the IPS mandate and pursues momentum rather than maintaining the client's intended risk profile."},
-      {"label": "C", "text": "Do nothing until the next calendar rebalancing date; threshold-based rebalancing only triggers at year-end.", "explanation": "Incorrect. Threshold-based rebalancing (also called percentage-of-portfolio rebalancing) triggers when allocations deviate beyond a set band, regardless of the calendar. It is specifically designed to act when drift occurs, not only at predetermined intervals."},
-      {"label": "D", "text": "Sell all positions and move to cash to lock in the equity gains before any reversal.", "explanation": "Incorrect. This is not rebalancing — it is market timing and liquidation, which is inconsistent with the client's long-term investment policy and creates tax consequences."}
+      {
+        "label": "A",
+        "text": "Sell equities and buy bonds to restore the 60/40 target; this addresses the client drifting into a risk profile higher than intended.",
+        "explanation": "Correct. When equities outperform and push allocation above the threshold, the adviser sells equities and buys bonds (or adds new contributions to bonds) to restore the target. This prevents the portfolio from carrying more risk than the client's IPS specifies, addressing unintended risk drift."
+      },
+      {
+        "label": "B",
+        "text": "Buy more equities to capitalize on momentum; this enhances return by following market trends.",
+        "explanation": "Incorrect. Buying more equities when they have already rallied above target increases risk exposure beyond the IPS mandate and pursues momentum rather than maintaining the client's intended risk profile."
+      },
+      {
+        "label": "C",
+        "text": "Do nothing until the next calendar rebalancing date; threshold-based rebalancing only triggers at year-end.",
+        "explanation": "Incorrect. Threshold-based rebalancing (also called percentage-of-portfolio rebalancing) triggers when allocations deviate beyond a set band, regardless of the calendar. It is specifically designed to act when drift occurs, not only at predetermined intervals."
+      },
+      {
+        "label": "D",
+        "text": "Sell all positions and move to cash to lock in the equity gains before any reversal.",
+        "explanation": "Incorrect. This is not rebalancing — it is market timing and liquidation, which is inconsistent with the client's long-term investment policy and creates tax consequences."
+      }
     ],
     "correctAnswer": "A",
     "explanation": "Threshold-based (percentage-of-portfolio) rebalancing triggers when an asset class deviates beyond a set band from the target allocation. When equities drift to 72% vs. a 60% target, the adviser sells equities and buys bonds to restore the intended risk profile. The purpose is to prevent unintended risk drift — the portfolio should not become more aggressive than the IPS allows simply because equities outperformed.",
@@ -311,12 +586,28 @@
     "section": "recommendations-strategies",
     "stem": "A client invests $500 per month in an index fund regardless of market conditions. Over 12 months, the fund's NAV fluctuates between $20 and $50 per share. Compared to investing $6,000 in a lump sum at the start of the year, what is the PRIMARY advantage the dollar-cost averaging approach provides?",
     "choices": [
-      {"label": "A", "text": "It reduces the impact of market timing risk by purchasing more shares when prices are low and fewer when prices are high.", "explanation": "Correct. Dollar-cost averaging purchases more shares at lower prices and fewer at higher prices (since a fixed dollar amount is invested each period). This mechanical process removes market timing decisions and can lower the average cost per share in volatile markets compared to investing all at once at a single price point."},
-      {"label": "B", "text": "It guarantees a lower average cost per share than any lump-sum investment.", "explanation": "Incorrect. Dollar-cost averaging does not guarantee a lower average cost than a lump-sum investment. In a steadily rising market, lump-sum investing at the beginning often results in a lower average cost."},
-      {"label": "C", "text": "It automatically results in higher total returns than lump-sum investing over any time period.", "explanation": "Incorrect. Research shows lump-sum investing outperforms dollar-cost averaging roughly two-thirds of the time in rising markets. DCA's advantage is risk reduction, not return maximization."},
-      {"label": "D", "text": "It eliminates investment risk entirely by spreading purchases over time.", "explanation": "Incorrect. Dollar-cost averaging reduces timing risk but does not eliminate investment risk. The portfolio is still subject to market, credit, and inflation risk."}
+      {
+        "label": "A",
+        "text": "It eliminates investment risk entirely by spreading purchases over time.",
+        "explanation": "Incorrect. Dollar-cost averaging reduces timing risk but does not eliminate investment risk. The portfolio is still subject to market, credit, and inflation risk."
+      },
+      {
+        "label": "B",
+        "text": "It guarantees a lower average cost per share than any lump-sum investment.",
+        "explanation": "Incorrect. Dollar-cost averaging does not guarantee a lower average cost than a lump-sum investment. In a steadily rising market, lump-sum investing at the beginning often results in a lower average cost."
+      },
+      {
+        "label": "C",
+        "text": "It automatically results in higher total returns than lump-sum investing over any time period.",
+        "explanation": "Incorrect. Research shows lump-sum investing outperforms dollar-cost averaging roughly two-thirds of the time in rising markets. DCA's advantage is risk reduction, not return maximization."
+      },
+      {
+        "label": "D",
+        "text": "It reduces the impact of market timing risk by purchasing more shares when prices are low and fewer when prices are high.",
+        "explanation": "Correct. Dollar-cost averaging purchases more shares at lower prices and fewer at higher prices (since a fixed dollar amount is invested each period). This mechanical process removes market timing decisions and can lower the average cost per share in volatile markets compared to investing all at once at a single price point."
+      }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Dollar-cost averaging (DCA) invests a fixed dollar amount at regular intervals. Because more shares are purchased when prices are low and fewer when prices are high, DCA can reduce the average cost per share relative to a single purchase at a high price. Its primary advantage is reducing market timing risk in volatile markets — not guaranteeing superior returns versus lump-sum investing.",
     "subtopic": "portfolio-strategies",
     "difficulty": "easy",
@@ -329,12 +620,28 @@
     "section": "recommendations-strategies",
     "stem": "A client in the 37% marginal federal income tax bracket sells 500 shares of stock held for 8 months at a $12,000 gain. What is the CORRECT federal income tax treatment of this gain?",
     "choices": [
-      {"label": "A", "text": "The gain is a short-term capital gain taxed as ordinary income at the client's marginal rate of 37%.", "explanation": "Correct. Capital gains on assets held 12 months or less are short-term and taxed as ordinary income. At a 37% marginal rate, the $12,000 gain results in $4,440 of federal tax."},
-      {"label": "B", "text": "The gain is a long-term capital gain taxed at a maximum rate of 20%.", "explanation": "Incorrect. To qualify for long-term capital gain rates, the holding period must exceed 12 months. Eight months is a short-term holding period."},
-      {"label": "C", "text": "The gain is exempt from federal tax because it is below the annual capital gains exclusion threshold.", "explanation": "Incorrect. There is no annual capital gains exclusion of this type for investment securities. The $250,000/$500,000 exclusion applies only to gains from the sale of a primary residence."},
-      {"label": "D", "text": "The gain is a qualified dividend taxed at the 15% preferential rate.", "explanation": "Incorrect. A capital gain from the sale of stock is not a dividend. Qualified dividends and capital gains are separate categories; this transaction is a capital gain."}
+      {
+        "label": "A",
+        "text": "The gain is exempt from federal tax because it is below the annual capital gains exclusion threshold.",
+        "explanation": "Incorrect. There is no annual capital gains exclusion of this type for investment securities. The $250,000/$500,000 exclusion applies only to gains from the sale of a primary residence."
+      },
+      {
+        "label": "B",
+        "text": "The gain is a long-term capital gain taxed at a maximum rate of 20%.",
+        "explanation": "Incorrect. To qualify for long-term capital gain rates, the holding period must exceed 12 months. Eight months is a short-term holding period."
+      },
+      {
+        "label": "C",
+        "text": "The gain is a short-term capital gain taxed as ordinary income at the client's marginal rate of 37%.",
+        "explanation": "Correct. Capital gains on assets held 12 months or less are short-term and taxed as ordinary income. At a 37% marginal rate, the $12,000 gain results in $4,440 of federal tax."
+      },
+      {
+        "label": "D",
+        "text": "The gain is a qualified dividend taxed at the 15% preferential rate.",
+        "explanation": "Incorrect. A capital gain from the sale of stock is not a dividend. Qualified dividends and capital gains are separate categories; this transaction is a capital gain."
+      }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The IRS distinguishes between short-term capital gains (assets held 12 months or fewer) and long-term capital gains (assets held more than 12 months). Short-term gains are taxed as ordinary income at the taxpayer's marginal rate. Eight months is a short-term holding period, so the $12,000 gain is subject to ordinary income tax at 37%.",
     "subtopic": "tax-planning",
     "difficulty": "easy",
@@ -347,10 +654,26 @@
     "section": "recommendations-strategies",
     "stem": "On November 15, a client sells 200 shares of XYZ stock at a loss of $4,000 to offset gains elsewhere in her portfolio. On December 10 of the same year, she buys back 200 shares of XYZ. What is the tax consequence under the wash sale rule?",
     "choices": [
-      {"label": "A", "text": "The $4,000 loss is fully deductible because the repurchase occurred in a different calendar month.", "explanation": "Incorrect. The wash sale rule is based on a 61-day window (30 days before and 30 days after the sale), not calendar months. The sale and repurchase here are only 25 days apart, triggering the rule."},
-      {"label": "B", "text": "The $4,000 loss is disallowed for the current year; however, it is added to the cost basis of the newly purchased shares.", "explanation": "Correct. The wash sale rule (IRC Section 1091) disallows a loss when substantially identical securities are purchased within 30 days before or after the sale. The repurchase on December 10 is only 25 days after the November 15 sale, so the loss is disallowed. However, the disallowed loss is added to the cost basis of the replacement shares, preserving it for a future sale."},
-      {"label": "C", "text": "The $4,000 loss is permanently forfeited and cannot be used in any future tax year.", "explanation": "Incorrect. The wash sale rule disallows the loss in the current year but does not destroy it permanently. The disallowed loss is added to the replacement shares' cost basis and can be recognized when those shares are eventually sold outside the wash sale window."},
-      {"label": "D", "text": "The wash sale rule only applies to losses exceeding $3,000; this loss is below the threshold and is fully deductible.", "explanation": "Incorrect. The $3,000 figure is the annual limit on deducting net capital losses against ordinary income — it is not the threshold for the wash sale rule. The wash sale rule applies to all disallowed losses regardless of amount."}
+      {
+        "label": "A",
+        "text": "The $4,000 loss is fully deductible because the repurchase occurred in a different calendar month.",
+        "explanation": "Incorrect. The wash sale rule is based on a 61-day window (30 days before and 30 days after the sale), not calendar months. The sale and repurchase here are only 25 days apart, triggering the rule."
+      },
+      {
+        "label": "B",
+        "text": "The $4,000 loss is disallowed for the current year; however, it is added to the cost basis of the newly purchased shares.",
+        "explanation": "Correct. The wash sale rule (IRC Section 1091) disallows a loss when substantially identical securities are purchased within 30 days before or after the sale. The repurchase on December 10 is only 25 days after the November 15 sale, so the loss is disallowed. However, the disallowed loss is added to the cost basis of the replacement shares, preserving it for a future sale."
+      },
+      {
+        "label": "C",
+        "text": "The $4,000 loss is permanently forfeited and cannot be used in any future tax year.",
+        "explanation": "Incorrect. The wash sale rule disallows the loss in the current year but does not destroy it permanently. The disallowed loss is added to the replacement shares' cost basis and can be recognized when those shares are eventually sold outside the wash sale window."
+      },
+      {
+        "label": "D",
+        "text": "The wash sale rule only applies to losses exceeding $3,000; this loss is below the threshold and is fully deductible.",
+        "explanation": "Incorrect. The $3,000 figure is the annual limit on deducting net capital losses against ordinary income — it is not the threshold for the wash sale rule. The wash sale rule applies to all disallowed losses regardless of amount."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "IRC Section 1091 (wash sale rule) disallows a capital loss when the taxpayer purchases substantially identical securities within the 61-day window centered on the sale date (30 days before + day of sale + 30 days after). Here, XYZ is repurchased 25 days after the loss sale, triggering the rule. The disallowed $4,000 loss is not gone — it is added to the cost basis of the repurchased shares, deferring (not eliminating) the loss.",
@@ -365,12 +688,28 @@
     "section": "recommendations-strategies",
     "stem": "A married client in a high tax bracket is considering whether to invest in municipal bonds or taxable corporate bonds. The municipal bond yields 3.8%, and a comparable corporate bond yields 5.5%. The client's marginal federal income tax rate is 35%, and the state imposes no income tax. Which investment provides the higher after-tax yield?",
     "choices": [
-      {"label": "A", "text": "The corporate bond, because 5.5% exceeds 3.8% in all scenarios.", "explanation": "Incorrect. The relevant comparison is after-tax yield, not nominal yield. The corporate bond's after-tax yield must be calculated using the tax-equivalent yield formula."},
-      {"label": "B", "text": "The municipal bond, because its 3.8% yield is exempt from federal income tax, making it equivalent to approximately 5.85% taxable.", "explanation": "Correct. Tax-equivalent yield = Municipal yield / (1 - tax rate) = 3.8% / (1 - 0.35) = 3.8% / 0.65 = 5.846%. Since 5.85% > 5.5%, the municipal bond provides a higher after-tax yield for this investor."},
-      {"label": "C", "text": "The corporate bond, because municipal bonds are subject to the alternative minimum tax in all cases.", "explanation": "Incorrect. Only certain private activity municipal bonds are potentially subject to AMT. Standard municipal bonds issued for governmental purposes are exempt from federal income tax and not subject to AMT."},
-      {"label": "D", "text": "They are equivalent because the yield difference exactly compensates for the tax differential.", "explanation": "Incorrect. The tax-equivalent yield of the municipal is approximately 5.85%, which exceeds the corporate yield of 5.5%. They are not equivalent."}
+      {
+        "label": "A",
+        "text": "The municipal bond, because its 3.8% yield is exempt from federal income tax, making it equivalent to approximately 5.85% taxable.",
+        "explanation": "Correct. Tax-equivalent yield = Municipal yield / (1 - tax rate) = 3.8% / (1 - 0.35) = 3.8% / 0.65 = 5.846%. Since 5.85% > 5.5%, the municipal bond provides a higher after-tax yield for this investor."
+      },
+      {
+        "label": "B",
+        "text": "The corporate bond, because 5.5% exceeds 3.8% in all scenarios.",
+        "explanation": "Incorrect. The relevant comparison is after-tax yield, not nominal yield. The corporate bond's after-tax yield must be calculated using the tax-equivalent yield formula."
+      },
+      {
+        "label": "C",
+        "text": "The corporate bond, because municipal bonds are subject to the alternative minimum tax in all cases.",
+        "explanation": "Incorrect. Only certain private activity municipal bonds are potentially subject to AMT. Standard municipal bonds issued for governmental purposes are exempt from federal income tax and not subject to AMT."
+      },
+      {
+        "label": "D",
+        "text": "They are equivalent because the yield difference exactly compensates for the tax differential.",
+        "explanation": "Incorrect. The tax-equivalent yield of the municipal is approximately 5.85%, which exceeds the corporate yield of 5.5%. They are not equivalent."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "The tax-equivalent yield formula converts a tax-exempt yield to its taxable equivalent: TEY = Municipal Yield / (1 - Marginal Tax Rate) = 3.8% / 0.65 = 5.85%. Since 5.85% exceeds the corporate bond's 5.5%, the municipal bond is superior on an after-tax basis for a 35% bracket investor. This comparison is critical for high-bracket investors evaluating munis vs. taxables.",
     "subtopic": "tax-planning",
     "difficulty": "medium",
@@ -383,12 +722,28 @@
     "section": "recommendations-strategies",
     "stem": "A 60-year-old client with a traditional IRA and a Roth IRA is considering converting $50,000 from her traditional IRA to her Roth IRA. Which consideration is MOST important for an adviser to address before recommending this conversion?",
     "choices": [
-      {"label": "A", "text": "Whether the client has after-tax funds available to pay the conversion income tax without drawing from the IRA itself.", "explanation": "Correct. A Roth conversion triggers ordinary income tax on the converted amount in the year of conversion. The conversion is most effective when the client can pay the resulting tax bill from outside funds, rather than from the IRA, because using IRA funds to pay the tax reduces the amount compounding tax-free and may trigger penalties if under age 59½."},
-      {"label": "B", "text": "Whether the client's IRA custodian will allow the conversion, because conversions require custodian approval.", "explanation": "Incorrect. Roth conversions do not require custodian approval as a regulatory matter — they are the account owner's right. The custodian facilitates the transfer but does not have approval authority over the client's decision to convert."},
-      {"label": "C", "text": "Whether the client's income is below the Roth IRA contribution income limit, because high earners cannot convert.", "explanation": "Incorrect. Roth IRA conversions have no income limit — any taxpayer can convert a traditional IRA to a Roth IRA regardless of income. The Roth contribution income limits apply only to direct contributions, not conversions."},
-      {"label": "D", "text": "Whether the client will need the funds within the next year, because Roth conversions are locked up for 10 years.", "explanation": "Incorrect. While Roth IRAs do have a 5-year seasoning rule for earnings withdrawals, converted amounts (principal) can be withdrawn without penalty after 5 years (and contributions at any time). There is no 10-year lock-up."}
+      {
+        "label": "A",
+        "text": "Whether the client will need the funds within the next year, because Roth conversions are locked up for 10 years.",
+        "explanation": "Incorrect. While Roth IRAs do have a 5-year seasoning rule for earnings withdrawals, converted amounts (principal) can be withdrawn without penalty after 5 years (and contributions at any time). There is no 10-year lock-up."
+      },
+      {
+        "label": "B",
+        "text": "Whether the client's IRA custodian will allow the conversion, because conversions require custodian approval.",
+        "explanation": "Incorrect. Roth conversions do not require custodian approval as a regulatory matter — they are the account owner's right. The custodian facilitates the transfer but does not have approval authority over the client's decision to convert."
+      },
+      {
+        "label": "C",
+        "text": "Whether the client's income is below the Roth IRA contribution income limit, because high earners cannot convert.",
+        "explanation": "Incorrect. Roth IRA conversions have no income limit — any taxpayer can convert a traditional IRA to a Roth IRA regardless of income. The Roth contribution income limits apply only to direct contributions, not conversions."
+      },
+      {
+        "label": "D",
+        "text": "Whether the client has after-tax funds available to pay the conversion income tax without drawing from the IRA itself.",
+        "explanation": "Correct. A Roth conversion triggers ordinary income tax on the converted amount in the year of conversion. The conversion is most effective when the client can pay the resulting tax bill from outside funds, rather than from the IRA, because using IRA funds to pay the tax reduces the amount compounding tax-free and may trigger penalties if under age 59½."
+      }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Roth conversions are taxable events — the converted amount is added to ordinary income in the year of conversion. The analysis hinges on: (1) whether the client can pay the tax from outside funds (maximizing tax-free growth), (2) whether current tax rates are lower than expected future rates (making conversion advantageous), and (3) the client's time horizon for recovery. Paying the tax from the IRA itself is generally counterproductive.",
     "subtopic": "tax-planning",
     "difficulty": "hard",
@@ -401,10 +756,26 @@
     "section": "recommendations-strategies",
     "stem": "Under SECURE 2.0, at what age must a traditional IRA account holder begin taking Required Minimum Distributions (RMDs)?",
     "choices": [
-      {"label": "A", "text": "70½", "explanation": "Incorrect. Age 70½ was the original RMD starting age under pre-SECURE Act rules (prior to 2020). SECURE Act 1.0 (2019) raised it to 72; SECURE 2.0 (2022) further increased it."},
-      {"label": "B", "text": "72", "explanation": "Incorrect. Age 72 was the RMD starting age under the original SECURE Act of 2019, but SECURE 2.0 (enacted December 2022) raised this threshold further."},
-      {"label": "C", "text": "73", "explanation": "Correct. SECURE 2.0 (enacted December 29, 2022) raised the RMD starting age from 72 to 73 for individuals who turn 72 after December 31, 2022. The age will increase again to 75 starting in 2033."},
-      {"label": "D", "text": "75", "explanation": "Incorrect. Age 75 is the future RMD starting age scheduled to take effect in 2033 under SECURE 2.0. As of 2026, the applicable RMD age is 73."}
+      {
+        "label": "A",
+        "text": "70½",
+        "explanation": "Incorrect. Age 70½ was the original RMD starting age under pre-SECURE Act rules (prior to 2020). SECURE Act 1.0 (2019) raised it to 72; SECURE 2.0 (2022) further increased it."
+      },
+      {
+        "label": "B",
+        "text": "72",
+        "explanation": "Incorrect. Age 72 was the RMD starting age under the original SECURE Act of 2019, but SECURE 2.0 (enacted December 2022) raised this threshold further."
+      },
+      {
+        "label": "C",
+        "text": "73",
+        "explanation": "Correct. SECURE 2.0 (enacted December 29, 2022) raised the RMD starting age from 72 to 73 for individuals who turn 72 after December 31, 2022. The age will increase again to 75 starting in 2033."
+      },
+      {
+        "label": "D",
+        "text": "75",
+        "explanation": "Incorrect. Age 75 is the future RMD starting age scheduled to take effect in 2033 under SECURE 2.0. As of 2026, the applicable RMD age is 73."
+      }
     ],
     "correctAnswer": "C",
     "explanation": "SECURE 2.0 Act (2022) increased the Required Minimum Distribution (RMD) starting age from 72 to 73 for individuals who reach age 72 after December 31, 2022. A further increase to age 75 is scheduled beginning in 2033. RMDs apply to traditional IRAs, SEP IRAs, SIMPLE IRAs, and most employer-sponsored plans. Roth IRAs are not subject to RMDs during the owner's lifetime.",
@@ -419,12 +790,28 @@
     "section": "recommendations-strategies",
     "stem": "A 72-year-old client wants to purchase a variable annuity with a 10-year surrender charge period. Her investment adviser knows she has significant liquidity needs and relies on her portfolio for living expenses. Which concern should the adviser raise FIRST?",
     "choices": [
-      {"label": "A", "text": "The annuity's underlying subaccounts may underperform fixed alternatives.", "explanation": "Incorrect. While investment performance is relevant, the more pressing suitability concern is the mismatch between the surrender charge period and the client's liquidity needs."},
-      {"label": "B", "text": "The annuity will trigger immediate ordinary income taxes on all gains.", "explanation": "Incorrect. Annuities are tax-deferred vehicles; taxes are not triggered at purchase. Tax treatment at distribution is a valid consideration, but it is not the first concern when a client has immediate liquidity needs."},
-      {"label": "C", "text": "The annuity's mortality and expense fees are higher than mutual fund expense ratios.", "explanation": "Incorrect. Fee comparison is a valid consideration but is secondary to the fundamental suitability problem: a long illiquidity period for a client who needs access to funds for living expenses."},
-      {"label": "D", "text": "The surrender charge period creates a significant liquidity restriction that may be unsuitable given the client's age and reliance on the portfolio for living expenses.", "explanation": "Correct. Variable annuities with long surrender charge periods are generally considered unsuitable for elderly clients who need portfolio liquidity for living expenses. NASAA and FINRA both emphasize that surrender periods, combined with age and liquidity needs, are primary suitability red flags."}
+      {
+        "label": "A",
+        "text": "The annuity's underlying subaccounts may underperform fixed alternatives.",
+        "explanation": "Incorrect. While investment performance is relevant, the more pressing suitability concern is the mismatch between the surrender charge period and the client's liquidity needs."
+      },
+      {
+        "label": "B",
+        "text": "The surrender charge period creates a significant liquidity restriction that may be unsuitable given the client's age and reliance on the portfolio for living expenses.",
+        "explanation": "Correct. Variable annuities with long surrender charge periods are generally considered unsuitable for elderly clients who need portfolio liquidity for living expenses. NASAA and FINRA both emphasize that surrender periods, combined with age and liquidity needs, are primary suitability red flags."
+      },
+      {
+        "label": "C",
+        "text": "The annuity's mortality and expense fees are higher than mutual fund expense ratios.",
+        "explanation": "Incorrect. Fee comparison is a valid consideration but is secondary to the fundamental suitability problem: a long illiquidity period for a client who needs access to funds for living expenses."
+      },
+      {
+        "label": "D",
+        "text": "The annuity will trigger immediate ordinary income taxes on all gains.",
+        "explanation": "Incorrect. Annuities are tax-deferred vehicles; taxes are not triggered at purchase. Tax treatment at distribution is a valid consideration, but it is not the first concern when a client has immediate liquidity needs."
+      }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "B",
     "explanation": "Annuity suitability analysis requires examining the client's age, liquidity needs, time horizon, and surrender charge period. A 10-year surrender period for a 72-year-old with significant liquidity needs is a serious suitability concern. Regulators specifically scrutinize variable annuity sales to elderly clients and require that surrender charges not create undue hardship given the client's financial situation.",
     "subtopic": "retirement-planning",
     "difficulty": "medium",
@@ -437,12 +824,28 @@
     "section": "recommendations-strategies",
     "stem": "A client is 62 years old and considering when to begin Social Security retirement benefits. Her adviser explains that delaying benefits past full retirement age increases the monthly benefit by 8% per year up to age 70. Which client profile would MOST benefit from delaying Social Security to age 70?",
     "choices": [
-      {"label": "A", "text": "A client in poor health with a family history of short life expectancy.", "explanation": "Incorrect. A client unlikely to live well past 70 would recoup fewer delayed credits. Clients with shorter expected longevity generally benefit from claiming earlier to maximize total lifetime benefits."},
-      {"label": "B", "text": "A client who has no other retirement income and needs to begin drawing funds immediately at 62.", "explanation": "Incorrect. A client who has no other income source cannot afford to delay Social Security — she needs the income now. The break-even analysis is irrelevant if she cannot cover living expenses without the benefit."},
-      {"label": "C", "text": "A client who is single with no surviving dependents who might qualify for spousal benefits.", "explanation": "Incorrect. While survivor and spousal benefit considerations can influence claiming strategy, they do not determine whether a healthy individual benefits from delay. Being single actually removes a reason to claim early (protecting a lower-earning spouse's benefit), but the primary driver of delay is expected longevity and having bridging income."},
-      {"label": "D", "text": "A client who is in good health, has other income sources to cover expenses until 70, and expects to live well into her 80s or beyond.", "explanation": "Correct. Delaying Social Security to 70 increases benefits by 8% per year past full retirement age. Clients who are healthy, have sufficient alternative income to bridge the gap, and have longevity on their side will receive the highest lifetime benefit from delay, as they will receive the elevated payment for more years."}
+      {
+        "label": "A",
+        "text": "A client who is in good health, has other income sources to cover expenses until 70, and expects to live well into her 80s or beyond.",
+        "explanation": "Correct. Delaying Social Security to 70 increases benefits by 8% per year past full retirement age. Clients who are healthy, have sufficient alternative income to bridge the gap, and have longevity on their side will receive the highest lifetime benefit from delay, as they will receive the elevated payment for more years."
+      },
+      {
+        "label": "B",
+        "text": "A client who has no other retirement income and needs to begin drawing funds immediately at 62.",
+        "explanation": "Incorrect. A client who has no other income source cannot afford to delay Social Security — she needs the income now. The break-even analysis is irrelevant if she cannot cover living expenses without the benefit."
+      },
+      {
+        "label": "C",
+        "text": "A client who is single with no surviving dependents who might qualify for spousal benefits.",
+        "explanation": "Incorrect. While survivor and spousal benefit considerations can influence claiming strategy, they do not determine whether a healthy individual benefits from delay. Being single actually removes a reason to claim early (protecting a lower-earning spouse's benefit), but the primary driver of delay is expected longevity and having bridging income."
+      },
+      {
+        "label": "D",
+        "text": "A client in poor health with a family history of short life expectancy.",
+        "explanation": "Incorrect. A client unlikely to live well past 70 would recoup fewer delayed credits. Clients with shorter expected longevity generally benefit from claiming earlier to maximize total lifetime benefits."
+      }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "A",
     "explanation": "Social Security delayed retirement credits of 8% per year (from full retirement age to age 70) reward healthy clients who can afford to wait. The break-even age (when cumulative delayed benefits exceed cumulative early benefits) is typically around age 80-82. Clients with longevity, good health, and bridging income are ideal candidates for delay strategies.",
     "subtopic": "retirement-planning",
     "difficulty": "medium",
@@ -455,12 +858,28 @@
     "section": "recommendations-strategies",
     "stem": "A pension fund manager wants to ensure that the fund can meet a specific liability payment of $10 million due in exactly 7 years, regardless of how interest rates move between now and then. Which strategy is designed specifically to achieve this goal?",
     "choices": [
-      {"label": "A", "text": "Strategic asset allocation, by maintaining a fixed equity/bond mix over the 7-year period.", "explanation": "Incorrect. Strategic asset allocation sets a long-term target mix but does not immunize a portfolio against interest rate changes relative to a specific liability."},
-      {"label": "B", "text": "Dollar-cost averaging into bond index funds over the 7-year period.", "explanation": "Incorrect. Dollar-cost averaging addresses entry-point timing risk for ongoing purchases and does not immunize a fixed liability from interest rate changes."},
-      {"label": "C", "text": "Portfolio immunization by constructing a bond portfolio with a duration equal to the 7-year liability horizon.", "explanation": "Correct. Immunization sets the portfolio's duration equal to the investment horizon (liability date). When rates rise, the bond prices fall but reinvestment income increases; when rates fall, prices rise but reinvestment income falls. These effects offset each other, ensuring the target value is met at the horizon regardless of rate movements."},
-      {"label": "D", "text": "Tactical asset allocation, by adjusting the bond/equity mix based on interest rate forecasts.", "explanation": "Incorrect. Tactical asset allocation relies on active forecasting and market timing. Immunization is a passive, rule-based strategy that does not depend on rate forecasts."}
+      {
+        "label": "A",
+        "text": "Strategic asset allocation, by maintaining a fixed equity/bond mix over the 7-year period.",
+        "explanation": "Incorrect. Strategic asset allocation sets a long-term target mix but does not immunize a portfolio against interest rate changes relative to a specific liability."
+      },
+      {
+        "label": "B",
+        "text": "Dollar-cost averaging into bond index funds over the 7-year period.",
+        "explanation": "Incorrect. Dollar-cost averaging addresses entry-point timing risk for ongoing purchases and does not immunize a fixed liability from interest rate changes."
+      },
+      {
+        "label": "C",
+        "text": "Tactical asset allocation, by adjusting the bond/equity mix based on interest rate forecasts.",
+        "explanation": "Incorrect. Tactical asset allocation relies on active forecasting and market timing. Immunization is a passive, rule-based strategy that does not depend on rate forecasts."
+      },
+      {
+        "label": "D",
+        "text": "Portfolio immunization by constructing a bond portfolio with a duration equal to the 7-year liability horizon.",
+        "explanation": "Correct. Immunization sets the portfolio's duration equal to the investment horizon (liability date). When rates rise, the bond prices fall but reinvestment income increases; when rates fall, prices rise but reinvestment income falls. These effects offset each other, ensuring the target value is met at the horizon regardless of rate movements."
+      }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "explanation": "Portfolio immunization is a fixed-income strategy designed to ensure a specific dollar amount is available at a target date regardless of interest rate changes. By setting the portfolio's Macaulay duration equal to the investment horizon, the two effects of rate changes (price effect and reinvestment effect) offset each other. This is widely used by pension funds and insurance companies to match assets to specific future liabilities.",
     "subtopic": "portfolio-strategies",
     "difficulty": "hard",
@@ -473,12 +892,28 @@
     "section": "laws-regulations",
     "stem": "Under the Investment Advisers Act of 1940, which two-prong test determines whether a person is an 'investment adviser' subject to federal registration?",
     "choices": [
-      {"label": "A", "text": "The person must provide advice on securities AND receive compensation, and the advice must be part of a regular business.", "explanation": "Correct. The Investment Advisers Act of 1940 Section 202(a)(11) defines an investment adviser as any person who, for compensation, engages in the business of advising others on the value of securities or on the advisability of investing in securities. The two prongs are: (1) compensation and (2) advice on securities as part of a regular business."},
-      {"label": "B", "text": "The person must manage assets over $100 million AND be located in the United States.", "explanation": "Incorrect. The $100 million threshold determines whether an adviser registers with the SEC vs. the states; it is not the two-prong test for the definition of 'investment adviser.'"},
-      {"label": "C", "text": "The person must charge asset-based fees AND have discretionary authority over client accounts.", "explanation": "Incorrect. Neither asset-based fees nor discretionary authority is required. Compensation takes any form (flat fee, hourly, commission), and discretion over accounts is not part of the definition."},
-      {"label": "D", "text": "The person must advise on securities AND be registered with FINRA as a broker-dealer.", "explanation": "Incorrect. Investment advisers are distinct from broker-dealers. FINRA registration is not required — or relevant — to the definition of 'investment adviser' under the Advisers Act."}
+      {
+        "label": "A",
+        "text": "The person must charge asset-based fees AND have discretionary authority over client accounts.",
+        "explanation": "Incorrect. Neither asset-based fees nor discretionary authority is required. Compensation takes any form (flat fee, hourly, commission), and discretion over accounts is not part of the definition."
+      },
+      {
+        "label": "B",
+        "text": "The person must manage assets over $100 million AND be located in the United States.",
+        "explanation": "Incorrect. The $100 million threshold determines whether an adviser registers with the SEC vs. the states; it is not the two-prong test for the definition of 'investment adviser.'"
+      },
+      {
+        "label": "C",
+        "text": "The person must provide advice on securities AND receive compensation, and the advice must be part of a regular business.",
+        "explanation": "Correct. The Investment Advisers Act of 1940 Section 202(a)(11) defines an investment adviser as any person who, for compensation, engages in the business of advising others on the value of securities or on the advisability of investing in securities. The two prongs are: (1) compensation and (2) advice on securities as part of a regular business."
+      },
+      {
+        "label": "D",
+        "text": "The person must advise on securities AND be registered with FINRA as a broker-dealer.",
+        "explanation": "Incorrect. Investment advisers are distinct from broker-dealers. FINRA registration is not required — or relevant — to the definition of 'investment adviser' under the Advisers Act."
+      }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Section 202(a)(11) of the Investment Advisers Act of 1940 defines an investment adviser using a three-element test, often summarized as two prongs: (1) the person provides advice about securities (or their value) and (2) does so for compensation as part of a regular business. All three elements must be present. Persons meeting this definition must register unless an exclusion or exemption applies.",
     "subtopic": "investment-advisers-act",
     "difficulty": "medium",
@@ -491,10 +926,26 @@
     "section": "laws-regulations",
     "stem": "An investment adviser registered with the SEC has assets under management of $95 million and no reasonable expectation of reaching $100 million within 120 days. What action is REQUIRED?",
     "choices": [
-      {"label": "A", "text": "The adviser may remain SEC-registered indefinitely because $95 million is close to the threshold.", "explanation": "Incorrect. The SEC has set clear thresholds. An adviser below $100 million AUM without a qualifying exception must switch to state registration. Remaining SEC-registered without meeting the threshold is a violation."},
-      {"label": "B", "text": "The adviser must withdraw its SEC registration and register with the appropriate state securities authority.", "explanation": "Correct. SEC-registered advisers must have at least $100 million in AUM (or meet another qualifying condition). An adviser below the threshold that does not expect to reach $100 million within 120 days must withdraw its Form ADV with the SEC and register with the state(s) where it has its principal office and does business."},
-      {"label": "C", "text": "The adviser must reduce fees until AUM grows back above $100 million.", "explanation": "Incorrect. The registration threshold is based on AUM, not fees. Fee reductions are not relevant to the registration requirement."},
-      {"label": "D", "text": "The adviser must convert to a broker-dealer registration to continue providing investment advice.", "explanation": "Incorrect. Broker-dealer registration is a separate regulatory category. Investment advisers do not convert to broker-dealers; they switch between SEC and state registration depending on AUM thresholds."}
+      {
+        "label": "A",
+        "text": "The adviser may remain SEC-registered indefinitely because $95 million is close to the threshold.",
+        "explanation": "Incorrect. The SEC has set clear thresholds. An adviser below $100 million AUM without a qualifying exception must switch to state registration. Remaining SEC-registered without meeting the threshold is a violation."
+      },
+      {
+        "label": "B",
+        "text": "The adviser must withdraw its SEC registration and register with the appropriate state securities authority.",
+        "explanation": "Correct. SEC-registered advisers must have at least $100 million in AUM (or meet another qualifying condition). An adviser below the threshold that does not expect to reach $100 million within 120 days must withdraw its Form ADV with the SEC and register with the state(s) where it has its principal office and does business."
+      },
+      {
+        "label": "C",
+        "text": "The adviser must reduce fees until AUM grows back above $100 million.",
+        "explanation": "Incorrect. The registration threshold is based on AUM, not fees. Fee reductions are not relevant to the registration requirement."
+      },
+      {
+        "label": "D",
+        "text": "The adviser must convert to a broker-dealer registration to continue providing investment advice.",
+        "explanation": "Incorrect. Broker-dealer registration is a separate regulatory category. Investment advisers do not convert to broker-dealers; they switch between SEC and state registration depending on AUM thresholds."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "Under the Dodd-Frank Act amendments to the Advisers Act, advisers with less than $100 million AUM generally must register with state regulators rather than the SEC. An SEC-registered adviser that falls below $90 million AUM must switch to state registration; those between $90-$100 million have a 120-day window to assess. At $95 million with no expectation of growth, the adviser must withdraw its SEC registration and register at the state level.",
@@ -509,12 +960,28 @@
     "section": "laws-regulations",
     "stem": "A state-registered investment adviser must deliver its Form ADV Part 2A (the brochure) to a new client. Under NASAA rules, when must this delivery occur?",
     "choices": [
-      {"label": "A", "text": "No later than 48 hours after the investment advisory contract is signed.", "explanation": "Incorrect. The 48-hour rule is not the standard. The brochure delivery rule follows a specific timing tied to entering the advisory contract."},
-      {"label": "B", "text": "At least 48 hours before entering into the advisory contract, OR at the time of entering the contract if the client has the right to terminate without penalty within 5 business days.", "explanation": "Correct. NASAA's brochure delivery rule requires delivering the ADV Part 2A (or equivalent disclosure brochure) at least 48 hours before the contract is signed, or at the time of signing if the client is given a 5-business-day right of rescission without penalty. This ensures clients have material information before being bound."},
-      {"label": "C", "text": "Within 30 days after the advisory relationship begins, regardless of when the contract was signed.", "explanation": "Incorrect. The brochure must be delivered at or before the time the advisory agreement is entered into, not 30 days afterward. Post-contract delivery would defeat the disclosure purpose."},
-      {"label": "D", "text": "Annually at the anniversary of the advisory contract, with no pre-contract requirement.", "explanation": "Incorrect. Annual delivery (or offer) of the updated brochure is a continuing obligation, but the initial brochure delivery must occur before or at the time of contracting — not only on an annual basis."}
+      {
+        "label": "A",
+        "text": "At least 48 hours before entering into the advisory contract, OR at the time of entering the contract if the client has the right to terminate without penalty within 5 business days.",
+        "explanation": "Correct. NASAA's brochure delivery rule requires delivering the ADV Part 2A (or equivalent disclosure brochure) at least 48 hours before the contract is signed, or at the time of signing if the client is given a 5-business-day right of rescission without penalty. This ensures clients have material information before being bound."
+      },
+      {
+        "label": "B",
+        "text": "No later than 48 hours after the investment advisory contract is signed.",
+        "explanation": "Incorrect. The 48-hour rule is not the standard. The brochure delivery rule follows a specific timing tied to entering the advisory contract."
+      },
+      {
+        "label": "C",
+        "text": "Within 30 days after the advisory relationship begins, regardless of when the contract was signed.",
+        "explanation": "Incorrect. The brochure must be delivered at or before the time the advisory agreement is entered into, not 30 days afterward. Post-contract delivery would defeat the disclosure purpose."
+      },
+      {
+        "label": "D",
+        "text": "Annually at the anniversary of the advisory contract, with no pre-contract requirement.",
+        "explanation": "Incorrect. Annual delivery (or offer) of the updated brochure is a continuing obligation, but the initial brochure delivery must occur before or at the time of contracting — not only on an annual basis."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "NASAA's brochure rule (mirroring SEC Rule 204-3) requires state-registered advisers to deliver the brochure (Form ADV Part 2A or equivalent) either: (a) at least 48 hours before signing the advisory contract, or (b) at the time of signing if the client has a 5-business-day right to terminate without penalty. Annual delivery (or written offer) of the updated brochure is also required.",
     "subtopic": "investment-advisers-act",
     "difficulty": "medium",
@@ -527,12 +994,28 @@
     "section": "laws-regulations",
     "stem": "An accountant provides investment advice to clients incidentally to her accounting practice and receives no separate compensation for that advice. Under the Investment Advisers Act of 1940, is she subject to registration as an investment adviser?",
     "choices": [
-      {"label": "A", "text": "Yes, because she provides advice on securities, satisfying the definition.", "explanation": "Incorrect. The definition requires all elements: advice on securities, compensation, AND advice provided as part of a regular business. The accountant exception addresses incidental advice without separate compensation."},
-      {"label": "B", "text": "Yes, because all persons who give investment advice must register regardless of whether they are compensated.", "explanation": "Incorrect. Compensation is a required element of the investment adviser definition. Without separate compensation for the advice, a person may qualify for an exclusion."},
-      {"label": "C", "text": "No, because accountants (and lawyers and teachers) are excluded from the definition of investment adviser when investment advice is solely incidental to their profession and they receive no special compensation.", "explanation": "Correct. Section 202(a)(11)(B) of the Advisers Act excludes from the definition of investment adviser any 'lawyer, accountant, engineer, or teacher whose performance of [advisory] services is solely incidental to the practice of his profession and who receives no special compensation therefor.' Both conditions must be met: incidental AND no special compensation."},
-      {"label": "D", "text": "No, because accountants are regulated by state CPA boards and are therefore exempt from all federal securities laws.", "explanation": "Incorrect. State CPA licensing and federal securities law are separate regulatory regimes. CPA licensure does not create a blanket exemption from the Advisers Act — only the specific statutory exclusion for incidental, uncompensated advice applies."}
+      {
+        "label": "A",
+        "text": "Yes, because she provides advice on securities, satisfying the definition.",
+        "explanation": "Incorrect. The definition requires all elements: advice on securities, compensation, AND advice provided as part of a regular business. The accountant exception addresses incidental advice without separate compensation."
+      },
+      {
+        "label": "B",
+        "text": "Yes, because all persons who give investment advice must register regardless of whether they are compensated.",
+        "explanation": "Incorrect. Compensation is a required element of the investment adviser definition. Without separate compensation for the advice, a person may qualify for an exclusion."
+      },
+      {
+        "label": "C",
+        "text": "No, because accountants are regulated by state CPA boards and are therefore exempt from all federal securities laws.",
+        "explanation": "Incorrect. State CPA licensing and federal securities law are separate regulatory regimes. CPA licensure does not create a blanket exemption from the Advisers Act — only the specific statutory exclusion for incidental, uncompensated advice applies."
+      },
+      {
+        "label": "D",
+        "text": "No, because accountants (and lawyers and teachers) are excluded from the definition of investment adviser when investment advice is solely incidental to their profession and they receive no special compensation.",
+        "explanation": "Correct. Section 202(a)(11)(B) of the Advisers Act excludes from the definition of investment adviser any 'lawyer, accountant, engineer, or teacher whose performance of [advisory] services is solely incidental to the practice of his profession and who receives no special compensation therefor.' Both conditions must be met: incidental AND no special compensation."
+      }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "explanation": "Section 202(a)(11) of the Advisers Act excludes lawyers, accountants, engineers, and teachers from the definition of 'investment adviser' when two conditions are both met: (1) the investment advice is solely incidental to the practice of their profession, and (2) they receive no special compensation for that advice. If either condition fails — for example, if the accountant charges separately for investment advice — the exclusion is lost.",
     "subtopic": "investment-advisers-act",
     "difficulty": "hard",
@@ -545,12 +1028,28 @@
     "section": "laws-regulations",
     "stem": "A broker-dealer recommends a mutual fund to a retail customer and receives a 12b-1 fee from the fund company. The broker-dealer's representative does not separately disclose this fee to the customer. Under the Uniform Securities Act, which provision does this MOST likely violate?",
     "choices": [
-      {"label": "A", "text": "The prohibition on front-running, because the broker-dealer profits from trading ahead of the customer.", "explanation": "Incorrect. Front-running involves a firm or employee trading for their own account based on advance knowledge of customer orders. Receiving a 12b-1 fee without disclosure is a conflict of interest issue, not front-running."},
-      {"label": "B", "text": "The anti-fraud provision, because failing to disclose a material conflict of interest (the 12b-1 fee incentivizing the recommendation) constitutes an omission of a material fact.", "explanation": "Correct. The Uniform Securities Act's anti-fraud provision prohibits any person from making a misleading statement or omitting a material fact in connection with the offer, purchase, or sale of a security. A 12b-1 fee that incentivizes a recommendation is a material conflict of interest; failure to disclose it is a material omission and constitutes fraud."},
-      {"label": "C", "text": "The registration requirement, because 12b-1 fees must be registered with the state administrator before being charged.", "explanation": "Incorrect. There is no separate state registration requirement for 12b-1 fees. This is a disclosure and conflict of interest issue, governed by anti-fraud provisions."},
-      {"label": "D", "text": "The net capital rule, because accepting 12b-1 fees reduces the broker-dealer's net capital below required minimums.", "explanation": "Incorrect. Receiving 12b-1 fees does not reduce net capital; they are revenue, not liabilities. The net capital rule governs financial condition, not fee disclosure."}
+      {
+        "label": "A",
+        "text": "The prohibition on front-running, because the broker-dealer profits from trading ahead of the customer.",
+        "explanation": "Incorrect. Front-running involves a firm or employee trading for their own account based on advance knowledge of customer orders. Receiving a 12b-1 fee without disclosure is a conflict of interest issue, not front-running."
+      },
+      {
+        "label": "B",
+        "text": "The registration requirement, because 12b-1 fees must be registered with the state administrator before being charged.",
+        "explanation": "Incorrect. There is no separate state registration requirement for 12b-1 fees. This is a disclosure and conflict of interest issue, governed by anti-fraud provisions."
+      },
+      {
+        "label": "C",
+        "text": "The anti-fraud provision, because failing to disclose a material conflict of interest (the 12b-1 fee incentivizing the recommendation) constitutes an omission of a material fact.",
+        "explanation": "Correct. The Uniform Securities Act's anti-fraud provision prohibits any person from making a misleading statement or omitting a material fact in connection with the offer, purchase, or sale of a security. A 12b-1 fee that incentivizes a recommendation is a material conflict of interest; failure to disclose it is a material omission and constitutes fraud."
+      },
+      {
+        "label": "D",
+        "text": "The net capital rule, because accepting 12b-1 fees reduces the broker-dealer's net capital below required minimums.",
+        "explanation": "Incorrect. Receiving 12b-1 fees does not reduce net capital; they are revenue, not liabilities. The net capital rule governs financial condition, not fee disclosure."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "The Uniform Securities Act's anti-fraud provisions (mirroring Section 10(b) of the Securities Exchange Act) apply to all persons — registered or not — and prohibit omissions of material facts. A 12b-1 fee creates a financial incentive that could influence the recommendation, making it material information the customer would want to know. Failing to disclose this conflict of interest constitutes fraud through material omission.",
     "subtopic": "uniform-securities-act",
     "difficulty": "hard",
@@ -563,10 +1062,26 @@
     "section": "laws-regulations",
     "stem": "Under the Uniform Securities Act, which of the following statements CORRECTLY describes the state administrator's jurisdiction over an offer of securities?",
     "choices": [
-      {"label": "A", "text": "The state administrator has jurisdiction only if the issuer is incorporated in that state.", "explanation": "Incorrect. Jurisdiction is based on where the offer is made or received, not the issuer's state of incorporation."},
-      {"label": "B", "text": "The state administrator has jurisdiction if the offer is made in the state OR if the offer is directed to and received by a person located in the state.", "explanation": "Correct. Under the Uniform Securities Act, a state administrator has jurisdiction over an offer of securities if the offer originates in the state or if it is directed into the state (received by a person in the state). Either condition triggers jurisdiction, giving states broad reach over securities transactions involving their residents."},
-      {"label": "C", "text": "The state administrator has jurisdiction only if the securities are not registered federally with the SEC.", "explanation": "Incorrect. State administrators retain jurisdiction over federally registered securities for anti-fraud enforcement and, in many cases, blue sky registration (subject to National Securities Markets Improvement Act preemption for covered securities). Federal registration does not remove state anti-fraud jurisdiction."},
-      {"label": "D", "text": "The state administrator has jurisdiction only over transactions completed within the state's physical borders.", "explanation": "Incorrect. The USA extends jurisdiction to offers directed into the state even if they originate elsewhere. A phone call, email, or mailed prospectus sent to a state resident from another state is within the administrator's jurisdiction."}
+      {
+        "label": "A",
+        "text": "The state administrator has jurisdiction only if the issuer is incorporated in that state.",
+        "explanation": "Incorrect. Jurisdiction is based on where the offer is made or received, not the issuer's state of incorporation."
+      },
+      {
+        "label": "B",
+        "text": "The state administrator has jurisdiction if the offer is made in the state OR if the offer is directed to and received by a person located in the state.",
+        "explanation": "Correct. Under the Uniform Securities Act, a state administrator has jurisdiction over an offer of securities if the offer originates in the state or if it is directed into the state (received by a person in the state). Either condition triggers jurisdiction, giving states broad reach over securities transactions involving their residents."
+      },
+      {
+        "label": "C",
+        "text": "The state administrator has jurisdiction only if the securities are not registered federally with the SEC.",
+        "explanation": "Incorrect. State administrators retain jurisdiction over federally registered securities for anti-fraud enforcement and, in many cases, blue sky registration (subject to National Securities Markets Improvement Act preemption for covered securities). Federal registration does not remove state anti-fraud jurisdiction."
+      },
+      {
+        "label": "D",
+        "text": "The state administrator has jurisdiction only over transactions completed within the state's physical borders.",
+        "explanation": "Incorrect. The USA extends jurisdiction to offers directed into the state even if they originate elsewhere. A phone call, email, or mailed prospectus sent to a state resident from another state is within the administrator's jurisdiction."
+      }
     ],
     "correctAnswer": "B",
     "explanation": "The Uniform Securities Act provides that an offer is made in a state if it originates there OR if it is directed to and received in the state. This broad jurisdictional rule allows state administrators to protect their residents from securities fraud regardless of where the offeror is located. Both conditions independently establish jurisdiction — either the origin or the destination in the state suffices.",
@@ -581,12 +1096,28 @@
     "section": "laws-regulations",
     "stem": "A state administrator discovers that a registered investment adviser has been making materially false statements to clients about the performance of their accounts. The adviser's registration is current and no formal complaint has been filed. Which enforcement action can the state administrator take WITHOUT a prior hearing?",
     "choices": [
-      {"label": "A", "text": "Permanently revoke the adviser's registration.", "explanation": "Incorrect. A permanent revocation requires prior notice and an opportunity for a hearing. Permanent revocation without a hearing would violate due process."},
-      {"label": "B", "text": "Issue a summary suspension of the adviser's registration if it is in the public interest and the adviser has been charged with or convicted of certain crimes or is engaging in fraudulent conduct.", "explanation": "Correct. The Uniform Securities Act allows the state administrator to summarily (immediately) suspend a registration without a prior hearing when necessary to protect the public interest, provided post-suspension hearing rights are promptly afforded. Summary orders are used in urgent situations involving fraud or imminent investor harm."},
-      {"label": "C", "text": "Impose a criminal fine of up to $10,000 per violation without a hearing.", "explanation": "Incorrect. Criminal fines and penalties require prosecution through the courts with full due process protections, including a trial. Administrative summary orders do not include criminal fines."},
-      {"label": "D", "text": "Permanently bar the adviser's principals from the securities industry without notice.", "explanation": "Incorrect. Permanent bars against individuals also require prior notice and hearing rights. Only summary suspensions — temporary, pending a hearing — can be issued without a prior hearing."}
+      {
+        "label": "A",
+        "text": "Issue a summary suspension of the adviser's registration if it is in the public interest and the adviser has been charged with or convicted of certain crimes or is engaging in fraudulent conduct.",
+        "explanation": "Correct. The Uniform Securities Act allows the state administrator to summarily (immediately) suspend a registration without a prior hearing when necessary to protect the public interest, provided post-suspension hearing rights are promptly afforded. Summary orders are used in urgent situations involving fraud or imminent investor harm."
+      },
+      {
+        "label": "B",
+        "text": "Permanently revoke the adviser's registration.",
+        "explanation": "Incorrect. A permanent revocation requires prior notice and an opportunity for a hearing. Permanent revocation without a hearing would violate due process."
+      },
+      {
+        "label": "C",
+        "text": "Impose a criminal fine of up to $10,000 per violation without a hearing.",
+        "explanation": "Incorrect. Criminal fines and penalties require prosecution through the courts with full due process protections, including a trial. Administrative summary orders do not include criminal fines."
+      },
+      {
+        "label": "D",
+        "text": "Permanently bar the adviser's principals from the securities industry without notice.",
+        "explanation": "Incorrect. Permanent bars against individuals also require prior notice and hearing rights. Only summary suspensions — temporary, pending a hearing — can be issued without a prior hearing."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Under the Uniform Securities Act, the state administrator has broad enforcement powers including the ability to issue summary (immediate) suspension orders without prior notice or hearing when it is in the public interest and grounds exist (such as fraud). The registrant must be promptly notified and given the right to a hearing. Final orders (revocation, denial, censure) require prior notice and hearing opportunity.",
     "subtopic": "uniform-securities-act",
     "difficulty": "hard",
@@ -599,12 +1130,28 @@
     "section": "laws-regulations",
     "stem": "An investment adviser representative (IAR) learns that a large institutional client is about to place a $5 million buy order in a thinly traded stock. Before executing the client's order, the IAR purchases shares in her personal account. Which prohibited practice does this describe?",
     "choices": [
-      {"label": "A", "text": "Churning, because the IAR is generating excessive transactions.", "explanation": "Incorrect. Churning involves excessive trading in a client's account to generate commissions — it does not describe an adviser trading ahead of a client order for personal gain."},
-      {"label": "B", "text": "Front-running, because the IAR traded in her personal account based on advance knowledge of a pending client order that will likely move the stock's price.", "explanation": "Correct. Front-running is the prohibited practice of trading for one's own (or an undisclosed third party's) account based on advance knowledge of a pending client order that is large enough to move the market price. The IAR exploits confidential client information for personal profit — a clear violation of fiduciary duty and securities law."},
-      {"label": "C", "text": "Selling away, because the IAR executed a transaction outside her firm.", "explanation": "Incorrect. Selling away refers to a registered representative conducting securities transactions outside the supervision of their member firm. The scenario describes trading in her personal account before a client order — that is front-running, not selling away."},
-      {"label": "D", "text": "Unauthorized trading, because the IAR did not obtain client consent before entering the order.", "explanation": "Incorrect. Unauthorized trading means executing transactions in a client's account without authorization. Here, the IAR traded in her own personal account — the issue is the misuse of client order information, not unauthorized activity in the client's account."}
+      {
+        "label": "A",
+        "text": "Churning, because the IAR is generating excessive transactions.",
+        "explanation": "Incorrect. Churning involves excessive trading in a client's account to generate commissions — it does not describe an adviser trading ahead of a client order for personal gain."
+      },
+      {
+        "label": "B",
+        "text": "Unauthorized trading, because the IAR did not obtain client consent before entering the order.",
+        "explanation": "Incorrect. Unauthorized trading means executing transactions in a client's account without authorization. Here, the IAR traded in her own personal account — the issue is the misuse of client order information, not unauthorized activity in the client's account."
+      },
+      {
+        "label": "C",
+        "text": "Selling away, because the IAR executed a transaction outside her firm.",
+        "explanation": "Incorrect. Selling away refers to a registered representative conducting securities transactions outside the supervision of their member firm. The scenario describes trading in her personal account before a client order — that is front-running, not selling away."
+      },
+      {
+        "label": "D",
+        "text": "Front-running, because the IAR traded in her personal account based on advance knowledge of a pending client order that will likely move the stock's price.",
+        "explanation": "Correct. Front-running is the prohibited practice of trading for one's own (or an undisclosed third party's) account based on advance knowledge of a pending client order that is large enough to move the market price. The IAR exploits confidential client information for personal profit — a clear violation of fiduciary duty and securities law."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Front-running is a form of market manipulation and a violation of an investment adviser's fiduciary duty. By purchasing shares in her personal account before executing the client's large order — knowing the client order will likely drive up the price — the IAR profits at the client's expense. This is prohibited under the Advisers Act, NASAA rules, and state securities laws as a fraudulent and deceptive practice.",
     "subtopic": "prohibited-practices",
     "difficulty": "easy",
@@ -617,10 +1164,26 @@
     "section": "laws-regulations",
     "stem": "An investment adviser tells a prospective client: 'I guarantee that if you invest with me, your portfolio will not lose value in any market condition.' Is this statement permissible?",
     "choices": [
-      {"label": "A", "text": "Yes, if the adviser has a strong performance track record that supports the guarantee.", "explanation": "Incorrect. Past performance, however strong, cannot justify a guarantee against loss. Market conditions are inherently unpredictable, and guarantees against loss are prohibited regardless of historical track record."},
-      {"label": "B", "text": "Yes, if the guarantee is in writing and part of the advisory contract.", "explanation": "Incorrect. Putting the guarantee in writing does not make it permissible — it makes it a documented violation. Guarantees against loss are prohibited under both the Advisers Act and NASAA rules regardless of form."},
-      {"label": "C", "text": "No, because guaranteeing against loss is a prohibited practice for investment advisers under state and federal securities laws.", "explanation": "Correct. Guaranteeing against loss is explicitly prohibited for investment advisers under the NASAA Model Rules and under the antifraud provisions of the Investment Advisers Act of 1940. Such guarantees are inherently misleading because no investment strategy can guarantee against all losses, and making such a promise constitutes a fraudulent or deceptive practice."},
-      {"label": "D", "text": "No, but only if the adviser does not have adequate capital reserves to back the guarantee.", "explanation": "Incorrect. The prohibition on guarantees against loss is absolute — it applies regardless of the adviser's financial resources. The issue is that such a representation is inherently deceptive, not merely underfunded."}
+      {
+        "label": "A",
+        "text": "Yes, if the adviser has a strong performance track record that supports the guarantee.",
+        "explanation": "Incorrect. Past performance, however strong, cannot justify a guarantee against loss. Market conditions are inherently unpredictable, and guarantees against loss are prohibited regardless of historical track record."
+      },
+      {
+        "label": "B",
+        "text": "Yes, if the guarantee is in writing and part of the advisory contract.",
+        "explanation": "Incorrect. Putting the guarantee in writing does not make it permissible — it makes it a documented violation. Guarantees against loss are prohibited under both the Advisers Act and NASAA rules regardless of form."
+      },
+      {
+        "label": "C",
+        "text": "No, because guaranteeing against loss is a prohibited practice for investment advisers under state and federal securities laws.",
+        "explanation": "Correct. Guaranteeing against loss is explicitly prohibited for investment advisers under the NASAA Model Rules and under the antifraud provisions of the Investment Advisers Act of 1940. Such guarantees are inherently misleading because no investment strategy can guarantee against all losses, and making such a promise constitutes a fraudulent or deceptive practice."
+      },
+      {
+        "label": "D",
+        "text": "No, but only if the adviser does not have adequate capital reserves to back the guarantee.",
+        "explanation": "Incorrect. The prohibition on guarantees against loss is absolute — it applies regardless of the adviser's financial resources. The issue is that such a representation is inherently deceptive, not merely underfunded."
+      }
     ],
     "correctAnswer": "C",
     "explanation": "Guaranteeing clients against investment loss is a prohibited practice for investment advisers under NASAA Model Rules and under Section 206 of the Advisers Act (fraud and deceit). Investments are inherently subject to market risk, and promising immunity from loss is a material misrepresentation. This prohibition applies regardless of the adviser's track record, financial condition, or whether the guarantee is oral or written.",
@@ -635,12 +1198,28 @@
     "section": "laws-regulations",
     "stem": "An investment adviser wishes to share in the profits of a client's account. Under NASAA rules, under which conditions is performance-based compensation (profit sharing) permissible for state-registered advisers?",
     "choices": [
-      {"label": "A", "text": "Performance-based fees are never permitted for state-registered investment advisers.", "explanation": "Incorrect. Performance-based fees are permitted under specific conditions. They are not categorically prohibited — they are subject to conditions designed to protect clients."},
-      {"label": "B", "text": "Performance-based fees are permissible for any client as long as the fee arrangement is disclosed in the advisory contract.", "explanation": "Incorrect. Disclosure alone is insufficient. Performance-based fee arrangements must meet specific conditions, including client eligibility requirements (typically high net worth or sophistication), to be permissible."},
-      {"label": "C", "text": "Performance-based fees are permissible if: the client has net worth over $2.1 million or at least $1 million under management with the adviser, there is a written agreement, and the arrangement covers losses as well as gains (fulcrum fee or symmetric sharing).", "explanation": "Correct. NASAA rules (mirroring SEC Rule 205-3) permit performance-based compensation only for 'qualified clients' (meeting net worth or AUM thresholds), with a written agreement, and the arrangement must be symmetric — the adviser must share in losses as well as gains proportionally. This prevents advisers from taking excessive risk with client assets to maximize performance fees."},
-      {"label": "D", "text": "Performance-based fees are permissible only for institutional clients with over $100 million under management with the adviser.", "explanation": "Incorrect. The $100 million threshold does not appear in the qualified client rule. The applicable thresholds under NASAA and SEC Rule 205-3 are net worth over $2.1 million or at least $1.1 million AUM with the adviser (thresholds are periodically adjusted by SEC order)."}
+      {
+        "label": "A",
+        "text": "Performance-based fees are never permitted for state-registered investment advisers.",
+        "explanation": "Incorrect. Performance-based fees are permitted under specific conditions. They are not categorically prohibited — they are subject to conditions designed to protect clients."
+      },
+      {
+        "label": "B",
+        "text": "Performance-based fees are permissible if: the client has net worth over $2.1 million or at least $1 million under management with the adviser, there is a written agreement, and the arrangement covers losses as well as gains (fulcrum fee or symmetric sharing).",
+        "explanation": "Correct. NASAA rules (mirroring SEC Rule 205-3) permit performance-based compensation only for 'qualified clients' (meeting net worth or AUM thresholds), with a written agreement, and the arrangement must be symmetric — the adviser must share in losses as well as gains proportionally. This prevents advisers from taking excessive risk with client assets to maximize performance fees."
+      },
+      {
+        "label": "C",
+        "text": "Performance-based fees are permissible for any client as long as the fee arrangement is disclosed in the advisory contract.",
+        "explanation": "Incorrect. Disclosure alone is insufficient. Performance-based fee arrangements must meet specific conditions, including client eligibility requirements (typically high net worth or sophistication), to be permissible."
+      },
+      {
+        "label": "D",
+        "text": "Performance-based fees are permissible only for institutional clients with over $100 million under management with the adviser.",
+        "explanation": "Incorrect. The $100 million threshold does not appear in the qualified client rule. The applicable thresholds under NASAA and SEC Rule 205-3 are net worth over $2.1 million or at least $1.1 million AUM with the adviser (thresholds are periodically adjusted by SEC order)."
+      }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "B",
     "explanation": "Under NASAA rules (analogous to SEC Rule 205-3), investment advisers may charge performance-based compensation only to 'qualified clients' meeting net worth or AUM thresholds. The arrangement must be in writing, and the adviser must share proportionally in losses as well as gains (symmetric or fulcrum-fee structure). This prevents advisers from recklessly chasing upside at the client's expense while bearing no downside.",
     "subtopic": "prohibited-practices",
     "difficulty": "hard",
@@ -653,12 +1232,28 @@
     "section": "laws-regulations",
     "stem": "Under SEC Rule 206(4)-2 (the custody rule), an investment adviser that has custody of client funds must use a 'qualified custodian.' Which of the following is a qualified custodian?",
     "choices": [
-      {"label": "A", "text": "Any registered investment adviser that also holds client assets.", "explanation": "Incorrect. An investment adviser acting as its own custodian does not satisfy the qualified custodian requirement merely by virtue of being registered. The rule requires specific institutional custodians."},
-      {"label": "B", "text": "Any entity that carries SIPC insurance.", "explanation": "Incorrect. SIPC membership is generally associated with broker-dealers, but SIPC membership alone does not define or limit the category of qualified custodians. Banks, for example, are qualified custodians and are not SIPC members."},
-      {"label": "C", "text": "An independent attorney who holds client funds in escrow on behalf of the adviser.", "explanation": "Incorrect. An attorney holding funds in escrow does not meet the statutory definition of a qualified custodian. The rule requires regulated financial institutions with specific characteristics."},
-      {"label": "D", "text": "A bank, savings association, registered broker-dealer, registered futures commission merchant, or certain foreign financial institutions.", "explanation": "Correct. SEC Rule 206(4)-2 defines 'qualified custodian' to include: banks (and savings associations), registered broker-dealers, registered futures commission merchants (for futures/options assets), and foreign financial institutions that customarily hold financial assets for their customers in jurisdictions with robust regulatory regimes."}
+      {
+        "label": "A",
+        "text": "A bank, savings association, registered broker-dealer, registered futures commission merchant, or certain foreign financial institutions.",
+        "explanation": "Correct. SEC Rule 206(4)-2 defines 'qualified custodian' to include: banks (and savings associations), registered broker-dealers, registered futures commission merchants (for futures/options assets), and foreign financial institutions that customarily hold financial assets for their customers in jurisdictions with robust regulatory regimes."
+      },
+      {
+        "label": "B",
+        "text": "Any entity that carries SIPC insurance.",
+        "explanation": "Incorrect. SIPC membership is generally associated with broker-dealers, but SIPC membership alone does not define or limit the category of qualified custodians. Banks, for example, are qualified custodians and are not SIPC members."
+      },
+      {
+        "label": "C",
+        "text": "An independent attorney who holds client funds in escrow on behalf of the adviser.",
+        "explanation": "Incorrect. An attorney holding funds in escrow does not meet the statutory definition of a qualified custodian. The rule requires regulated financial institutions with specific characteristics."
+      },
+      {
+        "label": "D",
+        "text": "Any registered investment adviser that also holds client assets.",
+        "explanation": "Incorrect. An investment adviser acting as its own custodian does not satisfy the qualified custodian requirement merely by virtue of being registered. The rule requires specific institutional custodians."
+      }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "A",
     "explanation": "SEC Rule 206(4)-2 requires that investment advisers with custody of client assets maintain those assets with a 'qualified custodian' — a bank, savings association, FINRA-registered broker-dealer, registered futures commission merchant, or certain foreign financial institutions. The rule also requires that clients receive account statements directly from the qualified custodian (not just from the adviser) and, in certain cases, an annual surprise examination by an independent public accountant.",
     "subtopic": "custody-and-recordkeeping",
     "difficulty": "medium",
@@ -671,12 +1266,28 @@
     "section": "laws-regulations",
     "stem": "An investment adviser has custody of client funds. Under SEC Rule 206(4)-2, in addition to using a qualified custodian, which additional requirement applies when the adviser or a related person serves as the qualified custodian?",
     "choices": [
-      {"label": "A", "text": "The adviser must obtain an annual surprise examination by an independent public accountant registered with the PCAOB.", "explanation": "Correct. When an adviser or a related person serves as the qualified custodian, Rule 206(4)-2 requires an annual surprise examination by an independent public accountant registered with the Public Company Accounting Oversight Board (PCAOB). This heightened requirement addresses the increased risk when the custodian is not truly independent from the adviser."},
-      {"label": "B", "text": "The adviser must obtain a fidelity bond equal to at least 120% of client assets held in custody.", "explanation": "Incorrect. Fidelity bonds are not the additional requirement under Rule 206(4)-2 when the adviser self-custodies. The rule imposes a specific examination requirement."},
-      {"label": "C", "text": "The adviser must hire an independent compliance consultant to review custody arrangements quarterly.", "explanation": "Incorrect. There is no quarterly independent compliance consultant requirement under Rule 206(4)-2. The rule specifies an annual surprise examination by a PCAOB-registered accountant."},
-      {"label": "D", "text": "The adviser must provide daily account statements to clients, rather than monthly.", "explanation": "Incorrect. The frequency of account statements is not increased to daily when the adviser self-custodies. The standard under the rule is quarterly statements from the qualified custodian (or the adviser if the custodian doesn't send them), plus annual surprise examination."}
+      {
+        "label": "A",
+        "text": "The adviser must provide daily account statements to clients, rather than monthly.",
+        "explanation": "Incorrect. The frequency of account statements is not increased to daily when the adviser self-custodies. The standard under the rule is quarterly statements from the qualified custodian (or the adviser if the custodian doesn't send them), plus annual surprise examination."
+      },
+      {
+        "label": "B",
+        "text": "The adviser must obtain a fidelity bond equal to at least 120% of client assets held in custody.",
+        "explanation": "Incorrect. Fidelity bonds are not the additional requirement under Rule 206(4)-2 when the adviser self-custodies. The rule imposes a specific examination requirement."
+      },
+      {
+        "label": "C",
+        "text": "The adviser must hire an independent compliance consultant to review custody arrangements quarterly.",
+        "explanation": "Incorrect. There is no quarterly independent compliance consultant requirement under Rule 206(4)-2. The rule specifies an annual surprise examination by a PCAOB-registered accountant."
+      },
+      {
+        "label": "D",
+        "text": "The adviser must obtain an annual surprise examination by an independent public accountant registered with the PCAOB.",
+        "explanation": "Correct. When an adviser or a related person serves as the qualified custodian, Rule 206(4)-2 requires an annual surprise examination by an independent public accountant registered with the Public Company Accounting Oversight Board (PCAOB). This heightened requirement addresses the increased risk when the custodian is not truly independent from the adviser."
+      }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "When an investment adviser or a related person serves as the qualified custodian (self-custody), Rule 206(4)-2 requires an annual surprise examination by an independent public accountant registered with the PCAOB. The 'surprise' element means the examination date is not pre-announced. This requirement provides an independent check on the assets held, reducing the risk of fraud when the entity holding and managing the assets is not truly independent.",
     "subtopic": "custody-and-recordkeeping",
     "difficulty": "hard",
@@ -689,10 +1300,26 @@
     "section": "laws-regulations",
     "stem": "Under the Investment Advisers Act of 1940, for how long must a registered investment adviser retain most books and records, and where must the records be kept for the first portion of that period?",
     "choices": [
-      {"label": "A", "text": "3 years total; records may be kept at any offsite storage facility from the beginning.", "explanation": "Incorrect. The retention period for most adviser records is 5 years, not 3 years. The first 2 years require readily accessible storage."},
-      {"label": "B", "text": "7 years total; records must be kept at the principal office for the first 5 years.", "explanation": "Incorrect. Seven-year retention applies to certain FINRA broker-dealer records; investment adviser records are generally retained for 5 years. The accessible storage requirement is for the first 2 years."},
-      {"label": "C", "text": "5 years total; records must be kept in an easily accessible place for the first 2 years.", "explanation": "Correct. SEC Rule 204-2 requires investment advisers to retain most books and records for 5 years from the end of the fiscal year in which the record was created. For the first 2 years of that period, the records must be maintained in an easily accessible place (e.g., at the principal office)."},
-      {"label": "D", "text": "5 years total; records must be maintained only in paper form and stored in a fire-proof vault.", "explanation": "Incorrect. Rule 204-2 permits records to be maintained electronically, subject to requirements ensuring integrity and accessibility. There is no requirement for paper-only storage or a fire-proof vault."}
+      {
+        "label": "A",
+        "text": "3 years total; records may be kept at any offsite storage facility from the beginning.",
+        "explanation": "Incorrect. The retention period for most adviser records is 5 years, not 3 years. The first 2 years require readily accessible storage."
+      },
+      {
+        "label": "B",
+        "text": "7 years total; records must be kept at the principal office for the first 5 years.",
+        "explanation": "Incorrect. Seven-year retention applies to certain FINRA broker-dealer records; investment adviser records are generally retained for 5 years. The accessible storage requirement is for the first 2 years."
+      },
+      {
+        "label": "C",
+        "text": "5 years total; records must be kept in an easily accessible place for the first 2 years.",
+        "explanation": "Correct. SEC Rule 204-2 requires investment advisers to retain most books and records for 5 years from the end of the fiscal year in which the record was created. For the first 2 years of that period, the records must be maintained in an easily accessible place (e.g., at the principal office)."
+      },
+      {
+        "label": "D",
+        "text": "5 years total; records must be maintained only in paper form and stored in a fire-proof vault.",
+        "explanation": "Incorrect. Rule 204-2 permits records to be maintained electronically, subject to requirements ensuring integrity and accessibility. There is no requirement for paper-only storage or a fire-proof vault."
+      }
     ],
     "correctAnswer": "C",
     "explanation": "SEC Rule 204-2 requires registered investment advisers to maintain and preserve most books and records for 5 years from the end of the fiscal year in which the document was made. The records must be kept in an easily accessible place for the first 2 years of the retention period. Records may be maintained in electronic format subject to specific conditions regarding accuracy, accessibility, and backup.",
@@ -707,12 +1334,28 @@
     "section": "laws-regulations",
     "stem": "An investment adviser holds a significant position in XYZ stock and recommends it to clients without disclosing this ownership interest. Which component of the adviser's fiduciary duty is MOST directly violated?",
     "choices": [
-      {"label": "A", "text": "Duty of care, because the adviser failed to conduct adequate research before recommending XYZ.", "explanation": "Incorrect. The duty of care relates to making recommendations based on reasonable investigation and client suitability. The violation here is about the undisclosed conflict of interest — the adviser's personal financial stake in the recommendation — which is the duty of loyalty."},
-      {"label": "B", "text": "Net capital rule, because the adviser's concentrated position in XYZ may impair financial condition.", "explanation": "Incorrect. The net capital rule applies to broker-dealers' financial condition and liquidity, not to investment advisers' conflicts of interest. This scenario describes a fiduciary duty violation, not a net capital issue."},
-      {"label": "C", "text": "Brochure delivery rule, because the adviser failed to deliver Form ADV Part 2A before the recommendation.", "explanation": "Incorrect. While Form ADV should disclose conflicts of interest, the brochure delivery rule governs the timing of document delivery to new clients — it is not the primary rule violated when an adviser makes a conflicted recommendation without disclosure."},
-      {"label": "D", "text": "Duty of loyalty, because the adviser failed to disclose a material conflict of interest that compromises the objectivity of the recommendation.", "explanation": "Correct. The duty of loyalty requires investment advisers to act in the client's best interest and to disclose (and manage) conflicts of interest. Recommending securities in which the adviser has an undisclosed financial interest is the textbook example of a duty of loyalty violation — the adviser may be motivated by personal gain rather than client benefit."}
+      {
+        "label": "A",
+        "text": "Duty of care, because the adviser failed to conduct adequate research before recommending XYZ.",
+        "explanation": "Incorrect. The duty of care relates to making recommendations based on reasonable investigation and client suitability. The violation here is about the undisclosed conflict of interest — the adviser's personal financial stake in the recommendation — which is the duty of loyalty."
+      },
+      {
+        "label": "B",
+        "text": "Duty of loyalty, because the adviser failed to disclose a material conflict of interest that compromises the objectivity of the recommendation.",
+        "explanation": "Correct. The duty of loyalty requires investment advisers to act in the client's best interest and to disclose (and manage) conflicts of interest. Recommending securities in which the adviser has an undisclosed financial interest is the textbook example of a duty of loyalty violation — the adviser may be motivated by personal gain rather than client benefit."
+      },
+      {
+        "label": "C",
+        "text": "Brochure delivery rule, because the adviser failed to deliver Form ADV Part 2A before the recommendation.",
+        "explanation": "Incorrect. While Form ADV should disclose conflicts of interest, the brochure delivery rule governs the timing of document delivery to new clients — it is not the primary rule violated when an adviser makes a conflicted recommendation without disclosure."
+      },
+      {
+        "label": "D",
+        "text": "Net capital rule, because the adviser's concentrated position in XYZ may impair financial condition.",
+        "explanation": "Incorrect. The net capital rule applies to broker-dealers' financial condition and liquidity, not to investment advisers' conflicts of interest. This scenario describes a fiduciary duty violation, not a net capital issue."
+      }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "B",
     "explanation": "Investment advisers owe clients a fiduciary duty comprising two core obligations: (1) duty of loyalty — act in the client's best interest and disclose/manage conflicts; and (2) duty of care — act on the basis of reasonable investigation and in the client's best interest. Recommending securities without disclosing a personal ownership interest is a classic duty of loyalty violation. Section 206 of the Advisers Act makes this conduct fraudulent.",
     "subtopic": "fiduciary-duty",
     "difficulty": "easy",
@@ -725,12 +1368,28 @@
     "section": "laws-regulations",
     "stem": "Which statement BEST describes the key difference between the fiduciary standard applicable to investment advisers and the Regulation Best Interest (Reg BI) standard applicable to broker-dealers when making recommendations to retail customers?",
     "choices": [
-      {"label": "A", "text": "There is no meaningful difference; both standards require the professional to act in the client's best interest at all times.", "explanation": "Incorrect. While both standards use 'best interest' language, they differ in important ways. The fiduciary standard is ongoing and relationship-based; Reg BI is transactional (applies at the time of a recommendation) and does not impose a continuous duty."},
-      {"label": "B", "text": "The fiduciary standard imposes an ongoing duty of loyalty and care throughout the advisory relationship, while Reg BI applies at the point of a recommendation and does not prohibit all conflicts of interest — only requires they be disclosed and mitigated.", "explanation": "Correct. Investment advisers' fiduciary duty is continuous — it applies throughout the relationship and requires acting in the client's best interest at all times, placing client interests above the adviser's own. Reg BI applies at the time of a recommendation and requires disclosure and mitigation (not elimination) of conflicts. A broker-dealer may still retain certain conflicts under Reg BI if they are disclosed and mitigated."},
-      {"label": "C", "text": "Reg BI is a higher standard than the fiduciary standard because it applies federal securities law rather than state common law.", "explanation": "Incorrect. The fiduciary standard is broadly considered a higher standard than Reg BI. Reg BI is a significant enhancement over the prior suitability rule but does not reach the full ongoing fiduciary obligations of investment advisers."},
-      {"label": "D", "text": "The fiduciary standard applies only to discretionary accounts, while Reg BI applies to both discretionary and non-discretionary accounts.", "explanation": "Incorrect. The fiduciary standard applies to all investment adviser client relationships regardless of whether the account is discretionary. The fiduciary duty is triggered by the advisory relationship itself, not the type of account."}
+      {
+        "label": "A",
+        "text": "The fiduciary standard imposes an ongoing duty of loyalty and care throughout the advisory relationship, while Reg BI applies at the point of a recommendation and does not prohibit all conflicts of interest — only requires they be disclosed and mitigated.",
+        "explanation": "Correct. Investment advisers' fiduciary duty is continuous — it applies throughout the relationship and requires acting in the client's best interest at all times, placing client interests above the adviser's own. Reg BI applies at the time of a recommendation and requires disclosure and mitigation (not elimination) of conflicts. A broker-dealer may still retain certain conflicts under Reg BI if they are disclosed and mitigated."
+      },
+      {
+        "label": "B",
+        "text": "There is no meaningful difference; both standards require the professional to act in the client's best interest at all times.",
+        "explanation": "Incorrect. While both standards use 'best interest' language, they differ in important ways. The fiduciary standard is ongoing and relationship-based; Reg BI is transactional (applies at the time of a recommendation) and does not impose a continuous duty."
+      },
+      {
+        "label": "C",
+        "text": "Reg BI is a higher standard than the fiduciary standard because it applies federal securities law rather than state common law.",
+        "explanation": "Incorrect. The fiduciary standard is broadly considered a higher standard than Reg BI. Reg BI is a significant enhancement over the prior suitability rule but does not reach the full ongoing fiduciary obligations of investment advisers."
+      },
+      {
+        "label": "D",
+        "text": "The fiduciary standard applies only to discretionary accounts, while Reg BI applies to both discretionary and non-discretionary accounts.",
+        "explanation": "Incorrect. The fiduciary standard applies to all investment adviser client relationships regardless of whether the account is discretionary. The fiduciary duty is triggered by the advisory relationship itself, not the type of account."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Investment advisers are fiduciaries under the Advisers Act, subject to an ongoing, relationship-based duty of loyalty (client interest first, manage conflicts) and duty of care (reasonable investigation, suitable advice). Reg BI (SEC Release IA-5248) requires broker-dealers to act in the retail customer's best interest at the time of a recommendation and to disclose and mitigate conflicts — but unlike the fiduciary standard, it does not require elimination of all conflicts or impose a continuous duty between recommendations.",
     "subtopic": "fiduciary-duty",
     "difficulty": "hard",
@@ -743,12 +1402,28 @@
     "section": "laws-regulations",
     "stem": "An investment adviser representative (IAR) is registered in State A, where the advisory firm is based. A client who lives in State A temporarily relocates to State B for 6 months. The IAR continues to service the client remotely. Under NASAA's de minimis exemption, must the IAR register in State B?",
     "choices": [
-      {"label": "A", "text": "Yes, immediately upon the client relocating to State B.", "explanation": "Incorrect. NASAA's de minimis rule provides a grace period for IAR registration when an existing client moves to a new state. Immediate registration is not required."},
-      {"label": "B", "text": "No, because the IAR has no place of business in State B and serves fewer than the de minimis client threshold.", "explanation": "Correct. NASAA's model rules provide that an IAR does not need to register in a state where the IAR has no place of business if the IAR serves 5 or fewer clients in that state within a 12-month period. Continuing to service an existing client who temporarily moved falls under this de minimis exemption, especially for fewer than 5 clients."},
-      {"label": "C", "text": "No, because IAR registration is exclusively a federal requirement handled by FINRA.", "explanation": "Incorrect. IAR registration is a state-level requirement, not federal. IARs of state-registered advisers register with state securities regulators (not FINRA or the SEC) in states where they have a place of business or exceed de minimis client thresholds."},
-      {"label": "D", "text": "Yes, but the IAR has 90 days after the client relocates to complete the State B registration.", "explanation": "Incorrect. While there is a grace period concept in some registrations, the de minimis exemption based on client count is the more applicable rule here. Continued service to a single existing client under the de minimis threshold does not require registration, regardless of a 90-day window."}
+      {
+        "label": "A",
+        "text": "Yes, immediately upon the client relocating to State B.",
+        "explanation": "Incorrect. NASAA's de minimis rule provides a grace period for IAR registration when an existing client moves to a new state. Immediate registration is not required."
+      },
+      {
+        "label": "B",
+        "text": "Yes, but the IAR has 90 days after the client relocates to complete the State B registration.",
+        "explanation": "Incorrect. While there is a grace period concept in some registrations, the de minimis exemption based on client count is the more applicable rule here. Continued service to a single existing client under the de minimis threshold does not require registration, regardless of a 90-day window."
+      },
+      {
+        "label": "C",
+        "text": "No, because IAR registration is exclusively a federal requirement handled by FINRA.",
+        "explanation": "Incorrect. IAR registration is a state-level requirement, not federal. IARs of state-registered advisers register with state securities regulators (not FINRA or the SEC) in states where they have a place of business or exceed de minimis client thresholds."
+      },
+      {
+        "label": "D",
+        "text": "No, because the IAR has no place of business in State B and serves fewer than the de minimis client threshold.",
+        "explanation": "Correct. NASAA's model rules provide that an IAR does not need to register in a state where the IAR has no place of business if the IAR serves 5 or fewer clients in that state within a 12-month period. Continuing to service an existing client who temporarily moved falls under this de minimis exemption, especially for fewer than 5 clients."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "NASAA's model rules include a de minimis exemption for IARs: an IAR with no place of business in a state need not register there if the IAR has 5 or fewer clients in that state during any 12-month period. Servicing an existing client who temporarily moves to another state typically falls within this exemption. State registration for IARs is required when they have a place of business in the state or exceed the de minimis client threshold.",
     "subtopic": "uniform-securities-act",
     "difficulty": "hard",
@@ -761,12 +1436,28 @@
     "section": "laws-regulations",
     "stem": "An investment adviser's portfolio manager sells shares of ABC Corp from discretionary client accounts on Monday, knowing the firm will release a research report downgrading ABC on Wednesday. A few days later, several clients complain their accounts sold ABC right before it declined. Which prohibited practice does this describe?",
     "choices": [
-      {"label": "A", "text": "Excessive trading (churning), because multiple accounts sold ABC in a short period.", "explanation": "Incorrect. Churning involves excessive transactions designed to generate commissions — it is not about the timing of trades relative to proprietary research. The issue here is the advisers exploiting inside information about their own forthcoming research."},
-      {"label": "B", "text": "Front-running, because the firm traded ahead of its own research report — a material event that would predictably affect the stock price.", "explanation": "Correct. Front-running in the research context involves trading in clients' (or proprietary) accounts ahead of the firm's own research action — in this case, selling client holdings before a downgrade report is released. This exploits advance knowledge of a material, non-public (within the firm) event. It is a breach of fiduciary duty and a deceptive practice."},
-      {"label": "C", "text": "Unauthorized trading, because the clients did not specifically authorize the sale of ABC on Monday.", "explanation": "Incorrect. In discretionary accounts, the adviser is authorized to trade without prior client approval for each transaction. The violation here is the improper motivation (using advance knowledge of the research report), not lack of authorization."},
-      {"label": "D", "text": "Selling away, because the trades were executed outside the firm's normal order management system.", "explanation": "Incorrect. The question does not state the trades were outside the firm's system. Selling away refers to transactions conducted outside the firm's supervision. The described conduct is front-running."}
+      {
+        "label": "A",
+        "text": "Excessive trading (churning), because multiple accounts sold ABC in a short period.",
+        "explanation": "Incorrect. Churning involves excessive transactions designed to generate commissions — it is not about the timing of trades relative to proprietary research. The issue here is the advisers exploiting inside information about their own forthcoming research."
+      },
+      {
+        "label": "B",
+        "text": "Unauthorized trading, because the clients did not specifically authorize the sale of ABC on Monday.",
+        "explanation": "Incorrect. In discretionary accounts, the adviser is authorized to trade without prior client approval for each transaction. The violation here is the improper motivation (using advance knowledge of the research report), not lack of authorization."
+      },
+      {
+        "label": "C",
+        "text": "Front-running, because the firm traded ahead of its own research report — a material event that would predictably affect the stock price.",
+        "explanation": "Correct. Front-running in the research context involves trading in clients' (or proprietary) accounts ahead of the firm's own research action — in this case, selling client holdings before a downgrade report is released. This exploits advance knowledge of a material, non-public (within the firm) event. It is a breach of fiduciary duty and a deceptive practice."
+      },
+      {
+        "label": "D",
+        "text": "Selling away, because the trades were executed outside the firm's normal order management system.",
+        "explanation": "Incorrect. The question does not state the trades were outside the firm's system. Selling away refers to transactions conducted outside the firm's supervision. The described conduct is front-running."
+      }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Using advance knowledge of a firm's own forthcoming research report to trade ahead of that report — thereby profiting or avoiding loss at clients' expense — is a form of front-running. The firm exploits material non-public information (the downgrade) that it itself controls. This violates fiduciary duty, Section 206 of the Advisers Act, and constitutes a deceptive and manipulative practice. Firms must have policies preventing personnel from trading on advance knowledge of firm research actions.",
     "subtopic": "prohibited-practices",
     "difficulty": "medium",
@@ -779,12 +1470,28 @@
     "section": "laws-regulations",
     "stem": "Under the Uniform Securities Act, the anti-fraud provisions apply to which persons in connection with the purchase or sale of a security?",
     "choices": [
-      {"label": "A", "text": "Only registered broker-dealers and investment advisers.", "explanation": "Incorrect. The anti-fraud provisions are not limited to registered persons. One of the most important principles of securities law is that anti-fraud rules apply universally — registration does not exempt a person, and lack of required registration does not exempt an unregistered person from fraud liability."},
-      {"label": "B", "text": "Only persons who are required to register but have failed to do so.", "explanation": "Incorrect. Anti-fraud provisions apply to all persons — both those who are registered and those who are not. Unregistered persons face additional violations (failure to register), but that does not limit anti-fraud liability to them alone."},
-      {"label": "C", "text": "Only issuers of securities, because they are in the best position to control disclosures.", "explanation": "Incorrect. Anti-fraud provisions apply far beyond issuers — they reach any person involved in securities transactions: advisers, broker-dealers, IARs, agents, and even unlicensed individuals who commit fraud in connection with securities."},
-      {"label": "D", "text": "Any person — registered or unregistered — in connection with the offer, sale, or purchase of any security.", "explanation": "Correct. The Uniform Securities Act's anti-fraud provisions (Section 101) apply to 'any person' in connection with the offer, purchase, or sale of a security. Registration status is irrelevant to anti-fraud liability. Even exempt securities and exempt transactions are subject to the anti-fraud rules."}
+      {
+        "label": "A",
+        "text": "Only registered broker-dealers and investment advisers.",
+        "explanation": "Incorrect. The anti-fraud provisions are not limited to registered persons. One of the most important principles of securities law is that anti-fraud rules apply universally — registration does not exempt a person, and lack of required registration does not exempt an unregistered person from fraud liability."
+      },
+      {
+        "label": "B",
+        "text": "Any person — registered or unregistered — in connection with the offer, sale, or purchase of any security.",
+        "explanation": "Correct. The Uniform Securities Act's anti-fraud provisions (Section 101) apply to 'any person' in connection with the offer, purchase, or sale of a security. Registration status is irrelevant to anti-fraud liability. Even exempt securities and exempt transactions are subject to the anti-fraud rules."
+      },
+      {
+        "label": "C",
+        "text": "Only issuers of securities, because they are in the best position to control disclosures.",
+        "explanation": "Incorrect. Anti-fraud provisions apply far beyond issuers — they reach any person involved in securities transactions: advisers, broker-dealers, IARs, agents, and even unlicensed individuals who commit fraud in connection with securities."
+      },
+      {
+        "label": "D",
+        "text": "Only persons who are required to register but have failed to do so.",
+        "explanation": "Incorrect. Anti-fraud provisions apply to all persons — both those who are registered and those who are not. Unregistered persons face additional violations (failure to register), but that does not limit anti-fraud liability to them alone."
+      }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "B",
     "explanation": "One of the foundational principles of the Uniform Securities Act and federal securities law (Section 10(b) of the Securities Exchange Act) is that anti-fraud provisions apply universally — to any person in connection with any securities transaction. There are no registration-based safe harbors from fraud liability. An exemption from registration does not create an exemption from the anti-fraud rules, and neither does a securities or transaction exemption.",
     "subtopic": "uniform-securities-act",
     "difficulty": "medium",
@@ -797,12 +1504,28 @@
     "section": "laws-regulations",
     "stem": "An investment adviser's Form ADV Part 2B (the brochure supplement) primarily discloses information about which persons?",
     "choices": [
-      {"label": "A", "text": "The advisory firm's disciplinary history and business practices.", "explanation": "Incorrect. Firm-level disciplinary history and business practices are disclosed in Form ADV Part 2A (the firm brochure), not Part 2B."},
-      {"label": "B", "text": "The identities and ownership interests of all shareholders holding more than 5% of the advisory firm.", "explanation": "Incorrect. Ownership information appears in Form ADV Part 1 (Schedule A and B), not in Part 2B. Part 2B focuses on individual supervised persons who directly advise clients."},
-      {"label": "C", "text": "The advisory firm's fee schedule, conflicts of interest, and investment strategies at the portfolio level.", "explanation": "Incorrect. Fees, conflicts, and portfolio-level investment strategies are disclosed in Form ADV Part 2A. Part 2B is specific to individual supervised persons who provide direct advice to clients."},
-      {"label": "D", "text": "The supervised persons (investment adviser representatives) who provide investment advice directly to clients.", "explanation": "Correct. Form ADV Part 2B is the brochure supplement and must be delivered to clients for each supervised person who will provide investment advice to that client. It discloses the individual's educational background, business experience, disciplinary history, and other relationships. It supplements the firm-level disclosures in Part 2A."}
+      {
+        "label": "A",
+        "text": "The supervised persons (investment adviser representatives) who provide investment advice directly to clients.",
+        "explanation": "Correct. Form ADV Part 2B is the brochure supplement and must be delivered to clients for each supervised person who will provide investment advice to that client. It discloses the individual's educational background, business experience, disciplinary history, and other relationships. It supplements the firm-level disclosures in Part 2A."
+      },
+      {
+        "label": "B",
+        "text": "The identities and ownership interests of all shareholders holding more than 5% of the advisory firm.",
+        "explanation": "Incorrect. Ownership information appears in Form ADV Part 1 (Schedule A and B), not in Part 2B. Part 2B focuses on individual supervised persons who directly advise clients."
+      },
+      {
+        "label": "C",
+        "text": "The advisory firm's fee schedule, conflicts of interest, and investment strategies at the portfolio level.",
+        "explanation": "Incorrect. Fees, conflicts, and portfolio-level investment strategies are disclosed in Form ADV Part 2A. Part 2B is specific to individual supervised persons who provide direct advice to clients."
+      },
+      {
+        "label": "D",
+        "text": "The advisory firm's disciplinary history and business practices.",
+        "explanation": "Incorrect. Firm-level disciplinary history and business practices are disclosed in Form ADV Part 2A (the firm brochure), not Part 2B."
+      }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "A",
     "explanation": "Form ADV has three main parts: Part 1 (registration information, business description, ownership — filed electronically through IARD), Part 2A (the firm brochure — fees, conflicts, strategies, disciplinary history), and Part 2B (the brochure supplement — background on individual IARs/supervised persons who provide advice directly to clients). Part 2B must be delivered to each client for each supervised person providing direct advisory services to that client.",
     "subtopic": "investment-advisers-act",
     "difficulty": "medium",

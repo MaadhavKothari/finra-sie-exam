@@ -43,7 +43,9 @@ export function createCard(questionId: string, section: string, stem: string): H
 export function reviewCorrect(card: HotSheetCard): HotSheetCard {
   const cc = card.consecutiveCorrect + 1;
   const newEase = Math.min(3.0, card.easeFactor + 0.1);
-  const newInterval = Math.max(1, Math.round(card.interval * card.easeFactor));
+  // Clamp interval so we never compute a date past JS's safe Date range.
+  // 365 is plenty for an exam-prep app — past a year, the card has graduated.
+  const newInterval = Math.min(365, Math.max(1, Math.round(card.interval * card.easeFactor)));
   const d = today();
 
   if (cc >= 3) {

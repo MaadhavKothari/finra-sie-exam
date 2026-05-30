@@ -1,5 +1,8 @@
 import { useStore } from '@nanostores/preact';
-import { $progress, $streak, $bestStreak, $freezeCount } from '../stores/progress';
+import { $progress, $streak, $bestStreak, $freezeCount, $title } from '../stores/progress';
+import BearerBondToken from './BearerBondToken';
+
+const MILESTONES = [7, 30, 100, 365];
 
 interface Props {
   base: string;
@@ -16,6 +19,9 @@ export default function StreakPanel({ base }: Props) {
   const streak = useStore($streak);
   const best = useStore($bestStreak);
   const freezes = useStore($freezeCount);
+  const title = useStore($title);
+  // A milestone is "earned" once you've ever held a streak of at least that length.
+  const reached = Math.max(best, streak);
 
   let history: StreakRun[] = [];
   try { history = JSON.parse(p.streakHistory || '[]'); }
@@ -68,6 +74,24 @@ export default function StreakPanel({ base }: Props) {
         <div class="border border-[#E5E0D8] rounded-sm p-4 bg-white flex items-baseline gap-3">
           <span style="font-family: var(--font-display);" class="text-3xl text-black">{best}</span>
           <span class="text-xs text-[#6b6560] uppercase tracking-wider">days</span>
+        </div>
+      </section>
+
+      {/* Bearer-bond vault tokens */}
+      <section class="mb-8">
+        <div class="flex items-center justify-between mb-3">
+          <h2 class="text-xs uppercase tracking-[0.15em] text-[#6b6560] font-medium">Vault</h2>
+          <span class="text-[11px] text-[#6b6560] italic">tap to flip</span>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          {MILESTONES.map((m) => (
+            <BearerBondToken
+              key={m}
+              milestone={m}
+              issuedTo={title.name}
+              earned={reached >= m}
+            />
+          ))}
         </div>
       </section>
 
