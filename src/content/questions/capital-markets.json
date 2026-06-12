@@ -136,7 +136,7 @@
   },
   {
     "id": "q-cm-005",
-    "stem": "A company wants to raise capital quickly without the full SEC registration process. Under which exemption could it sell securities only to accredited investors through a private placement?",
+    "stem": "A company wants to raise capital quickly without the full SEC registration process. Under which exemption could it sell securities to accredited investors without general solicitation through a private placement?",
     "choices": [
       {
         "label": "A",
@@ -156,11 +156,11 @@
       {
         "label": "D",
         "text": "Regulation D, Rule 506(b)",
-        "explanation": "Correct. Under Regulation D, Rule 506(b), companies can raise an unlimited amount of capital from accredited investors without general solicitation. Rule 506(c) allows general solicitation but requires all purchasers to be verified accredited investors."
+        "explanation": "Correct. Under Regulation D, Rule 506(b), companies can raise an unlimited amount of capital from accredited investors without general solicitation. Rule 506(b) also allows sales to up to 35 non-accredited but 'sophisticated' investors (those with sufficient knowledge and experience to evaluate the investment). Rule 506(c) permits general solicitation but requires all purchasers to be verified accredited investors and prohibits sales to non-accredited investors entirely."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "Regulation D provides exemptions from full SEC registration for private placements. Rule 506(b) allows issuers to raise unlimited capital from accredited investors without general solicitation, making it the most common exemption for private placements.",
+    "explanation": "Regulation D provides exemptions from full SEC registration for private placements. Rule 506(b) allows issuers to raise unlimited capital without general solicitation from accredited investors and up to 35 non-accredited but sophisticated investors. Rule 506(c) permits general solicitation but limits purchasers exclusively to verified accredited investors.",
     "topic": "capital-markets",
     "subtopic": "offerings",
     "difficulty": "hard",
@@ -348,7 +348,7 @@
       {
         "label": "B",
         "text": "Open market operations, reserve requirements, and the discount rate",
-        "explanation": "Correct. The Federal Reserve's primary monetary policy tools include: (1) open market operations — buying/selling Treasury securities to influence bank reserves; (2) reserve requirements — the percentage of deposits banks must hold; and (3) the discount rate — the interest rate charged to banks borrowing from the Fed. The federal funds rate target is also set through open market operations."
+        "explanation": "Correct. The Federal Reserve's primary monetary policy tools include: (1) open market operations — buying/selling Treasury securities to influence bank reserves; (2) reserve requirements — the percentage of deposits banks must hold (note: the Fed reduced reserve requirements to zero percent in March 2020 and they remain at zero, so this tool is currently inactive in practice, though the Fed retains the statutory authority to set them); and (3) the discount rate — the interest rate charged to banks borrowing from the Fed. The federal funds rate target is also set through open market operations and interest on reserve balances (IORB)."
       },
       {
         "label": "C",
@@ -362,7 +362,7 @@
       }
     ],
     "correctAnswer": "B",
-    "explanation": "The Federal Reserve implements monetary policy through three main tools: open market operations (buying/selling government securities), the discount rate (interest rate for bank borrowing from the Fed), and reserve requirements (percentage of deposits banks must keep). These tools influence the money supply and interest rates to achieve price stability and maximum employment.",
+    "explanation": "The Federal Reserve implements monetary policy through three main tools: open market operations (buying/selling government securities), the discount rate (interest rate for bank borrowing from the Fed), and reserve requirements (percentage of deposits banks must keep — currently set at zero percent since March 2020, though the authority remains). These tools influence the money supply and interest rates to achieve price stability and maximum employment.",
     "topic": "capital-markets",
     "subtopic": "economic-factors",
     "difficulty": "medium",
@@ -409,7 +409,7 @@
       {
         "label": "A",
         "text": "$5 million",
-        "explanation": "Incorrect. $5 million is the Tier 1 limit under Regulation A+, not the Tier 2 limit."
+        "explanation": "Incorrect. $5 million was the cap under the old pre-JOBS Act Regulation A (before 2015) and has no place in the current Regulation A+ framework. The Tier 1 limit under Regulation A+ is $20 million, not $5 million."
       },
       {
         "label": "B",
