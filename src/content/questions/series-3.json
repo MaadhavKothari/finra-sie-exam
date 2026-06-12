@@ -185,7 +185,7 @@
       {
         "label": "B",
         "text": "$375",
-        "explanation": "Incorrect. This uses a multiplier of $25 per point (the E-mini S&P multiplier), not the $250 full-size contract multiplier specified in the question."
+        "explanation": "Incorrect. This uses a multiplier of $50 per point (the E-mini S&P 500 futures multiplier, CME ticker ES), not the $250 full-size contract multiplier specified in the question. The Micro E-mini S&P 500 (MES) has a $5 multiplier. No standard CME S&P 500 product has a $25 multiplier."
       },
       {
         "label": "C",
@@ -459,8 +459,8 @@
       },
       {
         "label": "B",
-        "text": "Long Eurodollar futures.",
-        "explanation": "Incorrect. Eurodollar futures prices move inversely to interest rates (price = 100 - rate). Rising rates cause Eurodollar futures prices to fall, harming the long position."
+        "text": "Long SOFR futures.",
+        "explanation": "Incorrect. SOFR futures prices move inversely to short-term interest rates (price = 100 − rate). Rising rates cause SOFR futures prices to fall, harming the long position. Note: CME Eurodollar futures (the prior benchmark) ceased trading in April 2023 and have been replaced by SOFR futures (CME ticker SR3) as the primary short-rate interest rate futures instrument."
       },
       {
         "label": "C",
@@ -470,11 +470,11 @@
       {
         "label": "D",
         "text": "Long both Treasury bond futures and Eurodollar futures.",
-        "explanation": "Incorrect. Both instruments decline in price when interest rates rise. Being long both would double the losses from a rate increase."
+        "explanation": "Incorrect. Both T-bond futures and SOFR futures decline in price when interest rates rise. Being long both would double the losses from a rate increase."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Bond prices and interest rates have an inverse relationship. When rates rise, bond prices fall. A trader who is short Treasury bond futures profits from the resulting price decline. Similarly, Eurodollar futures prices also fall when rates rise, so a short Eurodollar position would also benefit.",
+    "explanation": "Bond prices and interest rates have an inverse relationship. When rates rise, bond prices fall. A trader who is short Treasury bond futures profits from the resulting price decline. Similarly, SOFR futures prices also fall when rates rise (price = 100 − rate), so a short SOFR position would also benefit. Note: Eurodollar futures (the prior short-rate benchmark) ceased trading in April 2023 and have been replaced by SOFR futures at CME.",
     "subtopic": "Interest rate futures",
     "difficulty": "medium",
     "source": "NFA Series 3 content outline",
@@ -1377,7 +1377,7 @@
     "subtopic": "Front-running and trading ahead",
     "difficulty": "hard",
     "source": "NFA Series 3 content outline",
-    "regulatoryBasis": "Commodity Exchange Act §4b — fraud; CFTC Regulation 155.2 — trading ahead; NFA Compliance Rule 2-4",
+    "regulatoryBasis": "Commodity Exchange Act §4b — fraud; CFTC Regulation 155.3 — trading ahead of customer orders; NFA Compliance Rule 2-4",
     "lastVerified": "2026-05-21"
   }
 ]

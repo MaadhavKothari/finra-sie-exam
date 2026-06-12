@@ -428,7 +428,7 @@
     "subtopic": "debt-instruments",
     "difficulty": "medium",
     "source": "FINRA content outline",
-    "regulatoryBasis": "Securities Act of 1933",
+    "regulatoryBasis": "Government Securities Act of 1986; Treasury securities are exempt from registration under the Securities Act of 1933, Section 3(a)(2)",
     "lastVerified": "2026-05-20"
   },
   {
@@ -1504,7 +1504,7 @@
       {
         "label": "C",
         "text": "T-bond.",
-        "explanation": "Correct. Treasury bonds mature in 10 to 30 years and pay coupon interest semi-annually."
+        "explanation": "Correct. Treasury bonds mature in more than 10 years from issuance. The Treasury currently issues T-bonds with 20-year and 30-year maturities. They pay coupon interest semi-annually. Note: a 10-year maturity is a T-note, not a T-bond."
       },
       {
         "label": "D",
@@ -1513,7 +1513,7 @@
       }
     ],
     "correctAnswer": "C",
-    "explanation": "T-bills: ≤1 year, zero-coupon at discount. T-notes: 2-10 years, semi-annual coupon. T-bonds: 10-30 years, semi-annual coupon. TIPS exist at multiple maturities with inflation indexing.",
+    "explanation": "T-bills: ≤1 year, zero-coupon at discount. T-notes: 2–10 years, semi-annual coupon. T-bonds: more than 10 years (currently issued as 20-year and 30-year), semi-annual coupon. TIPS exist at multiple maturities with inflation-adjusted principal.",
     "topic": "products-risks",
     "subtopic": "debt-instruments",
     "difficulty": "easy",
@@ -1685,8 +1685,8 @@
     "choices": [
       {
         "label": "A",
-        "text": "Insurance against a decline in the stock price; loss is limited to the strike, cost basis, plus the premium paid.",
-        "explanation": "Correct. A protective put establishes a floor at the strike price. The put premium is the cost of the insurance."
+        "text": "Insurance against a decline in the stock price; maximum loss is limited to (cost basis minus strike price) plus the premium paid.",
+        "explanation": "Correct. A protective put establishes a price floor at the strike price, acting as insurance against a decline. The maximum loss is capped at (cost basis − strike price) + premium paid. If the stock falls below the strike, the put can be exercised, effectively selling the stock at the strike price, and the only remaining loss is the premium paid plus any gap between cost basis and strike."
       },
       {
         "label": "B",

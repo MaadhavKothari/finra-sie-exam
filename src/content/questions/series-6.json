@@ -511,17 +511,17 @@
   {
     "id": "q-s6-016",
     "section": "investment-company-products",
-    "stem": "An open-end mutual fund's total net assets grew from $200 million to $210 million over a year, while the number of shares outstanding increased from 10 million to 11 million due to new investor purchases. What happened to the fund's NAV per share over the year?",
+    "stem": "An open-end mutual fund began the year with $200 million in net assets and 10 million shares outstanding (NAV = $20.00). During the year, the fund's portfolio declined in value due to investment underperformance. New investors purchased 1 million shares at the lower prevailing NAV. At year-end, total net assets are $210 million and shares outstanding are 11 million. What happened to the fund's NAV per share?",
     "choices": [
       {
         "label": "A",
         "text": "NAV decreased from $20.00 to $19.09 per share",
-        "explanation": "Correct. Beginning NAV = $200M / 10M = $20.00. Ending NAV = $210M / 11M ≈ $19.09. Although net assets grew by $10 million, shares outstanding grew proportionally more (10% increase in assets vs. 10% increase in shares, but the new shares were sold at $19.09 NAV, diluting existing shareholders)."
+        "explanation": "Correct. Beginning NAV = $200M / 10M = $20.00. Ending NAV = $210M / 11M ≈ $19.09. The NAV declined because the fund's underlying portfolio underperformed — the portfolio's investment losses reduced asset value before new investors came in. New shares were issued at the prevailing (lower) NAV, so new investors did not dilute existing holders; the decline was due to portfolio performance, not share issuance."
       },
       {
         "label": "B",
         "text": "NAV remained unchanged at $20.00 because new share issuance in open-end funds never dilutes existing shareholders",
-        "explanation": "Incorrect. New shares are issued at the current NAV at the time of purchase. If new money comes in when NAV has changed, the per-share value adjusts accordingly. This example shows that despite asset growth, per-share NAV declined."
+        "explanation": "Incorrect as stated — though the general principle is true. In an open-end fund, new shares are always issued at the current NAV, so new share issuance itself is non-dilutive to existing shareholders. However, in this scenario the NAV did change — it declined from $20.00 to $19.09 because the fund's portfolio lost value through underperformance. The NAV change reflects investment results, not a dilution effect from new investors joining."
       },
       {
         "label": "C",
@@ -535,7 +535,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "NAV = Net Assets / Shares Outstanding. Year-start: $200M / 10M = $20.00. Year-end: $210M / 11M ≈ $19.09. While new investors bringing in capital increase total assets, in an open-end fund those investors receive new shares at the prevailing NAV. If the portfolio's investment performance was poor (NAV fell from $20 to below $20), the new share issuance simply reflects that lower value. This illustrates why total return performance must be measured on a per-share basis.",
+    "explanation": "NAV = Net Assets / Shares Outstanding. Year-start: $200M / 10M = $20.00. Year-end: $210M / 11M ≈ $19.09. The NAV declined because the fund's portfolio underperformed — losses reduced asset value before new investor money arrived. New shares in an open-end fund are always issued at the prevailing NAV, so new investors neither dilute nor benefit existing holders; only investment performance changes existing holders' per-share value. Total return must always be measured on a per-share basis.",
     "subtopic": "open-end-mutual-funds",
     "difficulty": "hard",
     "source": "FINRA Series 6 content outline",
@@ -1136,11 +1136,11 @@
       {
         "label": "D",
         "text": "75%, because ERISA requires at least 75% vesting after 3 years under any graded schedule",
-        "explanation": "Incorrect. ERISA minimum vesting standards require that graded vesting reach 100% no later than year 6 (under the 3-to-7 year schedule) or that cliff vesting occur no later than 3 years. The specific schedule described (25% per year starting year 2) is a 4-year graded schedule that reaches 50% at year 3."
+        "explanation": "Incorrect. ERISA minimum vesting standards (as updated by the Pension Protection Act of 2006) require that employer matching contributions vest under a graded schedule no slower than the 2-to-6 year schedule (20% per year beginning at year 2, reaching 100% by year 6). The old pre-PPA 2006 standard was a 3-to-7 year schedule; that has been superseded. The specific schedule described in this question (25% per year starting year 2) is faster than ERISA's minimum and reaches 50% at year 3 of service."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "401(k) vesting rules distinguish between employee contributions (always 100% immediately vested) and employer contributions (subject to the plan's vesting schedule). Under the graded schedule described: Year 1 = 0%, Year 2 = 25%, Year 3 = 50%, Year 4 = 75% (plus additional years to reach 100%). After 3 years, the employee is 50% vested in employer contributions. ERISA sets minimum vesting standards but allows faster vesting. Employer match amounts that aren't vested are forfeited to the plan upon termination — often redistributed among remaining participants or used to reduce employer contributions.",
+    "explanation": "401(k) vesting rules distinguish between employee contributions (always 100% immediately vested) and employer contributions (subject to the plan's vesting schedule). Under the graded schedule described: Year 1 = 0%, Year 2 = 25%, Year 3 = 50%, Year 4 = 75%, Year 5 = 100%. After 3 years, the employee is 50% vested in employer contributions. The Pension Protection Act of 2006 requires employer matching contributions to vest no slower than the 2-to-6 year schedule (100% by year 6 at the latest). Employer match amounts that are not vested are forfeited to the plan upon termination.",
     "subtopic": "qualified-plans",
     "difficulty": "hard",
     "source": "FINRA Series 6 content outline",

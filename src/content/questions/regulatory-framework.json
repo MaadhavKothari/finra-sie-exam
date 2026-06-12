@@ -84,7 +84,7 @@
       {
         "label": "C",
         "text": "Both a Regulatory Element administered by FINRA and a Firm Element administered by the member firm",
-        "explanation": "Correct. FINRA's Continuing Education program has two components. The Regulatory Element is a computer-based training program administered by FINRA that must be completed within 120 days of a registered person's second registration anniversary and annually thereafter. The Firm Element is an annual training program developed and administered by each member firm, tailored to the firm's business and the needs of its registered persons."
+        "explanation": "Correct. FINRA's Continuing Education program has two components. The Regulatory Element is a FINRA-administered, computer-based training program that registered persons must complete annually by December 31 of each year, beginning in the year following their first registration anniversary. Effective January 1, 2023, FINRA transitioned the Regulatory Element to this annual cycle (previously it was tied to registration anniversary milestones). The Firm Element is an annual training program developed and administered by each member firm, tailored to the firm's business and the needs of its registered persons."
       },
       {
         "label": "D",
@@ -93,7 +93,7 @@
       }
     ],
     "correctAnswer": "C",
-    "explanation": "FINRA's Continuing Education program consists of two mandatory components: the Regulatory Element, which is a FINRA-administered computer-based training completed periodically, and the Firm Element, which is an annual training program developed by each member firm to address relevant regulatory and compliance topics specific to its business.",
+    "explanation": "FINRA's Continuing Education program consists of two mandatory components: the Regulatory Element, which is a FINRA-administered computer-based training completed annually by December 31 each year (effective January 2023), and the Firm Element, which is an annual training program developed by each member firm to address relevant regulatory and compliance topics specific to its business.",
     "topic": "regulatory-framework",
     "subtopic": "registration-continuing-education",
     "difficulty": "easy",
@@ -210,12 +210,12 @@
       {
         "label": "A",
         "text": "10 calendar days",
-        "explanation": "Incorrect. The standard amendment deadline for most reportable events is 30 days. However, for certain criminal charges — specifically felony charges — the deadline is actually shorter, but the 10-day figure applies to specific statutory disqualification events under the rules."
+        "explanation": "Incorrect. There is no separate 10-day amendment deadline for felony charges under Form U4. The uniform standard for all Form U4 amendments — including criminal charges — is 30 calendar days after the registered person learns of the reportable event, per FINRA Rule 1122."
       },
       {
         "label": "B",
         "text": "30 calendar days",
-        "explanation": "Incorrect. While 30 days is the general amendment deadline for many Form U4 updates, felony charges require faster reporting. FINRA rules require that criminal charges involving a felony be reported within 30 days for most events, but a felony charge is specifically reportable — however, a felony charge or indictment triggers a 30-day requirement under standard rule language."
+        "explanation": "Incorrect. This choice correctly states 30 calendar days but is worded ambiguously. To be precise: the 30-day clock begins when the registered person has reason to believe the reportable event (here, the felony charge) has occurred. Choice C states this more precisely."
       },
       {
         "label": "C",
@@ -225,7 +225,7 @@
       {
         "label": "D",
         "text": "30 calendar days for most reportable events, but within 10 business days if the charge involves a crime that could lead to statutory disqualification",
-        "explanation": "Incorrect. This framing conflates two separate rules. The standard deadline for Form U4 amendments is 30 calendar days after the registered person learns of the event."
+        "explanation": "Incorrect. This choice conflates two separate obligations. The Form U4 amendment deadline is 30 calendar days for all reportable events (FINRA Rule 1122). The 10-business-day reference applies to a separate obligation — the firm's membership continuance application under FINRA Rule 9522 after learning of a statutory disqualification event — which is a distinct process from the Form U4 amendment deadline."
       }
     ],
     "correctAnswer": "C",
@@ -278,7 +278,7 @@
       {
         "label": "A",
         "text": "A computer-based training program administered by FINRA that registered persons must complete annually after their first registration anniversary",
-        "explanation": "Correct. The Regulatory Element is a FINRA-administered, computer-based training module that registered persons must complete within 120 days of their first registration anniversary and annually thereafter. As of January 2023, FINRA transitioned the Regulatory Element to an annual requirement. Failure to complete it within the prescribed window results in the person's registration being automatically suspended until the requirement is satisfied."
+        "explanation": "Correct. The Regulatory Element is a FINRA-administered, computer-based training module that registered persons must complete annually. Effective January 1, 2023 (per FINRA Rule 1240(a) as amended via Regulatory Notice 21-41), the Regulatory Element moved to an annual cycle: it is due by December 31 of each year, beginning in the year of the registration anniversary. Failure to complete it results in the person's registration being automatically suspended effective January 1 of the following year, until the requirement is satisfied."
       },
       {
         "label": "B",
@@ -297,7 +297,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "The Regulatory Element is a FINRA-administered, computer-based continuing education program that all registered persons must complete annually, beginning after their first registration anniversary. Effective January 2023, FINRA moved the Regulatory Element to an annual cycle. A registered person whose Regulatory Element is past due is automatically suspended and may not conduct securities business until the requirement is fulfilled.",
+    "explanation": "The Regulatory Element is a FINRA-administered, computer-based continuing education program that all registered persons must complete annually, due by December 31 each year beginning after their first registration anniversary. Effective January 2023, FINRA moved the Regulatory Element from a milestone-based schedule to an annual cycle. A registered person whose Regulatory Element is overdue is automatically suspended and may not conduct securities business until the requirement is fulfilled.",
     "topic": "regulatory-framework",
     "subtopic": "registration-continuing-education",
     "difficulty": "easy",
@@ -784,7 +784,7 @@
     "subtopic": "registration-continuing-education",
     "difficulty": "hard",
     "source": "FINRA content outline",
-    "regulatoryBasis": "FINRA Rule 3270; Form U4 Instructions",
+    "regulatoryBasis": "FINRA By-Laws, Article I (definition of associated person); FINRA Rules 1010 et seq. (registration requirements); Form U4 Instructions",
     "lastVerified": "2026-05-20"
   },
   {
@@ -996,12 +996,12 @@
   },
   {
     "id": "q-rf-030",
-    "stem": "Under the Insider Trading and Securities Fraud Enforcement Act of 1988, a person convicted of insider trading may face which of the following maximum criminal penalties?",
+    "stem": "Under current U.S. securities law, a person convicted of insider trading may face which of the following maximum criminal penalties?",
     "choices": [
       {
         "label": "A",
         "text": "A fine of up to $1 million and 5 years in prison.",
-        "explanation": "Incorrect. These were the original penalties before being increased by subsequent legislation. Current maximums are significantly higher."
+        "explanation": "Incorrect. A fine of $1 million and 10 years in prison were the maximum criminal penalties established by the Insider Trading and Securities Fraud Enforcement Act of 1988 (ITSFEA). The Sarbanes-Oxley Act of 2002 significantly increased these maximums to the current levels."
       },
       {
         "label": "B",
@@ -1020,7 +1020,7 @@
       }
     ],
     "correctAnswer": "D",
-    "explanation": "Criminal penalties for insider trading include fines up to $5 million and 20 years imprisonment for individuals (up to $25 million for entities), as established by the Insider Trading and Securities Fraud Enforcement Act of 1988 and enhanced by the Sarbanes-Oxley Act of 2002. Civil penalties add up to 3x the profit gained or loss avoided. These severe penalties reflect the importance of market integrity.",
+    "explanation": "The current maximum criminal penalties for insider trading are a fine of up to $5 million and imprisonment for up to 20 years for individuals (up to $25 million for entities). The Insider Trading and Securities Fraud Enforcement Act of 1988 (ITSFEA) originally set the individual maximum at $1 million / 10 years. The Sarbanes-Oxley Act of 2002 (Section 1106, amending Exchange Act Section 32(a)) raised the limits to the current $5 million / 20-year maximums. Civil penalties add up to 3x the profit gained or loss avoided.",
     "topic": "regulatory-framework",
     "subtopic": "employee-conduct",
     "difficulty": "hard",
@@ -1081,7 +1081,7 @@
       {
         "label": "B",
         "text": "Research analysts at the managing underwriter are restricted from publishing research reports on the newly public company for a specified period after the IPO.",
-        "explanation": "Correct. FINRA rules restrict research analysts at the managing underwriter from publishing research or making public appearances regarding the issuer for a period following the IPO (typically 10 calendar days for the manager, though rules have evolved). This quiet period prevents the perception that favorable research is being used to support the new issue's stock price for the benefit of the underwriting firm's investment banking relationship."
+        "explanation": "Correct. Under FINRA Rule 2241(b)(2)(I) (as amended effective June 7, 2015 per Regulatory Notice 15-30), member firms that participate as underwriters or dealers in an IPO must have policies establishing a quiet period of at least 10 calendar days following the IPO effective date during which their research analysts may not publish research or make public appearances regarding the issuer. Note: prior to the 2015 amendment, the rule imposed 40-day (manager) and 25-day (non-managing underwriter) periods — those longer periods no longer apply under the current rule."
       },
       {
         "label": "C",
@@ -1095,13 +1095,13 @@
       }
     ],
     "correctAnswer": "B",
-    "explanation": "The quiet period is designed to prevent underwriting firms from using favorable research to artificially support the price of a newly issued security. FINRA research analyst rules restrict managing underwriters from publishing research reports for a specified period following the IPO. This separation helps maintain the independence of research from investment banking interests.",
+    "explanation": "FINRA Rule 2241(b)(2)(I), adopted in its current form effective June 7, 2015 (Regulatory Notice 15-30), requires member firms participating as underwriters or dealers in an IPO to establish quiet periods of at least 10 calendar days following the IPO during which their research analysts may not publish research or make public appearances regarding the issuer. A 3-day quiet period applies to managers and co-managers following a secondary offering. This separation helps maintain research independence from investment banking relationships.",
     "topic": "regulatory-framework",
     "subtopic": "employee-conduct",
     "difficulty": "hard",
     "source": "FINRA content outline",
     "regulatoryBasis": "FINRA Rule 2241; FINRA Rule 2242",
-    "lastVerified": "2026-05-21"
+    "lastVerified": "2026-06-12"
   },
   {
     "id": "q-rf-033",

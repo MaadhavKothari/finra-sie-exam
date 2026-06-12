@@ -80,7 +80,7 @@
       {
         "label": "B",
         "text": "The person's registration becomes inactive and they are prohibited from performing any activities requiring registration until the requirement is satisfied.",
-        "explanation": "Correct. Under FINRA Rule 1240, if a registered person fails to complete the Regulatory Element within the prescribed 120-day window, their registration becomes inactive. They may not perform any duties requiring registration until the requirement is fulfilled."
+        "explanation": "Correct. Under FINRA Rule 1240 (as amended effective January 1, 2023), if a registered person fails to complete the Regulatory Element by December 31 of the applicable year, their registration becomes inactive effective January 1 of the following year. They may not perform any duties requiring registration until the requirement is fulfilled. The registration is not terminated — it is inactivated and can be restored upon completion."
       },
       {
         "label": "C",
@@ -94,7 +94,7 @@
       }
     ],
     "correctAnswer": "B",
-    "explanation": "FINRA Rule 1240 (Continuing Education Requirements) mandates that registered persons complete the Regulatory Element within 120 days of their second registration anniversary and every three years thereafter. Failure to complete it within the window results in automatic inactivation of registration. The person cannot perform any activities requiring registration until they complete the requirement, though their registration is not terminated.",
+    "explanation": "FINRA Rule 1240 (Continuing Education Requirements), as amended effective January 1, 2023, requires registered persons to complete the Regulatory Element annually by December 31 each year. Failure to complete it results in automatic inactivation of registration effective January 1 of the following year. The person cannot perform any activities requiring registration until they complete the CE requirement. Note: prior to 2023, the requirement was milestone-based (second registration anniversary and every three years thereafter); the annual cycle replaced that structure entirely.",
     "subtopic": "continuing-education-regulatory-element",
     "difficulty": "medium",
     "source": "FINRA Series 24 content outline",
@@ -217,7 +217,7 @@
       {
         "label": "A",
         "text": "10 days",
-        "explanation": "Incorrect. The 10-day amendment requirement applies to updates involving customer complaints, regulatory actions, criminal charges, and other specified events from the date the firm becomes aware. However, 10 days is the standard window for reporting certain disclosed events — not the window for correcting omissions specifically."
+        "explanation": "Incorrect. For most Form U4 amendments — including the correction of a discovered omission — the standard deadline is 30 calendar days under FINRA Rule 1122 and the Form U4 instructions. A 10-day deadline exists for a narrower set of events (e.g., certain customer complaints alleging sales practice violations over $5,000 from the date of the firm's receipt), but that 10-day window applies to initial reporting of those specific events, not to correcting a previously filed omission."
       },
       {
         "label": "B",
@@ -711,15 +711,15 @@
       {
         "label": "D",
         "text": "Customer-specific suitability, because the product is inconsistent with the customer's investment profile.",
-        "explanation": "Correct. Customer-specific suitability under FINRA Rule 2111 requires that a recommendation be suitable for the particular customer based on their investment profile, including age, financial situation, risk tolerance, and investment objectives. A complex structured product is inconsistent with a conservative, fixed-income retiree's profile."
+        "explanation": "Correct. Under Regulation Best Interest (effective June 30, 2020) and the underlying customer-specific suitability concept from FINRA Rule 2111, a recommendation must be suitable for the particular customer based on their investment profile — including age, financial situation, risk tolerance, and investment objectives. Recommending a complex structured product to a conservative, fixed-income retiree living on a fixed income clearly violates the care obligation under Reg BI and customer-specific suitability principles."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "FINRA Rule 2111 establishes three components of suitability: reasonable-basis, customer-specific, and quantitative. Customer-specific suitability requires that a recommendation be suitable for the particular customer based on their investment profile — including age, financial situation, tax status, investment objectives, risk tolerance, and other relevant factors. Recommending a complex structured product to a conservative retiree on a fixed income clearly violates customer-specific suitability.",
+    "explanation": "For retail customers (effective June 30, 2020), Regulation Best Interest's care obligation is the primary governing standard for broker-dealer recommendations, superseding FINRA Rule 2111's suitability standard for retail contexts. The three-component framework — reasonable-basis, customer-specific, and quantitative — remains conceptually relevant under Reg BI. Customer-specific suitability requires that a recommendation be suitable for the particular customer's investment profile. A complex structured product recommended to a conservative retiree on a fixed income violates the customer-specific component.",
     "subtopic": "suitability-obligations",
     "difficulty": "easy",
     "source": "FINRA Series 24 content outline",
-    "regulatoryBasis": "FINRA Rule 2111 (Suitability)",
+    "regulatoryBasis": "SEC Regulation Best Interest (Rule 15l-1); FINRA Rule 2111 (Suitability — institutional customers); FINRA Rule 2010",
     "lastVerified": "2026-05-21"
   },
   {
@@ -1233,8 +1233,8 @@
       },
       {
         "label": "C",
-        "text": "By the opening of trading on the settlement day plus one (T+1 after settlement).",
-        "explanation": "Incorrect. The close-out requirement for short sales is T+2 after the settlement date (settlement date plus 2 business days for short sales specifically), which allows the firm additional time compared to long-sale fails."
+        "text": "By the opening of trading on the settlement day plus three (T+3 after settlement), which is the standard for all equity short sale fails.",
+        "explanation": "Incorrect. T+3 after settlement is the close-out deadline for fails resulting from long sales — not short sales. Rule 204(a) requires short sale fails to be closed out by the beginning of regular trading hours on T+1 after the settlement date. Long-sale fails have the longer T+3 after settlement standard; bona fide market maker fails have T+6 after settlement."
       },
       {
         "label": "D",
@@ -1962,7 +1962,7 @@
       {
         "label": "A",
         "text": "6-2/3% of aggregate debit items.",
-        "explanation": "Incorrect. The 6-2/3% ratio applies to the early warning level under the alternative method. The minimum net capital requirement under the alternative method is 2% of aggregate debit items."
+        "explanation": "Incorrect. The early warning notification threshold under the alternative method is 5% of aggregate debit items (not 6-2/3%). The 6-2/3% ratio is associated with the basic aggregate indebtedness method (where the ratio of aggregate indebtedness to net capital must not exceed 15:1, meaning net capital must be at least 1/15 ≈ 6.67% of aggregate indebtedness). Under the alternative method, the minimum requirement is 2% of aggregate debit items, and the early warning level that triggers a notification to FINRA is 5%."
       },
       {
         "label": "B",
@@ -1981,7 +1981,7 @@
       }
     ],
     "correctAnswer": "D",
-    "explanation": "SEC Rule 15c3-1 provides two methods for computing net capital requirements: the basic method (aggregate indebtedness standard, which limits aggregate indebtedness to 15 times net capital) and the alternative method (which requires net capital of at least 2% of aggregate debit items computed under Rule 15c3-3). The alternative method is used by most larger carrying firms. Early warning notifications are triggered at higher thresholds (5% of aggregate debit items under the alternative method).",
+    "explanation": "SEC Rule 15c3-1 provides two methods: the basic method (aggregate indebtedness standard — limits aggregate indebtedness to 15 times net capital) and the alternative method (requires net capital of at least 2% of aggregate debit items under Rule 15c3-3). The alternative method is used by most larger carrying firms. Under the alternative method, the early warning notification threshold is 5% of aggregate debit items — when net capital falls below that level, the firm must notify FINRA under Rule 17a-11.",
     "subtopic": "alternative-net-capital-method",
     "difficulty": "hard",
     "source": "FINRA Series 24 content outline",

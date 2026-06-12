@@ -1301,8 +1301,8 @@
     "choices": [
       {
         "label": "A",
-        "text": "$20.00",
-        "explanation": "Incorrect. $20.00 uses total assets ($500M) without subtracting liabilities. NAV must be calculated on net assets: $500M - $10M = $490M."
+        "text": "$20.41",
+        "explanation": "Incorrect. $20.41 uses total assets ($500M) without subtracting liabilities: $500,000,000 / 24,500,000 = $20.41. NAV must be calculated on net assets (total assets minus total liabilities)."
       },
       {
         "label": "B",
@@ -1311,8 +1311,8 @@
       },
       {
         "label": "C",
-        "text": "$20.41",
-        "explanation": "Incorrect. $20.41 incorrectly adds liabilities instead of subtracting them. NAV uses net assets (assets minus liabilities), not gross assets plus liabilities."
+        "text": "$20.82",
+        "explanation": "Incorrect. $20.82 mistakenly adds liabilities instead of subtracting them: ($500M + $10M) / 24,500,000 = $510,000,000 / 24,500,000 ≈ $20.82. NAV uses net assets (assets minus liabilities), not assets plus liabilities."
       },
       {
         "label": "D",
@@ -1510,7 +1510,7 @@
       },
       {
         "label": "B",
-        "text": "Her maximum annual contribution is $6,000 for 2023; she may not make a catch-up contribution until age 50.",
+        "text": "Her maximum annual contribution is $6,500 for 2023; she may not make a catch-up contribution until age 50.",
         "explanation": "Correct. The standard annual IRA contribution limit for 2023 is $6,500 (note: the question states she contributes $6,000, which is within the limit). Catch-up contributions of an additional $1,000 are only available starting at age 50. At 45, she cannot make the extra catch-up contribution and the base limit is $6,500."
       },
       {
@@ -1918,8 +1918,8 @@
       },
       {
         "label": "B",
-        "text": "FINRA Rules 2111 and 2010 — suitability and just and equitable principles, constituting churning.",
-        "explanation": "Correct. Churning is excessive trading in a customer account primarily for the purpose of generating commissions for the registered representative, without regard for the customer's investment objectives. It violates FINRA Rule 2111 (suitability/best interest standard) and FINRA Rule 2010 (standards of commercial honor). It may also violate Section 10(b) and Rule 10b-5 of the Securities Exchange Act."
+        "text": "Regulation Best Interest (Reg BI) and FINRA Rule 2010 — the care obligation and just and equitable principles of trade, constituting churning.",
+        "explanation": "Correct. Churning is excessive trading in a customer account primarily to generate commissions, without regard for the customer's investment objectives. For retail customers, the primary governing standard since June 30, 2020 is SEC Regulation Best Interest (Rule 15l-1), which imposes a care obligation — recommendations must be in the retail customer's best interest. Churning also violates FINRA Rule 2010 (standards of commercial honor and just and equitable principles of trade) and may violate Section 10(b) and Rule 10b-5. FINRA Rule 2111 (suitability) continues to apply to institutional customers."
       },
       {
         "label": "C",
@@ -1933,7 +1933,7 @@
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Churning involves excessive trading in a customer account to generate commissions, without regard for the customer's best interests or stated objectives. It violates FINRA Rule 2111 (suitability/Reg BI best interest standard), FINRA Rule 2010 (just and equitable principles), and potentially SEC Rule 10b-5. Indicators include: high turnover ratio, large commission charges relative to account value, and investment activity inconsistent with the customer's stated objectives.",
+    "explanation": "Churning involves excessive trading in a customer account to generate commissions without regard for the customer's best interests or stated objectives. For retail customers (effective June 30, 2020), Regulation Best Interest's care obligation is the primary standard — not FINRA Rule 2111. Churning also violates FINRA Rule 2010 (just and equitable principles) and potentially SEC Rule 10b-5. Key indicators: high turnover ratio, disproportionate commissions, and trading inconsistent with the customer's conservative income-oriented objective.",
     "subtopic": "Churning",
     "difficulty": "medium",
     "source": "FINRA Series 7 content outline",
@@ -2154,7 +2154,7 @@
       {
         "label": "B",
         "text": "Tuesday, June 4",
-        "explanation": "Incorrect. With T+1 settlement, a purchase on June 4 would settle on June 5. However, the ex-date means that on June 5, the stock trades without the dividend. A purchase on June 4 settles on June 5, which is the ex-date — this needs careful analysis. Under T+1, buying on June 4 settles June 5 (the ex-date), meaning the buyer IS the holder of record. Actually, under T+1, the ex-date is one business day before the record date, so buying on June 4 (one day before ex-date June 5) would settle June 5 and the buyer WOULD receive the dividend. Let me reconsider: the ex-date is the first day the stock trades without the dividend. Buying on or after the ex-date means you do NOT receive the dividend."
+        "explanation": "Incorrect. Under T+1 settlement, purchasing on Tuesday June 4 settles on Wednesday June 5 (the ex-dividend date). The ex-dividend date is the first day the stock trades without the dividend, but to interpret correctly: under T+1, the ex-date is one business day before the record date. A buyer on June 4 settles on June 5 and is registered as holder of record before the record date — this buyer WOULD receive the dividend. Therefore June 4 is not the answer to 'who does NOT receive the dividend.'"
       },
       {
         "label": "C",

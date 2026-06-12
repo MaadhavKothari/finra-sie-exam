@@ -518,7 +518,7 @@
       {
         "label": "B",
         "text": "T+2 (two business days after the trade)",
-        "explanation": "Incorrect. T+2 was the previous standard for equities and is the current standard for corporate bonds. Listed equity options settle on T+1."
+        "explanation": "Incorrect. T+2 was the previous standard for both equities (before May 2024) and corporate bonds (before May 2024). Following the SEC's amendment to Rule 15c6-1(a) effective May 28, 2024, corporate bonds also moved to T+1. Listed equity options settle on T+1."
       },
       {
         "label": "C",
@@ -552,12 +552,12 @@
       {
         "label": "B",
         "text": "Wednesday (T+2)",
-        "explanation": "Correct. Corporate bonds settle on T+2, two business days after the trade date. While equities moved to T+1 settlement in May 2024, corporate bonds have retained the T+2 cycle. A trade on Monday settles Wednesday (assuming no holidays). This longer cycle reflects the additional complexity of bond transfers and documentation."
+        "explanation": "Incorrect. T+2 was the corporate bond settlement cycle prior to May 28, 2024. The SEC's amendment to Rule 15c6-1(a), effective May 28, 2024, moved corporate bonds to T+1 alongside equities. A Monday trade for corporate bonds now settles on Tuesday."
       },
       {
         "label": "C",
         "text": "Tuesday (T+1)",
-        "explanation": "Incorrect. T+1 is the current standard for equity and options settlement. Corporate bonds follow a T+2 settlement cycle."
+        "explanation": "Correct. The SEC's amendment to Rule 15c6-1(a), effective May 28, 2024, moved corporate bond settlement from T+2 to T+1, aligning it with equities and listed options. A corporate bond purchase on Monday settles on Tuesday (assuming no intervening holidays)."
       },
       {
         "label": "D",
@@ -565,8 +565,8 @@
         "explanation": "Incorrect. T+3 was the former settlement standard for many securities prior to 2017. Corporate bonds currently settle T+2."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Corporate bonds settle on T+2 (two business days after the trade date), which distinguishes them from equities and listed options that now settle on T+1. For a trade on Monday, the settlement date is Wednesday (assuming no intervening holidays). Understanding the different settlement cycles for equities (T+1), corporate bonds (T+2), options (T+1), and government securities (T+1) is an important SIE exam topic.",
+    "correctAnswer": "C",
+    "explanation": "Corporate bonds settle on T+1 (one business day after the trade date), the same cycle as equities and listed options, following the SEC's amendment to Rule 15c6-1(a) effective May 28, 2024. For a trade on Monday, settlement is Tuesday (assuming no holidays). Understanding current settlement cycles for equities (T+1), corporate bonds (T+1), options (T+1), and government securities (T+1) is an important SIE exam topic.",
     "topic": "trading-accounts",
     "subtopic": "trade-settlement",
     "difficulty": "medium",
