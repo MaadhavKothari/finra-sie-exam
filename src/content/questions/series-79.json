@@ -1095,12 +1095,12 @@
       }
     ],
     "correctAnswer": "B",
-    "explanation": "The Hart-Scott-Rodino Antitrust Improvements Act of 1976 requires parties to transactions meeting certain thresholds (adjusted annually by the FTC; the size-of-transaction threshold was $119.5 million effective February 2024) to file premerger notification forms with the FTC and DOJ. A mandatory waiting period (typically 30 days, or 15 days for cash tender offers) must elapse before the transaction can close, during which the agencies may request additional information (a 'second request') or challenge the deal on antitrust grounds.",
+    "explanation": "The Hart-Scott-Rodino Antitrust Improvements Act of 1976 requires parties to transactions meeting certain thresholds (adjusted annually by the FTC each February; the 2026 size-of-transaction threshold is $133.9 million, up from $119.5 million in 2024 and $126.4 million in 2025) to file premerger notification forms with the FTC and DOJ. A mandatory waiting period (typically 30 days, or 15 days for cash tender offers) must elapse before the transaction can close, during which the agencies may request additional information (a 'second request') or challenge the deal on antitrust grounds. Always verify the current threshold at ftc.gov before applying to a specific transaction, as the figure changes each February.",
     "subtopic": "Hart-Scott-Rodino Act",
     "difficulty": "easy",
     "source": "FINRA Series 79 content outline",
     "regulatoryBasis": "Hart-Scott-Rodino Antitrust Improvements Act of 1976",
-    "lastVerified": "2026-05-21"
+    "lastVerified": "2026-06-12"
   },
   {
     "id": "q-s79-033",

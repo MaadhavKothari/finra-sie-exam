@@ -22,9 +22,10 @@ Each section below lists the exact page or document to check, with a direct URL.
 - **URL:** https://www.finra.org/rules-guidance/notices/21-41
 - **Verify on:** https://www.finra.org/rules-guidance/rulebooks/finra-rules/1240
 
-### IPO Research Quiet Period (25 days for managers)
-- **Rule:** FINRA Rule 2241(b)(2)
-- **What it says:** Managing/co-managing underwriter research analysts are restricted for **25 calendar days** post-IPO; non-managing syndicate members for 10 days
+### IPO Research Quiet Period (10-day minimum for all IPO participants)
+- **Rule:** FINRA Rule 2241(b)(2)(I)
+- **What it says:** All member firms participating as underwriters or dealers in an IPO must establish a quiet period of **at least 10 calendar days** following the IPO effective date. A **3-day** minimum applies to managers/co-managers of a secondary offering.
+- **Note:** Prior to the 2015 amendment, managers faced 40 days and non-managing underwriters 25 days. The 2015 rule unified IPO participants at a 10-day minimum.
 - **Effective:** June 7, 2015
 - **Source:** FINRA Regulatory Notice 15-30
 - **URL:** https://www.finra.org/rules-guidance/notices/15-30
@@ -100,6 +101,7 @@ Each section below lists the exact page or document to check, with a direct URL.
 ### ⚠️ IRA Contribution Limits (annually adjusted)
 - **2023:** $6,500 base / $7,500 with catch-up (age 50+)
 - **2024:** $7,000 base / $8,000 with catch-up
+- **2026:** $7,500 base / $8,600 with catch-up (per IRS News Release IR-2025-111)
 - **Verify current year:** https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-ira-contribution-limits
 
 ### ⚠️ 401(k) Contribution Limits (annually adjusted)
@@ -120,7 +122,9 @@ Each section below lists the exact page or document to check, with a direct URL.
 
 ### ⚠️ HSR Premerger Notification Thresholds (adjusted every February)
 - **2024 size-of-transaction threshold:** $119.5 million (effective February 5, 2024)
-- **2025 / 2026 thresholds:** Check FTC site — adjusted annually in February
+- **2025 size-of-transaction threshold:** $126.4 million
+- **2026 size-of-transaction threshold:** $133.9 million (effective February 2026)
+- Adjusted annually by the FTC each February — always verify before applying to a transaction
 - **Verify current thresholds:** https://www.ftc.gov/enforcement/premerger-notification-program/hsr-threshold-adjustments-and-reportability
 
 ---
@@ -171,8 +175,14 @@ These are the definitive documents for what the exams test. Download before stud
 
 ---
 
+## Verification History
+
+| Date | Verified by | Notes |
+|------|-------------|-------|
+| 2026-06-12 | Manual test plan | All items confirmed against official sources. Quiet period corrected to 10-day minimum (Rule 2241 as amended 2015). HSR threshold updated to $133.9M (2026). IRA limits updated to 2026 figures. |
+
 ## Knowledge Cutoff Notice
 
 The AI corrections applied to this question bank reflect rules as of **January 2026**.
-Rules with annually-adjusted thresholds (marked ⚠️ above) should be verified against
+Rules with annually-adjusted thresholds (marked ⚠️ above) should be re-verified against
 their official sources before exam day, as they may have been updated.

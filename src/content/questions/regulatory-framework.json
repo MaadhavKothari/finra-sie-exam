@@ -1081,7 +1081,7 @@
       {
         "label": "B",
         "text": "Research analysts at the managing underwriter are restricted from publishing research reports on the newly public company for a specified period after the IPO.",
-        "explanation": "Correct. Under FINRA Rule 2241(b)(2), research analysts at the managing or co-managing underwriter are restricted from publishing research reports or making public appearances regarding the issuer for 25 calendar days following the IPO effective date. Non-managing syndicate participants who are not managers or co-managers face a shorter 10-calendar-day restriction. This quiet period prevents favorable research from being used to artificially support the new issue's price and helps maintain the independence of research from investment banking interests."
+        "explanation": "Correct. Under FINRA Rule 2241(b)(2)(I) (as amended effective June 7, 2015 per Regulatory Notice 15-30), member firms that participate as underwriters or dealers in an IPO must have policies establishing a quiet period of at least 10 calendar days following the IPO effective date during which their research analysts may not publish research or make public appearances regarding the issuer. Note: prior to the 2015 amendment, the rule imposed 40-day (manager) and 25-day (non-managing underwriter) periods — those longer periods no longer apply under the current rule."
       },
       {
         "label": "C",
@@ -1095,13 +1095,13 @@
       }
     ],
     "correctAnswer": "B",
-    "explanation": "The IPO research quiet period under FINRA Rule 2241 restricts the managing or co-managing underwriter's research analysts for 25 calendar days following the IPO effective date. Non-managing syndicate participants face a 10-calendar-day restriction. This separation helps maintain research independence from investment banking relationships.",
+    "explanation": "FINRA Rule 2241(b)(2)(I), adopted in its current form effective June 7, 2015 (Regulatory Notice 15-30), requires member firms participating as underwriters or dealers in an IPO to establish quiet periods of at least 10 calendar days following the IPO during which their research analysts may not publish research or make public appearances regarding the issuer. A 3-day quiet period applies to managers and co-managers following a secondary offering. This separation helps maintain research independence from investment banking relationships.",
     "topic": "regulatory-framework",
     "subtopic": "employee-conduct",
     "difficulty": "hard",
     "source": "FINRA content outline",
     "regulatoryBasis": "FINRA Rule 2241; FINRA Rule 2242",
-    "lastVerified": "2026-05-21"
+    "lastVerified": "2026-06-12"
   },
   {
     "id": "q-rf-033",
