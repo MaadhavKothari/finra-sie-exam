@@ -79,13 +79,13 @@
       },
       {
         "label": "B",
-        "text": "Increase reserve requirements and sell Treasury securities in the open market",
-        "explanation": "Correct. Raising reserve requirements forces banks to hold more reserves (reducing lending capacity), and selling Treasury securities removes money from circulation. Both are contractionary tools that reduce money supply and raise interest rates to cool inflation."
+        "text": "Raise the target federal funds rate and sell Treasury securities in the open market",
+        "explanation": "Correct. Raising the target federal funds rate (implemented through raising the Interest on Reserve Balances (IORB) rate and the overnight reverse repo rate) increases borrowing costs economy-wide, reducing spending and investment. Selling Treasury securities in open market operations removes reserves from the banking system, further tightening financial conditions. Both are contractionary tools that cool inflation. Note: reserve requirements — historically a third monetary policy tool — have been set at zero percent since March 2020 and are not currently used for active policy."
       },
       {
         "label": "C",
         "text": "Decrease reserve requirements and increase the money supply through open market purchases",
-        "explanation": "Incorrect. These are expansionary tools that would stimulate economic activity and worsen inflation, not reduce it."
+        "explanation": "Incorrect. Decreasing reserve requirements (a historically expansionary tool, though currently set at zero and inactive) and increasing money supply through open market purchases are expansionary tools that would stimulate economic activity and worsen inflation."
       },
       {
         "label": "D",
@@ -94,7 +94,7 @@
       }
     ],
     "correctAnswer": "B",
-    "explanation": "To cool an overheating economy, the Federal Reserve employs contractionary (tight) monetary policy: raising the discount rate, increasing reserve requirements, and selling Treasury securities in open market operations. These actions reduce the money supply, increase interest rates, and constrain borrowing and spending.",
+    "explanation": "To cool an overheating economy, the Federal Reserve employs contractionary monetary policy: raising the target federal funds rate (via raising IORB) and selling Treasury securities in open market operations. These actions raise borrowing costs, reduce bank reserves, and constrain spending and lending. Reserve requirements — historically a third tool — have been set at zero percent since March 2020 and are not currently used for active monetary policy.",
     "subtopic": "monetary-policy",
     "difficulty": "medium",
     "source": "NASAA Series 65 content outline",
@@ -1282,7 +1282,7 @@
       {
         "label": "C",
         "text": "The $5,000 long-term loss offsets $5,000 of the short-term gain, leaving $3,000 of net short-term gain taxed at ordinary income rates",
-        "explanation": "Correct. Long-term capital losses first offset long-term capital gains; any remaining long-term loss then offsets short-term capital gains. Here, the $5,000 long-term loss is applied against the $8,000 short-term gain, leaving $3,000 of net short-term gain taxed at the 32% ordinary income rate."
+        "explanation": "Correct. Under IRC Section 1222, capital gains and losses are netted in sequence: (1) net all short-term gains and losses to get a net short-term figure; (2) net all long-term gains and losses to get a net long-term figure; (3) combine the net results if they are of opposite signs. Here, there are no long-term gains to absorb first, so the $5,000 net long-term loss flows directly to offset the $8,000 short-term gain, leaving $3,000 net short-term gain taxed at the 32% ordinary income rate ($960 tax)."
       },
       {
         "label": "D",
@@ -1388,7 +1388,7 @@
       },
       {
         "label": "D",
-        "text": "At least 48 hours before signing the advisory agreement, OR at or before signing if the client may terminate within 5 days without penalty",
+        "text": "At least 48 hours before signing the advisory agreement, OR at or before signing if the client may terminate within 5 business days without penalty",
         "explanation": "Correct. The Advisers Act brochure rule requires delivery at least 48 hours before the advisory contract is entered into, OR at the time of contract signing if the client has the right to terminate without penalty within 5 business days."
       }
     ],
@@ -1665,7 +1665,7 @@
       }
     ],
     "correctAnswer": "D",
-    "explanation": "An effective AML program under Bank Secrecy Act / FinCEN requirements consists of four pillars: (1) written policies, procedures, and internal controls; (2) a designated AML compliance officer; (3) ongoing employee training; and (4) independent testing/audit of the program. This framework helps detect and prevent money laundering and terrorist financing.",
+    "explanation": "An effective AML program under Bank Secrecy Act / FinCEN requirements consists of four pillars: (1) written policies, procedures, and internal controls; (2) a designated AML compliance officer; (3) ongoing employee training; and (4) independent testing/audit of the program. Note: FinCEN finalized AML/CFT rules extending these requirements to SEC-registered investment advisers, effective January 1, 2026. This framework helps detect and prevent money laundering and terrorist financing.",
     "subtopic": "anti-money-laundering",
     "difficulty": "hard",
     "source": "NASAA Series 65 content outline",

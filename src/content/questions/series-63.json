@@ -138,7 +138,7 @@
   {
     "id": "q-s63-005",
     "section": "state-securities-law",
-    "stem": "Under the Uniform Securities Act, which of the following civil penalties may a court impose on a person who willfully violates the Act?",
+    "stem": "Under the Uniform Securities Act, which of the following criminal penalties may a court impose on a person who willfully violates the Act?",
     "choices": [
       {
         "label": "A",
@@ -158,15 +158,15 @@
       {
         "label": "D",
         "text": "Up to $5,000 per violation",
-        "explanation": "Correct. The Uniform Securities Act provides for civil penalties of up to $5,000 per violation, in addition to potential criminal penalties for willful violations."
+        "explanation": "Correct. Section 409 of the 1956 Uniform Securities Act provides for criminal penalties of up to $5,000 and/or up to 3 years imprisonment for willful violations. Note: Section 409 sets criminal penalties; civil liability for securities violations is governed separately by Section 410, which provides rescission rights and damages."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "The Uniform Securities Act authorizes civil penalties of up to $5,000 per violation. Willful violations may also result in criminal prosecution with fines up to $5,000, imprisonment up to three years, or both.",
+    "explanation": "Section 409 of the Uniform Securities Act establishes criminal penalties for willful violations: a fine of up to $5,000 and/or up to 3 years imprisonment. Civil liability — including rescission and damages — is addressed separately under Section 410. Both criminal and civil remedies may be available for the same conduct.",
     "subtopic": "administrator-powers",
     "difficulty": "easy",
     "source": "NASAA Uniform Securities Act",
-    "regulatoryBasis": "Uniform Securities Act Section 408",
+    "regulatoryBasis": "Uniform Securities Act Section 409 (criminal penalties)",
     "lastVerified": "2026-05-20"
   },
   {
@@ -221,7 +221,7 @@
       {
         "label": "C",
         "text": "Registration by notification",
-        "explanation": "Incorrect. Registration by notification (or notice filing) applies to federally covered securities, which this intrastate startup offering is not."
+        "explanation": "Incorrect. Registration by Notification under the Uniform Securities Act is available only to established issuers that meet specific financial qualifications (such as a minimum period in business and earnings requirements). A new startup that has never registered securities does not qualify for this method. Registration by Notification should not be confused with the NSMIA 'notice filing' requirement for federally covered securities — those are separate concepts."
       },
       {
         "label": "D",
@@ -245,7 +245,7 @@
       {
         "label": "A",
         "text": "The state may require only a notice filing and payment of fees",
-        "explanation": "Correct. For federally covered securities, states are preempted from requiring full registration but may require a notice filing (registration by notification) and a fee as a condition of sale."
+        "explanation": "Correct. For federally covered securities, states are preempted under NSMIA from requiring full registration or substantive merit review. However, states may require a notice filing (a ministerial filing distinct from the USA's 'Registration by Notification' method) and payment of a fee as a condition of sale. States also retain full anti-fraud enforcement authority."
       },
       {
         "label": "B",
@@ -1401,7 +1401,7 @@
       {
         "label": "A",
         "text": "1 year from discovery, with a maximum of 3 years from the transaction",
-        "explanation": "Incorrect. The Uniform Securities Act provides longer time periods than this; the discovery period is 3 years and the outer limit is 5 years."
+        "explanation": "Incorrect. One year from discovery is too short. The 1956 Uniform Securities Act provides two years from discovery, not one year. The outer limit of 3 years from the transaction is correct for the 1956 USA, but the discovery period is wrong."
       },
       {
         "label": "B",
@@ -1411,16 +1411,16 @@
       {
         "label": "C",
         "text": "3 years from discovery of the violation, with an outer limit of 5 years from the date of the transaction",
-        "explanation": "Correct. The Uniform Securities Act provides a civil statute of limitations of 3 years from discovery of the violation (or when the violation should reasonably have been discovered), with an absolute outer limit of 5 years from the date of the transaction."
+        "explanation": "Incorrect. This reflects the statute of limitations under the Sarbanes-Oxley Act (2002) or the 2002 Revised Uniform Securities Act — not the 1956 Uniform Securities Act on which the Series 63 exam is primarily based. Under the 1956 USA Section 410(e), the discovery period is 2 years (not 3), and the outer limit from the transaction is 3 years (not 5)."
       },
       {
         "label": "D",
-        "text": "2 years from discovery, with a maximum of 4 years from the transaction",
-        "explanation": "Incorrect. These are not the correct limitations periods under the Uniform Securities Act."
+        "text": "2 years from discovery of the violation, with a maximum of 3 years from the date of the transaction",
+        "explanation": "Correct. Under the 1956 Uniform Securities Act, Section 410(e), a civil action must be brought within 2 years after discovery of the facts constituting the violation (or after such facts reasonably should have been discovered), but in no event more than 3 years from the date of the transaction giving rise to the claim. This is the standard the Series 63 exam tests."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Under the Uniform Securities Act, civil claims must be brought within 3 years after discovery of the violation (or after the violation should have been discovered with reasonable diligence), subject to an absolute outer limit of 5 years from the date of the transaction giving rise to the claim.",
+    "correctAnswer": "D",
+    "explanation": "Under the 1956 Uniform Securities Act (the model law on which the Series 63 exam is based), Section 410(e) requires civil actions to be brought within 2 years after discovery of the violation and no more than 3 years from the date of the transaction. This is sometimes called the 'earlier of' rule — the action must be filed before 2 years from discovery OR 3 years from the violation date, whichever comes first.",
     "subtopic": "anti-fraud-provisions",
     "difficulty": "medium",
     "source": "NASAA Uniform Securities Act",

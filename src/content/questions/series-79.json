@@ -657,7 +657,7 @@
     "subtopic": "Green shoe / over-allotment option",
     "difficulty": "medium",
     "source": "FINRA Series 79 content outline",
-    "regulatoryBasis": "SEC Rule 10b-7; Regulation M; FINRA Rule 5110",
+    "regulatoryBasis": "SEC Regulation M, Rule 104 (stabilization); FINRA Rule 5110",
     "lastVerified": "2026-05-21"
   },
   {
@@ -1095,7 +1095,7 @@
       }
     ],
     "correctAnswer": "B",
-    "explanation": "The Hart-Scott-Rodino Antitrust Improvements Act of 1976 requires parties to transactions meeting certain thresholds (adjusted annually; in 2024, the size-of-transaction threshold is $111.4 million) to file premerger notification forms with the FTC and DOJ. A mandatory waiting period (typically 30 days) must elapse before the transaction can close, during which the agencies may request additional information (a 'second request') or challenge the deal.",
+    "explanation": "The Hart-Scott-Rodino Antitrust Improvements Act of 1976 requires parties to transactions meeting certain thresholds (adjusted annually by the FTC; the size-of-transaction threshold was $119.5 million effective February 2024) to file premerger notification forms with the FTC and DOJ. A mandatory waiting period (typically 30 days, or 15 days for cash tender offers) must elapse before the transaction can close, during which the agencies may request additional information (a 'second request') or challenge the deal on antitrust grounds.",
     "subtopic": "Hart-Scott-Rodino Act",
     "difficulty": "easy",
     "source": "FINRA Series 79 content outline",
@@ -1256,7 +1256,7 @@
       {
         "label": "C",
         "text": "2 business days, the same as the short-swing profit reporting deadline.",
-        "explanation": "Incorrect. Two business days is the Section 16(a) insider-reporting deadline, not the Schedule 13D deadline."
+        "explanation": "Incorrect. Two business days is the Section 16(a) insider transaction reporting deadline (Form 4), not the Schedule 13D deadline. Section 16(a) requires insiders (officers, directors, and >10% holders) to report changes in beneficial ownership within 2 business days. Schedule 13D requires filing within 5 business days of crossing the 5% ownership threshold."
       },
       {
         "label": "D",
@@ -1381,8 +1381,8 @@
     "choices": [
       {
         "label": "A",
-        "text": "Each class of claims must be paid in full before any junior class receives any distribution, unless the junior class's plan is accepted by the senior class.",
-        "explanation": "Correct. The absolute priority rule provides that in a cramdown scenario, senior classes must be paid in full before any junior class receives a distribution. However, if all impaired classes consent to the plan, the rule does not apply — a consensual plan can deviate from strict priority."
+        "text": "Each class of claims must be paid in full before any junior class receives any distribution, unless all impaired classes accept the reorganization plan (consensual plan).",
+        "explanation": "Correct. The absolute priority rule, codified in 11 U.S.C. Section 1129(b), requires that in a cramdown (non-consensual confirmation), each senior class must be paid in full before any junior class receives anything. However, when ALL impaired classes vote to accept the plan (a consensual plan), the APR does not apply and the plan may deviate from strict priority with the agreement of all affected classes."
       },
       {
         "label": "B",

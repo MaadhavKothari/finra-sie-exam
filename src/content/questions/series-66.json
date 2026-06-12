@@ -278,8 +278,8 @@
     "choices": [
       {
         "label": "A",
-        "text": "The principal of TIPS is adjusted semiannually based on changes in the Consumer Price Index, and interest is paid on the adjusted principal.",
-        "explanation": "Correct. TIPS principal is indexed to the CPI. As inflation rises, the principal increases; the fixed coupon rate is then applied to the higher principal, increasing the dollar interest payment and protecting real purchasing power."
+        "text": "The principal of TIPS is adjusted daily based on changes in the Consumer Price Index, and interest is paid semiannually on the adjusted principal.",
+        "explanation": "Correct. TIPS principal is adjusted daily by the U.S. Treasury using the CPI-U index ratio — not semiannually. The coupon interest is paid semiannually and is calculated by applying the fixed coupon rate to the inflation-adjusted principal. As inflation rises, the principal increases, so the dollar amount of each interest payment also increases, protecting real purchasing power."
       },
       {
         "label": "B",
@@ -1205,8 +1205,8 @@
       },
       {
         "label": "B",
-        "text": "Performance-based fees are permissible if: the client has net worth over $2.1 million or at least $1 million under management with the adviser, there is a written agreement, and the arrangement covers losses as well as gains (fulcrum fee or symmetric sharing).",
-        "explanation": "Correct. NASAA rules (mirroring SEC Rule 205-3) permit performance-based compensation only for 'qualified clients' (meeting net worth or AUM thresholds), with a written agreement, and the arrangement must be symmetric — the adviser must share in losses as well as gains proportionally. This prevents advisers from taking excessive risk with client assets to maximize performance fees."
+        "text": "Performance-based fees are permissible if: the client has net worth over $2.2 million or at least $1.1 million under management with the adviser, and there is a written agreement.",
+        "explanation": "Correct. Under NASAA rules (analogous to SEC Rule 205-3), investment advisers may charge performance-based compensation only to 'qualified clients' meeting the net worth threshold ($2.2 million, as adjusted by SEC order effective November 2021) or the AUM threshold ($1.1 million under management with the adviser). A written agreement is also required. There is no requirement under current Rule 205-3 for the arrangement to be symmetric (covering losses as well as gains) — that fulcrum-fee requirement was part of a prior regulatory framework and does not apply under the current qualified-client rule."
       },
       {
         "label": "C",
@@ -1216,11 +1216,11 @@
       {
         "label": "D",
         "text": "Performance-based fees are permissible only for institutional clients with over $100 million under management with the adviser.",
-        "explanation": "Incorrect. The $100 million threshold does not appear in the qualified client rule. The applicable thresholds under NASAA and SEC Rule 205-3 are net worth over $2.1 million or at least $1.1 million AUM with the adviser (thresholds are periodically adjusted by SEC order)."
+        "explanation": "Incorrect. The $100 million threshold does not appear in the qualified client rule. The applicable thresholds under NASAA and SEC Rule 205-3 are net worth over $2.2 million or at least $1.1 million in AUM with the adviser (both figures were adjusted by SEC order effective November 2021 and are periodically revised)."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Under NASAA rules (analogous to SEC Rule 205-3), investment advisers may charge performance-based compensation only to 'qualified clients' meeting net worth or AUM thresholds. The arrangement must be in writing, and the adviser must share proportionally in losses as well as gains (symmetric or fulcrum-fee structure). This prevents advisers from recklessly chasing upside at the client's expense while bearing no downside.",
+    "explanation": "Under NASAA rules (analogous to SEC Rule 205-3), investment advisers may charge performance-based compensation only to 'qualified clients' — those with net worth exceeding $2.2 million or at least $1.1 million in assets under management with the adviser. A written agreement is required. The qualified-client thresholds are periodically adjusted by SEC order. There is no requirement under current Rule 205-3 for symmetric fee sharing (covering losses as well as gains).",
     "subtopic": "prohibited-practices",
     "difficulty": "hard",
     "source": "NASAA Series 66 content outline",
